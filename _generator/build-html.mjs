@@ -1,0 +1,294 @@
+// Step 2 of the generator: data/*.json -> HTML pages (index.html, <topic>/index.html, <topic>/<passage>.html).
+// Usage: node _generator/build-html.mjs
+// Never edit the generated HTML by hand: change this file or the data, then run it again.
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
+const PORTAL = 'https://ieltsharper.github.io/portal/';
+const SITE = 'IELTS Reading Passages';
+
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const plain = (runs) => (runs || []).map((r) => r.t || '').join('');
+
+/** Runs -> HTML. `gap` runs are handed to onGap(n). */
+function runsHtml(runs, onGap) {
+  return (runs || [])
+    .map((r) => {
+      if (r.gap) return onGap ? onGap(r.gap) : `[${r.gap}]`;
+      if (r.t === undefined) return '';
+      let h = esc(r.t).replace(/\t/g, ' ').replace(/\n/g, '<br>');
+      if (r.u) h = `<u>${h}</u>`;
+      if (r.i) h = `<em>${h}</em>`;
+      if (r.b) h = `<strong>${h}</strong>`;
+      return h;
+    })
+    .join('');
+}
+
+/** Generic blocks (p / list p / table / h) -> HTML; consecutive list paragraphs become one <ul>. */
+function blocksHtml(blocks, opts = {}) {
+  let out = '';
+  let inList = false;
+  for (const b of blocks) {
+    if (b.type === 'p' && b.list) {
+      if (!inList) out += '<ul>';
+      inList = true;
+      out += `<li>${runsHtml(b.runs, opts.onGap)}</li>`;
+      continue;
+    }
+    if (inList) out += '</ul>';
+    inList = false;
+    if (b.type === 'h') out += `<h3>${runsHtml(b.runs)}</h3>`;
+    else if (b.type === 'p') out += `<p${b.center ? ' class="center"' : ''}>${runsHtml(b.runs, opts.onGap)}</p>`;
+    else out += tableHtml(b, opts);
+  }
+  if (inList) out += '</ul>';
+  return out;
+}
+
+function tableHtml(t, opts) {
+  // Drop columns that are empty in every row (e.g. the blank first column of the TRUE/FALSE legend).
+  const width = Math.max(...t.rows.map((r) => r.length));
+  const keep = [...Array(width).keys()].filter((c) => t.rows.some((r) => r[c] && r[c].length));
+  const rows = t.rows.map((r, i) => `<tr>${keep.map((c) => {
+    const tag = i === 0 && opts.headerRow ? 'th' : 'td';
+    return `<${tag}>${blocksHtml(r[c] || [], opts)}</${tag}>`;
+  }).join('')}</tr>`);
+  return `<div class="table-wrap"><table>${rows.join('')}</table></div>`;
+}
+
+function page({ title, depth, back, newTab, body, data, scripts }) {
+  const up = '../'.repeat(depth);
+  const nt = newTab ? ' target="_blank" rel="noopener"' : '';
+  const ntNote = newTab ? '<span class="sr-only"> (opens in a new tab)</span>' : '';
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>${esc(title)}</title>
+<link rel="stylesheet" href="${up}assets/theme.css">
+</head>
+<body${data ? ' class="reading"' : ''}>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="${PORTAL}"${nt}><span class="brand-mark" aria-hidden="true">IH</span>IELTS Harper Portal${ntNote}</a>
+    ${back ? `<a class="topbar-link" href="${back.href}"${nt}>← ${esc(back.label)}${ntNote}</a>` : ''}
+  </div>
+</header>
+${body}
+${data ? `<script type="application/json" id="answer-data">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>` : ''}
+${(scripts || []).map((s) => `<script src="${up}assets/${s}"></script>`).join('\n')}
+</body>
+</html>
+`;
+}
+
+// ---- Passage page ----
+function typesOf(p) {
+  const names = { tfng: 'TFNG', ynng: 'YNNG', mcq: 'multiple choice', multi: 'multiple choice (choose three)', gap: 'completion', bank: 'summary completion (word list)' };
+  const out = [];
+  for (const g of p.groups) {
+    let t = names[g.type];
+    if (g.type === 'gap') t = /summary/i.test(plain(g.intro[0]?.runs)) ? 'summary completion' : /notes/i.test(plain(g.intro[0]?.runs)) ? 'note completion' : /sentences/i.test(plain(g.intro[0]?.runs)) ? 'sentence completion' : 'completion';
+    if (g.type === 'grid' || g.type === 'match') {
+      const intro = g.intro.map((b) => plain(b.runs)).join(' ');
+      t = /Which paragraph/i.test(intro) ? 'matching information' : /ending/i.test(intro) ? 'matching sentence endings' : 'matching features';
+    }
+    if (!out.includes(t)) out.push(t);
+  }
+  return out;
+}
+export const countOf = (p) => p.groups.reduce((s, g) => s + g.numbers.length, 0);
+export const noteOf = (p) => `${countOf(p)} questions: ${typesOf(p).join(', ')}`;
+
+function feedback(id, key, extra = '', multi = false) {
+  const alt = multi ? ' <span class="muted">(in any order)</span>' : key.accept.length > 1 ?` <span class="muted">(also accepted: ${key.accept.slice(1).map(esc).join(', ')})</span>` : '';
+  return `<div class="fb" id="fb-${id}" hidden>
+  <p class="fb-result" aria-hidden="true"></p>
+  <p class="fb-answer"><strong>Answer:</strong> ${esc(key.answer)}${extra}${alt}</p>
+  ${key.evidence && plain(key.evidence).trim() ? `<blockquote class="fb-evidence">${runsHtml(key.evidence)}</blockquote>` : ''}
+  ${key.explanation.length ? `<div class="fb-expl" lang="vi">${blocksHtml(key.explanation)}</div>` : ''}
+</div>`;
+}
+
+function optionListHtml(opts) {
+  return `<div class="option-list">${opts.title ? opts.title.map((t) => `<p class="option-title">${runsHtml(t)}</p>`).join('') : ''}
+  <dl>${opts.list.map((o) => `<div><dt>${esc(o.key)}</dt><dd>${runsHtml(o.runs)}</dd></div>`).join('')}</dl></div>`;
+}
+
+function selectHtml(id, label, choices) {
+  return `<select id="${id}" name="${id}" data-q="${id}">${label ? '' : ''}<option value="">–</option>${choices.map((c) => `<option value="${esc(c.value)}">${esc(c.text)}</option>`).join('')}</select>`;
+}
+
+function groupHtml(g, p, qs) {
+  const key = p.key;
+  let h = `<section class="q-group" aria-labelledby="g-${g.numbers[0]}">
+<h2 id="g-${g.numbers[0]}">${esc(g.title)}</h2>
+<div class="instr">${blocksHtml(g.intro)}</div>`;
+  const before = g.options && !Array.isArray(g.options) && !g.optionsAfter ? optionListHtml(g.options) : '';
+  const after = g.options && !Array.isArray(g.options) && g.optionsAfter ? optionListHtml(g.options) : '';
+  h += before;
+
+  if (g.type === 'tfng' || g.type === 'ynng' || g.type === 'mcq') {
+    for (const q of g.questions) {
+      const id = `q${q.n}`;
+      const choices = g.type === 'mcq' ? q.options.map((o) => ({ value: o.key, html: `<span class="opt-key">${esc(o.key)}</span> ${runsHtml(o.runs)}` })) : g.choices.map((c) => ({ value: c, html: esc(c) }));
+      h += `<fieldset class="q ${g.type === 'mcq' ? 'mcq' : 'tf'}" id="item-${id}">
+  <legend><span class="qn">${q.n}</span> <span class="stem">${runsHtml(q.stem)}</span></legend>
+  <div class="choices">${choices.map((c, i) => `<label class="choice"><input type="radio" name="${id}" value="${esc(c.value)}" data-q="${id}"${i === 0 ? ` id="${id}"` : ''}><span>${c.html}</span></label>`).join('')}</div>
+  <span class="mark" id="mark-${id}" aria-hidden="true"></span>
+  ${feedback(id, key[q.n])}
+</fieldset>`;
+      qs.push({ id, ns: [q.n], kind: 'choice', accept: key[q.n].accept });
+    }
+  } else if (g.type === 'multi') {
+    const id = `q${g.numbers[0]}-${g.numbers[g.numbers.length - 1]}`;
+    h += `<fieldset class="q mcq multi" id="item-${id}" data-choose="${g.choose}">
+  <legend><span class="qn">${esc(g.label)}</span> <span class="stem">${runsHtml(g.stem)}</span></legend>
+  <div class="choices">${g.options.map((o, i) => `<label class="choice"><input type="checkbox" name="${id}" value="${o.key}" data-q="${id}"${i === 0 ? ` id="${id}"` : ''}><span><span class="opt-key">${o.key}</span> ${runsHtml(o.runs)}</span></label>`).join('')}</div>
+  <p class="hint" id="hint-${id}">Choose ${g.choose}. Each correct letter scores one mark. <span class="mark" id="mark-${id}" aria-hidden="true"></span></p>
+  ${feedback(id, g.key, '', true)}
+</fieldset>`;
+    qs.push({ id, ns: g.numbers, kind: 'multi', accept: g.key.accept, choose: g.choose });
+  } else if (g.type === 'match' || g.type === 'grid') {
+    const letters = g.options ? g.options.list.map((o) => o.key) : g.letters;
+    h += '<div class="match-list">';
+    for (const q of g.questions) {
+      const id = `q${q.n}`;
+      h += `<div class="q match" id="item-${id}">
+  <label class="match-row" for="${id}"><span class="qn">${q.n}</span> <span class="stem">${runsHtml(q.stem)}</span></label>
+  <span class="match-input">${selectHtml(id, null, letters.map((l) => ({ value: l, text: l })))}<span class="mark" id="mark-${id}" aria-hidden="true"></span></span>
+  ${feedback(id, key[q.n])}
+</div>`;
+      qs.push({ id, ns: [q.n], kind: 'choice', accept: key[q.n].accept });
+    }
+    h += '</div>';
+  } else if (g.type === 'gap' || g.type === 'bank') {
+    const bank = g.type === 'bank' ? g.options.list : null;
+    const onGap = (n) => {
+      const id = `q${n}`;
+      const input = bank
+        ? selectHtml(id, null, bank.map((o) => ({ value: o.key, text: `${o.key} ${plain(o.runs)}` })))
+        : `<input type="text" id="${id}" name="${id}" data-q="${id}" autocomplete="off" autocapitalize="off" spellcheck="false">`;
+      return `<span class="gap" id="item-${id}"><label class="qn" for="${id}"><span class="sr-only">Question </span>${n}</label>${input}<span class="mark" id="mark-${id}" aria-hidden="true"></span></span>`;
+    };
+    h += `<div class="content">${blocksHtml(g.content, { onGap })}</div>`;
+    h += `<div class="fb-list">${g.numbers.map((n) => {
+      const word = bank ? bank.find((o) => o.key === key[n].answer) : null;
+      return `<div class="fb-row"><span class="qn">${n}</span>${feedback(`q${n}`, key[n], word ? ` <span class="muted">(${esc(plain(word.runs))})</span>` : '')}</div>`;
+    }).join('')}</div>`;
+    for (const n of g.numbers) qs.push({ id: `q${n}`, ns: [n], kind: bank ? 'choice' : 'text', accept: key[n].accept, ...(bank ? {} : { limit: g.limit }) });
+  }
+  h += after;
+  return `${h}\n</section>`;
+}
+
+function passagePage(topic, p) {
+  const qs = [];
+  const groups = p.groups.map((g) => groupHtml(g, p, qs)).join('\n');
+  const total = countOf(p);
+  const head = p.head.map((b) => `<p class="p-head">${runsHtml(b.runs)}</p>`).join('');
+  const body = p.body
+    .map((b) =>
+      b.sub
+        ? `<h2 class="p-sub">${runsHtml(b.runs)}</h2>`
+        : `<p class="para">${b.letter ? `<span class="p-letter">${b.letter}</span> ` : ''}${runsHtml(b.runs)}</p>`,
+    )
+    .join('\n');
+  const html = `<div class="toolbar" role="region" aria-label="Test controls">
+  <p class="toolbar-title">${esc(topic.topic)} · Passage ${p.order}</p>
+  <div class="timer-wrap"><span class="timer" id="timer" role="timer" aria-label="Timer, 20 minutes">20:00</span><button type="button" class="btn" id="timer-btn">Start timer</button></div>
+  <p class="answered" aria-live="polite">Answered <strong id="answered">0</strong> / ${total}</p>
+  <div class="actions">
+    <button type="button" class="btn btn-primary" id="check-btn">Check answers</button>
+    <button type="button" class="btn" id="show-btn">Show answers</button>
+    <button type="button" class="btn btn-danger" id="reset-btn">Reset</button>
+  </div>
+</div>
+<main class="split">
+  <section class="pane passage-pane" aria-labelledby="passage-title" tabindex="0">
+    <article class="passage">
+      ${head}
+      <h1 id="passage-title">${runsHtml(p.title)}</h1>
+      ${p.standfirst ? `<p class="standfirst">${runsHtml(p.standfirst.runs)}</p>` : ''}
+      ${body}
+      ${p.footnotes.length ? `<div class="footnotes">${blocksHtml(p.footnotes)}</div>` : ''}
+    </article>
+  </section>
+  <section class="pane questions-pane" aria-label="Questions">
+    <div class="score" id="score" role="status" aria-live="polite"></div>
+    ${groups}
+    ${p.strategy.length ? `<details class="strategy" lang="vi"><summary>Hướng dẫn One-Shot</summary>${blocksHtml(p.strategy, { headerRow: true })}</details>` : ''}
+    <nav class="q-nav" aria-label="Question navigator">${qs.flatMap((q) => q.ns.map((n) => `<a href="#item-${q.id}" class="nav-btn" data-nav="${q.id}" id="nav-${n}">${n}</a>`)).join('')}</nav>
+  </section>
+</main>
+<div class="sr-only" id="announce" aria-live="assertive"></div>`;
+  return page({
+    title: `${plain(p.title)} – ${topic.topic} – ${SITE}`,
+    depth: 1,
+    back: { href: 'index.html', label: `${topic.topic} passages` },
+    newTab: true,
+    body: html,
+    data: { total, questions: qs },
+    scripts: ['reading.js'],
+  });
+}
+
+function topicPage(topic) {
+  const items = topic.passages
+    .map((p) => `<li><a href="${p.slug}.html"><span><span class="item-title">Passage ${p.order}: ${runsHtml(p.title)}</span><span class="item-note">${esc(noteOf(p))}</span></span></a></li>`)
+    .join('\n');
+  return page({
+    title: `${topic.topic} – ${SITE}`,
+    depth: 1,
+    back: { href: '../index.html', label: 'All topics' },
+    body: `<main class="container">
+<h1>${esc(topic.topic)}</h1>
+<p class="summary">${topic.passages.length} reading passages, ${topic.passages.reduce((s, p) => s + countOf(p), 0)} questions. Answers are saved in this browser; check them on each page.</p>
+<ul class="menu-list">
+${items}
+</ul>
+</main>`,
+  });
+}
+
+function rootPage(topics) {
+  const items = topics
+    .map((t) => `<li><a href="${t.slug}/index.html"><span><span class="item-title">${esc(t.topic)}</span><span class="item-note">${t.passages.length} passages, ${t.passages.reduce((s, p) => s + countOf(p), 0)} questions</span></span></a></li>`)
+    .join('\n');
+  return page({
+    title: SITE,
+    depth: 0,
+    body: `<main class="container">
+<h1>${SITE}</h1>
+<p class="summary">IELTS Academic Reading practice by topic.</p>
+<ul class="menu-list">
+${items}
+</ul>
+</main>`,
+  });
+}
+
+// ---- Build ----
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  const topics = fs
+    .readdirSync(path.join(root, 'data'))
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => JSON.parse(fs.readFileSync(path.join(root, 'data', f), 'utf8')))
+    .sort((a, b) => a.topic.localeCompare(b.topic));
+  for (const t of topics) {
+    const dir = path.join(root, t.slug);
+    fs.mkdirSync(dir, { recursive: true });
+    for (const f of fs.readdirSync(dir)) if (f.endsWith('.html')) fs.unlinkSync(path.join(dir, f));
+    fs.writeFileSync(path.join(dir, 'index.html'), topicPage(t));
+    for (const p of t.passages) fs.writeFileSync(path.join(dir, `${p.slug}.html`), passagePage(t, p));
+    console.log(`${t.slug}: ${t.passages.length} passage pages`);
+  }
+  fs.writeFileSync(path.join(root, 'index.html'), rootPage(topics));
+}
