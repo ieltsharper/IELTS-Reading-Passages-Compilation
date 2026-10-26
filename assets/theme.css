@@ -176,6 +176,12 @@ h1 {
   border-color: var(--brand);
 }
 
+.group-title {
+  color: var(--heading);
+  font-size: 1.2rem;
+  margin: 28px 0 12px;
+}
+
 .item-title {
   display: block;
   font-weight: 600;
@@ -356,6 +362,38 @@ h1 {
   font-size: 1.1rem;
   color: var(--ink);
   margin: 1.4em 0 0.5em;
+}
+
+.p-example {
+  font-family: var(--sans);
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+/* "27 ……" in the passage: a heading question for the next paragraph. */
+.h-marker {
+  margin: 1.2em 0 0.4em;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+}
+
+.h-marker .qn {
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+.extra p {
+  margin: 0 0 10px;
+}
+
+.short-input {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.short-input input[type='text'] {
+  width: 14em;
 }
 
 .footnotes {

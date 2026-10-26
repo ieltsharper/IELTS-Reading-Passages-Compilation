@@ -60,6 +60,51 @@ export function block(b) {
   return { type: 'table', rows: b.rows.map((row) => row.map((cell) => cell.map(block).filter((p) => !isEmpty(p)))) };
 }
 
-export const isEmpty = (b) => (b.type === 'p' ? !plain(b.runs).trim() : b.rows.every((r) => r.every((c) => !c.length)));
+/**
+ * Replaces `find` with `replace` in a paragraph's runs (an approved correction). The new text takes the
+ * formatting of the run where `find` starts. Throws when `find` is not in the paragraph exactly once.
+ */
+export function replaceInRuns(runs, find, replace) {
+  const text = plain(runs);
+  const at = text.indexOf(find);
+  if (at < 0 || text.indexOf(find, at + 1) >= 0) throw new Error(`fix: ${JSON.stringify(find)} found ${at < 0 ? 0 : 'more than 1'} times`);
+  let pos = 0;
+  let fmt = {};
+  for (const r of runs) {
+    const len = (r.t || '').length;
+    if (at < pos + len) {
+      fmt = { b: r.b, i: r.i, u: r.u };
+      break;
+    }
+    pos += len;
+  }
+  return clean([...slice(runs, 0, at), { t: replace, ...fmt }, ...slice(runs, at + find.length)]);
+}
+
+/** Applies the approved corrections of a topic config ({ block, find, replace }) to the docx blocks. */
+export function applyFixes(blocks, fixes = []) {
+  for (const f of fixes) {
+    const b = blocks[f.block];
+    if (!b || b.kind !== 'p') throw new Error(`fix: block ${f.block} is not a paragraph`);
+    b.runs = replaceInRuns(b.runs, f.find, f.replace);
+  }
+}
+
+/** Splits runs before each marker text (in order). Returns the pieces. */
+export function splitRuns(runs, markers) {
+  const text = plain(runs);
+  const cuts = [];
+  let from = 0;
+  for (const m of markers) {
+    const at = text.indexOf(m, from);
+    if (at < 0) throw new Error(`split: ${JSON.stringify(m)} not found`);
+    cuts.push(at);
+    from = at + m.length;
+  }
+  const bounds = [0, ...cuts, text.length];
+  return bounds.slice(0, -1).map((a, i) => trim(slice(runs, a, bounds[i + 1])));
+}
+
+export const isEmpty =(b) => (b.type === 'p' ? !plain(b.runs).trim() : b.rows.every((r) => r.every((c) => !c.length)));
 
 export { textOf };

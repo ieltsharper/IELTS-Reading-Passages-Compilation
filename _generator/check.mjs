@@ -11,6 +11,7 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
+import { applyFixes } from './runs.mjs';
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const [topicName, questionsPath, keyPath, jsdomPath = 'D:/IELTS LEARNING PORTAL/node_modules/jsdom'] = process.argv.slice(2);
@@ -22,17 +23,35 @@ const { JSDOM } = createRequire(import.meta.url)(jsdomPath);
 const config = (await import(`./topics/${topicName}.mjs`)).default;
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data', `${config.slug}.json`), 'utf8'));
 const { blocks: Q } = readDocx(questionsPath);
+// The source as approved: the owner's corrections (config.fixes) are part of the expected text.
+applyFixes(Q, config.fixes);
 const readingJs = fs.readFileSync(path.join(root, 'assets', 'reading.js'), 'utf8');
-// Answers straight from the key's answer table ("Bài | Đáp án"), independent of the generator.
-const keyTable = readDocx(keyPath).blocks.find((b) => b.kind === 'tbl' && textOf(b).startsWith('Bài'));
-const keyAnswers = keyTable.rows.slice(1).map((row) => {
-  const out = {};
-  for (const t of row[1].map(textOf).join(' ').split(' · ')) {
-    const m = t.trim().match(/^(\d+(?:–\d+)?)\s+(.+)$/);
-    out[m[1].replace('–', '-')] = m[2].trim();
+// Answers straight from the key, independent of the generator: the answer table ("Bài | Đáp án"), or
+// for compilations the "✅ Câu n → X" lines of each "UNIT n" section.
+const K = readDocx(keyPath).blocks;
+let keyAnswers;
+if (config.keyFormat === 'units') {
+  const byUnit = {};
+  let unit = null;
+  for (const b of K) {
+    const t = textOf(b).trim();
+    const u = b.kind === 'p' && b.style === 'Heading1' && t.match(/^UNIT (\d+) ·/);
+    if (u) unit = byUnit[u[1]] = {};
+    const m = b.kind === 'p' && unit && t.match(/^✅ Câu (\d+)(?:[–-](\d+))?(?: – [^→]*)? → (.*)$/);
+    if (m) unit[m[2] ? `${m[1]}-${m[2]}` : m[1]] = m[3].split(' (')[0].split(' – ')[0].trim();
   }
-  return out;
-});
+  keyAnswers = config.passages.map((pc) => byUnit[pc.unit]);
+} else {
+  const keyTable = K.find((b) => b.kind === 'tbl' && textOf(b).startsWith('Bài'));
+  keyAnswers = keyTable.rows.slice(1).map((row) => {
+    const out = {};
+    for (const t of row[1].map(textOf).join(' ').split(' · ')) {
+      const m = t.trim().match(/^(\d+(?:–\d+)?)\s+(.+)$/);
+      out[m[1].replace('–', '-')] = m[2].trim();
+    }
+    return out;
+  });
+}
 
 let failures = 0;
 let passes = 0;
@@ -67,12 +86,13 @@ for (const [i, pc] of config.passages.entries()) {
   const label = `P${i + 1} ${pc.slug}`;
 
   // ---- 1. Passage text ----
-  const src = [...pc.head.map(([n]) => Q[n]), Q[pc.title[0]], ...(pc.standfirst ? [Q[pc.standfirst[0]]] : []), ...range(...pc.body), ...(pc.footnotes ? range(...pc.footnotes) : [])]
+  const src = [...(pc.head || []).map(([n]) => Q[n]), Q[pc.title[0]], ...(pc.standfirst ? [Q[pc.standfirst[0]]] : []), ...range(...pc.body), ...(pc.footnotes ? range(...pc.footnotes) : [])]
     .map(blockText)
     .join(' ');
   const dom = new JSDOM(html, { url: `http://localhost/${config.slug}/${pc.slug}.html`, runScripts: 'outside-only' });
   const doc = dom.window.document;
-  const article = doc.querySelector('article.passage');
+  const article = doc.querySelector('article.passage').cloneNode(true);
+  article.querySelectorAll('.sr-only').forEach((e) => e.remove()); // screen-reader labels are page text
   const pageText = [...article.querySelectorAll('p, h1, h2')].map((e) => e.textContent).join(' ');
   const d1 = diff(norm(src).split(' '), norm(pageText).split(' '));
   ok(!d1, `${label}: passage text differs ${d1}`);
@@ -81,14 +101,16 @@ for (const [i, pc] of config.passages.entries()) {
   const sections = doc.querySelectorAll('section.q-group');
   ok(sections.length === pc.groups.length, `${label}: ${sections.length} question groups on the page, ${pc.groups.length} in the source`);
   pc.groups.forEach((g, gi) => {
-    const parts = [Q[g.title[0]], ...range(...g.intro)];
-    const before = g.options && !g.optionsAfter ? [Q[g.options[0]]] : [];
-    const after = g.options && g.optionsAfter ? [Q[g.options[0]]] : [];
-    const main = g.items ? range(...g.items) : g.content ? range(...g.content) : [Q[g.grid[0]]];
-    const srcWords = words([...parts, ...before, ...main, ...after].map(blockText).join(' '));
+    const parts = [Q[g.title[0]], ...(g.intro ? range(...g.intro) : [])];
+    const opts = g.options ? (Array.isArray(g.options[0]) ? range(...g.options) : [Q[g.options[0]]]) : [];
+    const before = g.optionsAfter ? [] : opts;
+    const after = g.optionsAfter ? opts : [];
+    const extra = g.extra ? range(...g.extra) : [];
+    const main = g.items ? range(...g.items) : g.content ? range(...g.content) : g.grid ? [Q[g.grid[0]]] : [];
+    const srcWords = words([...parts, ...before, ...extra, ...main, ...after].map(blockText).join(' '));
     const sec = sections[gi].cloneNode(true);
-    // Not source text: feedback, marks, hints, selects and the TRUE/FALSE/NOT GIVEN buttons.
-    sec.querySelectorAll('.fb, .fb-list, .mark, .hint, select, .sr-only, .tf .choices').forEach((e) => e.remove());
+    // Not source text: feedback, marks, hints, selects, page labels and the TRUE/FALSE/NOT GIVEN buttons.
+    sec.querySelectorAll('.fb, .fb-list, .mark, .hint, select, .sr-only, .ui-label, .tf .choices').forEach((e) => e.remove());
     sec.querySelectorAll('p, li, td, th, dt, dd, legend, label, h2, div').forEach((e) => e.append(' '));
     const d2 = diff(srcWords, words(sec.textContent));
     ok(!d2, `${label} ${g.title[1]}: question text differs ${d2}`);

@@ -91,15 +91,17 @@ ${(scripts || []).map((s) => `<script src="${up}assets/${s}"></script>`).join('\
 
 // ---- Passage page ----
 function typesOf(p) {
-  const names = { tfng: 'TFNG', ynng: 'YNNG', mcq: 'multiple choice', multi: 'multiple choice (choose three)', gap: 'completion', bank: 'summary completion (word list)' };
+  const names = { tfng: 'TFNG', ynng: 'YNNG', mcq: 'multiple choice', multi: 'multiple choice (choose three)', gap: 'completion', bank: 'summary completion (word list)', headings: 'matching headings', short: 'short answer' };
   const out = [];
   for (const g of p.groups) {
     let t = names[g.type];
+    const intro = g.intro.map((b) => plain(b.runs)).join(' ');
     if (g.type === 'gap') t = /summary/i.test(plain(g.intro[0]?.runs)) ? 'summary completion' : /notes/i.test(plain(g.intro[0]?.runs)) ? 'note completion' : /sentences/i.test(plain(g.intro[0]?.runs)) ? 'sentence completion' : 'completion';
+    if (g.type === 'bank' && /ending/i.test(intro)) t = 'matching sentence endings';
     if (g.type === 'grid' || g.type === 'match') {
-      const intro = g.intro.map((b) => plain(b.runs)).join(' ');
-      t = /Which paragraph/i.test(intro) ? 'matching information' : /ending/i.test(intro) ? 'matching sentence endings' : 'matching features';
+      t = g.options?.list[0]?.key === 'i' ? 'matching headings' : /Which paragraph/i.test(intro) ? 'matching information' : /ending/i.test(intro) ? 'matching sentence endings' : 'matching features';
     }
+    if (g.typeName) t = g.typeName;
     if (!out.includes(t)) out.push(t);
   }
   return out;
@@ -134,8 +136,19 @@ function groupHtml(g, p, qs) {
   const before = g.options && !Array.isArray(g.options) && !g.optionsAfter ? optionListHtml(g.options) : '';
   const after = g.options && !Array.isArray(g.options) && g.optionsAfter ? optionListHtml(g.options) : '';
   h += before;
+  if (g.extra) h += `<div class="extra">${blocksHtml(g.extra)}</div>`;
 
-  if (g.type === 'tfng' || g.type === 'ynng' || g.type === 'mcq') {
+  if (g.type === 'short') {
+    for (const q of g.questions) {
+      const id = `q${q.n}`;
+      h += `<div class="q short" id="item-${id}">
+  <label class="match-row" for="${id}"><span class="qn">${q.n}</span> <span class="stem">${runsHtml(q.stem)}</span></label>
+  <span class="short-input"><input type="text" id="${id}" name="${id}" data-q="${id}" autocomplete="off" autocapitalize="off" spellcheck="false"><span class="mark" id="mark-${id}" aria-hidden="true"></span></span>
+  ${feedback(id, key[q.n])}
+</div>`;
+      qs.push({ id, ns: [q.n], kind: 'text', accept: key[q.n].accept, limit: g.limit });
+    }
+  } else if (g.type === 'tfng' || g.type === 'ynng' || g.type === 'mcq') {
     for (const q of g.questions) {
       const id = `q${q.n}`;
       const choices = g.type === 'mcq' ? q.options.map((o) => ({ value: o.key, html: `<span class="opt-key">${esc(o.key)}</span> ${runsHtml(o.runs)}` })) : g.choices.map((c) => ({ value: c, html: esc(c) }));
@@ -156,13 +169,15 @@ function groupHtml(g, p, qs) {
   ${feedback(id, g.key, '', true)}
 </fieldset>`;
     qs.push({ id, ns: g.numbers, kind: 'multi', accept: g.key.accept, choose: g.choose });
-  } else if (g.type === 'match' || g.type === 'grid') {
+  } else if (g.type === 'match' || g.type === 'grid' || g.type === 'headings') {
     const letters = g.options ? g.options.list.map((o) => o.key) : g.letters;
     h += '<div class="match-list">';
     for (const q of g.questions) {
       const id = `q${q.n}`;
+      // Heading questions sit in the passage ("27 ……"); the label here is page text, not source text.
+      const stem = q.stem ? runsHtml(q.stem) : `<span class="ui-label">Heading for the paragraph marked <a href="#marker-${q.n}">${q.n}</a> in the passage</span>`;
       h += `<div class="q match" id="item-${id}">
-  <label class="match-row" for="${id}"><span class="qn">${q.n}</span> <span class="stem">${runsHtml(q.stem)}</span></label>
+  <label class="match-row" for="${id}"><span class="qn">${q.n}</span> <span class="stem">${stem}</span></label>
   <span class="match-input">${selectHtml(id, null, letters.map((l) => ({ value: l, text: l })))}<span class="mark" id="mark-${id}" aria-hidden="true"></span></span>
   ${feedback(id, key[q.n])}
 </div>`;
@@ -171,10 +186,12 @@ function groupHtml(g, p, qs) {
     h += '</div>';
   } else if (g.type === 'gap' || g.type === 'bank') {
     const bank = g.type === 'bank' ? g.options.list : null;
+    // Sentence endings are too long for a dropdown: show letters only (the list is on the page).
+    const longBank = bank && bank.some((o) => plain(o.runs).length > 30);
     const onGap = (n) => {
       const id = `q${n}`;
       const input = bank
-        ? selectHtml(id, null, bank.map((o) => ({ value: o.key, text: `${o.key} ${plain(o.runs)}` })))
+        ? selectHtml(id, null, bank.map((o) => ({ value: o.key, text: longBank ? o.key : `${o.key} ${plain(o.runs)}` })))
         : `<input type="text" id="${id}" name="${id}" data-q="${id}" autocomplete="off" autocapitalize="off" spellcheck="false">`;
       return `<span class="gap" id="item-${id}"><label class="qn" for="${id}"><span class="sr-only">Question </span>${n}</label>${input}<span class="mark" id="mark-${id}" aria-hidden="true"></span></span>`;
     };
@@ -194,15 +211,20 @@ function passagePage(topic, p) {
   const groups = p.groups.map((g) => groupHtml(g, p, qs)).join('\n');
   const total = countOf(p);
   const head = p.head.map((b) => `<p class="p-head">${runsHtml(b.runs)}</p>`).join('');
+  // The source line is "27 ……": keep its dots, link the number to its question.
+  const markerText = (b) =>
+    `<p class="h-marker" id="marker-${b.marker}"><a class="qn" href="#item-q${b.marker}">${b.marker}</a> <span aria-hidden="true">${runsHtml(b.runs)}</span><span class="sr-only">Heading question ${b.marker} for the next paragraph</span></p>`;
   const body = p.body
     .map((b) =>
-      b.sub
-        ? `<h2 class="p-sub">${runsHtml(b.runs)}</h2>`
-        : `<p class="para">${b.letter ? `<span class="p-letter">${b.letter}</span> ` : ''}${runsHtml(b.runs)}</p>`,
+      b.marker
+        ? markerText(b)
+        : b.sub || b.example
+          ? `<h2 class="p-sub${b.example ? ' p-example' : ''}">${runsHtml(b.runs)}</h2>`
+          : `<p class="para">${b.letter ? `<span class="p-letter">${b.letter}</span> ` : ''}${runsHtml(b.runs)}</p>`,
     )
     .join('\n');
   const html = `<div class="toolbar" role="region" aria-label="Test controls">
-  <p class="toolbar-title">${esc(topic.topic)} · Passage ${p.order}</p>
+  <p class="toolbar-title">${esc(topic.topic)} · ${esc(labelOf(topic, p))}</p>
   <div class="timer-wrap"><span class="timer" id="timer" role="timer" aria-label="Timer, 20 minutes">20:00</span><button type="button" class="btn" id="timer-btn">Start timer</button></div>
   <p class="answered" aria-live="polite">Answered <strong id="answered">0</strong> / ${total}</p>
   <div class="actions">
@@ -225,6 +247,7 @@ function passagePage(topic, p) {
     <div class="score" id="score" role="status" aria-live="polite"></div>
     ${groups}
     ${p.strategy.length ? `<details class="strategy" lang="vi"><summary>Hướng dẫn One-Shot</summary>${blocksHtml(p.strategy, { headerRow: true })}</details>` : ''}
+    ${p.reading?.length ? `<details class="strategy reading" lang="vi"><summary>Phân tích từng đoạn</summary>${blocksHtml(p.reading, { headerRow: true })}</details>` : ''}
     <nav class="q-nav" aria-label="Question navigator">${qs.flatMap((q) => q.ns.map((n) => `<a href="#item-${q.id}" class="nav-btn" data-nav="${q.id}" id="nav-${n}">${n}</a>`)).join('')}</nav>
   </section>
 </main>
@@ -240,10 +263,19 @@ function passagePage(topic, p) {
   });
 }
 
+export const labelOf = (topic, p) => `${topic.numberLabel || 'Passage'} ${p.number ?? p.order}`;
+
 function topicPage(topic) {
-  const items = topic.passages
-    .map((p) => `<li><a href="${p.slug}.html"><span><span class="item-title">Passage ${p.order}: ${runsHtml(p.title)}</span><span class="item-note">${esc(noteOf(p))}</span></span></a></li>`)
-    .join('\n');
+  const li = (p) => `<li><a href="${p.slug}.html"><span><span class="item-title">${esc(labelOf(topic, p))}: ${runsHtml(p.title)}</span><span class="item-note">${esc(noteOf(p))}</span></span></a></li>`;
+  // Topics with themes (config `groups`) list their passages under one heading per theme.
+  const items = topic.groups
+    ? topic.groups
+        .map((name) => {
+          const ps = topic.passages.filter((p) => p.group === name);
+          return ps.length ? `<h2 class="group-title">${esc(name)}</h2>\n<ul class="menu-list">\n${ps.map(li).join('\n')}\n</ul>` : '';
+        })
+        .join('\n')
+    : `<ul class="menu-list">\n${topic.passages.map(li).join('\n')}\n</ul>`;
   return page({
     title: `${topic.topic} – ${SITE}`,
     depth: 1,
@@ -251,9 +283,7 @@ function topicPage(topic) {
     body: `<main class="container">
 <h1>${esc(topic.topic)}</h1>
 <p class="summary">${topic.passages.length} reading passages, ${topic.passages.reduce((s, p) => s + countOf(p), 0)} questions. Answers are saved in this browser; check them on each page.</p>
-<ul class="menu-list">
 ${items}
-</ul>
 </main>`,
   });
 }

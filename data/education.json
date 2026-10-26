@@ -1,6 +1,8 @@
 {
  "topic": "Education",
  "slug": "education",
+ "numberLabel": "Passage",
+ "groups": null,
  "sources": {
   "questions": "L12_Education_Reading.docx",
   "key": "Lời giải One-Shot L12 Education.docx"
@@ -9,6 +11,8 @@
   {
    "slug": "passage-1-starting-school-later",
    "order": 1,
+   "number": 1,
+   "group": null,
    "head": [
     {
      "type": "p",
@@ -1042,11 +1046,14 @@
       }
      ]
     }
-   ]
+   ],
+   "reading": []
   },
   {
    "slug": "passage-2-the-gender-gap-in-new-zealand",
    "order": 2,
+   "number": 2,
+   "group": null,
    "head": [
     {
      "type": "p",
@@ -2046,11 +2053,14 @@
       }
      ]
     }
-   ]
+   ],
+   "reading": []
   },
   {
    "slug": "passage-3-literacy-and-rural-communities-in-australia",
    "order": 3,
+   "number": 3,
+   "group": null,
    "head": [
     {
      "type": "p",
@@ -2366,6 +2376,7 @@
       }
      ],
      "choose": 3,
+     "lettersAdded": true,
      "options": [
       {
        "key": "A",
@@ -2431,7 +2442,6 @@
        "added": true
       }
      ],
-     "lettersAdded": true,
      "key": {
       "answer": "B, D, E",
       "accept": [
@@ -3045,11 +3055,14 @@
       }
      ]
     }
-   ]
+   ],
+   "reading": []
   },
   {
    "slug": "passage-4-babies-cry-in-their-mother-tongue",
    "order": 4,
+   "number": 4,
+   "group": null,
    "head": [
     {
      "type": "p",
@@ -4090,11 +4103,14 @@
       ]
      ]
     }
-   ]
+   ],
+   "reading": []
   },
   {
    "slug": "passage-5-the-role-of-mother-tongue-language-in-education",
    "order": 5,
+   "number": 5,
+   "group": null,
    "head": [
     {
      "type": "p",
@@ -5318,11 +5334,14 @@
       }
      ]
     }
-   ]
+   ],
+   "reading": []
   },
   {
    "slug": "passage-6-practical-learning-in-the-classroom",
    "order": 6,
+   "number": 6,
+   "group": null,
    "head": [],
    "title": [
     {
@@ -6549,11 +6568,14 @@
       }
      ]
     }
-   ]
+   ],
+   "reading": []
   },
   {
    "slug": "passage-7-the-effectiveness-of-an-online-course",
    "order": 7,
+   "number": 7,
+   "group": null,
    "head": [
     {
      "type": "p",
@@ -7748,11 +7770,14 @@
       }
      ]
     }
-   ]
+   ],
+   "reading": []
   },
   {
    "slug": "passage-8-iq-scores",
    "order": 8,
+   "number": 8,
+   "group": null,
    "head": [],
    "title": [
     {
@@ -8742,7 +8767,8 @@
       ]
      ]
     }
-   ]
+   ],
+   "reading": []
   }
  ]
 }
