@@ -16,7 +16,7 @@ const plain = (runs) => (runs || []).map((r) => r.t || '').join('');
 function runsHtml(runs, onGap) {
   return (runs || [])
     .map((r) => {
-      if (r.gap) return onGap ? onGap(r.gap) : `[${r.gap}]`;
+      if (r.gap) return onGap ? onGap(r.gap, r.part) : `[${r.gap}]`;
       if (r.t === undefined) return '';
       let h = esc(r.t).replace(/\t/g, ' ').replace(/\n/g, '<br>');
       if (r.u) h = `<u>${h}</u>`;
@@ -96,7 +96,10 @@ function typesOf(p) {
   for (const g of p.groups) {
     let t = names[g.type];
     const intro = g.intro.map((b) => plain(b.runs)).join(' ');
-    if (g.type === 'gap') t = /summary/i.test(plain(g.intro[0]?.runs)) ? 'summary completion' : /notes/i.test(plain(g.intro[0]?.runs)) ? 'note completion' : /sentences/i.test(plain(g.intro[0]?.runs)) ? 'sentence completion' : 'completion';
+    if (g.type === 'gap') {
+      const first = plain(g.intro[0]?.runs);
+      t = /summary/i.test(first) ? 'summary completion' : /notes/i.test(first) ? 'note completion' : /sentences/i.test(first) ? 'sentence completion' : /table/i.test(first) ? 'table completion' : /flow-chart/i.test(first) ? 'flow-chart completion' : 'completion';
+    }
     if (g.type === 'bank' && /ending/i.test(intro)) t = 'matching sentence endings';
     if (g.type === 'grid' || g.type === 'match') {
       t = g.options?.list[0]?.key === 'i' ? 'matching headings' : /Which paragraph/i.test(intro) ? 'matching information' : /ending/i.test(intro) ? 'matching sentence endings' : 'matching features';
@@ -188,19 +191,32 @@ function groupHtml(g, p, qs) {
     const bank = g.type === 'bank' ? g.options.list : null;
     // Sentence endings are too long for a dropdown: show letters only (the list is on the page).
     const longBank = bank && bank.some((o) => plain(o.runs).length > 30);
-    const onGap = (n) => {
+    const isPair = (n) => g.pairs?.includes(n);
+    const textInput = (id, dataQ) => `<input type="text" id="${id}" name="${id}" data-q="${dataQ}" autocomplete="off" autocapitalize="off" spellcheck="false">`;
+    const onGap = (n, part) => {
       const id = `q${n}`;
+      // The second blank of a two-blank question: same question, its own box; the mark follows it.
+      if (part === 2) return `<span class="gap"><label class="sr-only" for="${id}b">Question ${n}, second blank</label>${textInput(`${id}b`, id)}<span class="mark" id="mark-${id}" aria-hidden="true"></span></span>`;
       const input = bank
         ? selectHtml(id, null, bank.map((o) => ({ value: o.key, text: longBank ? o.key : `${o.key} ${plain(o.runs)}` })))
-        : `<input type="text" id="${id}" name="${id}" data-q="${id}" autocomplete="off" autocapitalize="off" spellcheck="false">`;
-      return `<span class="gap" id="item-${id}"><label class="qn" for="${id}"><span class="sr-only">Question </span>${n}</label>${input}<span class="mark" id="mark-${id}" aria-hidden="true"></span></span>`;
+        : textInput(id, id);
+      const mark = isPair(n) ? '' : `<span class="mark" id="mark-${id}" aria-hidden="true"></span>`;
+      return `<span class="gap" id="item-${id}"><label class="qn" for="${id}"><span class="sr-only">Question </span>${n}${isPair(n) ? '<span class="sr-only">, first blank</span>' : ''}</label>${input}${mark}</span>`;
     };
     h += `<div class="content">${blocksHtml(g.content, { onGap })}</div>`;
     h += `<div class="fb-list">${g.numbers.map((n) => {
       const word = bank ? bank.find((o) => o.key === key[n].answer) : null;
-      return `<div class="fb-row"><span class="qn">${n}</span>${feedback(`q${n}`, key[n], word ? ` <span class="muted">(${esc(plain(word.runs))})</span>` : '')}</div>`;
+      let extra = word ? ` <span class="muted">(${esc(plain(word.runs))})</span>` : '';
+      if (isPair(n)) extra += ' <span class="muted">(two blanks, in either order)</span>';
+      if (key[n].unordered) extra += ` <span class="muted">(${key[n].unordered.second ? key[n].unordered.with : n} and ${key[n].unordered.second ? n : key[n].unordered.with} can be in either order)</span>`;
+      const k = isPair(n) || key[n].unordered ? { ...key[n], accept: [key[n].answer] } : key[n];
+      return `<div class="fb-row"><span class="qn">${n}</span>${feedback(`q${n}`, k, extra)}</div>`;
     }).join('')}</div>`;
-    for (const n of g.numbers) qs.push({ id: `q${n}`, ns: [n], kind: bank ? 'choice' : 'text', accept: key[n].accept, ...(bank ? {} : { limit: g.limit }) });
+    for (const n of g.numbers) {
+      const q = { id: `q${n}`, ns: [n], kind: bank ? 'choice' : isPair(n) ? 'pair' : 'text', accept: key[n].accept, ...(bank ? {} : { limit: g.limit }) };
+      if (key[n].unordered) q.unordered = { with: `q${key[n].unordered.with}`, second: key[n].unordered.second };
+      qs.push(q);
+    }
   }
   h += after;
   return `${h}\n</section>`;
@@ -245,6 +261,7 @@ function passagePage(topic, p) {
   </section>
   <section class="pane questions-pane" aria-label="Questions">
     <div class="score" id="score" role="status" aria-live="polite"></div>
+    ${p.keyNotes?.length ? `<div class="key-note" lang="vi">${blocksHtml(p.keyNotes)}</div>` : ''}
     ${groups}
     ${p.strategy.length ? `<details class="strategy" lang="vi"><summary>Hướng dẫn One-Shot</summary>${blocksHtml(p.strategy, { headerRow: true })}</details>` : ''}
     ${p.reading?.length ? `<details class="strategy reading" lang="vi"><summary>Phân tích từng đoạn</summary>${blocksHtml(p.reading, { headerRow: true })}</details>` : ''}
@@ -284,6 +301,7 @@ function topicPage(topic) {
     body: `<main class="container">
 <h1>${esc(topic.topic)}</h1>
 <p class="summary">${topic.passages.length} reading passages, ${topic.passages.reduce((s, p) => s + countOf(p), 0)} questions. Answers are saved in this browser; check them on each page.</p>
+${topic.topicNotes ? `<details class="strategy topic-notes" lang="vi"><summary>Các bẫy lặp lại trong đề</summary>${blocksHtml(topic.topicNotes)}</details>` : ''}
 ${items}
 </main>`,
   });

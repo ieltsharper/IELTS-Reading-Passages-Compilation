@@ -157,6 +157,7 @@ function buildGroup(g, where, passage) {
   const intro = g.intro ? range(g.intro).map(block).filter((x) => !isEmpty(x)) : [];
   const out = { type: g.type, title: titleText, numbers, intro };
   if (g.typeName) out.typeName = g.typeName; // question-type name for the topic page, when it cannot be read from the instructions
+  for (const k of ['alsoAccept', 'unordered', 'pairs']) if (g[k]) out[k] = g[k]; // approved answer rules (see keyFor)
   // Lines between the option list and the questions (e.g. "Example: Section A – ix").
   if (g.extra) out.extra = range(g.extra).map(block).filter((x) => !isEmpty(x));
   const introText = intro.map((x) => (x.type === 'p' ? plain(x.runs) : '')).join(' ');
@@ -250,21 +251,44 @@ function buildGroup(g, where, passage) {
     const seen = [];
     for (const b of content) {
       if (b.type !== 'p') fail(`${W}: table inside completion content is not supported yet`);
-      const text = plain(b.runs);
-      const re = /\(?(\d{1,2})\)?\s*[…_]{2,}/g;
+      let text = plain(b.runs);
+      // A numbered item ("11\tIn the experience … when …… in one's"): its blank has no number in front.
+      const lead = text.match(/^(\d{1,2})\.?\t/);
+      let leadN = lead && numbers.includes(+lead[1]) ? +lead[1] : null;
+      if (leadN) {
+        b.runs = trim(slice(b.runs, lead[0].length));
+        b.number = leadN;
+        text = plain(b.runs);
+      }
+      const re = /\(?(\d{1,2})\)?\s*[…_]{2,}|[…_]{3,}/g;
       const parts = [];
       let pos = 0;
+      let last = null;
       let m;
       while ((m = re.exec(text))) {
-        const n = +m[1];
-        if (!numbers.includes(n)) continue;
-        parts.push(...slice(b.runs, pos, m.index), { gap: n });
-        seen.push(n);
+        let gap = null;
+        if (m[1] !== undefined) {
+          if (!numbers.includes(+m[1])) continue;
+          gap = { gap: +m[1] };
+        } else if (last && g.pairs?.includes(last) && !seen.includes(`${last}b`)) {
+          gap = { gap: last, part: 2 }; // the second blank of a two-blank question
+          seen.push(`${last}b`);
+        } else if (leadN) {
+          gap = { gap: leadN };
+          leadN = null;
+        } else continue;
+        parts.push(...slice(b.runs, pos, m.index), gap);
+        if (!gap.part) {
+          seen.push(gap.gap);
+          last = gap.gap;
+        }
         pos = m.index + m[0].length;
       }
       parts.push(...slice(b.runs, pos));
       b.runs = clean(parts.map((r) => (r.gap ? r : { ...r })));
     }
+    for (const n of g.pairs || []) if (!seen.includes(`${n}b`)) fail(`${W}: question ${n} should have two blanks`);
+    seen.splice(0, seen.length, ...seen.filter((s) => typeof s === 'number'));
     if (seen.join() !== numbers.join()) fail(`${W}: gaps found ${seen.join()} but expected ${numbers.join()}`);
     out.content = content;
     if (g.type === 'gap') {
@@ -603,6 +627,81 @@ function parseAnalysis(blocks) {
   return out;
 }
 
+// ---- Key, layout 4 ("Giải chi tiết"): "UNIT n – title" (Heading1), "Phần 1" answer tables
+// (Câu | Đáp án | Căn cứ trong bài và giải thích) under one Heading3 per question group, "Phần 2" hard-sentence
+// breakdown. One-cell tables are notes: before "Phần 1" they are shown with the explanations; inside it they
+// must be listed in config.omitKeyNotes. The text before UNIT 1 holds a topic-wide list ("Các bẫy lặp lại").
+function parseKeyTables() {
+  const units = {};
+  const topicNotes = [];
+  let cur = null;
+  let part = 'intro';
+  let topicPart = null;
+  for (const b of K) {
+    const t = keyText(b);
+    if (b.kind === 'p' && b.style === 'Heading1') {
+      const m = t.match(/^UNIT (\d+) – (.*)$/);
+      cur = m ? { unit: +m[1], title: m[2], rows: [], notes: [], reading: [] } : null;
+      if (cur) units[cur.unit] = cur;
+      part = 'pre';
+      continue;
+    }
+    if (!cur) {
+      // Topic-wide notes: the Heading3 "Các bẫy lặp lại trong đề" and its list.
+      if (b.kind === 'p' && b.style === 'Heading3') topicPart = /bẫy lặp lại/i.test(t) ? 'traps' : null;
+      else if (topicPart === 'traps' && !isEmpty(block(b))) topicNotes.push(block(b));
+      continue;
+    }
+    if (b.kind === 'p' && b.style === 'Heading2') {
+      part = /^Phần 1/.test(t) ? 'answers' : /^Phần 2/.test(t) ? 'reading' : fail(`key unit ${cur.unit}: unknown heading ${t}`);
+      continue;
+    }
+    if (b.kind === 'tbl') {
+      const head = b.rows[0].map((c) => c.map(textOf).join('').trim());
+      if (head[0] === 'Câu' && head[1] === 'Đáp án') {
+        if (part !== 'answers') fail(`key unit ${cur.unit}: answer table outside "Phần 1"`);
+        cur.rows.push(...b.rows.slice(1));
+        continue;
+      }
+      if (b.rows.length === 1 && b.rows[0].length === 1) {
+        const note = textOf(b).trim();
+        if (part === 'pre') cur.notes.push(...b.rows[0][0].map(block).filter((x) => !isEmpty(x)));
+        else if ((config.omitKeyNotes || []).some((s) => note.startsWith(s))) problems.push(`key unit ${cur.unit}: note left out: ${note.slice(0, 60)}…`);
+        else fail(`key unit ${cur.unit}: note inside "${part}" not handled: ${note.slice(0, 60)}`);
+        continue;
+      }
+      if (part !== 'reading') fail(`key unit ${cur.unit}: unexpected table`);
+    }
+    if (part === 'reading' && !(b.kind === 'p' && !plain(b.runs).trim())) cur.reading.push(b.kind === 'p' && b.style === 'Heading3' ? { type: 'h', runs: trim(b.runs) } : block(b));
+  }
+  const out = {};
+  for (const u of Object.values(units)) {
+    const answers = {};
+    const expl = {};
+    for (const r of u.rows) {
+      const n = r[0].map(textOf).join('').trim();
+      if (!/^\d+$/.test(n)) fail(`key unit ${u.unit}: bad question number ${JSON.stringify(n)}`);
+      if (answers[n]) fail(`key unit ${u.unit}: two answers for ${n}`);
+      answers[n] = r[1].map(textOf).join(' ').trim().replace(/\s*\(.*\)\s*$/, ''); // "E (Grimm)" -> "E"
+      expl[n] = r[2].map(block).filter((x) => !isEmpty(x));
+    }
+    out[u.unit] = {
+      label: `UNIT ${u.unit}`,
+      title: u.title,
+      answers,
+      alts: {},
+      altsOnlyFor: null,
+      expl,
+      evidence: {},
+      crossCheck: null,
+      strategy: [],
+      reading: u.reading.filter((x) => x.type === 'h' || !isEmpty(x)),
+      notes: u.notes,
+    };
+  }
+  return { units: out, topicNotes };
+}
+
 /** The analysis writes TFNG/YNNG answers short ("NG", "T", "F"); spell them out for those groups. */
 function spellOut(section, groups) {
   const long = { tfng: { T: 'TRUE', F: 'FALSE', NG: 'NOT GIVEN' }, ynng: { Y: 'YES', N: 'NO', NG: 'NOT GIVEN' } };
@@ -647,6 +746,17 @@ function keyFor(section, passage) {
           accept = [a, ...section.alts[n]];
           problems.push(`${section.label} Q${n}: accepted answers ${accept.map((x) => JSON.stringify(x)).join(', ')}`);
         }
+        // Approved extra forms (e.g. with "the").
+        if (g.alsoAccept?.[n]) {
+          accept = [...accept, ...g.alsoAccept[n]];
+          problems.push(`${section.label} Q${n}: also accepts ${g.alsoAccept[n].map((x) => JSON.stringify(x)).join(', ')} (approved)`);
+        }
+        // Two blanks worth one mark ("1 …… and ……"): the key gives "principles; rules".
+        if (g.pairs?.includes(n)) {
+          const parts = a.split(';').map((s) => s.trim());
+          if (parts.length !== 2) fail(`${W} Q${n}: two blanks but the answer is ${JSON.stringify(a)}`);
+          accept = parts;
+        }
       } else {
         const letters = g.options?.list.map((o) => o.key) || g.letters || g.questions?.find((q) => q.n === n)?.options.map((o) => o.key);
         if (!letters.includes(a)) fail(`${W} Q${n}: ${a} is not one of the options ${letters.join(' ')}`);
@@ -657,6 +767,16 @@ function keyFor(section, passage) {
     }
   }
   for (const k of Object.keys(answers)) if (!used.has(k)) fail(`${W}: answer ${k} has no question`);
+  // Two answers that may be given in either order (e.g. semantic / episodic): each blank accepts both words;
+  // the second blank must not repeat the first (reading.js).
+  for (const g of passage.groups) {
+    for (const [x, y] of g.unordered || []) {
+      const both = [key[x].answer, key[y].answer];
+      key[x] = { ...key[x], accept: both, unordered: { with: y, second: false } };
+      key[y] = { ...key[y], accept: [both[1], both[0]], unordered: { with: x, second: true } };
+      problems.push(`${section.label} Q${x}–${y}: either order (${both.join(' / ')})`);
+    }
+  }
   return key;
 
   function crossCheck(n, a) {
@@ -669,8 +789,9 @@ function keyFor(section, passage) {
 }
 
 // ---- Build ----
-const tableSections = config.keyFormat === 'units' ? null : parseKeyTable();
+const tableSections = config.keyFormat === 'units' || config.keyFormat === 'tables' ? null : parseKeyTable();
 const unitSections = config.keyFormat === 'units' ? parseKeyUnits() : null;
+const tablesKey = config.keyFormat === 'tables' ? parseKeyTables() : null;
 const analysisSections = A ? parseAnalysis(A) : null;
 const titleMatches = (x, y) => {
   const a = norm(x);
@@ -699,7 +820,9 @@ const passages = config.passages.map((pc, i) => {
     ? analysisSections[pc.unit] || fail(`analysis: no UNIT ${pc.unit}`)
     : unitSections
       ? unitSections[pc.unit] || fail(`key: no UNIT ${pc.unit}`)
-      : tableSections[i] || fail(`key: no section for ${where}`);
+      : tablesKey
+        ? tablesKey.units[pc.unit] || fail(`key: no UNIT ${pc.unit}`)
+        : tableSections[i] || fail(`key: no section for ${where}`);
   if (!titleMatches(section.title, plain(title))) fail(`${where}: key section "${section.title}" does not match title "${plain(title)}"`);
   if (fromAnalysis) spellOut(section, p.groups);
   if (config.vocabulary) {
@@ -713,6 +836,7 @@ const passages = config.passages.map((pc, i) => {
   p.key = keyFor(section, p);
   p.strategy = section.strategy;
   p.reading = section.reading;
+  if (section.notes?.length) p.keyNotes = section.notes; // a note the key puts before the answers (shown)
   return p;
 });
 if (tableSections && tableSections.length !== passages.length) fail(`key has ${tableSections.length} sections, config has ${passages.length} passages`);
@@ -722,6 +846,7 @@ const data = {
   slug: config.slug,
   numberLabel: config.numberLabel || 'Passage',
   groups: config.groups || null,
+  topicNotes: tablesKey?.topicNotes.length ? tablesKey.topicNotes : null,
   sources: { questions: config.questionsFile, key: config.keyFile },
   passages,
 };

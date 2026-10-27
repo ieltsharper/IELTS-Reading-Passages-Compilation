@@ -12,7 +12,7 @@ export function clean(runs) {
       continue;
     }
     if (r.gap) {
-      out.push({ gap: r.gap });
+      out.push(r.part ? { gap: r.gap, part: r.part } : { gap: r.gap });
       continue;
     }
     if (!r.t) continue;

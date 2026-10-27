@@ -66,19 +66,38 @@
       for (var i = 0; i < els.length; i++) if (els[i].checked) return els[i].value;
       return '';
     }
+    // A question with two blanks ("1 …… and ……"): both boxes, in page order.
+    if (q.kind === 'pair') {
+      return Array.prototype.map.call(els, function (e) {
+        return e.value;
+      });
+    }
     return els[0].value;
   }
   function setValue(q, v) {
     var els = inputs(q);
-    Array.prototype.forEach.call(els, function (e) {
+    Array.prototype.forEach.call(els, function (e, i) {
       if (e.type === 'radio' || e.type === 'checkbox') e.checked = Array.isArray(v) ? v.indexOf(e.value) >= 0 : e.value === v;
-      else e.value = v || '';
+      else e.value = (Array.isArray(v) ? v[i] : v) || '';
     });
+  }
+  function isBlank(v) {
+    return Array.isArray(v)
+      ? v.every(function (x) {
+          return !String(x).trim();
+        })
+      : !String(v).trim();
   }
   function answeredCount(q) {
     var v = valueOf(q);
     if (q.kind === 'multi') return Math.min(v.length, q.choose);
-    return String(v).trim() ? 1 : 0;
+    if (q.kind === 'pair')
+      return v.every(function (x) {
+        return String(x).trim();
+      })
+        ? 1
+        : 0;
+    return isBlank(v) ? 0 : 1;
   }
 
   // ---- Saving in this browser ----
@@ -112,6 +131,10 @@
   function clearMark(q) {
     var it = item(q);
     it.classList.remove('is-correct', 'is-wrong');
+    if (q.kind === 'pair')
+      Array.prototype.forEach.call(inputs(q), function (e) {
+        e.closest('.gap').classList.remove('is-correct', 'is-wrong');
+      });
     $('mark-' + q.id).textContent = '';
     Array.prototype.forEach.call(it.querySelectorAll('.choice'), function (c) {
       c.classList.remove('right', 'wrong');
@@ -132,8 +155,20 @@
       }).length;
       return { points: Math.min(right, q.choose), value: v };
     }
+    if (q.kind === 'pair') {
+      // Both blanks right, in either order.
+      var given = v.map(normalize).sort().join('|');
+      return { points: given === q.accept.map(normalize).sort().join('|') ? 1 : 0, value: v };
+    }
     var forms = acceptedForms(q.accept);
     var ok = String(v).trim() !== '' && forms.indexOf(normalize(v)) >= 0;
+    // Two answers that may come in either order: the second must not repeat the first.
+    if (ok && q.unordered && q.unordered.second) {
+      var other = data.questions.filter(function (x) {
+        return x.id === q.unordered.with;
+      })[0];
+      if (normalize(valueOf(other)) === normalize(v)) ok = false;
+    }
     return { points: ok ? 1 : 0, value: v, over: q.kind === 'text' && !ok && overLimit(v, q.limit) };
   }
   function mark(q) {
@@ -159,14 +194,18 @@
     }
     var ok = r.points === 1;
     it.classList.add(ok ? 'is-correct' : 'is-wrong');
+    if (q.kind === 'pair')
+      Array.prototype.forEach.call(inputs(q), function (e) {
+        e.closest('.gap').classList.add(ok ? 'is-correct' : 'is-wrong');
+      });
     $('mark-' + q.id).textContent = ok ? '✓' : '✗';
     Array.prototype.forEach.call(inputs(q), function (e) {
       if (e.type === 'radio' && e.checked) e.closest('.choice').classList.add(ok ? 'right' : 'wrong');
     });
     var text;
     if (ok) text = '✓ Correct';
-    else if (!String(r.value).trim()) text = '✗ Not answered';
-    else text = '✗ Incorrect. Your answer: ' + r.value + (r.over ? ' (longer than the word limit: ' + q.limit.text + ')' : '');
+    else if (isBlank(r.value)) text = '✗ Not answered';
+    else text = '✗ Incorrect. Your answer: ' + (Array.isArray(r.value) ? r.value.join(' / ') : r.value) + (r.over ? ' (longer than the word limit: ' + q.limit.text + ')' : '');
     line.textContent = text;
     line.className = 'fb-result ' + (ok ? 'ok' : 'bad');
     $('nav-' + q.ns[0]).classList.add(ok ? 'ok' : 'bad');

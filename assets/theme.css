@@ -783,6 +783,20 @@ input[type='text'] {
   font-weight: 700;
 }
 
+.key-note {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--heading);
+  border-radius: 12px;
+  background: var(--card);
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  font-size: 0.93rem;
+}
+
+.key-note p {
+  margin: 0;
+}
+
 .strategy {
   background: var(--card);
   border: 1px solid var(--line);

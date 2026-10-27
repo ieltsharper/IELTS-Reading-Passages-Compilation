@@ -82,6 +82,20 @@ if (config.keyFormat === 'units') {
     keyAnswers.spell = long;
   } else keyAnswers = config.passages.map((pc) => byUnit[pc.unit]);
   keyAlts = config.passages.map((pc) => altsByUnit[pc.unit] || {});
+} else if (config.keyFormat === 'tables') {
+  // "UNIT n – title" sections with answer tables (Câu | Đáp án | …); "E (Grimm)" counts as "E".
+  const byUnit = {};
+  let unit = null;
+  for (const b of K) {
+    const t = textOf(b).trim();
+    const u = b.kind === 'p' && b.style === 'Heading1' && t.match(/^UNIT (\d+) – /);
+    if (u) unit = byUnit[u[1]] = {};
+    if (!unit || b.kind !== 'tbl') continue;
+    const head = b.rows[0].map((c) => c.map(textOf).join('').trim());
+    if (head[0] !== 'Câu' || head[1] !== 'Đáp án') continue;
+    for (const r of b.rows.slice(1)) unit[r[0].map(textOf).join('').trim()] = r[1].map(textOf).join(' ').trim().replace(/\s*\(.*\)\s*$/, '');
+  }
+  keyAnswers = config.passages.map((pc) => byUnit[pc.unit]);
 } else {
   const keyTable = K.find((b) => b.kind === 'tbl' && textOf(b).startsWith('Bài'));
   keyAnswers = keyTable.rows.slice(1).map((row) => {
@@ -179,12 +193,18 @@ for (const [i, pc] of config.passages.entries()) {
   const ka = keyAnswers[i];
   ok(Object.keys(ka).length === ad.questions.length, `${label}: key has ${Object.keys(ka).length} answers, page ${ad.questions.length} questions`);
   for (const q of ad.questions) {
+    const isList = q.kind === 'multi' || q.kind === 'pair';
+    const gd = p.groups.find((g) => g.numbers.includes(q.ns[0])); // the approved answer rules of this group
     let want = q.kind === 'multi' ? ka[`${q.ns[0]}-${q.ns[q.ns.length - 1]}`] : ka[q.ns[0]];
-    const got = q.kind === 'multi' ? q.accept.join(', ') : q.accept[0];
+    const got = q.kind === 'multi' ? q.accept.join(', ') : q.kind === 'pair' ? q.accept.join('; ') : q.accept[0];
     if (keyAnswers.spell?.[want] && ['TRUE', 'FALSE', 'NOT GIVEN', 'YES', 'NO'].includes(got)) want = keyAnswers.spell[want];
-    if (q.kind !== 'multi') {
-      // The page accepts exactly the key's answer and the key's own alternatives.
-      const expected = [want, ...(keyAlts[i]?.[q.ns[0]] || [])].map((s) => s.toLowerCase()).sort().join(' | ');
+    if (!isList) {
+      // The page accepts exactly the key's answer, the key's own alternatives and the owner-approved extras
+      // (config alsoAccept; either-order pairs accept both of the pair's key answers).
+      let allowed = [want, ...(keyAlts[i]?.[q.ns[0]] || []), ...(gd?.alsoAccept?.[q.ns[0]] || [])];
+      const pair = gd?.unordered?.find((u) => u.includes(q.ns[0]));
+      if (pair) allowed = pair.map((n) => ka[n]);
+      const expected = allowed.map((s) => s.toLowerCase()).sort().join(' | ');
       const accepted = q.accept.map((s) => s.toLowerCase()).sort().join(' | ');
       ok(expected === accepted, `${label}: ${q.id} accepts ${accepted}, key allows ${expected}`);
     }
@@ -224,16 +244,24 @@ for (const [i, pc] of config.passages.entries()) {
     return { score: +doc2.getElementById('score').textContent.match(/Score: (\d+)/)[1], extra: inspect ? inspect(doc2) : null };
   };
   const N = ad.total;
-  const answers = (q) => (q.kind === 'multi' ? q.accept : q.accept[0]);
+  // "multi" (choose three) and "pair" (two blanks, one mark) take a list of answers.
+  const listKind = (q) => q.kind === 'multi' || q.kind === 'pair';
+  const answers = (q) => (listKind(q) ? q.accept : q.accept[0]);
   ok(run(answers).score === N, `${label}: key answers do not score ${N}/${N}`);
-  const maxAlt = Math.max(...ad.questions.map((q) => (q.kind === 'multi' ? 1 : q.accept.length)));
-  for (let k = 1; k < maxAlt; k++) ok(run((q) => (q.kind === 'multi' ? q.accept : q.accept[Math.min(k, q.accept.length - 1)])).score === N, `${label}: alternative #${k} does not score ${N}/${N}`);
+  const maxAlt = Math.max(...ad.questions.map((q) => (listKind(q) ? 1 : q.accept.length)));
+  for (let k = 1; k < maxAlt; k++) ok(run((q) => (listKind(q) ? q.accept : q.accept[Math.min(k, q.accept.length - 1)])).score === N, `${label}: alternative #${k} does not score ${N}/${N}`);
   // curly apostrophes, case, spaces and final full stop do not matter
   ok(run((q) => (q.kind === 'text' ? `  ${q.accept[0].toUpperCase().replace(/'/g, '\u2019')}. ` : answers(q))).score === N, `${label}: case/quote/spacing variants fail`);
-  ok(run((q) => (q.kind === 'multi' ? [...q.accept].reverse() : answers(q))).score === N, `${label}: multi answers in another order fail`);
+  ok(run((q) => (listKind(q) ? [...q.accept].reverse() : answers(q))).score === N, `${label}: list answers in another order fail`);
   ok(run(() => '').score === 0 && run((q) => (q.kind === 'multi' ? [] : '')).score === 0, `${label}: empty page does not score 0`);
-  const first = ad.questions.find((q) => q.kind !== 'multi');
-  const wrongFor = (q) => (q.kind === 'text' ? 'zzz' : [...doc.querySelectorAll(`[data-q="${q.id}"]`)].flatMap((e) => (e.tagName === 'SELECT' ? [...e.options].map((o) => o.value) : [e.value])).find((v) => v && !q.accept.includes(v)));
+  // Either-order pairs: the same word in both blanks scores only once.
+  for (const q of ad.questions.filter((x) => x.unordered?.second)) {
+    const res = run((x) => (x.id === q.id ? ad.questions.find((y) => y.id === q.unordered.with).accept[0] : answers(x)));
+    ok(res.score === N - 1, `${label}: ${q.id} repeating the other word of its pair still scores`);
+  }
+  const first = ad.questions.find((q) => !listKind(q));
+  const wrongFor = (q) =>
+    q.kind === 'text' ? 'zzz' : q.kind === 'pair' ? ['zzz', 'zzz'] : [...doc.querySelectorAll(`[data-q="${q.id}"]`)].flatMap((e) => (e.tagName === 'SELECT' ? [...e.options].map((o) => o.value) : [e.value])).find((v) => v && !q.accept.includes(v));
   const oneWrong = run((q) => (q === first || q.id === first.id ? wrongFor(q) : answers(q)), (d) => d.getElementById(`mark-${first.id}`).textContent);
   ok(oneWrong.score === N - 1, `${label}: one wrong answer scores ${oneWrong.score}, expected ${N - 1}`);
   ok(oneWrong.extra === '✗', `${label}: wrong answer not marked ✗`);
