@@ -485,6 +485,7 @@ th p {
   color: var(--on-brand);
   font-weight: 700;
   font-size: 0.85rem;
+  line-height: 1;
   flex: none;
 }
 
