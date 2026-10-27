@@ -127,6 +127,11 @@ const ok = (cond, msg) => (cond ? passes++ : fail(msg));
 const norm = (s) => s.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
 const range = ([a], [b]) => Q.slice(a, b + 1);
 const blockText = (b) => (b.kind === 'p' ? textOf(b) : b.rows.map((r) => r.map((c) => c.map(blockText).join(' ')).join(' ')).join(' '));
+/** The footnotes at the end of a group's content (config footnotesFrom), from the source. */
+const footTail = (g) => {
+  const t = range(...g.content).map(blockText).join(' ');
+  return t.slice(t.indexOf(g.footnotesFrom.at));
+};
 /** Words for the question comparison: no answer leaders, no lone numbers/letters, no ☐. */
 const words = (s) =>
   norm(s.replace(/[…_]{2,}/g, ' ').replace(/[☐\t]/g, ' ').replace(/\(\d+\)/g, ' '))
@@ -152,8 +157,10 @@ for (const [i, pc] of config.passages.entries()) {
   // ---- 1. Passage text ----
   const src = [...(pc.head || []).map(([n]) => Q[n]), Q[pc.title[0]], ...(pc.standfirst ? [Q[pc.standfirst[0]]] : []), ...range(...pc.body), ...(pc.footnotes ? range(...pc.footnotes) : [])]
     .map(blockText)
-    .join(' ');
-  const dom = new JSDOM(html, { url: `http://localhost/${config.slug}/${pc.slug}.html`, runScripts: 'outside-only' });
+    .join(' ')
+    // Footnotes printed after a word list are shown under the passage (config footnotesFrom).
+    .concat(...pc.groups.filter((g) => g.footnotesFrom).map((g) => ' ' + footTail(g)));
+  const dom =new JSDOM(html, { url: `http://localhost/${config.slug}/${pc.slug}.html`, runScripts: 'outside-only' });
   const doc = dom.window.document;
   const article = doc.querySelector('article.passage').cloneNode(true);
   article.querySelectorAll('.sr-only').forEach((e) => e.remove()); // screen-reader labels are page text
@@ -171,13 +178,21 @@ for (const [i, pc] of config.passages.entries()) {
     const after = g.optionsAfter ? opts : [];
     const extra = g.extra ? range(...g.extra) : [];
     const main = g.items ? range(...g.items) : g.content ? range(...g.content) : g.grid ? [Q[g.grid[0]]] : [];
-    const srcWords = words([...parts, ...before, ...extra, ...main, ...after].map(blockText).join(' '));
+    let srcText = [...parts, ...before, ...extra, ...main, ...after].map(blockText).join(' ');
+    if (g.footnotesFrom) srcText = srcText.slice(0, srcText.indexOf(g.footnotesFrom.at)); // moved under the passage
+    const srcWords = words(srcText);
     const sec = sections[gi].cloneNode(true);
     // Not source text: feedback, marks, hints, selects, page labels and the TRUE/FALSE/NOT GIVEN buttons.
     sec.querySelectorAll('.fb, .fb-list, .mark, .hint, select, .sr-only, .ui-label, .tf .choices').forEach((e) => e.remove());
     sec.querySelectorAll('p, li, td, th, dt, dd, legend, label, h2, div').forEach((e) => e.append(' '));
-    const d2 = diff(srcWords, words(sec.textContent));
-    ok(!d2, `${label} ${g.title[1]}: question text differs ${d2}`);
+    if (g.optionsAnyOrder) {
+      // A word list printed in columns is listed A, B, C… on the page: same words, letters without full stops.
+      const bag = (ws) => ws.map((w) => w.replace(/\.$/, '')).sort().join(' ');
+      ok(bag(srcWords) === bag(words(sec.textContent)), `${label} ${g.title[1]}: question words differ from the source`);
+    } else {
+      const d2 = diff(srcWords, words(sec.textContent));
+      ok(!d2, `${label} ${g.title[1]}: question text differs ${d2}`);
+    }
   });
 
   // ---- 3. Numbering and inputs ----
@@ -197,7 +212,8 @@ for (const [i, pc] of config.passages.entries()) {
     const gd = p.groups.find((g) => g.numbers.includes(q.ns[0])); // the approved answer rules of this group
     let want = q.kind === 'multi' ? ka[`${q.ns[0]}-${q.ns[q.ns.length - 1]}`] : ka[q.ns[0]];
     const got = q.kind === 'multi' ? q.accept.join(', ') : q.kind === 'pair' ? q.accept.join('; ') : q.accept[0];
-    if (keyAnswers.spell?.[want] && ['TRUE', 'FALSE', 'NOT GIVEN', 'YES', 'NO'].includes(got)) want = keyAnswers.spell[want];
+    if (q.kind === 'pair' && want) want = want.split(/\s*[;,]\s*/).join('; '); // "a, b" and "a; b" are the same two answers
+    if (keyAnswers.spell?.[want] &&['TRUE', 'FALSE', 'NOT GIVEN', 'YES', 'NO'].includes(got)) want = keyAnswers.spell[want];
     if (!isList) {
       // The page accepts exactly the key's answer, the key's own alternatives and the owner-approved extras
       // (config alsoAccept; either-order pairs accept both of the pair's key answers).

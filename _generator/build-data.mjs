@@ -54,8 +54,9 @@ const parasOf = (b) => (b.kind === 'p' ? [b] : b.rows.flatMap((row) => row.flatM
 const hasText = (b) => b.kind === 'p' && plain(b.runs).trim();
 
 function numbersOf(title) {
-  const m = title.match(/Questions?\s+(\d+)\s*[-–]\s*(\d+)/);
+  const m = title.match(/Questions?\s+(\d+)\s*[-–]\s*(\d+)/) || title.match(/Questions?\s+(\d+)()\s*$/);
   if (!m) fail(`no question range in ${JSON.stringify(title)}`);
+  if (!m[2]) return [+m[1]]; // one question ("Questions 40")
   const out = [];
   for (let n = +m[1]; n <= +m[2]; n++) out.push(n);
   return out;
@@ -117,8 +118,15 @@ function optionList(spec, where, splitAt = []) {
   return optionsFromParas(paras, where);
 }
 /** "A the phonics method B the whole-word method …": options run together in one paragraph. */
-function inlineOptions(runs, where) {
+function inlineOptions(runs, where, anyOrder) {
   const text = plain(runs);
+  if (anyOrder) {
+    // Printed in columns ("A. correct D. simple G. logical B. theories …"): listed A, B, C… here.
+    const found = [...text.matchAll(/(^|\s)([A-Z])\.?\s+(?=\S)/g)].map((m) => ({ key: m[2], at: m.index + m[1].length, body: m.index + m[0].length }));
+    const list = found.map((s, i) => ({ key: s.key, runs: trim(slice(runs, s.body, i + 1 < found.length ? found[i + 1].at : Infinity)) }));
+    if (list.length < 2) fail(`${where}: inline options not found`);
+    return list.sort((x, y) => x.key.localeCompare(y.key));
+  }
   const starts = [];
   let from = 0;
   for (let i = 0; ; i++) {
@@ -179,7 +187,7 @@ function buildGroup(g, where, passage) {
     out.limit = wordLimit(introText) || fail(`${W}: no word limit in the instructions`);
   } else if (g.type === 'mcq') {
     out.questions = [];
-    for (const p of range(g.items).filter(hasText)) {
+    for (const p of range(g.items).flatMap(unwrap).filter(hasText)) {
       const [pre, rest] = splitTab(p);
       if (/^\d+\.?$/.test(pre)) out.questions.push({ n: +pre.replace(/\.$/, ''), stem: rest, options: [] });
       else {
@@ -242,10 +250,19 @@ function buildGroup(g, where, passage) {
   } else if (g.type === 'gap' || g.type === 'bank') {
     const content = range(g.content).flatMap(unwrap).map(block).filter((x) => !isEmpty(x));
     let inline = null;
+    // Footnotes printed after the word list ("… J two [1] Pleistocene era: … [2] …"): moved under the passage.
+    if (g.footnotesFrom) {
+      const host = content.find((b) => b.type === 'p' && plain(b.runs).includes(g.footnotesFrom.at)) || fail(`${W}: footnotes not found`);
+      const cut = plain(host.runs).indexOf(g.footnotesFrom.at);
+      passage.footnotes.push(...splitRuns(slice(host.runs, cut), g.footnotesFrom.split).map((runs) => ({ type: 'p', runs: trim(runs) })));
+      host.runs = trim(slice(host.runs, 0, cut));
+      problems.push(`${W}: footnotes moved from the word list to the end of the passage`);
+    }
     if (g.inlineOptions) {
       const host = content.find((b) => b.type === 'p' && plain(b.runs).includes(g.inlineOptions)) || fail(`${W}: inline options not found`);
       const cut = plain(host.runs).indexOf(g.inlineOptions);
-      inline = inlineOptions(slice(host.runs, cut), W);
+      inline = inlineOptions(slice(host.runs, cut), W, g.optionsAnyOrder);
+      if (g.optionsAnyOrder) problems.push(`${W}: word list printed in columns; listed A, B, C… on the page`);
       host.runs = trim(slice(host.runs, 0, cut));
     }
     const seen = [];
@@ -289,7 +306,8 @@ function buildGroup(g, where, passage) {
     }
     for (const n of g.pairs || []) if (!seen.includes(`${n}b`)) fail(`${W}: question ${n} should have two blanks`);
     seen.splice(0, seen.length, ...seen.filter((s) => typeof s === 'number'));
-    if (seen.join() !== numbers.join()) fail(`${W}: gaps found ${seen.join()} but expected ${numbers.join()}`);
+    // `gapOrder`: the source prints the blanks out of order (notes laid out in columns).
+    if (seen.join() !== (g.gapOrder || numbers).join()) fail(`${W}: gaps found ${seen.join()} but expected ${numbers.join()}`);
     out.content = content;
     if (g.type === 'gap') {
       out.limit = wordLimit(introText);
@@ -667,6 +685,7 @@ function parseKeyTables() {
         const note = textOf(b).trim();
         if (part === 'pre') cur.notes.push(...b.rows[0][0].map(block).filter((x) => !isEmpty(x)));
         else if ((config.omitKeyNotes || []).some((s) => note.startsWith(s))) problems.push(`key unit ${cur.unit}: note left out: ${note.slice(0, 60)}…`);
+        else if (part === 'answers' && config.keyNotesAfterAnswers) cur.notes.push(...b.rows[0][0].map(block).filter((x) => !isEmpty(x)));
         else fail(`key unit ${cur.unit}: note inside "${part}" not handled: ${note.slice(0, 60)}`);
         continue;
       }
@@ -753,7 +772,7 @@ function keyFor(section, passage) {
         }
         // Two blanks worth one mark ("1 …… and ……"): the key gives "principles; rules".
         if (g.pairs?.includes(n)) {
-          const parts = a.split(';').map((s) => s.trim());
+          const parts = a.split(/[;,]/).map((s) => s.trim());
           if (parts.length !== 2) fail(`${W} Q${n}: two blanks but the answer is ${JSON.stringify(a)}`);
           accept = parts;
         }
