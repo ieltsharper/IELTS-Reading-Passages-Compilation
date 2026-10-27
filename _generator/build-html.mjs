@@ -248,6 +248,7 @@ function passagePage(topic, p) {
     ${groups}
     ${p.strategy.length ? `<details class="strategy" lang="vi"><summary>Hướng dẫn One-Shot</summary>${blocksHtml(p.strategy, { headerRow: true })}</details>` : ''}
     ${p.reading?.length ? `<details class="strategy reading" lang="vi"><summary>Phân tích từng đoạn</summary>${blocksHtml(p.reading, { headerRow: true })}</details>` : ''}
+    ${p.vocab?.length ? `<details class="strategy vocab" lang="vi"><summary>Từ vựng học thuật</summary>${blocksHtml(p.vocab, { headerRow: true })}</details>` : ''}
     <nav class="q-nav" aria-label="Question navigator">${qs.flatMap((q) => q.ns.map((n) => `<a href="#item-${q.id}" class="nav-btn" data-nav="${q.id}" id="nav-${n}">${n}</a>`)).join('')}</nav>
   </section>
 </main>

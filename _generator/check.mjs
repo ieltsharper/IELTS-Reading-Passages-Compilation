@@ -1,5 +1,6 @@
 // Automated checks of the generated pages against the source .docx (step 4).
-// Usage: node _generator/check.mjs <topic> <questions.docx> [jsdom module path]
+// Usage: node _generator/check.mjs <topic> <questions.docx> <key.docx> [analysis.docx]  (jsdom from the portal,
+//        or set JSDOM_PATH)
 // 1. Passage text on each page = source text (normalised plain text), read straight from the .docx.
 // 2. Question text (titles, instructions, statements, options, summaries) = source text, word by word.
 // 3. Numbering continuous, no duplicates; questions = answers = inputs = navigator buttons.
@@ -14,9 +15,10 @@ import { readDocx, textOf } from './docx.mjs';
 import { applyFixes } from './runs.mjs';
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
-const [topicName, questionsPath, keyPath, jsdomPath = 'D:/IELTS LEARNING PORTAL/node_modules/jsdom'] = process.argv.slice(2);
+const [topicName, questionsPath, keyPath, analysisPath] = process.argv.slice(2);
+const jsdomPath = process.env.JSDOM_PATH || 'D:/IELTS LEARNING PORTAL/node_modules/jsdom';
 if (!keyPath) {
-  console.error('Usage: node _generator/check.mjs <topic> <questions.docx> <key.docx> [jsdom path]');
+  console.error('Usage: node _generator/check.mjs <topic> <questions.docx> <key.docx> [analysis.docx]');
   process.exit(1);
 }
 const { JSDOM } = createRequire(import.meta.url)(jsdomPath);
@@ -30,17 +32,56 @@ const readingJs = fs.readFileSync(path.join(root, 'assets', 'reading.js'), 'utf8
 // for compilations the "✅ Câu n → X" lines of each "UNIT n" section.
 const K = readDocx(keyPath).blocks;
 let keyAnswers;
+// Alternative answers the key allows, per passage: { n: ['five hours'] }. The page must accept exactly
+// the key's answer plus these, nothing else.
+let keyAlts = [];
+const isWordAnswer = (a) => !/^([A-Z]|[ivx]+|TRUE|FALSE|NOT GIVEN|YES|NO)$/.test(a);
 if (config.keyFormat === 'units') {
   const byUnit = {};
+  const altsByUnit = {};
   let unit = null;
+  let unitNo = null;
   for (const b of K) {
     const t = textOf(b).trim();
     const u = b.kind === 'p' && b.style === 'Heading1' && t.match(/^UNIT (\d+) ·/);
-    if (u) unit = byUnit[u[1]] = {};
+    if (u) {
+      unit = byUnit[u[1]] = {};
+      unitNo = u[1];
+      altsByUnit[unitNo] = {};
+    }
     const m = b.kind === 'p' && unit && t.match(/^✅ Câu (\d+)(?:[–-](\d+))?(?: – [^→]*)? → (.*)$/);
-    if (m) unit[m[2] ? `${m[1]}-${m[2]}` : m[1]] = m[3].split(' (')[0].split(' – ')[0].trim();
+    if (!m) continue;
+    unit[m[2] ? `${m[1]}-${m[2]}` : m[1]] = m[3].split(' (')[0].split(' – ')[0].trim();
+    const alt = m[3].match(/\(hoặc:\s*(.*?)\)\s*$/);
+    if (alt) altsByUnit[unitNo][m[1]] = alt[1].split('/').map((s) => s.trim());
   }
-  keyAnswers = config.passages.map((pc) => byUnit[pc.unit]);
+  // Units answered by the One-shot analysis: its "Đáp án nhanh" line (NG/T/F/Y/N spelled out).
+  if (config.analysisUnits?.length) {
+    if (!analysisPath) throw new Error(`This topic also needs its analysis file (${config.analysisFile}) as the 4th argument.`);
+    const long = { NG: 'NOT GIVEN', T: 'TRUE', F: 'FALSE', Y: 'YES', N: 'NO' };
+    let au = null;
+    for (const b of readDocx(analysisPath).blocks) {
+      const t = textOf(b).trim();
+      const u = b.kind === 'p' && b.style === 'Heading1' && t.match(/^UNIT (\d+) ·/);
+      if (u) {
+        au = config.analysisUnits.includes(+u[1]) ? (byUnit[u[1]] = {}) : null;
+        if (au) altsByUnit[u[1]] = {};
+      }
+      const q = au && t.match(/^Đáp án nhanh:\s*(.*)$/);
+      if (!q) continue;
+      const unitAlts = altsByUnit[Object.keys(byUnit).find((k) => byUnit[k] === au)];
+      for (const tok of q[1].split(' · ')) {
+        const m = tok.trim().match(/^(\d+(?:[–-]\d+)?)\s+(.+)$/);
+        const [first, ...more] = m[2].split('/').map((s) => s.trim());
+        au[m[1].replace('–', '-')] = first;
+        if (more.length) unitAlts[m[1]] = more;
+      }
+    }
+    // Short TFNG/YNNG answers are spelled out at the comparison, where the page's question type is known.
+    keyAnswers = config.passages.map((pc) => byUnit[pc.unit]);
+    keyAnswers.spell = long;
+  } else keyAnswers = config.passages.map((pc) => byUnit[pc.unit]);
+  keyAlts = config.passages.map((pc) => altsByUnit[pc.unit] || {});
 } else {
   const keyTable = K.find((b) => b.kind === 'tbl' && textOf(b).startsWith('Bài'));
   keyAnswers = keyTable.rows.slice(1).map((row) => {
@@ -51,6 +92,14 @@ if (config.keyFormat === 'units') {
     }
     return out;
   });
+  // "Qn – 5 hours (five hours)." in a section's explanations: the bracket is an alternative for word answers.
+  let sec = -1;
+  for (const b of K) {
+    const t = textOf(b).trim();
+    if (b.kind === 'p' && b.style === 'Heading2' && /^Bài \d+ – /.test(t)) keyAlts[++sec] = {};
+    const m = sec >= 0 && b.kind === 'p' && t.match(/^Q(\d+)\s*–\s*(.*?)\s*\((.*?)\)\./);
+    if (m && keyAnswers[sec]?.[m[1]] === m[2] && isWordAnswer(m[2])) keyAlts[sec][m[1]] = [m[3]];
+  }
 }
 
 let failures = 0;
@@ -84,6 +133,7 @@ for (const [i, pc] of config.passages.entries()) {
   htmlFiles.push(file);
   const html = fs.readFileSync(file, 'utf8');
   const label = `P${i + 1} ${pc.slug}`;
+  if (process.env.CHECK_TRACE) console.log("start", label);
 
   // ---- 1. Passage text ----
   const src = [...(pc.head || []).map(([n]) => Q[n]), Q[pc.title[0]], ...(pc.standfirst ? [Q[pc.standfirst[0]]] : []), ...range(...pc.body), ...(pc.footnotes ? range(...pc.footnotes) : [])]
@@ -129,8 +179,15 @@ for (const [i, pc] of config.passages.entries()) {
   const ka = keyAnswers[i];
   ok(Object.keys(ka).length === ad.questions.length, `${label}: key has ${Object.keys(ka).length} answers, page ${ad.questions.length} questions`);
   for (const q of ad.questions) {
-    const want = q.kind === 'multi' ? ka[`${q.ns[0]}-${q.ns[q.ns.length - 1]}`] : ka[q.ns[0]];
+    let want = q.kind === 'multi' ? ka[`${q.ns[0]}-${q.ns[q.ns.length - 1]}`] : ka[q.ns[0]];
     const got = q.kind === 'multi' ? q.accept.join(', ') : q.accept[0];
+    if (keyAnswers.spell?.[want] && ['TRUE', 'FALSE', 'NOT GIVEN', 'YES', 'NO'].includes(got)) want = keyAnswers.spell[want];
+    if (q.kind !== 'multi') {
+      // The page accepts exactly the key's answer and the key's own alternatives.
+      const expected = [want, ...(keyAlts[i]?.[q.ns[0]] || [])].map((s) => s.toLowerCase()).sort().join(' | ');
+      const accepted = q.accept.map((s) => s.toLowerCase()).sort().join(' | ');
+      ok(expected === accepted, `${label}: ${q.id} accepts ${accepted}, key allows ${expected}`);
+    }
     ok(want === got, `${label}: ${q.id} answer on the page is ${JSON.stringify(got)}, key says ${JSON.stringify(want)}`);
     const els = doc.querySelectorAll(`[data-q="${q.id}"]`);
     ok(els.length > 0, `${label}: no input for ${q.id}`);
@@ -153,16 +210,18 @@ for (const [i, pc] of config.passages.entries()) {
   });
 
   // ---- 4. Scoring with the real reading.js ----
-  const run = (fill) => {
-    const d = new JSDOM(html, { url: `http://localhost/${config.slug}/${pc.slug}.html`, runScripts: 'outside-only' });
-    d.window.confirm = () => true;
-    d.window.HTMLElement.prototype.scrollIntoView = () => {};
-    d.window.eval(readingJs);
-    const r = d.window.__reading;
+  // One page with the real reading.js per passage (many pages at once run out of memory): every run fills in
+  // all answers, checks, and reads the score; `inspect(doc)` reads anything else a test needs.
+  const tester = new JSDOM(html, { url: `http://localhost/${config.slug}/${pc.slug}.html`, runScripts: 'outside-only' });
+  tester.window.confirm = () => true;
+  tester.window.HTMLElement.prototype.scrollIntoView = () => {};
+  tester.window.eval(readingJs);
+  const run = (fill, inspect) => {
+    const r = tester.window.__reading;
     for (const q of r.data.questions) r.setValue(q, fill(q));
     r.check();
-    const score = d.window.document.getElementById('score').textContent;
-    return { score: +score.match(/Score: (\d+)/)[1], doc: d.window.document, r, d };
+    const doc2 = tester.window.document;
+    return { score: +doc2.getElementById('score').textContent.match(/Score: (\d+)/)[1], extra: inspect ? inspect(doc2) : null };
   };
   const N = ad.total;
   const answers = (q) => (q.kind === 'multi' ? q.accept : q.accept[0]);
@@ -175,9 +234,9 @@ for (const [i, pc] of config.passages.entries()) {
   ok(run(() => '').score === 0 && run((q) => (q.kind === 'multi' ? [] : '')).score === 0, `${label}: empty page does not score 0`);
   const first = ad.questions.find((q) => q.kind !== 'multi');
   const wrongFor = (q) => (q.kind === 'text' ? 'zzz' : [...doc.querySelectorAll(`[data-q="${q.id}"]`)].flatMap((e) => (e.tagName === 'SELECT' ? [...e.options].map((o) => o.value) : [e.value])).find((v) => v && !q.accept.includes(v)));
-  const oneWrong = run((q) => (q === first || q.id === first.id ? wrongFor(q) : answers(q)));
+  const oneWrong = run((q) => (q === first || q.id === first.id ? wrongFor(q) : answers(q)), (d) => d.getElementById(`mark-${first.id}`).textContent);
   ok(oneWrong.score === N - 1, `${label}: one wrong answer scores ${oneWrong.score}, expected ${N - 1}`);
-  ok(oneWrong.doc.getElementById(`mark-${first.id}`).textContent === '✗', `${label}: wrong answer not marked ✗`);
+  ok(oneWrong.extra === '✗', `${label}: wrong answer not marked ✗`);
   // Every question individually wrong scores N-1 (catches an answer accepted by mistake).
   for (const q of ad.questions) {
     const w = wrongFor(q) ?? (q.kind === 'multi' ? null : 'zzz');
@@ -190,8 +249,8 @@ for (const [i, pc] of config.passages.entries()) {
   // Word limit: an over-long text answer is wrong and says so.
   const textQ = ad.questions.find((q) => q.kind === 'text');
   if (textQ) {
-    const long = run((q) => (q.id === textQ.id ? `${q.accept[0]} and many more words here` : answers(q)));
-    ok(long.score === N - 1 && /word limit/.test(long.doc.querySelector(`#fb-${textQ.id} .fb-result`).textContent), `${label}: over-long answer not flagged`);
+    const long = run((q) => (q.id === textQ.id ? `${q.accept[0]} and many more words here` : answers(q)), (d) => d.querySelector(`#fb-${textQ.id} .fb-result`).textContent);
+    ok(long.score === N - 1 && /word limit/.test(long.extra), `${label}: over-long answer not flagged`);
   }
   // Answers survive a reload (localStorage).
   {
@@ -204,7 +263,10 @@ for (const [i, pc] of config.passages.entries()) {
     el.dispatchEvent(new d.window.Event('change', { bubbles: true }));
     const saved = d.window.localStorage.getItem(`ih-reading:/${config.slug}/${pc.slug}.html`);
     ok(saved && saved.includes(JSON.stringify(answers(q0))), `${label}: answer not saved in localStorage`);
+    d.window.close();
   }
+  tester.window.close();
+  dom.window.close();
 }
 
 // ---- 5. Links, assets, external requests, noindex, top bar ----

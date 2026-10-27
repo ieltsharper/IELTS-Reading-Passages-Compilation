@@ -3,7 +3,7 @@
 // is checked against the file, so a changed source stops the build instead of producing wrong pages.
 // Sources (owner, 2026-10-27): IELTS_Reading_Passage3_Socio-cultural_Global.docx (15 units, Passage 3) and
 // "AK L15- P3 Socio-cultural & Global.docx" (key for Units 3–15, explanations in Vietnamese).
-// Units 1–2 have no key yet and are not built (owner's decision (a)).
+// Units 1–2 were added later (2026-10-27) with their answers from the One-shot analysis file (see analysisFile).
 const CH = 'Culture & Heritage';
 const LC = 'Language & Communication';
 const ES = 'Education & Society';
@@ -36,7 +36,45 @@ export default {
     { block: 771, find: 'required to draft a ‘sweatshops', replace: 'required to draft a letter. In these electronic ‘sweatshops' },
   ],
 
+  // Second key file (owner, 2026-10-27): "L15_P3_Socio-cultural_Global_One-shot_Analysis.docx", the teacher's
+  // One-shot analysis of all 15 units. Units 1–2 take their answers, explanations, strategy and reading from it
+  // (decision (a): its answers were worked out by the teacher/AI, there is no official key); every unit takes
+  // its academic vocabulary list from it (decision (d)). Its answers for Units 3–15 agree with the AK key.
+  analysisFile: 'L15_P3_Socio-cultural_Global_One-shot_Analysis.docx',
+  analysisUnits: [1, 2],
+  vocabulary: true,
+
   passages: [
+    {
+      unit: 1,
+      group: CH,
+      slug: 'unit-01-childs-play-in-medieval-england',
+      title: [2, 'Child’s Play'],
+      standfirst: [5, 'Professor Nicholas Orme'],
+      body: [[6, 'A ‘Play up'], [13, 'H\t']],
+      // Decision (c): paragraph A's letter is not set off like the others ("A ‘Play up!…").
+      letters: { 6: 'A' },
+      groups: [
+        { type: 'match', title: [15, 'Questions 27–31'], intro: [[16, 'Reading Passage 3 has eight'], [18, 'Choose the correct letter']], letters: 'ABCDEFGH', items: [[19, '27\t'], [23, '31\t']] },
+        // Decision (c): options F and G are run together on one line in the source.
+        { type: 'match', title: [24, 'Questions 32–35'], intro: [[25, 'Look at the following dates'], [27, 'Choose the correct letter']], options: [[28, 'List of Events'], [37, 'J ']], splitOptions: ['G death of Adam of Usk'], items: [[38, '32\t'], [41, '35\t']] },
+        { type: 'ynng', title: [42, 'Questions 36–40'], intro: [[43, 'Choose YES'], [43, '']], items: [[44, '36\t'], [48, '40\t']] },
+      ],
+    },
+    {
+      unit: 2,
+      group: CH,
+      slug: 'unit-02-why-do-we-touch-strangers-so-much',
+      title: [51, 'Why Do We Touch'],
+      standfirst: [53, 'A history of the handshake'],
+      body: [[54, 'A\t'], [59, 'F\t']],
+      groups: [
+        { type: 'tfng', title: [61, 'Questions 27–33'], intro: [[62, 'Do the following'], [66, 'NOT GIVEN']], items: [[67, '27\t'], [73, '33\t']] },
+        { type: 'gap', title: [74, 'Question 34–38'], intro: [[75, 'Complete the summary'], [77, 'Write your answer']], content: [[79, 'The history of cheek kissing'], [79, '']] },
+        // Decision (b): Q39 accepts "la bise" only (the analysis's "physical contacts" is not in the passage).
+        { type: 'short', title: [81, 'Question 39–40'], intro: [[82, 'Answer the question'], [84, 'Write your answers']], items: [[85, '39\t'], [86, '40\t']] },
+      ],
+    },
     {
       unit: 3,
       group: CH,

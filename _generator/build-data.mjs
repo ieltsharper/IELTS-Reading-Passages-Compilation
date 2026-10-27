@@ -10,14 +10,19 @@ import { readDocx, textOf } from './docx.mjs';
 import { applyFixes, block, clean, isEmpty, plain, slice, splitRuns, trim } from './runs.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const [topicName, questionsPath, keyPath] = process.argv.slice(2);
+const [topicName, questionsPath, keyPath, analysisPath] = process.argv.slice(2);
 if (!keyPath) {
-  console.error('Usage: node _generator/build-data.mjs <topic> <questions.docx> <key.docx>');
+  console.error('Usage: node _generator/build-data.mjs <topic> <questions.docx> <key.docx> [analysis.docx]');
   process.exit(1);
 }
 const config = (await import(`./topics/${topicName}.mjs`)).default;
 const { blocks: Q } = readDocx(questionsPath);
 const { blocks: K } = readDocx(keyPath);
+if (config.analysisFile && !analysisPath) {
+  console.error(`This topic also needs its analysis file (${config.analysisFile}) as the 4th argument.`);
+  process.exit(1);
+}
+const A = analysisPath ? readDocx(analysisPath).blocks : null;
 
 const problems = [];
 const fail = (msg) => {
@@ -98,9 +103,18 @@ function optionsFromParas(paras, where) {
   }
   return { title: title.length ? title : null, list };
 }
-function optionList(spec, where) {
+function optionList(spec, where, splitAt = []) {
   const blocks = Array.isArray(spec[0]) ? range(spec) : [at(spec)];
-  return optionsFromParas(blocks.flatMap(parasOf), where);
+  let paras = blocks.flatMap(parasOf);
+  // Approved: options run together on one line ("F dolls taxed in England G death of Adam of Usk").
+  for (const marker of splitAt) {
+    const i = paras.findIndex((p) => plain(p.runs).includes(marker));
+    if (i < 0) fail(`${where}: option split ${JSON.stringify(marker)} not found`);
+    const parts = splitRuns(paras[i].runs, [marker]).map((runs) => ({ ...paras[i], runs }));
+    paras = [...paras.slice(0, i), ...parts, ...paras.slice(i + 1)];
+    problems.push(`${where}: option line split before ${JSON.stringify(marker)}`);
+  }
+  return optionsFromParas(paras, where);
 }
 /** "A the phonics method B the whole-word method …": options run together in one paragraph. */
 function inlineOptions(runs, where) {
@@ -204,7 +218,7 @@ function buildGroup(g, where, passage) {
       out.questions = numbers.map((n) => ({ n, stem: null }));
     } else out.questions = items().map((q) => ({ ...q, stem: stripLeader(q.stem) }));
     if (g.options) {
-      out.options = optionList(g.options, W);
+      out.options = optionList(g.options, W, g.splitOptions);
       out.optionsAfter = !!g.optionsAfter;
       checkKeys(out.options.list, W, g.relabel);
     } else out.letters = g.letters.split('');
@@ -301,6 +315,12 @@ function bodyOf(blocks, firstIndex, pc) {
     const text = plain(runs);
     const marker = text.match(/^\s*(\d{1,2})\s*[…_]{3,}\s*$/);
     if (marker) return { marker: +marker[1], runs: trim(slice(runs, text.indexOf(marker[1]) + marker[1].length)) };
+    const fixed = pc.letters?.[index];
+    if (fixed) {
+      // Approved: a paragraph whose letter is not set off in the source ("A ‘Play up!…").
+      const f = text.match(new RegExp(`^${fixed}\\s+`)) || fail(`letters: block ${index} does not start with ${fixed}`);
+      return { letter: fixed, runs: trim(slice(runs, f[0].length)) };
+    }
     const m = text.match(/^([A-Z])(\s{2,}|\t)/);
     if (m && runs[0]?.b) return { letter: m[1], runs: trim(slice(runs, m[0].length)) };
     if (m && text[1] === '\t') return { letter: m[1], runs: trim(slice(runs, m[0].length)) };
@@ -480,6 +500,123 @@ function parseKeyUnits() {
   return out;
 }
 
+// ---- Key, layout 3 (One-shot analysis): "UNIT n · title" (Heading1), BƯỚC 1/2/3, a keyword table with
+// "Đáp án nhanh: 27 D · 28 G …", and an academic vocabulary list. Explanations are the "✅ Xử lý ngay" lines,
+// one segment per "Câu n" (segments are separated by line breaks inside the paragraph).
+function parseAnalysis(blocks) {
+  const units = {};
+  let cur = null;
+  let part = null;
+  for (const b of blocks) {
+    const t = keyText(b);
+    if (b.kind === 'p' && b.style === 'Heading1') {
+      const m = t.match(/^UNIT (\d+) · (.*)$/);
+      cur = m ? { unit: +m[1], title: m[2], step1: [], step2: [], step3: [], table: null, quick: null, vocab: [] } : null;
+      if (cur) units[cur.unit] = cur;
+      part = null;
+      continue;
+    }
+    if (!cur) continue;
+    if (b.kind === 'p' && b.style === 'Heading2') {
+      part = /^BƯỚC 1/.test(t) ? 'step1' : /^BƯỚC 2/.test(t) ? 'step2' : /^BƯỚC 3/.test(t) ? 'step3' : /^BẢNG TỪ KHÓA/.test(t) ? 'table' : /TỪ VỰNG/.test(t) ? 'vocab' : fail(`analysis unit ${cur.unit}: unknown heading ${t}`);
+      if (part === 'step1' || part === 'step2') cur[part].push({ type: 'h', runs: trim(b.runs) });
+      continue;
+    }
+    if (!part) continue;
+    if (part === 'table') {
+      if (b.kind === 'tbl') cur.table = b;
+      else if (/^Đáp án nhanh:/.test(t)) cur.quick = t.replace(/^Đáp án nhanh:\s*/, '');
+      continue;
+    }
+    cur[part].push(b);
+  }
+  const asBlocks = (list) =>
+    list
+      .filter((b) => !(b.kind === 'p' && !plain(b.runs).trim()))
+      .map((b) => (b.kind === 'p' && b.style === 'Heading3' ? { type: 'h', runs: trim(b.runs) } : b.type === 'h' ? b : block(b)))
+      .filter((x) => x.type === 'h' || !isEmpty(x));
+
+  const out = {};
+  for (const u of Object.values(units)) {
+    const answers = {};
+    const alts = {};
+    if (u.quick) {
+      for (const tok of u.quick.split(' · ')) {
+        const m = tok.trim().match(/^(\d+(?:[–-]\d+)?)\s+(.+)$/) || fail(`analysis unit ${u.unit}: cannot read ${JSON.stringify(tok)}`);
+        const [first, ...more] = m[2].split('/').map((s) => s.trim());
+        answers[m[1].replace('–', '-')] = first;
+        if (more.length) alts[m[1]] = more;
+      }
+    }
+    // Explanations: each "Câu n" segment of a "✅ Xử lý ngay" paragraph; side notes "(Câu n …)" go after it.
+    const main = {};
+    const notes = {};
+    // Only the units whose answers come from this file (config.analysisUnits) need explanations.
+    for (const b of (config.analysisUnits || []).includes(u.unit) ? u.step3 : []) {
+      if (b.kind !== 'p' || !/^✅ Xử lý ngay:/.test(keyText(b))) continue;
+      const text = plain(b.runs);
+      const cuts = [...text.matchAll(/\n/g)].map((m) => m.index);
+      const bounds = [0, ...cuts.map((c) => c + 1), text.length + 1];
+      for (let i = 0; i < bounds.length - 1; i++) {
+        let runs = trim(slice(b.runs, bounds[i], bounds[i + 1] - 1));
+        const label = plain(runs).match(/^✅ Xử lý ngay:\s*/);
+        if (label) runs = trim(slice(runs, label[0].length));
+        const s = plain(runs);
+        if (!s) continue;
+        const q = s.match(/Câu (\d+)/) || fail(`analysis unit ${u.unit}: segment without a question number: ${s.slice(0, 50)}`);
+        const target = /^Câu \d+/.test(s) ? main : notes;
+        (target[q[1]] ||= []).push({ type: 'p', runs });
+      }
+    }
+    const expl = {};
+    for (const n of new Set([...Object.keys(main), ...Object.keys(notes)])) expl[n] = [...(main[n] || []), ...(notes[n] || [])];
+    // Evidence: the "Paraphrase / thông tin trong bài" cell of the keyword table; its answer cell is cross-checked.
+    const evidence = {};
+    const tableAnswers = {};
+    if (u.table) {
+      const header = u.table.rows[0].map((c) => c.map(textOf).join('').trim());
+      const qi = header.indexOf('Câu');
+      const pi = header.findIndex((h) => h.startsWith('Paraphrase'));
+      const ai = header.indexOf('Đáp án');
+      if (qi < 0 || pi < 0 || ai < 0) fail(`analysis unit ${u.unit}: keyword table columns not found`);
+      for (const r of u.table.rows.slice(1)) {
+        const k = r[qi].map(textOf).join('').trim().replace('–', '-');
+        evidence[k] = trim(r[pi].flatMap((p) => [...(p.runs || []), { t: ' ' }]));
+        tableAnswers[k] = [r[ai].map(textOf).join(' ').split('/')[0].trim()]; // "germs / bacteria": alternatives come from the answer line
+      }
+    }
+    out[u.unit] = {
+      label: `UNIT ${u.unit} (analysis)`,
+      title: u.title,
+      answers,
+      alts,
+      altsOnlyFor: null,
+      expl,
+      evidence,
+      crossCheck: { heads: {}, tableAnswers },
+      strategy: asBlocks([...u.step1, ...u.step2]),
+      reading: asBlocks(u.step3),
+      vocab: asBlocks(u.vocab),
+      fromAnalysis: true,
+    };
+  }
+  return out;
+}
+
+/** The analysis writes TFNG/YNNG answers short ("NG", "T", "F"); spell them out for those groups. */
+function spellOut(section, groups) {
+  const long = { tfng: { T: 'TRUE', F: 'FALSE', NG: 'NOT GIVEN' }, ynng: { Y: 'YES', N: 'NO', NG: 'NOT GIVEN' } };
+  for (const g of groups) {
+    if (!long[g.type]) continue;
+    for (const n of g.numbers) {
+      const a = section.answers[n];
+      if (long[g.type][a]) section.answers[n] = long[g.type][a];
+      const t = section.crossCheck?.tableAnswers[n];
+      if (t && long[g.type][t[0]]) t[0] = long[g.type][t[0]];
+    }
+  }
+}
+
 const norm = (s) => s.toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z]/g, '');
 const coreOf = (s) => s.replace(/\s*\(.*\)\s*$/, '').replace(/\.$/, '').trim();
 
@@ -534,6 +671,12 @@ function keyFor(section, passage) {
 // ---- Build ----
 const tableSections = config.keyFormat === 'units' ? null : parseKeyTable();
 const unitSections = config.keyFormat === 'units' ? parseKeyUnits() : null;
+const analysisSections = A ? parseAnalysis(A) : null;
+const titleMatches = (x, y) => {
+  const a = norm(x);
+  const b = norm(y);
+  return a.startsWith(b.slice(0, 20)) || b.startsWith(a.slice(0, 20));
+};
 
 const passages = config.passages.map((pc, i) => {
   const where = `passage ${i + 1}${pc.unit ? ` (unit ${pc.unit})` : ''}`;
@@ -551,10 +694,20 @@ const passages = config.passages.map((pc, i) => {
     footnotes: pc.footnotes ? range(pc.footnotes).map(block).filter((x) => !isEmpty(x)) : [],
   };
   p.groups = pc.groups.map((g) => buildGroup(g, where, p));
-  const section = unitSections ? unitSections[pc.unit] || fail(`key: no UNIT ${pc.unit}`) : tableSections[i] || fail(`key: no section for ${where}`);
-  const a = norm(section.title);
-  const b = norm(plain(title));
-  if (!(a.startsWith(b.slice(0, 20)) || b.startsWith(a.slice(0, 20)))) fail(`${where}: key section "${section.title}" does not match title "${plain(title)}"`);
+  const fromAnalysis = (config.analysisUnits || []).includes(pc.unit);
+  const section = fromAnalysis
+    ? analysisSections[pc.unit] || fail(`analysis: no UNIT ${pc.unit}`)
+    : unitSections
+      ? unitSections[pc.unit] || fail(`key: no UNIT ${pc.unit}`)
+      : tableSections[i] || fail(`key: no section for ${where}`);
+  if (!titleMatches(section.title, plain(title))) fail(`${where}: key section "${section.title}" does not match title "${plain(title)}"`);
+  if (fromAnalysis) spellOut(section, p.groups);
+  if (config.vocabulary) {
+    const v = analysisSections?.[pc.unit] || fail(`analysis: no UNIT ${pc.unit} for the vocabulary`);
+    if (!titleMatches(v.title, plain(title))) fail(`${where}: analysis section "${v.title}" does not match title "${plain(title)}"`);
+    p.vocab = v.vocab;
+    if (!p.vocab.length) fail(`${where}: no vocabulary list in the analysis`);
+  }
   const nums = p.groups.flatMap((g) => g.numbers);
   for (let k = 1; k < nums.length; k++) if (nums[k] !== nums[k - 1] + 1) fail(`${where}: numbering gap/duplicate at ${nums[k]}`);
   p.key = keyFor(section, p);
