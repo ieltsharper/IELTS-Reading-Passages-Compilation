@@ -27,7 +27,7 @@
   </div>
 </div>
 <main class="split">
-  <section class="pane passage-pane" aria-labelledby="passage-title" tabindex="0">
+  <section class="pane passage-pane" id="passage-pane" aria-labelledby="passage-title" tabindex="0">
     <article class="passage">
       <p class="p-head"><strong>READING PASSAGE 1</strong></p><p class="p-head"><em>You should spend about 20 minutes on </em><strong><em>Questions 1-13</em></strong><em>, which are based on Reading Passage 1 below.</em></p>
       <h1 id="passage-title"><strong>History of Tea</strong></h1>
@@ -47,6 +47,7 @@
       
     </article>
   </section>
+  <div class="splitter" id="splitter" role="separator" aria-orientation="vertical" aria-controls="passage-pane" aria-label="Resize the passage and the questions" aria-valuemin="20" aria-valuemax="80" aria-valuenow="50" tabindex="0" title="Drag to resize (double-click to reset)"></div>
   <section class="pane questions-pane" aria-label="Questions">
     <div class="score" id="score" role="status" aria-live="polite"></div>
     <div class="key-note" lang="vi"><p>Đáp án và giải thích của bài này do AI giải (file đáp án gốc không có bài này), đã được đối chiếu với bài đọc.</p></div>

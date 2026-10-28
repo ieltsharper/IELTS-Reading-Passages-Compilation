@@ -18,6 +18,7 @@
   --warning: #9a3412;
   --serif: Georgia, 'Times New Roman', Times, serif;
   --sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --passage-font: Arial, 'Helvetica Neue', Helvetica, sans-serif; /* reading passages (owner, 2026-10-28) */
   color-scheme: light dark;
 }
 
@@ -291,7 +292,29 @@ h1 {
     flex: 1 1 auto;
     min-height: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* --left: the passage pane's share, set by dragging the divider (reading.js) */
+    grid-template-columns: minmax(0, var(--left, 50%)) 10px minmax(0, 1fr);
+  }
+
+  .splitter {
+    cursor: col-resize;
+    background: var(--line);
+    background-clip: content-box;
+    padding: 0 4px;
+    touch-action: none;
+  }
+
+  .splitter:hover,
+  .splitter:focus-visible,
+  .splitter.dragging {
+    background-color: var(--brand);
+    padding: 0 3px;
+    outline: none;
+  }
+
+  body.resizing {
+    cursor: col-resize;
+    user-select: none;
   }
 
   .pane {
@@ -299,8 +322,11 @@ h1 {
     min-height: 0;
   }
 
-  .passage-pane {
-    border-right: 1px solid var(--line);
+}
+
+@media (max-width: 899px) {
+  .splitter {
+    display: none;
   }
 }
 
@@ -315,6 +341,7 @@ h1 {
 .passage {
   max-width: 72ch;
   margin: 0 auto;
+  font-family: var(--passage-font);
 }
 
 .p-head {
@@ -325,17 +352,18 @@ h1 {
 
 .passage h1 {
   margin: 12px 0 10px;
+  font-family: var(--passage-font);
 }
 
 .standfirst {
-  font-family: var(--serif);
+  font-family: var(--passage-font);
   font-size: 1.05rem;
   color: var(--muted);
   margin: 0 0 20px;
 }
 
 .para {
-  font-family: var(--serif);
+  font-family: var(--passage-font);
   font-size: 1.08rem;
   line-height: 1.75;
   margin: 0 0 1em;
@@ -358,7 +386,7 @@ h1 {
 }
 
 .p-sub {
-  font-family: var(--serif);
+  font-family: var(--passage-font);
   font-size: 1.1rem;
   color: var(--ink);
   margin: 1.4em 0 0.5em;
@@ -727,7 +755,7 @@ input[type='text'] {
   margin: 6px 0;
   padding: 4px 10px;
   border-left: 3px solid var(--heading);
-  font-family: var(--serif);
+  font-family: var(--passage-font); /* a quote from the passage */
   color: var(--ink);
 }
 

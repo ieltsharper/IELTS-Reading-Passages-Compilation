@@ -339,6 +339,68 @@
   $('show-btn').addEventListener('click', showAnswers);
   $('reset-btn').addEventListener('click', reset);
 
+  // ---- Resizable panes: drag the divider (or focus it and use the arrow keys); double-click resets ----
+  var splitter = $('splitter');
+  var split = splitter && splitter.parentNode;
+  var SPLIT_KEY = 'ih-reading:split';
+  function setSplit(pct, save) {
+    pct = Math.max(20, Math.min(80, Math.round(pct)));
+    split.style.setProperty('--left', pct + '%');
+    splitter.setAttribute('aria-valuenow', String(pct));
+    if (save) {
+      try {
+        localStorage.setItem(SPLIT_KEY, String(pct));
+      } catch (e) {}
+    }
+  }
+  if (splitter) {
+    var savedSplit = +(localStorage.getItem(SPLIT_KEY) || 0);
+    if (savedSplit) setSplit(savedSplit, false);
+    var dragging = false;
+    var moveTo = function (clientX) {
+      var r = split.getBoundingClientRect();
+      setSplit(((clientX - r.left) / r.width) * 100, false);
+    };
+    // Moves are followed on the whole page (pointer capture is not available everywhere).
+    splitter.addEventListener('pointerdown', function (e) {
+      dragging = true;
+      try {
+        splitter.setPointerCapture(e.pointerId);
+      } catch (err) {}
+      splitter.classList.add('dragging');
+      document.body.classList.add('resizing');
+      e.preventDefault();
+    });
+    splitter.addEventListener('mousedown', function (e) {
+      e.preventDefault(); // no text selection while dragging
+    });
+    document.addEventListener('pointermove', function (e) {
+      if (dragging) moveTo(e.clientX);
+    });
+    var stop = function () {
+      if (!dragging) return;
+      dragging = false;
+      splitter.classList.remove('dragging');
+      document.body.classList.remove('resizing');
+      setSplit(+splitter.getAttribute('aria-valuenow'), true);
+    };
+    document.addEventListener('pointerup', stop);
+    document.addEventListener('pointercancel', stop);
+    splitter.addEventListener('dblclick', function () {
+      setSplit(50, true);
+    });
+    splitter.addEventListener('keydown', function (e) {
+      var now = +splitter.getAttribute('aria-valuenow');
+      var step = e.shiftKey ? 10 : 5;
+      if (e.key === 'ArrowLeft') setSplit(now - step, true);
+      else if (e.key === 'ArrowRight') setSplit(now + step, true);
+      else if (e.key === 'Home') setSplit(20, true);
+      else if (e.key === 'End') setSplit(80, true);
+      else return;
+      e.preventDefault();
+    });
+  }
+
   restore();
   update();
   drawTimer();
