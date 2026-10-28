@@ -24,7 +24,8 @@ if (!keyPath) {
 const { JSDOM } = createRequire(import.meta.url)(jsdomPath);
 const config = (await import(`./topics/${topicName}.mjs`)).default;
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data', `${config.slug}.json`), 'utf8'));
-const { blocks: Q } = readDocx(questionsPath);
+// Pages of a PDF that are pictures of text are read from their checked transcripts (config.transcripts).
+const { blocks: Q } = readDocx(questionsPath, { transcripts: config.transcripts && path.join(root, '_generator', 'transcripts', config.transcripts) });
 // The source as approved: the owner's corrections (config.fixes) are part of the expected text.
 applyFixes(Q, config.fixes);
 const readingJs = fs.readFileSync(path.join(root, 'assets', 'reading.js'), 'utf8');
@@ -107,6 +108,15 @@ if (config.keyFormat === 'units') {
     }
     return out;
   });
+  // Passages answered by the extra key file (config.aiKeyFile): "### n | answer" lines under "## name".
+  if (config.aiKeyFile) {
+    const md = fs.readFileSync(path.join(root, '_generator', 'keys', config.aiKeyFile), 'utf8');
+    config.passages.forEach((pc, i) => {
+      if (!pc.aiKey) return;
+      const sec = md.split(/^## /m).find((s) => s.startsWith(pc.aiKey + '\n') || s.startsWith(pc.aiKey + '\r\n'));
+      keyAnswers.splice(i, 0, Object.fromEntries([...sec.matchAll(/^### (\d+) \| (.+?)\s*$/gm)].map((m) => [m[1], m[2]])));
+    });
+  }
   // "Qn – 5 hours (five hours)." in a section's explanations: the bracket is an alternative for word answers.
   let sec = -1;
   for (const b of K) {

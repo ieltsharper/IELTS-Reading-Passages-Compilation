@@ -4,8 +4,10 @@
 # - Running headers ("VOL 7 TEST 2", the rule under it) and page numbers are dropped.
 # - Pieces of one line set apart by a wide gap ("7    The Italians…") are joined with a tab, like a .docx item.
 # - A paragraph cut by a page break is joined again (the next page starts in lower case, no full stop before).
+# - --transcripts <dir>: a page with no text layer is read from <dir>/pNN.txt (checked OCR text) instead.
 # - Each block carries its page and, for pictures (charts), an { img: 'p18-1' } run with its box on the page.
 import json
+import os
 import re
 import sys
 
@@ -246,12 +248,55 @@ def page_blocks(page):
     return [b for _, b in items]
 
 
+def transcript_blocks(path, page_no):
+    """A page that is a picture of text: its checked transcript (one paragraph per line; **bold**, *italic*,
+    ***both***, __underline__, a leading ^ = centred, tabs as in the page)."""
+    out = []
+    for line in open(path, encoding='utf8').read().splitlines():
+        if not line.strip():
+            continue
+        center = line.startswith('^')
+        if center:
+            line = line[1:]
+        runs, b, i, u, k = [], False, False, False, 0
+        buf = ''
+
+        def flush():
+            if buf:
+                runs.append({'t': buf, **({'b': True} if b else {}), **({'i': True} if i else {}), **({'u': True} if u else {})})
+
+        while k < len(line):
+            for tok in ('***', '**', '*', '__'):
+                if line.startswith(tok, k):
+                    flush()
+                    buf = ''
+                    if tok == '***':
+                        b, i = not b, not i
+                    elif tok == '**':
+                        b = not b
+                    elif tok == '*':
+                        i = not i
+                    else:
+                        u = not u
+                    k += len(tok)
+                    break
+            else:
+                buf += line[k]
+                k += 1
+        flush()
+        out.append(para(runs, page_no, center=center))
+    return out
+
+
 def main():
     doc = pymupdf.open(sys.argv[1])
+    tdir = sys.argv[sys.argv.index('--transcripts') + 1] if '--transcripts' in sys.argv else None
     blocks = []
     joins = []
     for page in doc:
         pb = page_blocks(page)
+        if not pb and tdir and os.path.exists(f'{tdir}/p{page.number + 1:02d}.txt'):
+            pb = transcript_blocks(f'{tdir}/p{page.number + 1:02d}.txt', page.number + 1)
         if not pb:
             continue
         first = pb[0]

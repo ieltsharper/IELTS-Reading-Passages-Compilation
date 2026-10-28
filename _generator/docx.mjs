@@ -153,10 +153,11 @@ function table(tbl) {
   return { kind: 'tbl', rows };
 }
 
-export function readDocx(file) {
+/** opts.transcripts: folder of checked transcripts for PDF pages that are pictures of text (pdf-blocks.py). */
+export function readDocx(file, opts = {}) {
   // A text PDF (History P1): read by pdf-blocks.py into the same blocks.
   if (/.pdf$/i.test(file)) {
-    const out = execFileSync('python', ['-I', '-X', 'utf8', path.join(path.dirname(fileURLToPath(import.meta.url)), 'pdf-blocks.py'), file], { maxBuffer: 1 << 28 });
+    const out = execFileSync('python', ['-I', '-X', 'utf8', path.join(path.dirname(fileURLToPath(import.meta.url)), 'pdf-blocks.py'), file, ...(opts.transcripts ? ['--transcripts', opts.transcripts] : [])], { maxBuffer: 1 << 28 });
     return { ...JSON.parse(out.toString('utf8')), files: {} };
   }
   const files = readZip(file);

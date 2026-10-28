@@ -17,7 +17,8 @@ if (!keyPath) {
   process.exit(1);
 }
 const config = (await import(`./topics/${topicName}.mjs`)).default;
-const { blocks: Q } = readDocx(questionsPath);
+// Pages of a PDF that are pictures of text are read from their checked transcripts (config.transcripts).
+const { blocks: Q } = readDocx(questionsPath, { transcripts: config.transcripts && path.join(here, 'transcripts', config.transcripts) });
 const { blocks: K } = readDocx(keyPath);
 if (config.analysisFile && !analysisPath) {
   console.error(`This topic also needs its analysis file (${config.analysisFile}) as the 4th argument.`);
@@ -849,6 +850,54 @@ function keyFor(section, passage) {
 }
 
 // ---- Build ----
+// ---- Key, extra file (config.aiKeyFile): answers pasted by the owner for passages the key file lacks ----
+// "## <name>", "### <n> | <answer>" + explanation lines ("- " = list line; **bold**, *italic*), "### tips".
+/** "**bold** and *italic*" -> runs. */
+function markup(s) {
+  const runs = [];
+  let b = false;
+  let i = false;
+  let buf = '';
+  for (let k = 0; k < s.length; ) {
+    if (s.startsWith('**', k) || s[k] === '*') {
+      if (buf) runs.push({ t: buf, ...(b ? { b: true } : {}), ...(i ? { i: true } : {}) });
+      buf = '';
+      if (s.startsWith('**', k)) {
+        b = !b;
+        k += 2;
+      } else {
+        i = !i;
+        k += 1;
+      }
+    } else buf += s[k++];
+  }
+  if (buf) runs.push({ t: buf, ...(b ? { b: true } : {}), ...(i ? { i: true } : {}) });
+  return runs;
+}
+function parseAiKey(file) {
+  const out = {};
+  let cur = null;
+  let target = null;
+  const text = fs.readFileSync(file, 'utf8').replace(/<!--[\s\S]*?-->/, '');
+  for (const line of text.split(/\r?\n/)) {
+    let m;
+    if ((m = line.match(/^## (\S+)\s*$/))) {
+      cur = out[m[1]] = { label: `AI key ${m[1]}`, answers: {}, expl: {}, tips: [] };
+      target = null;
+    } else if ((m = line.match(/^### (\d+) \| (.+)$/))) {
+      if (cur.answers[m[1]]) fail(`AI key: two answers for ${m[1]}`);
+      cur.answers[m[1]] = m[2].trim();
+      target = cur.expl[m[1]] = [];
+    } else if (/^### tips\s*$/.test(line)) target = cur.tips;
+    else if (line.trim() && target) {
+      const list = line.startsWith('- ');
+      target.push({ type: 'p', runs: markup(list ? line.slice(2) : line), ...(list ? { list: true } : {}) });
+    }
+  }
+  return out;
+}
+const aiKey = config.aiKeyFile ? parseAiKey(path.join(here, 'keys', config.aiKeyFile)) : null;
+
 const tableSections = config.keyFormat === 'units' || config.keyFormat === 'tables' ? null : parseKeyTable();
 const unitSections = config.keyFormat === 'units' ? parseKeyUnits() : null;
 const tablesKey = config.keyFormat === 'tables' ? parseKeyTables() : null;
@@ -858,6 +907,13 @@ const titleMatches = (x, y) => {
   const b = norm(y);
   return a.startsWith(b.slice(0, 20)) || b.startsWith(a.slice(0, 20));
 };
+
+/** A passage answered by the extra key file: same shape as the key file's sections. */
+function aiSectionFor(name, title) {
+  const s = aiKey?.[name] || fail(`AI key: no section ${name}`);
+  problems.push(`${title}: answers and explanations from ${config.aiKeyFile} (approved)`);
+  return { label: s.label, title, answers: s.answers, alts: {}, altsOnlyFor: null, expl: s.expl, evidence: {}, crossCheck: null, strategy: s.tips.length ? [{ type: 'h', runs: [{ t: 'Mẹo rút ra' }] }, ...s.tips] : [], reading: [] };
+}
 
 const passages = config.passages.map((pc, i) => {
   const where = `passage ${i + 1}${pc.unit ? ` (unit ${pc.unit})` : ''}`;
@@ -882,8 +938,10 @@ const passages = config.passages.map((pc, i) => {
       ? unitSections[pc.unit] || fail(`key: no UNIT ${pc.unit}`)
       : tablesKey
         ? tablesKey.units[pc.unit] || fail(`key: no UNIT ${pc.unit}`)
-        : tableSections[i] || fail(`key: no section for ${where}`);
-  if (!titleMatches(section.title, plain(title))) fail(`${where}: key section "${section.title}" does not match title "${plain(title)}"`);
+        : pc.aiKey
+          ? aiSectionFor(pc.aiKey, plain(title))
+          : tableSections[i] || fail(`key: no section for ${where}`);
+  if (!pc.aiKey && !titleMatches(section.title, plain(title))) fail(`${where}: key section "${section.title}" does not match title "${plain(title)}"`);
   if (fromAnalysis) spellOut(section, p.groups);
   // Approved: the key gives the idea for a word-list question; the owner-approved letter is the answer.
   for (const [n, letter] of Object.entries(pc.answerLetters || {})) {
@@ -902,9 +960,10 @@ const passages = config.passages.map((pc, i) => {
   p.strategy = section.strategy;
   p.reading = section.reading;
   if (section.notes?.length) p.keyNotes = section.notes; // a note the key puts before the answers (shown)
+  if (pc.note) p.keyNotes = [...(p.keyNotes || []), { type: 'p', runs: [{ t: pc.note }] }]; // page note (config)
   return p;
 });
-if (tableSections && tableSections.length !== passages.length) fail(`key has ${tableSections.length} sections, config has ${passages.length} passages`);
+if (tableSections && tableSections.length !== passages.filter((p, i) => !config.passages[i].aiKey).length) fail(`key has ${tableSections.length} sections, config has ${passages.length} passages`);
 
 const data = {
   topic: config.topic,
