@@ -897,3 +897,10 @@ input[type='text'] {
     white-space: normal;
   }
 }
+
+img.chart {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem auto;
+}

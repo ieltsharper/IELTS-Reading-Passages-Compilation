@@ -5,6 +5,7 @@
 // It stops with an error when the files do not match the topic config or the key disagrees with itself.
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
 import { applyFixes, block, clean, isEmpty, plain, slice, splitRuns, trim } from './runs.mjs';
@@ -23,6 +24,13 @@ if (config.analysisFile && !analysisPath) {
   process.exit(1);
 }
 const A = analysisPath ? readDocx(analysisPath).blocks : null;
+if (/\.pdf$/i.test(questionsPath)) {
+  // Pictures in the PDF (e.g. a flow-chart): saved as assets/img/<topic>/<id>.png.
+  const dir = path.join(here, '..', 'assets', 'img', config.slug);
+  fs.rmSync(dir, { recursive: true, force: true });
+  fs.mkdirSync(dir, { recursive: true });
+  execFileSync('python', ['-I', '-X', 'utf8', path.join(here, 'pdf-blocks.py'), questionsPath, '--images', dir], { maxBuffer: 1 << 28 });
+}
 
 const problems = [];
 const fail = (msg) => {
@@ -72,7 +80,11 @@ function wordLimit(text) {
 function splitTab(p) {
   const text = plain(p.runs);
   const tab = text.indexOf('\t');
-  if (tab < 0) return [null, trim(p.runs)];
+  if (tab < 0) {
+    // PDF items set with a space ("1 In the cultivation of olives…").
+    const m = config.itemsWithSpace && text.match(/^\s*(\d{1,2})\s+(?=\S)/);
+    return m ? [m[1], trim(slice(p.runs, m[0].length))] : [null, trim(p.runs)];
+  }
   return [text.slice(0, tab).trim(), trim(slice(p.runs, tab + 1))];
 }
 /** Removes an answer leader at the end of a stem ("Celia Lashlie ……", "Alison Wray 37 ……", "1400:……"). */
@@ -250,6 +262,7 @@ function buildGroup(g, where, passage) {
   } else if (g.type === 'gap' || g.type === 'bank') {
     const content = range(g.content).flatMap(unwrap).map(block).filter((x) => !isEmpty(x));
     let inline = null;
+    let inlineBefore = false; // the word list is printed before the summary (a line of its own)
     // Footnotes printed after the word list ("… J two [1] Pleistocene era: … [2] …"): moved under the passage.
     if (g.footnotesFrom) {
       const host = content.find((b) => b.type === 'p' && plain(b.runs).includes(g.footnotesFrom.at)) || fail(`${W}: footnotes not found`);
@@ -264,10 +277,16 @@ function buildGroup(g, where, passage) {
       inline = inlineOptions(slice(host.runs, cut), W, g.optionsAnyOrder);
       if (g.optionsAnyOrder) problems.push(`${W}: word list printed in columns; listed A, B, C… on the page`);
       host.runs = trim(slice(host.runs, 0, cut));
+      if (!plain(host.runs).trim()) {
+        inlineBefore = content.indexOf(host) === 0;
+        content.splice(content.indexOf(host), 1);
+      }
     }
     const seen = [];
-    for (const b of content) {
-      if (b.type !== 'p') fail(`${W}: table inside completion content is not supported yet`);
+    // Tables (PDF table completion): their cells' paragraphs are read row by row, like the text.
+    const paras = content.flatMap((b) => (b.type === 'p' ? [b] : b.rows.flat(2)));
+    for (const b of paras) {
+      if (b.runs.some((r) => r.img)) continue; // a picture: no text, no blanks
       let text = plain(b.runs);
       // A numbered item ("11\tIn the experience … when …… in one's"): its blank has no number in front.
       const lead = text.match(/^(\d{1,2})\.?\t/);
@@ -277,7 +296,8 @@ function buildGroup(g, where, passage) {
         b.number = leadN;
         text = plain(b.runs);
       }
-      const re = /\(?(\d{1,2})\)?\s*[…_]{2,}|[…_]{3,}/g;
+      // A numbered cell ("3\t…….. Household object"): its blank may be only two dots long.
+      const re = leadN ? /\(?(\d{1,2})\)?\s*[…_]{2,}|[…_]{2,}/g : /\(?(\d{1,2})\)?\s*[…_]{2,}|[…_]{3,}/g;
       const parts = [];
       let pos = 0;
       let last = null;
@@ -304,17 +324,27 @@ function buildGroup(g, where, passage) {
       parts.push(...slice(b.runs, pos));
       b.runs = clean(parts.map((r) => (r.gap ? r : { ...r })));
     }
+    // A chart printed as a picture (approved: shown as it is): its answer boxes go under it, one per line.
+    if (g.gapsBelowPicture) {
+      if (!content.some((b) => b.type === 'p' && b.runs.some((r) => r.img))) fail(`${W}: no picture in the content`);
+      for (const n of numbers) {
+        content.push({ type: 'p', runs: [{ gap: n }] });
+        seen.push(n);
+      }
+      problems.push(`${W}: chart shown as a picture, answer boxes ${numbers.join(', ')} under it`);
+    }
     for (const n of g.pairs || []) if (!seen.includes(`${n}b`)) fail(`${W}: question ${n} should have two blanks`);
     seen.splice(0, seen.length, ...seen.filter((s) => typeof s === 'number'));
     // `gapOrder`: the source prints the blanks out of order (notes laid out in columns).
     if (seen.join() !== (g.gapOrder || numbers).join()) fail(`${W}: gaps found ${seen.join()} but expected ${numbers.join()}`);
     out.content = content;
+    if (g.imageAlt) out.imageAlt = g.imageAlt;
     if (g.type === 'gap') {
       out.limit = wordLimit(introText);
       if (!out.limit) fail(`${W}: no word limit in the instructions`);
     } else {
       out.options = inline ? { title: null, list: inline } : optionList(g.options, W);
-      out.optionsAfter = inline ? true : !!g.optionsAfter;
+      out.optionsAfter = inline ? !inlineBefore : !!g.optionsAfter;
       checkKeys(out.options.list, W);
     }
   } else fail(`unknown group type ${g.type}`);
@@ -376,7 +406,7 @@ function bodyOf(blocks, firstIndex, pc) {
 // ---- Key, layout 1 (Education): answer table "Bài | Đáp án" + sections "Bài n – title (Qa–b)" ----
 const keyText = (b) => textOf(b).trim();
 function parseKeyTable() {
-  const summary = K.find((b) => b.kind === 'tbl' && keyText({ kind: 'p', runs: b.rows[0][0][0]?.runs || [] }) === 'Bài');
+  const summary = K.find((b) => b.kind === 'tbl' && /^Bài( đọc)?$/.test(keyText({ kind: 'p', runs: b.rows[0][0][0]?.runs || [] })));
   if (!summary) fail('key: no answer table starting with "Bài"');
   const sections = [];
   let cur = null;
@@ -396,6 +426,7 @@ function parseKeyTable() {
       const t = keyText(b);
       part = /^Bước 1/.test(t) ? 'step1' : /^Bước 2/.test(t) ? 'step2' : /^Bước 3/.test(t) ? 'step3' : /^Bảng keyword/.test(t) ? 'table' : fail(`key: unknown heading ${t}`);
       if (part === 'step1' || part === 'step2') cur[part].push({ type: 'h', runs: trim(b.runs) });
+      if (part === 'table') cur.tableHead = { type: 'h', runs: trim(b.runs) };
       continue;
     }
     if (!part) continue;
@@ -417,6 +448,16 @@ function parseKeyTable() {
     let target = null;
     for (const b of section.step3) {
       const t = keyText(b);
+      if (config.keyStep3 === 'cau') {
+        // "Đoạn 1 → Câu 1. … Đáp án tree." (one question) or a list line "Câu 2: … Đáp án sheep.";
+        // "Đoạn 2 → Câu 2, 3, 4." and "Đoạn B. …" (no question) are reading notes, not explanations.
+        const one = !b.list && t.match(/→ Câu (\d+)\. /);
+        const line = b.list && t.match(/^Câu (\d+): /);
+        const n = one?.[1] || line?.[1];
+        if (n) add(n, b);
+        else if (b.list) fail(`key Bài ${section.n}: list line without a question: ${t.slice(0, 60)}`);
+        continue;
+      }
       if (b.kind === 'p' && !b.list) {
         const c = t.match(/^Chốt Q(\d+)[–-](\d+)/);
         if (c) {
@@ -464,7 +505,7 @@ function parseKeyTable() {
       expl,
       evidence,
       crossCheck: { heads, tableAnswers },
-      strategy: [...section.step1, ...section.step2].map((x) => (x.type === 'h' ? x : block(x))).filter((x) => x.type === 'h' || !isEmpty(x)),
+      strategy: [...section.step1, ...section.step2, ...(config.keyTableInStrategy ? [section.tableHead, t] : [])].map((x) => (x.type === 'h' ? x : block(x))).filter((x) => x.type === 'h' || !isEmpty(x)),
       reading: [],
     };
   });
@@ -844,6 +885,11 @@ const passages = config.passages.map((pc, i) => {
         : tableSections[i] || fail(`key: no section for ${where}`);
   if (!titleMatches(section.title, plain(title))) fail(`${where}: key section "${section.title}" does not match title "${plain(title)}"`);
   if (fromAnalysis) spellOut(section, p.groups);
+  // Approved: the key gives the idea for a word-list question; the owner-approved letter is the answer.
+  for (const [n, letter] of Object.entries(pc.answerLetters || {})) {
+    problems.push(`${where} Q${n}: key says ${JSON.stringify(section.answers[n])}, answer set to ${letter} (approved)`);
+    section.answers[n] = letter;
+  }
   if (config.vocabulary) {
     const v = analysisSections?.[pc.unit] || fail(`analysis: no UNIT ${pc.unit} for the vocabulary`);
     if (!titleMatches(v.title, plain(title))) fail(`${where}: analysis section "${v.title}" does not match title "${plain(title)}"`);

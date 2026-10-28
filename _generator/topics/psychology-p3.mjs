@@ -5,7 +5,8 @@
 // and "AK IELTS_Reading_Passage3_Psychology.docx" (key: answer tables + notes + "Chẻ nhỏ câu dài khó").
 // Decisions agreed with the owner (2026-10-27):
 // (a) own topic "Psychology – Passage 3" (seed batch 6); (b) Unit 3 Q27 = C, as the key file says;
-// (c) Unit 4 is left out until the owner sends its A–K word list; (d) not built (Unit 4);
+// (c) Unit 4's A–K word list (missing from the source) supplied by the owner as an image, 2026-10-28, and its
+// answers matched to those letters (approved 2026-10-28); (d) Unit 4 Q39 kept as written;
 // (e) text damaged by drop caps restored, with the restored letter in ⟨ ⟩ (Unit 9; Unit 2 has the same damage);
 // (f) Unit 18's phrase list is shown as written (E twice); (g) small source slips kept as written;
 // (h) the key's answer for arguable questions, with its note; (i) both written forms accepted;
@@ -22,7 +23,7 @@ export default {
   groups: [PS, PB, LS, PC],
   keyFormat: 'tables',
   keyNotesAfterAnswers: true,
-  omitKeyNotes: ['Ghi chú: bài này cũng nằm trong VOL 4'],
+  omitKeyNotes: ['Ghi chú: bài này cũng nằm trong VOL 4', 'Ghi chú Q35–40: đề gốc yêu cầu chọn chữ cái A–K'],
   questionsFile: 'IELTS_Reading_Passage3_Psychology.docx',
   keyFile: 'AK IELTS_Reading_Passage3_Psychology.docx',
   fixes: [
@@ -44,6 +45,8 @@ export default {
     // Option-list headings run into the last question; the heading is dropped so the question reads correctly.
     { block: 401, find: " List of Claims", replace: '' },
     { block: 426, find: ' Lists of Endings', replace: '' },
+    // Decision (c): Unit 4's word list, typed from the owner's image, in place of the placeholder line.
+    { block: 210, find: '[Word list A–K not included in the source PDF – see the note in the answer key.]', replace: 'A parental love B imaginative games C physical development D generous behaviour E strong marriages F greater individuality G learning experiences H career success I closer relationships J healthy competition K mental well-being' },
     // Unit 18's subtitle starts with the article "A", which the source set off with a tab like a paragraph letter.
     { block: 997, find: 'A\tNew Zealand', replace: 'A New Zealand' },
   ],
@@ -86,6 +89,21 @@ export default {
         { type: 'bank', title: [145, "Questions 32–36"], intro: [[146, "Complete the summary"], [147, "Write the correct"]], content: [[149, "The television series"], [149, "The television series"]], inlineOptions: ' A consequences' },
         { type: 'tfng', title: [151, "Questions 37–40"], intro: [[152, "Do the following"], [156, "NOT GIVEN\tif there is"]], items: [[157, "37\tEkman regrets the"], [160, "40\tEkman is more"]] },
       ],
+    },
+    {
+      unit: 4,
+      group: PS,
+      slug: 'unit-04-all-in-the-family',
+      title: [166, "All in the family"],
+      standfirst: [169, "A person's brothers"],
+      body: [[170, "We can choose our"], [177, "Another consideration"]],
+      groups: [
+        { type: 'ynng', title: [179, "Questions 27–30"], intro: [[180, "Choose YES if"], [180, "Choose YES if"]], items: [[181, "27	Parents and"], [184, "30	Parental"]] },
+        { type: 'mcq', title: [185, "Questions 31–34"], intro: [[186, "Choose the correct"], [186, "Choose the correct"]], items: [[187, "31	What point"], [206, "D	The family"]] },
+        { type: 'bank', title: [207, "Questions 35–40"], intro: [[208, "Complete the summary"], [209, "Choose the correct"]], content: [[210, "A parental love"], [212, "The positive aspects"]], inlineOptions: 'A parental love' },
+      ],
+      // Decision (c): the key gives the idea from the passage; these are the matching letters of the word list.
+      answerLetters: { 35: 'G', 36: 'B', 37: 'F', 38: 'I', 39: 'K', 40: 'D' },
     },
     {
       unit: 5,

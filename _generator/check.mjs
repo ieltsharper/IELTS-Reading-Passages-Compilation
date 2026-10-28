@@ -95,7 +95,8 @@ if (config.keyFormat === 'units') {
     if (head[0] !== 'Câu' || head[1] !== 'Đáp án') continue;
     for (const r of b.rows.slice(1)) unit[r[0].map(textOf).join('').trim()] = r[1].map(textOf).join(' ').trim().replace(/\s*\(.*\)\s*$/, '');
   }
-  keyAnswers = config.passages.map((pc) => byUnit[pc.unit]);
+  // Owner-approved letters for questions the key answers with the idea only (config answerLetters).
+  keyAnswers = config.passages.map((pc) => ({ ...byUnit[pc.unit], ...pc.answerLetters }));
 } else {
   const keyTable = K.find((b) => b.kind === 'tbl' && textOf(b).startsWith('Bài'));
   keyAnswers = keyTable.rows.slice(1).map((row) => {

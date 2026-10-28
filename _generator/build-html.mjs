@@ -13,10 +13,12 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const plain = (runs) => (runs || []).map((r) => r.t || '').join('');
 
 /** Runs -> HTML. `gap` runs are handed to onGap(n). */
-function runsHtml(runs, onGap) {
+function runsHtml(runs, onGap, opts = {}) {
   return (runs || [])
     .map((r) => {
       if (r.gap) return onGap ? onGap(r.gap, r.part) : `[${r.gap}]`;
+      // A picture from the PDF (assets/img/<topic>/<id>.png), e.g. a flow-chart.
+      if (r.img) return `<img class="chart" src="../assets/img/${opts.topic}/${r.img}.png" alt="${esc(opts.alt || 'Picture from the test paper')}">`;
       if (r.t === undefined) return '';
       let h = esc(r.t).replace(/\t/g, ' ').replace(/\n/g, '<br>');
       if (r.u) h = `<u>${h}</u>`;
@@ -41,7 +43,7 @@ function blocksHtml(blocks, opts = {}) {
     if (inList) out += '</ul>';
     inList = false;
     if (b.type === 'h') out += `<h3>${runsHtml(b.runs)}</h3>`;
-    else if (b.type === 'p') out += `<p${b.center ? ' class="center"' : ''}>${runsHtml(b.runs, opts.onGap)}</p>`;
+    else if (b.type === 'p') out += `<p${b.center ? ' class="center"' : ''}>${runsHtml(b.runs, opts.onGap, opts)}</p>`;
     else out += tableHtml(b, opts);
   }
   if (inList) out += '</ul>';
@@ -203,7 +205,7 @@ function groupHtml(g, p, qs) {
       const mark = isPair(n) ? '' : `<span class="mark" id="mark-${id}" aria-hidden="true"></span>`;
       return `<span class="gap" id="item-${id}"><label class="qn" for="${id}"><span class="sr-only">Question </span>${n}${isPair(n) ? '<span class="sr-only">, first blank</span>' : ''}</label>${input}${mark}</span>`;
     };
-    h += `<div class="content">${blocksHtml(g.content, { onGap })}</div>`;
+    h += `<div class="content">${blocksHtml(g.content, { onGap, topic: p.topicSlug, alt: g.imageAlt })}</div>`;
     h += `<div class="fb-list">${g.numbers.map((n) => {
       const word = bank ? bank.find((o) => o.key === key[n].answer) : null;
       let extra = word ? ` <span class="muted">(${esc(plain(word.runs))})</span>` : '';
@@ -224,7 +226,7 @@ function groupHtml(g, p, qs) {
 
 function passagePage(topic, p) {
   const qs = [];
-  const groups = p.groups.map((g) => groupHtml(g, p, qs)).join('\n');
+  const groups = p.groups.map((g) => groupHtml(g, { ...p, topicSlug: topic.slug }, qs)).join('\n');
   const total = countOf(p);
   const head = p.head.map((b) => `<p class="p-head">${runsHtml(b.runs)}</p>`).join('');
   // The source line is "27 ……": keep its dots, link the number to its question.

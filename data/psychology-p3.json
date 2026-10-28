@@ -3453,8 +3453,1229 @@
    ]
   },
   {
-   "slug": "unit-05-willpower",
+   "slug": "unit-04-all-in-the-family",
    "order": 4,
+   "number": 4,
+   "group": "Personality, Self-control & Social Influence",
+   "head": [],
+   "title": [
+    {
+     "t": "All in the family",
+     "b": true
+    }
+   ],
+   "standfirst": {
+    "type": "p",
+    "runs": [
+     {
+      "t": "A person's brothers and sisters can have a powerful effect on their adult behaviour",
+      "i": true
+     }
+    ],
+    "center": true
+   },
+   "body": [
+    {
+     "runs": [
+      {
+       "t": "We can choose our friends, the saying goes, but we cannot choose our family of origin. Our parents provide the genetic material and make powerful early role models, but even more influential in determining what kind of adult we will become are our brothers and sisters - our siblings. They occupy a position of unique intimacy in our lives and cast a longer shadow than many recognize or are prepared to acknowledge. By turns enraging and lovable, familiar and mysterious, our brothers and sisters are the human beings who people our first social relationships. And a sibling relationship is the most enduring relationship many of us will ever have, less emotionally intense than the bonds we form with our spouses and our own children if only because they started when we were so young."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Surprising new research by Dr Gene Brody found that having older children who do well in school and are well liked by other children leads to parental 'basking' - increasing mothers' self-esteem. It is clear that in turn this is associated with more positive parenting of younger children, who display fewer behavioural problems as a result. Conversely, parents who get a difficult first child may in turn experience a negative spiral of household tension."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "International sports star Piri Weepu is a rugby hard man, but at least some of his tough temperament was forged long ago in the family home. His older brother Billy started rugby-tackling little Piri when he was just four - to 'harden him up'. It seemed to work: Piri followed his brother in playing for the under-sevens league before he even started school. There are as many such stories as there are families: in the formative hothouse of the family, siblings interact in complex ways with the powerful force fields of parents, genetics and personality already at work. It starts with birth order, which determines play roles: the firstborn leader, the middle-child mediator and the rebellious youngest. These are roles than can stick for life."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Clinical psychologist Claire Cartwright says she has clients who believe, and it might not have been true, that they were treated differently from their siblings, that one child in the family was preferred over others. They are quite convinced that the parental judgments on them all those years ago were harsher, and that they were the ones who always got into trouble. Later, in the workplace, such a person might be particularly defensive, and so behave in a way more prone to attracting harsh judgements."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "However, the research shows that being Mummy or Daddy's favourite has its own traps. If you were the easy-going, co-operative child at home, you probably excelled at pleasing parents and, later, bosses. But you might, as an adult, find it hard to be assertive with authority figures and lack direction. On the other hand, the sibling who is disruptive and annoying as a child may be able to reinterpret that role later, turning those attention-seeking characteristics into strengths like determination and leadership."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "How is it that full siblings, despite sharing DNA, can turn out so differently? One answer is that, in fact, each sibling grows up in a different family, a unique micro- culture. For example, the firstborn is, for a while, an only child, and therefore has a completely different experience of the parents than those born later. The parents themselves are growing up too, weathering hardship or good fortune, so one sibling might experience stability and closeness while another might be raised in the midst of crisis."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Of course, there are many positive aspects of sibling relationships. Annette Henderson, a lecturer in psychology, says firstborn children learn vocabulary more quickly than their siblings because they are not competing to spend one-on-one time with parents. But younger children in turn benefit from unintentional instruction from their bigger brothers and sisters, acquiring entire phrases and an understanding of social concepts such as politeness. Similarly, a Cambridge University study of 140 children found that even when there is a great deal of conflict, siblings will still create a rich world of play and make-believe that extends them developmentally. Love-hate relationships were common among the children, but even those who fought the most had as many positive interactions as the other sibling pairs. It is also true that children compete for parental attention by making themselves different from their brothers and sisters, particularly if they are close in age. A 2003 research paper studied adolescents from 185 families over two years, finding that those who changed, to differentiate themselves from their siblings, increased the amount of warmth they gained from parents, and also developed stronger personalities and a better sense of their own identity."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Another consideration is that many families today are smaller and more intimate than their historical counterparts. This may be advantageous because siblings tend to know each other better and remain lifelong friends compared to children from bigger or more widely spaced families, who perhaps lose touch with one another after leaving home. Then there was a 2010 American study which found that having a sister, whether younger or older, meant that 10-to 14-year-olds were less likely to feel lonely, unloved, self-conscious or fearful. The same study found that having a loving sibling of either gender promoted good deeds, such as helping a neighbor around the house or helping other children at school."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "ynng",
+     "title": "Questions 27–30",
+     "numbers": [
+      27,
+      28,
+      29,
+      30
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": " if the statement agrees with the claims of the writer, choose "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": " if the statement contradicts the claims of the writer, or "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": " if it is impossible to say what the writer thinks about this."
+        }
+       ]
+      }
+     ],
+     "choices": [
+      "YES",
+      "NO",
+      "NOT GIVEN"
+     ],
+     "questions": [
+      {
+       "n": 27,
+       "stem": [
+        {
+         "t": "Parents and siblings play equal roles in shaping people's adult personalities."
+        }
+       ]
+      },
+      {
+       "n": 28,
+       "stem": [
+        {
+         "t": "People's first social relationships tend to be with siblings of their own gender."
+        }
+       ]
+      },
+      {
+       "n": 29,
+       "stem": [
+        {
+         "t": "People's relationships with their siblings tend to receive less attention when they marry."
+        }
+       ]
+      },
+      {
+       "n": 30,
+       "stem": [
+        {
+         "t": "Parental 'basking' is advantageous for later siblings."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "mcq",
+     "title": "Questions 31–34",
+     "numbers": [
+      31,
+      32,
+      33,
+      34
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct answer."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 31,
+       "stem": [
+        {
+         "t": "What point does the writer make about birth order in the third paragraph?"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "Its role is underestimated by parents."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "It may shape the characteristics of adults."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "Its importance decreases as children grow up."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "It has more influence on personality than genetics."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 32,
+       "stem": [
+        {
+         "t": "What are we told about some of Claire Cartwright's clients?"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "Their parents treated them fairly."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "They were treated harshly by their siblings."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "Their perceptions of childhood may be inaccurate."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "They have closer relations with their siblings as adults."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 33,
+       "stem": [
+        {
+         "t": "What is the writer's main point about siblings in the fifth paragraph?"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "Parents tend to repeat their own parents' mistakes."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "Favored children are likely to make good leaders as adults."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "Negative characteristics in children can become positive in adults."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "Attention-seeking children are unlikely to please bosses in later life."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 34,
+       "stem": [
+        {
+         "t": "Which of the following best summarises the writer's argument in the sixth paragraph?"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "Many children have a favourite parent."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "Parenting skills improve with later children."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "Siblings are born with different personalities."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "The family environment may change over time."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "bank",
+     "title": "Questions 35–40",
+     "numbers": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete the summary using the list of words, A-K, below."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct letter, A-K, in boxes 35-40."
+        }
+       ]
+      }
+     ],
+     "content": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "The positive aspects of sibling relationships",
+         "b": true
+        }
+       ],
+       "center": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Annette Henderson suggests that young children's interactions with older siblings involve "
+        },
+        {
+         "gap": 35
+        },
+        {
+         "t": ". Also, a Cambridge study found that siblings still enjoy "
+        },
+        {
+         "gap": 36
+        },
+        {
+         "t": " even when they have a tendency to fight. Research conducted in 2003 suggests that children develop "
+        },
+        {
+         "gap": 37
+        },
+        {
+         "t": " as a result of seeking attention. Another factor is the trend for smaller families, which may mean that today's siblings enjoy "
+        },
+        {
+         "gap": 38
+        },
+        {
+         "t": " as adults. A 2010 American study linked having a sister with among "
+        },
+        {
+         "gap": 39
+        },
+        {
+         "t": " children aged 10-14. Finally, having a sibling may promote "
+        },
+        {
+         "gap": 40
+        },
+        {
+         "t": " according to the same study."
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": null,
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "parental love"
+         }
+        ]
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "imaginative games"
+         }
+        ]
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "physical development"
+         }
+        ]
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "generous behaviour"
+         }
+        ]
+       },
+       {
+        "key": "E",
+        "runs": [
+         {
+          "t": "strong marriages"
+         }
+        ]
+       },
+       {
+        "key": "F",
+        "runs": [
+         {
+          "t": "greater individuality"
+         }
+        ]
+       },
+       {
+        "key": "G",
+        "runs": [
+         {
+          "t": "learning experiences"
+         }
+        ]
+       },
+       {
+        "key": "H",
+        "runs": [
+         {
+          "t": "career success"
+         }
+        ]
+       },
+       {
+        "key": "I",
+        "runs": [
+         {
+          "t": "closer relationships"
+         }
+        ]
+       },
+       {
+        "key": "J",
+        "runs": [
+         {
+          "t": "healthy competition"
+         }
+        ]
+       },
+       {
+        "key": "K",
+        "runs": [
+         {
+          "t": "mental well-being"
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": false
+    }
+   ],
+   "key": {
+    "27": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Cha mẹ cung cấp gen và hình mẫu, nhưng \"even more influential ... are our brothers and sisters\": anh chị em ảnh hưởng lớn hơn, không phải ngang nhau."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "28": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Bài nói anh chị em là quan hệ xã hội đầu tiên, nhưng không nói cùng giới."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "29": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Bài chỉ nói quan hệ anh chị em kém mãnh liệt hơn vợ chồng, không nói nó bị chú ý ít hơn sau khi kết hôn."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "30": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "\"basking\" nâng cao lòng tự trọng của mẹ, dẫn tới nuôi dạy tích cực hơn với con nhỏ, nên con nhỏ ít vấn đề hành vi hơn."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "31": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 3: thứ tự sinh quyết định vai trò chơi (lãnh đạo, hòa giải, nổi loạn) và \"roles that can stick for life\" ↔ có thể định hình đặc điểm người trưởng thành."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "32": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Cartwright: khách hàng tin mình bị đối xử khác, \"it might not have been true\" ↔ nhận thức về tuổi thơ có thể không chính xác."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "33": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 5: đứa trẻ gây rối có thể biến đặc điểm tìm sự chú ý thành \"determination and leadership\" ↔ đặc điểm tiêu cực thành tích cực."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "34": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 6: mỗi anh chị em lớn lên trong một \"micro-culture\" khác; bố mẹ cũng thay đổi, có lúc ổn định, có lúc khủng hoảng ↔ môi trường gia đình thay đổi theo thời gian."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "35": {
+     "answer": "G",
+     "accept": [
+      "G"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Em nhỏ \"benefit from unintentional instruction from their bigger brothers and sisters\"."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "36": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dù xung đột, anh chị em vẫn tạo \"a rich world of play and make-believe\"."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "37": {
+     "answer": "F",
+     "accept": [
+      "F"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Nghiên cứu 2003: trẻ tự khác biệt hóa \"developed stronger personalities and a better sense of their own identity\"."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "38": {
+     "answer": "I",
+     "accept": [
+      "I"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Gia đình nhỏ hơn: anh chị em hiểu nhau hơn và \"remain lifelong friends\"."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "39": {
+     "answer": "K",
+     "accept": [
+      "K"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Nghiên cứu Mỹ 2010: có chị/em gái giúp trẻ 10–14 tuổi ít \"lonely, unloved, self-conscious or fearful\"."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "40": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Có anh chị em yêu thương \"promoted good deeds\"."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    }
+   },
+   "strategy": [],
+   "reading": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu khó 1",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu gốc: ",
+       "b": true
+      },
+      {
+       "t": "Our parents provide the genetic material and make powerful early role models, but even more influential in determining what kind of adult we will become are our brothers and sisters - our siblings.",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: even more influential in determining what kind of adult we will become are our brothers and sisters",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ảnh hưởng còn lớn hơn trong việc quyết định ta thành người lớn thế nào là anh chị em"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 1 (Vế đầu (nhượng bộ)): ",
+       "b": true
+      },
+      {
+       "t": "Our parents provide the genetic material and make powerful early role models",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ cha mẹ cung cấp vật chất di truyền và là hình mẫu đầu đời mạnh mẽ"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 2 (Đồng vị): ",
+       "b": true
+      },
+      {
+       "t": "our siblings",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ anh chị em của ta"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ghép chuỗi và quan hệ giữa các ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu đảo ngữ (tính từ so sánh đứng đầu, chủ ngữ ở cuối). \"even more influential\" nghĩa là anh chị em hơn cha mẹ, nên câu 27 = NO."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu khó 2",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu gốc: ",
+       "b": true
+      },
+      {
+       "t": "It is clear that in turn this is associated with more positive parenting of younger children, who display fewer behavioural problems as a result.",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: this is associated with more positive parenting of younger children",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ điều này gắn với việc nuôi dạy tích cực hơn đối với con nhỏ"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 1 (Mệnh đề quan hệ): ",
+       "b": true
+      },
+      {
+       "t": "who display fewer behavioural problems as a result",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ những đứa trẻ vì vậy có ít vấn đề hành vi hơn"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ghép chuỗi và quan hệ giữa các ý: ",
+       "b": true
+      },
+      {
+       "t": "\"this\" = việc mẹ \"basking\" nâng cao tự trọng. Chuỗi: con lớn học giỏi → mẹ tự tin hơn → nuôi dạy tốt hơn → con nhỏ ít vấn đề. Cho câu 30 = YES."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu khó 3",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu gốc: ",
+       "b": true
+      },
+      {
+       "t": "Clinical psychologist Claire Cartwright says she has clients who believe, and it might not have been true, that they were treated differently from their siblings, that one child in the family was preferred over others.",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: Cartwright says she has clients who believe that they were treated differently from their siblings",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ Cartwright nói bà có thân chủ tin rằng họ bị đối xử khác anh chị em"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 1 (Chèn): ",
+       "b": true
+      },
+      {
+       "t": "and it might not have been true",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ và điều đó có thể không đúng"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 2 (Đồng vị): ",
+       "b": true
+      },
+      {
+       "t": "that one child in the family was preferred over others",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ rằng một đứa con trong nhà được ưu ái hơn"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ghép chuỗi và quan hệ giữa các ý: ",
+       "b": true
+      },
+      {
+       "t": "Cụm chèn \"it might not have been true\" là then chốt: nhận thức có thể sai. Đáp án câu 32 = C."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu khó 4",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu gốc: ",
+       "b": true
+      },
+      {
+       "t": "But you might, as an adult, find it hard to be assertive with authority figures and lack direction.",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: you might find it hard to be assertive with authority figures and lack direction",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ bạn có thể thấy khó quyết đoán với người có thẩm quyền và thiếu định hướng"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 1 (Chèn): ",
+       "b": true
+      },
+      {
+       "t": "as an adult",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ khi trưởng thành"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ghép chuỗi và quan hệ giữa các ý: ",
+       "b": true
+      },
+      {
+       "t": "\"But\" đối lập với câu trước (đứa con ngoan dễ làm hài lòng cha mẹ, sếp). Đoạn 5 đưa hai mặt: ngoan có cái bẫy, hư có thể thành điểm mạnh (câu 33)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu khó 5",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu gốc: ",
+       "b": true
+      },
+      {
+       "t": "A 2003 research paper studied adolescents from 185 families over two years, finding that those who changed, to differentiate themselves from their siblings, increased the amount of warmth they gained from parents, and also developed stronger personalities and a better sense of their own identity.",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: A 2003 research paper studied adolescents from 185 families over two years, finding that those ... increased the amount of warmth ... and also developed stronger personalities",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ Một nghiên cứu năm 2003 theo dõi thanh thiếu niên ... và thấy những em ... nhận được nhiều tình cảm hơn và còn phát triển cá tính mạnh hơn"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 1 (Mệnh đề quan hệ): ",
+       "b": true
+      },
+      {
+       "t": "those who changed, to differentiate themselves from their siblings",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ những em thay đổi để khác biệt với anh chị em"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 2 (Kết quả 1): ",
+       "b": true
+      },
+      {
+       "t": "increased the amount of warmth they gained from parents",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ tăng lượng tình cảm nhận từ cha mẹ"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ 3 (Kết quả 2): ",
+       "b": true
+      },
+      {
+       "t": "also developed stronger personalities and a better sense of their own identity",
+       "i": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ đồng thời có cá tính mạnh hơn và ý thức bản sắc rõ hơn"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ghép chuỗi và quan hệ giữa các ý: ",
+       "b": true
+      },
+      {
+       "t": "Hai kết quả song song nối bằng \"and also\". Câu hỏi 37 lấy kết quả 2 (personalities / identity)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "unit-05-willpower",
+   "order": 5,
    "number": 5,
    "group": "Personality, Self-control & Social Influence",
    "head": [],
@@ -4530,7 +5751,7 @@
   },
   {
    "slug": "unit-06-when-the-senses-mix-together",
-   "order": 5,
+   "order": 6,
    "number": 6,
    "group": "Perception & the Brain",
    "head": [],
@@ -5578,7 +6799,7 @@
   },
   {
    "slug": "unit-07-the-placebo-effect",
-   "order": 6,
+   "order": 7,
    "number": 7,
    "group": "Perception & the Brain",
    "head": [],
@@ -6645,7 +7866,7 @@
   },
   {
    "slug": "unit-08-blind-to-change",
-   "order": 7,
+   "order": 8,
    "number": 8,
    "group": "Perception & the Brain",
    "head": [],
@@ -7695,7 +8916,7 @@
   },
   {
    "slug": "unit-09-when-people-are-deaf-to-music",
-   "order": 8,
+   "order": 9,
    "number": 9,
    "group": "Perception & the Brain",
    "head": [],
@@ -8821,7 +10042,7 @@
   },
   {
    "slug": "unit-10-mapping-the-mind",
-   "order": 9,
+   "order": 10,
    "number": 10,
    "group": "Perception & the Brain",
    "head": [],
@@ -10014,7 +11235,7 @@
   },
   {
    "slug": "unit-11-looking-for-inspiration",
-   "order": 10,
+   "order": 11,
    "number": 11,
    "group": "Learning, Skill & Development",
    "head": [],
@@ -11062,7 +12283,7 @@
   },
   {
    "slug": "unit-12-understanding-symbols",
-   "order": 11,
+   "order": 12,
    "number": 12,
    "group": "Learning, Skill & Development",
    "head": [],
@@ -12189,7 +13410,7 @@
   },
   {
    "slug": "unit-13-jean-piaget",
-   "order": 12,
+   "order": 13,
    "number": 13,
    "group": "Learning, Skill & Development",
    "head": [],
@@ -13391,7 +14612,7 @@
   },
   {
    "slug": "unit-14-what-makes-a-musical-expert",
-   "order": 13,
+   "order": 14,
    "number": 14,
    "group": "Learning, Skill & Development",
    "head": [],
@@ -14596,7 +15817,7 @@
   },
   {
    "slug": "unit-15-the-benefits-of-learning-an-instrument",
-   "order": 14,
+   "order": 15,
    "number": 15,
    "group": "Learning, Skill & Development",
    "head": [],
@@ -15741,7 +16962,7 @@
   },
   {
    "slug": "unit-16-the-psychology-of-new-product-adoption",
-   "order": 15,
+   "order": 16,
    "number": 16,
    "group": "Persuasion & Consumer Behaviour",
    "head": [],
@@ -16927,7 +18148,7 @@
   },
   {
    "slug": "unit-17-the-science-of-shopping",
-   "order": 16,
+   "order": 17,
    "number": 17,
    "group": "Persuasion & Consumer Behaviour",
    "head": [],
@@ -18062,7 +19283,7 @@
   },
   {
    "slug": "unit-18-the-power-of-persuasion",
-   "order": 17,
+   "order": 18,
    "number": 18,
    "group": "Persuasion & Consumer Behaviour",
    "head": [],
@@ -19258,7 +20479,7 @@
   },
   {
    "slug": "unit-19-marketing-and-mind-control",
-   "order": 18,
+   "order": 19,
    "number": 19,
    "group": "Persuasion & Consumer Behaviour",
    "head": [],

@@ -52,7 +52,8 @@ export function trim(runs) {
 /** Generic, cleaned copy of a docx block for rendering (paragraph or table). */
 export function block(b) {
   if (b.kind === 'p') {
-    const x = { type: 'p', runs: trim(b.runs) };
+    // A picture (PDF chart) is kept as it is: { img } runs have no text to trim.
+    const x = { type: 'p', runs: b.runs.some((r) => r.img) ? clean(b.runs) : trim(b.runs) };
     if (b.center) x.center = true;
     if (b.list) x.list = true;
     return x;
@@ -105,6 +106,6 @@ export function splitRuns(runs, markers) {
   return bounds.slice(0, -1).map((a, i) => trim(slice(runs, a, bounds[i + 1])));
 }
 
-export const isEmpty =(b) => (b.type === 'p' ? !plain(b.runs).trim() : b.rows.every((r) => r.every((c) => !c.length)));
+export const isEmpty =(b) => (b.type === 'p' ? !plain(b.runs).trim() && !b.runs.some((r) => r.img) : b.rows.every((r) => r.every((c) => !c.length)));
 
 export { textOf };

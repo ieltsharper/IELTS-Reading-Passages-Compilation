@@ -5,6 +5,9 @@
 // changes) is dropped; images become a run { img: rId }.
 import fs from 'node:fs';
 import zlib from 'node:zlib';
+import path from 'node:path';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 
 export function readZip(file) {
   const buf = fs.readFileSync(file);
@@ -151,6 +154,11 @@ function table(tbl) {
 }
 
 export function readDocx(file) {
+  // A text PDF (History P1): read by pdf-blocks.py into the same blocks.
+  if (/.pdf$/i.test(file)) {
+    const out = execFileSync('python', ['-I', '-X', 'utf8', path.join(path.dirname(fileURLToPath(import.meta.url)), 'pdf-blocks.py'), file], { maxBuffer: 1 << 28 });
+    return { ...JSON.parse(out.toString('utf8')), files: {} };
+  }
   const files = readZip(file);
   const xml = files['word/document.xml'].toString('utf8');
   const body = xml.match(/<w:body>([\s\S]*)<\/w:body>/)[1];
