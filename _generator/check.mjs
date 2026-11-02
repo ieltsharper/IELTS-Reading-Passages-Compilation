@@ -13,6 +13,7 @@ import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
 import { applyFixes } from './runs.mjs';
+import { readBoxes } from './key-boxes.mjs';
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const [topicName, questionsPath, keyPath, analysisPath] = process.argv.slice(2);
@@ -37,7 +38,12 @@ let keyAnswers;
 // the key's answer plus these, nothing else.
 let keyAlts = [];
 const isWordAnswer = (a) => !/^([A-Z]|[ivx]+|TRUE|FALSE|NOT GIVEN|YES|NO)$/.test(a);
-if (config.keyFormat === 'units') {
+if (config.keyFormat === 'boxes') {
+  // "✅ Câu n → X" and settled "⏸ Qn … → NOT GIVEN" lines of each UNIT (key-boxes.mjs).
+  const units = readBoxes(K);
+  keyAnswers = config.passages.map((pc) => ({ ...units[pc.unit].answers, ...pc.answerOverride }));
+  keyAlts = config.passages.map((pc) => units[pc.unit].alts);
+} else if (config.keyFormat === 'units') {
   const byUnit = {};
   const altsByUnit = {};
   let unit = null;
@@ -188,15 +194,18 @@ for (const [i, pc] of config.passages.entries()) {
     const before = g.optionsAfter ? [] : opts;
     const after = g.optionsAfter ? opts : [];
     const extra = g.extra ? range(...g.extra) : [];
+    const afterContent = g.after ? range(...g.after) : []; // instructions printed under the content
     const main = g.items ? range(...g.items) : g.content ? range(...g.content) : g.grid ? [Q[g.grid[0]]] : [];
-    let srcText = [...parts, ...before, ...extra, ...main, ...after].map(blockText).join(' ');
+    let srcText = [...parts, ...before, ...extra, ...main, ...afterContent, ...after].map(blockText).join(' ');
     if (g.footnotesFrom) srcText = srcText.slice(0, srcText.indexOf(g.footnotesFrom.at)); // moved under the passage
+    // "TRUE FALSE NOT GIVEN" lines under each statement are replaced by the page's buttons.
+    if (g.type === 'tfng' || g.type === 'ynng') srcText = srcText.replace(/(^|\s)(TRUE|FALSE|NOT GIVEN|YES|NO)( (TRUE|FALSE|NOT GIVEN|YES|NO))+(?=\s|$)/g, ' ');
     const srcWords = words(srcText);
     const sec = sections[gi].cloneNode(true);
     // Not source text: feedback, marks, hints, selects, page labels and the TRUE/FALSE/NOT GIVEN buttons.
     sec.querySelectorAll('.fb, .fb-list, .mark, .hint, select, .sr-only, .ui-label, .tf .choices').forEach((e) => e.remove());
     sec.querySelectorAll('p, li, td, th, dt, dd, legend, label, h2, div').forEach((e) => e.append(' '));
-    if (g.optionsAnyOrder) {
+    if (g.optionsAnyOrder || g.columnOptions) {
       // A word list printed in columns is listed A, B, C… on the page: same words, letters without full stops.
       const bag = (ws) => ws.map((w) => w.replace(/\.$/, '')).sort().join(' ');
       ok(bag(srcWords) === bag(words(sec.textContent)), `${label} ${g.title[1]}: question words differ from the source`);

@@ -8,6 +8,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
+import { readBoxes } from './key-boxes.mjs';
 import { applyFixes, block, clean, isEmpty, plain, slice, splitRuns, trim } from './runs.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -181,11 +182,15 @@ function buildGroup(g, where, passage) {
   for (const k of ['alsoAccept', 'unordered', 'pairs']) if (g[k]) out[k] = g[k]; // approved answer rules (see keyFor)
   // Lines between the option list and the questions (e.g. "Example: Section A – ix").
   if (g.extra) out.extra = range(g.extra).map(block).filter((x) => !isEmpty(x));
-  const introText = intro.map((x) => (x.type === 'p' ? plain(x.runs) : '')).join(' ');
+  // Instructions the source prints after the table or summary ("Write ONE WORD ONLY…" under it).
+  if (g.after) out.after = range(g.after).map(block).filter((x) => !isEmpty(x));
+  const introText = [...intro, ...(out.after || [])].map((x) => (x.type === 'p' ? plain(x.runs) : '')).join(' ');
   const W = `${where} ${titleText}`;
   const items = () =>
     range(g.items)
       .filter(hasText)
+      // "TRUE FALSE NOT GIVEN" printed under each statement: the page shows its own buttons.
+      .filter((p) => !(out.choices && /^\s*(TRUE|FALSE|NOT GIVEN|YES|NO)(\s+(TRUE|FALSE|NOT GIVEN|YES|NO))+\s*$/.test(plain(p.runs))))
       .map((p) => {
         const [pre, stem] = splitTab(p);
         if (!/^\d+\.?$/.test(pre || '')) fail(`${W}: expected a numbered item, got ${JSON.stringify(plain(p.runs).slice(0, 40))}`);
@@ -217,9 +222,10 @@ function buildGroup(g, where, passage) {
   } else if (g.type === 'multi') {
     const ps = range(g.items).filter(hasText);
     const head = plain(ps[0].runs).match(/^\s*(\d+)\s*[-–]\s*(\d+)\s+/);
-    if (!head) fail(`${W}: no question numbers before the stem`);
-    out.label = `${head[1]}-${head[2]}`;
-    out.stem = trim(slice(ps[0].runs, head[0].length));
+    // g.stemWithoutNumbers: the source prints the question without its numbers ("According to the article, which TWO…").
+    if (!head && !g.stemWithoutNumbers) fail(`${W}: no question numbers before the stem`);
+    out.label = head ? `${head[1]}-${head[2]}` : `${numbers[0]}-${numbers[numbers.length - 1]}`;
+    out.stem = trim(slice(ps[0].runs, head ? head[0].length : 0));
     out.choose = g.choose;
     out.options = ps.slice(1).map((p, i) => {
       const [pre, rest] = splitTab(p);
@@ -239,11 +245,32 @@ function buildGroup(g, where, passage) {
       if (markers.join() !== numbers.join()) fail(`${W}: passage markers ${markers.join()} but questions ${numbers.join()}`);
       out.questions = numbers.map((n) => ({ n, stem: null }));
     } else out.questions = items().map((q) => ({ ...q, stem: stripLeader(q.stem) }));
+    // A list printed in a second column that the source merged into the ends of the item lines
+    // ("4	can endure very harsh environments List of sub-families", "5	includes the ox … A Antelope"):
+    // cut off at the given markers and shown as the option list below the questions.
+    if (g.columnOptions) {
+      const cut = [];
+      let k = 0;
+      for (const q of out.questions) {
+        const marker = g.columnOptions[k];
+        const at = marker ? plain(q.stem).lastIndexOf(marker) : -1;
+        if (at < 0) continue;
+        cut.push({ kind: 'p', runs: trim(slice(q.stem, at)) });
+        q.stem = trim(slice(q.stem, 0, at));
+        k++;
+      }
+      if (k !== g.columnOptions.length) fail(`${W}: column list markers not all found`);
+      out.options = optionsFromParas(cut, W);
+      out.optionsAfter = true;
+      out.columnOptions = true;
+      checkKeys(out.options.list, W);
+      problems.push(`${W}: the list printed beside the questions was cut from the item lines and shown below them`);
+    }
     if (g.options) {
       out.options = optionList(g.options, W, g.splitOptions);
       out.optionsAfter = !!g.optionsAfter;
       checkKeys(out.options.list, W, g.relabel);
-    } else out.letters = g.letters.split('');
+    } else if (!g.columnOptions) out.letters = g.letters.split('');
   } else if (g.type === 'grid') {
     const t = at(g.grid);
     const letters = t.rows[0].slice(1).map((c) => c.map(textOf).join('').trim());
@@ -584,6 +611,30 @@ function parseKeyUnits() {
   return out;
 }
 
+// ---- Key, layout 5 ("boxes", Environment): see key-boxes.mjs ----
+function parseKeyBoxes() {
+  const out = {};
+  const asBlocks = (list) => list.map((x) => (x.heading ? { type: 'h', runs: trim(x.heading.runs) } : block(x))).filter((x) => x.type === 'h' || !isEmpty(x));
+  for (const u of Object.values(readBoxes(K))) {
+    const expl = {};
+    for (const [k, b] of Object.entries(u.boxes)) expl[k] = b.kind === 'tbl' ? b.rows[0][0].map(block).filter((x) => !isEmpty(x)) : [block(b)];
+    out[u.unit] = {
+      label: `UNIT ${u.unit}`,
+      title: u.title,
+      answers: u.answers,
+      alts: u.alts,
+      altsOnlyFor: null,
+      expl,
+      evidence: {},
+      crossCheck: null,
+      // The key's notes on the source (they give answers away): first in the collapsed "Hướng dẫn One-Shot".
+      strategy: [...(u.notes.length ? [{ type: 'h', runs: [{ t: 'Ghi chú về đề và đáp án' }] }] : []), ...u.notes.flatMap((b) => b.rows[0][0].map(block)).filter((x) => !isEmpty(x)), ...asBlocks([...u.step1, ...u.step2])],
+      reading: asBlocks(u.step3.filter((b) => !(b.kind === 'p' && !plain(b.runs).trim()))).map((x) => (x.type === 'p' && x.runs && /^ĐOẠN /.test(plain(x.runs)) ? { type: 'h', runs: x.runs } : x)),
+    };
+  }
+  return out;
+}
+
 // ---- Key, layout 3 (One-shot analysis): "UNIT n · title" (Heading1), BƯỚC 1/2/3, a keyword table with
 // "Đáp án nhanh: 27 D · 28 G …", and an academic vocabulary list. Explanations are the "✅ Xử lý ngay" lines,
 // one segment per "Câu n" (segments are separated by line breaks inside the paragraph).
@@ -898,8 +949,8 @@ function parseAiKey(file) {
 }
 const aiKey = config.aiKeyFile ? parseAiKey(path.join(here, 'keys', config.aiKeyFile)) : null;
 
-const tableSections = config.keyFormat === 'units' || config.keyFormat === 'tables' ? null : parseKeyTable();
-const unitSections = config.keyFormat === 'units' ? parseKeyUnits() : null;
+const tableSections = ['units', 'tables', 'boxes'].includes(config.keyFormat) ? null : parseKeyTable();
+const unitSections = config.keyFormat === 'units' ? parseKeyUnits() : config.keyFormat === 'boxes' ? parseKeyBoxes() : null;
 const tablesKey = config.keyFormat === 'tables' ? parseKeyTables() : null;
 const analysisSections = A ? parseAnalysis(A) : null;
 const titleMatches = (x, y) => {

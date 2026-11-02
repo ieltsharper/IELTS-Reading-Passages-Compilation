@@ -206,6 +206,7 @@ function groupHtml(g, p, qs) {
       return `<span class="gap" id="item-${id}"><label class="qn" for="${id}"><span class="sr-only">Question </span>${n}${isPair(n) ? '<span class="sr-only">, first blank</span>' : ''}</label>${input}${mark}</span>`;
     };
     h += `<div class="content">${blocksHtml(g.content, { onGap, topic: p.topicSlug, alt: g.imageAlt })}</div>`;
+    if (g.after) h += `<div class="instr">${blocksHtml(g.after)}</div>`;
     h += `<div class="fb-list">${g.numbers.map((n) => {
       const word = bank ? bank.find((o) => o.key === key[n].answer) : null;
       let extra = word ? ` <span class="muted">(${esc(plain(word.runs))})</span>` : '';

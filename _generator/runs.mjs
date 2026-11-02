@@ -86,8 +86,14 @@ export function replaceInRuns(runs, find, replace) {
 export function applyFixes(blocks, fixes = []) {
   for (const f of fixes) {
     const b = blocks[f.block];
-    if (!b || b.kind !== 'p') throw new Error(`fix: block ${f.block} is not a paragraph`);
-    b.runs = replaceInRuns(b.runs, f.find, f.replace);
+    if (!b) throw new Error(`fix: block ${f.block} does not exist`);
+    if (b.kind === 'p') b.runs = replaceInRuns(b.runs, f.find, f.replace);
+    else {
+      // A table (e.g. a one-cell box of notes): the paragraph that holds the text.
+      const p = b.rows.flat(2).find((x) => x.kind === 'p' && x.runs.map((r) => r.t || '').join('').includes(f.find));
+      if (!p) throw new Error(`fix: ${JSON.stringify(f.find)} not found in table block ${f.block}`);
+      p.runs = replaceInRuns(p.runs, f.find, f.replace);
+    }
   }
 }
 
