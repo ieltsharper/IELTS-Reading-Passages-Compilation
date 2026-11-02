@@ -932,3 +932,11 @@ img.chart {
   height: auto;
   margin: 0.5rem auto;
 }
+
+/* Highlight and Note (ih-annotate.js) in dark mode */
+@media (prefers-color-scheme: dark) {
+  body mark.ih-hl {
+    background: #a16207;
+    color: #fff;
+  }
+}

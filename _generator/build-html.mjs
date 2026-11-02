@@ -74,7 +74,7 @@ function page({ title, depth, back, newTab, body, data, scripts }) {
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>${esc(title)}</title>
-<link rel="stylesheet" href="${up}assets/theme.css">
+<link rel="stylesheet" href="${up}assets/theme.css">${data ? `\n<link rel="stylesheet" href="${up}assets/ih-annotate.css">` : ''}
 </head>
 <body${data ? ' class="reading"' : ''}>
 <header class="topbar">
@@ -85,7 +85,7 @@ function page({ title, depth, back, newTab, body, data, scripts }) {
 </header>
 ${body}
 ${data ? `<script type="application/json" id="answer-data">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>` : ''}
-${(scripts || []).map((s) => `<script src="${up}assets/${s}"></script>`).join('\n')}
+${(scripts || []).map((s) => `<script src="${up}assets/${s}"></script>`).join('\n')}${data ? `\n<script src="${up}assets/ih-annotate.js" data-roots="article.passage, section.q-group" data-skip=".fb, .fb-list, .mark, .hint, .score"></script>` : ''}
 </body>
 </html>
 `;

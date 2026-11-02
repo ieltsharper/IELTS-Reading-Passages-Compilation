@@ -1,4 +1,4 @@
-// Socio-cultural & Global Issues topic: where each part of each passage is in the source file.
+// Socio-cultural & Global – Passage 3 topic: where each part of each passage is in the source file.
 // Block numbers come from `node _generator/list-blocks.mjs <questions.docx>`; each [index, 'start of text'] pair
 // is checked against the file, so a changed source stops the build instead of producing wrong pages.
 // Sources (owner, 2026-10-27): IELTS_Reading_Passage3_Socio-cultural_Global.docx (15 units, Passage 3) and
@@ -10,7 +10,7 @@ const ES = 'Education & Society';
 const WE = 'Work, Economy & Development';
 
 export default {
-  topic: 'Socio-cultural & Global Issues',
+  topic: 'Socio-cultural & Global – Passage 3', // named after its file, IELTS_Reading_Passage3_Socio-cultural_Global.docx (owner, 2026-11-02)
   slug: 'socio-cultural',
   numberLabel: 'Unit',
   groups: [CH, LC, ES, WE],

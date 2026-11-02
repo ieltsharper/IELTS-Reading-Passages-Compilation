@@ -15,7 +15,7 @@ const LI = 'Learning & Intelligence';
 const AP = 'Attention & Perception';
 
 export default {
-  topic: 'Psychology',
+  topic: 'Psychology – Passage 1', // named after its file, IELTS_Reading_Passage1_Psychology.docx (owner, 2026-11-02)
   slug: 'psychology',
   numberLabel: 'Unit',
   groups: [EW, DA, LI, AP],
