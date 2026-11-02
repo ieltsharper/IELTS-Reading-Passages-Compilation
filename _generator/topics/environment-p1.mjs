@@ -10,6 +10,8 @@
 // (f) the handout's Vietnamese glosses in Passage 1 Unit 13 are removed from the passage; (g) the Source / Topic /
 // Key-source lines and the difficulty table are not shown; the key's notes go in the collapsed "Hướng dẫn One-Shot";
 // (h) the key's alternatives are accepted.
+// (d, 2026-11-03) the owner sent the missing parts of P1 Unit 5 and P2 Units 5 and 8 as pictures; their text is
+// typed from those pictures (paragraph A; the list of headings; the box A–G) and marked as such below.
 const PLANTS_BOTANY = 'Plants & Botany';
 const MARINE_OCEAN_LIFE = 'Marine & Ocean Life';
 const ANIMALS_WILDLIFE = 'Animals & Wildlife';
@@ -24,6 +26,9 @@ export default {
   questionsFile: 'IELTS_Reading_Passage1_Environment.docx',
   keyFile: 'AK IELTS_Reading_Passage1_Giai_Unit1-16.docx',
   fixes: [
+    // Unit 5: paragraph A is missing from the file; typed from the owner's picture (2026-11-03) and put before B
+    // (the block is then split into A and B, see the unit's splits).
+    { block: 154, find: 'B\tDuring the past month', replace: "A\tLeatherback turtles follow the general sea turtle body plan of having a large, flattened, round body with two pairs of very large flippers and a short tail. Like other sea turtles, the leatherback's flattened forelimbs are specially adapted for swimming in the open ocean. Claws are noticeably absent from both pairs of flippers. The leatherback's flippers are the largest in proportion to its body among the extant sea turtles. Leatherback front flippers can grow up to 2.7 meters in large specimens, the largest flippers (even in comparison to its body) of any sea turtle. As the last surviving member of its family, the leatherback turtle has several distinguishing characteristics that differentiate it from other sea turtles. Its most notable feature is that it lacks the bony carapace of the other extant sea turtles. B\tDuring the past month" },
     // Decision (e): words the PDF damaged, as the key restored them (restored letters in ⟨ ⟩).
     { block: 17, find: "five- hundredth", replace: "five-hundredth" },
     { block: 194, find: "predator- prey", replace: "predator-prey" },
@@ -88,6 +93,20 @@ export default {
       ],
     },
     {
+      unit: 5,
+      group: MARINE_OCEAN_LIFE,
+      slug: 'unit-05-leatherback-turtles',
+      title: [151, "Leatherback Turtles"],
+      body: [[154, "A\tLeatherback turtl"], [159, "G\tWe are often unabl"]],
+      splits: [{ block: 154, at: ['B\tDuring the past month'] }],
+      // The key gives Q7 only in its unit summary ("7 bony carapace"); the questions file's table: "(the) bony carapace".
+      answerOverride: { 7: 'bony carapace' },
+      groups: [
+        { type: 'match', title: [161, "Questions 1–6"], intro: [[162, "Reading Passage 1 "], [164, "Write the correct "]], items: [[168, "1\tParagraph B"], [173, "6\tParagraph G Save"]], options: [166, "List of Headin"] },
+        { type: 'short', title: [174, "Questions 7–13"], intro: [[175, "Choose words from "], [176, "Write NO MORE THAN"]], items: [[177, "7\tWhat is the most"], [183, "13\tWhat kind of sp"]], alsoAccept: { 7: ['the bony carapace'] } },
+      ],
+    },
+    {
       unit: 6,
       group: MARINE_OCEAN_LIFE,
       slug: 'unit-06-reef-fish-study',
@@ -127,7 +146,7 @@ export default {
       ],
     },
     // Unit 9 (The Mountain Gorillas) is left out: its Questions 8–13 are scrambled in the source (the list of people
-    // is mixed into the statements), which cannot be repaired by restoring letters alone. Ask the owner.
+    // is mixed into the statements), which cannot be repaired by restoring letters alone. Waiting for the owner's picture.
     {
       unit: 10,
       group: ANIMALS_WILDLIFE,

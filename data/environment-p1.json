@@ -18485,8 +18485,4078 @@
    ]
   },
   {
-   "slug": "unit-06-reef-fish-study",
+   "slug": "unit-05-leatherback-turtles",
    "order": 5,
+   "number": 5,
+   "group": "Marine & Ocean Life",
+   "head": [],
+   "title": [
+    {
+     "t": "Leatherback Turtles",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "letter": "A",
+     "runs": [
+      {
+       "t": "Leatherback turtles follow the general sea turtle body plan of having a large, flattened, round body with two pairs of very large flippers and a short tail. Like other sea turtles, the leatherback's flattened forelimbs are specially adapted for swimming in the open ocean. Claws are noticeably absent from both pairs of flippers. The leatherback's flippers are the largest in proportion to its body among the extant sea turtles. Leatherback front flippers can grow up to 2.7 meters in large specimens, the largest flippers (even in comparison to its body) of any sea turtle. As the last surviving member of its family, the leatherback turtle has several distinguishing characteristics that differentiate it from other sea turtles. Its most notable feature is that it lacks the bony carapace of the other extant sea turtles.",
+       "b": true
+      }
+     ]
+    },
+    {
+     "letter": "B",
+     "runs": [
+      {
+       "t": "During the past month",
+       "b": true
+      },
+      {
+       "t": ", four turtles have washed up along Irish coasts from Wexford to Kerry. These turtles are more typical of warmer waters when they stray off course. It is likely that they may have originated from Florida, America. Two specimens have been taken to Coastal and Marine Resources Centre, University College Cork, where a necropsy will be conducted to establish their age, sex and their exact origin. During this same period, two Leatherback turtles were found in Scotland, and a rare Kemp's Ridley turtle was found in Wales, thus making it an exceptional month for stranded turtles in Ireland and the UK."
+      }
+     ]
+    },
+    {
+     "letter": "C",
+     "runs": [
+      {
+       "t": "Actually, there has been extensive research conducted regarding the sea turtles' abilities to return to their nesting regions and sometimes exact locations from hundreds of miles away. In the water, their path is greatly affected by powerful currents. Despite their limited vision, and lack of landmarks in the open water, turtles are able to retrace their migratory paths. Some explanations of this phenomenon have found that sea turtles can detect the angle and intensity of the earth's magnetic fields."
+      }
+     ]
+    },
+    {
+     "letter": "D",
+     "runs": [
+      {
+       "t": "However, leatherback turtles are not normally found in Irish waters, because water temperatures here are far too cold for their survival. Instead, adult Leatherbacks prefer the warmer waters of the Mediterranean, the Caribbean and North America's east coast. The four turtles that were found have probably originated from North America. However it will require genetic analysis to confirm this assumption. It is thought that after leaving their nesting beach as hatchlings, these tiny turtles enter the North Atlantic Gyre that takes them from America, across to Europe, down towards North Africa, before being transported back again to America via a different current. This remarkable round trip may take many years during which these tiny turtles grow by several centimeters a year. Leatherback may circulate around the North Atlantic several times before they settle in the coastal waters of Florida or the Caribbean."
+      }
+     ]
+    },
+    {
+     "letter": "E",
+     "runs": [
+      {
+       "t": "These four turtles probably were on their way around the Atlantic when they strayed a bit too far north from the Gulf Stream. Once they did, their fate was sealed, as the cooler waters of the North East Atlantic are too cold for Leatherback, unlike some other turtles which have many anatomical and physiological adaptations to enable them to swim in different seas. Once in cool waters, the body of a Leatherback begins to shut down as they get ‘cold stunned', then get hypothermia and die."
+      }
+     ]
+    },
+    {
+     "letter": "F",
+     "runs": [
+      {
+       "t": "Leatherbacks are in imminent danger of extinction. A critical factor is the harvesting of eggs from nests. Valued as a food delicacy, Leatherback eggs are falsely touted to have aphrodisiacal properties in some cultures. The Leatherback, unlike the Green Sea turtles, is not often killed for its meat; however, the increase in human populations coupled with the growing back market trade has escalated their egg depletion. Other critical factors causing the leatherbacks' decline are pollution such as plastics –leatherbacks eat this debris thinking it is jellyfish; fishing practices such as longline fishing and gill nets, and development on habitat areas. Scientists have estimated that there are only about 35,000 Leatherback turtles in the world."
+      }
+     ]
+    },
+    {
+     "letter": "G",
+     "runs": [
+      {
+       "t": "We are often unable to understand the critical impact a species has on the environment - that is, until that species becomes extinct. Even if we do not know the role a creature plays in the health of the environment, past lessons have taught us enough to know that every animal and plant is one important link in the integral chain of nature. Some scientists now speculate that the Leatherback may play an important role in the recovery of diminishing fish populations. Since the Leatherback consumes its weight in jellyfish per day, it helps to keep jellyfish populations in check. Jellyfish consume large quantities of fish larvae. The rapid decline in Leatherback populations over the last 50 years has been accompanied by a significant increase in jellyfish and a marked decrease in fish in our oceans. Saving sea turtles is an International endeavor."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "match",
+     "title": "Questions 1–6",
+     "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Reading Passage 1 has seven paragraphs, "
+        },
+        {
+         "t": "A-G",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct heading for each paragraph from the list of headings below."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write the correct number, "
+        },
+        {
+         "t": "i-ix",
+         "b": true
+        },
+        {
+         "t": ", in boxes 1-6 on your answer sheet."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 1,
+       "stem": [
+        {
+         "t": "Paragraph B"
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "stem": [
+        {
+         "t": "Paragraph C"
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "stem": [
+        {
+         "t": "Paragraph D"
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "stem": [
+        {
+         "t": "Paragraph E"
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "stem": [
+        {
+         "t": "Paragraph F"
+        }
+       ]
+      },
+      {
+       "n": 6,
+       "stem": [
+        {
+         "t": "Paragraph G Save the Turtles"
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": [
+       [
+        {
+         "t": "List of Headings",
+         "b": true
+        }
+       ]
+      ],
+      "list": [
+       {
+        "key": "i",
+        "runs": [
+         {
+          "t": "Sea turtles are found in unusual locations"
+         }
+        ]
+       },
+       {
+        "key": "ii",
+        "runs": [
+         {
+          "t": "Unique features of the Leatherbacks"
+         }
+        ]
+       },
+       {
+        "key": "iii",
+        "runs": [
+         {
+          "t": "The leatherback's contribution"
+         }
+        ]
+       },
+       {
+        "key": "iv",
+        "runs": [
+         {
+          "t": "Methods used for routes tracking"
+         }
+        ]
+       },
+       {
+        "key": "v",
+        "runs": [
+         {
+          "t": "Predict the migration routes"
+         }
+        ]
+       },
+       {
+        "key": "vi",
+        "runs": [
+         {
+          "t": "Remains multiplicity within the species"
+         }
+        ]
+       },
+       {
+        "key": "vii",
+        "runs": [
+         {
+          "t": "The progress of hatching"
+         }
+        ]
+       },
+       {
+        "key": "viii",
+        "runs": [
+         {
+          "t": "The fate of the lost turtles"
+         }
+        ]
+       },
+       {
+        "key": "ix",
+        "runs": [
+         {
+          "t": "What are trips supposed to look like?"
+         }
+        ]
+       },
+       {
+        "key": "x",
+        "runs": [
+         {
+          "t": "Factors leading to population decline"
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": false
+    },
+    {
+     "type": "short",
+     "title": "Questions 7–13",
+     "numbers": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose words from the passage to answer the questions 7-13."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write "
+        },
+        {
+         "t": "NO MORE THAN THREE WORDS",
+         "b": true
+        },
+        {
+         "t": " for each answer."
+        }
+       ]
+      }
+     ],
+     "alsoAccept": {
+      "7": [
+       "the bony carapace"
+      ]
+     },
+     "questions": [
+      {
+       "n": 7,
+       "stem": [
+        {
+         "t": "What is the most noticeable difference between other sea turtles and leatherbacks?"
+        }
+       ]
+      },
+      {
+       "n": 8,
+       "stem": [
+        {
+         "t": "By which means can sea turtles retrace their migratory paths?"
+        }
+       ]
+      },
+      {
+       "n": 9,
+       "stem": [
+        {
+         "t": "Where did the four turtles probably come from?"
+        }
+       ]
+      },
+      {
+       "n": 10,
+       "stem": [
+        {
+         "t": "What caused leatherback turtles to die in Irish waters?"
+        }
+       ]
+      },
+      {
+       "n": 11,
+       "stem": [
+        {
+         "t": "For what purpose are Green Sea turtles killed by people?"
+        }
+       ]
+      },
+      {
+       "n": 12,
+       "stem": [
+        {
+         "t": "How many Leatherback turtles are there in the world?"
+        }
+       ]
+      },
+      {
+       "n": 13,
+       "stem": [
+        {
+         "t": "What kind of species will benefit from a decline in Leatherback populations?"
+        }
+       ]
+      }
+     ],
+     "limit": {
+      "words": 3,
+      "number": false,
+      "text": "THREE WORDS"
+     }
+    }
+   ],
+   "key": {
+    "1": {
+     "answer": "i",
+     "accept": [
+      "i"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 1 → i  (Heading: Sea turtles are found in unusual locations)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“four turtles have "
+        },
+        {
+         "t": "washed up along Irish coasts",
+         "b": true
+        },
+        {
+         "t": " … more typical of warmer waters when they stray off course”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "rùa dạt vào nơi bất thường (bờ Ireland, Scotland, Wales)."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Bẫy: ",
+         "b": true
+        },
+        {
+         "t": "viii (fate of the lost turtles) thuộc đoạn E."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "2": {
+     "answer": "iv",
+     "accept": [
+      "iv"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 2 → iv  (Heading: Methods used for routes tracking)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“turtles are able to "
+        },
+        {
+         "t": "retrace their migratory paths",
+         "b": true
+        },
+        {
+         "t": " … can "
+        },
+        {
+         "t": "detect the angle and intensity of the earth's magnetic fields",
+         "b": true
+        },
+        {
+         "t": "”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "đoạn nói cách rùa lần lại đường đi (phương pháp định hướng)."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Bẫy: ",
+         "b": true
+        },
+        {
+         "t": "v (predict the migration routes) không hợp: không dự đoán tuyến di cư."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "3": {
+     "answer": "ix",
+     "accept": [
+      "ix"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 3 → ix  (Heading: What are trips supposed to look like?)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“after leaving their nesting beach as hatchlings, these tiny turtles enter the North Atlantic Gyre … "
+        },
+        {
+         "t": "round trip may take many years",
+         "b": true
+        },
+        {
+         "t": "”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "mô tả hành trình bình thường (supposed) của rùa."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Bẫy: ",
+         "b": true
+        },
+        {
+         "t": "vii (progress of hatching) không hợp: đoạn nói hành trình, không phải quá trình nở."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "4": {
+     "answer": "viii",
+     "accept": [
+      "viii"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 4 → viii  (Heading: The fate of the lost turtles)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“These four turtles … strayed a bit too far north … their "
+        },
+        {
+         "t": "fate was sealed",
+         "b": true
+        },
+        {
+         "t": " … begins to shut down … die”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "số phận (chết) của những con rùa lạc."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "5": {
+     "answer": "x",
+     "accept": [
+      "x"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 5 → x  (Heading: Factors leading to population decline)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“A critical factor is the harvesting of eggs … Other critical factors causing the leatherbacks' decline are pollution … fishing practices”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "các yếu tố gây suy giảm quần thể."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "6": {
+     "answer": "iii",
+     "accept": [
+      "iii"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 6 → iii  (Heading: The leatherback's contribution)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“the Leatherback may play an important role in the recovery of diminishing fish populations … helps to keep jellyfish populations in check”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "đóng góp của rùa da cho hệ sinh thái."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "7": {
+     "answer": "bony carapace",
+     "accept": [
+      "bony carapace",
+      "the bony carapace"
+     ],
+     "explanation": [],
+     "evidence": null
+    },
+    "8": {
+     "answer": "earth's magnetic fields",
+     "accept": [
+      "earth's magnetic fields"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 8 → earth's magnetic fields  (By which means can sea turtles retrace their migratory paths?)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“detect the angle and intensity of the "
+        },
+        {
+         "t": "earth's magnetic fields",
+         "b": true
+        },
+        {
+         "t": "”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "trực tiếp."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "9": {
+     "answer": "Florida, America",
+     "accept": [
+      "Florida, America",
+      "North America"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 9 → Florida, America (hoặc North America)  (Where did the four turtles probably come from?)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“they may have originated from "
+        },
+        {
+         "t": "Florida, America",
+         "b": true
+        },
+        {
+         "t": "” (đoạn D: “originated from "
+        },
+        {
+         "t": "North America",
+         "b": true
+        },
+        {
+         "t": "”)"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "trực tiếp."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "10": {
+     "answer": "cold water",
+     "accept": [
+      "cold water",
+      "cool waters",
+      "hypothermia"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 10 → cold water (cool waters / hypothermia)  (What caused leatherback turtles to die in Irish waters?)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“the "
+        },
+        {
+         "t": "cooler waters",
+         "b": true
+        },
+        {
+         "t": " of the North East Atlantic are "
+        },
+        {
+         "t": "too cold",
+         "b": true
+        },
+        {
+         "t": " for Leatherback”; “get "
+        },
+        {
+         "t": "hypothermia",
+         "b": true
+        },
+        {
+         "t": " and die”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "trực tiếp."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "11": {
+     "answer": "meat",
+     "accept": [
+      "meat"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 11 → meat  (For what purpose are Green Sea turtles killed by people?)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“The Leatherback, "
+        },
+        {
+         "t": "unlike the Green Sea turtles",
+         "b": true
+        },
+        {
+         "t": ", is not often killed for its "
+        },
+        {
+         "t": "meat",
+         "b": true
+        },
+        {
+         "t": "”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "rùa xanh bị giết lấy thịt."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "12": {
+     "answer": "about 35,000",
+     "accept": [
+      "about 35,000"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 12 → about 35,000  (How many Leatherback turtles are there in the world?)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“only about "
+        },
+        {
+         "t": "35,000",
+         "b": true
+        },
+        {
+         "t": " Leatherback turtles in the world”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "trực tiếp."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    },
+    "13": {
+     "answer": "jellyfish",
+     "accept": [
+      "jellyfish"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "✅ Câu 13 → jellyfish  (What kind of species will benefit from a decline in Leatherback populations?)",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Dẫn chứng: ",
+         "b": true
+        },
+        {
+         "t": "“a significant increase in "
+        },
+        {
+         "t": "jellyfish",
+         "b": true
+        },
+        {
+         "t": "”"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Giải thích: ",
+         "b": true
+        },
+        {
+         "t": "rùa giảm → sứa tăng."
+        }
+       ]
+      }
+     ],
+     "evidence": null
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Ghi chú về đề và đáp án"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "⚠ Ghi chú lỗi PDF / đáp án gốc",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "• Đoạn A (tên bài thực là “Save the Turtles”) đã được bổ sung từ ảnh bạn gửi, nên Q7 đã kiểm chứng: “bony carapace”. Đáp án heading và các câu còn lại lấy từ Answer Key của handout (nguồn KEY VOL 1 READING); đã đối chiếu, đều khớp. List of Headings có 10 mục i–x."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "BƯỚC 1 – Đọc tiêu đề/sapo, đoán chủ đề, cấu trúc bài",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề “Leatherback Turtles” → rùa da: vì sao dạt vào bờ Ireland, di cư, nguy cơ tuyệt chủng và vai trò sinh thái."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Cấu trúc đoán trước (đoạn A–G): A đặc điểm cơ thể → B rùa dạt vào bờ → C khả năng định hướng → D hành trình bình thường → E số phận rùa lạc → F nguyên nhân suy giảm → G đóng góp của rùa da."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "BƯỚC 2 – Bảng phân loại câu hỏi",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu",
+           "b": true
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng",
+           "b": true
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được không? + từ khóa",
+           "b": true
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–6"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Headings (6 đoạn B–G, 10 heading)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Phải đọc mới biết — chốt heading sau mỗi đoạn"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "7–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Short answer (NO MORE THAN THREE WORDS)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate được: difference leatherbacks (7 → A), retrace paths (8 → C), four turtles from (9 → B/D), die in Irish waters (10 → E), Green Sea turtles killed (11 → F), how many (12 → F), decline benefit (13 → G)"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    }
+   ],
+   "reading": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "ĐOẠN B",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(1) ",
+       "b": true
+      },
+      {
+       "t": "During the past month, "
+      },
+      {
+       "t": "four turtles",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "have washed up",
+       "u": true
+      },
+      {
+       "t": " along Irish coasts from Wexford to Kerry."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Trong tháng qua bốn con rùa dạt vào bờ biển Ireland từ Wexford tới Kerry."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(2) ",
+       "b": true
+      },
+      {
+       "t": "These turtles",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "are",
+       "u": true
+      },
+      {
+       "t": " more typical of warmer waters "
+      },
+      {
+       "t": "when",
+       "u": true
+      },
+      {
+       "t": " they stray off course."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Những con rùa này thường sống ở vùng nước ấm hơn khi lạc hướng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(3) ",
+       "b": true
+      },
+      {
+       "t": "It",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "is",
+       "u": true
+      },
+      {
+       "t": " likely "
+      },
+      {
+       "t": "that",
+       "u": true
+      },
+      {
+       "t": " they may have originated from Florida, America."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Có khả năng chúng bắt nguồn từ Florida, Mỹ (→ Q9)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(4) ",
+       "b": true
+      },
+      {
+       "t": "Two specimens",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "have been taken",
+       "u": true
+      },
+      {
+       "t": " to Coastal and Marine "
+      },
+      {
+       "t": "Resources",
+       "b": true
+      },
+      {
+       "t": " (nguồn lực)",
+       "i": true
+      },
+      {
+       "t": " Centre, University College Cork, "
+      },
+      {
+       "t": "where",
+       "u": true
+      },
+      {
+       "t": " a necropsy will be "
+      },
+      {
+       "t": "conducted",
+       "b": true
+      },
+      {
+       "t": " (tiến hành)",
+       "i": true
+      },
+      {
+       "t": " to "
+      },
+      {
+       "t": "establish",
+       "b": true
+      },
+      {
+       "t": " (thiết lập)",
+       "i": true
+      },
+      {
+       "t": " their age, "
+      },
+      {
+       "t": "sex",
+       "b": true
+      },
+      {
+       "t": " (giới tính)",
+       "i": true
+      },
+      {
+       "t": " and their exact origin."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Hai mẫu được đưa tới trung tâm ở Cork để khám nghiệm xác định tuổi, giới tính và nguồn gốc chính xác."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(5) ",
+       "b": true
+      },
+      {
+       "t": "During this same "
+      },
+      {
+       "t": "period",
+       "b": true
+      },
+      {
+       "t": " (giai đoạn)",
+       "i": true
+      },
+      {
+       "t": ", "
+      },
+      {
+       "t": "two Leatherback turtles",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "were found",
+       "u": true
+      },
+      {
+       "t": " in Scotland, "
+      },
+      {
+       "t": "and",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "a rare Kemp's Ridley turtle",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "was found",
+       "u": true
+      },
+      {
+       "t": " in Wales, "
+      },
+      {
+       "t": "thus",
+       "u": true
+      },
+      {
+       "t": " making it an exceptional month for stranded turtles in Ireland and the UK."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Cùng thời gian, hai rùa da được tìm thấy ở Scotland và một rùa Kemp's Ridley hiếm ở Wales, khiến đây là tháng đặc biệt về rùa dạt bờ ở Ireland và Anh."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "🔗 Mạch đoạn: ",
+       "b": true
+      },
+      {
+       "t": "Bốn con rùa dạt vào bờ biển Ireland, có thể từ Florida; tháng đặc biệt cho rùa bị mắc cạn."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 1 → i  (Heading: Sea turtles are found in unusual locations)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“four turtles have "
+          },
+          {
+           "t": "washed up along Irish coasts",
+           "b": true
+          },
+          {
+           "t": " … more typical of warmer waters when they stray off course”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "rùa dạt vào nơi bất thường (bờ Ireland, Scotland, Wales)."
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Bẫy: ",
+           "b": true
+          },
+          {
+           "t": "viii (fate of the lost turtles) thuộc đoạn E."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 9 → Florida, America (hoặc North America)  (Where did the four turtles probably come from?)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“they may have originated from "
+          },
+          {
+           "t": "Florida, America",
+           "b": true
+          },
+          {
+           "t": "” (đoạn D: “originated from "
+          },
+          {
+           "t": "North America",
+           "b": true
+          },
+          {
+           "t": "”)"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "trực tiếp."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "⏸ "
+          },
+          {
+           "t": "Tiến độ sau đoạn B: xong 1, 7, 9 · còn 2–6, 8, 10–13.",
+           "i": true
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "ĐOẠN C",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(1) ",
+       "b": true
+      },
+      {
+       "t": "Actually",
+       "u": true
+      },
+      {
+       "t": ", "
+      },
+      {
+       "t": "there",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "has been",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "extensive research",
+       "b": true
+      },
+      {
+       "t": " (nghiên cứu rộng)",
+       "i": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "conducted",
+       "b": true
+      },
+      {
+       "t": " (tiến hành)",
+       "i": true
+      },
+      {
+       "t": " regarding the sea turtles' abilities to return to their nesting "
+      },
+      {
+       "t": "regions",
+       "b": true
+      },
+      {
+       "t": " (khu vực)",
+       "i": true
+      },
+      {
+       "t": " and sometimes exact "
+      },
+      {
+       "t": "locations",
+       "b": true
+      },
+      {
+       "t": " (vị trí)",
+       "i": true
+      },
+      {
+       "t": " from hundreds of miles away."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Thực ra đã có nhiều nghiên cứu về khả năng rùa biển quay về vùng làm tổ, đôi khi đúng vị trí, từ cách hàng trăm dặm."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(2) ",
+       "b": true
+      },
+      {
+       "t": "In the water, "
+      },
+      {
+       "t": "their path",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "is",
+       "u": true
+      },
+      {
+       "t": " greatly "
+      },
+      {
+       "t": "affected",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (ảnh hưởng)",
+       "i": true
+      },
+      {
+       "t": " by powerful currents."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Trong nước, đường đi của chúng chịu ảnh hưởng mạnh của dòng chảy."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(3) ",
+       "b": true
+      },
+      {
+       "t": "Despite",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (mặc dù)",
+       "i": true
+      },
+      {
+       "t": " their limited "
+      },
+      {
+       "t": "vision",
+       "b": true
+      },
+      {
+       "t": " (thị lực)",
+       "i": true
+      },
+      {
+       "t": ", and lack of landmarks in the open water, "
+      },
+      {
+       "t": "turtles",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "are",
+       "u": true
+      },
+      {
+       "t": " able to retrace their "
+      },
+      {
+       "t": "migratory",
+       "b": true
+      },
+      {
+       "t": " (di cư)",
+       "i": true
+      },
+      {
+       "t": " paths."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Dù thị lực hạn chế và thiếu mốc ngoài biển, rùa vẫn có thể lần lại đường di cư."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(4) ",
+       "b": true
+      },
+      {
+       "t": "Some explanations of this ",
+       "u": true
+      },
+      {
+       "t": "phenomenon",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (hiện tượng)",
+       "i": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "have found",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "that",
+       "u": true
+      },
+      {
+       "t": " sea turtles can "
+      },
+      {
+       "t": "detect",
+       "b": true
+      },
+      {
+       "t": " (phát hiện)",
+       "i": true
+      },
+      {
+       "t": " the angle and "
+      },
+      {
+       "t": "intensity",
+       "b": true
+      },
+      {
+       "t": " (cường độ)",
+       "i": true
+      },
+      {
+       "t": " of the earth's magnetic fields."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Một số giải thích cho thấy rùa biển có thể phát hiện góc và cường độ từ trường Trái Đất (→ Q8)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "🔗 Mạch đoạn: ",
+       "b": true
+      },
+      {
+       "t": "Rùa biển quay về đúng vùng làm tổ dù thị lực hạn chế, nhờ phát hiện từ trường Trái Đất."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 2 → iv  (Heading: Methods used for routes tracking)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“turtles are able to "
+          },
+          {
+           "t": "retrace their migratory paths",
+           "b": true
+          },
+          {
+           "t": " … can "
+          },
+          {
+           "t": "detect the angle and intensity of the earth's magnetic fields",
+           "b": true
+          },
+          {
+           "t": "”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "đoạn nói cách rùa lần lại đường đi (phương pháp định hướng)."
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Bẫy: ",
+           "b": true
+          },
+          {
+           "t": "v (predict the migration routes) không hợp: không dự đoán tuyến di cư."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 8 → earth's magnetic fields  (By which means can sea turtles retrace their migratory paths?)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“detect the angle and intensity of the "
+          },
+          {
+           "t": "earth's magnetic fields",
+           "b": true
+          },
+          {
+           "t": "”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "trực tiếp."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "⏸ "
+          },
+          {
+           "t": "Tiến độ sau đoạn C: xong 1, 2, 7–9 · còn 3–6, 10–13.",
+           "i": true
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "ĐOẠN D",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(1) ",
+       "b": true
+      },
+      {
+       "t": "However",
+       "u": true
+      },
+      {
+       "t": ", "
+      },
+      {
+       "t": "leatherback turtles",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "are",
+       "u": true
+      },
+      {
+       "t": " not "
+      },
+      {
+       "t": "normally",
+       "b": true
+      },
+      {
+       "t": " (bình thường)",
+       "i": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "found",
+       "u": true
+      },
+      {
+       "t": " in Irish waters, "
+      },
+      {
+       "t": "because",
+       "u": true
+      },
+      {
+       "t": " water temperatures here are far too cold for their "
+      },
+      {
+       "t": "survival",
+       "b": true
+      },
+      {
+       "t": " (sự sống sót)",
+       "i": true
+      },
+      {
+       "t": "."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Tuy nhiên rùa da thường không thấy ở vùng biển Ireland vì nước ở đây quá lạnh để chúng sống."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(2) ",
+       "b": true
+      },
+      {
+       "t": "Instead",
+       "u": true
+      },
+      {
+       "t": ", "
+      },
+      {
+       "t": "adult",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (trưởng thành)",
+       "i": true
+      },
+      {
+       "t": " Leatherbacks",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "prefer",
+       "u": true
+      },
+      {
+       "t": " the warmer waters of the Mediterranean, the Caribbean and North America's east coast."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Thay vào đó rùa da trưởng thành thích vùng nước ấm hơn: Địa Trung Hải, Caribe và bờ đông Bắc Mỹ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(3) ",
+       "b": true
+      },
+      {
+       "t": "The four turtles that were found",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "have",
+       "u": true
+      },
+      {
+       "t": " probably "
+      },
+      {
+       "t": "originated",
+       "u": true
+      },
+      {
+       "t": " from North America."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Bốn con rùa tìm thấy có lẽ đến từ Bắc Mỹ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(4) ",
+       "b": true
+      },
+      {
+       "t": "However",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "it",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "will ",
+       "u": true
+      },
+      {
+       "t": "require",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (yêu cầu)",
+       "i": true
+      },
+      {
+       "t": " genetic "
+      },
+      {
+       "t": "analysis",
+       "b": true
+      },
+      {
+       "t": " (phân tích)",
+       "i": true
+      },
+      {
+       "t": " to "
+      },
+      {
+       "t": "confirm",
+       "b": true
+      },
+      {
+       "t": " (xác nhận)",
+       "i": true
+      },
+      {
+       "t": " this assumption."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Tuy nhiên cần phân tích di truyền để xác nhận giả định này."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(5) ",
+       "b": true
+      },
+      {
+       "t": "It",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "is thought",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "that",
+       "u": true
+      },
+      {
+       "t": " after leaving their nesting beach as hatchlings, these tiny turtles enter the North Atlantic Gyre that takes them from America, across to Europe, down towards North Africa, before being "
+      },
+      {
+       "t": "transported",
+       "b": true
+      },
+      {
+       "t": " (vận chuyển)",
+       "i": true
+      },
+      {
+       "t": " back again to America "
+      },
+      {
+       "t": "via",
+       "b": true
+      },
+      {
+       "t": " (qua)",
+       "i": true
+      },
+      {
+       "t": " a different current."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: ",
+       "b": true
+      },
+      {
+       "t": "It | is thought → Người ta cho rằng sau khi rời bãi đẻ lúc còn là rùa con, chúng vào xoáy nước Bắc Đại Tây Dương đưa từ Mỹ sang châu Âu, xuống Bắc Phi rồi theo dòng khác về Mỹ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ: ",
+       "b": true
+      },
+      {
+       "t": "the North Atlantic Gyre that takes them from America, across to Europe, down towards North Africa → xoáy nước đưa chúng từ Mỹ qua châu Âu, xuống Bắc Phi"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "💡 "
+      },
+      {
+       "t": "Mẹo: ",
+       "b": true
+      },
+      {
+       "t": "“It is thought that …” = người ta cho rằng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(6) ",
+       "b": true
+      },
+      {
+       "t": "This remarkable round trip",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "may take",
+       "u": true
+      },
+      {
+       "t": " many years during which these tiny turtles grow by several centimeters a year."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Chuyến đi vòng đáng chú ý này có thể mất nhiều năm, trong đó rùa con lớn thêm vài cm mỗi năm."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(7) ",
+       "b": true
+      },
+      {
+       "t": "Leatherback",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "may circulate",
+       "u": true
+      },
+      {
+       "t": " around the North Atlantic several times "
+      },
+      {
+       "t": "before",
+       "u": true
+      },
+      {
+       "t": " they settle in the coastal waters of Florida or the Caribbean."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Rùa da có thể đi vòng Bắc Đại Tây Dương nhiều lần trước khi định cư ở vùng nước ven bờ Florida hoặc Caribe."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "🔗 Mạch đoạn: ",
+       "b": true
+      },
+      {
+       "t": "Bình thường rùa da sống ở nước ấm; hành trình vòng Bắc Đại Tây Dương mất nhiều năm trước khi về định cư."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 3 → ix  (Heading: What are trips supposed to look like?)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“after leaving their nesting beach as hatchlings, these tiny turtles enter the North Atlantic Gyre … "
+          },
+          {
+           "t": "round trip may take many years",
+           "b": true
+          },
+          {
+           "t": "”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "mô tả hành trình bình thường (supposed) của rùa."
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Bẫy: ",
+           "b": true
+          },
+          {
+           "t": "vii (progress of hatching) không hợp: đoạn nói hành trình, không phải quá trình nở."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "⏸ "
+          },
+          {
+           "t": "Tiến độ sau đoạn D: xong 1–3, 7–9 · còn 4–6, 10–13.",
+           "i": true
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "ĐOẠN E",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(1) ",
+       "b": true
+      },
+      {
+       "t": "These four turtles",
+       "u": true
+      },
+      {
+       "t": " probably "
+      },
+      {
+       "t": "were",
+       "u": true
+      },
+      {
+       "t": " on their way around the Atlantic "
+      },
+      {
+       "t": "when",
+       "u": true
+      },
+      {
+       "t": " they strayed a bit too far north from the Gulf Stream."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Bốn con rùa này có lẽ đang đi vòng Đại Tây Dương thì lạc hơi xa về phía bắc khỏi dòng Gulf Stream."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(2) ",
+       "b": true
+      },
+      {
+       "t": "Once",
+       "u": true
+      },
+      {
+       "t": " they did, "
+      },
+      {
+       "t": "their fate",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "was sealed",
+       "u": true
+      },
+      {
+       "t": ", "
+      },
+      {
+       "t": "as",
+       "u": true
+      },
+      {
+       "t": " the cooler waters of the North East Atlantic are too cold for Leatherback, unlike some other turtles which have many anatomical and physiological "
+      },
+      {
+       "t": "adaptations",
+       "b": true
+      },
+      {
+       "t": " (thích nghi)",
+       "i": true
+      },
+      {
+       "t": " to "
+      },
+      {
+       "t": "enable",
+       "b": true
+      },
+      {
+       "t": " (giúp, cho phép)",
+       "i": true
+      },
+      {
+       "t": " them to swim in different seas."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: ",
+       "b": true
+      },
+      {
+       "t": "their fate | was sealed → Khi đã vậy, số phận chúng đã định vì vùng nước mát ở Đông Bắc Đại Tây Dương quá lạnh với rùa da, khác một số rùa có thích nghi để bơi ở nhiều biển (→ Q10)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ: ",
+       "b": true
+      },
+      {
+       "t": "unlike some other turtles which have many anatomical and physiological adaptations → khác một số loài rùa có nhiều thích nghi về giải phẫu và sinh lý"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "💡 "
+      },
+      {
+       "t": "Mẹo: ",
+       "b": true
+      },
+      {
+       "t": "“too cold for Leatherback” → Q10."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(3) ",
+       "b": true
+      },
+      {
+       "t": "Once",
+       "u": true
+      },
+      {
+       "t": " in cool waters, "
+      },
+      {
+       "t": "the body of a Leatherback",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "begins",
+       "u": true
+      },
+      {
+       "t": " to shut down "
+      },
+      {
+       "t": "as",
+       "u": true
+      },
+      {
+       "t": " they get ‘cold stunned', then get hypothermia and die."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Khi vào vùng nước mát, cơ thể rùa da bắt đầu ngừng hoạt động (‘cold stunned’), rồi hạ thân nhiệt và chết."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "🔗 Mạch đoạn: ",
+       "b": true
+      },
+      {
+       "t": "Bốn con rùa lạc ra khỏi Gulf Stream vào nước quá lạnh nên bị hạ thân nhiệt và chết."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 4 → viii  (Heading: The fate of the lost turtles)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“These four turtles … strayed a bit too far north … their "
+          },
+          {
+           "t": "fate was sealed",
+           "b": true
+          },
+          {
+           "t": " … begins to shut down … die”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "số phận (chết) của những con rùa lạc."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 10 → cold water (cool waters / hypothermia)  (What caused leatherback turtles to die in Irish waters?)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“the "
+          },
+          {
+           "t": "cooler waters",
+           "b": true
+          },
+          {
+           "t": " of the North East Atlantic are "
+          },
+          {
+           "t": "too cold",
+           "b": true
+          },
+          {
+           "t": " for Leatherback”; “get "
+          },
+          {
+           "t": "hypothermia",
+           "b": true
+          },
+          {
+           "t": " and die”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "trực tiếp."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "⏸ "
+          },
+          {
+           "t": "Tiến độ sau đoạn E: xong 1–4, 7–10 · còn 5, 6, 11–13.",
+           "i": true
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "ĐOẠN F",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(1) ",
+       "b": true
+      },
+      {
+       "t": "Leatherbacks",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "are",
+       "u": true
+      },
+      {
+       "t": " in imminent danger of extinction."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Rùa da đang trước nguy cơ tuyệt chủng cận kề."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(2) ",
+       "b": true
+      },
+      {
+       "t": "A ",
+       "u": true
+      },
+      {
+       "t": "critical factor",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (yếu tố then chốt)",
+       "i": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "is",
+       "u": true
+      },
+      {
+       "t": " the harvesting of eggs from nests."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Một yếu tố then chốt là việc thu trứng từ tổ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(3) ",
+       "b": true
+      },
+      {
+       "t": "Valued",
+       "u": true
+      },
+      {
+       "t": " as a food delicacy, "
+      },
+      {
+       "t": "Leatherback eggs",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "are",
+       "u": true
+      },
+      {
+       "t": " falsely "
+      },
+      {
+       "t": "touted",
+       "u": true
+      },
+      {
+       "t": " to have aphrodisiacal properties in some "
+      },
+      {
+       "t": "cultures",
+       "b": true
+      },
+      {
+       "t": " (văn hóa)",
+       "i": true
+      },
+      {
+       "t": "."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Được coi là món ngon, trứng rùa da bị quảng cáo sai là có tác dụng kích dục ở một số nền văn hóa."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(4) ",
+       "b": true
+      },
+      {
+       "t": "The Leatherback",
+       "u": true
+      },
+      {
+       "t": ", unlike the Green Sea turtles, "
+      },
+      {
+       "t": "is",
+       "u": true
+      },
+      {
+       "t": " not often "
+      },
+      {
+       "t": "killed",
+       "u": true
+      },
+      {
+       "t": " for its meat; "
+      },
+      {
+       "t": "however",
+       "u": true
+      },
+      {
+       "t": ", "
+      },
+      {
+       "t": "the increase in human populations",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "coupled",
+       "b": true
+      },
+      {
+       "t": " (kết hợp)",
+       "i": true
+      },
+      {
+       "t": " with the growing back market trade "
+      },
+      {
+       "t": "has escalated",
+       "u": true
+      },
+      {
+       "t": " their egg depletion."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Xương sống: ",
+       "b": true
+      },
+      {
+       "t": "The Leatherback + the increase in human populations | is + killed + has escalated → Khác rùa xanh, rùa da ít bị giết lấy thịt; tuy nhiên dân số tăng cùng thị trường chợ đen đã làm cạn trứng (→ Q11)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ý phụ: ",
+       "b": true
+      },
+      {
+       "t": "coupled with the growing back market trade → (phân từ) kết hợp với thị trường chợ đen đang lớn"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "💡 "
+      },
+      {
+       "t": "Mẹo: ",
+       "b": true
+      },
+      {
+       "t": "“unlike the Green Sea turtles” ngụ ý rùa xanh bị giết lấy thịt."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(5) ",
+       "b": true
+      },
+      {
+       "t": "Other ",
+       "u": true
+      },
+      {
+       "t": "critical factors",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (yếu tố then chốt)",
+       "i": true
+      },
+      {
+       "t": " causing the leatherbacks' ",
+       "u": true
+      },
+      {
+       "t": "decline",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (suy giảm)",
+       "i": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "are",
+       "u": true
+      },
+      {
+       "t": " pollution such as plastics –leatherbacks eat this debris thinking it is jellyfish; fishing practices such as longline fishing and gill nets, and development on habitat "
+      },
+      {
+       "t": "areas",
+       "b": true
+      },
+      {
+       "t": " (khu vực)",
+       "i": true
+      },
+      {
+       "t": "."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Các yếu tố khác gây suy giảm là ô nhiễm (rác nhựa mà rùa ăn nhầm là sứa), cách đánh bắt (câu giăng, lưới) và phát triển trên môi trường sống."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(6) ",
+       "b": true
+      },
+      {
+       "t": "Scientists",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "have ",
+       "u": true
+      },
+      {
+       "t": "estimated",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (ước tính)",
+       "i": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "that",
+       "u": true
+      },
+      {
+       "t": " there are only about 35,000 Leatherback turtles in the world."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Các nhà khoa học ước tính chỉ còn khoảng 35.000 rùa da trên thế giới (→ Q12)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "🔗 Mạch đoạn: ",
+       "b": true
+      },
+      {
+       "t": "Rùa da sắp tuyệt chủng vì thu trứng, ô nhiễm, đánh bắt; còn khoảng 35.000 con."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 5 → x  (Heading: Factors leading to population decline)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“A critical factor is the harvesting of eggs … Other critical factors causing the leatherbacks' decline are pollution … fishing practices”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "các yếu tố gây suy giảm quần thể."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 11 → meat  (For what purpose are Green Sea turtles killed by people?)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“The Leatherback, "
+          },
+          {
+           "t": "unlike the Green Sea turtles",
+           "b": true
+          },
+          {
+           "t": ", is not often killed for its "
+          },
+          {
+           "t": "meat",
+           "b": true
+          },
+          {
+           "t": "”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "rùa xanh bị giết lấy thịt."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 12 → about 35,000  (How many Leatherback turtles are there in the world?)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“only about "
+          },
+          {
+           "t": "35,000",
+           "b": true
+          },
+          {
+           "t": " Leatherback turtles in the world”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "trực tiếp."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "⏸ "
+          },
+          {
+           "t": "Tiến độ sau đoạn F: xong 1–5, 7–12 · còn 6, 13.",
+           "i": true
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "ĐOẠN G",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(1) ",
+       "b": true
+      },
+      {
+       "t": "We",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "are",
+       "u": true
+      },
+      {
+       "t": " often unable to understand the critical "
+      },
+      {
+       "t": "impact",
+       "b": true
+      },
+      {
+       "t": " (tác động)",
+       "i": true
+      },
+      {
+       "t": " a species has on the "
+      },
+      {
+       "t": "environment",
+       "b": true
+      },
+      {
+       "t": " (môi trường)",
+       "i": true
+      },
+      {
+       "t": " - that is, until that species becomes extinct."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Chúng ta thường không hiểu tác động then chốt của một loài lên môi trường — cho đến khi loài đó tuyệt chủng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(2) ",
+       "b": true
+      },
+      {
+       "t": "Even if",
+       "u": true
+      },
+      {
+       "t": " we do not know the "
+      },
+      {
+       "t": "role",
+       "b": true
+      },
+      {
+       "t": " (vai trò)",
+       "i": true
+      },
+      {
+       "t": " a creature plays in the health of the "
+      },
+      {
+       "t": "environment",
+       "b": true
+      },
+      {
+       "t": " (môi trường)",
+       "i": true
+      },
+      {
+       "t": ", "
+      },
+      {
+       "t": "past lessons",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "have taught",
+       "u": true
+      },
+      {
+       "t": " us enough to know that every animal and plant is one important "
+      },
+      {
+       "t": "link",
+       "b": true
+      },
+      {
+       "t": " (liên kết)",
+       "i": true
+      },
+      {
+       "t": " in the "
+      },
+      {
+       "t": "integral",
+       "b": true
+      },
+      {
+       "t": " (không thể thiếu)",
+       "i": true
+      },
+      {
+       "t": " chain of nature."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Dù không biết vai trò của một sinh vật, bài học quá khứ đủ cho ta biết mỗi động vật và thực vật là một mắt xích quan trọng trong chuỗi tự nhiên."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(3) ",
+       "b": true
+      },
+      {
+       "t": "Some scientists",
+       "u": true
+      },
+      {
+       "t": " now "
+      },
+      {
+       "t": "speculate",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "that",
+       "u": true
+      },
+      {
+       "t": " the Leatherback may play an important "
+      },
+      {
+       "t": "role",
+       "b": true
+      },
+      {
+       "t": " (vai trò)",
+       "i": true
+      },
+      {
+       "t": " in the "
+      },
+      {
+       "t": "recovery",
+       "b": true
+      },
+      {
+       "t": " (sự phục hồi)",
+       "i": true
+      },
+      {
+       "t": " of "
+      },
+      {
+       "t": "diminishing",
+       "b": true
+      },
+      {
+       "t": " (giảm dần)",
+       "i": true
+      },
+      {
+       "t": " fish populations."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Một số nhà khoa học suy đoán rùa da có thể đóng vai trò quan trọng trong việc phục hồi quần thể cá đang giảm."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(4) ",
+       "b": true
+      },
+      {
+       "t": "Since",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "the Leatherback",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "consumes",
+       "b": true
+      },
+      {
+       "t": " (tiêu thụ, ăn)",
+       "i": true
+      },
+      {
+       "t": " its weight in jellyfish per day, it "
+      },
+      {
+       "t": "helps",
+       "u": true
+      },
+      {
+       "t": " to keep jellyfish populations in check."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Vì rùa da ăn lượng sứa bằng trọng lượng mình mỗi ngày nên nó giúp kiềm chế quần thể sứa."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(5) ",
+       "b": true
+      },
+      {
+       "t": "Jellyfish",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "consume",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (tiêu thụ, ăn)",
+       "i": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "large quantities",
+       "b": true
+      },
+      {
+       "t": " (số lượng lớn)",
+       "i": true
+      },
+      {
+       "t": " of fish larvae."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Sứa ăn lượng lớn ấu trùng cá."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(6) ",
+       "b": true
+      },
+      {
+       "t": "The rapid ",
+       "u": true
+      },
+      {
+       "t": "decline",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (suy giảm)",
+       "i": true
+      },
+      {
+       "t": " in Leatherback populations over the last 50 years",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "has been ",
+       "u": true
+      },
+      {
+       "t": "accompanied",
+       "b": true,
+       "u": true
+      },
+      {
+       "t": " (đi kèm)",
+       "i": true
+      },
+      {
+       "t": " by a "
+      },
+      {
+       "t": "significant increase",
+       "b": true
+      },
+      {
+       "t": " (tăng đáng kể)",
+       "i": true
+      },
+      {
+       "t": " in jellyfish and a marked decrease in fish in our oceans."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Sự suy giảm nhanh của rùa da suốt 50 năm qua đi kèm sự tăng đáng kể của sứa và giảm rõ rệt của cá trong đại dương (→ Q13)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "(7) ",
+       "b": true
+      },
+      {
+       "t": "Saving sea turtles",
+       "u": true
+      },
+      {
+       "t": " "
+      },
+      {
+       "t": "is",
+       "u": true
+      },
+      {
+       "t": " an International endeavor."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "→ ",
+       "b": true
+      },
+      {
+       "t": "Cứu rùa biển là nỗ lực quốc tế."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "🔗 Mạch đoạn: ",
+       "b": true
+      },
+      {
+       "t": "Rùa da ăn sứa nên giúp bảo vệ cá; rùa giảm thì sứa tăng, cá giảm."
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 6 → iii  (Heading: The leatherback's contribution)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“the Leatherback may play an important role in the recovery of diminishing fish populations … helps to keep jellyfish populations in check”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "đóng góp của rùa da cho hệ sinh thái."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "✅ Câu 13 → jellyfish  (What kind of species will benefit from a decline in Leatherback populations?)",
+           "b": true
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dẫn chứng: ",
+           "b": true
+          },
+          {
+           "t": "“a significant increase in "
+          },
+          {
+           "t": "jellyfish",
+           "b": true
+          },
+          {
+           "t": "”"
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giải thích: ",
+           "b": true
+          },
+          {
+           "t": "rùa giảm → sứa tăng."
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "⏸ "
+          },
+          {
+           "t": "Tiến độ sau đoạn G: xong 1–13.",
+           "i": true
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Hoàn thành Unit 5: 1 i · 2 iv · 3 ix · 4 viii · 5 x · 6 iii · 7 bony carapace · 8 earth's magnetic fields · 9 Florida, America / North America · 10 cold water · 11 meat · 12 about 35,000 · 13 jellyfish",
+           "b": true
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "unit-06-reef-fish-study",
+   "order": 6,
    "number": 6,
    "group": "Marine & Ocean Life",
    "head": [],
@@ -23964,7 +28034,7 @@
   },
   {
    "slug": "unit-07-listening-to-the-ocean",
-   "order": 6,
+   "order": 7,
    "number": 7,
    "group": "Marine & Ocean Life",
    "head": [],
@@ -28578,7 +32648,7 @@
   },
   {
    "slug": "unit-08-health-in-the-wild",
-   "order": 7,
+   "order": 8,
    "number": 8,
    "group": "Animals & Wildlife",
    "head": [],
@@ -33351,7 +37421,7 @@
   },
   {
    "slug": "unit-10-new-understanding-of-giraffes-in-the-wild",
-   "order": 8,
+   "order": 9,
    "number": 10,
    "group": "Animals & Wildlife",
    "head": [],
@@ -37239,7 +41309,7 @@
   },
   {
    "slug": "unit-11-bovids",
-   "order": 9,
+   "order": 10,
    "number": 11,
    "group": "Animals & Wildlife",
    "head": [],
@@ -41534,7 +45604,7 @@
   },
   {
    "slug": "unit-12-dust-and-the-american-west",
-   "order": 10,
+   "order": 11,
    "number": 12,
    "group": "Land, Soil & Resources",
    "head": [],
@@ -46151,7 +50221,7 @@
   },
   {
    "slug": "unit-13-keeping-the-water-away",
-   "order": 11,
+   "order": 12,
    "number": 13,
    "group": "Land, Soil & Resources",
    "head": [],
@@ -50538,7 +54608,7 @@
   },
   {
    "slug": "unit-14-the-baobabs-of-madagascar",
-   "order": 12,
+   "order": 13,
    "number": 14,
    "group": "Land, Soil & Resources",
    "head": [],
@@ -54644,7 +58714,7 @@
   },
   {
    "slug": "unit-15-wood-a-valuable-resource-in-new-zealands-economy",
-   "order": 13,
+   "order": 14,
    "number": 15,
    "group": "Land, Soil & Resources",
    "head": [],
@@ -59379,7 +63449,7 @@
   },
   {
    "slug": "unit-16-cranberry-fruit",
-   "order": 14,
+   "order": 15,
    "number": 16,
    "group": "Land, Soil & Resources",
    "head": [],

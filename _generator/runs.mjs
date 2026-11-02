@@ -83,6 +83,21 @@ export function replaceInRuns(runs, find, replace) {
 }
 
 /** Applies the approved corrections of a topic config ({ block, find, replace }) to the docx blocks. */
+/**
+ * Text the owner supplied separately (typed from their pictures), appended after the file's own blocks so the
+ * file's block numbers do not change: { id, lines: ['A\tan ability…', …] } -> paragraphs at the end of the list.
+ * Returns { id: [first index, last index] } for the topic config's ranges (see config.extraBlocks).
+ */
+export function addExtraBlocks(blocks, extra = []) {
+  const at = {};
+  for (const e of extra) {
+    const first = blocks.length;
+    for (const line of e.lines) blocks.push({ kind: 'p', style: null, list: null, runs: [{ t: line }], extra: e.id });
+    at[e.id] = [first, blocks.length - 1];
+  }
+  return at;
+}
+
 export function applyFixes(blocks, fixes = []) {
   for (const f of fixes) {
     const b = blocks[f.block];

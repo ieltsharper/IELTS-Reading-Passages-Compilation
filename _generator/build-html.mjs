@@ -239,7 +239,7 @@ function passagePage(topic, p) {
         ? markerText(b)
         : b.sub || b.example
           ? `<h2 class="p-sub${b.example ? ' p-example' : ''}">${runsHtml(b.runs)}</h2>`
-          : `<p class="para">${b.letter ? `<span class="p-letter">${b.letter}</span> ` : ''}${runsHtml(b.runs)}</p>`,
+          : `<p class="para">${b.letter ? `<span class="p-letter${b.letterAdded ? ' added' : ''}">${b.letter}</span> ` : ''}${runsHtml(b.runs)}</p>`,
     )
     .join('\n');
   const html = `<div class="toolbar" role="region" aria-label="Test controls">

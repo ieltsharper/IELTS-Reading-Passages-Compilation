@@ -12,7 +12,7 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
-import { applyFixes } from './runs.mjs';
+import { addExtraBlocks, applyFixes } from './runs.mjs';
 import { readBoxes } from './key-boxes.mjs';
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -28,11 +28,14 @@ const data = JSON.parse(fs.readFileSync(path.join(root, 'data', `${config.slug}.
 // Pages of a PDF that are pictures of text are read from their checked transcripts (config.transcripts).
 const { blocks: Q } = readDocx(questionsPath, { transcripts: config.transcripts && path.join(root, '_generator', 'transcripts', config.transcripts) });
 // The source as approved: the owner's corrections (config.fixes) are part of the expected text.
+// Owner-supplied text (typed from their pictures) comes after the file's blocks: config.extraBlocks.
+addExtraBlocks(Q, config.extraBlocks);
 applyFixes(Q, config.fixes);
 const readingJs = fs.readFileSync(path.join(root, 'assets', 'reading.js'), 'utf8');
 // Answers straight from the key, independent of the generator: the answer table ("Bài | Đáp án"), or
 // for compilations the "✅ Câu n → X" lines of each "UNIT n" section.
 const K = readDocx(keyPath).blocks;
+if (config.keyFormat === 'boxes' && analysisPath) K.push(...readDocx(analysisPath).blocks); // second key file
 let keyAnswers;
 // Alternative answers the key allows, per passage: { n: ['five hours'] }. The page must accept exactly
 // the key's answer plus these, nothing else.
@@ -180,7 +183,7 @@ for (const [i, pc] of config.passages.entries()) {
   const dom =new JSDOM(html, { url: `http://localhost/${config.slug}/${pc.slug}.html`, runScripts: 'outside-only' });
   const doc = dom.window.document;
   const article = doc.querySelector('article.passage').cloneNode(true);
-  article.querySelectorAll('.sr-only').forEach((e) => e.remove()); // screen-reader labels are page text
+  article.querySelectorAll('.sr-only, .p-letter.added').forEach((e) => e.remove()); // screen-reader labels; letters added to unlettered paragraphs
   const pageText = [...article.querySelectorAll('p, h1, h2')].map((e) => e.textContent).join(' ');
   const d1 = diff(norm(src).split(' '), norm(pageText).split(' '));
   ok(!d1, `${label}: passage text differs ${d1}`);

@@ -9,7 +9,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
 import { readBoxes } from './key-boxes.mjs';
-import { applyFixes, block, clean, isEmpty, plain, slice, splitRuns, trim } from './runs.mjs';
+import { addExtraBlocks, applyFixes, block, clean, isEmpty, plain, slice, splitRuns, trim } from './runs.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const [topicName, questionsPath, keyPath, analysisPath] = process.argv.slice(2);
@@ -21,11 +21,13 @@ const config = (await import(`./topics/${topicName}.mjs`)).default;
 // Pages of a PDF that are pictures of text are read from their checked transcripts (config.transcripts).
 const { blocks: Q } = readDocx(questionsPath, { transcripts: config.transcripts && path.join(here, 'transcripts', config.transcripts) });
 const { blocks: K } = readDocx(keyPath);
+// "boxes" keys can come in two files (Units 1–13 and 14–26): the second is the 4th argument.
+if (config.keyFormat === 'boxes' && analysisPath) K.push(...readDocx(analysisPath).blocks);
 if (config.analysisFile && !analysisPath) {
   console.error(`This topic also needs its analysis file (${config.analysisFile}) as the 4th argument.`);
   process.exit(1);
 }
-const A = analysisPath ? readDocx(analysisPath).blocks : null;
+const A = analysisPath && config.keyFormat !== 'boxes' ? readDocx(analysisPath).blocks : null;
 if (/\.pdf$/i.test(questionsPath)) {
   // Pictures in the PDF (e.g. a flow-chart): saved as assets/img/<topic>/<id>.png.
   const dir = path.join(here, '..', 'assets', 'img', config.slug);
@@ -40,6 +42,8 @@ const fail = (msg) => {
 };
 
 // ---- Approved corrections to the questions file (config.fixes), applied before anything else ----
+// Owner-supplied text (typed from their pictures) comes after the file's blocks: config.extraBlocks.
+addExtraBlocks(Q, config.extraBlocks);
 applyFixes(Q, config.fixes);
 for (const f of config.fixes || []) problems.push(`fix applied (block ${f.block}): ${JSON.stringify(f.find)} -> ${JSON.stringify(f.replace)}`);
 
@@ -84,7 +88,7 @@ function splitTab(p) {
   const tab = text.indexOf('\t');
   if (tab < 0) {
     // PDF items set with a space ("1 In the cultivation of olives…").
-    const m = config.itemsWithSpace && text.match(/^\s*(\d{1,2})\s+(?=\S)/);
+    const m = config.itemsWithSpace && text.match(/^\s*(\d{1,2})\.?\s+(?=\S)/);
     return m ? [m[1], trim(slice(p.runs, m[0].length))] : [null, trim(p.runs)];
   }
   return [text.slice(0, tab).trim(), trim(slice(p.runs, tab + 1))];
@@ -205,7 +209,17 @@ function buildGroup(g, where, passage) {
     out.limit = wordLimit(introText) || fail(`${W}: no word limit in the instructions`);
   } else if (g.type === 'mcq') {
     out.questions = [];
-    for (const p of range(g.items).flatMap(unwrap).filter(hasText)) {
+    let mcqParas = range(g.items).flatMap(unwrap).filter(hasText);
+    // g.splitItems: an option the source printed on the question's line ("24\tThe … set up a A\tcharitable trust.").
+    for (const marker of g.splitItems || []) {
+      const i = mcqParas.findIndex((p) => plain(p.runs).includes(marker));
+      if (i < 0) fail(`${W}: item split ${JSON.stringify(marker)} not found`);
+      // The option keeps the text but not the bold of the question line it was printed on.
+      const parts = splitRuns(mcqParas[i].runs, [marker]).map((runs, k) => ({ ...mcqParas[i], runs: k ? clean(runs.map((r) => ({ ...r, b: false }))) : runs }));
+      mcqParas = [...mcqParas.slice(0, i), ...parts, ...mcqParas.slice(i + 1)];
+      problems.push(`${W}: option split from the question line before ${JSON.stringify(marker)}`);
+    }
+    for (const p of mcqParas) {
       const [pre, rest] = splitTab(p);
       if (/^\d+\.?$/.test(pre)) out.questions.push({ n: +pre.replace(/\.$/, ''), stem: rest, options: [] });
       else {
@@ -266,7 +280,16 @@ function buildGroup(g, where, passage) {
       checkKeys(out.options.list, W);
       problems.push(`${W}: the list printed beside the questions was cut from the item lines and shown below them`);
     }
-    if (g.options) {
+    if (g.options && g.inlineOptions) {
+      // The list printed on one line ("Locations A Hacienda La Pacifica B Santa Rosa National Park C …").
+      const host = para(at(g.options));
+      const cut = plain(host.runs).indexOf(g.inlineOptions);
+      if (cut < 0) fail(`${W}: inline options not found`);
+      const title = trim(slice(host.runs, 0, cut));
+      out.options = { title: plain(title) ? [title] : null, list: inlineOptions(slice(host.runs, cut), W) };
+      out.optionsAfter = !!g.optionsAfter;
+      checkKeys(out.options.list, W);
+    } else if (g.options) {
       out.options = optionList(g.options, W, g.splitOptions);
       out.optionsAfter = !!g.optionsAfter;
       checkKeys(out.options.list, W, g.relabel);
@@ -409,6 +432,15 @@ function bodyOf(blocks, firstIndex, pc) {
       } else out.push(item(runs, index));
     });
   });
+  // pc.labelParagraphs: the questions refer to paragraphs A, B, C… that the source prints without letters.
+  if (pc.labelParagraphs) {
+    out.filter((b) => !b.sub && !b.marker).forEach((b, k) => {
+      if (b.letter) fail('labelParagraphs: paragraph already has a letter');
+      b.letter = String.fromCharCode(65 + k);
+      b.letterAdded = true;
+    });
+    problems.push(`passage ${pc.slug}: paragraphs labelled A, B, C… (the questions refer to them)`);
+  }
   return { body: out, standfirst };
 
   function item(runs, index) {
@@ -994,6 +1026,11 @@ const passages = config.passages.map((pc, i) => {
           : tableSections[i] || fail(`key: no section for ${where}`);
   if (!pc.aiKey && !titleMatches(section.title, plain(title))) fail(`${where}: key section "${section.title}" does not match title "${plain(title)}"`);
   if (fromAnalysis) spellOut(section, p.groups);
+  // An answer the key gives only outside its answer boxes (approved; config answerOverride, also used by check.mjs).
+  for (const [n, a] of Object.entries(pc.answerOverride || {})) {
+    problems.push(`${where} Q${n}: answer ${JSON.stringify(a)} (config answerOverride)`);
+    section.answers[n] = a;
+  }
   // Approved: the key gives the idea for a word-list question; the owner-approved letter is the answer.
   for (const [n, letter] of Object.entries(pc.answerLetters || {})) {
     problems.push(`${where} Q${n}: key says ${JSON.stringify(section.answers[n])}, answer set to ${letter} (approved)`);
