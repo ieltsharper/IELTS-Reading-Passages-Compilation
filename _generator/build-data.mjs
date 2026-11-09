@@ -649,7 +649,7 @@ function parseKeyBoxes() {
   const asBlocks = (list) => list.map((x) => (x.heading ? { type: 'h', runs: trim(x.heading.runs) } : block(x))).filter((x) => x.type === 'h' || !isEmpty(x));
   for (const u of Object.values(readBoxes(K))) {
     const expl = {};
-    for (const [k, b] of Object.entries(u.boxes)) expl[k] = b.kind === 'tbl' ? b.rows[0][0].map(block).filter((x) => !isEmpty(x)) : [block(b)];
+    for (const [k, b] of Object.entries(u.boxes)) expl[k] = b.kind === 'tbl' ? b.rows[0][0].map(block).filter((x) => !isEmpty(x)) : b.kind === 'group' ? b.blocks.map(block) : [block(b)];
     out[u.unit] = {
       label: `UNIT ${u.unit}`,
       title: u.title,
@@ -660,8 +660,9 @@ function parseKeyBoxes() {
       evidence: {},
       crossCheck: null,
       // The key's notes on the source (they give answers away): first in the collapsed "Hướng dẫn One-Shot".
-      strategy: [...(u.notes.length ? [{ type: 'h', runs: [{ t: 'Ghi chú về đề và đáp án' }] }] : []), ...u.notes.flatMap((b) => b.rows[0][0].map(block)).filter((x) => !isEmpty(x)), ...asBlocks([...u.step1, ...u.step2])],
-      reading: asBlocks(u.step3.filter((b) => !(b.kind === 'p' && !plain(b.runs).trim()))).map((x) => (x.type === 'p' && x.runs && /^ĐOẠN /.test(plain(x.runs)) ? { type: 'h', runs: x.runs } : x)),
+      strategy: [...(u.notes.length ? [{ type: 'h', runs: [{ t: 'Ghi chú về đề và đáp án' }] }] : []), ...u.notes.flatMap((b) => (b.kind === 'tbl' ? b.rows[0][0].map(block) : [block(b)])).filter((x) => !isEmpty(x)), ...asBlocks([...u.step1, ...u.step2])],
+      // "Đoạn A" (Heading3, Food & Health) and "ĐOẠN A" paragraphs are headings.
+      reading: asBlocks(u.step3.filter((b) => !(b.kind === 'p' && !plain(b.runs).trim())).map((b) => (b.kind === 'p' && b.style === 'Heading3' ? { heading: b } : b))).map((x) => (x.type === 'p' && x.runs && /^ĐOẠN /.test(plain(x.runs)) ? { type: 'h', runs: x.runs } : x)),
     };
   }
   return out;

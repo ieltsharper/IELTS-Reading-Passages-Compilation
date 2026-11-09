@@ -104,7 +104,7 @@ function typesOf(p) {
     }
     if (g.type === 'bank' && /ending/i.test(intro)) t = 'matching sentence endings';
     if (g.type === 'grid' || g.type === 'match') {
-      t = g.options?.list[0]?.key === 'i' ? 'matching headings' : /Which paragraph/i.test(intro) ? 'matching information' : /ending/i.test(intro) ? 'matching sentence endings' : 'matching features';
+      t = g.options?.list[0]?.key === 'i' ? 'matching headings' : /Which (paragraph|section)/i.test(intro) ? 'matching information' : /ending/i.test(intro) ? 'matching sentence endings' : 'matching features';
     }
     if (g.typeName) t = g.typeName;
     if (!out.includes(t)) out.push(t);
