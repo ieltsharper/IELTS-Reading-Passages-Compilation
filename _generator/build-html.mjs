@@ -72,7 +72,7 @@ function page({ title, depth, back, newTab, body, data, scripts }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://script.google.com https://script.googleusercontent.com; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>${esc(title)}</title>
 <link rel="stylesheet" href="${up}assets/theme.css">${data ? `\n<link rel="stylesheet" href="${up}assets/ih-annotate.css">` : ''}
 </head>

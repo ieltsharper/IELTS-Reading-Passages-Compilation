@@ -342,6 +342,7 @@ for (const f of allHtml) {
   const html = fs.readFileSync(f, 'utf8');
   const rel = path.relative(root, f);
   ok(html.includes('<meta name="robots" content="noindex, nofollow">'), `${rel}: no robots noindex`);
+  ok(html.includes("connect-src 'self' https://script.google.com https://script.googleusercontent.com;"), `${rel}: the page cannot reach the portal (answers not saved online)`);
   ok(html.includes('class="brand-mark" aria-hidden="true">IH</span>IELTS Harper Portal') && html.includes('href="https://ieltsharper.github.io/portal/"'), `${rel}: no portal top bar`);
   for (const m of html.matchAll(/\b(href|src)="([^"]+)"/g)) {
     const url = m[2];
@@ -355,7 +356,16 @@ for (const f of allHtml) {
   ok(!/<(script|link|img|iframe)[^>]+(src|href)="https?:/.test(html), `${rel}: loads something from another site`);
   if (htmlFiles.includes(f)) ok(!/<a [^>]*href="(?!#)[^"]*"(?![^>]*target="_blank")/.test(html), `${rel}: a link that leaves the page does not open a new tab`);
 }
-ok(!/https?:\/\//.test(readingJs) && !/fetch\(|XMLHttpRequest|sendBeacon/.test(readingJs), 'reading.js makes network requests');
+// reading.js talks only to the IELTS Harper Portal (saved answers, 2026-11-13): one fetch, to the portal's API.
+{
+  const urls = [...new Set(readingJs.match(/https?:\/\/[^'"\s)]+/g) || [])].sort();
+  const allowed = ['https://ieltsharper.github.io/IELTS-Reading-Passages-Compilation/', 'https://ieltsharper.github.io/portal/'];
+  ok(
+    urls.every((u) => allowed.includes(u) || /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(u)),
+    `reading.js names another site: ${urls.join(' ')}`,
+  );
+  ok((readingJs.match(/fetch\(/g) || []).length === 1 && !/XMLHttpRequest|sendBeacon/.test(readingJs), 'reading.js makes other network requests');
+}
 
 console.log(`\n${passes} checks passed, ${failures} failed`);
 process.exit(failures ? 1 : 0);
