@@ -181,6 +181,8 @@ function groupHtml(g, p, qs) {
       const id = `q${q.n}`;
       // Heading questions sit in the passage ("27 ……"); the label here is page text, not source text.
       const stem = q.stem ? runsHtml(q.stem) : `<span class="ui-label">Heading for the paragraph marked <a href="#marker-${q.n}">${q.n}</a> in the passage</span>`;
+      // An example printed between the questions ("Example: Paragraph C   i"), in its place.
+      if (q.before) h += `<div class="extra">${blocksHtml(q.before)}</div>`;
       h += `<div class="q match" id="item-${id}">
   <label class="match-row" for="${id}"><span class="qn">${q.n}</span> <span class="stem">${stem}</span></label>
   <span class="match-input">${selectHtml(id, null, letters.map((l) => ({ value: l, text: l })))}<span class="mark" id="mark-${id}" aria-hidden="true"></span></span>

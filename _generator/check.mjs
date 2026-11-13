@@ -44,8 +44,8 @@ const isWordAnswer = (a) => !/^([A-Z]|[ivx]+|TRUE|FALSE|NOT GIVEN|YES|NO)$/.test
 if (config.keyFormat === 'boxes') {
   // "✅ Câu n → X" and settled "⏸ Qn … → NOT GIVEN" lines of each UNIT (key-boxes.mjs).
   const units = readBoxes(K);
-  keyAnswers = config.passages.map((pc) => ({ ...units[pc.unit].answers, ...pc.answerOverride }));
-  keyAlts = config.passages.map((pc) => units[pc.unit].alts);
+  keyAnswers = config.passages.map((pc) => ({ ...units[pc.keyUnit || pc.unit].answers, ...pc.answerOverride }));
+  keyAlts = config.passages.map((pc) => units[pc.keyUnit || pc.unit].alts);
 } else if (config.keyFormat === 'units') {
   const byUnit = {};
   const altsByUnit = {};

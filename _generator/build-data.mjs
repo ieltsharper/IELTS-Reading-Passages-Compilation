@@ -190,16 +190,27 @@ function buildGroup(g, where, passage) {
   if (g.after) out.after = range(g.after).map(block).filter((x) => !isEmpty(x));
   const introText = [...intro, ...(out.after || [])].map((x) => (x.type === 'p' ? plain(x.runs) : '')).join(' ');
   const W = `${where} ${titleText}`;
-  const items = () =>
-    range(g.items)
-      .filter(hasText)
+  const items = () => {
+    // "Example: Paragraph A   iv" printed between the questions (g.examplesInItems): kept in place, shown just
+    // above the question that follows it.
+    let examples = [];
+    const list = [];
+    for (const p of range(g.items).filter(hasText)) {
       // "TRUE FALSE NOT GIVEN" printed under each statement: the page shows its own buttons.
-      .filter((p) => !(out.choices && /^\s*(TRUE|FALSE|NOT GIVEN|YES|NO)(\s+(TRUE|FALSE|NOT GIVEN|YES|NO))+\s*$/.test(plain(p.runs))))
-      .map((p) => {
-        const [pre, stem] = splitTab(p);
-        if (!/^\d+\.?$/.test(pre || '')) fail(`${W}: expected a numbered item, got ${JSON.stringify(plain(p.runs).slice(0, 40))}`);
-        return { n: +pre.replace(/\.$/, ''), stem };
-      });
+      if (out.choices && /^\s*(TRUE|FALSE|NOT GIVEN|YES|NO)(\s+(TRUE|FALSE|NOT GIVEN|YES|NO))+\s*$/.test(plain(p.runs))) continue;
+      if (g.examplesInItems && /^Example\b/.test(plain(p.runs))) {
+        examples.push(block(p));
+        continue;
+      }
+      const [pre, stem] = splitTab(p);
+      if (!/^\d+\.?$/.test(pre || '')) fail(`${W}: expected a numbered item, got ${JSON.stringify(plain(p.runs).slice(0, 40))}`);
+      const q = { n: +pre.replace(/\.$/, ''), stem };
+      if (examples.length) [q.before, examples] = [examples, []];
+      list.push(q);
+    }
+    if (examples.length) fail(`${W}: example after the last question`);
+    return list;
+  };
 
   if (g.type === 'tfng' || g.type === 'ynng') {
     out.choices = g.type === 'tfng' ? ['TRUE', 'FALSE', 'NOT GIVEN'] : ['YES', 'NO', 'NOT GIVEN'];
@@ -1019,7 +1030,7 @@ const passages = config.passages.map((pc, i) => {
   const section = fromAnalysis
     ? analysisSections[pc.unit] || fail(`analysis: no UNIT ${pc.unit}`)
     : unitSections
-      ? unitSections[pc.unit] || fail(`key: no UNIT ${pc.unit}`)
+      ? unitSections[pc.keyUnit || pc.unit] || fail(`key: no UNIT ${pc.keyUnit || pc.unit}`)
       : tablesKey
         ? tablesKey.units[pc.unit] || fail(`key: no UNIT ${pc.unit}`)
         : pc.aiKey

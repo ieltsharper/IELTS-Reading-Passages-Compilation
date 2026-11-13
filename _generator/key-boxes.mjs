@@ -8,6 +8,8 @@
 // Paragraph variant (Food & Health): the answer is a paragraph "✅ Câu 32 → E · Jeffrey Friedman (paraphrase)"
 // followed by "Dẫn chứng: …", "Giải thích: …", "Bẫy: …" paragraphs (together they are the box); the unit's
 // "Ghi chú sửa lỗi nguồn" paragraphs before BƯỚC 1 are its notes. "(outer) shells" = shells, also "outer shells".
+// Tourism: one key file for three handouts (UNIT 1–8, "UNIT 1 · Bondi Beach"); notes start "Lưu ý"; each
+// passage in the topic config says which key unit it uses (`keyUnit`).
 import { textOf } from './docx.mjs';
 
 const VERDICT = /→\s*(TRUE|FALSE|NOT GIVEN|YES|NO)\b[^→]*$/;
@@ -51,9 +53,13 @@ export function readBoxes(blocks) {
       return;
     }
     open = null;
+    // Tourism key: a plain "UNIT 2 · PASSAGE 1" line before the unit's heading (not part of the unit before).
+    if (b.kind === 'p' && /^UNIT \d+ · PASSAGE \d+$/.test(t)) return;
     if (b.kind === 'p' && b.style === 'Heading1') {
-      const m = t.match(/^UNIT (\d+) · /);
-      cur = m ? (units[m[1]] = { unit: +m[1], title: textOf(blocks[i + 1]).trim(), notes: [], step1: [], step2: [], step3: [], answers: {}, alts: {}, boxes: {} }) : null;
+      const m = t.match(/^UNIT (\d+) · (.*)$/);
+      // "UNIT 1 · FOOD & DIET · PASSAGE 3" + the title on the next line, or "UNIT 1 · Bondi Beach" (Tourism).
+      const title = m && (/· PASSAGE \d+$/.test(t) ? textOf(blocks[i + 1]).trim() : m[2].trim());
+      cur = m ? (units[m[1]] = { unit: +m[1], title, notes: [], step1: [], step2: [], step3: [], answers: {}, alts: {}, boxes: {} }) : null;
       part = 'pre';
       return;
     }
@@ -65,7 +71,7 @@ export function readBoxes(blocks) {
     }
     if (part === 'pre') {
       if (b.kind === 'tbl' && t.startsWith('⚠')) cur.notes.push(b);
-      if (b.kind === 'p' && (/^Ghi chú sửa lỗi nguồn/.test(t) || (cur.notes.length && cur.notes[0].kind === 'p'))) cur.notes.push(b);
+      if (b.kind === 'p' && (/^(Ghi chú sửa lỗi nguồn|Lưu ý)/.test(t) || (cur.notes.length && cur.notes[0].kind === 'p'))) cur.notes.push(b);
       return;
     }
     if (part !== 'step3') {
@@ -73,12 +79,14 @@ export function readBoxes(blocks) {
       return;
     }
     cur.step3.push(b);
-    const para = b.kind === 'p' && t.match(/^✅ Câu (\d+) → (.*)$/);
+    // "✅ Câu 9–10 → A, D (…)" (Tourism): one answer for a choose-TWO/THREE group.
+    const para = b.kind === 'p' && t.match(/^✅ Câu (\d+)(?:[–-](\d+))? → (.*)$/);
     if (para) {
-      const { answer, alts } = readParagraphAnswer(para[2]);
-      cur.answers[para[1]] = answer;
-      if (alts.length) cur.alts[para[1]] = alts;
-      cur.boxes[para[1]] = open = { kind: 'group', blocks: [b] };
+      const k = para[2] ? para[1] + '-' + para[2] : para[1];
+      const { answer, alts } = readParagraphAnswer(para[3]);
+      cur.answers[k] = answer;
+      if (alts.length) cur.alts[k] = alts;
+      cur.boxes[k] = open = { kind: 'group', blocks: [b] };
       return;
     }
     if (b.kind !== 'tbl') return;
