@@ -630,6 +630,7 @@ for (let k = 1; k <= 18; k++) {
     slug: `passage-${String(k).padStart(2, '0')}-${TITLES[k - 1].toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
     order: k,
     number: k,
+    group: `Test ${Math.ceil(k / 3)}`,
     head: [],
     title: [run(TITLES[k - 1])],
     standfirst: null,
@@ -647,6 +648,9 @@ const data = {
   topic: 'Recent Actual Test 7',
   slug: SLUG,
   numberLabel: 'Passage',
+  // Three passages make one test (Test 1 = passages 1-3 ... Test 6 = passages 16-18); each test has its own page.
+  groups: [1, 2, 3, 4, 5, 6].map((t) => `Test ${t}`),
+  testPages: true,
   sources: { questions: 'HƯỚNG DẪN GIẢI ĐỀ RECENT ACTUAL TESTS.pdf', key: 'HƯỚNG DẪN GIẢI ĐỀ RECENT ACTUAL TESTS.pdf' },
   passages,
 };

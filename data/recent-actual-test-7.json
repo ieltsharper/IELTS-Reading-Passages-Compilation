@@ -2,6 +2,15 @@
  "topic": "Recent Actual Test 7",
  "slug": "recent-actual-test-7",
  "numberLabel": "Passage",
+ "groups": [
+  "Test 1",
+  "Test 2",
+  "Test 3",
+  "Test 4",
+  "Test 5",
+  "Test 6"
+ ],
+ "testPages": true,
  "sources": {
   "questions": "HƯỚNG DẪN GIẢI ĐỀ RECENT ACTUAL TESTS.pdf",
   "key": "HƯỚNG DẪN GIẢI ĐỀ RECENT ACTUAL TESTS.pdf"
@@ -11,6 +20,7 @@
    "slug": "passage-01-the-study-of-laughter",
    "order": 1,
    "number": 1,
+   "group": "Test 1",
    "head": [],
    "title": [
     {
@@ -1187,6 +1197,7 @@
    "slug": "passage-02-shoemaker-levy-9-collision-with-jupiter",
    "order": 2,
    "number": 2,
+   "group": "Test 1",
    "head": [],
    "title": [
     {
@@ -2522,6 +2533,7 @@
    "slug": "passage-03-dealing-with-different-sleep-patterns",
    "order": 3,
    "number": 3,
+   "group": "Test 1",
    "head": [],
    "title": [
     {
@@ -3942,6 +3954,7 @@
    "slug": "passage-04-from-novices-to-experts",
    "order": 4,
    "number": 4,
+   "group": "Test 2",
    "head": [],
    "title": [
     {
@@ -5284,6 +5297,7 @@
    "slug": "passage-05-the-myth-of-the-five-senses",
    "order": 5,
    "number": 5,
+   "group": "Test 2",
    "head": [],
    "title": [
     {
@@ -6591,6 +6605,7 @@
    "slug": "passage-06-tv-addiction",
    "order": 6,
    "number": 6,
+   "group": "Test 2",
    "head": [],
    "title": [
     {
@@ -8109,6 +8124,7 @@
    "slug": "passage-07-antarctica-and-global-warming",
    "order": 7,
    "number": 7,
+   "group": "Test 3",
    "head": [],
    "title": [
     {
@@ -9609,6 +9625,7 @@
    "slug": "passage-08-magnetic-therapy",
    "order": 8,
    "number": 8,
+   "group": "Test 3",
    "head": [],
    "title": [
     {
@@ -11041,6 +11058,7 @@
    "slug": "passage-09-insects-and-inspired-artificial-robots",
    "order": 9,
    "number": 9,
+   "group": "Test 3",
    "head": [],
    "title": [
     {
@@ -12410,6 +12428,7 @@
    "slug": "passage-10-extinction-of-aussie-animals",
    "order": 10,
    "number": 10,
+   "group": "Test 4",
    "head": [],
    "title": [
     {
@@ -13688,6 +13707,7 @@
    "slug": "passage-11-a-brief-history-of-rubber",
    "order": 11,
    "number": 11,
+   "group": "Test 4",
    "head": [],
    "title": [
     {
@@ -14741,6 +14761,7 @@
    "slug": "passage-12-desertification",
    "order": 12,
    "number": 12,
+   "group": "Test 4",
    "head": [],
    "title": [
     {
@@ -15940,6 +15961,7 @@
    "slug": "passage-13-the-legend-of-tea",
    "order": 13,
    "number": 13,
+   "group": "Test 5",
    "head": [],
    "title": [
     {
@@ -17346,6 +17368,7 @@
    "slug": "passage-14-a-second-look-at-twin-studies",
    "order": 14,
    "number": 14,
+   "group": "Test 5",
    "head": [],
    "title": [
     {
@@ -18545,6 +18568,7 @@
    "slug": "passage-15-torch-relay",
    "order": 15,
    "number": 15,
+   "group": "Test 5",
    "head": [],
    "title": [
     {
@@ -19944,6 +19968,7 @@
    "slug": "passage-16-hurricane",
    "order": 16,
    "number": 16,
+   "group": "Test 6",
    "head": [],
    "title": [
     {
@@ -21151,6 +21176,7 @@
    "slug": "passage-17-save-the-turtles",
    "order": 17,
    "number": 17,
+   "group": "Test 6",
    "head": [],
    "title": [
     {
@@ -22302,6 +22328,7 @@
    "slug": "passage-18-fears",
    "order": 18,
    "number": 18,
+   "group": "Test 6",
    "head": [],
    "title": [
     {

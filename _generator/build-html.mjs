@@ -245,7 +245,7 @@ function passagePage(topic, p) {
     )
     .join('\n');
   const html = `<div class="toolbar" role="region" aria-label="Test controls">
-  <p class="toolbar-title">${esc(topic.topic)} · ${esc(labelOf(topic, p))}</p>
+  <p class="toolbar-title">${esc(topic.topic)} · ${topic.testPages ? `${esc(p.group)} · ` : ''}${esc(labelOf(topic, p))}</p>
   <div class="timer-wrap"><span class="timer" id="timer" role="timer" aria-label="Timer, 20 minutes">20:00</span><button type="button" class="btn" id="timer-btn">Start timer</button></div>
   <p class="answered" aria-live="polite">Answered <strong id="answered">0</strong> / ${total}</p>
   <div class="actions">
@@ -279,7 +279,7 @@ function passagePage(topic, p) {
   return page({
     title: `${plain(p.title)} – ${topic.topic} – ${SITE}`,
     depth: 1,
-    back: { href: 'index.html', label: `${topic.topic} passages` },
+    back: topic.testPages ? { href: testFile(p.group), label: `${p.group}` } : { href: 'index.html', label: `${topic.topic} passages` },
     newTab: true,
     body: html,
     data: { total, questions: qs },
@@ -287,6 +287,8 @@ function passagePage(topic, p) {
   });
 }
 
+/** Topics with `testPages` have one page per test (config `groups`): test-1.html, test-2.html, ... */
+export const testFile = (name) => `test-${name.replace(/\D+/g, '')}.html`;
 export const labelOf = (topic, p) => `${topic.numberLabel || 'Passage'} ${p.number ?? p.order}`;
 
 function topicPage(topic) {
@@ -296,7 +298,8 @@ function topicPage(topic) {
     ? topic.groups
         .map((name) => {
           const ps = topic.passages.filter((p) => p.group === name);
-          return ps.length ? `<h2 class="group-title">${esc(name)}</h2>\n<ul class="menu-list">\n${ps.map(li).join('\n')}\n</ul>` : '';
+          const title = topic.testPages ? `<a href="${testFile(name)}">${esc(name)}</a> <span class="muted">(${ps.length} passages, ${ps.reduce((s, p) => s + countOf(p), 0)} questions)</span>` : esc(name);
+          return ps.length ? `<h2 class="group-title">${title}</h2>\n<ul class="menu-list">\n${ps.map(li).join('\n')}\n</ul>` : '';
         })
         .join('\n')
     : `<ul class="menu-list">\n${topic.passages.map(li).join('\n')}\n</ul>`;
@@ -306,9 +309,27 @@ function topicPage(topic) {
     back: { href: '../index.html', label: 'All topics' },
     body: `<main class="container">
 <h1>${esc(topic.topic)}</h1>
-<p class="summary">${topic.passages.length} reading passages, ${topic.passages.reduce((s, p) => s + countOf(p), 0)} questions. Answers are saved in this browser; check them on each page.</p>
+<p class="summary">${topic.testPages ? `${topic.groups.length} reading tests, ` : ''}${topic.passages.length} reading passages, ${topic.passages.reduce((s, p) => s + countOf(p), 0)} questions. Answers are saved in this browser; check them on each page.</p>
 ${topic.topicNotes ? `<details class="strategy topic-notes" lang="vi"><summary>Các bẫy lặp lại trong đề</summary>${blocksHtml(topic.topicNotes)}</details>` : ''}
 ${items}
+</main>`,
+  });
+}
+
+/** One test = the passages of one group, on a page of their own. */
+function testPage(topic, name, ps) {
+  const li = (p) => `<li><a href="${p.slug}.html"><span><span class="item-title">${esc(labelOf(topic, p))}: ${runsHtml(p.title)}</span><span class="item-note">${esc(noteOf(p))}</span></span></a></li>`;
+  const total = ps.reduce((s, p) => s + countOf(p), 0);
+  return page({
+    title: `${topic.topic} · ${name} – ${SITE}`,
+    depth: 1,
+    back: { href: 'index.html', label: `${topic.topic}` },
+    body: `<main class="container">
+<h1>${esc(topic.topic)} · ${esc(name)}</h1>
+<p class="summary">${ps.length} reading passages, ${total} questions. Answers are saved in this browser; check them on each page.</p>
+<ul class="menu-list">
+${ps.map(li).join('\n')}
+</ul>
 </main>`,
   });
 }
@@ -343,6 +364,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.a
     for (const f of fs.readdirSync(dir)) if (f.endsWith('.html')) fs.unlinkSync(path.join(dir, f));
     fs.writeFileSync(path.join(dir, 'index.html'), topicPage(t));
     for (const p of t.passages) fs.writeFileSync(path.join(dir, `${p.slug}.html`), passagePage(t, p));
+    if (t.testPages) for (const name of t.groups) fs.writeFileSync(path.join(dir, testFile(name)), testPage(t, name, t.passages.filter((p) => p.group === name)));
     console.log(`${t.slug}: ${t.passages.length} passage pages`);
   }
   fs.writeFileSync(path.join(root, 'index.html'), rootPage(topics));
