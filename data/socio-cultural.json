@@ -34344,7 +34344,7 @@
          "gap": 39
         },
         {
-         "t": "..writer was interested in the physical environment, the people that ruled the country and the "
+         "t": ".. The writer was interested in the physical environment, the people that ruled the country and the "
         },
         {
          "gap": 40
@@ -40942,7 +40942,7 @@
      "letter": "A",
      "runs": [
       {
-       "t": "The Sumerians, an ancient people of the Middle East, had a story explaining the invention of writing more than 5,000 years ago. It seems a messenger of the King of Uruk arrived at the court of a distant ruler so exhausted that he was unable to deliver the oracle message. So the king set down the words of his next messages on a clay tablet. A charming story, whose retelling at a recent symposium at the University of Pennsylvania amused scholars. They smiled at the absurdity of a letter which the recipient would not have been able to read."
+       "t": "The Sumerians, an ancient people of the Middle East, had a story explaining the invention of writing more than 5,000 years ago. It seems a messenger of the King of Uruk arrived at the court of a distant ruler so exhausted that he was unable to deliver the oral message. So the king set down the words of his next messages on a clay tablet. A charming story, whose retelling at a recent symposium at the University of Pennsylvania amused scholars. They smiled at the absurdity of a letter which the recipient would not have been able to read."
       }
      ]
     },
@@ -44939,7 +44939,7 @@
        "u": true
       },
       {
-       "t": " he was unable to deliver the oracle message."
+       "t": " he was unable to deliver the oral message."
       }
      ]
     },
@@ -58373,7 +58373,7 @@
        "n": 34,
        "stem": [
         {
-         "t": "Pronunciation with causal inaccuracy will not exert a big influence on language changes."
+         "t": "Pronunciation with casual inaccuracy will not exert a big influence on language changes."
         }
        ]
       },
@@ -60511,7 +60511,7 @@
          "t": " "
         },
         {
-         "t": "(Pronunciation with causal inaccuracy will not exert a big influence on language changes.)",
+         "t": "(Pronunciation with casual inaccuracy will not exert a big influence on language changes.)",
          "i": true
         }
        ]
@@ -60560,11 +60560,11 @@
          "t": " "
         },
         {
-         "t": "causal",
+         "t": "casual",
          "i": true
         },
         {
-         "t": " (= casual, ngẫu nhiên) "
+         "t": " (ngẫu nhiên) "
         },
         {
          "t": "inaccuracy",
@@ -63200,7 +63200,7 @@
        "t": " "
       },
       {
-       "t": "(Pronunciation with causal inaccuracy will not exert a big influence on language changes.)",
+       "t": "(Pronunciation with casual inaccuracy will not exert a big influence on language changes.)",
        "i": true
       }
      ]
@@ -63249,11 +63249,11 @@
        "t": " "
       },
       {
-       "t": "causal",
+       "t": "casual",
        "i": true
       },
       {
-       "t": " (= casual, ngẫu nhiên) "
+       "t": " (ngẫu nhiên) "
       },
       {
        "t": "inaccuracy",
@@ -107602,7 +107602,7 @@
     {
      "runs": [
       {
-       "t": "For executives near the top of the office pyramid, the benefits of the electronic revolution - like telecommuting and flexible scheduling - may outweigh the disadvantages of being continuously on call. But in Workplace 2000, authors Joseph Boyett and Henry Conn describe a future in which millions of people now charged with analyzing information and making routine decisions will be replaced by less skilled workers using 'intelligent' software to make decisions for them. They predict that a cult of performance excellence will engulf most businesses. The millions of people on the bottom levels of electronic hierarchies are increasingly likely to spend their days in an isolated no-man's land, subservient to intelligent information systems that report their progress to unseen supervisors far away. Because computers measure quantity and quality, such systems tend to reward employees who work faster more than those who work better."
+       "t": "For executives near the top of the office pyramid, the benefits of the electronic revolution - like telecommuting and flexible scheduling - may outweigh the disadvantages of being continuously on call. But in Workplace 2000, authors Joseph Boyett and Henry Conn describe a future in which millions of people now charged with analyzing information and making routine decisions will be replaced by less skilled workers using 'intelligent' software to make decisions for them. They predict that a cult of performance excellence will engulf most businesses. The millions of people on the bottom levels of electronic hierarchies are increasingly likely to spend their days in an isolated no-man's land, subservient to intelligent information systems that report their progress to unseen supervisors far away. Because computers measure quantity and not quality, such systems tend to reward employees who work faster more than those who work better."
       }
      ]
     },
@@ -108655,7 +108655,7 @@
            "b": true
           },
           {
-           "t": " measure quantity and quality, such…"
+           "t": " measure quantity and not quality, such…"
           }
          ]
         }
@@ -114487,7 +114487,7 @@
        "u": true
       },
       {
-       "t": " computers measure quantity and quality, "
+       "t": " computers measure quantity and not quality, "
       },
       {
        "t": "such systems",

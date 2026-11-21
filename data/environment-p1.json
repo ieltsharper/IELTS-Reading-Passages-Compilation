@@ -28105,14 +28105,7 @@
      "letter": "G",
      "runs": [
       {
-       "t": "Researchers are also using other acoustic techniques to monitor climate. Oceanographer Jeff"
-      }
-     ]
-    },
-    {
-     "runs": [
-      {
-       "t": "Nystuen, for example, has explored the use of sound to measure rainfall over the ocean. Monitoring changing global rainfall patterns will contribute to understanding major climate change as well as the weather phenomenon known as El Nino. Since 1985, Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms. By using the sound of rain under water as a 'natural' rain gauge, the measurement of rainfall over the oceans will become available to climatologists. In this way, modern society continues to benefit from the investigations of those who, like Leonardo da Vinci, pursued the answers to some basic questions of nature."
+       "t": "Researchers are also using other acoustic techniques to monitor climate. Oceanographer Jeff Nystuen, for example, has explored the use of sound to measure rainfall over the ocean. Monitoring changing global rainfall patterns will contribute to understanding major climate change as well as the weather phenomenon known as El Nino. Since 1985, Nystuen has used hydrophones to listen to rain over the ocean, acoustically measuring not only the rainfall rate but also the rainfall type, ranging from drizzle to thunderstorms. By using the sound of rain under water as a 'natural' rain gauge, the measurement of rainfall over the oceans will become available to climatologists. In this way, modern society continues to benefit from the investigations of those who, like Leonardo da Vinci, pursued the answers to some basic questions of nature."
       }
      ]
     }
@@ -37441,9 +37434,18 @@
      ]
     },
     {
+     "sub": true,
      "runs": [
       {
-       "t": "Physical features of giraffes: study findings The skin of a giraffe is mostly gray. The coat has dark patches separated by light hair, which serves as camouflage, allowing them to blend in with the light and shade patterns of the acacia trees from which they feed. Grazing giraffes are hard to see even a few meters away. Research indicates that giraffes also have excellent sight, can see in color and over great distances, which helps them to spot lions and keep track of each other. In addition, a giraffe's extraordinary mouth has lips and tongue that can together grasp a branch and then pluck away the leaves while avoiding thorns, almost as humans would grab with their hands. Each day, a giraffe consumes about 30 kilograms of leaves, shoots and vines, all digested in its four-chambered stomach. A giraffe can stand more than six meters tall, with its neck accounting for roughly a third of its height and its legs the same. The giraffe's long neck is due to the length of the vertebrae, not the number of vertebrae. The growth of the neck largely takes place during early childhood, as giraffe mothers would have a difficult time giving birth to young with longer necks. The giraffe's head and neck are held up by large muscles attached to the lower spine. Recent studies show that the greatest challenge to the giraffe's cardiovascular system is how to both pump blood very high and retrieve it from far below. The outside of a giraffe's veins are extremely thick, to prevent blood leaking into surrounding tissue. Other adaptations in the cardiovascular system allow the giraffe to bend over for a drink of water, and then raise its head again quickly without fainting. Researchers were also surprised to find that a giraffe does not have an unusually large heart. It is half a percent of body mass, the same as in a mouse. Moreover, the amount of blood pumped into circulation is modest, proportionally lower than it is in humans. That could help explain why giraffes rarely run for very long: enough oxygen cannot be delivered to their muscles fast enough for them to keep running. Or maybe the giraffes are worried about tripping over their own feet. This is because signals from the nerves travel at about the same speed in giraffes as in rats or other mammals. Given the greater distance they have to travel in the giraffe to reach the brain, it is possible the giraffe faces real challenges in reacting quickly to a rock beneath its hoof or a bite to its ankle. New understanding of this wonderful animal sheds light on both its physiology and its behavior. Researchers hope to use this knowledge to increase their ability to work with preservation, as its habitat is reduced and the giraffe becomes scarcer."
+       "t": "Physical features of giraffes: study findings",
+       "b": true
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The skin of a giraffe is mostly gray. The coat has dark patches separated by light hair, which serves as camouflage, allowing them to blend in with the light and shade patterns of the acacia trees from which they feed. Grazing giraffes are hard to see even a few meters away. Research indicates that giraffes also have excellent sight, can see in color and over great distances, which helps them to spot lions and keep track of each other. In addition, a giraffe's extraordinary mouth has lips and tongue that can together grasp a branch and then pluck away the leaves while avoiding thorns, almost as humans would grab with their hands. Each day, a giraffe consumes about 30 kilograms of leaves, shoots and vines, all digested in its four-chambered stomach. A giraffe can stand more than six meters tall, with its neck accounting for roughly a third of its height and its legs the same. The giraffe's long neck is due to the length of the vertebrae, not the number of vertebrae. The growth of the neck largely takes place during early childhood, as giraffe mothers would have a difficult time giving birth to young with longer necks. The giraffe's head and neck are held up by large muscles attached to the lower spine. Recent studies show that the greatest challenge to the giraffe's cardiovascular system is how to both pump blood very high and retrieve it from far below. The outside of a giraffe's veins are extremely thick, to prevent blood leaking into surrounding tissue. Other adaptations in the cardiovascular system allow the giraffe to bend over for a drink of water, and then raise its head again quickly without fainting. Researchers were also surprised to find that a giraffe does not have an unusually large heart. It is half a percent of body mass, the same as in a mouse. Moreover, the amount of blood pumped into circulation is modest, proportionally lower than it is in humans. That could help explain why giraffes rarely run for very long: enough oxygen cannot be delivered to their muscles fast enough for them to keep running. Or maybe the giraffes are worried about tripping over their own feet. This is because signals from the nerves travel at about the same speed in giraffes as in rats or other mammals. Given the greater distance they have to travel in the giraffe to reach the brain, it is possible the giraffe faces real challenges in reacting quickly to a rock beneath its hoof or a bite to its ankle. New understanding of this wonderful animal sheds light on both its physiology and its behavior. Researchers hope to use this knowledge to increase their ability to work with preservation, as its habitat is reduced and the giraffe becomes scarcer."
       }
      ]
     }
@@ -63459,12 +63461,21 @@
      "b": true
     }
    ],
-   "standfirst": null,
+   "standfirst": {
+    "type": "p",
+    "runs": [
+     {
+      "t": "The story of a unique North American crop",
+      "i": true
+     }
+    ],
+    "center": true
+   },
    "body": [
     {
      "runs": [
       {
-       "t": "The story of a unique North American crop Cranberries are among the few fruits native to North America that have been grown commercially for centuries. These small, crimson berries thrive only in very unique environmental conditions, particularly in soil that is both sandy and acidic. Such terrain lets water pass through easily while still retaining enough moisture for the plants' shallow roots. Since ordinary farmland cannot provide this delicate balance, cranberries are generally cultivated in low-lying areas called bogs. These natural basins, bordered by gentle ridges, allow growers to regulate water levels accurately. This setup creates a growing environment quite different from that required by most other fruit crops."
+       "t": "Cranberries are among the few fruits native to North America that have been grown commercially for centuries. These small, crimson berries thrive only in very unique environmental conditions, particularly in soil that is both sandy and acidic. Such terrain lets water pass through easily while still retaining enough moisture for the plants' shallow roots. Since ordinary farmland cannot provide this delicate balance, cranberries are generally cultivated in low-lying areas called bogs. These natural basins, bordered by gentle ridges, allow growers to regulate water levels accurately. This setup creates a growing environment quite different from that required by most other fruit crops."
       }
      ]
     },

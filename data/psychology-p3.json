@@ -2227,7 +2227,7 @@
     {
      "runs": [
       {
-       "t": "Over the course of the next four decades, Ekman successfully demonstrated a proposition first suggested by Charles Darwin: that the ways in which we express disgust, contempt, fear, surprise, happiness, and sadness are universal. The facial muscles triggered by those seven basic emotions are, he has shown, essentially standard, regardless of language and culture, from the US to Japan and Brazil to Papua New Guinea. What is more, expressions of emotion are impossible to suppress and, particularly when we are lying, micro-expressions of powerfully felt emotions will inevitably flit across our face before we get the chance to stop them."
+       "t": "Over the course of the next four decades, Ekman successfully demonstrated a proposition first suggested by Charles Darwin: that the ways in which we express anger, disgust, contempt, fear, surprise, happiness, and sadness are universal. The facial muscles triggered by those seven basic emotions are, he has shown, essentially standard, regardless of language and culture, from the US to Japan and Brazil to Papua New Guinea. What is more, expressions of emotion are impossible to suppress and, particularly when we are lying, micro-expressions of powerfully felt emotions will inevitably flit across our face before we get the chance to stop them."
       }
      ]
     },
@@ -3106,7 +3106,7 @@
        "b": true
       },
       {
-       "t": "Over the course of the next four decades, Ekman successfully demonstrated a proposition first suggested by Charles Darwin: that the ways in which we express disgust, contempt, fear, surprise, happiness, and sadness are universal.",
+       "t": "Over the course of the next four decades, Ekman successfully demonstrated a proposition first suggested by Charles Darwin: that the ways in which we express anger, disgust, contempt, fear, surprise, happiness, and sadness are universal.",
        "i": true
       }
      ]
@@ -3157,7 +3157,7 @@
        "b": true
       },
       {
-       "t": "that the ways in which we express disgust, contempt, fear, surprise, happiness, and sadness are universal",
+       "t": "that the ways in which we express anger, disgust, contempt, fear, surprise, happiness, and sadness are universal",
        "i": true
       }
      ]
@@ -3178,7 +3178,7 @@
        "b": true
       },
       {
-       "t": "Ý chính của đoạn 3: tính phổ quát. \"universal\" ↔ \"common to all people\" (câu 29 = A). Lưu ý bài viết \"seven\" cảm xúc nhưng chỉ liệt kê sáu, nên đừng dựa vào số lượng."
+       "t": "Ý chính của đoạn 3: tính phổ quát. \"universal\" ↔ \"common to all people\" (câu 29 = A). "
       }
      ]
     },
@@ -8948,7 +8948,7 @@
      "letter": "C",
      "runs": [
       {
-       "t": "The most fascinating aspect of amusia is how specific to music it is. Because of music's close ties to language, it might be expected that a musical impairment may be caused by a language impairment. Studies suggest, however, that language and music ability are independent of one another. People with brain damage in areas critical to language are often still able to sing, despite being unable to communicate through speech. Moreover, while amusics show deficiencies in their recognition of pitch differences in melodies, they show no tonal languages, such as Chinese, do not report having any difficulty discriminating between words that differ only in their intonation. The linguistic cues inherent in speech make discrimination of meaning much easier for amusics. Amusics are also successful most of the time at detecting the mood of a melody, can identify a speaker based on his or her voice and can discriminate and identify environmental sounds."
+       "t": "The most fascinating aspect of amusia is how specific to music it is. Because of music's close ties to language, it might be expected that a musical impairment may be caused by a language impairment. Studies suggest, however, that language and music ability are independent of one another. People with brain damage in areas critical to language are often still able to sing, despite being unable to communicate through speech. Moreover, while amusics show deficiencies in their recognition of pitch differences in melodies, speakers of tonal languages, such as Chinese, do not report having any difficulty discriminating between words that differ only in their intonation. The linguistic cues inherent in speech make discrimination of meaning much easier for amusics. Amusics are also successful most of the time at detecting the mood of a melody, can identify a speaker based on his or her voice and can discriminate and identify environmental sounds."
       }
      ]
     },
@@ -8956,7 +8956,7 @@
      "letter": "D",
      "runs": [
       {
-       "t": "Recent work has been focused on locating the part of the brain that is responsible for amusia. The temporal lobes of the brain, the location of the primary auditory cortex, have been considered. It has long been believed that the temporal lobes, especially the right temporal lobe, are most active when activity, so any musical disability should logically stem from here as well. Because it has been shown that there is no hearing deficit in amusia, researchers moved on to the temporal neocortex, which is where more sophisticated processing of musical cues was thought to take place. New studies, however, have suggested that the deficits in amusics are located outside the auditory cortex. Brain scans of amusics do not show any reaction at all to differences smaller than a half step; when changes in tones are large, their brains overreact, showing twice as much activity on the right side of the brain as a normal brain hearing the same thing. These differences do not occur in the auditory cortex, indicating again that the deficits of amusia lie mostly in hearing impairment, but in higher processing of melodies."
+       "t": "Recent work has been focused on locating the part of the brain that is responsible for amusia. The temporal lobes of the brain, the location of the primary auditory cortex, have been considered. It has long been believed that the temporal lobes, especially the right temporal lobe, are most active when activity, so any musical disability should logically stem from here as well. Because it has been shown that there is no hearing deficit in amusia, researchers moved on to the temporal neocortex, which is where more sophisticated processing of musical cues was thought to take place. New studies, however, have suggested that the deficits in amusics are located outside the auditory cortex. Brain scans of amusics do not show any reaction at all to differences smaller than a half step; when changes in tones are large, their brains overreact, showing twice as much activity on the right side of the brain as a normal brain hearing the same thing. These differences do not occur in the auditory cortex, indicating again that the deficits of amusia lie not in hearing impairment, but in higher processing of melodies."
       }
      ]
     },
@@ -9094,7 +9094,7 @@
          "key": "D",
          "runs": [
           {
-           "t": "comparing the singing ability of amusia with their sense."
+           "t": "comparing the singing ability of amusics with their sense."
           }
          ]
         }
@@ -9174,7 +9174,7 @@
          "key": "C",
          "runs": [
           {
-           "t": "distinguish a sad tone from a happy tune."
+           "t": "distinguish a sad tune from a happy tune."
           }
          ]
         },
@@ -9839,7 +9839,7 @@
        "b": true
       },
       {
-       "t": "Moreover, while amusics show deficiencies in their recognition of pitch differences in melodies, they show no tonal languages, such as Chinese, do not report having any difficulty discriminating between words that differ only in their intonation.",
+       "t": "Moreover, while amusics show deficiencies in their recognition of pitch differences in melodies, speakers of tonal languages, such as Chinese, do not report having any difficulty discriminating between words that differ only in their intonation.",
        "i": true
       }
      ]
@@ -9890,7 +9890,7 @@
        "b": true
       },
       {
-       "t": "Câu gốc trong file bị lỗi (thiếu chủ ngữ trước \"tonal languages\", có lẽ là \"speakers of\"). Ý rõ ràng: âm nhạc và ngôn ngữ độc lập, nên amusia không gây khó khăn phân biệt nghĩa lời nói (câu 38 = D)."
+       "t": "Ý rõ ràng: âm nhạc và ngôn ngữ độc lập, nên amusia không gây khó khăn phân biệt nghĩa lời nói (câu 38 = D)."
       }
      ]
     },
@@ -17012,7 +17012,7 @@
     {
      "runs": [
       {
-       "t": "In a 1990 paper, behavioral economist Richard Thaler and his colleagues described a series of experiments they conducted to quantify this phenomenon. In one experiment, they gave coffee mugs to a group of people, the \"Sellers\", and asked at what price point, from 250 to $9.25, they would be willing to part with those mugs. The researchers then asked another group, the \"Choosers\", to whom they didn't give coffee mugs, to indicate whether they would choose the money or the mug at each price point. In objective terms, all the Sellers and the Choosers were in the same situation: they were choosing between a mug and a sum of money. In one trial the Sellers priced the mug at $7.12, on average, but the Choosers were willing to pay only $3.12. In another trial, the Sellers and the Choosers valued the mug at $7 and $3.50, respectively. Overall, the Sellers always demanded at least twice as much to give up the mugs as the Choosers would pay to obtain them."
+       "t": "In a 1990 paper, behavioral economist Richard Thaler and his colleagues described a series of experiments they conducted to quantify this phenomenon. In one experiment, they gave coffee mugs to a group of people, the \"Sellers\", and asked at what price point, from 25¢ to $9.25, they would be willing to part with those mugs. The researchers then asked another group, the \"Choosers\", to whom they didn't give coffee mugs, to indicate whether they would choose the money or the mug at each price point. In objective terms, all the Sellers and the Choosers were in the same situation: they were choosing between a mug and a sum of money. In one trial the Sellers priced the mug at $7.12, on average, but the Choosers were willing to pay only $3.12. In another trial, the Sellers and the Choosers valued the mug at $7 and $3.50, respectively. Overall, the Sellers always demanded at least twice as much to give up the mugs as the Choosers would pay to obtain them."
       }
      ]
     },
@@ -19617,7 +19617,7 @@
          "t": "Complete the summary using the list of phrases, "
         },
         {
-         "t": "A-I",
+         "t": "A-J",
          "b": true
         },
         {
@@ -19632,7 +19632,7 @@
          "t": "Write the correct letter, "
         },
         {
-         "t": "A-I",
+         "t": "A-J",
          "b": true
         },
         {
@@ -19730,7 +19730,7 @@
         "key": "E",
         "runs": [
          {
-          "t": "similar name E similar name"
+          "t": "similar name"
          }
         ]
        },
