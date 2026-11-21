@@ -247,7 +247,6 @@ function passagePage(topic, p) {
   const html = `<div class="toolbar" role="region" aria-label="Test controls">
   <p class="toolbar-title">${esc(topic.topic)} · ${topic.testPages ? `${esc(p.group)} · ` : ''}${esc(labelOf(topic, p))}</p>
   <div class="timer-wrap"><span class="timer" id="timer" role="timer" aria-label="Timer, 20 minutes">20:00</span><button type="button" class="btn" id="timer-btn">Start timer</button></div>
-  <p class="answered" aria-live="polite">Answered <strong id="answered">0</strong> / ${total}</p>
   <div class="actions">
     <button type="button" class="btn btn-primary" id="check-btn">Check answers</button>
     <button type="button" class="btn" id="show-btn">Show answers</button>
@@ -272,9 +271,13 @@ function passagePage(topic, p) {
     ${p.strategy.length ? `<details class="strategy" lang="vi"><summary>Hướng dẫn One-Shot</summary>${blocksHtml(p.strategy, { headerRow: true })}</details>` : ''}
     ${p.reading?.length ? `<details class="strategy reading" lang="vi"><summary>Phân tích từng đoạn</summary>${blocksHtml(p.reading, { headerRow: true })}</details>` : ''}
     ${p.vocab?.length ? `<details class="strategy vocab" lang="vi"><summary>Từ vựng học thuật</summary>${blocksHtml(p.vocab, { headerRow: true })}</details>` : ''}
-    <nav class="q-nav" aria-label="Question navigator">${qs.flatMap((q) => q.ns.map((n) => `<a href="#item-${q.id}" class="nav-btn" data-nav="${q.id}" id="nav-${n}">${n}</a>`)).join('')}</nav>
   </section>
 </main>
+<footer class="progress-bar" aria-label="Progress">
+  <div class="pb-track" aria-hidden="true"><div class="pb-fill" id="pb-fill"></div></div>
+  <nav class="q-nav" aria-label="Question navigator, filled numbers are answered">${qs.flatMap((q) => q.ns.map((n) => `<a href="#item-${q.id}" class="nav-btn" data-nav="${q.id}" id="nav-${n}">${n}</a>`)).join('')}</nav>
+  <p class="sr-only" aria-live="polite">Answered <strong id="answered">0</strong> / ${total}</p>
+</footer>
 <div class="sr-only" id="announce" aria-live="assertive"></div>`;
   return page({
     title: `${plain(p.title)} – ${topic.topic} – ${SITE}`,

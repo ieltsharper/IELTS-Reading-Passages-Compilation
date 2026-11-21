@@ -579,6 +579,8 @@
       }
     });
     $('answered').textContent = n;
+    var fill = $('pb-fill');
+    if (fill) fill.style.width = (data.total ? Math.min(100, Math.round((n / data.total) * 100)) : 0) + '%';
   }
 
   document.addEventListener('change', onEdit);

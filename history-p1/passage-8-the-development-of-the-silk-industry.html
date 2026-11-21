@@ -20,7 +20,6 @@
 <div class="toolbar" role="region" aria-label="Test controls">
   <p class="toolbar-title">History – Passage 1 · Passage 8</p>
   <div class="timer-wrap"><span class="timer" id="timer" role="timer" aria-label="Timer, 20 minutes">20:00</span><button type="button" class="btn" id="timer-btn">Start timer</button></div>
-  <p class="answered" aria-live="polite">Answered <strong id="answered">0</strong> / 13</p>
   <div class="actions">
     <button type="button" class="btn btn-primary" id="check-btn">Check answers</button>
     <button type="button" class="btn" id="show-btn">Show answers</button>
@@ -153,9 +152,13 @@
     <details class="strategy" lang="vi"><summary>Hướng dẫn One-Shot</summary><h3>Mẹo rút ra</h3><p><strong>Mẹo rút ra:</strong> Q10 và Q11 đều là loại bẫy &quot;chi tiết gần giống nhưng sai&quot;: một câu sai nguồn gốc (eggs), một câu sai phạm vi (high-grade và ordinary-grade). Q1 có hai màu (white và yellow) nên phải khớp đúng <em>indoors</em> với <em>within the palace</em>.</p></details>
     
     
-    <nav class="q-nav" aria-label="Question navigator"><a href="#item-q1" class="nav-btn" data-nav="q1" id="nav-1">1</a><a href="#item-q2" class="nav-btn" data-nav="q2" id="nav-2">2</a><a href="#item-q3" class="nav-btn" data-nav="q3" id="nav-3">3</a><a href="#item-q4" class="nav-btn" data-nav="q4" id="nav-4">4</a><a href="#item-q5" class="nav-btn" data-nav="q5" id="nav-5">5</a><a href="#item-q6" class="nav-btn" data-nav="q6" id="nav-6">6</a><a href="#item-q7" class="nav-btn" data-nav="q7" id="nav-7">7</a><a href="#item-q8" class="nav-btn" data-nav="q8" id="nav-8">8</a><a href="#item-q9" class="nav-btn" data-nav="q9" id="nav-9">9</a><a href="#item-q10" class="nav-btn" data-nav="q10" id="nav-10">10</a><a href="#item-q11" class="nav-btn" data-nav="q11" id="nav-11">11</a><a href="#item-q12" class="nav-btn" data-nav="q12" id="nav-12">12</a><a href="#item-q13" class="nav-btn" data-nav="q13" id="nav-13">13</a></nav>
   </section>
 </main>
+<footer class="progress-bar" aria-label="Progress">
+  <div class="pb-track" aria-hidden="true"><div class="pb-fill" id="pb-fill"></div></div>
+  <nav class="q-nav" aria-label="Question navigator, filled numbers are answered"><a href="#item-q1" class="nav-btn" data-nav="q1" id="nav-1">1</a><a href="#item-q2" class="nav-btn" data-nav="q2" id="nav-2">2</a><a href="#item-q3" class="nav-btn" data-nav="q3" id="nav-3">3</a><a href="#item-q4" class="nav-btn" data-nav="q4" id="nav-4">4</a><a href="#item-q5" class="nav-btn" data-nav="q5" id="nav-5">5</a><a href="#item-q6" class="nav-btn" data-nav="q6" id="nav-6">6</a><a href="#item-q7" class="nav-btn" data-nav="q7" id="nav-7">7</a><a href="#item-q8" class="nav-btn" data-nav="q8" id="nav-8">8</a><a href="#item-q9" class="nav-btn" data-nav="q9" id="nav-9">9</a><a href="#item-q10" class="nav-btn" data-nav="q10" id="nav-10">10</a><a href="#item-q11" class="nav-btn" data-nav="q11" id="nav-11">11</a><a href="#item-q12" class="nav-btn" data-nav="q12" id="nav-12">12</a><a href="#item-q13" class="nav-btn" data-nav="q13" id="nav-13">13</a></nav>
+  <p class="sr-only" aria-live="polite">Answered <strong id="answered">0</strong> / 13</p>
+</footer>
 <div class="sr-only" id="announce" aria-live="assertive"></div>
 <script type="application/json" id="answer-data">{"total":13,"questions":[{"id":"q1","ns":[1],"kind":"text","accept":["white"],"limit":{"words":1,"number":false,"text":"ONE WORD ONLY"}},{"id":"q2","ns":[2],"kind":"text","accept":["paper"],"limit":{"words":1,"number":false,"text":"ONE WORD ONLY"}},{"id":"q3","ns":[3],"kind":"text","accept":["taxes"],"limit":{"words":1,"number":false,"text":"ONE WORD ONLY"}},{"id":"q4","ns":[4],"kind":"text","accept":["gold"],"limit":{"words":1,"number":false,"text":"ONE WORD ONLY"}},{"id":"q5","ns":[5],"kind":"text","accept":["foreign"],"limit":{"words":1,"number":false,"text":"ONE WORD ONLY"}},{"id":"q6","ns":[6],"kind":"text","accept":["mummy"],"limit":{"words":1,"number":false,"text":"ONE WORD ONLY"}},{"id":"q7","ns":[7],"kind":"text","accept":["caves"],"limit":{"words":1,"number":false,"text":"ONE WORD ONLY"}},{"id":"q8","ns":[8],"kind":"choice","accept":["TRUE"]},{"id":"q9","ns":[9],"kind":"choice","accept":["NOT GIVEN"]},{"id":"q10","ns":[10],"kind":"choice","accept":["FALSE"]},{"id":"q11","ns":[11],"kind":"choice","accept":["FALSE"]},{"id":"q12","ns":[12],"kind":"choice","accept":["TRUE"]},{"id":"q13","ns":[13],"kind":"choice","accept":["FALSE"]}]}</script>
 <script src="../assets/reading.js"></script>

@@ -1044,3 +1044,49 @@ img.chart {
     color: #f87171;
   }
 }
+
+/* ---- Progress bar at the bottom of a Reading page: one chip per question, filled when answered ---- */
+.progress-bar {
+  flex: none;
+  padding: 6px 16px 8px;
+  background: var(--card);
+  border-top: 1px solid var(--line);
+}
+
+.pb-track {
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 2px;
+  background: var(--line);
+  overflow: hidden;
+}
+
+.pb-fill {
+  width: 0;
+  height: 100%;
+  background: var(--brand);
+  transition: width 0.2s ease;
+}
+
+.progress-bar .q-nav {
+  gap: 4px;
+  padding-top: 0;
+  max-height: 4.6em;
+  overflow-y: auto;
+}
+
+.progress-bar .nav-btn {
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 899px) {
+  .progress-bar {
+    position: sticky;
+    bottom: 0;
+    z-index: 5;
+    padding: 6px 10px 8px;
+  }
+}
