@@ -1,0 +1,95 @@
+{
+  "step1": "Tiêu đề Optimism and Health và sapo cho biết bài nói về mối liên hệ giữa thái độ lạc quan và sức khỏe/tuổi thọ. Có thể đoán trước mạch bài: các nghiên cứu y khoa (Yale, Brigham & Women's) → vì sao giới khoa học từng xem nhẹ lạc quan → người sống thọ → hạnh phúc và tiền bạc (Henley Centre) → khảo sát số người lạc quan → cảnh báo của chuyên gia. Q1–5 là bài tóm tắt nên đi theo đúng thứ tự bài, dồn ở đoạn 1–2.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–5", "Summary completion (NO MORE THAN TWO WORDS)", "Có, theo thứ tự", "Yale, lifespan, eight-year study, immune system, Rosalind Wright"],
+    ["6–10", "Matching sentence endings (A–H)", "Một phần: tên người/tổ chức trong vế đầu (Freud, Pitt, Henley Centre, Adweek, Myers)", "Freud, Brice Pitt, Henley Centre, 1995 Adweek Survey, Lynn Myers"],
+    ["11–13", "Yes / No / Not Given", "Có (từ khóa), nhưng cần đọc kỹ ý người viết", "known for some time, personal relationships, over ninety-five, regular exercise"]
+  ],
+  "typesNote": "Cả ba dạng đều đi theo thứ tự bài: đọc đến đâu chốt đến đó. Dạng 6–10 có tên riêng nên locate được ngay; dạng 11–13 phải đọc hết đoạn chứa từ khóa mới kết luận.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Nghiên cứu Yale (660 tình nguyện viên): nghĩ tích cực về tuổi già làm tăng thêm trung bình bảy năm sống.",
+      "answers": [
+        { "q": 1, "ans": "seven years", "quote": "adds an average of seven years to a person's life", "how": "lifespan = tuổi thọ ↔ \"a person's life\"; chỗ trống đứng sau \"by approximately\" nên cần một khoảng thời gian." }
+      ],
+      "note": "Đoạn 1 có số 660 (người tham gia Yale). Đừng nhầm với số ở câu 2."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Một nhóm Mỹ khác tìm ra cơ chế thể chất: lạc quan → phổi tốt hơn, hệ miễn dịch mạnh hơn.",
+      "answers": [
+        { "q": 2, "ans": "670", "quote": "Their eight-year study of 670 men aged about 63", "how": "\"eight-year study\" khớp thẳng với câu hỏi; chỗ trống đứng trước \"male subjects\" nên là con số." },
+        { "q": 3, "ans": "lung function", "quote": "the optimists had significantly better lung function", "how": "\"differences among positive and negative thinkers\" ↔ optimists so với pessimistic men." },
+        { "q": 4, "ans": "immune system", "quote": "attitude somehow strengthens the immune system", "how": "\"makes the body's entire ___ stronger\" ↔ \"strengthens the immune system\"." },
+        { "q": 5, "ans": "heart patients", "quote": "Preliminary studies on heart patients", "how": "\"early research on ___\" ↔ \"Preliminary studies on ...\", lời của Rosalind Wright." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Lạc quan từng bị xem nhẹ: Freud gắn nó với sự thiếu hiểu biết, và 46.000 bài về trầm cảm so với 40 bài về niềm vui.",
+      "answers": [
+        { "q": 6, "ans": "D", "quote": "there were 46,000 psychology papers on depression and only 40 on joy", "how": "Con số chênh lệch cho thấy lạc quan không được coi là đề tài đáng nghiên cứu ↔ ending D." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Một phần do chính người lạc quan: Pitt cho rằng họ khó chịu, có cái nhìn \"hồng\" một cách vô vọng.",
+      "answers": [
+        { "q": 7, "ans": "A", "quote": "they have a hopelessly rosy outlook", "how": "Brice Pitt xuất hiện trong vế đầu; \"hopelessly rosy outlook\" = cái nhìn thiếu thực tế ↔ \"unrealistic view of life\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Lạc quan giúp làm tốt hơn ở công việc, học tập, thể thao và chống bệnh; người sống trên 95 tuổi không có điểm chung về ăn uống/tập luyện, chỉ chung thái độ lạc quan.",
+      "answers": [
+        { "q": 13, "ans": "NO", "quote": "researchers generally fail to find consistencies in diet or exercise", "how": "Câu hỏi nói người trên 95 tuổi \"take the same amount of regular exercise\"; bài nói không tìm thấy sự nhất quán về tập luyện nên mâu thuẫn." }
+      ],
+      "note": "Câu 13 nằm ở đoạn 5 dù đứng cuối bộ câu hỏi. Chốt ngay khi đọc đến đây, đừng để dành."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Nghiên cứu Mayo: người lạc quan sống lâu hơn khoảng 19%; tâm trí và cơ thể có liên hệ.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Giàu hơn 65% nhưng không hài lòng hơn (Henley Centre); điều quan trọng là cảm nhận chứ không phải thực tế.",
+      "answers": [
+        { "q": 8, "ans": "F", "quote": "there is no evidence that they are any more content with their lives", "how": "Henley Centre ở vế đầu; giàu hơn 65% mà không hài lòng hơn ↔ happiness not linked to material comfort." }
+      ],
+      "note": "Ending E (nhịp sống bận rộn gây bệnh) là bẫy: bài chỉ nói người ta cảm thấy bị áp lực, không nói điều đó làm hỏng sức khỏe."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Henley: người cảm thấy đủ tiền/thời gian thì thoải mái hơn, dù thực tế có bao nhiêu.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Khảo sát 1995: khoảng một nửa dân Mỹ tự nhận lạc quan, giảm xuống dưới một phần ba ở tuổi 55–64; Myers cảnh báo lạc quan quá mức có hại.",
+      "answers": [
+        { "q": 9, "ans": "G", "quote": "That attitude drops, however, to less than a third of people between the ages of 55 and 64", "how": "\"1995 Adweek Survey\" định vị đoạn này; mức lạc quan giảm theo tuổi ↔ ending G." },
+        { "q": 10, "ans": "C", "quote": "too much optimism can be a bad thing", "how": "\"Lynn Myers suggests that\" ↔ \"Lynn Myers... points out\"; \"excessive optimism may have negative consequences\" ↔ \"too much optimism can be a bad thing\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Myers hoài nghi việc có cách đơn giản để trở nên lạc quan; giảm lo âu thì dễ lạc quan hơn.",
+      "answers": []
+    },
+    {
+      "para": "Câu 11–12 (đoạn 3 và toàn bài)",
+      "idea": "Hai câu Yes/No/Not Given không có đoạn riêng, nên chốt dựa trên những gì đã đọc.",
+      "answers": [
+        { "q": 11, "ans": "YES", "quote": "The role of optimism in good health has long been noted but often sidelined", "how": "\"known for some time\" ↔ \"long been noted\"; người viết tự khẳng định ở đoạn 3." },
+        { "q": 12, "ans": "NOT GIVEN", "how": "Đọc hết 10 đoạn không thấy so sánh quan hệ cá nhân của optimists và pessimists (Pitt chỉ nói optimists \"insufferable\", đó là ý kiến của ông, không phải về quan hệ)." }
+      ]
+    }
+  ],
+  "tips": [
+    "Đáp án Q1 và Q2 đều là con số/thời gian nên rất dễ lẫn: 660 (Yale) và 670 (Brigham) ở hai đoạn khác nhau.",
+    "Với Yes/No/Not Given, người viết (the writer) mới là nguồn: lời của chuyên gia được trích dẫn chỉ đúng nếu người viết cũng khẳng định điều đó."
+  ]
+}

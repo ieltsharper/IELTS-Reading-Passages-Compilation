@@ -1,0 +1,198 @@
+{
+  "step1": "Tiêu đề Multiple Intelligences và sapo \"The Implications of Multiple Intelligence Theory for Teachers\" cho biết bài giới thiệu thuyết đa trí thông minh của Gardner và ý nghĩa với việc dạy học. Đoán mạch bài: lịch sử bài test IQ → Gardner và ba luận điểm → danh sách tám loại trí thông minh → đặc điểm và cách phát triển từng loại → áp dụng vào lớp học. Q1–4 (TRUE/FALSE/NOT GIVEN) nằm ở hai đoạn đầu; Q5–10 (bảng) nằm đúng trong phần mô tả từng loại trí thông minh, theo thứ tự; Q11–13 ở ba đoạn cuối.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–4", "True / False / Not Given", "Có, theo thứ tự ở đoạn đầu bài", "first intelligence test, linguistic and logical-mathematical, new tests, sequential"],
+    ["5–10", "Table completion (NO MORE THAN TWO WORDS)", "Có, mỗi dòng ứng với một loại trí thông minh", "Linguistic, Musical, Spatial, Bodily-kinesthetic, Intrapersonal, Naturalist"],
+    ["11–13", "Sentence completion (NO MORE THAN TWO WORDS)", "Có, ở ba đoạn cuối", "teachers and parents, level of intelligence is fixed, in the future"]
+  ],
+  "typesNote": "Bảng Q5–10 chạy song song với các mục trong bài nên gần như là bài \"điền theo dòng\": đọc tới loại trí thông minh nào thì điền ngay dòng đó rồi đi tiếp.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Bài test trí thông minh đầu tiên do Alfred Binet lập ở Pháp đầu thế kỷ 20, lan rộng thập niên 1920–30, nay bị mất uy tín vì định nghĩa trí thông minh quá hẹp.",
+      "answers": [
+        { "q": 1, "ans": "TRUE", "quote": "The first intelligence test was developed in France by Alfred Binet early in the 20th century. By the 1920s and 1930s, intelligence tests and their product, an individual's IQ (Intelligence Quotient), had become widely used in many societies around the world.", "how": "\"popular worldwide\" ↔ \"widely used in many societies around the world\"; \"early 20th century\" ↔ \"the 1920s and 1930s\" (vẫn là đầu thế kỷ 20) → TRUE." },
+        { "q": 2, "ans": "TRUE", "quote": "All they test is linguistic and logical-mathematical intelligence, and this traditional definition of intelligence is now regarded as narrow.", "how": "\"language and mathematics\" ↔ \"linguistic and logical-mathematical\"; \"Traditional intelligence tests\" ↔ \"this traditional definition\" → TRUE. Từ \"All they test is\" chính là \"focused on\"." },
+        { "q": 3, "ans": "NOT GIVEN", "how": "Bài chỉ nói các bài test cũ đã mất uy tín (\"have now fallen into disrepute\") và nêu thuyết mới của Gardner, nhưng không hề nói có LOẠI BÀI TEST MỚI nào được phát triển cho học sinh. Bẫy: thuyết mới ≠ bài test mới." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "75% giáo viên dạy theo lối tuần tự, phân tích nhưng 70% học sinh không học theo cách ấy; Howard Gardner là người tạo ra thuyết Đa trí thông minh.",
+      "answers": [
+        { "q": 4, "ans": "FALSE", "quote": "We now know that 75% of teachers are sequential, analytical presenters, but 70% of students do not actually learn this way.", "how": "Câu hỏi nói \"the majority of students benefit when information is taught in a sequential manner\"; bài nói 70% học sinh KHÔNG học được theo cách đó → mâu thuẫn, nên FALSE. Bẫy số liệu: 75% là của giáo viên, 70% là của học sinh – đọc nhầm chủ thể sẽ chọn TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Gardner cho rằng thuyết Đa trí thông minh khẳng định ba luận điểm chính.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Luận điểm 1: mỗi người đều khác nhau.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Luận điểm 2: trí óc của mỗi người không cùng một kiểu.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Luận điểm 3: giáo dục hiệu quả nhất khi tính đến những khác biệt đó.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Gardner lập luận có ít nhất tám loại trí thông minh quan trọng mà hầu như ai cũng có thể phát triển.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Danh sách tám loại trí thông minh, từ ngôn ngữ đến tự nhiên.",
+      "answers": [],
+      "note": "Thứ tự tám loại ở đây chính là thứ tự các dòng trong bảng Q5–10, nên có thể bám theo để không lạc dòng."
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Gardner còn phỏng đoán về trí thông minh tâm linh và hiện sinh nhưng chưa kết luận dứt khoát.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Tiêu đề mục: đặc điểm và sự phát triển của các loại trí thông minh.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Câu dẫn: sau đây là đặc điểm từng loại cùng cách rèn luyện và phát triển chúng.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh ngôn ngữ.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 13",
+      "idea": "Trí thông minh ngôn ngữ gồm đọc, viết, nói, trò chuyện; rèn bằng sách hay, băng ghi âm, công nghệ và tham gia thảo luận.",
+      "answers": [
+        { "q": 5, "ans": "discussions", "quote": "actively participating in discussions", "how": "\"Taking part in ___\" ↔ \"actively participating in ___\" (take part in = participate in) → discussions." }
+      ]
+    },
+    {
+      "para": "Đoạn 14",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh logic – toán học.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 15",
+      "idea": "Trí thông minh logic – toán học gồm kỹ năng số, nhận ra quy luật, giải vấn đề bằng logic; rèn bằng trò chơi số, logic và câu đố.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 16",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh âm nhạc.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 17",
+      "idea": "Trí thông minh âm nhạc là hiểu và thể hiện bản thân qua âm nhạc, nhịp điệu, khiêu vũ; rèn bằng nghe nhiều bản thu, hoạt động nhịp điệu, hát, nhảy, chơi nhạc cụ.",
+      "answers": [
+        { "q": 6, "ans": "recordings", "quote": "exposure to a variety of recordings", "how": "\"Listening to different ___\" ↔ \"exposure to a variety of ___\" (a variety of = different) → recordings. Bẫy: \"recordings\" cũng xuất hiện ở dòng Linguistic (\"listening to recordings\"), nhưng dòng này mới có \"a variety of\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 18",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh không gian.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 19",
+      "idea": "Trí thông minh không gian là tạo và xoay chuyển hình ảnh trong đầu cùng định hướng cơ thể trong không gian; rèn bằng mài sắc khả năng quan sát, giải mê cung và dùng trí tưởng tượng.",
+      "answers": [
+        { "q": 7, "ans": "observation skills", "quote": "sharpening observation skills", "how": "\"Improving ___\" ↔ \"sharpening ___\" (sharpen = improve) → observation skills, vừa đúng giới hạn hai từ." }
+      ]
+    },
+    {
+      "para": "Đoạn 20",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh vận động cơ thể.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 21",
+      "idea": "Trí thông minh vận động cơ thể gồm kỹ năng thể chất và học qua cảm giác cơ thể; rèn bằng biểu diễn, chơi thể thao và các nhiệm vụ cần trí tưởng tượng.",
+      "answers": [
+        { "q": 8, "ans": "imagination", "quote": "It may be exercised through performing, playing sports, and tasks requiring imagination.", "how": "Dòng Bodily-kinesthetic trong bảng là \"Working with ___\" và \"Playing sports\", lấy từ chính câu này; \"Playing sports\" khớp thẳng, phần còn lại ngoài \"performing\" là \"tasks requiring imagination\" → imagination." }
+      ],
+      "note": "Đáp án Q8 khá lạ vì \"tasks requiring imagination\" cũng xuất hiện ở dòng Spatial trong bảng; theo tôi câu hỏi diễn đạt chưa chuẩn, nhưng vẫn dùng đúng key là \"imagination\" và dựa vào vị trí dòng (Bodily-kinesthetic) để chốt."
+    },
+    {
+      "para": "Đoạn 22",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh tương tác cá nhân.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 23",
+      "idea": "Trí thông minh tương tác cá nhân là biết giao tiếp và hiểu người khác khi hợp tác; rèn bằng trò chơi hợp tác, dự án nhóm, kịch và đóng vai.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 24",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh nội tâm.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 25",
+      "idea": "Trí thông minh nội tâm là hiểu cảm xúc của mình và học cách kiểm soát chúng một cách có ý thức; rèn bằng dự án độc lập, viết nhật ký và tìm nơi yên tĩnh để suy ngẫm.",
+      "answers": [
+        { "q": 9, "ans": "emotions", "quote": "Involves comprehending our emotions and growing in the ability to control and work with them consciously.", "how": "Cột Characteristics ghi \"Understanding and controlling ___\" ↔ \"comprehending our emotions\" + \"the ability to control\" → emotions." }
+      ]
+    },
+    {
+      "para": "Đoạn 26",
+      "idea": "Tiêu đề mục nhỏ: trí thông minh tự nhiên.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 27",
+      "idea": "Trí thông minh tự nhiên là hiểu thiên nhiên và thế giới quanh ta; rèn bằng khám phá thiên nhiên và sắp xếp các bộ sưu tập.",
+      "answers": [
+        { "q": 10, "ans": "collections", "quote": "organizing collections of items", "how": "\"Organizing ___ of items\" khớp nguyên văn → collections." }
+      ]
+    },
+    {
+      "para": "Đoạn 28",
+      "idea": "Tiêu đề mục: áp dụng thuyết Đa trí thông minh vào lớp học.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 29",
+      "idea": "Tám loại trí thông minh độc lập vì phát triển ở thời điểm và mức độ khác nhau, nhưng liên hệ chặt chẽ: giỏi một mảng có thể kéo cả nhóm đi lên.",
+      "answers": [
+        { "q": 11, "ans": "proficiency", "quote": "many teachers and parents are finding that when an individual develops proficiency in one area, the whole constellation of intelligences may be enhanced", "how": "\"In the experience of teachers and parents\" ↔ \"many teachers and parents are finding\"; \"when ___ in one's intelligence is improved\" ↔ \"when an individual develops proficiency in one area\" → proficiency." }
+      ]
+    },
+    {
+      "para": "Đoạn 30",
+      "idea": "Gardner xem các trí thông minh là tiềm năng được kích hoạt hay không tùy giá trị xã hội và lựa chọn cá nhân; người tin năng lực có thể phát triển thì kiên trì, còn người tin năng lực cố định dễ gục ngã khi thất bại.",
+      "answers": [
+        { "q": 12, "ans": "failure", "quote": "a learner who thinks they have no control over their ability level is more likely to get upset when faced with failure", "how": "\"feels their level of intelligence is fixed\" ↔ \"thinks they have no control over their ability level\"; \"may not cope with ___ as well\" ↔ \"more likely to get upset when faced with ___\" → failure. Câu dài: backbone = \"a learner ... is more likely to get upset\"; mệnh đề quan hệ \"who thinks they have no control over their ability level\" xác định người học nào, \"when faced with failure\" là thời điểm, và \"as it can only be construed as evidence of inadequate ability\" giải thích lý do." }
+      ]
+    },
+    {
+      "para": "Đoạn 31",
+      "idea": "Không thể soạn bài riêng cho từng học sinh, nên giải pháp là hoạt động lớp học chạm tới mọi loại trí thông minh; Gardner kêu gọi nền giáo dục coi trọng khác biệt cá nhân.",
+      "answers": [
+        { "q": 13, "ans": "individual differences", "quote": "an education that takes individual differences seriously and creates practices that serve different kinds of minds equally well", "how": "\"in the future\" ↔ \"the challenge of the coming decades\"; \"cater for the ___ between students\" ↔ \"takes individual differences seriously\" → individual differences (đúng hai từ)." }
+      ]
+    }
+  ],
+  "tips": [
+    "Bài có rất nhiều tiêu đề mục ngắn; đừng đếm chúng như đoạn văn khi định vị, hãy bám theo tên từng loại trí thông minh.",
+    "Bẫy lặp từ: \"recordings\" và \"imagination\" xuất hiện ở hai mục khác nhau. Luôn chốt theo ĐÚNG DÒNG của bảng (loại trí thông minh nào) chứ không chỉ theo từ khóa.",
+    "Với TRUE/FALSE/NOT GIVEN ở đầu bài, chú ý ai là chủ thể của con số: 75% là giáo viên, 70% là học sinh."
+  ]
+}

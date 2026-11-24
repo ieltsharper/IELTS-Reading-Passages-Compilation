@@ -669,7 +669,635 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề Optimism and Health và sapo cho biết bài nói về mối liên hệ giữa thái độ lạc quan và sức khỏe/tuổi thọ. Có thể đoán trước mạch bài: các nghiên cứu y khoa (Yale, Brigham & Women's) → vì sao giới khoa học từng xem nhẹ lạc quan → người sống thọ → hạnh phúc và tiền bạc (Henley Centre) → khảo sát số người lạc quan → cảnh báo của chuyên gia. Q1–5 là bài tóm tắt nên đi theo đúng thứ tự bài, dồn ở đoạn 1–2."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–5"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Summary completion (NO MORE THAN TWO WORDS)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Yale, lifespan, eight-year study, immune system, Rosalind Wright"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "6–10"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching sentence endings (A–H)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Một phần: tên người/tổ chức trong vế đầu (Freud, Pitt, Henley Centre, Adweek, Myers)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Freud, Brice Pitt, Henley Centre, 1995 Adweek Survey, Lynn Myers"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "11–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Yes / No / Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (từ khóa), nhưng cần đọc kỹ ý người viết"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "known for some time, personal relationships, over ninety-five, regular exercise"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Cả ba dạng đều đi theo thứ tự bài: đọc đến đâu chốt đến đó. Dạng 6–10 có tên riêng nên locate được ngay; dạng 11–13 phải đọc hết đoạn chứa từ khóa mới kết luận."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Nghiên cứu Yale (660 tình nguyện viên): nghĩ tích cực về tuổi già làm tăng thêm trung bình bảy năm sống."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → seven years. ",
+       "b": true
+      },
+      {
+       "t": "lifespan = tuổi thọ ↔ \"a person's life\"; chỗ trống đứng sau \"by approximately\" nên cần một khoảng thời gian."
+      },
+      {
+       "t": " Trích: \"adds an average of seven years to a person's life\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn 1 có số 660 (người tham gia Yale). Đừng nhầm với số ở câu 2."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Một nhóm Mỹ khác tìm ra cơ chế thể chất: lạc quan → phổi tốt hơn, hệ miễn dịch mạnh hơn."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → 670. ",
+       "b": true
+      },
+      {
+       "t": "\"eight-year study\" khớp thẳng với câu hỏi; chỗ trống đứng trước \"male subjects\" nên là con số."
+      },
+      {
+       "t": " Trích: \"Their eight-year study of 670 men aged about 63\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → lung function. ",
+       "b": true
+      },
+      {
+       "t": "\"differences among positive and negative thinkers\" ↔ optimists so với pessimistic men."
+      },
+      {
+       "t": " Trích: \"the optimists had significantly better lung function\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → immune system. ",
+       "b": true
+      },
+      {
+       "t": "\"makes the body's entire ___ stronger\" ↔ \"strengthens the immune system\"."
+      },
+      {
+       "t": " Trích: \"attitude somehow strengthens the immune system\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → heart patients. ",
+       "b": true
+      },
+      {
+       "t": "\"early research on ___\" ↔ \"Preliminary studies on ...\", lời của Rosalind Wright."
+      },
+      {
+       "t": " Trích: \"Preliminary studies on heart patients\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Lạc quan từng bị xem nhẹ: Freud gắn nó với sự thiếu hiểu biết, và 46.000 bài về trầm cảm so với 40 bài về niềm vui."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → D. ",
+       "b": true
+      },
+      {
+       "t": "Con số chênh lệch cho thấy lạc quan không được coi là đề tài đáng nghiên cứu ↔ ending D."
+      },
+      {
+       "t": " Trích: \"there were 46,000 psychology papers on depression and only 40 on joy\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Một phần do chính người lạc quan: Pitt cho rằng họ khó chịu, có cái nhìn \"hồng\" một cách vô vọng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → A. ",
+       "b": true
+      },
+      {
+       "t": "Brice Pitt xuất hiện trong vế đầu; \"hopelessly rosy outlook\" = cái nhìn thiếu thực tế ↔ \"unrealistic view of life\"."
+      },
+      {
+       "t": " Trích: \"they have a hopelessly rosy outlook\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Lạc quan giúp làm tốt hơn ở công việc, học tập, thể thao và chống bệnh; người sống trên 95 tuổi không có điểm chung về ăn uống/tập luyện, chỉ chung thái độ lạc quan."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → NO. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi nói người trên 95 tuổi \"take the same amount of regular exercise\"; bài nói không tìm thấy sự nhất quán về tập luyện nên mâu thuẫn."
+      },
+      {
+       "t": " Trích: \"researchers generally fail to find consistencies in diet or exercise\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu 13 nằm ở đoạn 5 dù đứng cuối bộ câu hỏi. Chốt ngay khi đọc đến đây, đừng để dành."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Nghiên cứu Mayo: người lạc quan sống lâu hơn khoảng 19%; tâm trí và cơ thể có liên hệ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Giàu hơn 65% nhưng không hài lòng hơn (Henley Centre); điều quan trọng là cảm nhận chứ không phải thực tế."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → F. ",
+       "b": true
+      },
+      {
+       "t": "Henley Centre ở vế đầu; giàu hơn 65% mà không hài lòng hơn ↔ happiness not linked to material comfort."
+      },
+      {
+       "t": " Trích: \"there is no evidence that they are any more content with their lives\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Ending E (nhịp sống bận rộn gây bệnh) là bẫy: bài chỉ nói người ta cảm thấy bị áp lực, không nói điều đó làm hỏng sức khỏe."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 8 – ",
+       "b": true
+      },
+      {
+       "t": "Henley: người cảm thấy đủ tiền/thời gian thì thoải mái hơn, dù thực tế có bao nhiêu."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 9 – ",
+       "b": true
+      },
+      {
+       "t": "Khảo sát 1995: khoảng một nửa dân Mỹ tự nhận lạc quan, giảm xuống dưới một phần ba ở tuổi 55–64; Myers cảnh báo lạc quan quá mức có hại."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → G. ",
+       "b": true
+      },
+      {
+       "t": "\"1995 Adweek Survey\" định vị đoạn này; mức lạc quan giảm theo tuổi ↔ ending G."
+      },
+      {
+       "t": " Trích: \"That attitude drops, however, to less than a third of people between the ages of 55 and 64\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"Lynn Myers suggests that\" ↔ \"Lynn Myers... points out\"; \"excessive optimism may have negative consequences\" ↔ \"too much optimism can be a bad thing\"."
+      },
+      {
+       "t": " Trích: \"too much optimism can be a bad thing\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 10 – ",
+       "b": true
+      },
+      {
+       "t": "Myers hoài nghi việc có cách đơn giản để trở nên lạc quan; giảm lo âu thì dễ lạc quan hơn."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11–12 (đoạn 3 và toàn bài) – ",
+       "b": true
+      },
+      {
+       "t": "Hai câu Yes/No/Not Given không có đoạn riêng, nên chốt dựa trên những gì đã đọc."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → YES. ",
+       "b": true
+      },
+      {
+       "t": "\"known for some time\" ↔ \"long been noted\"; người viết tự khẳng định ở đoạn 3."
+      },
+      {
+       "t": " Trích: \"The role of optimism in good health has long been noted but often sidelined\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Đọc hết 10 đoạn không thấy so sánh quan hệ cá nhân của optimists và pessimists (Pitt chỉ nói optimists \"insufferable\", đó là ý kiến của ông, không phải về quan hệ)."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đáp án Q1 và Q2 đều là con số/thời gian nên rất dễ lẫn: 660 (Yale) và 670 (Brigham) ở hai đoạn khác nhau."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Với Yes/No/Not Given, người viết (the writer) mới là nguồn: lời của chuyên gia được trích dẫn chỉ đúng nếu người viết cũng khẳng định điều đó."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -1893,7 +2521,601 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề How to be Happy và sapo \"Some recent developments in the science of happiness\" cho biết bài trình bày các nghiên cứu mới về việc có thể \"luyện\" hạnh phúc. Đoán mạch bài: một vài nhà khoa học và phương pháp của họ → chương trình ở trường học → tiếng nói hoài nghi → nghiên cứu ở phòng thí nghiệm. Q1–4 (Matching Information) và Q5–8 (Matching People) rải khắp bài, không theo thứ tự; Q9–13 là summary nên chỉ nằm ở hai đoạn cuối (E–F)."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–4"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching information (đoạn A–F, có thể lặp lại)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Không, phải đọc xong đoạn mới chốt"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "same technique, scientific opinion changed, how numerous, educational courses set up"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "5–8"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching people (A–F)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, nhờ tên riêng trong bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Tony Fernando, Richard Davidson, Rick Hanson, Judi Clements, Carsten Grimm, Nathan Consedine"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "9–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Summary completion (ONE WORD ONLY)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự và chỉ ở đoạn E–F"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Montgomery, MRI scans, laboratory experiments, hormones, stimuli"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Vừa đọc xong mỗi đoạn thì chốt luôn: tên riêng cho Q5–8, nội dung tổng thể của đoạn cho Q1–4, và Q9–13 chỉ xuất hiện khi tới hai đoạn cuối."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Bác sĩ tâm thần Tony Fernando và \"video method\" của ông; não có thể được luyện để hạnh phúc, với số liệu về synapse/neuron và nghiên cứu của Richard Davidson trên các nhà sư."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → A. ",
+       "b": true
+      },
+      {
+       "t": "\"scientific opinion about an aspect of brain function has changed over a given time period\" ↔ \"just 30 years ago, neuroscientists believed...\": vừa có mốc thời gian (30 năm), vừa có sự thay đổi quan điểm (relatively new thinking)."
+      },
+      {
+       "t": " Trích: \"This is relatively new thinking - just 30 years ago, neuroscientists believed that adult brain cells couldn't regenerate.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → A. ",
+       "b": true
+      },
+      {
+       "t": "\"an estimate of how numerous some brain components are\" ↔ \"approximately\"/\"roughly\" + số lượng synapses và neurons. Hai câu 2 và 3 cùng rơi vào đoạn A, đúng với lưu ý NB (được dùng lại một chữ cái)."
+      },
+      {
+       "t": " Trích: \"there are approximately ten trillion synapses connecting roughly a hundred billion neurons\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn A có cả \"video method\" của Fernando, nhưng câu 1 đòi hỏi \"two scientists use the same technique\" nên chỉ chốt được khi đọc đến đoạn B, nơi nói Hanson dùng đúng phương pháp đó."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Rick Hanson gọi việc luyện não là \"mindfulness\": tâm trí dựa vào đâu thì não định hình theo đó, nên hãy nghĩ về cảm giác dễ chịu và những gì mình đã làm được."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → B. ",
+       "b": true
+      },
+      {
+       "t": "\"two scientists use the same technique to promote their own happiness\" ↔ \"exactly the same imaginary 'video method'\". Bẫy: đoạn A giới thiệu phương pháp, nhưng chỉ đoạn B mới nói rằng hai người cùng dùng nó."
+      },
+      {
+       "t": " Trích: \"To do this, Hanson employs exactly the same imaginary ‘video method' as psychiatrist Tony Fernando.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"personal achievements\" ↔ \"the things you have accomplished\"; \"negative experiences\" ↔ \"self-criticism and worries\". Người nói là Rick Hanson = C."
+      },
+      {
+       "t": " Trích: \"resting it on pleasant feelings and the things you have accomplished means that over time your brain will take on a different shape, with strength and optimism hard-wired into it\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu dài mang đáp án Q6: backbone = \"resting it on pleasant feelings and the things you have accomplished\" (WHO/WHAT) + \"means that ... your brain will take on a different shape\" (kết quả) + \"with strength and optimism hard-wired into it\" (bổ sung chi tiết). Vế tương phản đứng trước: \"If you keep resting your mind on self-criticism and worries ... your brain will be shaped by that\"."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Ở New Zealand, Mental Health Foundation (Judi Clements) chạy chương trình mindfulness tại 14 trường và sắp thử nghiệm ở nơi làm việc; nghiên cứu của Carsten Grimm cho thấy dùng nhiều con đường đến hạnh phúc hiệu quả hơn."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"the reason why some educational courses were set up\" ↔ \"mindfulness programmes in 14 schools\" + \"because children are told to pay attention, but aren't told how\". Từ \"because\" chính là dấu hiệu lý do."
+      },
+      {
+       "t": " Trích: \"it's a valuable approach because children are told to pay attention, but aren't told how to pay attention\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → E. ",
+       "b": true
+      },
+      {
+       "t": "\"a variety of ways\" ↔ \"several pathways\"; \"focus on just one\" ↔ \"the single pathway\". Chủ thể là Carsten Grimm = E, không phải Judi Clements dù bà cũng nói về five pathways."
+      },
+      {
+       "t": " Trích: \"people who used several pathways to happiness achieved the best results, suggesting it's better to have a balance than concentrate on the single pathway you most identify with\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → D. ",
+       "b": true
+      },
+      {
+       "t": "\"A range of groups\" ↔ \"different organisations and professions\"; \"becoming more interested\" ↔ \"a hunger for it\". Lời này của Clements = D."
+      },
+      {
+       "t": " Trích: \"We're detecting a hunger for it from different organisations and professions as well\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn C có tới ba người/đơn vị; phải bám sát ai nói câu nào. Năm pathways là của Foundation (Clements), còn kết luận về việc kết hợp nhiều pathways là của Grimm."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Nathan Consedine hoài nghi: càng theo đuổi hạnh phúc càng ít đạt được, và người hạnh phúc có xu hướng ít thể hiện sự cảm thông."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → F. ",
+       "b": true
+      },
+      {
+       "t": "\"one favourable characteristic\" ↔ sympathy; \"might have a reason not to display\" ↔ lý do ở câu sau: \"happy people are strongly motivated to stay happy, but engaging sympathetically with others typically involves engaging with their distress\". Người nói là Consedine = F."
+      },
+      {
+       "t": " Trích: \"people who were happier were less inclined to show sympathy\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Consedine không phủ nhận mindfulness (\"Consedine's not disagreeing with the theory of mindfulness\") – đừng gán cho ông quan điểm bác bỏ hoàn toàn."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Johanna Montgomery (Auckland University) cho rằng lý thuyết của Hanson hợp lý nhưng mới dựa trên nghiên cứu động vật, chưa chứng minh được ở người; ảnh MRI chỉ cho thấy máu dồn về vùng não, chưa phải bằng chứng não mạnh lên."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → animals. ",
+       "b": true
+      },
+      {
+       "t": "\"current research ... only relates to ___\" ↔ \"based on studies from animals\"; ONE WORD ONLY nên viết \"animals\"."
+      },
+      {
+       "t": " Trích: \"it's a logical explanation based on studies from animals, but says we haven't yet got the technology to prove it scientifically in humans\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → blood. ",
+       "b": true
+      },
+      {
+       "t": "\"positive stimuli result in more ___ reaching parts of the brain\" ↔ \"an increased flow of blood to different areas of the brain\". Chỗ trống cần danh từ không đếm được: blood."
+      },
+      {
+       "t": " Trích: \"MRI scans certainly do indicate an increased flow of blood to different areas of the brain which are experiencing positive stimuli\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Trong phòng thí nghiệm, Montgomery kích thích não bằng điện vì giống hoạt động tự nhiên; hormone điều tiết não như thời tiết điều tiết hoạt động con người, và khoa học hiểu về nỗi sợ kéo dài rõ hơn hormone hạnh phúc."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → electricity. ",
+       "b": true
+      },
+      {
+       "t": "\"use ___ to initiate brain activity, because it's similar to natural processes\" ↔ \"stimulate the brain with electricity, as this copies the high-frequency firings that happen normally\". \"as\" = because."
+      },
+      {
+       "t": " Trích: \"they stimulate the brain with electricity, as this copies the high-frequency firings that happen normally in the brain every second\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → weather. ",
+       "b": true
+      },
+      {
+       "t": "\"hormones can be compared to the ___\" ↔ phép so sánh \"in the same way that weather...\". Câu dài: backbone = \"the hormones ... act to regulate the brain\"; mệnh đề chèn giữa \"that are released routinely in response to good or bad situations - such as adrenaline -\" chỉ là ví dụ, bỏ qua được; vế so sánh \"in the same way that...\" mới mang đáp án."
+      },
+      {
+       "t": " Trích: \"act to regulate the brain, in the same way that weather has a regulating effect on human activity more generally\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → fear. ",
+       "b": true
+      },
+      {
+       "t": "\"understand some stimuli, such as ___ better than ... more positive stimuli\" ↔ cấu trúc \"More is known about ... fear than ... 'happiness' hormones\". ONE WORD ONLY nên chỉ viết \"fear\"."
+      },
+      {
+       "t": " Trích: \"More is known about the impact on brain activity of prolonged periods of fear than the effects of ‘happiness' hormones\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Matching information (Q1–4) có NB cho phép lặp chữ cái: đoạn A chứa cả câu 2 và 3, đừng cố rải mỗi đoạn một câu."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 là bẫy điển hình: \"video method\" xuất hiện lần đầu ở đoạn A nhưng chỉ đoạn B mới nói hai nhà khoa học cùng dùng nó – hãy chọn đoạn chứa trọn vẹn thông tin câu hỏi."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Với Matching people, đoạn C có ba nhân vật; luôn hỏi \"ai nói câu này?\" thay vì chỉ khớp từ khóa nội dung."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -3228,7 +4450,638 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề How the mind ages cho biết bài bàn về việc trí óc thay đổi thế nào theo tuổi, và câu mở đầu nêu luôn ba yếu tố: mental lifestyle, chronic disease, flexibility of the mind. Đoán mạch bài: quan niệm cũ (suy giảm là tất yếu) → các nghiên cứu phản bác (Rapoport, Salthouse, Diamond, Schaie) → các loại trí nhớ (Bahrick) → metamemory và cognitive style (Kail, Schaie) → những gì cải thiện theo tuổi. Q1–3 (MCQ) bám đoạn 2, 3, 7; Q4–9 (summary) bám đoạn 5–8; Q10–13 là matching people nên rải khắp bài."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–3"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Multiple choice (A–D)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, nhờ từ khóa rõ"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "older typists, rats/toys, chess players"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "4–9"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Summary completion (ONE WORD ONLY)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự bài (đoạn 5 trở đi)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "two types of memory, knowledge of..., length of tuition, brain function, tests, increases with age"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "10–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching people (A–E)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, nhờ tên riêng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Stanley Rapoport, Marion Diamond, Warner Schaie, Harry Bahrick, Robert Kail"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Vừa đọc xong một đoạn là chốt ngay: MCQ và summary có từ khóa dễ nhận, còn matching people thì gắn luôn mỗi phát biểu với tên vừa gặp trong đoạn đó."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Ba yếu tố quyết định sự thay đổi chức năng trí óc; quan niệm cũ cho rằng suy giảm trí nhớ sau tuổi trưởng thành là tất yếu, nhưng sự thật không đơn giản như vậy."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu \"The truth, however, is not quite so simple\" báo hiệu phần sau sẽ phản bác quan niệm cũ – đây là định hướng cho cả bài."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Rapoport thấy người già dùng mạng nơ-ron và chiến lược khác nhưng cho kết quả tương đương; Salthouse thấy nhóm đánh máy lớn tuổi đạt cùng tốc độ nhờ các mẹo tiết kiệm thời gian."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"more time-saving techniques\" ↔ \"cunning little strategies\" + \"gaining a fraction of a second\". A sai: bài không nói họ dùng kỹ năng vận động khác, mà nói mạng nơ-ron được định hình lại để BÙ cho mất mát về motor skills. B (được huấn luyện tốt hơn) và D (khả năng tập trung) hoàn toàn không được nhắc – bẫy suy diễn."
+      },
+      {
+       "t": " Trích: \"The older typists, it turned out, achieved their speed with cunning little strategies that made them more efficient than their younger counterparts. They made fewer finger shifts, gaining a fraction of a second here and there. They also read ahead in the test.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → A. ",
+       "b": true
+      },
+      {
+       "t": "\"a different mental approach\" ↔ \"different internal strategies\"; \"achieve the same result\" ↔ \"comparable results\". Người nói là Stanley Rapoport = A. Bẫy: Salthouse cũng nói về người lớn tuổi đạt kết quả bằng người trẻ, nhưng Salthouse không có trong danh sách A–E."
+      },
+      {
+       "t": " Trích: \"The older subjects used different internal strategies to accomplish comparable results at the same time\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn này có hai nhà nghiên cứu (Rapoport, Salthouse) nhưng chỉ Rapoport nằm trong List of People."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Suy giảm trí óc có thể đảo ngược: Diamond chứng minh hoạt động trí óc làm dendrite mọc thêm, chuột bị cô lập thì não co lại còn môi trường phong phú thì vỏ não mở rộng; Schaie nói lối sống trí óc bận rộn giữ trí óc khỏe mạnh."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → D. ",
+       "b": true
+      },
+      {
+       "t": "\"expanded or shrank depending on the level of mental activity\" ↔ \"brain shrinks\" khi bị cô lập và \"the whole cerebral cortex has expanded\" khi ở môi trường kích thích. A sai vì phải là đồ chơi ĐA DẠNG (\"rats get bored unless the toys are varied\"), không phải đồ chơi quen thuộc. B (lo âu) và C (sống lâu hơn) không được nhắc – bài chỉ nói về kích thước não."
+      },
+      {
+       "t": " Trích: \"when a rat is kept in isolation, the animal's brain shrinks, but if we put that rat with other rats in a large cage and give them an assortment of toys, we can show, after four days, significant differences in its brain\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → B. ",
+       "b": true
+      },
+      {
+       "t": "\"Both animals and humans need to exist in an environment full of interest\" ↔ \"Animals are just like we are. They need stimulation\". Câu này của Diamond = B, không phải Schaie (Schaie nói về con người với \"busy mental lifestyle\")."
+      },
+      {
+       "t": " Trích: \"Animals are just like we are. They need stimulation,' says Diamond.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu dài mang đáp án Q2: backbone = \"the animal's brain shrinks\" (điều kiện: \"when a rat is kept in isolation\"); vế tương phản \"but if we put that rat with other rats ... and give them an assortment of toys\" (điều kiện 2) dẫn tới \"we can show ... significant differences in its brain\". Hai điều kiện trái ngược chính là chỗ chứng minh đáp án D."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Schaie thấy chức năng trí óc giảm ở người nằm viện dài ngày vì bệnh mãn tính, có lẽ do sự thụ động mà nếp sinh hoạt bệnh viện tạo ra."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Trí nhớ có nhiều dạng: semantic memory (kiến thức, sự kiện khách quan) và episodic memory (sự việc, cuộc trò chuyện trong thời gian và không gian)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → semantic. ",
+       "b": true
+      },
+      {
+       "t": "\"two different types of memory\" ↔ hai tên gọi trong đoạn. Chỗ trống đứng trước \"memory\" nên chỉ điền tính từ \"semantic\"."
+      },
+      {
+       "t": " Trích: \"what we call knowledge – facts – is what psychologists such as Harry Bahrick of Ohio Wesleyan University call semantic memory\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → episodic. ",
+       "b": true
+      },
+      {
+       "t": "\"on the other hand\" báo hiệu dạng thứ hai. Đáp án Q4 và Q5 có thể đảo thứ tự cho nhau, nên chỉ cần điền đúng hai từ."
+      },
+      {
+       "t": " Trích: \"Events, conversations and occurrences in time and space, on the other hand, make up episodic memory\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Bahrick kiểm tra 1.000 học sinh về môn đại số: mức nhớ không phụ thuộc thời gian đã trôi qua mà phụ thuộc thời lượng được học."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → algebra. ",
+       "b": true
+      },
+      {
+       "t": "\"people's knowledge of ___ to determine recall ability\" ↔ môn học được kiểm tra. Câu tóm tắt sau đó (\"a function not of age but rather of length of tuition\") ↔ \"The determining factor was the duration of instruction\" nên xác nhận đúng đoạn."
+      },
+      {
+       "t": " Trích: \"Bahrick tested 1,000 high school graduates to see how well they remembered the school subject algebra\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Bẫy số liệu: 1.000 học sinh, một tháng, 50 năm, hai ba năm – nhiều con số nhưng câu hỏi chỉ cần tên môn học."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Metamemory (khả năng quản lý trí nhớ) là sản phẩm của việc đi học; ví dụ trẻ chơi cờ giỏi nhớ bố cục quân cờ tốt hơn người lớn mới chơi; ngoài ra cognitive style/mental flexibility của Schaie dự báo nhận thức khi về già."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → B. ",
+       "b": true
+      },
+      {
+       "t": "\"better recall of the layout of pieces\" ↔ \"remember the patterns of chess pieces arranged on a board ... the children won\". A sai vì bài nói về mô hình quân cờ, không phải dãy số. C sai ngược chiều: chính KIẾN THỨC CỦA TRẺ mới \"better organized than that of the adults\". D không được nhắc."
+      },
+      {
+       "t": " Trích: \"when asked to remember the patterns of chess pieces arranged on a board, the children won\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → metamemory. ",
+       "b": true
+      },
+      {
+       "t": "\"School also helps with a brain function called ___\" ↔ \"metamemory is a byproduct of going to school\"."
+      },
+      {
+       "t": " Trích: \"a mental function known as metamemory\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → psychological. ",
+       "b": true
+      },
+      {
+       "t": "\"does better in ___ tests\" ↔ \"psychological assessments\" (assessments = tests). Chỗ trống đứng trước \"tests\" nên điền tính từ \"psychological\"."
+      },
+      {
+       "t": " Trích: \"the more likely they are to perform well in many aspects of life and in psychological assessments\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → E. ",
+       "b": true
+      },
+      {
+       "t": "\"The educational system makes students aware of how their memory works\" ↔ \"teaches them how their memory functions\". Lời của Robert Kail = E."
+      },
+      {
+       "t": " Trích: \"The question-and-answer process, especially exam taking, helps children learn and teaches them how their memory functions\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"Being open to new ways of doing things\" ↔ \"mental flexibility\"/\"the ability to adapt and roll with life's punches\"; \"positive impact ... as we get older\" ↔ \"score highly on tests of cognition at an advanced age\". Lời của Warner Schaie = C."
+      },
+      {
+       "t": " Trích: \"Those who score highly on tests of cognition at an advanced age are those who tested high in mental flexibility at middle age.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn dài nhất, chứa tới 5 đáp án của ba dạng khác nhau và hai nhân vật (Kail, Schaie). Đọc chậm và chốt hết trước khi sang đoạn 8."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 8 – ",
+       "b": true
+      },
+      {
+       "t": "Kiến thức chuyên môn là nguồn lực trí óc chỉ tốt lên theo thời gian; từ vựng cũng phát triển theo tuổi, giáo viên và nhà báo về hưu làm bài từ vựng tốt hơn sinh viên."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → vocabulary. ",
+       "b": true
+      },
+      {
+       "t": "\"as we get older, our knowledge of ___ increases\" ↔ \"vocabulary develops with time\". Bẫy: \"specialized knowledge\" và \"crystallised intelligence\" cũng tăng, nhưng chỗ trống cần ONE WORD ONLY và câu sau nói rõ \"Vocabulary is another such specialized form of knowledge\"."
+      },
+      {
+       "t": " Trích: \"Research clearly shows that vocabulary develops with time.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Nhiều nhà nghiên cứu xuất hiện trong bài nhưng List of People chỉ có 5 người; nếu một phát biểu khớp với người không có trong danh sách (như Salthouse), hãy tìm người trong danh sách nói cùng ý."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "MCQ ở bài này đều có phương án đúng nghĩa nhưng sai chi tiết (đồ chơi quen thuộc thay vì đa dạng, dãy số thay vì bố cục quân cờ): luôn đối chiếu từng chữ với câu trong bài."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Summary Q4–9 chạy đúng theo thứ tự từ đoạn 5 đến đoạn 8, nên nếu thấy mình phải quay lại đoạn trước thì khả năng cao là chọn sai chỗ."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -4401,7 +6254,661 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề Developmental tasks of normal adolescence báo hiệu bài liệt kê các \"nhiệm vụ phát triển\" của tuổi vị thành niên. Cấu trúc rất dễ đoán: đoạn mở đầu giới thiệu Havighurst, rồi mỗi đoạn sau mở bằng một câu \"The adolescent must...\" = một nhiệm vụ. Q1–6 (phân loại early/middle/late) phụ thuộc vào các cụm early/mid/late adolescence rải khắp bài; Q7–10 (nối vế câu) nằm ở đoạn 1, 4, 5; Q11–13 (TRUE/FALSE/NOT GIVEN) bám đoạn 3, 6, 10."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–6"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Classification (A early / B middle / C late adolescence)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, nhờ cụm early–mid–late adolescence trong bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "opposite-sexed peers, vocational goals, conformity to peers, uniqueness, peer approval, risk-taking"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "7–10"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching sentence endings (A–E)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Một phần: vế đầu có từ khóa (Havighurst, high school, thinking ability)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Havighurst, course of study, speed of development, personal set of values"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "11–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "True / False / Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (từ khóa), nhưng cần đọc hết đoạn"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "pre-adolescent, abstract thought, limited skills with words, accepted by age-group"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Mỗi đoạn mở bằng \"The adolescent must...\" nên chỉ cần đọc câu đầu là biết đoạn nói về nhiệm vụ nào; sau đó dò trong đoạn xem có cụm early/mid/late adolescence hay không để chốt Q1–6."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Havighurst đề xuất nhìn các giai đoạn phát triển như những \"nhiệm vụ\", và mười nhiệm vụ của tuổi vị thành niên cũng là các thành tố của ý thức về bản thân."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → A. ",
+       "b": true
+      },
+      {
+       "t": "\"reflects an adolescent's emerging self-perception\" ↔ \"elements of the overall sense of self\". Backbone câu dài: WHO = \"Each of the Havighurst tasks\", DOES WHAT = \"can also be seen as elements of the overall sense of self\"; mệnh đề quan hệ \"that adolescents carry with them\" + \"as they move towards and into young adulthood\" chỉ bổ sung bối cảnh thời gian, không đổi ý chính."
+      },
+      {
+       "t": " Trích: \"Each of the Havighurst tasks can also be seen as elements of the overall sense of self that adolescents carry with them as they move towards and into young adulthood.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu cuối đoạn (\"at any given time they may be dealing with several\") giải thích vì sao các nhiệm vụ không tách rời nhau – đừng hiểu nhầm là chúng diễn ra tuần tự."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 1: thích nghi với cơ thể mới ở tuổi dậy thì, khiến thanh thiếu niên giữa kỳ rất để ý ngoại hình và quan tâm tới bạn khác giới."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → B. ",
+       "b": true
+      },
+      {
+       "t": "\"becoming interested in people of the other gender\" ↔ \"concerns are directed towards their opposite-sexed peers\"; \"mid-adolescents\" = middle adolescence = B. Bẫy: đoạn cũng nhắc \"early adolescence\" (giai đoạn thay đổi thể chất), nhưng chi tiết về bạn khác giới gắn với mid-adolescents."
+      },
+      {
+       "t": " Trích: \"mid-adolescents are body-conscious, and their concerns are directed towards their opposite-sexed peers\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 2: thích nghi với năng lực trí tuệ mới – trước tuổi vị thành niên tư duy bị giới hạn ở cái cụ thể, sang tuổi vị thành niên mới hiểu được cái trừu tượng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → FALSE. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi nói \"Most pre-adolescent children are capable of abstract thought\"; bài nói ngược lại: trước tuổi vị thành niên tư duy bị bó hẹp ở cái \"real and physical\", chỉ TRONG tuổi vị thành niên mới bắt đầu hiểu trừu tượng → mâu thuẫn nên FALSE, không phải NOT GIVEN."
+      },
+      {
+       "t": " Trích: \"Before adolescence, children's thinking is dominated by a concrete example for any problem that they solve; their thinking is constrained to what is real and physical. During adolescence, young people begin to recognise and understand abstractions.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Phương án B của Q7–10 (\"cannot solve a problem without an example\") lấy từ chính đoạn này, nhưng nó mô tả trẻ TRƯỚC tuổi vị thành niên nên không khớp vế đầu nào trong Q7–10."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 3: đáp ứng yêu cầu nhận thức cao hơn ở trường, vì chương trình học ngày càng trừu tượng trong khi không phải ai cũng chuyển đổi trí tuệ cùng tốc độ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"A course of study at high school\" ↔ \"School curricula\"; \"is designed to become more challenging\" ↔ \"more abstract, demanding material\"."
+      },
+      {
+       "t": " Trích: \"School curricula are frequently dominated by the inclusion of more abstract, demanding material\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → E. ",
+       "b": true
+      },
+      {
+       "t": "\"The speed of development of thinking ability\" ↔ \"the same rate\" của \"intellectual transition\"; \"varies according to the individual\" ↔ \"not all adolescents ... at the same rate\". Câu có cấu trúc nguyên nhân – kết quả: vế \"Since...\" nêu lý do (mang đáp án), backbone chính là \"demands for abstract thinking ... may be frustrating\"."
+      },
+      {
+       "t": " Trích: \"Since not all adolescents make the intellectual transition at the same rate, demands for abstract thinking prior to the achievement of that ability may be frustrating.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 4: xây dựng hệ giá trị cá nhân – từ bộ quy tắc của cha mẹ, thanh thiếu niên phải dung hòa với giá trị của bạn bè và xã hội thành một hệ tư tưởng riêng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → D. ",
+       "b": true
+      },
+      {
+       "t": "\"formulates a personal set of moral beliefs and values\" ↔ \"restructures those beliefs into a personal ideology\" + \"an integrated set of values and morals\". Vế đầu Q10 rất chung chung (\"Adolescence is a time when the young person\") nên phải loại dần: A đã dùng cho Q7, C cho Q8, E cho Q9, còn B mô tả trẻ trước tuổi vị thành niên → chỉ còn D."
+      },
+      {
+       "t": " Trích: \"To reconcile differences, the adolescent restructures those beliefs into a personal ideology.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 5: phát triển vốn ngôn ngữ phong phú hơn; vì tư duy phát triển nhanh hơn ngôn ngữ nên các em có vẻ kém hơn thực lực."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"limited skills with words\" ↔ \"Their limited language of childhood is no longer adequate\"/\"verbal development\"; \"give a false impression of their ability\" ↔ \"appear less competent than they really are\" → khớp hoàn toàn nên TRUE."
+      },
+      {
+       "t": " Trích: \"As their conceptual development may outstrip their verbal development, adolescents may appear less competent than they really are.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 6: xác lập mục tiêu nghề nghiệp của người lớn; thanh thiếu niên giữa kỳ phải bước đầu xác định mình muốn làm gì và làm thế nào."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → B. ",
+       "b": true
+      },
+      {
+       "t": "\"beginning to choose a future career\" ↔ \"identify, at least at a preliminary level, what their adult vocational goals are\"; \"Mid-adolescents\" = B."
+      },
+      {
+       "t": " Trích: \"Mid-adolescents must identify, at least at a preliminary level, what their adult vocational goals are and how they intend to achieve them.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 8 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 7: hình thành bản sắc cá nhân – trong những năm đầu tuổi vị thành niên, các em bắt đầu thấy mình là cá thể riêng, tách khỏi cha mẹ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → A. ",
+       "b": true
+      },
+      {
+       "t": "\"form a self-image separate from the family context\" ↔ \"establish themselves as separate individuals, independent of their parents\"; \"early adolescent years\" = A."
+      },
+      {
+       "t": " Trích: \"During the early adolescent years a young person begins to recognise their uniqueness and to establish themselves as separate individuals, independent of their parents.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn 9 cũng nói về độc lập khỏi cha mẹ, nhưng Q4 nhấn vào \"self-image\" (bản sắc) nên thuộc đoạn 8; đoạn 9 là độc lập cảm xúc và không gắn mốc early/mid/late."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 9 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 8: độc lập về cảm xúc và tâm lý với cha mẹ; khi khẳng định nhu cầu tự chủ, các em có thể tỏ ra thù địch và bất hợp tác."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 10 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 9: xây dựng quan hệ bạn bè ổn định – nhu cầu được bạn bè chấp nhận lên đỉnh ở đầu tuổi vị thành niên và giảm dần về cuối; mức độ được nhóm bạn chấp nhận là chỉ dấu quan trọng cho sự thích nghi khác."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → A. ",
+       "b": true
+      },
+      {
+       "t": "\"needing to feel the same as one's friends\" ↔ \"intense conformity to peers\" + \"'Fitting in', not being different\"; \"Early adolescence\" = A."
+      },
+      {
+       "t": " Trích: \"Early adolescence is also a period of intense conformity to peers.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"having less need for the good opinion of friends\" ↔ \"the need for peer approval has diminished\"; \"late adolescence\" = C."
+      },
+      {
+       "t": " Trích: \"Certainly by late adolescence or early adulthood the need for peer approval has diminished.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"an important clue\" ↔ \"a major indicator\"; \"other aspects of their social adjustment\" ↔ \"other areas of social and psychological development\" → TRUE. Câu dài: backbone = \"The degree ... is a major indicator\"; mệnh đề quan hệ \"to which an adolescent is able to make friends and have an accepting peer group\" chỉ định nghĩa \"degree\", còn \"of how well the adolescent will adjust...\" cho biết chỉ dấu về điều gì."
+      },
+      {
+       "t": " Trích: \"The degree to which an adolescent is able to make friends and have an accepting peer group, though, is a major indicator of how well the adolescent will adjust in other areas of social and psychological development.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn này chứa cả A (early) và C (late) cho hai câu khác nhau – dễ lẫn nếu chỉ lướt từ khóa \"peer\". Hãy đọc trọn đoạn rồi chốt cả hai cùng lúc."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 11 – ",
+       "b": true
+      },
+      {
+       "t": "Nhiệm vụ 10: kiểm soát xung động và trưởng thành trong hành vi; hành vi mạo hiểm phổ biến đến mức được xem là quá trình phát triển bình thường của tuổi vị thành niên giữa kỳ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → B. ",
+       "b": true
+      },
+      {
+       "t": "\"exposing oneself to dangers\" ↔ \"risk-taking\"/\"behaviours that place them at physical, social, or educational risk\"; \"middle adolescence\" = B."
+      },
+      {
+       "t": " Trích: \"Risky behaviours are sufficiently pervasive among adolescents to suggest that risk-taking may be a normal developmental process of middle adolescence.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Dạng phân loại A/B/C chỉ đúng khi bài nói thẳng early / mid / late adolescence: hãy khoanh tròn ba cụm này khi đọc, đừng suy đoán theo cảm tính về \"tuổi nào thì làm gì\"."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Mỗi đoạn bắt đầu bằng \"The adolescent must...\" là một nhiệm vụ riêng; câu đầu đoạn chính là idea, phần còn lại mới chứa đáp án."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Với Matching sentence endings, loại trừ là chiến thuật tốt: phương án B ở bài này mô tả trẻ TRƯỚC tuổi vị thành niên nên không khớp vế đầu nào."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -5881,7 +8388,871 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề Multiple Intelligences và sapo \"The Implications of Multiple Intelligence Theory for Teachers\" cho biết bài giới thiệu thuyết đa trí thông minh của Gardner và ý nghĩa với việc dạy học. Đoán mạch bài: lịch sử bài test IQ → Gardner và ba luận điểm → danh sách tám loại trí thông minh → đặc điểm và cách phát triển từng loại → áp dụng vào lớp học. Q1–4 (TRUE/FALSE/NOT GIVEN) nằm ở hai đoạn đầu; Q5–10 (bảng) nằm đúng trong phần mô tả từng loại trí thông minh, theo thứ tự; Q11–13 ở ba đoạn cuối."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–4"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "True / False / Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự ở đoạn đầu bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "first intelligence test, linguistic and logical-mathematical, new tests, sequential"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "5–10"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Table completion (NO MORE THAN TWO WORDS)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, mỗi dòng ứng với một loại trí thông minh"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Linguistic, Musical, Spatial, Bodily-kinesthetic, Intrapersonal, Naturalist"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "11–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Sentence completion (NO MORE THAN TWO WORDS)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, ở ba đoạn cuối"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "teachers and parents, level of intelligence is fixed, in the future"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bảng Q5–10 chạy song song với các mục trong bài nên gần như là bài \"điền theo dòng\": đọc tới loại trí thông minh nào thì điền ngay dòng đó rồi đi tiếp."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Bài test trí thông minh đầu tiên do Alfred Binet lập ở Pháp đầu thế kỷ 20, lan rộng thập niên 1920–30, nay bị mất uy tín vì định nghĩa trí thông minh quá hẹp."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"popular worldwide\" ↔ \"widely used in many societies around the world\"; \"early 20th century\" ↔ \"the 1920s and 1930s\" (vẫn là đầu thế kỷ 20) → TRUE."
+      },
+      {
+       "t": " Trích: \"The first intelligence test was developed in France by Alfred Binet early in the 20th century. By the 1920s and 1930s, intelligence tests and their product, an individual's IQ (Intelligence Quotient), had become widely used in many societies around the world.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"language and mathematics\" ↔ \"linguistic and logical-mathematical\"; \"Traditional intelligence tests\" ↔ \"this traditional definition\" → TRUE. Từ \"All they test is\" chính là \"focused on\"."
+      },
+      {
+       "t": " Trích: \"All they test is linguistic and logical-mathematical intelligence, and this traditional definition of intelligence is now regarded as narrow.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Bài chỉ nói các bài test cũ đã mất uy tín (\"have now fallen into disrepute\") và nêu thuyết mới của Gardner, nhưng không hề nói có LOẠI BÀI TEST MỚI nào được phát triển cho học sinh. Bẫy: thuyết mới ≠ bài test mới."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "75% giáo viên dạy theo lối tuần tự, phân tích nhưng 70% học sinh không học theo cách ấy; Howard Gardner là người tạo ra thuyết Đa trí thông minh."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → FALSE. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi nói \"the majority of students benefit when information is taught in a sequential manner\"; bài nói 70% học sinh KHÔNG học được theo cách đó → mâu thuẫn, nên FALSE. Bẫy số liệu: 75% là của giáo viên, 70% là của học sinh – đọc nhầm chủ thể sẽ chọn TRUE."
+      },
+      {
+       "t": " Trích: \"We now know that 75% of teachers are sequential, analytical presenters, but 70% of students do not actually learn this way.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Gardner cho rằng thuyết Đa trí thông minh khẳng định ba luận điểm chính."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Luận điểm 1: mỗi người đều khác nhau."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Luận điểm 2: trí óc của mỗi người không cùng một kiểu."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Luận điểm 3: giáo dục hiệu quả nhất khi tính đến những khác biệt đó."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Gardner lập luận có ít nhất tám loại trí thông minh quan trọng mà hầu như ai cũng có thể phát triển."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 8 – ",
+       "b": true
+      },
+      {
+       "t": "Danh sách tám loại trí thông minh, từ ngôn ngữ đến tự nhiên."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Thứ tự tám loại ở đây chính là thứ tự các dòng trong bảng Q5–10, nên có thể bám theo để không lạc dòng."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 9 – ",
+       "b": true
+      },
+      {
+       "t": "Gardner còn phỏng đoán về trí thông minh tâm linh và hiện sinh nhưng chưa kết luận dứt khoát."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 10 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục: đặc điểm và sự phát triển của các loại trí thông minh."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 11 – ",
+       "b": true
+      },
+      {
+       "t": "Câu dẫn: sau đây là đặc điểm từng loại cùng cách rèn luyện và phát triển chúng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 12 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh ngôn ngữ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 13 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh ngôn ngữ gồm đọc, viết, nói, trò chuyện; rèn bằng sách hay, băng ghi âm, công nghệ và tham gia thảo luận."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → discussions. ",
+       "b": true
+      },
+      {
+       "t": "\"Taking part in ___\" ↔ \"actively participating in ___\" (take part in = participate in) → discussions."
+      },
+      {
+       "t": " Trích: \"actively participating in discussions\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 14 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh logic – toán học."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 15 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh logic – toán học gồm kỹ năng số, nhận ra quy luật, giải vấn đề bằng logic; rèn bằng trò chơi số, logic và câu đố."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 16 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh âm nhạc."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 17 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh âm nhạc là hiểu và thể hiện bản thân qua âm nhạc, nhịp điệu, khiêu vũ; rèn bằng nghe nhiều bản thu, hoạt động nhịp điệu, hát, nhảy, chơi nhạc cụ."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → recordings. ",
+       "b": true
+      },
+      {
+       "t": "\"Listening to different ___\" ↔ \"exposure to a variety of ___\" (a variety of = different) → recordings. Bẫy: \"recordings\" cũng xuất hiện ở dòng Linguistic (\"listening to recordings\"), nhưng dòng này mới có \"a variety of\"."
+      },
+      {
+       "t": " Trích: \"exposure to a variety of recordings\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 18 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh không gian."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 19 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh không gian là tạo và xoay chuyển hình ảnh trong đầu cùng định hướng cơ thể trong không gian; rèn bằng mài sắc khả năng quan sát, giải mê cung và dùng trí tưởng tượng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → observation skills. ",
+       "b": true
+      },
+      {
+       "t": "\"Improving ___\" ↔ \"sharpening ___\" (sharpen = improve) → observation skills, vừa đúng giới hạn hai từ."
+      },
+      {
+       "t": " Trích: \"sharpening observation skills\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 20 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh vận động cơ thể."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 21 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh vận động cơ thể gồm kỹ năng thể chất và học qua cảm giác cơ thể; rèn bằng biểu diễn, chơi thể thao và các nhiệm vụ cần trí tưởng tượng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → imagination. ",
+       "b": true
+      },
+      {
+       "t": "Dòng Bodily-kinesthetic trong bảng là \"Working with ___\" và \"Playing sports\", lấy từ chính câu này; \"Playing sports\" khớp thẳng, phần còn lại ngoài \"performing\" là \"tasks requiring imagination\" → imagination."
+      },
+      {
+       "t": " Trích: \"It may be exercised through performing, playing sports, and tasks requiring imagination.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đáp án Q8 khá lạ vì \"tasks requiring imagination\" cũng xuất hiện ở dòng Spatial trong bảng; theo tôi câu hỏi diễn đạt chưa chuẩn, nhưng vẫn dùng đúng key là \"imagination\" và dựa vào vị trí dòng (Bodily-kinesthetic) để chốt."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 22 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh tương tác cá nhân."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 23 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh tương tác cá nhân là biết giao tiếp và hiểu người khác khi hợp tác; rèn bằng trò chơi hợp tác, dự án nhóm, kịch và đóng vai."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 24 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh nội tâm."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 25 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh nội tâm là hiểu cảm xúc của mình và học cách kiểm soát chúng một cách có ý thức; rèn bằng dự án độc lập, viết nhật ký và tìm nơi yên tĩnh để suy ngẫm."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → emotions. ",
+       "b": true
+      },
+      {
+       "t": "Cột Characteristics ghi \"Understanding and controlling ___\" ↔ \"comprehending our emotions\" + \"the ability to control\" → emotions."
+      },
+      {
+       "t": " Trích: \"Involves comprehending our emotions and growing in the ability to control and work with them consciously.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 26 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục nhỏ: trí thông minh tự nhiên."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 27 – ",
+       "b": true
+      },
+      {
+       "t": "Trí thông minh tự nhiên là hiểu thiên nhiên và thế giới quanh ta; rèn bằng khám phá thiên nhiên và sắp xếp các bộ sưu tập."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → collections. ",
+       "b": true
+      },
+      {
+       "t": "\"Organizing ___ of items\" khớp nguyên văn → collections."
+      },
+      {
+       "t": " Trích: \"organizing collections of items\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 28 – ",
+       "b": true
+      },
+      {
+       "t": "Tiêu đề mục: áp dụng thuyết Đa trí thông minh vào lớp học."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 29 – ",
+       "b": true
+      },
+      {
+       "t": "Tám loại trí thông minh độc lập vì phát triển ở thời điểm và mức độ khác nhau, nhưng liên hệ chặt chẽ: giỏi một mảng có thể kéo cả nhóm đi lên."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → proficiency. ",
+       "b": true
+      },
+      {
+       "t": "\"In the experience of teachers and parents\" ↔ \"many teachers and parents are finding\"; \"when ___ in one's intelligence is improved\" ↔ \"when an individual develops proficiency in one area\" → proficiency."
+      },
+      {
+       "t": " Trích: \"many teachers and parents are finding that when an individual develops proficiency in one area, the whole constellation of intelligences may be enhanced\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 30 – ",
+       "b": true
+      },
+      {
+       "t": "Gardner xem các trí thông minh là tiềm năng được kích hoạt hay không tùy giá trị xã hội và lựa chọn cá nhân; người tin năng lực có thể phát triển thì kiên trì, còn người tin năng lực cố định dễ gục ngã khi thất bại."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → failure. ",
+       "b": true
+      },
+      {
+       "t": "\"feels their level of intelligence is fixed\" ↔ \"thinks they have no control over their ability level\"; \"may not cope with ___ as well\" ↔ \"more likely to get upset when faced with ___\" → failure. Câu dài: backbone = \"a learner ... is more likely to get upset\"; mệnh đề quan hệ \"who thinks they have no control over their ability level\" xác định người học nào, \"when faced with failure\" là thời điểm, và \"as it can only be construed as evidence of inadequate ability\" giải thích lý do."
+      },
+      {
+       "t": " Trích: \"a learner who thinks they have no control over their ability level is more likely to get upset when faced with failure\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 31 – ",
+       "b": true
+      },
+      {
+       "t": "Không thể soạn bài riêng cho từng học sinh, nên giải pháp là hoạt động lớp học chạm tới mọi loại trí thông minh; Gardner kêu gọi nền giáo dục coi trọng khác biệt cá nhân."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → individual differences. ",
+       "b": true
+      },
+      {
+       "t": "\"in the future\" ↔ \"the challenge of the coming decades\"; \"cater for the ___ between students\" ↔ \"takes individual differences seriously\" → individual differences (đúng hai từ)."
+      },
+      {
+       "t": " Trích: \"an education that takes individual differences seriously and creates practices that serve different kinds of minds equally well\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài có rất nhiều tiêu đề mục ngắn; đừng đếm chúng như đoạn văn khi định vị, hãy bám theo tên từng loại trí thông minh."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bẫy lặp từ: \"recordings\" và \"imagination\" xuất hiện ở hai mục khác nhau. Luôn chốt theo ĐÚNG DÒNG của bảng (loại trí thông minh nào) chứ không chỉ theo từ khóa."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Với TRUE/FALSE/NOT GIVEN ở đầu bài, chú ý ai là chủ thể của con số: 75% là giáo viên, 70% là học sinh."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -7128,7 +10499,653 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề Mental Gymnastics và sapo (\"mental exercise ... to boost corporate brainpower\") cho biết bài nói về các khóa \"tập thể dục cho não\" bán cho doanh nghiệp. Đoán mạch bài: một buổi tập mẫu ở Barclays → các công ty tương tự trên thế giới → lời quảng cáo dựa vào khoa học thần kinh → nội dung thực tế khá đơn giản → ý kiến chuyên gia → bằng chứng khoa học có thật đến đâu. Q1–5 (Yes/No/Not Given) nằm gọn ở đoạn 1–4 theo thứ tự; Q6–13 (matching people) rải khắp bài vì mỗi tên xuất hiện ở một đoạn riêng."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–5"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Yes / No / Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Bailey, buildings, all over the world, promote it, scientific basis, Susan Greenfield, founders"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "6–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching features – list of people (A–D, dùng lại được)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Một phần: bốn cái tên là mốc định vị, nhưng phải đọc mới biết ai nói gì"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Sebastian Bailey, Gessner Geyer, Susan Greenfield, Guy Claxton"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Q1–5 đi theo thứ tự bài nên chốt dần khi đọc; Q6–13 KHÔNG theo thứ tự, cách làm là mỗi lần gặp một cái tên thì dừng lại, tóm ý người đó nói gì rồi gán ngay cho câu khớp."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Mở bài bằng cảnh thật: nhà tâm lý Sebastian Bailey đến trụ sở Barclays dẫn một buổi \"tập não\" do Mind Gym tổ chức, tên là 'Having Presence'."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → A. ",
+       "b": true
+      },
+      {
+       "t": "\"An instructor in Mind Gym who guided the employees\" ↔ Bailey là người vào phòng và bắt đầu buổi tập của Mind Gym cho nhân viên ngân hàng. Không phải D vì Claxton chỉ là cố vấn học thuật, không đứng lớp."
+      },
+      {
+       "t": " Trích: \"young psychologist Sebastian Bailey enters the room to begin the morning's training session\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn này cho biết luôn Bailey = Mind Gym, Barclays = khách hàng. Ghi nhớ vai trò từng người ngay từ đầu để làm Q6–13."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Buổi tập 90 phút biến khái niệm trừu tượng 'presence' thành cảm giác và hành vi cụ thể: nhắm mắt hình dung bản thân lấp đầy căn phòng rồi cả tòa nhà, sau đó diễn các mức 'presence'."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → NO. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi nói họ tưởng tượng mình LÀ tòa nhà (\"imagine they are buildings\"); bài nói họ hình dung mình \"filling\" (lấp đầy) căn phòng rồi tòa nhà. Bẫy đổi quan hệ: filling the building ≠ being a building, nên NO chứ không phải NOT GIVEN."
+      },
+      {
+       "t": " Trích: \"the bankers are instructed to shut their eyes and visualise themselves filling the room and then the building\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Những buổi tập tương tự diễn ra ở phòng hội thảo doanh nghiệp khắp thế giới; dù tên gọi khác nhau, lời chào hàng của các công ty đều giống nhau và gần như đều viện dẫn nghiên cứu về não."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → YES. ",
+       "b": true
+      },
+      {
+       "t": "\"business people all over the world\" ↔ \"corporate seminar rooms around the globe\"; corporate = giới doanh nghiệp."
+      },
+      {
+       "t": " Trích: \"Similar mental workouts are happening in corporate seminar rooms around the globe\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → YES. ",
+       "b": true
+      },
+      {
+       "t": "\"promote it in much the same way\" ↔ \"sales pitch is similar\"; \"Whatever the style\" chính là \"all\" trong câu hỏi."
+      },
+      {
+       "t": " Trích: \"Whatever the style, the companies' sales pitch is similar\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → YES. ",
+       "b": true
+      },
+      {
+       "t": "\"say that their practice has a scientific basis\" ↔ \"claim ... draw on serious research\". Lưu ý: câu hỏi hỏi họ NÓI gì, không hỏi điều đó có đúng không – đoạn 11 mới bác bỏ."
+      },
+      {
+       "t": " Trích: \"Nearly all claim that their mental workouts draw on serious research into how the brain works\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Ba câu 2–3–4 nằm liền nhau trong một đoạn ngắn. Đây là điểm mấu chốt của One-shot: đọc xong đoạn 3 là chốt được ba câu, không cần quay lại."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Hai lời quảng cáo tiêu biểu: Geyer (Brainergy) nói tập trí não làm thay đổi giải phẫu và hóa học của não, còn Mind Gym mượn câu nói của nhà thần kinh học Susan Greenfield so sánh não với phòng gym."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → C. ",
+       "b": true
+      },
+      {
+       "t": "\"compared to exercising the body\" ↔ phép so sánh \"like going to the gym\"; đây là câu trích của Susan Greenfield = C."
+      },
+      {
+       "t": " Trích: \"It's a bit like going to the gym: if you exercise your brain, it will grow.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → B. ",
+       "b": true
+      },
+      {
+       "t": "\"modify the structure of the brain\" ↔ \"changes in brain anatomy\" (anatomy = cấu trúc). Người nói là Gessner Geyer = B, không phải C: Greenfield chỉ nói não \"will grow\", không nói về giải phẫu."
+      },
+      {
+       "t": " Trích: \"mental exercise can cause changes in brain anatomy and brain chemistry\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Bài chỉ nói \"Mind Gym trades on a quote from Susan Greenfield\" – dùng lại câu nói của bà để quảng cáo. Không có chữ nào về việc bà sáng lập Mind Gym. Bẫy đồng hiện: tên Greenfield đứng ngay cạnh tên Mind Gym nên dễ tưởng là có liên hệ."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn 4 trả lời tới ba câu thuộc hai dạng khác nhau (Q5 của YNNG và Q9, Q10 của matching). Đúng tinh thần One-shot: xong đoạn nào thì quét cả hai bộ câu hỏi."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Trên thực tế nội dung khóa học khá tầm thường: mẹo \"nêu một ý hợp lý rồi nêu ý ngược lại\" giúp nhóm nghĩ ra hàng loạt kiểu pizza mới trong năm phút."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Bailey thừa nhận mẹo rất đơn giản, nhưng cái chính là người ta tự dán nhãn mình \"không sáng tạo\" vì không biết những kỹ thuật mà người sáng tạo nào cũng dùng; luyện đúng cách không biến ai thành thiên tài nhưng tăng hiệu suất não."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → A. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi gần như dịch thẳng: \"think that they are uncreative\" ↔ \"label themselves as uncreative\"; \"unaware of techniques used by creative people\" ↔ \"not realizing that there are simple techniques every creative person employs\". Người nói là Bailey = A."
+      },
+      {
+       "t": " Trích: \"They tend to just label themselves as uncreative, not realizing that there are simple techniques every creative person employs.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu dài cuối đoạn: xương sống là \"the right kind of training ... can dramatically increase brain efficiency\"; mệnh đề nhượng bộ trước đó (\"some people do start with quicker circuits\") chỉ thừa nhận khác biệt bẩm sinh, không phủ nhận tác dụng của luyện tập."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Khó đo hiệu quả của khóa học, nhưng nhân viên thấy mở mang: ví dụ họ học được rằng nên nghỉ một lát để ý tưởng \"ủ\" thay vì cố húc đầu vào vấn đề – một mẹo đơn giản mà đời thường hiếm khi dạy, và theo Claxton đó mới chính là vấn đề."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → D. ",
+       "b": true
+      },
+      {
+       "t": "\"rarely take time to stand back from a problem\" ↔ \"taking a break and letting ideas incubate\" là mẹo \"rarely taught in normal life\"; câu \"is exactly the point\" gán ý này cho Guy Claxton = D. Dễ chọn nhầm A vì Bailey nói nhiều ở đoạn trước, nhưng câu kết đoạn chỉ đích danh Claxton."
+      },
+      {
+       "t": " Trích: \"Then they learn that creative thinkers advise taking a break and letting ideas incubate. A simple tactic, yet one rarely taught in normal life. Which, according to educational psychologist Guy Claxton, Mind Gym's academic adviser, is exactly the point.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 8 – ",
+       "b": true
+      },
+      {
+       "t": "Claxton gạt bỏ phần lớn cách tiếp cận thần kinh học là \"neuro-babble\" và cho rằng sáng tạo, linh hoạt, động lực đều là thói quen tư duy học được; muốn đổi thì phải đưa cách nghĩ của mình trở lại mức ý thức rồi mới luyện thói quen mới."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → D. ",
+       "b": true
+      },
+      {
+       "t": "\"Most ways of looking at mental development are unconvincing\" ↔ \"dismisses most neurological approaches as 'neuro-babble'\" (babble = nói nhảm, tức không thuyết phục). Chủ ngữ là Claxton = D."
+      },
+      {
+       "t": " Trích: \"Claxton, who dismisses most neurological approaches as 'neuro-babble'\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → D. ",
+       "b": true
+      },
+      {
+       "t": "\"begins with a close examination of how we ordinarily think\" ↔ \"becoming aware of how we usually think\"; \"Only then\" cho thấy đó là BƯỚC ĐẦU, khớp với \"begins with\"."
+      },
+      {
+       "t": " Trích: \"Claxton believes we must return our thought patterns to a conscious level, becoming aware of how we usually think. Only then can we start to practise better thought patterns\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Hai câu liền nhau cùng ra đáp án D. Đề đã báo \"NB You may use any letter more than once\" nên đừng loại D chỉ vì vừa dùng."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 9 – ",
+       "b": true
+      },
+      {
+       "t": "Ý tưởng này không mới (Vygotsky và Luria từ những năm 1930, rồi de Bono, Buzan, NLP); doanh nghiệp vồ lấy bất cứ thứ gì hứa tạo ra người tư duy linh hoạt mà không kiểm chứng – dẫn vào câu hỏi: neurobics có cơ sở khoa học không?"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 10 – ",
+       "b": true
+      },
+      {
+       "t": "Có bằng chứng là não thích nghi theo nhu cầu: bệnh nhân đột quỵ mọc kết nối thần kinh mới, chuột nuôi có đồ chơi nhiều kết nối hơn, não dùng nhiều chất xám hơn cho việc mới."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 11 – ",
+       "b": true
+      },
+      {
+       "t": "Nguyên lý chung thì đúng – não \"plastic\" – nhưng chi tiết thì không: sáng tạo quá chủ quan nên phải đo bằng bài IQ, và không bài tập trí não hay thuốc thông minh nào cải thiện được các bài đó một cách đáng tin cậy."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 12 – ",
+       "b": true
+      },
+      {
+       "t": "Dù vậy, Claxton cho rằng trường học và đại học nên dành nhiều thời gian dạy phân tích và kỹ thuật giải quyết vấn đề hơn là nhồi nhét kiến thức."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → D. ",
+       "b": true
+      },
+      {
+       "t": "\"Educators should place greater emphasis on developing students' thinking skills\" ↔ \"spend more time teaching analysis and problem-solving techniques\"; chủ ngữ \"Claxton for one believes\" = D."
+      },
+      {
+       "t": " Trích: \"there is no reason why schools and universities should not spend more time teaching analysis and problem-solving techniques\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn cuối chỉ có một câu nhưng chứa một đáp án: đừng đọc lướt đoạn kết."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Với Q6–13, mỗi người chỉ xuất hiện ở một hoặc hai đoạn: Bailey (đoạn 1, 6), Geyer và Greenfield (đoạn 4), Claxton (đoạn 7, 8, 12). Gán đáp án ngay khi gặp tên, đừng để dồn đến cuối bài."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Yes/No/Not Given ở đây toàn bẫy \"đổi một chữ\": filling the building → being a building (Q1), trades on a quote → was a founder (Q5). Đọc kỹ quan hệ giữa hai danh từ, không chỉ nhìn từ khóa."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài có hai giọng đối lập: lời quảng cáo (Geyer, Greenfield) và lời hoài nghi (Claxton, đoạn 11). Khi matching, hỏi \"ai nói câu này\" chứ không hỏi \"câu này có đúng không\"."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -8349,7 +12366,664 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề Becoming an Expert và sapo nêu rõ ba chặng: novice → journeyman → expert. Vậy đoán ngay bố cục: mỗi chặng một đoạn đầu bài, rồi so sánh expert với novice (hiểu sâu, trí nhớ, tốc độ, cách giải quyết vấn đề, tự giám sát), cuối bài có tiểu mục \"The Contradiction of Expertise\" nói mặt trái. Q1–5 là flow-chart theo đúng ba chặng nên nằm ở đoạn 1–3; Q6–10 (True/False/Not Given) ở các đoạn so sánh expert–novice; Q11–13 là tóm tắt phần cuối bài."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–5"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Flow-chart completion (NO MORE THAN THREE WORDS)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự ba chặng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Novices, learn the key, require the help of, recognize different, make and ... predictions"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "6–10"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "True / False / Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (từ khóa), theo thứ tự bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "classification systems, memory skills, more slowly, looking for an answer, review their work"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "11–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Summary completion (NO MORE THAN TWO WORDS)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, nằm trong phần The Contradiction of Expertise"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "large number of, different areas, statistical models, forms of, not a great deal of"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Cả ba dạng đều theo thứ tự bài và chia vùng rất gọn (1–5 ở đoạn 1–3, 6–10 ở đoạn 5–8, 11–13 ở đoạn 10–12), nên chỉ cần đọc một lượt và chốt theo vùng."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Chặng novice: người mới phải học các nguyên tắc và quy tắc chỉ đường của công việc, đồng thời tiếp xúc với các ca cụ thể, và thường tìm một người hướng dẫn."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → principles; rules. ",
+       "b": true
+      },
+      {
+       "t": "\"have to learn the key ___ and ___ of tasks before performing them\" ↔ \"acquire the guiding principles and rules ... in order to undertake that task\"; hai chỗ trống lấy đúng hai danh từ principles và rules (bỏ \"guiding\" vì đã có \"key\")."
+      },
+      {
+       "t": " Trích: \"The novice needs to acquire the guiding principles and rules of a given task in order to undertake that task.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → mentor. ",
+       "b": true
+      },
+      {
+       "t": "\"require the help of a ___\" ↔ \"find a mentor to direct them\"; mentor = người hướng dẫn, danh từ số ít sau mạo từ \"a\"."
+      },
+      {
+       "t": " Trích: \"a novice will find a mentor to direct them through the process of acquiring new knowledge\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Chỗ trống số 1 có HAI ô cùng đánh số: đáp án là hai từ riêng biệt, không phải một cụm."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Chặng journeyman: nhờ luyện tập nhiều, họ bắt đầu nhận ra các mô thức hành vi trong từng ca, rồi giữa các ca ngày càng phức tạp, và thấy mô thức lặp lại theo thời gian; vẫn còn cần mentor."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → patterns. ",
+       "b": true
+      },
+      {
+       "t": "\"recognize different ___ in cases\" ↔ \"distinguish patterns of behavior within cases\"; recognize ↔ distinguish."
+      },
+      {
+       "t": " Trích: \"the novice begins to distinguish patterns of behavior within cases\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → complex. ",
+       "b": true
+      },
+      {
+       "t": "\"cases that become more and more ___\" ↔ \"increasingly complex cases\"; more and more = increasingly, nên chỗ trống là tính từ complex."
+      },
+      {
+       "t": " Trích: \"With more practice and exposure to increasingly complex cases\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Bước chuyển sang expert: journeyman bắt đầu đặt và kiểm chứng giả thuyết về hành vi tương lai dựa trên kinh nghiệm; khi tự tạo ra tri thức mới, họ thành chuyên gia và không cần mentor nữa."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → test. ",
+       "b": true
+      },
+      {
+       "t": "\"are able to make and ___ predictions\" ↔ \"make and test hypotheses\" (và cuối đoạn: \"make predictions based on patterns, and test those predictions\"); hypotheses ↔ predictions, nên điền động từ test."
+      },
+      {
+       "t": " Trích: \"When journeymen start to make and test hypotheses about future behavior based on past experiences\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Quá trình này giống mô hình học nghề (apprenticeship): tuy nghe cổ xưa, nó vẫn là cách đào tạo chuẩn cho tiến sĩ, luật, âm nhạc, kỹ thuật và y khoa."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Expert hiểu lĩnh vực sâu hơn và dùng nguyên tắc bậc cao: novice xếp đồ vật theo màu hoặc kích thước, còn expert xếp theo chức năng, đồng thời biết biến số nào ảnh hưởng lớn nhất."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → FALSE. ",
+       "b": true
+      },
+      {
+       "t": "\"the same classification systems\" ↔ cách \"group objects\"; từ nối \"whereas\" chỉ rõ hai bên làm KHÁC nhau (màu/kích cỡ so với chức năng/công dụng), nên mâu thuẫn → FALSE chứ không phải NOT GIVEN."
+      },
+      {
+       "t": " Trích: \"A novice, for example, would group objects together by color or size, whereas an expert would group the same objects according to their function or utility.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Expert có trí nhớ ngắn hạn và dài hạn trong lĩnh vực của mình tốt hơn novice, làm việc nhanh hơn và mắc ít lỗi hơn."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Đoạn này có nhắc \"memory\" nên rất dễ bị hút vào, nhưng bài chỉ so sánh trí nhớ của expert và novice, tuyệt nhiên không nói novice \"are often required to work on tasks that build memory skills\" (được giao bài tập rèn trí nhớ). Bẫy từ khóa trùng mà nội dung lệch."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"Novices perform tasks more slowly than experts\" là cách nói đảo ngược của \"experts perform tasks faster than novices\" – cùng một thông tin → TRUE."
+      },
+      {
+       "t": " Trích: \"experts perform tasks faster than novices\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Hai câu liền nhau trong một đoạn hai dòng: một câu NOT GIVEN, một câu TRUE. Phải phân biệt \"bài có nhắc từ đó\" và \"bài có khẳng định điều đó\"."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Expert và novice giải quyết vấn đề khác nhau: expert dành nhiều thời gian đầu để hiểu thấu vấn đề, còn novice lao vào tìm lời giải ngay."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"begin a task by looking for an answer straight away\" ↔ \"immediately seek to find a solution\"; straight away = immediately, answer = solution."
+      },
+      {
+       "t": " Trích: \"novices, who immediately seek to find a solution\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu dài của đoạn: xương sống là \"Experts spend more time thinking about a problem ... than do novices\"; mệnh đề quan hệ \"who immediately seek to find a solution\" bổ nghĩa cho novices và chính là chỗ chứa đáp án Q9."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 8 – ",
+       "b": true
+      },
+      {
+       "t": "Expert tự giám sát tốt hơn: nhận ra lỗi của mình, kiểm tra lời giải thường xuyên hơn, biết khi nào thiếu thông tin và biết giới hạn tri thức của mình."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Bài viết \"Experts check their solutions more often than novices\" – nhiều LẦN hơn (often), còn câu hỏi nói \"more efficiently\" – hiệu quả hơn. Đây là bẫy đổi một trạng từ: tần suất không đồng nghĩa với hiệu suất, và bài không đánh giá hiệu suất kiểm tra, nên NOT GIVEN chứ không phải TRUE."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 9 – ",
+       "b": true
+      },
+      {
+       "t": "Tiểu mục \"The Contradiction of Expertise\" báo hiệu bài chuyển sang mặt trái của chuyên môn – cũng chính là tiêu đề của bài tóm tắt Q11–13."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 10 – ",
+       "b": true
+      },
+      {
+       "t": "Mặt trái: trái với mong đợi, expert dự báo tương lai không giỏi; hơn 200 thí nghiệm ở nhiều lĩnh vực cho thấy họ không hơn được mô hình thống kê thuần túy."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → experiments. ",
+       "b": true
+      },
+      {
+       "t": "\"a large number of ___ in different areas\" ↔ \"more than 200 experiments in different domains\"; areas = domains, nên chỗ trống là experiments (số nhiều theo \"a large number of\")."
+      },
+      {
+       "t": " Trích: \"With more than 200 experiments in different domains, it is clear that the answer is no.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 11 – ",
+       "b": true
+      },
+      {
+       "t": "Cách giải thích thứ nhất: expert cũng là người nên thiếu nhất quán – cùng một bộ dữ liệu nhưng tháng này họ dùng mô hình tư duy khác tháng sau."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 12 – ",
+       "b": true
+      },
+      {
+       "t": "Cách giải thích thứ hai: thiên kiến của con người (human bias); suốt 30 năm nghiên cứu nhưng tài liệu vẫn rất ít đồng thuận về nguyên nhân hay biểu hiện của thiên kiến đó."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → bias. ",
+       "b": true
+      },
+      {
+       "t": "\"forms of ___ may also influence experts\" ↔ \"human bias\"; \"Others suggest\" trong bài tóm tắt ↔ \"A number of other researchers\". Chỉ điền bias vì \"human\" là tính từ bổ nghĩa, tối đa hai từ nhưng key lấy một từ."
+      },
+      {
+       "t": " Trích: \"A number of other researchers point to human bias in order to explain unreliable expert predictions.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → consensus. ",
+       "b": true
+      },
+      {
+       "t": "\"there is not a great deal of ___ about why or how this happens\" ↔ \"shows little consensus regarding the causes or manifestations\"; not a great deal = little, why or how = causes or manifestations."
+      },
+      {
+       "t": " Trích: \"the literature shows little consensus regarding the causes or manifestations of human bias\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 13 – ",
+       "b": true
+      },
+      {
+       "t": "Kết bài: chính cách người ta trở thành chuyên gia giải thích vì sao họ giỏi mô tả, giải thích và giải quyết vấn đề trong lĩnh vực của mình nhưng lại dự báo kém hơn các mô hình thống kê lịch sử."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Flow-chart Q1–5 bám sát ba nhãn Novices / Journeymen / Experts: cứ đọc hết một đoạn mô tả một chặng là điền xong phần đó, không cần đọc lại."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Hai câu NOT GIVEN (Q7, Q10) đều nằm ở đoạn CÓ chứa từ khóa: memory ở đoạn 6, check solutions ở đoạn 8. Mẹo là so từng từ định lượng/định tính (required to, more efficiently) chứ không chỉ so chủ đề."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Chú ý hướng so sánh: bài thường viết \"experts ... than novices\", còn câu hỏi đảo thành \"novices ... than experts\". Đảo ngược đúng thì vẫn là TRUE (Q8)."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -9592,7 +14266,583 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề Sorry – Who Are You? và sapo giải thích luôn: prosopagnosia = chứng không nhận ra khuôn mặt, và hai câu hỏi dẫn dắt là \"phổ biến đến mức nào\" và \"vì sao xảy ra\". Đoán mạch bài: một ca thực tế (Jacob) → chẩn đoán và hai dạng bệnh → các khảo sát về tỉ lệ → người bệnh không biết mình khác người → cách họ xoay xở và vì sao nhà thần kinh học quan tâm → mỗi người bệnh mỗi khác → nguyên nhân (gen, mắt) → huấn luyện có chữa được không. Q1–7 (TFNG) bám đoạn 1–5, Q8–13 (ghi chú) bám đoạn 6–9 theo ba tiểu mục Differences – Causes – Treatment."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–7"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "True / False / Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (từ khóa), theo thứ tự bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "before college, growing problem, babies, German study, aware that other people, developed ways, brain injury"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "8–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Note completion (ONE WORD ONLY)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự và theo tiểu mục"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "commonly seen, someone else's face, Martina Gruter, Brad Duchaine, Joseph Degutis, Thomas Gruter"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Hai bộ câu hỏi chia bài làm đôi khá rõ: đọc đoạn 1–5 thì chốt Q1–7, đọc đoạn 6–9 thì chốt Q8–13, cả hai đều theo thứ tự bài nên không cần quay lại."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Mở bài bằng ca của Jacob Hodes: ngày đầu đại học được Daniel Byrne dẫn đi thăm trường, rồi suốt năm \"không thấy\" bạn ấy nữa – và anh đã gặp rắc rối này cả đời, kể cả với bạn bè, họ hàng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → FALSE. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi: trước khi vào đại học Jacob vẫn nhận ra người thân quen. Bài khẳng định anh gặp đúng rắc rối đó \"all his life\", kể cả với \"Friends and relatives\" → mâu thuẫn trực tiếp, FALSE. Bẫy mốc thời gian: câu chuyện mở đầu ở đại học khiến ta tưởng bệnh bắt đầu từ đó."
+      },
+      {
+       "t": " Trích: \"He had had the same trouble all his life. Friends and relatives would greet him, and he would have no idea who they were.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Năm năm trước anh được chẩn đoán prosopagnosia; bệnh không hiếm như tưởng, nhưng trước đây chỉ vài chục ca được mô tả và đều do chấn thương não, gần đây mới phát hiện dạng thứ hai: developmental prosopagnosia, có từ khi sinh hoặc xuất hiện rất sớm."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Bài nói số ca ĐƯỢC MÔ TẢ trước đây rất ít (\"only a few dozen cases had ever been described\") và nay biết là bệnh \"not that uncommon\" – tức hiểu biết tăng lên, không phải số người mắc tăng lên. Không ở đâu các nhà nghiên cứu nói đây là vấn đề \"growing\". Bẫy suy diễn từ con số."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Đoạn có nhắc bệnh \"present from birth or develops very early in life\", nhưng bài không hề so sánh mức độ khó phát hiện ở trẻ sơ sinh với ở trẻ nhỏ. Bẫy từ khóa babies có thật nhưng phép so sánh thì không có."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Hai câu NOT GIVEN đứng cạnh nhau. Nguyên tắc: câu hỏi có phép so sánh (growing / harder than) mà bài không so sánh thì chọn NOT GIVEN, đừng cố suy ra."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Hai khảo sát: nhóm Harvard và UCL (1.600 người) cho thấy tới 2% dân số có mức độ face blindness nào đó; tháng 8, nhóm Martina Gruter ở Munster báo cáo tương tự với 2,5% trong 700 học sinh trung học."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"seems to support the Harvard and UCL research findings\" ↔ chính chữ \"similarly reported\"; hai tỉ lệ 2% và 2,5% rất gần nhau, nên nghiên cứu Đức củng cố kết quả kia → TRUE."
+      },
+      {
+       "t": " Trích: \"Martina Gruter and colleagues at the Institute for Human Genetics in Munster, Germany, similarly reported that 2.5 percent of 700 secondary school pupils they had tested had trouble recognising faces\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Vì chưa bao giờ biết cảm giác nhận ra một khuôn mặt, người bệnh không biết là mình đáng lẽ phải làm được: theo Brad Duchaine, họ biết mình khó nhận người nhưng thường không nhận ra người khác giỏi hơn mình."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → FALSE. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi nói nhìn chung họ Ý THỨC được rằng người khác nhận mặt dễ hơn; bài nói ngược lại – họ \"often don't realise\" điều đó → FALSE. Bẫy nửa câu: vế đầu (\"almost always know that they have trouble\") đúng, nhưng câu hỏi hỏi vế sau. Đọc hết sau dấu \"but\"."
+      },
+      {
+       "t": " Trích: \"Prosopagnosics almost always know that they have trouble recognising people, but they often don't realise that other people have better recognition skills than they do\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Phần lớn người bệnh có chiến lược xoay xở – nhận ra tóc, quần áo, giọng nói – nên chỉ bối rối khi gặp người quen ngoài bối cảnh hoặc đổi kiểu tóc; và giới thần kinh học quan tâm vì não của họ có thể hé lộ não xử lý thông tin nói chung ra sao."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"In most cases\" ↔ \"the majority\"; \"ways to deal with their problem\" ↔ \"strategies that allow them to get around their difficulty\" → TRUE."
+      },
+      {
+       "t": " Trích: \"the majority of developmental prosopagnosics possess strategies that allow them to get around their difficulty\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Bài nói nghiên cứu có thể giúp giải bài toán \"how the brain deals with information in general\" – hiểu cơ chế xử lý thông tin, chứ không nói giúp ĐIỀU TRỊ các loại chấn thương não. \"Brain injury\" chỉ xuất hiện ở đoạn 2 như một nguyên nhân gây bệnh. Bẫy ghép hai ý ở hai đoạn khác nhau."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu dài cuối đoạn: xương sống là \"This difference ... could help solve the problem of how the brain deals with information\"; mệnh đề \"In other words, it may show whether the brain has specialised parts ... or is more of a general-purpose information processor\" chỉ diễn giải lại, vẫn là chuyện hiểu não chứ không phải chữa bệnh."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Khó khăn lớn cho nghiên cứu: không ai giống ai – người chỉ khó với khuôn mặt, người khó cả với đồ vật thường ngày và cả động vật; có người nhận ra cảm xúc trên mặt người khác dù mặt đó xa lạ, người khác thì không; có người không nhận ra bạn cũ nhưng vẫn biết mặt nào được coi là đẹp."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → animals. ",
+       "b": true
+      },
+      {
+       "t": "\"commonly seen ___ and objects\" ↔ \"ordinary everyday objects and ... animals\"; ghi chú đã có \"objects\" nên từ còn lại là animals (ONE WORD ONLY, số nhiều giữ nguyên)."
+      },
+      {
+       "t": " Trích: \"others have trouble with ordinary everyday objects and, it turns out, animals, which would normally be familiar as well\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → emotion. ",
+       "b": true
+      },
+      {
+       "t": "\"the ___ of someone else's face\" ↔ \"the emotion which was conveyed on another's face\"; another's = someone else's. Điền danh từ số ít emotion đúng như trong bài."
+      },
+      {
+       "t": " Trích: \"they could identify the emotion which was conveyed on another's face, even though the face itself seemed unfamiliar\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Đoạn này liệt kê nhiều cặp \"some ... others ...\". Ghi chú chỉ lấy các khó khăn, còn câu về \"attractive\" đã được đề cho sẵn nên không phải điền."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Nguyên nhân: nhóm Đức xét 38 ca trong bảy gia đình và tin có bằng chứng tốt rằng chỉ một gen chịu trách nhiệm; Duchaine cũng thấy tính di truyền nhưng nghĩ yếu tố khác quan trọng hơn – trẻ sinh ra với thủy tinh thể đục ở mắt TRÁI, không nhìn được qua mắt đó trong hai tháng đầu đời, là yếu tố nguy cơ lớn."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → gene. ",
+       "b": true
+      },
+      {
+       "t": "\"just one ___ according to Martina Gruter\" ↔ \"a single gene could be responsible\"; just one = a single, nên điền gene (số ít)."
+      },
+      {
+       "t": " Trích: \"the German team believe they have good evidence that a single gene could be responsible\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → left. ",
+       "b": true
+      },
+      {
+       "t": "\"a defect in the ___ eye according to Brad Duchaine\" ↔ \"when it's the left one\" (one = lens/eye) → điền left. Bẫy: đoạn nói về \"the eye's lens is not clear\" nên dễ muốn điền lens, nhưng chỗ trống đứng trước chữ \"eye\" nên phải là tính từ chỉ bên."
+      },
+      {
+       "t": " Trích: \"when it's the left one, being unable to see through this eye during the first two months of life is a major risk factor for prosopagnosia\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu cuối đoạn rất dài. Xương sống: \"being unable to see through this eye ... is a major risk factor\"; mệnh đề \"which means the eye's lens is not clear\" giải thích căn bệnh bẩm sinh, còn \"and when it's the left one\" là điều kiện thu hẹp – chính chỗ này chứa đáp án."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 8 – ",
+       "b": true
+      },
+      {
+       "t": "Điều trị: Joseph Degutis báo cáo đã huấn luyện thành công một ca nặng nhận ra khuôn mặt trong các bài kiểm tra ở phòng thí nghiệm, và người này nói ngoài đời cũng dễ hơn; Duchaine định dạy người bệnh nhận ra năm người quan trọng nhất."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → laboratory. ",
+       "b": true
+      },
+      {
+       "t": "\"inside the ___ and in the outside world\" ↔ \"during tests carried out in the laboratory\" cộng với câu sau (\"recognising faces in everyday life became easier\") = in the outside world. Điền laboratory, một từ."
+      },
+      {
+       "t": " Trích: \"recently reported successfully training a severe developmental prosopagnosic to recognise faces during tests carried out in the laboratory\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 9 – ",
+       "b": true
+      },
+      {
+       "t": "Thomas Gruter hoài nghi: người ta vốn đã nhìn mặt cả ngày nên không thể luyện thêm được nữa; hơn nữa thí sinh có thể \"gian lận\" – có người ghi nhớ khoảng cách từ mũi đến môi trên, nên làm tốt bài test mà ngoài đời vẫn kém."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → cheating. ",
+       "b": true
+      },
+      {
+       "t": "\"___ by some subjects can affect research results\" ↔ \"cheating is a possibility during tests\", minh họa bằng người nhớ khoảng cách mũi–môi và câu kết \"you can perform well in the test and not do so well in real life\". Điền cheating (ONE WORD ONLY)."
+      },
+      {
+       "t": " Trích: \"He also points out that cheating is a possibility during tests\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ba câu NOT GIVEN (Q2, Q3, Q7) đều có từ khóa xuất hiện trong bài nhưng thiếu đúng mối quan hệ mà câu hỏi nêu (tăng lên / khó hơn / điều trị). Gặp từ khóa quen thì hỏi tiếp: bài có nói đúng QUAN HỆ này không?"
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài có hai người cùng họ Gruter (Martina và Thomas, vợ chồng) và hai nhà nghiên cứu Duchaine, Degutis. Ghi chú Q10–13 phân theo tên nên phải đọc tên trước, đừng chỉ bám nội dung."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Với note completion ONE WORD ONLY, nhìn từ đứng sát chỗ trống để biết cần loại từ nào: trước \"eye\" phải là tính từ (left), sau \"just one\" phải là danh từ số ít (gene)."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",
@@ -10663,7 +15913,563 @@
      "evidence": null
     }
    },
-   "strategy": [],
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề Advertising Needs Attention và sapo (\"The harder advertisers try to get your attention, the more your brain ignores them\") đã nêu luôn luận điểm: càng cố gây chú ý càng phản tác dụng. Đoán mạch bài: chân dung Jane Raymond và chai nước Chillz → sự quá tải quảng cáo và số tiền chi ra → nghiên cứu của Jamie Rayner về người đi làm → phát hiện 'attentional blink' → hệ quả cho quảng cáo TV và tạp chí → cảm xúc và thương hiệu → quy tắc càng nhiều càng tốt là sai. Q1–7 (TFNG) đi theo thứ tự từ đoạn 1 đến đoạn 7; Q8–13 (short answer) cũng theo thứ tự bài và gắn với từng tên riêng."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Từ khóa để scan"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–7"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "True / False / Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (từ khóa), theo thứ tự bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Chillz, television commercials vs internet, Jamie Rayner, discontinued, simpler, unfamiliar brands, as many ways as possible"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "8–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Short answer (NO MORE THAN THREE WORDS)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, theo thứ tự bài"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "group of consumers, subject ... before, advertisement in print, companies today want, watching a movie, when ... most fiercely"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Hai bộ bám sát cùng một mạch đoạn, có chỗ còn trùng đoạn (đoạn 3 cho Q3, Q4 và Q8), nên đọc xong mỗi đoạn phải quét CẢ HAI danh sách câu hỏi rồi mới đi tiếp."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 3 – Đọc One-Shot: đến đoạn nào chốt hết câu hỏi của đoạn đó"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 1 – ",
+       "b": true
+      },
+      {
+       "t": "Giới thiệu Jane Raymond, nhà tâm lý tiêu dùng: chai nước Chillz trông như tạc từ băng khiến người mua không cưỡng được việc cầm lên; bà nghiên cứu điều gì khiến ta mua hàng và trên hết là cách thu hút sự chú ý."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 1 → FALSE. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi nói bao bì Chillz KHÔNG hấp dẫn người tiêu dùng; bài nói người mua bị cuốn vào chai này hơn các chai khác và không cưỡng được việc cầm lên → mâu thuẫn hoàn toàn, FALSE. Bẫy đảo nghĩa: nhiều bạn thấy đúng tên Chillz là tích ngay TRUE."
+      },
+      {
+       "t": " Trích: \"This simple feature means shoppers are drawn to this bottle over the others on the shelf and cannot resist picking it up\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 2 – ",
+       "b": true
+      },
+      {
+       "t": "Sự chú ý đang khan hiếm: dù mua sắm, lướt mạng hay xem TV, người tiêu dùng bị bủa vây bởi thông điệp cứ 15 giây một lần; năm ngoái thế giới chi 401 tỉ đô la cho quảng cáo nhưng phần lớn thất bại."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 2 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Đoạn có đủ từ khóa (shopping, surfing the Internet, watching television) nhưng chỉ xếp chúng cạnh nhau như các tình huống bị quảng cáo bủa vây, không hề SO SÁNH lượng quảng cáo qua TV với qua internet. Không có số liệu so sánh → NOT GIVEN."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Nhìn thấy cả hai từ khóa trong một câu không có nghĩa là bài so sánh chúng. Cần có từ so sánh (more ... than) mới kết luận được."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 3 – ",
+       "b": true
+      },
+      {
+       "t": "Jamie Rayner (ID Magasin): 9/10 sản phẩm mới chết yểu, lý do đơn giản là quảng cáo truyền thống đã hết tác dụng; nhóm ông gắn camera vào gọng kính để ghi lại ánh mắt người đi làm và thấy chỉ khoảng 1% quảng cáo được nhớ lại mà không cần nhắc."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 3 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"people are no longer influenced by traditional advertisements\" ↔ \"conventional advertising has ceased to work\"; traditional = conventional, no longer influenced = ceased to work, và bằng chứng là chỉ 1% nhớ được → TRUE."
+      },
+      {
+       "t": " Trích: \"conventional advertising has ceased to work\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 4 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"most products are discontinued\" ↔ \"Nine out of 10 new products meet an early death\"; \"the reason ... is simple\" nối thẳng nguyên nhân sang quảng cáo không còn ăn thua ↔ \"advertising fails to attract consumers\" → TRUE."
+      },
+      {
+       "t": " Trích: \"Nine out of 10 new products meet an early death, says Jamie Rayner... And the reason, he explains, is simple: conventional advertising has ceased to work.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 8 → regular commuters. ",
+       "b": true
+      },
+      {
+       "t": "\"What group of consumers were specifically targeted\" ↔ \"particularly regular commuters\"; chữ \"particularly\" chính là \"specifically targeted\". Đáp án hai từ, đúng giới hạn ba từ."
+      },
+      {
+       "t": " Trích: \"Rayner and his colleagues have measured how consumers, particularly regular commuters, react to advertising\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Một đoạn ra ba đáp án thuộc hai dạng. Đây là chỗ dễ mất điểm nhất nếu chỉ dò một bộ câu hỏi rồi bỏ qua bộ kia."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 4 – ",
+       "b": true
+      },
+      {
+       "t": "Raymond giải thích lý do: từ nghiên cứu về xử lý thị giác, bà phát hiện khi một thứ đã bắt được sự chú ý thì trong khoảng nửa giây sau não mù với mọi thứ khác – hiệu ứng 'attentional blink'; quảng cáo không ăn thua vì ta đang quá tải chú ý."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 9 → visual processing. ",
+       "b": true
+      },
+      {
+       "t": "\"What subject did Jane Raymond study before focusing on the behavior of consumers\" ↔ \"move from research in visual processing into consumer psychology\"; chữ \"from ... into\" cho biết cái TRƯỚC là visual processing."
+      },
+      {
+       "t": " Trích: \"Her move from research in visual processing into consumer psychology began in the early 1990s\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu thí nghiệm dài: xương sống là \"she found that ... people failed to see it\"; mệnh đề điều kiện \"if the X appeared up to half a second or so after the white letter, or vice versa\" nêu đúng điều kiện xảy ra attentional blink."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 5 – ",
+       "b": true
+      },
+      {
+       "t": "Hệ quả cho nhà quảng cáo: nếu không cắt cảnh theo nhịp attentional blink thì não bỏ qua thông tin; với quảng cáo tạp chí, người xem nhận ra hình chính nhưng bỏ sót các hình phụ. Lời khuyên của Raymond: truyền đạt thẳng thắn, chậm, nhẹ nhàng và cô đọng."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 5 → TRUE. ",
+       "b": true
+      },
+      {
+       "t": "\"commercials should be simpler in their content\" ↔ \"straightforward ... concisely\", lại được củng cố bằng việc bà \"is opposed to\" chuyện nhồi nhét \"even more complex information\" → TRUE."
+      },
+      {
+       "t": " Trích: \"deliver your message in a straightforward manner and do so slowly, gently, and concisely\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 10 → secondary images. ",
+       "b": true
+      },
+      {
+       "t": "\"an advertisement in print\" ↔ \"magazine advertisements\"; \"fail to notice\" ↔ \"fail to pick up on\" → đáp án secondary images. Bẫy: \"the main image\" là thứ người ta CÓ nhận ra, không phải đáp án."
+      },
+      {
+       "t": " Trích: \"viewers often register the main image but fail to pick up on the secondary images\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 6 – ",
+       "b": true
+      },
+      {
+       "t": "Raymond nối chú ý với cảm xúc: các công ty rất quan tâm đến giá trị cảm xúc của thương hiệu, nhưng nghiên cứu của bà cho thấy nếu người ta bị một hình ảnh hay thương hiệu làm phân tâm lúc đang làm việc trí óc căng thẳng thì họ lập tức ghét thương hiệu đó, bất kể giá trị cảm xúc ra sao."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 11 → emotional value. ",
+       "b": true
+      },
+      {
+       "t": "\"what do companies today want their products to have in order to make consumers feel positive\" ↔ \"the emotional value of their brands as they want their products to make us feel good\"; mệnh đề \"as\" chỉ mục đích/lý do, nối thẳng hai vế của câu hỏi."
+      },
+      {
+       "t": " Trích: \"companies are hugely interested in the emotional value of their brands as they want their products to make us feel good\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 12 → intrusive product placement. ",
+       "b": true
+      },
+      {
+       "t": "\"annoy someone watching a movie\" ↔ \"watching a film with intrusive product placement\" khiến người xem \"come to dislike the brand\"; film = movie. Đáp án đúng ba từ."
+      },
+      {
+       "t": " Trích: \"are watching a film with intrusive product placement, it is probable you will come to dislike the brand\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 6 → NOT GIVEN. ",
+       "b": true
+      },
+      {
+       "t": "Bài nói người ta ghét thương hiệu \"regardless of its emotional value\" và \"whatever it is\" – tức không phân biệt thương hiệu nào. Không có bất kỳ so sánh nào giữa thương hiệu LẠ và thương hiệu QUEN về mức ảnh hưởng tới sự tập trung → NOT GIVEN."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Lưu ý: ",
+       "b": true
+      },
+      {
+       "t": "Câu then chốt dài: xương sống là \"people ... tend to instantly dislike the brands\"; mệnh đề điều kiện \"if people are distracted by an image or a brand when performing an intellectually demanding task\" nêu hoàn cảnh, còn \"regardless of its emotional value\" là mệnh đề nhượng bộ – chính chỗ này loại bỏ khả năng TRUE cho Q6."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đoạn 7 – ",
+       "b": true
+      },
+      {
+       "t": "Kết luận: điều này đi ngược quy tắc \"càng tiếp xúc càng tốt\" mà cả ngành theo, nên quảng cáo có thể phản tác dụng; nguy hiểm nhất là mùa lễ, khi các nhà quảng cáo tranh nhau điên cuồng – người ta tiêu hóa thông tin như tiêu hóa thức ăn, no rồi mà còn ép thì chỉ thấy phát ngán."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 7 → FALSE. ",
+       "b": true
+      },
+      {
+       "t": "Câu hỏi nói Raymond khuyên quảng cáo bằng càng nhiều cách càng tốt; bài nói phát hiện của bà BÁC BỎ đúng quy tắc đó và cảnh báo phản tác dụng (\"this doesn't necessarily work in their favor\") → FALSE. Bẫy: đoạn có liệt kê nhiều kênh (TV, radio, billboards) nhưng đó là mô tả việc các hãng đang làm, không phải lời khuyên của bà."
+      },
+      {
+       "t": " Trích: \"This contradicts the more-exposure-the-better rule most of the industry follows, says Raymond, and means that advertising can backfire horribly.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Câu 13 → holiday season. ",
+       "b": true
+      },
+      {
+       "t": "\"when do advertisers promote their products most fiercely\" ↔ \"madly competing to grab people's attention\" vào \"the holiday season\"; madly = most fiercely. Đáp án là mốc thời gian, không phải \"the most dangerous time\"."
+      },
+      {
+       "t": " Trích: \"Perhaps the most dangerous time, says Raymond, is the holiday season when advertisers are madly competing to grab people's attention.\"",
+       "i": true
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bẫy cần tránh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Ba câu TFNG đầu tiên (Q1, Q2) và Q6, Q7 đều xoay quanh việc bài có SO SÁNH hoặc KHUYÊN hay không. Cứ thấy câu hỏi dạng \"X hơn Y\" hay \"nên làm X\" thì phải tìm được đúng từ so sánh hoặc lời khuyên trong bài."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài có hai cái tên gần giống nhau: Jane Raymond (tâm lý tiêu dùng, University of Wales) và Jamie Rayner (ID Magasin). Q3, Q4, Q8 là của Rayner; Q1, Q5, Q7, Q12, Q13 là của Raymond – đọc nhầm tên là sai cả cụm."
+      }
+     ],
+     "list": true
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Short answer Q8–13 đều lấy nguyên cụm từ trong bài, không cần đổi dạng từ. Chỉ cần chú ý bỏ mạo từ nếu muốn gọn (secondary images, holiday season) và đếm đủ tối đa ba từ."
+      }
+     ],
+     "list": true
+    }
+   ],
    "reading": [
     {
      "type": "p",

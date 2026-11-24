@@ -1,0 +1,103 @@
+{
+  "step1": "Tiêu đề Mental Gymnastics và sapo (\"mental exercise ... to boost corporate brainpower\") cho biết bài nói về các khóa \"tập thể dục cho não\" bán cho doanh nghiệp. Đoán mạch bài: một buổi tập mẫu ở Barclays → các công ty tương tự trên thế giới → lời quảng cáo dựa vào khoa học thần kinh → nội dung thực tế khá đơn giản → ý kiến chuyên gia → bằng chứng khoa học có thật đến đâu. Q1–5 (Yes/No/Not Given) nằm gọn ở đoạn 1–4 theo thứ tự; Q6–13 (matching people) rải khắp bài vì mỗi tên xuất hiện ở một đoạn riêng.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–5", "Yes / No / Not Given", "Có, theo thứ tự bài", "Bailey, buildings, all over the world, promote it, scientific basis, Susan Greenfield, founders"],
+    ["6–13", "Matching features – list of people (A–D, dùng lại được)", "Một phần: bốn cái tên là mốc định vị, nhưng phải đọc mới biết ai nói gì", "Sebastian Bailey, Gessner Geyer, Susan Greenfield, Guy Claxton"]
+  ],
+  "typesNote": "Q1–5 đi theo thứ tự bài nên chốt dần khi đọc; Q6–13 KHÔNG theo thứ tự, cách làm là mỗi lần gặp một cái tên thì dừng lại, tóm ý người đó nói gì rồi gán ngay cho câu khớp.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Mở bài bằng cảnh thật: nhà tâm lý Sebastian Bailey đến trụ sở Barclays dẫn một buổi \"tập não\" do Mind Gym tổ chức, tên là 'Having Presence'.",
+      "answers": [
+        { "q": 7, "ans": "A", "quote": "young psychologist Sebastian Bailey enters the room to begin the morning's training session", "how": "\"An instructor in Mind Gym who guided the employees\" ↔ Bailey là người vào phòng và bắt đầu buổi tập của Mind Gym cho nhân viên ngân hàng. Không phải D vì Claxton chỉ là cố vấn học thuật, không đứng lớp." }
+      ],
+      "note": "Đoạn này cho biết luôn Bailey = Mind Gym, Barclays = khách hàng. Ghi nhớ vai trò từng người ngay từ đầu để làm Q6–13."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Buổi tập 90 phút biến khái niệm trừu tượng 'presence' thành cảm giác và hành vi cụ thể: nhắm mắt hình dung bản thân lấp đầy căn phòng rồi cả tòa nhà, sau đó diễn các mức 'presence'.",
+      "answers": [
+        { "q": 1, "ans": "NO", "quote": "the bankers are instructed to shut their eyes and visualise themselves filling the room and then the building", "how": "Câu hỏi nói họ tưởng tượng mình LÀ tòa nhà (\"imagine they are buildings\"); bài nói họ hình dung mình \"filling\" (lấp đầy) căn phòng rồi tòa nhà. Bẫy đổi quan hệ: filling the building ≠ being a building, nên NO chứ không phải NOT GIVEN." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Những buổi tập tương tự diễn ra ở phòng hội thảo doanh nghiệp khắp thế giới; dù tên gọi khác nhau, lời chào hàng của các công ty đều giống nhau và gần như đều viện dẫn nghiên cứu về não.",
+      "answers": [
+        { "q": 2, "ans": "YES", "quote": "Similar mental workouts are happening in corporate seminar rooms around the globe", "how": "\"business people all over the world\" ↔ \"corporate seminar rooms around the globe\"; corporate = giới doanh nghiệp." },
+        { "q": 3, "ans": "YES", "quote": "Whatever the style, the companies' sales pitch is similar", "how": "\"promote it in much the same way\" ↔ \"sales pitch is similar\"; \"Whatever the style\" chính là \"all\" trong câu hỏi." },
+        { "q": 4, "ans": "YES", "quote": "Nearly all claim that their mental workouts draw on serious research into how the brain works", "how": "\"say that their practice has a scientific basis\" ↔ \"claim ... draw on serious research\". Lưu ý: câu hỏi hỏi họ NÓI gì, không hỏi điều đó có đúng không – đoạn 11 mới bác bỏ." }
+      ],
+      "note": "Ba câu 2–3–4 nằm liền nhau trong một đoạn ngắn. Đây là điểm mấu chốt của One-shot: đọc xong đoạn 3 là chốt được ba câu, không cần quay lại."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Hai lời quảng cáo tiêu biểu: Geyer (Brainergy) nói tập trí não làm thay đổi giải phẫu và hóa học của não, còn Mind Gym mượn câu nói của nhà thần kinh học Susan Greenfield so sánh não với phòng gym.",
+      "answers": [
+        { "q": 9, "ans": "C", "quote": "It's a bit like going to the gym: if you exercise your brain, it will grow.", "how": "\"compared to exercising the body\" ↔ phép so sánh \"like going to the gym\"; đây là câu trích của Susan Greenfield = C." },
+        { "q": 10, "ans": "B", "quote": "mental exercise can cause changes in brain anatomy and brain chemistry", "how": "\"modify the structure of the brain\" ↔ \"changes in brain anatomy\" (anatomy = cấu trúc). Người nói là Gessner Geyer = B, không phải C: Greenfield chỉ nói não \"will grow\", không nói về giải phẫu." },
+        { "q": 5, "ans": "NOT GIVEN", "how": "Bài chỉ nói \"Mind Gym trades on a quote from Susan Greenfield\" – dùng lại câu nói của bà để quảng cáo. Không có chữ nào về việc bà sáng lập Mind Gym. Bẫy đồng hiện: tên Greenfield đứng ngay cạnh tên Mind Gym nên dễ tưởng là có liên hệ." }
+      ],
+      "note": "Đoạn 4 trả lời tới ba câu thuộc hai dạng khác nhau (Q5 của YNNG và Q9, Q10 của matching). Đúng tinh thần One-shot: xong đoạn nào thì quét cả hai bộ câu hỏi."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Trên thực tế nội dung khóa học khá tầm thường: mẹo \"nêu một ý hợp lý rồi nêu ý ngược lại\" giúp nhóm nghĩ ra hàng loạt kiểu pizza mới trong năm phút.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Bailey thừa nhận mẹo rất đơn giản, nhưng cái chính là người ta tự dán nhãn mình \"không sáng tạo\" vì không biết những kỹ thuật mà người sáng tạo nào cũng dùng; luyện đúng cách không biến ai thành thiên tài nhưng tăng hiệu suất não.",
+      "answers": [
+        { "q": 12, "ans": "A", "quote": "They tend to just label themselves as uncreative, not realizing that there are simple techniques every creative person employs.", "how": "Câu hỏi gần như dịch thẳng: \"think that they are uncreative\" ↔ \"label themselves as uncreative\"; \"unaware of techniques used by creative people\" ↔ \"not realizing that there are simple techniques every creative person employs\". Người nói là Bailey = A." }
+      ],
+      "note": "Câu dài cuối đoạn: xương sống là \"the right kind of training ... can dramatically increase brain efficiency\"; mệnh đề nhượng bộ trước đó (\"some people do start with quicker circuits\") chỉ thừa nhận khác biệt bẩm sinh, không phủ nhận tác dụng của luyện tập."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Khó đo hiệu quả của khóa học, nhưng nhân viên thấy mở mang: ví dụ họ học được rằng nên nghỉ một lát để ý tưởng \"ủ\" thay vì cố húc đầu vào vấn đề – một mẹo đơn giản mà đời thường hiếm khi dạy, và theo Claxton đó mới chính là vấn đề.",
+      "answers": [
+        { "q": 6, "ans": "D", "quote": "Then they learn that creative thinkers advise taking a break and letting ideas incubate. A simple tactic, yet one rarely taught in normal life. Which, according to educational psychologist Guy Claxton, Mind Gym's academic adviser, is exactly the point.", "how": "\"rarely take time to stand back from a problem\" ↔ \"taking a break and letting ideas incubate\" là mẹo \"rarely taught in normal life\"; câu \"is exactly the point\" gán ý này cho Guy Claxton = D. Dễ chọn nhầm A vì Bailey nói nhiều ở đoạn trước, nhưng câu kết đoạn chỉ đích danh Claxton." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Claxton gạt bỏ phần lớn cách tiếp cận thần kinh học là \"neuro-babble\" và cho rằng sáng tạo, linh hoạt, động lực đều là thói quen tư duy học được; muốn đổi thì phải đưa cách nghĩ của mình trở lại mức ý thức rồi mới luyện thói quen mới.",
+      "answers": [
+        { "q": 8, "ans": "D", "quote": "Claxton, who dismisses most neurological approaches as 'neuro-babble'", "how": "\"Most ways of looking at mental development are unconvincing\" ↔ \"dismisses most neurological approaches as 'neuro-babble'\" (babble = nói nhảm, tức không thuyết phục). Chủ ngữ là Claxton = D." },
+        { "q": 11, "ans": "D", "quote": "Claxton believes we must return our thought patterns to a conscious level, becoming aware of how we usually think. Only then can we start to practise better thought patterns", "how": "\"begins with a close examination of how we ordinarily think\" ↔ \"becoming aware of how we usually think\"; \"Only then\" cho thấy đó là BƯỚC ĐẦU, khớp với \"begins with\"." }
+      ],
+      "note": "Hai câu liền nhau cùng ra đáp án D. Đề đã báo \"NB You may use any letter more than once\" nên đừng loại D chỉ vì vừa dùng."
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Ý tưởng này không mới (Vygotsky và Luria từ những năm 1930, rồi de Bono, Buzan, NLP); doanh nghiệp vồ lấy bất cứ thứ gì hứa tạo ra người tư duy linh hoạt mà không kiểm chứng – dẫn vào câu hỏi: neurobics có cơ sở khoa học không?",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Có bằng chứng là não thích nghi theo nhu cầu: bệnh nhân đột quỵ mọc kết nối thần kinh mới, chuột nuôi có đồ chơi nhiều kết nối hơn, não dùng nhiều chất xám hơn cho việc mới.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Nguyên lý chung thì đúng – não \"plastic\" – nhưng chi tiết thì không: sáng tạo quá chủ quan nên phải đo bằng bài IQ, và không bài tập trí não hay thuốc thông minh nào cải thiện được các bài đó một cách đáng tin cậy.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Dù vậy, Claxton cho rằng trường học và đại học nên dành nhiều thời gian dạy phân tích và kỹ thuật giải quyết vấn đề hơn là nhồi nhét kiến thức.",
+      "answers": [
+        { "q": 13, "ans": "D", "quote": "there is no reason why schools and universities should not spend more time teaching analysis and problem-solving techniques", "how": "\"Educators should place greater emphasis on developing students' thinking skills\" ↔ \"spend more time teaching analysis and problem-solving techniques\"; chủ ngữ \"Claxton for one believes\" = D." }
+      ],
+      "note": "Đoạn cuối chỉ có một câu nhưng chứa một đáp án: đừng đọc lướt đoạn kết."
+    }
+  ],
+  "tips": [
+    "Với Q6–13, mỗi người chỉ xuất hiện ở một hoặc hai đoạn: Bailey (đoạn 1, 6), Geyer và Greenfield (đoạn 4), Claxton (đoạn 7, 8, 12). Gán đáp án ngay khi gặp tên, đừng để dồn đến cuối bài.",
+    "Yes/No/Not Given ở đây toàn bẫy \"đổi một chữ\": filling the building → being a building (Q1), trades on a quote → was a founder (Q5). Đọc kỹ quan hệ giữa hai danh từ, không chỉ nhìn từ khóa.",
+    "Bài có hai giọng đối lập: lời quảng cáo (Geyer, Greenfield) và lời hoài nghi (Claxton, đoạn 11). Khi matching, hỏi \"ai nói câu này\" chứ không hỏi \"câu này có đúng không\"."
+  ]
+}

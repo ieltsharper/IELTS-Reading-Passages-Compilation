@@ -1,0 +1,107 @@
+{
+  "step1": "Tiêu đề Becoming an Expert và sapo nêu rõ ba chặng: novice → journeyman → expert. Vậy đoán ngay bố cục: mỗi chặng một đoạn đầu bài, rồi so sánh expert với novice (hiểu sâu, trí nhớ, tốc độ, cách giải quyết vấn đề, tự giám sát), cuối bài có tiểu mục \"The Contradiction of Expertise\" nói mặt trái. Q1–5 là flow-chart theo đúng ba chặng nên nằm ở đoạn 1–3; Q6–10 (True/False/Not Given) ở các đoạn so sánh expert–novice; Q11–13 là tóm tắt phần cuối bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–5", "Flow-chart completion (NO MORE THAN THREE WORDS)", "Có, theo thứ tự ba chặng", "Novices, learn the key, require the help of, recognize different, make and ... predictions"],
+    ["6–10", "True / False / Not Given", "Có (từ khóa), theo thứ tự bài", "classification systems, memory skills, more slowly, looking for an answer, review their work"],
+    ["11–13", "Summary completion (NO MORE THAN TWO WORDS)", "Có, nằm trong phần The Contradiction of Expertise", "large number of, different areas, statistical models, forms of, not a great deal of"]
+  ],
+  "typesNote": "Cả ba dạng đều theo thứ tự bài và chia vùng rất gọn (1–5 ở đoạn 1–3, 6–10 ở đoạn 5–8, 11–13 ở đoạn 10–12), nên chỉ cần đọc một lượt và chốt theo vùng.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Chặng novice: người mới phải học các nguyên tắc và quy tắc chỉ đường của công việc, đồng thời tiếp xúc với các ca cụ thể, và thường tìm một người hướng dẫn.",
+      "answers": [
+        { "q": 1, "ans": "principles; rules", "quote": "The novice needs to acquire the guiding principles and rules of a given task in order to undertake that task.", "how": "\"have to learn the key ___ and ___ of tasks before performing them\" ↔ \"acquire the guiding principles and rules ... in order to undertake that task\"; hai chỗ trống lấy đúng hai danh từ principles và rules (bỏ \"guiding\" vì đã có \"key\")." },
+        { "q": 2, "ans": "mentor", "quote": "a novice will find a mentor to direct them through the process of acquiring new knowledge", "how": "\"require the help of a ___\" ↔ \"find a mentor to direct them\"; mentor = người hướng dẫn, danh từ số ít sau mạo từ \"a\"." }
+      ],
+      "note": "Chỗ trống số 1 có HAI ô cùng đánh số: đáp án là hai từ riêng biệt, không phải một cụm."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Chặng journeyman: nhờ luyện tập nhiều, họ bắt đầu nhận ra các mô thức hành vi trong từng ca, rồi giữa các ca ngày càng phức tạp, và thấy mô thức lặp lại theo thời gian; vẫn còn cần mentor.",
+      "answers": [
+        { "q": 3, "ans": "patterns", "quote": "the novice begins to distinguish patterns of behavior within cases", "how": "\"recognize different ___ in cases\" ↔ \"distinguish patterns of behavior within cases\"; recognize ↔ distinguish." },
+        { "q": 4, "ans": "complex", "quote": "With more practice and exposure to increasingly complex cases", "how": "\"cases that become more and more ___\" ↔ \"increasingly complex cases\"; more and more = increasingly, nên chỗ trống là tính từ complex." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Bước chuyển sang expert: journeyman bắt đầu đặt và kiểm chứng giả thuyết về hành vi tương lai dựa trên kinh nghiệm; khi tự tạo ra tri thức mới, họ thành chuyên gia và không cần mentor nữa.",
+      "answers": [
+        { "q": 5, "ans": "test", "quote": "When journeymen start to make and test hypotheses about future behavior based on past experiences", "how": "\"are able to make and ___ predictions\" ↔ \"make and test hypotheses\" (và cuối đoạn: \"make predictions based on patterns, and test those predictions\"); hypotheses ↔ predictions, nên điền động từ test." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Quá trình này giống mô hình học nghề (apprenticeship): tuy nghe cổ xưa, nó vẫn là cách đào tạo chuẩn cho tiến sĩ, luật, âm nhạc, kỹ thuật và y khoa.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Expert hiểu lĩnh vực sâu hơn và dùng nguyên tắc bậc cao: novice xếp đồ vật theo màu hoặc kích thước, còn expert xếp theo chức năng, đồng thời biết biến số nào ảnh hưởng lớn nhất.",
+      "answers": [
+        { "q": 6, "ans": "FALSE", "quote": "A novice, for example, would group objects together by color or size, whereas an expert would group the same objects according to their function or utility.", "how": "\"the same classification systems\" ↔ cách \"group objects\"; từ nối \"whereas\" chỉ rõ hai bên làm KHÁC nhau (màu/kích cỡ so với chức năng/công dụng), nên mâu thuẫn → FALSE chứ không phải NOT GIVEN." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Expert có trí nhớ ngắn hạn và dài hạn trong lĩnh vực của mình tốt hơn novice, làm việc nhanh hơn và mắc ít lỗi hơn.",
+      "answers": [
+        { "q": 7, "ans": "NOT GIVEN", "how": "Đoạn này có nhắc \"memory\" nên rất dễ bị hút vào, nhưng bài chỉ so sánh trí nhớ của expert và novice, tuyệt nhiên không nói novice \"are often required to work on tasks that build memory skills\" (được giao bài tập rèn trí nhớ). Bẫy từ khóa trùng mà nội dung lệch." },
+        { "q": 8, "ans": "TRUE", "quote": "experts perform tasks faster than novices", "how": "\"Novices perform tasks more slowly than experts\" là cách nói đảo ngược của \"experts perform tasks faster than novices\" – cùng một thông tin → TRUE." }
+      ],
+      "note": "Hai câu liền nhau trong một đoạn hai dòng: một câu NOT GIVEN, một câu TRUE. Phải phân biệt \"bài có nhắc từ đó\" và \"bài có khẳng định điều đó\"."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Expert và novice giải quyết vấn đề khác nhau: expert dành nhiều thời gian đầu để hiểu thấu vấn đề, còn novice lao vào tìm lời giải ngay.",
+      "answers": [
+        { "q": 9, "ans": "TRUE", "quote": "novices, who immediately seek to find a solution", "how": "\"begin a task by looking for an answer straight away\" ↔ \"immediately seek to find a solution\"; straight away = immediately, answer = solution." }
+      ],
+      "note": "Câu dài của đoạn: xương sống là \"Experts spend more time thinking about a problem ... than do novices\"; mệnh đề quan hệ \"who immediately seek to find a solution\" bổ nghĩa cho novices và chính là chỗ chứa đáp án Q9."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Expert tự giám sát tốt hơn: nhận ra lỗi của mình, kiểm tra lời giải thường xuyên hơn, biết khi nào thiếu thông tin và biết giới hạn tri thức của mình.",
+      "answers": [
+        { "q": 10, "ans": "NOT GIVEN", "how": "Bài viết \"Experts check their solutions more often than novices\" – nhiều LẦN hơn (often), còn câu hỏi nói \"more efficiently\" – hiệu quả hơn. Đây là bẫy đổi một trạng từ: tần suất không đồng nghĩa với hiệu suất, và bài không đánh giá hiệu suất kiểm tra, nên NOT GIVEN chứ không phải TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Tiểu mục \"The Contradiction of Expertise\" báo hiệu bài chuyển sang mặt trái của chuyên môn – cũng chính là tiêu đề của bài tóm tắt Q11–13.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Mặt trái: trái với mong đợi, expert dự báo tương lai không giỏi; hơn 200 thí nghiệm ở nhiều lĩnh vực cho thấy họ không hơn được mô hình thống kê thuần túy.",
+      "answers": [
+        { "q": 11, "ans": "experiments", "quote": "With more than 200 experiments in different domains, it is clear that the answer is no.", "how": "\"a large number of ___ in different areas\" ↔ \"more than 200 experiments in different domains\"; areas = domains, nên chỗ trống là experiments (số nhiều theo \"a large number of\")." }
+      ]
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Cách giải thích thứ nhất: expert cũng là người nên thiếu nhất quán – cùng một bộ dữ liệu nhưng tháng này họ dùng mô hình tư duy khác tháng sau.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Cách giải thích thứ hai: thiên kiến của con người (human bias); suốt 30 năm nghiên cứu nhưng tài liệu vẫn rất ít đồng thuận về nguyên nhân hay biểu hiện của thiên kiến đó.",
+      "answers": [
+        { "q": 12, "ans": "bias", "quote": "A number of other researchers point to human bias in order to explain unreliable expert predictions.", "how": "\"forms of ___ may also influence experts\" ↔ \"human bias\"; \"Others suggest\" trong bài tóm tắt ↔ \"A number of other researchers\". Chỉ điền bias vì \"human\" là tính từ bổ nghĩa, tối đa hai từ nhưng key lấy một từ." },
+        { "q": 13, "ans": "consensus", "quote": "the literature shows little consensus regarding the causes or manifestations of human bias", "how": "\"there is not a great deal of ___ about why or how this happens\" ↔ \"shows little consensus regarding the causes or manifestations\"; not a great deal = little, why or how = causes or manifestations." }
+      ]
+    },
+    {
+      "para": "Đoạn 13",
+      "idea": "Kết bài: chính cách người ta trở thành chuyên gia giải thích vì sao họ giỏi mô tả, giải thích và giải quyết vấn đề trong lĩnh vực của mình nhưng lại dự báo kém hơn các mô hình thống kê lịch sử.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Flow-chart Q1–5 bám sát ba nhãn Novices / Journeymen / Experts: cứ đọc hết một đoạn mô tả một chặng là điền xong phần đó, không cần đọc lại.",
+    "Hai câu NOT GIVEN (Q7, Q10) đều nằm ở đoạn CÓ chứa từ khóa: memory ở đoạn 6, check solutions ở đoạn 8. Mẹo là so từng từ định lượng/định tính (required to, more efficiently) chứ không chỉ so chủ đề.",
+    "Chú ý hướng so sánh: bài thường viết \"experts ... than novices\", còn câu hỏi đảo thành \"novices ... than experts\". Đảo ngược đúng thì vẫn là TRUE (Q8)."
+  ]
+}

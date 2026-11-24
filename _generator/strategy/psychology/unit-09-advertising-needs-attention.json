@@ -1,0 +1,75 @@
+{
+  "step1": "Tiêu đề Advertising Needs Attention và sapo (\"The harder advertisers try to get your attention, the more your brain ignores them\") đã nêu luôn luận điểm: càng cố gây chú ý càng phản tác dụng. Đoán mạch bài: chân dung Jane Raymond và chai nước Chillz → sự quá tải quảng cáo và số tiền chi ra → nghiên cứu của Jamie Rayner về người đi làm → phát hiện 'attentional blink' → hệ quả cho quảng cáo TV và tạp chí → cảm xúc và thương hiệu → quy tắc càng nhiều càng tốt là sai. Q1–7 (TFNG) đi theo thứ tự từ đoạn 1 đến đoạn 7; Q8–13 (short answer) cũng theo thứ tự bài và gắn với từng tên riêng.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–7", "True / False / Not Given", "Có (từ khóa), theo thứ tự bài", "Chillz, television commercials vs internet, Jamie Rayner, discontinued, simpler, unfamiliar brands, as many ways as possible"],
+    ["8–13", "Short answer (NO MORE THAN THREE WORDS)", "Có, theo thứ tự bài", "group of consumers, subject ... before, advertisement in print, companies today want, watching a movie, when ... most fiercely"]
+  ],
+  "typesNote": "Hai bộ bám sát cùng một mạch đoạn, có chỗ còn trùng đoạn (đoạn 3 cho Q3, Q4 và Q8), nên đọc xong mỗi đoạn phải quét CẢ HAI danh sách câu hỏi rồi mới đi tiếp.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Giới thiệu Jane Raymond, nhà tâm lý tiêu dùng: chai nước Chillz trông như tạc từ băng khiến người mua không cưỡng được việc cầm lên; bà nghiên cứu điều gì khiến ta mua hàng và trên hết là cách thu hút sự chú ý.",
+      "answers": [
+        { "q": 1, "ans": "FALSE", "quote": "This simple feature means shoppers are drawn to this bottle over the others on the shelf and cannot resist picking it up", "how": "Câu hỏi nói bao bì Chillz KHÔNG hấp dẫn người tiêu dùng; bài nói người mua bị cuốn vào chai này hơn các chai khác và không cưỡng được việc cầm lên → mâu thuẫn hoàn toàn, FALSE. Bẫy đảo nghĩa: nhiều bạn thấy đúng tên Chillz là tích ngay TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Sự chú ý đang khan hiếm: dù mua sắm, lướt mạng hay xem TV, người tiêu dùng bị bủa vây bởi thông điệp cứ 15 giây một lần; năm ngoái thế giới chi 401 tỉ đô la cho quảng cáo nhưng phần lớn thất bại.",
+      "answers": [
+        { "q": 2, "ans": "NOT GIVEN", "how": "Đoạn có đủ từ khóa (shopping, surfing the Internet, watching television) nhưng chỉ xếp chúng cạnh nhau như các tình huống bị quảng cáo bủa vây, không hề SO SÁNH lượng quảng cáo qua TV với qua internet. Không có số liệu so sánh → NOT GIVEN." }
+      ],
+      "note": "Nhìn thấy cả hai từ khóa trong một câu không có nghĩa là bài so sánh chúng. Cần có từ so sánh (more ... than) mới kết luận được."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Jamie Rayner (ID Magasin): 9/10 sản phẩm mới chết yểu, lý do đơn giản là quảng cáo truyền thống đã hết tác dụng; nhóm ông gắn camera vào gọng kính để ghi lại ánh mắt người đi làm và thấy chỉ khoảng 1% quảng cáo được nhớ lại mà không cần nhắc.",
+      "answers": [
+        { "q": 3, "ans": "TRUE", "quote": "conventional advertising has ceased to work", "how": "\"people are no longer influenced by traditional advertisements\" ↔ \"conventional advertising has ceased to work\"; traditional = conventional, no longer influenced = ceased to work, và bằng chứng là chỉ 1% nhớ được → TRUE." },
+        { "q": 4, "ans": "TRUE", "quote": "Nine out of 10 new products meet an early death, says Jamie Rayner... And the reason, he explains, is simple: conventional advertising has ceased to work.", "how": "\"most products are discontinued\" ↔ \"Nine out of 10 new products meet an early death\"; \"the reason ... is simple\" nối thẳng nguyên nhân sang quảng cáo không còn ăn thua ↔ \"advertising fails to attract consumers\" → TRUE." },
+        { "q": 8, "ans": "regular commuters", "quote": "Rayner and his colleagues have measured how consumers, particularly regular commuters, react to advertising", "how": "\"What group of consumers were specifically targeted\" ↔ \"particularly regular commuters\"; chữ \"particularly\" chính là \"specifically targeted\". Đáp án hai từ, đúng giới hạn ba từ." }
+      ],
+      "note": "Một đoạn ra ba đáp án thuộc hai dạng. Đây là chỗ dễ mất điểm nhất nếu chỉ dò một bộ câu hỏi rồi bỏ qua bộ kia."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Raymond giải thích lý do: từ nghiên cứu về xử lý thị giác, bà phát hiện khi một thứ đã bắt được sự chú ý thì trong khoảng nửa giây sau não mù với mọi thứ khác – hiệu ứng 'attentional blink'; quảng cáo không ăn thua vì ta đang quá tải chú ý.",
+      "answers": [
+        { "q": 9, "ans": "visual processing", "quote": "Her move from research in visual processing into consumer psychology began in the early 1990s", "how": "\"What subject did Jane Raymond study before focusing on the behavior of consumers\" ↔ \"move from research in visual processing into consumer psychology\"; chữ \"from ... into\" cho biết cái TRƯỚC là visual processing." }
+      ],
+      "note": "Câu thí nghiệm dài: xương sống là \"she found that ... people failed to see it\"; mệnh đề điều kiện \"if the X appeared up to half a second or so after the white letter, or vice versa\" nêu đúng điều kiện xảy ra attentional blink."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Hệ quả cho nhà quảng cáo: nếu không cắt cảnh theo nhịp attentional blink thì não bỏ qua thông tin; với quảng cáo tạp chí, người xem nhận ra hình chính nhưng bỏ sót các hình phụ. Lời khuyên của Raymond: truyền đạt thẳng thắn, chậm, nhẹ nhàng và cô đọng.",
+      "answers": [
+        { "q": 5, "ans": "TRUE", "quote": "deliver your message in a straightforward manner and do so slowly, gently, and concisely", "how": "\"commercials should be simpler in their content\" ↔ \"straightforward ... concisely\", lại được củng cố bằng việc bà \"is opposed to\" chuyện nhồi nhét \"even more complex information\" → TRUE." },
+        { "q": 10, "ans": "secondary images", "quote": "viewers often register the main image but fail to pick up on the secondary images", "how": "\"an advertisement in print\" ↔ \"magazine advertisements\"; \"fail to notice\" ↔ \"fail to pick up on\" → đáp án secondary images. Bẫy: \"the main image\" là thứ người ta CÓ nhận ra, không phải đáp án." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Raymond nối chú ý với cảm xúc: các công ty rất quan tâm đến giá trị cảm xúc của thương hiệu, nhưng nghiên cứu của bà cho thấy nếu người ta bị một hình ảnh hay thương hiệu làm phân tâm lúc đang làm việc trí óc căng thẳng thì họ lập tức ghét thương hiệu đó, bất kể giá trị cảm xúc ra sao.",
+      "answers": [
+        { "q": 11, "ans": "emotional value", "quote": "companies are hugely interested in the emotional value of their brands as they want their products to make us feel good", "how": "\"what do companies today want their products to have in order to make consumers feel positive\" ↔ \"the emotional value of their brands as they want their products to make us feel good\"; mệnh đề \"as\" chỉ mục đích/lý do, nối thẳng hai vế của câu hỏi." },
+        { "q": 12, "ans": "intrusive product placement", "quote": "are watching a film with intrusive product placement, it is probable you will come to dislike the brand", "how": "\"annoy someone watching a movie\" ↔ \"watching a film with intrusive product placement\" khiến người xem \"come to dislike the brand\"; film = movie. Đáp án đúng ba từ." },
+        { "q": 6, "ans": "NOT GIVEN", "how": "Bài nói người ta ghét thương hiệu \"regardless of its emotional value\" và \"whatever it is\" – tức không phân biệt thương hiệu nào. Không có bất kỳ so sánh nào giữa thương hiệu LẠ và thương hiệu QUEN về mức ảnh hưởng tới sự tập trung → NOT GIVEN." }
+      ],
+      "note": "Câu then chốt dài: xương sống là \"people ... tend to instantly dislike the brands\"; mệnh đề điều kiện \"if people are distracted by an image or a brand when performing an intellectually demanding task\" nêu hoàn cảnh, còn \"regardless of its emotional value\" là mệnh đề nhượng bộ – chính chỗ này loại bỏ khả năng TRUE cho Q6."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Kết luận: điều này đi ngược quy tắc \"càng tiếp xúc càng tốt\" mà cả ngành theo, nên quảng cáo có thể phản tác dụng; nguy hiểm nhất là mùa lễ, khi các nhà quảng cáo tranh nhau điên cuồng – người ta tiêu hóa thông tin như tiêu hóa thức ăn, no rồi mà còn ép thì chỉ thấy phát ngán.",
+      "answers": [
+        { "q": 7, "ans": "FALSE", "quote": "This contradicts the more-exposure-the-better rule most of the industry follows, says Raymond, and means that advertising can backfire horribly.", "how": "Câu hỏi nói Raymond khuyên quảng cáo bằng càng nhiều cách càng tốt; bài nói phát hiện của bà BÁC BỎ đúng quy tắc đó và cảnh báo phản tác dụng (\"this doesn't necessarily work in their favor\") → FALSE. Bẫy: đoạn có liệt kê nhiều kênh (TV, radio, billboards) nhưng đó là mô tả việc các hãng đang làm, không phải lời khuyên của bà." },
+        { "q": 13, "ans": "holiday season", "quote": "Perhaps the most dangerous time, says Raymond, is the holiday season when advertisers are madly competing to grab people's attention.", "how": "\"when do advertisers promote their products most fiercely\" ↔ \"madly competing to grab people's attention\" vào \"the holiday season\"; madly = most fiercely. Đáp án là mốc thời gian, không phải \"the most dangerous time\"." }
+      ]
+    }
+  ],
+  "tips": [
+    "Ba câu TFNG đầu tiên (Q1, Q2) và Q6, Q7 đều xoay quanh việc bài có SO SÁNH hoặc KHUYÊN hay không. Cứ thấy câu hỏi dạng \"X hơn Y\" hay \"nên làm X\" thì phải tìm được đúng từ so sánh hoặc lời khuyên trong bài.",
+    "Bài có hai cái tên gần giống nhau: Jane Raymond (tâm lý tiêu dùng, University of Wales) và Jamie Rayner (ID Magasin). Q3, Q4, Q8 là của Rayner; Q1, Q5, Q7, Q12, Q13 là của Raymond – đọc nhầm tên là sai cả cụm.",
+    "Short answer Q8–13 đều lấy nguyên cụm từ trong bài, không cần đổi dạng từ. Chỉ cần chú ý bỏ mạo từ nếu muốn gọn (secondary images, holiday season) và đếm đủ tối đa ba từ."
+  ]
+}

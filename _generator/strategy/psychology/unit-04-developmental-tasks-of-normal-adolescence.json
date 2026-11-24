@@ -1,0 +1,99 @@
+{
+  "step1": "Tiêu đề Developmental tasks of normal adolescence báo hiệu bài liệt kê các \"nhiệm vụ phát triển\" của tuổi vị thành niên. Cấu trúc rất dễ đoán: đoạn mở đầu giới thiệu Havighurst, rồi mỗi đoạn sau mở bằng một câu \"The adolescent must...\" = một nhiệm vụ. Q1–6 (phân loại early/middle/late) phụ thuộc vào các cụm early/mid/late adolescence rải khắp bài; Q7–10 (nối vế câu) nằm ở đoạn 1, 4, 5; Q11–13 (TRUE/FALSE/NOT GIVEN) bám đoạn 3, 6, 10.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–6", "Classification (A early / B middle / C late adolescence)", "Có, nhờ cụm early–mid–late adolescence trong bài", "opposite-sexed peers, vocational goals, conformity to peers, uniqueness, peer approval, risk-taking"],
+    ["7–10", "Matching sentence endings (A–E)", "Một phần: vế đầu có từ khóa (Havighurst, high school, thinking ability)", "Havighurst, course of study, speed of development, personal set of values"],
+    ["11–13", "True / False / Not Given", "Có (từ khóa), nhưng cần đọc hết đoạn", "pre-adolescent, abstract thought, limited skills with words, accepted by age-group"]
+  ],
+  "typesNote": "Mỗi đoạn mở bằng \"The adolescent must...\" nên chỉ cần đọc câu đầu là biết đoạn nói về nhiệm vụ nào; sau đó dò trong đoạn xem có cụm early/mid/late adolescence hay không để chốt Q1–6.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Havighurst đề xuất nhìn các giai đoạn phát triển như những \"nhiệm vụ\", và mười nhiệm vụ của tuổi vị thành niên cũng là các thành tố của ý thức về bản thân.",
+      "answers": [
+        { "q": 7, "ans": "A", "quote": "Each of the Havighurst tasks can also be seen as elements of the overall sense of self that adolescents carry with them as they move towards and into young adulthood.", "how": "\"reflects an adolescent's emerging self-perception\" ↔ \"elements of the overall sense of self\". Backbone câu dài: WHO = \"Each of the Havighurst tasks\", DOES WHAT = \"can also be seen as elements of the overall sense of self\"; mệnh đề quan hệ \"that adolescents carry with them\" + \"as they move towards and into young adulthood\" chỉ bổ sung bối cảnh thời gian, không đổi ý chính." }
+      ],
+      "note": "Câu cuối đoạn (\"at any given time they may be dealing with several\") giải thích vì sao các nhiệm vụ không tách rời nhau – đừng hiểu nhầm là chúng diễn ra tuần tự."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Nhiệm vụ 1: thích nghi với cơ thể mới ở tuổi dậy thì, khiến thanh thiếu niên giữa kỳ rất để ý ngoại hình và quan tâm tới bạn khác giới.",
+      "answers": [
+        { "q": 1, "ans": "B", "quote": "mid-adolescents are body-conscious, and their concerns are directed towards their opposite-sexed peers", "how": "\"becoming interested in people of the other gender\" ↔ \"concerns are directed towards their opposite-sexed peers\"; \"mid-adolescents\" = middle adolescence = B. Bẫy: đoạn cũng nhắc \"early adolescence\" (giai đoạn thay đổi thể chất), nhưng chi tiết về bạn khác giới gắn với mid-adolescents." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Nhiệm vụ 2: thích nghi với năng lực trí tuệ mới – trước tuổi vị thành niên tư duy bị giới hạn ở cái cụ thể, sang tuổi vị thành niên mới hiểu được cái trừu tượng.",
+      "answers": [
+        { "q": 11, "ans": "FALSE", "quote": "Before adolescence, children's thinking is dominated by a concrete example for any problem that they solve; their thinking is constrained to what is real and physical. During adolescence, young people begin to recognise and understand abstractions.", "how": "Câu hỏi nói \"Most pre-adolescent children are capable of abstract thought\"; bài nói ngược lại: trước tuổi vị thành niên tư duy bị bó hẹp ở cái \"real and physical\", chỉ TRONG tuổi vị thành niên mới bắt đầu hiểu trừu tượng → mâu thuẫn nên FALSE, không phải NOT GIVEN." }
+      ],
+      "note": "Phương án B của Q7–10 (\"cannot solve a problem without an example\") lấy từ chính đoạn này, nhưng nó mô tả trẻ TRƯỚC tuổi vị thành niên nên không khớp vế đầu nào trong Q7–10."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Nhiệm vụ 3: đáp ứng yêu cầu nhận thức cao hơn ở trường, vì chương trình học ngày càng trừu tượng trong khi không phải ai cũng chuyển đổi trí tuệ cùng tốc độ.",
+      "answers": [
+        { "q": 8, "ans": "C", "quote": "School curricula are frequently dominated by the inclusion of more abstract, demanding material", "how": "\"A course of study at high school\" ↔ \"School curricula\"; \"is designed to become more challenging\" ↔ \"more abstract, demanding material\"." },
+        { "q": 9, "ans": "E", "quote": "Since not all adolescents make the intellectual transition at the same rate, demands for abstract thinking prior to the achievement of that ability may be frustrating.", "how": "\"The speed of development of thinking ability\" ↔ \"the same rate\" của \"intellectual transition\"; \"varies according to the individual\" ↔ \"not all adolescents ... at the same rate\". Câu có cấu trúc nguyên nhân – kết quả: vế \"Since...\" nêu lý do (mang đáp án), backbone chính là \"demands for abstract thinking ... may be frustrating\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Nhiệm vụ 4: xây dựng hệ giá trị cá nhân – từ bộ quy tắc của cha mẹ, thanh thiếu niên phải dung hòa với giá trị của bạn bè và xã hội thành một hệ tư tưởng riêng.",
+      "answers": [
+        { "q": 10, "ans": "D", "quote": "To reconcile differences, the adolescent restructures those beliefs into a personal ideology.", "how": "\"formulates a personal set of moral beliefs and values\" ↔ \"restructures those beliefs into a personal ideology\" + \"an integrated set of values and morals\". Vế đầu Q10 rất chung chung (\"Adolescence is a time when the young person\") nên phải loại dần: A đã dùng cho Q7, C cho Q8, E cho Q9, còn B mô tả trẻ trước tuổi vị thành niên → chỉ còn D." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Nhiệm vụ 5: phát triển vốn ngôn ngữ phong phú hơn; vì tư duy phát triển nhanh hơn ngôn ngữ nên các em có vẻ kém hơn thực lực.",
+      "answers": [
+        { "q": 12, "ans": "TRUE", "quote": "As their conceptual development may outstrip their verbal development, adolescents may appear less competent than they really are.", "how": "\"limited skills with words\" ↔ \"Their limited language of childhood is no longer adequate\"/\"verbal development\"; \"give a false impression of their ability\" ↔ \"appear less competent than they really are\" → khớp hoàn toàn nên TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Nhiệm vụ 6: xác lập mục tiêu nghề nghiệp của người lớn; thanh thiếu niên giữa kỳ phải bước đầu xác định mình muốn làm gì và làm thế nào.",
+      "answers": [
+        { "q": 2, "ans": "B", "quote": "Mid-adolescents must identify, at least at a preliminary level, what their adult vocational goals are and how they intend to achieve them.", "how": "\"beginning to choose a future career\" ↔ \"identify, at least at a preliminary level, what their adult vocational goals are\"; \"Mid-adolescents\" = B." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Nhiệm vụ 7: hình thành bản sắc cá nhân – trong những năm đầu tuổi vị thành niên, các em bắt đầu thấy mình là cá thể riêng, tách khỏi cha mẹ.",
+      "answers": [
+        { "q": 4, "ans": "A", "quote": "During the early adolescent years a young person begins to recognise their uniqueness and to establish themselves as separate individuals, independent of their parents.", "how": "\"form a self-image separate from the family context\" ↔ \"establish themselves as separate individuals, independent of their parents\"; \"early adolescent years\" = A." }
+      ],
+      "note": "Đoạn 9 cũng nói về độc lập khỏi cha mẹ, nhưng Q4 nhấn vào \"self-image\" (bản sắc) nên thuộc đoạn 8; đoạn 9 là độc lập cảm xúc và không gắn mốc early/mid/late."
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Nhiệm vụ 8: độc lập về cảm xúc và tâm lý với cha mẹ; khi khẳng định nhu cầu tự chủ, các em có thể tỏ ra thù địch và bất hợp tác.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Nhiệm vụ 9: xây dựng quan hệ bạn bè ổn định – nhu cầu được bạn bè chấp nhận lên đỉnh ở đầu tuổi vị thành niên và giảm dần về cuối; mức độ được nhóm bạn chấp nhận là chỉ dấu quan trọng cho sự thích nghi khác.",
+      "answers": [
+        { "q": 3, "ans": "A", "quote": "Early adolescence is also a period of intense conformity to peers.", "how": "\"needing to feel the same as one's friends\" ↔ \"intense conformity to peers\" + \"'Fitting in', not being different\"; \"Early adolescence\" = A." },
+        { "q": 5, "ans": "C", "quote": "Certainly by late adolescence or early adulthood the need for peer approval has diminished.", "how": "\"having less need for the good opinion of friends\" ↔ \"the need for peer approval has diminished\"; \"late adolescence\" = C." },
+        { "q": 13, "ans": "TRUE", "quote": "The degree to which an adolescent is able to make friends and have an accepting peer group, though, is a major indicator of how well the adolescent will adjust in other areas of social and psychological development.", "how": "\"an important clue\" ↔ \"a major indicator\"; \"other aspects of their social adjustment\" ↔ \"other areas of social and psychological development\" → TRUE. Câu dài: backbone = \"The degree ... is a major indicator\"; mệnh đề quan hệ \"to which an adolescent is able to make friends and have an accepting peer group\" chỉ định nghĩa \"degree\", còn \"of how well the adolescent will adjust...\" cho biết chỉ dấu về điều gì." }
+      ],
+      "note": "Đoạn này chứa cả A (early) và C (late) cho hai câu khác nhau – dễ lẫn nếu chỉ lướt từ khóa \"peer\". Hãy đọc trọn đoạn rồi chốt cả hai cùng lúc."
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Nhiệm vụ 10: kiểm soát xung động và trưởng thành trong hành vi; hành vi mạo hiểm phổ biến đến mức được xem là quá trình phát triển bình thường của tuổi vị thành niên giữa kỳ.",
+      "answers": [
+        { "q": 6, "ans": "B", "quote": "Risky behaviours are sufficiently pervasive among adolescents to suggest that risk-taking may be a normal developmental process of middle adolescence.", "how": "\"exposing oneself to dangers\" ↔ \"risk-taking\"/\"behaviours that place them at physical, social, or educational risk\"; \"middle adolescence\" = B." }
+      ]
+    }
+  ],
+  "tips": [
+    "Dạng phân loại A/B/C chỉ đúng khi bài nói thẳng early / mid / late adolescence: hãy khoanh tròn ba cụm này khi đọc, đừng suy đoán theo cảm tính về \"tuổi nào thì làm gì\".",
+    "Mỗi đoạn bắt đầu bằng \"The adolescent must...\" là một nhiệm vụ riêng; câu đầu đoạn chính là idea, phần còn lại mới chứa đáp án.",
+    "Với Matching sentence endings, loại trừ là chiến thuật tốt: phương án B ở bài này mô tả trẻ TRƯỚC tuổi vị thành niên nên không khớp vế đầu nào."
+  ]
+}

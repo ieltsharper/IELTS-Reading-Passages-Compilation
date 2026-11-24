@@ -1,0 +1,87 @@
+{
+  "step1": "Tiêu đề Sorry – Who Are You? và sapo giải thích luôn: prosopagnosia = chứng không nhận ra khuôn mặt, và hai câu hỏi dẫn dắt là \"phổ biến đến mức nào\" và \"vì sao xảy ra\". Đoán mạch bài: một ca thực tế (Jacob) → chẩn đoán và hai dạng bệnh → các khảo sát về tỉ lệ → người bệnh không biết mình khác người → cách họ xoay xở và vì sao nhà thần kinh học quan tâm → mỗi người bệnh mỗi khác → nguyên nhân (gen, mắt) → huấn luyện có chữa được không. Q1–7 (TFNG) bám đoạn 1–5, Q8–13 (ghi chú) bám đoạn 6–9 theo ba tiểu mục Differences – Causes – Treatment.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–7", "True / False / Not Given", "Có (từ khóa), theo thứ tự bài", "before college, growing problem, babies, German study, aware that other people, developed ways, brain injury"],
+    ["8–13", "Note completion (ONE WORD ONLY)", "Có, theo thứ tự và theo tiểu mục", "commonly seen, someone else's face, Martina Gruter, Brad Duchaine, Joseph Degutis, Thomas Gruter"]
+  ],
+  "typesNote": "Hai bộ câu hỏi chia bài làm đôi khá rõ: đọc đoạn 1–5 thì chốt Q1–7, đọc đoạn 6–9 thì chốt Q8–13, cả hai đều theo thứ tự bài nên không cần quay lại.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Mở bài bằng ca của Jacob Hodes: ngày đầu đại học được Daniel Byrne dẫn đi thăm trường, rồi suốt năm \"không thấy\" bạn ấy nữa – và anh đã gặp rắc rối này cả đời, kể cả với bạn bè, họ hàng.",
+      "answers": [
+        { "q": 1, "ans": "FALSE", "quote": "He had had the same trouble all his life. Friends and relatives would greet him, and he would have no idea who they were.", "how": "Câu hỏi: trước khi vào đại học Jacob vẫn nhận ra người thân quen. Bài khẳng định anh gặp đúng rắc rối đó \"all his life\", kể cả với \"Friends and relatives\" → mâu thuẫn trực tiếp, FALSE. Bẫy mốc thời gian: câu chuyện mở đầu ở đại học khiến ta tưởng bệnh bắt đầu từ đó." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Năm năm trước anh được chẩn đoán prosopagnosia; bệnh không hiếm như tưởng, nhưng trước đây chỉ vài chục ca được mô tả và đều do chấn thương não, gần đây mới phát hiện dạng thứ hai: developmental prosopagnosia, có từ khi sinh hoặc xuất hiện rất sớm.",
+      "answers": [
+        { "q": 2, "ans": "NOT GIVEN", "how": "Bài nói số ca ĐƯỢC MÔ TẢ trước đây rất ít (\"only a few dozen cases had ever been described\") và nay biết là bệnh \"not that uncommon\" – tức hiểu biết tăng lên, không phải số người mắc tăng lên. Không ở đâu các nhà nghiên cứu nói đây là vấn đề \"growing\". Bẫy suy diễn từ con số." },
+        { "q": 3, "ans": "NOT GIVEN", "how": "Đoạn có nhắc bệnh \"present from birth or develops very early in life\", nhưng bài không hề so sánh mức độ khó phát hiện ở trẻ sơ sinh với ở trẻ nhỏ. Bẫy từ khóa babies có thật nhưng phép so sánh thì không có." }
+      ],
+      "note": "Hai câu NOT GIVEN đứng cạnh nhau. Nguyên tắc: câu hỏi có phép so sánh (growing / harder than) mà bài không so sánh thì chọn NOT GIVEN, đừng cố suy ra."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Hai khảo sát: nhóm Harvard và UCL (1.600 người) cho thấy tới 2% dân số có mức độ face blindness nào đó; tháng 8, nhóm Martina Gruter ở Munster báo cáo tương tự với 2,5% trong 700 học sinh trung học.",
+      "answers": [
+        { "q": 4, "ans": "TRUE", "quote": "Martina Gruter and colleagues at the Institute for Human Genetics in Munster, Germany, similarly reported that 2.5 percent of 700 secondary school pupils they had tested had trouble recognising faces", "how": "\"seems to support the Harvard and UCL research findings\" ↔ chính chữ \"similarly reported\"; hai tỉ lệ 2% và 2,5% rất gần nhau, nên nghiên cứu Đức củng cố kết quả kia → TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Vì chưa bao giờ biết cảm giác nhận ra một khuôn mặt, người bệnh không biết là mình đáng lẽ phải làm được: theo Brad Duchaine, họ biết mình khó nhận người nhưng thường không nhận ra người khác giỏi hơn mình.",
+      "answers": [
+        { "q": 5, "ans": "FALSE", "quote": "Prosopagnosics almost always know that they have trouble recognising people, but they often don't realise that other people have better recognition skills than they do", "how": "Câu hỏi nói nhìn chung họ Ý THỨC được rằng người khác nhận mặt dễ hơn; bài nói ngược lại – họ \"often don't realise\" điều đó → FALSE. Bẫy nửa câu: vế đầu (\"almost always know that they have trouble\") đúng, nhưng câu hỏi hỏi vế sau. Đọc hết sau dấu \"but\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Phần lớn người bệnh có chiến lược xoay xở – nhận ra tóc, quần áo, giọng nói – nên chỉ bối rối khi gặp người quen ngoài bối cảnh hoặc đổi kiểu tóc; và giới thần kinh học quan tâm vì não của họ có thể hé lộ não xử lý thông tin nói chung ra sao.",
+      "answers": [
+        { "q": 6, "ans": "TRUE", "quote": "the majority of developmental prosopagnosics possess strategies that allow them to get around their difficulty", "how": "\"In most cases\" ↔ \"the majority\"; \"ways to deal with their problem\" ↔ \"strategies that allow them to get around their difficulty\" → TRUE." },
+        { "q": 7, "ans": "NOT GIVEN", "how": "Bài nói nghiên cứu có thể giúp giải bài toán \"how the brain deals with information in general\" – hiểu cơ chế xử lý thông tin, chứ không nói giúp ĐIỀU TRỊ các loại chấn thương não. \"Brain injury\" chỉ xuất hiện ở đoạn 2 như một nguyên nhân gây bệnh. Bẫy ghép hai ý ở hai đoạn khác nhau." }
+      ],
+      "note": "Câu dài cuối đoạn: xương sống là \"This difference ... could help solve the problem of how the brain deals with information\"; mệnh đề \"In other words, it may show whether the brain has specialised parts ... or is more of a general-purpose information processor\" chỉ diễn giải lại, vẫn là chuyện hiểu não chứ không phải chữa bệnh."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Khó khăn lớn cho nghiên cứu: không ai giống ai – người chỉ khó với khuôn mặt, người khó cả với đồ vật thường ngày và cả động vật; có người nhận ra cảm xúc trên mặt người khác dù mặt đó xa lạ, người khác thì không; có người không nhận ra bạn cũ nhưng vẫn biết mặt nào được coi là đẹp.",
+      "answers": [
+        { "q": 8, "ans": "animals", "quote": "others have trouble with ordinary everyday objects and, it turns out, animals, which would normally be familiar as well", "how": "\"commonly seen ___ and objects\" ↔ \"ordinary everyday objects and ... animals\"; ghi chú đã có \"objects\" nên từ còn lại là animals (ONE WORD ONLY, số nhiều giữ nguyên)." },
+        { "q": 9, "ans": "emotion", "quote": "they could identify the emotion which was conveyed on another's face, even though the face itself seemed unfamiliar", "how": "\"the ___ of someone else's face\" ↔ \"the emotion which was conveyed on another's face\"; another's = someone else's. Điền danh từ số ít emotion đúng như trong bài." }
+      ],
+      "note": "Đoạn này liệt kê nhiều cặp \"some ... others ...\". Ghi chú chỉ lấy các khó khăn, còn câu về \"attractive\" đã được đề cho sẵn nên không phải điền."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Nguyên nhân: nhóm Đức xét 38 ca trong bảy gia đình và tin có bằng chứng tốt rằng chỉ một gen chịu trách nhiệm; Duchaine cũng thấy tính di truyền nhưng nghĩ yếu tố khác quan trọng hơn – trẻ sinh ra với thủy tinh thể đục ở mắt TRÁI, không nhìn được qua mắt đó trong hai tháng đầu đời, là yếu tố nguy cơ lớn.",
+      "answers": [
+        { "q": 10, "ans": "gene", "quote": "the German team believe they have good evidence that a single gene could be responsible", "how": "\"just one ___ according to Martina Gruter\" ↔ \"a single gene could be responsible\"; just one = a single, nên điền gene (số ít)." },
+        { "q": 11, "ans": "left", "quote": "when it's the left one, being unable to see through this eye during the first two months of life is a major risk factor for prosopagnosia", "how": "\"a defect in the ___ eye according to Brad Duchaine\" ↔ \"when it's the left one\" (one = lens/eye) → điền left. Bẫy: đoạn nói về \"the eye's lens is not clear\" nên dễ muốn điền lens, nhưng chỗ trống đứng trước chữ \"eye\" nên phải là tính từ chỉ bên." }
+      ],
+      "note": "Câu cuối đoạn rất dài. Xương sống: \"being unable to see through this eye ... is a major risk factor\"; mệnh đề \"which means the eye's lens is not clear\" giải thích căn bệnh bẩm sinh, còn \"and when it's the left one\" là điều kiện thu hẹp – chính chỗ này chứa đáp án."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Điều trị: Joseph Degutis báo cáo đã huấn luyện thành công một ca nặng nhận ra khuôn mặt trong các bài kiểm tra ở phòng thí nghiệm, và người này nói ngoài đời cũng dễ hơn; Duchaine định dạy người bệnh nhận ra năm người quan trọng nhất.",
+      "answers": [
+        { "q": 12, "ans": "laboratory", "quote": "recently reported successfully training a severe developmental prosopagnosic to recognise faces during tests carried out in the laboratory", "how": "\"inside the ___ and in the outside world\" ↔ \"during tests carried out in the laboratory\" cộng với câu sau (\"recognising faces in everyday life became easier\") = in the outside world. Điền laboratory, một từ." }
+      ]
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Thomas Gruter hoài nghi: người ta vốn đã nhìn mặt cả ngày nên không thể luyện thêm được nữa; hơn nữa thí sinh có thể \"gian lận\" – có người ghi nhớ khoảng cách từ mũi đến môi trên, nên làm tốt bài test mà ngoài đời vẫn kém.",
+      "answers": [
+        { "q": 13, "ans": "cheating", "quote": "He also points out that cheating is a possibility during tests", "how": "\"___ by some subjects can affect research results\" ↔ \"cheating is a possibility during tests\", minh họa bằng người nhớ khoảng cách mũi–môi và câu kết \"you can perform well in the test and not do so well in real life\". Điền cheating (ONE WORD ONLY)." }
+      ]
+    }
+  ],
+  "tips": [
+    "Ba câu NOT GIVEN (Q2, Q3, Q7) đều có từ khóa xuất hiện trong bài nhưng thiếu đúng mối quan hệ mà câu hỏi nêu (tăng lên / khó hơn / điều trị). Gặp từ khóa quen thì hỏi tiếp: bài có nói đúng QUAN HỆ này không?",
+    "Bài có hai người cùng họ Gruter (Martina và Thomas, vợ chồng) và hai nhà nghiên cứu Duchaine, Degutis. Ghi chú Q10–13 phân theo tên nên phải đọc tên trước, đừng chỉ bám nội dung.",
+    "Với note completion ONE WORD ONLY, nhìn từ đứng sát chỗ trống để biết cần loại từ nào: trước \"eye\" phải là tính từ (left), sau \"just one\" phải là danh từ số ít (gene)."
+  ]
+}

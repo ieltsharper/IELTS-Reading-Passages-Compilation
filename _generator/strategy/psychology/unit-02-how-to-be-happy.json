@@ -1,0 +1,70 @@
+{
+  "step1": "Tiêu đề How to be Happy và sapo \"Some recent developments in the science of happiness\" cho biết bài trình bày các nghiên cứu mới về việc có thể \"luyện\" hạnh phúc. Đoán mạch bài: một vài nhà khoa học và phương pháp của họ → chương trình ở trường học → tiếng nói hoài nghi → nghiên cứu ở phòng thí nghiệm. Q1–4 (Matching Information) và Q5–8 (Matching People) rải khắp bài, không theo thứ tự; Q9–13 là summary nên chỉ nằm ở hai đoạn cuối (E–F).",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–4", "Matching information (đoạn A–F, có thể lặp lại)", "Không, phải đọc xong đoạn mới chốt", "same technique, scientific opinion changed, how numerous, educational courses set up"],
+    ["5–8", "Matching people (A–F)", "Có, nhờ tên riêng trong bài", "Tony Fernando, Richard Davidson, Rick Hanson, Judi Clements, Carsten Grimm, Nathan Consedine"],
+    ["9–13", "Summary completion (ONE WORD ONLY)", "Có, theo thứ tự và chỉ ở đoạn E–F", "Montgomery, MRI scans, laboratory experiments, hormones, stimuli"]
+  ],
+  "typesNote": "Vừa đọc xong mỗi đoạn thì chốt luôn: tên riêng cho Q5–8, nội dung tổng thể của đoạn cho Q1–4, và Q9–13 chỉ xuất hiện khi tới hai đoạn cuối.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Bác sĩ tâm thần Tony Fernando và \"video method\" của ông; não có thể được luyện để hạnh phúc, với số liệu về synapse/neuron và nghiên cứu của Richard Davidson trên các nhà sư.",
+      "answers": [
+        { "q": 2, "ans": "A", "quote": "This is relatively new thinking - just 30 years ago, neuroscientists believed that adult brain cells couldn't regenerate.", "how": "\"scientific opinion about an aspect of brain function has changed over a given time period\" ↔ \"just 30 years ago, neuroscientists believed...\": vừa có mốc thời gian (30 năm), vừa có sự thay đổi quan điểm (relatively new thinking)." },
+        { "q": 3, "ans": "A", "quote": "there are approximately ten trillion synapses connecting roughly a hundred billion neurons", "how": "\"an estimate of how numerous some brain components are\" ↔ \"approximately\"/\"roughly\" + số lượng synapses và neurons. Hai câu 2 và 3 cùng rơi vào đoạn A, đúng với lưu ý NB (được dùng lại một chữ cái)." }
+      ],
+      "note": "Đoạn A có cả \"video method\" của Fernando, nhưng câu 1 đòi hỏi \"two scientists use the same technique\" nên chỉ chốt được khi đọc đến đoạn B, nơi nói Hanson dùng đúng phương pháp đó."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Rick Hanson gọi việc luyện não là \"mindfulness\": tâm trí dựa vào đâu thì não định hình theo đó, nên hãy nghĩ về cảm giác dễ chịu và những gì mình đã làm được.",
+      "answers": [
+        { "q": 1, "ans": "B", "quote": "To do this, Hanson employs exactly the same imaginary ‘video method' as psychiatrist Tony Fernando.", "how": "\"two scientists use the same technique to promote their own happiness\" ↔ \"exactly the same imaginary 'video method'\". Bẫy: đoạn A giới thiệu phương pháp, nhưng chỉ đoạn B mới nói rằng hai người cùng dùng nó." },
+        { "q": 6, "ans": "C", "quote": "resting it on pleasant feelings and the things you have accomplished means that over time your brain will take on a different shape, with strength and optimism hard-wired into it", "how": "\"personal achievements\" ↔ \"the things you have accomplished\"; \"negative experiences\" ↔ \"self-criticism and worries\". Người nói là Rick Hanson = C." }
+      ],
+      "note": "Câu dài mang đáp án Q6: backbone = \"resting it on pleasant feelings and the things you have accomplished\" (WHO/WHAT) + \"means that ... your brain will take on a different shape\" (kết quả) + \"with strength and optimism hard-wired into it\" (bổ sung chi tiết). Vế tương phản đứng trước: \"If you keep resting your mind on self-criticism and worries ... your brain will be shaped by that\"."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Ở New Zealand, Mental Health Foundation (Judi Clements) chạy chương trình mindfulness tại 14 trường và sắp thử nghiệm ở nơi làm việc; nghiên cứu của Carsten Grimm cho thấy dùng nhiều con đường đến hạnh phúc hiệu quả hơn.",
+      "answers": [
+        { "q": 4, "ans": "C", "quote": "it's a valuable approach because children are told to pay attention, but aren't told how to pay attention", "how": "\"the reason why some educational courses were set up\" ↔ \"mindfulness programmes in 14 schools\" + \"because children are told to pay attention, but aren't told how\". Từ \"because\" chính là dấu hiệu lý do." },
+        { "q": 5, "ans": "E", "quote": "people who used several pathways to happiness achieved the best results, suggesting it's better to have a balance than concentrate on the single pathway you most identify with", "how": "\"a variety of ways\" ↔ \"several pathways\"; \"focus on just one\" ↔ \"the single pathway\". Chủ thể là Carsten Grimm = E, không phải Judi Clements dù bà cũng nói về five pathways." },
+        { "q": 8, "ans": "D", "quote": "We're detecting a hunger for it from different organisations and professions as well", "how": "\"A range of groups\" ↔ \"different organisations and professions\"; \"becoming more interested\" ↔ \"a hunger for it\". Lời này của Clements = D." }
+      ],
+      "note": "Đoạn C có tới ba người/đơn vị; phải bám sát ai nói câu nào. Năm pathways là của Foundation (Clements), còn kết luận về việc kết hợp nhiều pathways là của Grimm."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Nathan Consedine hoài nghi: càng theo đuổi hạnh phúc càng ít đạt được, và người hạnh phúc có xu hướng ít thể hiện sự cảm thông.",
+      "answers": [
+        { "q": 7, "ans": "F", "quote": "people who were happier were less inclined to show sympathy", "how": "\"one favourable characteristic\" ↔ sympathy; \"might have a reason not to display\" ↔ lý do ở câu sau: \"happy people are strongly motivated to stay happy, but engaging sympathetically with others typically involves engaging with their distress\". Người nói là Consedine = F." }
+      ],
+      "note": "Consedine không phủ nhận mindfulness (\"Consedine's not disagreeing with the theory of mindfulness\") – đừng gán cho ông quan điểm bác bỏ hoàn toàn."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Johanna Montgomery (Auckland University) cho rằng lý thuyết của Hanson hợp lý nhưng mới dựa trên nghiên cứu động vật, chưa chứng minh được ở người; ảnh MRI chỉ cho thấy máu dồn về vùng não, chưa phải bằng chứng não mạnh lên.",
+      "answers": [
+        { "q": 9, "ans": "animals", "quote": "it's a logical explanation based on studies from animals, but says we haven't yet got the technology to prove it scientifically in humans", "how": "\"current research ... only relates to ___\" ↔ \"based on studies from animals\"; ONE WORD ONLY nên viết \"animals\"." },
+        { "q": 10, "ans": "blood", "quote": "MRI scans certainly do indicate an increased flow of blood to different areas of the brain which are experiencing positive stimuli", "how": "\"positive stimuli result in more ___ reaching parts of the brain\" ↔ \"an increased flow of blood to different areas of the brain\". Chỗ trống cần danh từ không đếm được: blood." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Trong phòng thí nghiệm, Montgomery kích thích não bằng điện vì giống hoạt động tự nhiên; hormone điều tiết não như thời tiết điều tiết hoạt động con người, và khoa học hiểu về nỗi sợ kéo dài rõ hơn hormone hạnh phúc.",
+      "answers": [
+        { "q": 11, "ans": "electricity", "quote": "they stimulate the brain with electricity, as this copies the high-frequency firings that happen normally in the brain every second", "how": "\"use ___ to initiate brain activity, because it's similar to natural processes\" ↔ \"stimulate the brain with electricity, as this copies the high-frequency firings that happen normally\". \"as\" = because." },
+        { "q": 12, "ans": "weather", "quote": "act to regulate the brain, in the same way that weather has a regulating effect on human activity more generally", "how": "\"hormones can be compared to the ___\" ↔ phép so sánh \"in the same way that weather...\". Câu dài: backbone = \"the hormones ... act to regulate the brain\"; mệnh đề chèn giữa \"that are released routinely in response to good or bad situations - such as adrenaline -\" chỉ là ví dụ, bỏ qua được; vế so sánh \"in the same way that...\" mới mang đáp án." },
+        { "q": 13, "ans": "fear", "quote": "More is known about the impact on brain activity of prolonged periods of fear than the effects of ‘happiness' hormones", "how": "\"understand some stimuli, such as ___ better than ... more positive stimuli\" ↔ cấu trúc \"More is known about ... fear than ... 'happiness' hormones\". ONE WORD ONLY nên chỉ viết \"fear\"." }
+      ]
+    }
+  ],
+  "tips": [
+    "Matching information (Q1–4) có NB cho phép lặp chữ cái: đoạn A chứa cả câu 2 và 3, đừng cố rải mỗi đoạn một câu.",
+    "Câu 1 là bẫy điển hình: \"video method\" xuất hiện lần đầu ở đoạn A nhưng chỉ đoạn B mới nói hai nhà khoa học cùng dùng nó – hãy chọn đoạn chứa trọn vẹn thông tin câu hỏi.",
+    "Với Matching people, đoạn C có ba nhân vật; luôn hỏi \"ai nói câu này?\" thay vì chỉ khớp từ khóa nội dung."
+  ]
+}

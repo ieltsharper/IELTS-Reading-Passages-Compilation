@@ -1,0 +1,81 @@
+{
+  "step1": "Tiêu đề How the mind ages cho biết bài bàn về việc trí óc thay đổi thế nào theo tuổi, và câu mở đầu nêu luôn ba yếu tố: mental lifestyle, chronic disease, flexibility of the mind. Đoán mạch bài: quan niệm cũ (suy giảm là tất yếu) → các nghiên cứu phản bác (Rapoport, Salthouse, Diamond, Schaie) → các loại trí nhớ (Bahrick) → metamemory và cognitive style (Kail, Schaie) → những gì cải thiện theo tuổi. Q1–3 (MCQ) bám đoạn 2, 3, 7; Q4–9 (summary) bám đoạn 5–8; Q10–13 là matching people nên rải khắp bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–3", "Multiple choice (A–D)", "Có, nhờ từ khóa rõ", "older typists, rats/toys, chess players"],
+    ["4–9", "Summary completion (ONE WORD ONLY)", "Có, theo thứ tự bài (đoạn 5 trở đi)", "two types of memory, knowledge of..., length of tuition, brain function, tests, increases with age"],
+    ["10–13", "Matching people (A–E)", "Có, nhờ tên riêng", "Stanley Rapoport, Marion Diamond, Warner Schaie, Harry Bahrick, Robert Kail"]
+  ],
+  "typesNote": "Vừa đọc xong một đoạn là chốt ngay: MCQ và summary có từ khóa dễ nhận, còn matching people thì gắn luôn mỗi phát biểu với tên vừa gặp trong đoạn đó.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Ba yếu tố quyết định sự thay đổi chức năng trí óc; quan niệm cũ cho rằng suy giảm trí nhớ sau tuổi trưởng thành là tất yếu, nhưng sự thật không đơn giản như vậy.",
+      "answers": [],
+      "note": "Câu \"The truth, however, is not quite so simple\" báo hiệu phần sau sẽ phản bác quan niệm cũ – đây là định hướng cho cả bài."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Rapoport thấy người già dùng mạng nơ-ron và chiến lược khác nhưng cho kết quả tương đương; Salthouse thấy nhóm đánh máy lớn tuổi đạt cùng tốc độ nhờ các mẹo tiết kiệm thời gian.",
+      "answers": [
+        { "q": 1, "ans": "C", "quote": "The older typists, it turned out, achieved their speed with cunning little strategies that made them more efficient than their younger counterparts. They made fewer finger shifts, gaining a fraction of a second here and there. They also read ahead in the test.", "how": "\"more time-saving techniques\" ↔ \"cunning little strategies\" + \"gaining a fraction of a second\". A sai: bài không nói họ dùng kỹ năng vận động khác, mà nói mạng nơ-ron được định hình lại để BÙ cho mất mát về motor skills. B (được huấn luyện tốt hơn) và D (khả năng tập trung) hoàn toàn không được nhắc – bẫy suy diễn." },
+        { "q": 11, "ans": "A", "quote": "The older subjects used different internal strategies to accomplish comparable results at the same time", "how": "\"a different mental approach\" ↔ \"different internal strategies\"; \"achieve the same result\" ↔ \"comparable results\". Người nói là Stanley Rapoport = A. Bẫy: Salthouse cũng nói về người lớn tuổi đạt kết quả bằng người trẻ, nhưng Salthouse không có trong danh sách A–E." }
+      ],
+      "note": "Đoạn này có hai nhà nghiên cứu (Rapoport, Salthouse) nhưng chỉ Rapoport nằm trong List of People."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Suy giảm trí óc có thể đảo ngược: Diamond chứng minh hoạt động trí óc làm dendrite mọc thêm, chuột bị cô lập thì não co lại còn môi trường phong phú thì vỏ não mở rộng; Schaie nói lối sống trí óc bận rộn giữ trí óc khỏe mạnh.",
+      "answers": [
+        { "q": 2, "ans": "D", "quote": "when a rat is kept in isolation, the animal's brain shrinks, but if we put that rat with other rats in a large cage and give them an assortment of toys, we can show, after four days, significant differences in its brain", "how": "\"expanded or shrank depending on the level of mental activity\" ↔ \"brain shrinks\" khi bị cô lập và \"the whole cerebral cortex has expanded\" khi ở môi trường kích thích. A sai vì phải là đồ chơi ĐA DẠNG (\"rats get bored unless the toys are varied\"), không phải đồ chơi quen thuộc. B (lo âu) và C (sống lâu hơn) không được nhắc – bài chỉ nói về kích thước não." },
+        { "q": 13, "ans": "B", "quote": "Animals are just like we are. They need stimulation,' says Diamond.", "how": "\"Both animals and humans need to exist in an environment full of interest\" ↔ \"Animals are just like we are. They need stimulation\". Câu này của Diamond = B, không phải Schaie (Schaie nói về con người với \"busy mental lifestyle\")." }
+      ],
+      "note": "Câu dài mang đáp án Q2: backbone = \"the animal's brain shrinks\" (điều kiện: \"when a rat is kept in isolation\"); vế tương phản \"but if we put that rat with other rats ... and give them an assortment of toys\" (điều kiện 2) dẫn tới \"we can show ... significant differences in its brain\". Hai điều kiện trái ngược chính là chỗ chứng minh đáp án D."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Schaie thấy chức năng trí óc giảm ở người nằm viện dài ngày vì bệnh mãn tính, có lẽ do sự thụ động mà nếp sinh hoạt bệnh viện tạo ra.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Trí nhớ có nhiều dạng: semantic memory (kiến thức, sự kiện khách quan) và episodic memory (sự việc, cuộc trò chuyện trong thời gian và không gian).",
+      "answers": [
+        { "q": 4, "ans": "semantic", "quote": "what we call knowledge – facts – is what psychologists such as Harry Bahrick of Ohio Wesleyan University call semantic memory", "how": "\"two different types of memory\" ↔ hai tên gọi trong đoạn. Chỗ trống đứng trước \"memory\" nên chỉ điền tính từ \"semantic\"." },
+        { "q": 5, "ans": "episodic", "quote": "Events, conversations and occurrences in time and space, on the other hand, make up episodic memory", "how": "\"on the other hand\" báo hiệu dạng thứ hai. Đáp án Q4 và Q5 có thể đảo thứ tự cho nhau, nên chỉ cần điền đúng hai từ." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Bahrick kiểm tra 1.000 học sinh về môn đại số: mức nhớ không phụ thuộc thời gian đã trôi qua mà phụ thuộc thời lượng được học.",
+      "answers": [
+        { "q": 6, "ans": "algebra", "quote": "Bahrick tested 1,000 high school graduates to see how well they remembered the school subject algebra", "how": "\"people's knowledge of ___ to determine recall ability\" ↔ môn học được kiểm tra. Câu tóm tắt sau đó (\"a function not of age but rather of length of tuition\") ↔ \"The determining factor was the duration of instruction\" nên xác nhận đúng đoạn." }
+      ],
+      "note": "Bẫy số liệu: 1.000 học sinh, một tháng, 50 năm, hai ba năm – nhiều con số nhưng câu hỏi chỉ cần tên môn học."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Metamemory (khả năng quản lý trí nhớ) là sản phẩm của việc đi học; ví dụ trẻ chơi cờ giỏi nhớ bố cục quân cờ tốt hơn người lớn mới chơi; ngoài ra cognitive style/mental flexibility của Schaie dự báo nhận thức khi về già.",
+      "answers": [
+        { "q": 3, "ans": "B", "quote": "when asked to remember the patterns of chess pieces arranged on a board, the children won", "how": "\"better recall of the layout of pieces\" ↔ \"remember the patterns of chess pieces arranged on a board ... the children won\". A sai vì bài nói về mô hình quân cờ, không phải dãy số. C sai ngược chiều: chính KIẾN THỨC CỦA TRẺ mới \"better organized than that of the adults\". D không được nhắc." },
+        { "q": 7, "ans": "metamemory", "quote": "a mental function known as metamemory", "how": "\"School also helps with a brain function called ___\" ↔ \"metamemory is a byproduct of going to school\"." },
+        { "q": 8, "ans": "psychological", "quote": "the more likely they are to perform well in many aspects of life and in psychological assessments", "how": "\"does better in ___ tests\" ↔ \"psychological assessments\" (assessments = tests). Chỗ trống đứng trước \"tests\" nên điền tính từ \"psychological\"." },
+        { "q": 10, "ans": "E", "quote": "The question-and-answer process, especially exam taking, helps children learn and teaches them how their memory functions", "how": "\"The educational system makes students aware of how their memory works\" ↔ \"teaches them how their memory functions\". Lời của Robert Kail = E." },
+        { "q": 12, "ans": "C", "quote": "Those who score highly on tests of cognition at an advanced age are those who tested high in mental flexibility at middle age.", "how": "\"Being open to new ways of doing things\" ↔ \"mental flexibility\"/\"the ability to adapt and roll with life's punches\"; \"positive impact ... as we get older\" ↔ \"score highly on tests of cognition at an advanced age\". Lời của Warner Schaie = C." }
+      ],
+      "note": "Đoạn dài nhất, chứa tới 5 đáp án của ba dạng khác nhau và hai nhân vật (Kail, Schaie). Đọc chậm và chốt hết trước khi sang đoạn 8."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Kiến thức chuyên môn là nguồn lực trí óc chỉ tốt lên theo thời gian; từ vựng cũng phát triển theo tuổi, giáo viên và nhà báo về hưu làm bài từ vựng tốt hơn sinh viên.",
+      "answers": [
+        { "q": 9, "ans": "vocabulary", "quote": "Research clearly shows that vocabulary develops with time.", "how": "\"as we get older, our knowledge of ___ increases\" ↔ \"vocabulary develops with time\". Bẫy: \"specialized knowledge\" và \"crystallised intelligence\" cũng tăng, nhưng chỗ trống cần ONE WORD ONLY và câu sau nói rõ \"Vocabulary is another such specialized form of knowledge\"." }
+      ]
+    }
+  ],
+  "tips": [
+    "Nhiều nhà nghiên cứu xuất hiện trong bài nhưng List of People chỉ có 5 người; nếu một phát biểu khớp với người không có trong danh sách (như Salthouse), hãy tìm người trong danh sách nói cùng ý.",
+    "MCQ ở bài này đều có phương án đúng nghĩa nhưng sai chi tiết (đồ chơi quen thuộc thay vì đa dạng, dãy số thay vì bố cục quân cờ): luôn đối chiếu từng chữ với câu trong bài.",
+    "Summary Q4–9 chạy đúng theo thứ tự từ đoạn 5 đến đoạn 8, nên nếu thấy mình phải quay lại đoạn trước thì khả năng cao là chọn sai chỗ."
+  ]
+}
