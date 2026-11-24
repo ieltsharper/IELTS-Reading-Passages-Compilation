@@ -1,0 +1,82 @@
+{
+  "step1": "Tiêu đề Marketing and Mind Control và sapo (quảng cáo khai thác bản chất liên kết của não bộ) cho biết mạch bài: chiến dịch nhẫn kim cương \"A diamond is forever\" → quảng cáo tấn công mọi giác quan, ví dụ nước đóng chai → so sánh với động vật (chuột và sở thích ăn uống lan truyền) → khỉ Koshima rửa khoai → học qua quan sát có ích → quảng cáo TV khai thác thói bắt chước → động vật bắt chước con đầu đàn → bắt chước lệch lạc, stealth marketing và lời kết luận đạo đức. Q27–31 (MCQ) ở đoạn 2–6; Q32–36 (Yes/No/Not Given) rải từ đoạn 1 đến đoạn 8; Q37–40 (nối vế câu) có tên riêng nên định vị được ngay: Koshima = đoạn 4, de Waal = đoạn 7, Fosbury và marketing hiện đại = đoạn 8.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–31", "Multiple choice (A–D)", "Có, theo từ khóa", "stay in a shop longer, bottled water, socially transmitted food preference, learning by observation, television advertising"],
+    ["32–36", "Yes / No / Not Given", "Có (từ khóa), nhưng phải đọc hết đoạn mới kết luận", "diamonds and luxury, visual vs auditory, positive influence on society, most powerful animals, celebrities"],
+    ["37–40", "Matching sentence endings (A–G)", "Có: ba trong bốn vế đầu có tên riêng", "Koshima, Frans de Waal, Dick Fosbury, modern marketing campaigns"]
+  ],
+  "typesNote": "Cả ba dạng đều theo thứ tự bài; riêng Q32–36 trải rộng nên vừa đọc vừa chốt, không để dồn tới cuối.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Tục tặng nhẫn kim cương đính hôn phần lớn do một chiến dịch quảng cáo năm 1938 tạo ra: gắn khái niệm \"love\" với \"diamonds\", khiến doanh số tăng 55% vào năm 1941.",
+      "answers": [
+        { "q": 32, "ans": "NO", "quote": "the objective was to promote diamonds as the symbol of everlasting love", "how": "Câu hỏi nói chiến dịch nối kim cương với sự XA XỈ; bài nói rõ nối với TÌNH YÊU vĩnh cửu (\"associating neurons activated by the concept of ‘love' with neurons that encoded the concept of ‘diamonds'\") → mâu thuẫn → NO. Bẫy: hình ảnh \"film stars draped in diamonds\" gợi sự xa hoa nhưng đó chỉ là phương tiện, không phải liên kết được tạo ra." },
+        { "q": 34, "ans": "NOT GIVEN", "how": "Bài khẳng định chiến dịch cực kỳ hiệu quả và làm thay đổi văn hóa, nhưng không hề đánh giá ảnh hưởng đó là TÍCH CỰC hay tiêu cực cho xã hội → NOT GIVEN. Bẫy: \"one of the most effective marketing campaigns in history\" là khen về hiệu quả, không phải khen về mặt xã hội." }
+      ],
+      "note": "Câu mở bài dài: backbone = \"the custom of giving diamond engagement rings was ... manufactured by one of the most effective marketing campaigns\" (WHO: tục lệ; DOES WHAT: được tạo ra bởi chiến dịch); mệnh đề nhượng bộ \"While there had been a long tradition of giving rings\" thừa nhận tục tặng nhẫn có từ lâu, nhưng riêng nhẫn KIM CƯƠNG thì do quảng cáo dựng nên."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Quảng cáo nhắm vào mọi giác quan (thị giác, thính giác, khứu giác) để nhào nặn thói quen và mong muốn; ví dụ nước đóng chai cho thấy ta trả tiền cho thứ vốn miễn phí.",
+      "answers": [
+        { "q": 27, "ans": "B", "quote": "our olfactory system is targeted by variations of vanilla and citrus perfumes aimed at enticing us to linger in a retail outlet", "how": "\"linger in a retail outlet\" ↔ \"stay in a shop for longer\"; \"perfumes\" ↔ \"pleasant scents\". A, C, D đều là kênh quảng cáo có thật trong đoạn (jingles, posters) nhưng chỉ mùi hương mới gắn với mục đích giữ khách ở lại." },
+        { "q": 28, "ans": "A", "quote": "we are swayed by advertising into paying for something that we can obtain for free", "how": "Ví dụ nước đóng chai dùng để chứng minh quảng cáo khiến người ta mua ↔ \"consumers buy it because of the fact that it is marketed\". B sai: bài nói không phân biệt được mùi vị, chứ không nói nước không có vị. C đảo nhân quả: bài nói công ty TRÁNH thử nếm mù vì người ta không phân biệt nổi. D sai vì bài không dẫn ra thử nghiệm chứng minh, mà còn nói các hãng hiếm khi đề xuất thử nếm mù." },
+        { "q": 33, "ans": "NOT GIVEN", "how": "Đoạn liệt kê thị giác rồi thính giác rồi khứu giác nhưng không SO SÁNH mức độ nhận biết giữa chúng → NOT GIVEN. Bẫy: \"More surreptitiously\" chỉ xếp khứu giác là kín đáo hơn, không nói gì về thị giác so với thính giác." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Động vật cũng có hiện tượng tương tự: chuột vốn ăn đều hai loại ngũ cốc, nhưng sau khi ở cùng con chuột chỉ ăn một loại thì lại thích đúng loại đó – gọi là \"socially transmitted food preference\".",
+      "answers": [
+        { "q": 29, "ans": "C", "quote": "when faced with a choice, our rat will now show a preference for the same type as the other rat was eating", "how": "Bị ảnh hưởng bởi con chuột kia (một con bất kỳ cùng loài) ↔ C. A là bẫy từ đoạn 7 (con đầu đàn) – ở đây con chuột kia không hề được mô tả là \"dominant\". B ngược lại: ban đầu chuột ăn hai loại như nhau. D (thức ăn khan hiếm) không được nhắc." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Ví dụ học tập văn hóa đầu tiên ở linh trưởng: một con khỉ ở đảo Koshima mang khoai lang ra sông rửa, vài con khác bắt chước, rồi thói quen lan ra gần cả đàn trong vài năm.",
+      "answers": [
+        { "q": 37, "ans": "F", "quote": "Potato washing then spread from monkey to monkey and, over the course of a few years, most monkeys were eating clean potatoes.", "how": "Một hành vi mới lan ra cả đàn nhờ nhìn thấy (\"Upon seeing this\") ↔ F \"animals can develop new habits by observation\". Ending C (bắt chước con có địa vị cao) là bẫy: con khỉ khởi xướng chỉ được gọi là \"clever\", không phải đầu đàn." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Học qua quan sát là năng lực quý giá: giúp ta học giao tiếp, kỹ năng vận động và xử lý vấn đề thường ngày, ví dụ người mới loay hoay mua vé tàu điện ngầm ở thành phố lạ.",
+      "answers": [
+        { "q": 30, "ans": "A", "quote": "a newcomer struggling to purchase tickets and navigate the subway system in a foreign city may step back to learn from the people nearby", "how": "\"deal with many everyday problems\" + ví dụ người mới xoay xở ở tàu điện ngầm ↔ \"helps people overcome challenges\". C là bẫy bán phần: giao tiếp được nhắc tới nhưng bài nói ta HỌC cách giao tiếp, không nói nó tạo lợi thế khi giao tiếp. B và D không có trong đoạn." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Quảng cáo khai thác xu hướng bắt chước: quảng cáo TV đầy những người hấp dẫn, trông thành đạt, vì ta có xu hướng bắt chước người nổi tiếng và ưa nhìn.",
+      "answers": [
+        { "q": 31, "ans": "B", "quote": "advertisements are disproportionately populated with attractive, successful looking individuals", "how": "\"attractive, successful looking\" ↔ \"people who have a desirable image\". D là bẫy vì nó thuộc đoạn 8 và còn sai nội dung: bài nói thành công của họ KHÔNG nhờ sản phẩm. A và C không được nêu (không có chi tiết về thiếu niên hay người lớn tuổi)." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Một số nghiên cứu cho thấy động vật cũng bắt chước con đầu đàn, dù không phải nhà nghiên cứu nào cũng tin; de Waal kể chuyện tinh tinh đực khác cũng đi khập khiễng theo con đầu đàn bị thương.",
+      "answers": [
+        { "q": 35, "ans": "YES", "quote": "Although not all researchers are convinced by the findings, a number of studies indicate that some animals also imitate dominant members of their group.", "how": "\"not all researchers are convinced\" ↔ vẫn còn sự bất định; \"dominant members\" ↔ \"most powerful animals\" → YES. Chữ \"anecdotal evidence\" càng củng cố sự dè dặt." },
+        { "q": 38, "ans": "C", "quote": "He noted that in one particular group the dominant male was hurt and was limping as a result. Soon he noticed that the other males also exhibited similar behavior", "how": "Các con đực khác bắt chước con ĐẦU ĐÀN dù chúng không bị thương ↔ C \"an animal would imitate another that had higher status\". Ending F thuộc khỉ Koshima, không dùng lại được ở đây." }
+      ],
+      "note": "Hai ending C và F đều nói về động vật bắt chước; điểm phân biệt là ĐỊA VỊ (de Waal) so với THÓI QUEN MỚI (Koshima)."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Thói bắt chước dễ bị khái quát bừa bãi: xưa người ta bắt chước kiểu nhảy của Fosbury chứ không bắt chước giày của ông, nay ta mua laptop hay nước uống do vận động viên quảng cáo; thêm vào đó là stealth marketing, nên cần phân biệt thông tin có ích với sự thao túng vì lợi nhuận.",
+      "answers": [
+        { "q": 36, "ans": "NO", "quote": "Rationally, we know these people's success did not depend on these products", "how": "Câu hỏi nói người tiêu dùng nối thành tích của người nổi tiếng với sản phẩm một cách LOGIC; bài nói lý trí ta biết là không liên quan, hành vi mua xuất phát từ chương trình thần kinh bắt chước người ở trên nấc thang xã hội → mâu thuẫn → NO." },
+        { "q": 39, "ans": "A", "quote": "imitators obviously copied his jumping style, not his brand of sports shoes", "how": "Người ta bắt chước đúng thứ làm nên thành công (kiểu nhảy) ↔ A \"behaviour that was linked with success\". Ending D (bắt chước vận động viên đã diễn ra nhiều thập kỷ) là bẫy thời gian: mốc 1968 được nêu để tương phản với \"today\", không phải để nói về độ dài lịch sử." },
+        { "q": 40, "ans": "E", "quote": "companies engage in stealth marketing campaigns in which people are paid to frequent bars or websites to covertly promote certain products", "how": "\"stealth\" và \"covertly\" ↔ người tiêu dùng không biết mình đang bị tiếp thị → E. Ending G (có phần thưởng cho người tiêu dùng) sai vì người được TRẢ TIỀN là người đi quảng bá, không phải khách hàng." }
+      ],
+      "note": "Đoạn 8 rất dài và chứa tới ba đáp án. Chia theo mốc: Fosbury 1968 → \"today\" (vận động viên quảng cáo) → stealth marketing → kết luận đạo đức."
+    }
+  ],
+  "tips": [
+    "Bài có nhiều ví dụ động vật rất giống nhau (chuột, khỉ Koshima, tinh tinh của de Waal). Ghi bên lề mỗi đoạn một từ khóa: chuột = cùng loài bất kỳ, Koshima = thói quen mới, de Waal = địa vị cao.",
+    "Với Yes/No/Not Given, hai câu NOT GIVEN ở đây đều là do câu hỏi thêm một phép SO SÁNH hoặc một ĐÁNH GIÁ mà bài không đưa ra (thị giác so với thính giác; tác động tích cực lên xã hội).",
+    "Khi nối vế câu, hãy loại trừ bằng cách hỏi \"ending này nói về người hay về động vật, về quá khứ hay hiện tại?\" trước khi so nghĩa chi tiết."
+  ]
+}

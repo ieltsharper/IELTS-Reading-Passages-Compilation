@@ -1,0 +1,81 @@
+{
+  "step1": "Sapo nói rõ đây là một bài điểm sách: Dr. Simon Hanson nhận xét cuốn Mapping the Mind của Rita Carter. Đoán mạch bài: con người tin vào thị giác → công nghệ chụp não thay đổi điều đó → cuốn sách như một nhập môn giải phẫu thần kinh bằng hình ba chiều → sách không phải tài liệu tra cứu → giọng nhà báo giữ người đọc → tránh mất tính khoa học nhờ tiểu luận chuyên gia → ảo ảnh quang học → kết: sách như bản đồ \"you are here\". Vì là bài điểm sách nên hầu hết câu hỏi hỏi về ý kiến người viết: Q27–32 (YES/NO/NG) bám đoạn 1–5, Q33–37 (MCQ) bám đoạn 5–8, Q38–40 (sentence endings) bám đoạn 3 và 6.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–32", "YES / NO / NOT GIVEN", "Có (từ khóa), theo thứ tự bài", "what is real, ego, vibrant colours, visually, decorative, interpret the facts"],
+    ["33–37", "Multiple choice (A–D)", "Có: mỗi câu có một mỏ neo rõ (journalism, anger, neuroscience presentation, optical illusions, kiosk map)", "journalism, anger, general reader, optical illusions, kiosk map"],
+    ["38–40", "Matching sentence endings (A–G)", "Có: ba cụm rất cụ thể", "anterior cingulate cortex, three-dimensional, essays by research scientists"]
+  ],
+  "typesNote": "Cả ba dạng chạy theo thứ tự bài và mỗi câu đều có một mỏ neo từ vựng dễ thấy, nên chỉ cần đọc một lượt và chốt tại chỗ; riêng Q38–40 nằm sớm (đoạn 3 và 6) nên đừng để đến cuối mới tìm.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Con người là sinh vật thị giác: ta lấy cái nhìn thấy làm thước đo thực tại, nên suốt lịch sử việc bàn về tâm trí phải dựa vào khái niệm trừu tượng và ẩn dụ – như cái tôi, thứ không nhìn thấy nhưng chắc chắn tồn tại.",
+      "answers": [
+        { "q": 27, "ans": "NO", "quote": "We are visual creatures and rely on sight to serve as a judge of what is real and what is not.", "how": "Câu hỏi nói cảm nhận về thực tại \"independent of what we can see\"; bài khẳng định ngược lại rằng ta dựa vào thị giác để phán xét cái gì là thật → mâu thuẫn, chọn NO." },
+        { "q": 28, "ans": "YES", "quote": "I must have one because it can be hurt or appeased by how others treat me.", "how": "\"must exist\" ↔ \"I must have one\"; \"its reaction can be felt\" ↔ \"can be hurt or appeased by how others treat me\". Mệnh đề nguyên nhân \"because\" chính là lập luận của người viết." }
+      ],
+      "note": "Câu cuối đoạn \"But how do I know it really exists?\" là câu hỏi tu từ mở đường cho đoạn 2, không phải lời phủ nhận sự tồn tại của cái tôi; đừng vì nó mà đổi câu 28 thành NO."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Tiến bộ trong nghiên cứu não và chụp ảnh chức năng cho phép nhìn thấy não lúc đang hoạt động; cuốn Mapping the Mind của Rita Carter khai thác đúng khả năng mới này để hỏi chúng ta là ai.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Ở mức cơ bản nhất, sách là một nhập môn dễ tiếp cận về giải phẫu thần kinh: hình máy tính ba chiều thay cho thuật ngữ khô khan, đúng với thiên hướng tự nhiên là học bằng mắt.",
+      "answers": [
+        { "q": 30, "ans": "YES", "quote": "The presentation style acknowledges our natural bias towards perceiving and learning information visually.", "how": "\"People prefer to learn facts that are presented visually\" ↔ \"our natural bias towards perceiving and learning information visually\"; \"bias towards\" = thiên hướng thiên về, tức là thích hơn." },
+        { "q": 38, "ans": "D", "quote": "Presenting the concept of a brain area devoted to maintaining attention by calling it the ‘anterior cingulate cortex' would probably put most readers to sleep while their brains struggled to use that area to focus on what the name meant.", "how": "Ending D \"bores and confuses people\" ↔ \"put most readers to sleep\" (chán) + \"their brains struggled to ... focus on what the name meant\" (rối). Ending A (bắt buộc phải có nền khoa học) là bẫy: bài nói thuật ngữ làm người đọc chán, không nói cần kiến thức nền." },
+        { "q": 39, "ans": "F", "quote": "Showing the reader a three-dimensionally-oriented area that easily translates to a place we can point to on our skulls grounds the anatomical vocabulary in something we can all understand - our own heads.", "how": "Ending F \"solves the difficulty of people's negative reactions to technical language\" ↔ hình ba chiều \"grounds the anatomical vocabulary in something we can all understand\", tức khắc phục đúng vấn đề chán/rối vừa nêu ở câu 38. Hai câu 38 và 39 là một cặp vấn đề – giải pháp nằm sát nhau." },
+        { "q": 29, "ans": "NOT GIVEN", "how": "Bài khen hình minh họa \"beautifully rendered three-dimensional\" và ở đoạn 4 là \"beautifully accented\", nhưng không hề nói tới màu sắc rực rỡ (\"vibrant colours\"). Bẫy: thấy lời khen về hình ảnh thì suy diễn thêm đặc điểm mà bài không nêu." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Dù mang tên \"bản đồ\", sách không phải bản đồ chính xác hay sách tra cứu: các chương về tri giác, cảm xúc, trí nhớ, ý thức nên được đọc liền mạch; sách đứng giữa giáo trình đại học và sách tranh để bàn trà.",
+      "answers": [
+        { "q": 31, "ans": "NO", "quote": "walks a pleasing line between college textbook and coffee table art book", "how": "Câu hỏi nói sách \"primarily a decorative book\"; bài nói nó đi giữa ranh giới giáo trình và sách tranh trang trí, tức không chủ yếu để trang trí → NO. Chữ \"coffee table art book\" là bẫy: nó chỉ là MỘT nửa của phép so sánh." }
+      ],
+      "note": "Ending C của bộ 38–40 (\"is not helpful for checking particular data about the brain\") khớp với ý đoạn này (\"not an exact map or a reference guide\") nhưng không có câu hỏi nào dùng nó – đây là phương án thừa để gài bẫy."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Nghề báo giúp Carter giữ người đọc gắn với phần khoa học: bà dùng các ca ghi chép và tình huống quen thuộc (kiềm chế cơn giận khi bị xúc phạm, cơn ăn vạ của trẻ sáu tuổi) rồi để người đọc tự rút ra kết luận.",
+      "answers": [
+        { "q": 33, "ans": "C", "quote": "Carter uses her background as a journalist to keep the reader engaged in the science", "how": "C \"her writing style maintains the reader's interest\" ↔ \"keep the reader engaged\". A (dễ tiếp cận nguồn tin) không được nhắc; B trái ngược vì bà giải thích rất tốt; D là bẫy liên tưởng từ chữ \"journalist\" sang \"newspapers\"." },
+        { "q": 34, "ans": "B", "quote": "Carter uses familiar situations, like suppressing anger when we feel we have been insulted, to illustrate the neuroscience involved", "how": "B \"uses examples readers can relate to\" ↔ \"familiar situations\" + \"consequences we can all relate to\". A là bẫy vì có nhắc trẻ em: bài chỉ giải thích vì sao trẻ ăn vạ, không đưa lời khuyên cho cha mẹ; C và D gán thái độ khen/chê mà bài không có." },
+        { "q": 32, "ans": "YES", "quote": "allowing people to draw their own conclusions and connect the dots between scientific discovery and what it means in our daily lives", "how": "\"leaves the readers to interpret the facts\" ↔ \"allowing people to draw their own conclusions\"; \"connect the dots\" = tự nối các dữ kiện lại." }
+      ],
+      "note": "Câu về trẻ em khá dài, nên tách: xương sống \"She follows with a discussion of children's emotional maturity\"; mệnh đề phân từ \"pointing out that ... the areas involved in inhibition of anger are not as well developed as in adults\" nêu lý do khoa học; \"providing an explanation for the tantrums of a six-year-old\" là hệ quả giải thích."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Sách nhắm tới nhóm độc giả hay bị bỏ quên – người đọc phổ thông muốn biết thêm về một lĩnh vực khoa học – và tránh được nguy cơ mất độ tin cậy khoa học nhờ các tiểu luận ngắn do chuyên gia viết.",
+      "answers": [
+        { "q": 35, "ans": "D", "quote": "Mapping the Mind seems to aim itself at an audience that is often forgotten: the general reader who wants to know more about a specific area of scientific study", "how": "D \"will appeal to readers with no knowledge of the topic\" ↔ \"the general reader\" (độc giả phổ thông). A trái ngược vì sách cung cấp nhiều thông tin mới; B là bẫy đảo chiều: bài nói Carter đã TRÁNH được nguy cơ mất tín nhiệm khoa học; C (khiến nhiều người đi học ngành này) không được nhắc – đó chính là ending E thừa của bộ 38–40." },
+        { "q": 40, "ans": "B", "quote": "Carter circumvents this problem by including the participation of research scientists in the writing. The book is littered with short directed essays written by specialists in specific areas of brain research.", "how": "Ending B \"adds academic integrity to a popular approach\" ↔ các tiểu luận của chuyên gia giúp \"circumvent\" nguy cơ \"scientific credibility can be sacrificed in order to keep readers engaged\" khi viết cho độc giả đại chúng." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Người viết thích nhất phần ảo ảnh quang học: chúng không đứng rời như thông tin phụ mà luôn kèm giải thích, giúp làm cho kiến thức trở nên gần gũi – hay tới mức ông mượn dùng trong bài giảng.",
+      "answers": [
+        { "q": 36, "ans": "A", "quote": "As a teacher, I am always searching for ways to make information relevant to the reader. Mapping the Mind does this by peppering appropriate chapters with optical illusions that illustrate how the brain processes information.", "how": "A \"help people relate to the topic\" ↔ \"make information relevant to the reader\" và sách \"does this\" bằng các ảo ảnh quang học. B là bẫy chữ \"enigmas\": bài gọi chúng là \"delicious enigmas\" nhưng có kèm lời giải thích nguyên nhân, nên không phải bí ẩn chưa lời giải; C sai vì nói về cách NÃO xử lý thông tin, không phải chức năng của mắt." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Kết: thay vì là một giáo trình học thuật, Mapping the Mind giống bản đồ ở kiosk với dấu chấm đỏ \"you are here\", cho ta thấy hiện ta đang ở đâu trong hiểu biết về chính mình, và nét riêng là dùng chính bộ não để dẫn đường.",
+      "answers": [
+        { "q": 37, "ans": "A", "quote": "Mapping the Mind serves as a sort of kiosk map saying ‘you are here' with a big red dot. Mapping the Mind shows us where we are by giving us a snapshot of how we work.", "how": "A \"reveals our current position in terms of our knowledge of the brain\" ↔ \"shows us where we are\" + \"From our unique place in history\". B đảo ngược phép ẩn dụ (bản đồ để khỏi lạc, nhưng bài không nói người đọc bị lạc trong sách khác); C nhắc neo-cortex nhưng đó là công cụ ta dùng để nghiên cứu, không phải lý do gọi là kiosk map; D nói về hình minh họa, không liên quan phép so sánh này." }
+      ]
+    }
+  ],
+  "tips": [
+    "Đây là bài điểm sách nên gần như mọi câu đều hỏi đánh giá của người viết: hãy bám các tính từ khen chê (beautifully, pleasing, my favorite, danger often lurks) để nắm thái độ.",
+    "Bộ 38–40 chỉ có ba câu nhưng bảy phương án; ba phương án thừa (C, E, G) đều lấy ý có thật trong bài hoặc gần đúng, nên phải chọn phương án khớp CẢ vế đầu chứ không chỉ đúng nội dung chung.",
+    "Nhiều câu MCQ sai vì bẫy liên tưởng một từ: journalist → newspapers, enigmas → bí ẩn chưa giải, coffee table art book → sách trang trí. Luôn đọc trọn câu chứa từ đó trước khi chốt."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "step1": "Tiêu đề Inside the mind of a fan và sapo \"How watching sport affects the brain\" báo trước bài khoa học thần kinh: mở bài bằng Olympic và câu hỏi vì sao xem thể thao lại hấp dẫn → nghiên cứu trên khỉ (vỏ não tiền vận động) → mirror neurons → bằng chứng điện sinh lý (alpha, mu) → giả thuyết \"direct matching\" và học bằng cách quan sát → cảm xúc tập thể. Q27–32 (matching information) chỉ chốt được khi đọc xong từng đoạn; Q33–35 (MCQ) có từ khóa nên bám theo thứ tự bài; Q36–40 (Yes/No/Not Given) cũng chạy theo thứ tự đoạn B → D.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–32", "Matching information (A–F, NB dùng lại được)", "Không: phải đọc xong đoạn mới gán", "emotionally satisfying, beginners, combine with mirroring, human and animal, first discovery, observation to improvement"],
+    ["33–35", "Multiple choice (A–D)", "Có, theo thứ tự bài", "grammar of movement, expert players, most common motive for watching"],
+    ["36–40", "Yes / No / Not Given", "Có (từ khóa), theo thứ tự bài", "inexpert players, monkeys... than humans, photograph, Gastaut and Bert, mu system"]
+  ],
+  "typesNote": "Matching information không đi theo thứ tự và một chữ cái có thể dùng lại, nên cách an toàn là đọc hết một đoạn rồi quét cả sáu câu 27–32 xem câu nào khớp đoạn vừa đọc.",
+  "walk": [
+    {
+      "para": "Đoạn 1 (A)",
+      "idea": "Mở bài lịch sử: từ cuộc chạy 200 mét của Hy Lạp cổ đến Olympic hiện đại với 3,4 tỷ người xem, và đặt câu hỏi vì sao làm khán giả lại hồi hộp đến thế.",
+      "answers": [],
+      "note": "Đoạn A chỉ nêu bối cảnh và câu hỏi; không chứa đáp án nào, đừng mất thời gian tìm."
+    },
+    {
+      "para": "Đoạn 2 (B)",
+      "idea": "Nghiên cứu của ba nhà thần kinh học Ý trên khỉ: vỏ não tiền vận động lưu \"từ vựng\" động tác; người mới chơi golf vung gậy bằng ý thức, còn chuyên gia đã ghi nhớ động tác thành phản xạ.",
+      "answers": [
+        { "q": 28, "ans": "B", "quote": "To the novice, however, the skill of casting a smooth arc with a lop-side metal stick is virtually impossible. This is because most novices swing with their consciousness", "how": "\"beginners find sporting tasks difficult\" ↔ novice thấy động tác golf \"virtually impossible\" và lý do \"This is because...\" nằm ngay trong đoạn B." },
+        { "q": 33, "ans": "C", "quote": "there were groups of cells that ‘store vocabularies of motor actions'... there are grammars of movement. These networks of cells are the bodily", "how": "Tác giả dùng hình ảnh ngôn ngữ (vocabularies, grammars, sentences) để nói về \"networks of cells\" ↔ C \"a pattern of connected cells\". B sai vì đó chỉ là phép ẩn dụ, không phải hệ thống từ ngữ thật; A và D chỉ là ví dụ minh họa (golf swing)." },
+        { "q": 34, "ans": "A", "quote": "To the expert, on the other hand, a perfectly balanced stroke is second nature... He hits the ball with the tranquility of his perfected autopilot.", "how": "\"second nature\" và \"autopilot\" ↔ A \"without conscious thought\". B ngược lại (chính người mới mới dùng ý thức); C sai vì \"memorized\" hàm ý đã luyện nhiều; D không được nhắc." },
+        { "q": 36, "ans": "YES", "quote": "most novices swing with their consciousness, using an area of the brain next to the premotor cortex", "how": "\"too aware of what they are doing\" ↔ \"swing with their consciousness\"; đây là lời của chính tác giả nên YES." }
+      ],
+      "note": "Đoạn B là đoạn \"đa nhiệm\": chứa một câu matching, hai MCQ và một YNNG. Đọc xong đoạn hãy quét cả ba nhóm câu hỏi."
+    },
+    {
+      "para": "Đoạn 3 (C)",
+      "idea": "Đặt tên mirror neurons: tế bào hoạt động cả khi con khỉ tự làm động tác lẫn khi nó nhìn cá thể khác làm; hệ của con người còn tinh vi hơn, nhưng chỉ kích hoạt với động tác có mục đích.",
+      "answers": [
+        { "q": 30, "ans": "C", "quote": "they become active both when the monkey performs a particular action (for example, grasping an object or holding it) and, astonishingly, when it sees another individual performing a similar action... Humans have an even more elaborate mirror neuron system.", "how": "\"a comparison of human and animal mirror neurons\" ↔ đoạn C nói về khỉ rồi so sánh ngay với người bằng \"even more elaborate\"." },
+        { "q": 37, "ans": "NO", "quote": "Humans have an even more elaborate mirror neuron system.", "how": "Câu hỏi nói khỉ phức tạp hơn người; bài nói ngược lại, người \"even more elaborate\" → NO. Bẫy: đọc lướt thấy monkey đứng trước humans là tưởng đúng." },
+        { "q": 38, "ans": "NO", "quote": "If we are staring at a photograph, a fixed image of a runner mid-stride, our mirror neurons are totally silent.", "how": "\"Looking at a photograph can activate mirror neurons\" trái với \"totally silent\" → NO. Khung câu: mệnh đề điều kiện \"If we are staring at a photograph\" + phần giải thích chen giữa \"a fixed image of a runner mid-stride\" → mệnh đề chính \"our mirror neurons are totally silent\"; câu sau nói rõ chúng chỉ hoạt động \"when the runner is active\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 4 (D)",
+      "idea": "Bằng chứng điện sinh lý: hiện tượng phản chiếu thần kinh được Gastaut và Bert phát hiện lần đầu năm 1954; sóng mu im lặng cả khi ta vận động lẫn khi ta xem người khác vận động.",
+      "answers": [
+        { "q": 31, "ans": "D", "quote": "This phenomenon of neural mirror was first discovered in 1954, when two French physiologists, Gastaut and Bert, found that the brains of humans vibrate with two distinct wavelengths, alpha and mu.", "how": "\"the first discovery of brain activity related to mirror neurons\" ↔ \"was first discovered in 1954\". Bẫy: đoạn B cũng có năm 1996 của nhóm Ý, nhưng đó là phát hiện tế bào, còn \"first discovered\" là ở đoạn D." },
+        { "q": 39, "ans": "NOT GIVEN", "how": "Bài chỉ gọi họ là \"two French physiologists\"; không có thông tin nào nói họ cũng là người chơi thể thao → NOT GIVEN." },
+        { "q": 40, "ans": "YES", "quote": "It is active when your body is still, and disappears whenever we do something active, like playing a sport or changing the TV channel.", "how": "\"at rest when we are engaged in an activity\" ↔ \"disappears whenever we do something active\": tín hiệu mu biến mất, tức hệ mu nghỉ → YES. Chú ý đọc đúng chiều: mu hoạt động khi cơ thể bất động." }
+      ],
+      "note": "Câu 40 dễ chọn sai vì hai vế trong cùng một câu đối nghịch nhau (active when still / disappears when active). Hãy gạch chân chủ ngữ \"It\" = the mu system."
+    },
+    {
+      "para": "Đoạn 5 (E)",
+      "idea": "Giả thuyết \"direct matching\": ta hiểu động tác của vận động viên nhờ ánh xạ hình ảnh lên hệ vận động của mình; nhờ đó xem người giỏi giúp ta chơi giỏi hơn, và vận động viên xuất sắc cần cả khả năng tưởng tượng lẫn thể chất.",
+      "answers": [
+        { "q": 29, "ans": "E", "quote": "The best athletes are those with a premotor cortex capable of imagining the movements of victory, together with the physical properties to make those movements real.", "how": "\"a factor that needs to combine with mirroring\" ↔ \"together with the physical properties\": tưởng tượng động tác (mirroring) phải kết hợp với điều kiện thể chất." },
+        { "q": 32, "ans": "E", "quote": "watching a great golfer makes us better golfers, and watching a great sprinter actually makes us run faster", "how": "\"a claim linking observation to improvement in performance\" ↔ xem (observation) làm ta chơi tốt hơn (improvement). Cả 29 và 32 cùng rơi vào đoạn E – đúng với ghi chú \"NB You may use any letter more than once\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 6 (F)",
+      "idea": "Kết bài: phần lớn chúng ta xem thể thao vì cảm xúc và kịch tính con người, vì mirror neurons nối thẳng với amygdala nên cả một dân tộc cùng rung động như nhau.",
+      "answers": [
+        { "q": 27, "ans": "F", "quote": "This is because they are directly connected to the amygdala, one of the main brain regions involved in emotion.", "how": "\"why watching sport may be emotionally satisfying\" ↔ lời giải thích \"This is because... amygdala... involved in emotion\" cùng với \"Watching sports brings people together\"." },
+        { "q": 35, "ans": "C", "quote": "Rather, we watch sport for the feeling, the human drama.", "how": "\"the most common motive\" ↔ câu hỏi tu từ \"But how many of us regularly watch sports in order to be a better athlete?\" rồi \"Rather, we watch sport for the feeling\" → C. A chính là phương án bị bác bỏ; B gần đúng (\"brings people together\") nhưng bài không nhấn mạnh \"different nationalities\" là động cơ; D không phải động cơ chính." }
+      ],
+      "note": "Bẫy câu 35: A (\"improve personal performance\") đúng về mặt khoa học ở đoạn E nhưng không phải động cơ phổ biến nhất – tác giả phủ định nó ngay câu đầu đoạn F."
+    }
+  ],
+  "tips": [
+    "Với matching information, đừng scan từ khóa: hãy đọc xong một đoạn rồi tự hỏi \"đoạn này làm nhiệm vụ gì\" (nêu ví dụ, giải thích, so sánh, phát hiện đầu tiên) rồi mới gán chữ cái.",
+    "Nhiều câu ở bài này xoay quanh hai cặp đối lập: novice – expert (đoạn B) và active – still (đoạn D). Đọc sai chiều của cặp đối lập là mất điểm ngay.",
+    "Các mốc năm (1996 ở đoạn B, 1954 ở đoạn D) là bẫy định vị quen thuộc: \"first discovered\" luôn gắn với mốc 1954."
+  ]
+}

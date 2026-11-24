@@ -1,0 +1,69 @@
+{
+  "step1": "Tiêu đề The benefits of learning an instrument và sapo \"learning a musical instrument can bring about significant improvements in your brain\" cho biết bài tổng hợp nhiều nghiên cứu về lợi ích của việc học nhạc cụ, đặc biệt là lợi ích LÂU DÀI khi về già. Mạch dự đoán: bác bỏ niềm tin học nhạc làm trẻ thông minh hơn → lợi ích thật nằm ở tuổi già → Schlaug và chất xám → Hanna-Pladdy chia nhóm theo số năm học → Kraus và thính giác → Bugos dạy piano cho người 60–85. Q27–30 (TRUE/FALSE/NOT GIVEN) và Q31–35 (MCQ) bám hai đoạn đầu cùng đoạn 4; Q36–40 (nối kết thúc câu) gắn với từng nhà nghiên cứu.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–30", "True / False / Not Given", "Có (từ khóa), theo thứ tự bài", "parents, pre-school children's IQs, reasons people take up an instrument, long-term advantages"],
+    ["31–35", "Multiple choice (A–D)", "Có: đề nêu rõ \"first paragraph\", \"second paragraph\", \"this might well be the case\", follow-up study, general education", "first paragraph, second paragraph, this might well be the case, follow-up study, general education"],
+    ["36–40", "Matching sentence endings (A–F)", "Có: mỗi câu nêu đích danh một nhà nghiên cứu", "Hanna-Pladdy, Schlaug, Balbag, Kraus, Bugos"]
+  ],
+  "typesNote": "Vì Q36–40 gắn với tên riêng và các nhà nghiên cứu xuất hiện lần lượt từ đoạn 2 đến đoạn 6, cả ba dạng đều chốt được ngay tại đoạn đang đọc.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Niềm tin phổ biến rằng học nhạc cụ giúp trẻ thông minh hơn có thể chỉ là mơ tưởng: hai thử nghiệm rất thuyết phục cho thấy IQ của trẻ mẫu giáo học nhạc không khác biệt đáng kể so với trẻ không học.",
+      "answers": [
+        { "q": 27, "ans": "NOT GIVEN", "how": "Bài nói nhiều phụ huynh và chuyên gia TIN rằng học nhạc cụ mang lại lợi thế trí tuệ, nhưng không hề nói phụ huynh cho biết con họ VẤT VẢ khi học nhạc cụ. Bẫy: có đủ từ khoá \"parents\" và \"children\" ngay câu thứ hai." },
+        { "q": 28, "ans": "FALSE", "quote": "Two highly convincing trials carried out recently have found no evidence to support this idea.", "how": "Câu hỏi nói kết quả nghiên cứu về IQ trẻ mẫu giáo là \"unreliable\" (thiếu tin cậy); bài gọi hai thử nghiệm là \"highly convincing\" → mâu thuẫn trực tiếp nên FALSE. Bẫy: \"found no evidence\" dễ bị hiểu nhầm là nghiên cứu yếu, trong khi đó là KẾT QUẢ của nghiên cứu mạnh." },
+        { "q": 31, "ans": "D", "quote": "This may, however, turn out to be wishful thinking. Two highly convincing trials carried out recently have found no evidence to support this idea.", "how": "\"cast doubt on a belief\" ↔ \"wishful thinking\" + \"found no evidence to support this idea\" → D. A ngược hẳn. B là bẫy đánh tráo: bài nói NIỀM TIN của phụ huynh sai, không nói các nghiên cứu đưa ra thông tin sai lệch. C sai: lợi ích khác được nêu ở đoạn 2 và đã được nghiên cứu, không phải \"chưa khám phá\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Lợi ích thật của học nhạc cụ xuất hiện khi về già (chống suy giảm trí nhớ, nhận thức, thính lực), kể cả với người lâu không chơi hoặc mới bắt đầu ở tuổi trung niên; theo Hanna-Pladdy, chính thời gian học và luyện các dạng điều khiển và phối hợp vận động riêng biệt tạo ra lợi ích đó.",
+      "answers": [
+        { "q": 29, "ans": "NOT GIVEN", "how": "Bài nói lợi ích \"not limited to expressing yourself, impressing friends, or just having fun\", nhưng không nói đó là LÝ DO CHÍNH khiến người ta học nhạc cụ. Bẫy: ba cụm trong bài nghe rất giống \"enjoy playing music and being creative\" nhưng được nêu để BÁC BỎ việc giới hạn lợi ích, không phải để xếp hạng động cơ." },
+        { "q": 30, "ans": "TRUE", "quote": "A growing number of studies show that learning an instrument in childhood can do something perhaps more valuable for the brain: it can provide benefits as we age", "how": "\"Evidence about the long-term advantages ... is increasing\" ↔ \"A growing number of studies\" + \"benefits as we age\" → TRUE." },
+        { "q": 32, "ans": "A", "quote": "you may well get those benefits even if you haven't picked up your instrument in years, or decide to take up music for the first time in mid-life or beyond", "how": "\"even for those who begin learning in adulthood\" ↔ \"take up music for the first time in mid-life or beyond\" → A. B, C, D đều thêm điều kiện (kỹ thuật đúng, luyện đều đặn, chơi nhiều loại nhạc cụ) mà đoạn này không nêu." },
+        { "q": 36, "ans": "D", "quote": "the time spent learning and practicing specific types of motor control and coordination – each finger on each hand doing something different, and for wind and brass instruments also using your mouth and breathing – contributes to the brain boost that shows up later in life", "how": "\"the cognitive benefits ... are a result of\" ↔ \"contributes to the brain boost that shows up later in life\"; \"specific types of motor control and coordination\" ↔ D \"acquiring the particular set of physical skills needed to play an instrument\". Xương sống câu dài: WHO = the time spent learning and practicing specific types of motor control and coordination → DOES WHAT = contributes to the brain boost, phần giữa hai gạch ngang chỉ là ví dụ (ngón tay, miệng và hơi thở), có thể bỏ qua khi tìm nòng cốt." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Có thể thấy dấu vết của việc học nhạc trên chính bộ não: Schlaug thấy nhạc công chuyên nghiệp có nhiều chất xám hơn người không chơi nhạc, và 15 tháng học nhạc thời thơ ấu đã tạo thay đổi cấu trúc; Balbag nhấn mạnh chơi nhạc cụ huy động nhiều vùng não cùng lúc ở cả hai bán cầu.",
+      "answers": [
+        { "q": 37, "ans": "A", "quote": "Harvard neurologist Gottfried Schlaug found that the brains of adult professional musicians had a larger volume of grey matter than the brains of non-musicians had", "how": "\"focused on\" ↔ so sánh não nhạc công CHUYÊN NGHIỆP với não người KHÔNG chơi nhạc ↔ A (\"those who played for a living\" = professional musicians). Bẫy: ending E (tìm xem nhóm nào thành nhạc công giỏi nhất) không có trong bài." },
+        { "q": 38, "ans": "B", "quote": "What's unique about playing an instrument is that it requires a wide array of brain regions and cognitive functions to work together simultaneously, in both right and left hemispheres of the brain", "how": "\"is a unique experience because it involves\" ↔ đúng cụm \"What's unique about playing an instrument\"; \"a wide array of brain regions ... work together simultaneously\" ↔ B \"activating many different parts of the brain at the same time\"." }
+      ],
+      "note": "Hai nhà nghiên cứu nằm chung một đoạn: đọc hết đoạn rồi gán, đừng gán câu nói của Balbag cho Schlaug chỉ vì ông được nhắc trước."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Hanna-Pladdy chia 70 người 60–83 tuổi thành ba nhóm theo số năm học nhạc: nhóm học từ mười năm trở lên đạt điểm cao nhất; nghiên cứu theo dõi một năm sau còn gợi ý bắt đầu trước chín tuổi mang lại lợi ích lớn nhất, và nhóm học vấn thấp nhất có chênh lệch điểm lớn nhất.",
+      "answers": [
+        { "q": 33, "ans": "C", "quote": "with ripple effects through the decades ... More research is showing this might well be the case.", "how": "\"this\" trỏ ngược về câu cuối đoạn 3: chơi nhạc kích thích nhiều vùng não \"with ripple effects through the decades\" ↔ C \"a lasting impact on brain function\". A sai: bài nói về nhận thức/não, không phải sức khoẻ THỂ CHẤT. B đảo chiều nhân quả. D không được nói: bài không so sánh não người già với não trẻ em." },
+        { "q": 34, "ans": "B", "quote": "Her follow-up study a year later confirmed those findings and further suggested that starting musical training before the age of nine and keeping at it for ten years or more may yield the greatest benefits.", "how": "Điểm MỚI của nghiên cứu theo dõi nằm sau \"further suggested\": tuổi bắt đầu (\"before the age of nine\") ↔ B. A sai vì số năm đã có trong nghiên cứu đầu (ba nhóm chia theo số năm). C và D không xuất hiện." },
+        { "q": 35, "ans": "A", "quote": "it was the group who had the lowest level of general education which showed the greatest gap in scores ... musical training could have made up for the lack of cognitive stimulation these people had academically", "how": "\"compensates for an otherwise limited level of education\" ↔ \"made up for the lack of cognitive stimulation\" ở nhóm học vấn thấp nhất → A. C ngược hẳn (chênh lệch lớn nhất ở nhóm học vấn THẤP). B đổi chiều: nhạc bù cho học vấn chứ bài không nói nhạc cải thiện thành tích học tập. D sai vì trình độ học vấn RÕ RÀNG có tạo khác biệt." }
+      ],
+      "note": "Với câu hỏi dạng \"cái gì CÓ trong nghiên cứu theo dõi mà KHÔNG có trong nghiên cứu đầu\", hãy đối chiếu hai danh sách tiêu chí: nghiên cứu đầu chia theo SỐ NĂM, nghiên cứu sau thêm TUỔI BẮT ĐẦU."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Kraus đo hoạt động điện ở thân não thính giác của người 55–76 tuổi: dù đã 40 năm không chơi nhạc, ai từng học lâu nhất (4–14 năm) phản ứng nhanh nhất, điều này quan trọng vì nghe kém dần theo tuổi sẽ làm mất mạch hội thoại và dẫn tới cô lập xã hội.",
+      "answers": [
+        { "q": 39, "ans": "F", "quote": "Although none of the subjects had played a musical instrument in 40 years, those who had trained the longest – between four and fourteen years – responded the fastest.", "how": "\"a link between better hearing in later life and the experience of\" ↔ \"those who had trained the longest ... responded the fastest\" ↔ F \"having played an instrument for a considerable length of time\". Xương sống câu: mệnh đề nhượng bộ (Although none ... in 40 years) + WHO = those who had trained the longest → DOES WHAT = responded the fastest; chính phần nhượng bộ cho thấy lợi ích vẫn còn dù đã ngừng chơi rất lâu." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Bugos dạy piano sơ cấp cho người 60–85 tuổi: sau sáu tháng nhóm học piano tiến bộ rõ hơn về trí nhớ, lưu loát ngôn từ, tốc độ xử lý và khả năng lập kế hoạch; bà tin chơi nhạc cụ có ích bất kể bắt đầu ở tuổi nào.",
+      "answers": [
+        { "q": 40, "ans": "C", "quote": "assistant professor of music education Jennifer Bugos studied the impact of elementary piano instruction on adults between the ages of 60 and 85", "how": "\"study involved\" ↔ dạy đàn cho một nhóm người lớn tuổi rồi so với nhóm không học ↔ C \"teaching a group of older people to play an instrument\". Khác hẳn A (Schlaug: quét não, không dạy ai)." }
+      ]
+    }
+  ],
+  "tips": [
+    "Mỗi nhà nghiên cứu = một đoạn: chốt câu nối ngay khi đọc xong đoạn của người đó, đặc biệt ở đoạn 3 có tới hai người.",
+    "Hai câu NOT GIVEN (27 và 29) đều dùng lại nguyên từ khoá của bài nhưng đổi hướng: bài nói phụ huynh TIN gì, không nói con họ gặp khó; bài bác bỏ việc giới hạn lợi ích, không xếp hạng động cơ học nhạc.",
+    "Chú ý các cụm chỉ nguồn gốc kết luận: \"A growing number of studies\", \"Her follow-up study\", \"After six months\" đều đứng ngay trước câu chứa đáp án."
+  ]
+}

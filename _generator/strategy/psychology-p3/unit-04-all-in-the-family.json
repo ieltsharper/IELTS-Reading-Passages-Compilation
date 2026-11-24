@@ -1,0 +1,82 @@
+{
+  "step1": "Tiêu đề All in the family cùng sapo \"A person's brothers and sisters can have a powerful effect on their adult behaviour\" báo trước bài sẽ chứng minh ảnh hưởng của anh chị em: mở bài khẳng định anh chị em còn ảnh hưởng hơn cha mẹ → nghiên cứu về con đầu lòng và \"basking\" → ví dụ Piri Weepu và thứ tự sinh → cảm nhận bị đối xử thiên vị → mặt trái của việc được cưng → vì sao anh chị em ruột lại khác nhau → các mặt tích cực → gia đình nhỏ và nghiên cứu Mỹ 2010. Q27–30 (YNNG) nằm ở hai đoạn đầu, Q31–34 (MCQ) chỉ đích danh đoạn 3–6, Q35–40 (summary có bank từ) dồn ở hai đoạn cuối.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–30", "Yes / No / Not Given", "Có (từ khóa), ở phần đầu bài", "equal roles, first social relationships, gender, marry, parental basking"],
+    ["31–34", "Multiple choice (A–D)", "Có: đề nói rõ third / fifth / sixth paragraph và tên Claire Cartwright", "birth order, Claire Cartwright's clients, fifth paragraph, sixth paragraph"],
+    ["35–40", "Summary completion với bank từ A–K", "Có, theo thứ tự bài (hai đoạn cuối)", "Annette Henderson, Cambridge study, 2003, smaller families, 2010 American study, sister"]
+  ],
+  "typesNote": "Ba nhóm câu hỏi chia nhau ba phần bài theo đúng thứ tự, nên đọc đến đâu chốt đến đó là đủ, không cần quay lại.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Mở bài: cha mẹ cho gen và làm hình mẫu, nhưng anh chị em mới là người ảnh hưởng mạnh hơn đến con người trưởng thành của ta và là mối quan hệ bền nhất.",
+      "answers": [
+        { "q": 27, "ans": "NO", "quote": "Our parents provide the genetic material and make powerful early role models, but even more influential in determining what kind of adult we will become are our brothers and sisters - our siblings.", "how": "Câu hỏi nói cha mẹ và anh chị em có vai trò ngang nhau (\"equal roles\"); bài nói anh chị em \"even more influential\" → mâu thuẫn, NO. Khung câu đảo ngữ: vế đầu \"Our parents provide ... and make ...\", vế đối lập nối bằng \"but\" được đảo lên trước (\"even more influential ... are our brothers and sisters\"), chủ ngữ thật nằm ở cuối." },
+        { "q": 28, "ans": "NOT GIVEN", "how": "Bài nói anh chị em là \"the human beings who people our first social relationships\" nhưng không hề nhắc tới giới tính của người đó → NOT GIVEN. Bẫy: giới tính chỉ xuất hiện ở đoạn cuối (having a sister), không liên quan đến quan hệ xã hội đầu tiên." },
+        { "q": 29, "ans": "NOT GIVEN", "how": "Bài chỉ nói quan hệ anh chị em \"less emotionally intense than the bonds we form with our spouses\", tức cường độ cảm xúc, chứ không nói nó được quan tâm ít đi sau khi kết hôn → NOT GIVEN." }
+      ],
+      "note": "Ba câu đầu đều nằm trong đoạn 1 và đều là kiểu so sánh: hãy kiểm tra bài so sánh cái gì với cái gì trước khi kết luận."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Nghiên cứu của Gene Brody: con lớn học giỏi và được bạn bè quý khiến mẹ \"nở mày nở mặt\", lòng tự trọng tăng, từ đó nuôi dạy con nhỏ tích cực hơn.",
+      "answers": [
+        { "q": 30, "ans": "YES", "quote": "It is clear that in turn this is associated with more positive parenting of younger children, who display fewer behavioural problems as a result.", "how": "\"advantageous for later siblings\" ↔ \"more positive parenting of younger children\" và \"fewer behavioural problems\"; cụm \"It is clear that\" cho thấy chính người viết khẳng định → YES." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Ví dụ Piri Weepu bị anh trai vật từ năm bốn tuổi; thứ tự sinh quyết định vai trò (con đầu lãnh đạo, con giữa hòa giải, con út nổi loạn) và những vai này có thể theo suốt đời.",
+      "answers": [
+        { "q": 31, "ans": "B", "quote": "It starts with birth order, which determines play roles: the firstborn leader, the middle-child mediator and the rebellious youngest. These are roles that can stick for life.", "how": "\"stick for life\" ↔ B \"may shape the characteristics of adults\". A sai vì bài không nói cha mẹ đánh giá thấp; C ngược hẳn (vai trò kéo dài chứ không giảm); D là so sánh với gen mà bài không đưa ra ở đoạn này." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Claire Cartwright: nhiều thân chủ tin rằng mình bị đối xử khác và luôn bị phạt, dù điều đó có thể không đúng; sau này ở nơi làm việc họ dễ phòng thủ nên lại càng bị đánh giá khắt khe.",
+      "answers": [
+        { "q": 32, "ans": "C", "quote": "says she has clients who believe, and it might not have been true, that they were treated differently from their siblings", "how": "Cụm chen giữa \"and it might not have been true\" ↔ C \"perceptions of childhood may be inaccurate\". A quá chắc chắn (bài chỉ nói \"might not\"); B nói nhầm người gây ra (cha mẹ, không phải anh chị em); D không được nhắc." }
+      ],
+      "note": "Mệnh đề chèn giữa (\"and it might not have been true\") chính là chìa khóa của câu 32 – đừng đọc lướt qua dấu phẩy."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Được cưng cũng có cái giá: đứa con dễ bảo lớn lên khó quyết đoán với cấp trên, còn đứa hay quấy phá có thể biến tính cách tìm sự chú ý thành sự quyết tâm và khả năng lãnh đạo.",
+      "answers": [
+        { "q": 33, "ans": "C", "quote": "the sibling who is disruptive and annoying as a child may be able to reinterpret that role later, turning those attention-seeking characteristics into strengths like determination and leadership", "how": "\"turning ... into strengths\" ↔ C \"Negative characteristics in children can become positive in adults\". B đảo ngược (chính đứa được cưng lại khó quyết đoán); D sai vì đứa dễ bảo mới là người giỏi làm hài lòng sếp; A không có trong bài." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Vì sao anh chị em cùng DNA lại khác nhau: mỗi người lớn lên trong một \"vi văn hóa\" riêng, con đầu từng là con một, còn cha mẹ cũng thay đổi theo hoàn cảnh.",
+      "answers": [
+        { "q": 34, "ans": "D", "quote": "The parents themselves are growing up too, weathering hardship or good fortune, so one sibling might experience stability and closeness while another might be raised in the midst of crisis.", "how": "\"each sibling grows up in a different family, a unique micro-culture\" cộng với câu trên ↔ D \"The family environment may change over time\". C ngược với lập luận của đoạn (khác nhau là do môi trường, không phải bẩm sinh); A và B không phải ý chính. Khung câu: WHO + DOES WHAT = \"The parents themselves are growing up too\"; phân từ \"weathering hardship or good fortune\" bổ sung; vế kết quả nối bằng \"so\", bên trong lại có vế tương phản \"while another might be raised in the midst of crisis\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Mặt tích cực: con đầu học từ vựng nhanh hơn, em nhỏ học được cả cụm từ và khái niệm xã hội từ anh chị; nghiên cứu Cambridge (140 trẻ) cho thấy dù hay cãi nhau trẻ vẫn chơi tưởng tượng cùng nhau; nghiên cứu 2003 (185 gia đình) cho thấy trẻ tự làm mình khác đi thì nhân cách mạnh hơn.",
+      "answers": [
+        { "q": 35, "ans": "G", "quote": "younger children in turn benefit from unintentional instruction from their bigger brothers and sisters, acquiring entire phrases and an understanding of social concepts such as politeness", "how": "\"interactions with older siblings involve ___\" ↔ \"unintentional instruction\" (được dạy mà không cố ý) → G learning experiences." },
+        { "q": 36, "ans": "B", "quote": "even when there is a great deal of conflict, siblings will still create a rich world of play and make-believe that extends them developmentally", "how": "\"still enjoy ___ even when they have a tendency to fight\" ↔ \"play and make-believe\" → B imaginative games. C physical development là bẫy vì bài dùng \"developmentally\" nhưng theo nghĩa phát triển nói chung." },
+        { "q": 37, "ans": "F", "quote": "those who changed, to differentiate themselves from their siblings, increased the amount of warmth they gained from parents, and also developed stronger personalities and a better sense of their own identity", "how": "\"develop ___ as a result of seeking attention\" ↔ \"stronger personalities and a better sense of their own identity\" → F greater individuality. A parental love là bẫy vì bài cũng nói \"warmth they gained from parents\", nhưng chỗ trống hỏi cái trẻ phát triển ở bản thân." }
+      ],
+      "note": "Đoạn 7 rất dài và chứa ba đáp án liên tiếp cùng ba nghiên cứu khác nhau (Henderson, Cambridge, 2003). Hãy tách đoạn theo từng tên nghiên cứu."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Gia đình ngày nay nhỏ và gần gũi hơn nên anh chị em hiểu nhau và làm bạn suốt đời; nghiên cứu Mỹ 2010: có chị/em gái giúp trẻ 10–14 tuổi bớt cô đơn, sợ hãi, và có anh chị em yêu thương thì trẻ hay làm việc tốt.",
+      "answers": [
+        { "q": 38, "ans": "I", "quote": "siblings tend to know each other better and remain lifelong friends compared to children from bigger or more widely spaced families", "how": "\"today's siblings enjoy ___ as adults\" ↔ \"remain lifelong friends\" → I closer relationships. E strong marriages không hề được nhắc." },
+        { "q": 39, "ans": "K", "quote": "10- to 14-year-olds were less likely to feel lonely, unloved, self-conscious or fearful", "how": "Chỗ trống đi với \"among ___ children aged 10-14\" (câu hỏi in thiếu chữ): bớt cô đơn, bớt sợ hãi ↔ K mental well-being." },
+        { "q": 40, "ans": "D", "quote": "promoted good deeds, such as helping a neighbor around the house or helping other children at school", "how": "\"having a sibling may promote ___\" ↔ \"good deeds\" = hành vi rộng lượng, giúp đỡ người khác → D generous behaviour." }
+      ]
+    }
+  ],
+  "tips": [
+    "Câu hỏi MCQ ở bài này nói rõ số thứ tự đoạn (third, fifth, sixth), nên hãy chốt ngay khi đọc xong đoạn đó thay vì đọc hết bài rồi tìm lại.",
+    "Bank từ A–K có nhiều lựa chọn \"đúng một nửa\": parental love, physical development, strong marriages đều là từ lấy từ chi tiết lân cận. Luôn hỏi: chỗ trống nói về cái mà AI nhận được và nhận ĐƯỢC GÌ.",
+    "Với YNNG ở đoạn 1, bài toàn câu so sánh (more influential than, less emotionally intense than): sai chiều so sánh là sai đáp án."
+  ]
+}

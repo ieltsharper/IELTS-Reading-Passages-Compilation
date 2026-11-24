@@ -1,0 +1,71 @@
+{
+  "step1": "Tiêu đề chỉ gọn một chữ Willpower nên phải dựa vào câu mở đầu: bài sẽ bàn ý chí quyết định việc ta có theo đuổi được quyết định của mình hay không. Mạch bài đoán được: tầm quan trọng và những hiểu lầm → ý chí thực ra gồm những gì (delayed gratification) → vì sao người này nhiều ý chí hơn người kia (gen, glucose) → có cải thiện được không (Walton) → cách tăng ý chí (tránh cám dỗ, động lực bên trong, niềm tin) → vai trò của động lực và việc theo dõi tiến độ (Baumeister, Muraven). Q27–33 (TFNG) đi theo thứ tự ba đoạn đầu; Q34–39 (matching people) rải khắp đoạn 3–6; Q40 là câu NOT mentioned nên chỉ chốt sau khi đọc hết bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–33", "True / False / Not Given", "Có (từ khóa), theo thứ tự bài", "most significant factor, free time, diet and exercise, long-term rewards, genetic, stay the same, physical exercise"],
+    ["34–39", "Matching researchers (A–E, dùng lại được)", "Có: tên riêng rất dễ thấy trong bài", "Gailliot, Walton, Muraven, Job, Baumeister"],
+    ["40", "Multiple choice NOT mentioned", "Không: phải đọc xong cả bài mới loại trừ", "tiredness, delay pleasure, chemicals in our brains, trigger"]
+  ],
+  "typesNote": "Dạng matching người có tên riêng nên locate được ngay khi đọc tới tên đó; riêng Q40 là câu loại trừ nên để lại cuối cùng, sau khi đã gặp đủ các yếu tố được nhắc.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Ý chí không định hình quyết định nhưng quyết định việc ta theo đuổi được bao lâu; người dân cũng coi thiếu ý chí là rào cản lớn nhất, nhưng có nhiều hiểu lầm, ví dụ cho rằng nhiều thời gian rảnh sẽ có nhiều ý chí hơn.",
+      "answers": [
+        { "q": 27, "ans": "TRUE", "quote": "It almost single-handedly determines life outcomes.", "how": "\"the most significant factor in determining success in life\" ↔ \"almost single-handedly determines life outcomes\": một mình nó gần như quyết định → TRUE." },
+        { "q": 28, "ans": "FALSE", "quote": "There is a widespread misperception, for example, that increased leisure time would lead to subsequent increases in willpower.", "how": "Câu hỏi khẳng định người rảnh hơn thì ý chí tốt hơn; bài gọi đó là \"a widespread misperception\" (hiểu lầm phổ biến) → FALSE. Bẫy: nội dung mệnh đề sau \"that\" trùng y hệt câu hỏi, nếu bỏ qua chữ misperception sẽ chọn TRUE." }
+      ],
+      "note": "Khi bài dùng các từ misperception / misunderstanding / myth, nội dung ngay sau đó là điều SAI: câu hỏi nhắc lại nội dung ấy thì đáp án là FALSE."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Ý chí không chỉ là từ chối một món khoái khẩu: nó còn gồm vượt qua suy nghĩ tiêu cực, kiềm chế lời nói, kiên trì việc khó; cốt lõi là \"delayed gratification\".",
+      "answers": [
+        { "q": 29, "ans": "FALSE", "quote": "Yet willpower also involves elements such as overriding negative thought processes, biting your tongue in social situations, or persevering through a difficult activity.", "how": "Câu hỏi nói ý chí \"mostly applies to matters of diet and exercise\"; bài liệt kê hàng loạt lĩnh vực khác bằng \"Yet willpower also involves\" → FALSE. Ăn uống, tập gym chỉ là \"a common perception\"." },
+        { "q": 30, "ans": "TRUE", "quote": "At the heart of any exercise of willpower, however, is the notion of... which involves resisting immediate satisfaction for a course that will yield greater or more permanent satisfaction in the long run", "how": "\"the strongest indicator\" ↔ \"At the heart of any exercise of willpower\"; \"long-term rather than short-term rewards\" ↔ \"resisting immediate satisfaction\" để đổi lấy \"satisfaction in the long run\" → TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Nguồn gốc của khả năng trì hoãn vẫn là bí ẩn; mức ý chí nhìn chung ổn định suốt đời nhưng ngắn hạn thì dao động vì mệt mỏi, ăn uống, căng thẳng; nghiên cứu Gailliot cho thấy ý chí tiêu hao glucose máu nên hoạt động như một \"cơ bắp\".",
+      "answers": [
+        { "q": 31, "ans": "TRUE", "quote": "Scientists are making general investigations into why some individuals are better able than others to delay gratification and thus employ their willpower, but the genetic or environmental origins of this ability remain a mystery for now.", "how": "\"have studied the genetic basis\" ↔ các nhà khoa học đang nghiên cứu \"the genetic or environmental origins\" → TRUE. Chưa có kết luận không có nghĩa là chưa nghiên cứu: câu hỏi chỉ hỏi họ CÓ nghiên cứu hay không." },
+        { "q": 32, "ans": "TRUE", "quote": "levels of willpower typically remain consistent over time", "how": "\"usually stay the same throughout our lives\" ↔ \"typically remain consistent over time\", được củng cố bằng các nghiên cứu theo dõi từ nhỏ đến lớn → TRUE. Phần \"fluctuate dramatically\" nói về ngắn hạn nên không mâu thuẫn." },
+        { "q": 33, "ans": "NOT GIVEN", "how": "Bài có nhắc \"even in the absence of physical activity\" và các yếu tố fatigue, diet, stress, nhưng không nói tập thể dục đều đặn có cải thiện ý chí hay không → NOT GIVEN." },
+        { "q": 34, "ans": "A", "quote": "research by Matthew Gailliot suggests that willpower, even in the absence of physical activity, both requires and drains blood glucose levels", "how": "\"a key factor that is necessary for willpower to function\" ↔ \"requires ... blood glucose levels\" và \"like a muscle, requires fuel for optimum functioning\": glucose là nhiên liệu cần thiết → A." },
+        { "q": 36, "ans": "A", "quote": "willpower, even in the absence of physical activity, both requires and drains blood glucose levels, suggesting that willpower operates more or less like a", "how": "\"examined how our body responds to the use of willpower\" ↔ dùng ý chí làm hao hụt glucose máu, tức phản ứng của cơ thể → cũng là A (đề đã báo \"NB You may use some letters more than once\")." }
+      ],
+      "note": "Câu 34 dễ bị kéo sang E (Baumeister) vì đoạn cuối gọi động lực là \"a critical precursor\"; nhưng đáp án chính thức là A, gắn với glucose – thứ mà ý chí \"requires\" để vận hành."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Nếu ý chí ổn định từ bé thì cố cải thiện có vô ích không? Nghiên cứu Walton cho thấy chỉ một câu gợi ý bằng lời cũng làm thay đổi lớn, nên ý chí có thể được tăng cường bằng lời khích lệ hay tự nhủ tích cực.",
+      "answers": [
+        { "q": 39, "ans": "B", "quote": "made a profound difference in terms of how much willpower participants could draw upon to complete the activity... it appears that willpower can also be boosted by other prompts, such as encouragement or optimistic self-talk", "how": "\"willpower can increase through simple positive thoughts\" ↔ \"boosted by ... encouragement or optimistic self-talk\" sau một \"single verbal cue\"; người làm nghiên cứu là Gregory M. Walton → B." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Tăng ý chí theo hai hướng: giảm tác nhân xấu (cất kẹo vào ngăn kéo, \"out of sight, out of mind\") và tăng tác nhân tốt; Muraven thấy bị ép từ bên ngoài làm cạn ý chí nhanh hơn, Job thấy người tin ý chí là hữu hạn thì cạn sớm hơn.",
+      "answers": [
+        { "q": 35, "ans": "D", "quote": "Her research indicates that those who think that willpower is a finite resource exhaust their supplies of this commodity long before those who do not hold this opinion.", "how": "\"willpower is affected by our beliefs\" ↔ \"This idea that our mental convictions can influence willpower was borne out by Veronika Job\" → D. Khung câu: WHO + DOES WHAT = \"Her research indicates that...\"; chủ ngữ của mệnh đề that là \"those who think that willpower is a finite resource\" (mệnh đề quan hệ lồng), động từ chính \"exhaust their supplies\", rồi vế so sánh \"long before those who do not hold this opinion\"." },
+        { "q": 38, "ans": "C", "quote": "Mark Muraven found that those who felt compelled by an external authority to exert self-control experienced far greater rates of willpower depletion than those who identified their own reasons for taking a particular course of action", "how": "\"taking actions to please others decreases our willpower\" ↔ bị \"an external authority\" ép buộc thì \"greater rates of willpower depletion\" → C." }
+      ],
+      "note": "Đoạn 5 có tới ba cái tên/ý nghiên cứu nối nhau (nghiên cứu về kẹo, Muraven, Job). Gạch chân tên riêng ngay khi gặp để khỏi gán nhầm C và D."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Baumeister: thiếu ý chí không phải trở ngại duy nhất, động lực mới là điều kiện tiên quyết; Muraven nhấn mạnh việc theo dõi tiến độ, và khi ý chí cạn kiệt thì chỉ động lực cũng đủ giữ ta đi đúng hướng.",
+      "answers": [
+        { "q": 37, "ans": "C", "quote": "Muraven emphasises the value of monitoring progress towards a desired result, such as by using a fitness journal, or keeping a record of savings toward a new purchase", "how": "\"how important it is to make and track goals\" ↔ \"the value of monitoring progress towards a desired result\" → C (Muraven xuất hiện lần thứ hai)." },
+        { "q": 40, "ans": "C", "quote": "our ability to draw on willpower can fluctuate dramatically due to factors such as fatigue, diet and stress", "how": "Câu hỏi tìm yếu tố KHÔNG được nhắc. A có ở đoạn 3 (\"fatigue\"); B có ở đoạn 2 (delayed gratification); D có ở đoạn 5 (bát kẹo trên bàn làm việc). Chỉ còn C: bài chỉ nói tới glucose trong máu, không nói tới hóa chất trong não → C." }
+      ],
+      "note": "Với câu NOT mentioned, đừng tìm đáp án đúng mà hãy đánh dấu từng phương án đã gặp ở đoạn nào trong lúc đọc; cái còn trống chính là đáp án."
+    }
+  ],
+  "tips": [
+    "Bài dùng rất nhiều cặp \"quan niệm phổ biến – thực tế\": a widespread misperception (đoạn 1), a common perception (đoạn 2). Câu hỏi nhắc lại quan niệm sai thì đáp án là FALSE.",
+    "Phân biệt dài hạn và ngắn hạn ở đoạn 3: mức ý chí ổn định suốt đời (Q32 TRUE) nhưng dao động trong ngày vì mệt, đói, căng thẳng. Hai ý này không mâu thuẫn.",
+    "Matching người có hai tên lặp lại (Gailliot ở Q34 và Q36, Muraven ở Q37 và Q38): đọc kỹ \"NB You may use some letters more than once\" để không loại trừ sai."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "step1": "Tiêu đề Understanding symbols và sapo \"the difficulties children experience with symbols\" báo trước: bài kể chuỗi thí nghiệm của Judy DeLoache về việc trẻ chưa hiểu một vật có thể thay cho vật khác. Mạch dự đoán: mô hình phòng thu nhỏ → kết quả theo tuổi → tranh ảnh → đồ vật mini → dạy toán bằng khối → sách 3D. Q27–32 (MCQ) đi theo thứ tự bài từ đầu tới cuối; Q33–35 (nối kết thúc câu) gắn với ba thí nghiệm cụ thể; Q36–40 (YES/NO/NOT GIVEN) cũng chạy theo thứ tự.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–32", "Multiple choice (A–D)", "Có: đề chỉ rõ \"first paragraph\", \"fourth paragraph\", \"third experiment\", \"mathematical problem\", \"Chong\"", "first paragraph, fourth paragraph, third experiment, mathematical problem, DeLoache and Chong"],
+    ["33–35", "Matching sentence endings (A–F)", "Có: mỗi câu nêu đích danh một thí nghiệm", "9-month-old babies, third experiment, maths experiment"],
+    ["36–40", "Yes / No / Not Given", "Có (từ khóa), nhưng phải đọc hết đoạn mới chốt", "unexpected, drawings and photographs, used to failing, educational practice, enjoy 3-D books"]
+  ],
+  "typesNote": "Cả ba nhóm đều bám theo trình tự thí nghiệm trong bài, nên đọc tới thí nghiệm nào là chốt được cả MCQ lẫn câu nối lẫn YES/NO của thí nghiệm đó.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "DeLoache kể bước ngoặt bất ngờ: bà làm mô hình thu nhỏ của một căn phòng thật, giấu chó nhựa Little Snoopy trong mô hình rồi bảo trẻ đi tìm Big Snoopy trong phòng thật.",
+      "answers": [
+        { "q": 27, "ans": "D", "quote": "a child watched as we hid a miniature toy – a plastic dog we called Little Snoopy* – in the model. We then encouraged the child to find 'Big Snoopy', a large version of the toy, 'hiding in the same place in his big room'", "how": "Nhiệm vụ của TRẺ là tìm đồ chơi lớn trong phòng cỡ thật ↔ D \"locate a toy in a life-sized room\". A sai: không có việc tìm điểm khác nhau, bài còn nói mô hình giống hệt phòng thật. B sai: người làm mô hình là tác giả, không phải trẻ. C sai: người giấu đồ chơi là nhóm nghiên cứu và đồ chơi giấu trong mô hình là đồ chơi NHỎ." },
+        { "q": 36, "ans": "YES", "quote": "About 20 years ago I had one of those wonderful moments when research takes an unexpected but fruitful turn.", "how": "\"revealed unexpected information\" ↔ \"an unexpected but fruitful turn\"; chính tác giả khẳng định nên YES (xem thêm đoạn 3: bà nhận ra nghiên cứu trí nhớ hoá ra là nghiên cứu về biểu tượng)." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Trẻ 3 tuổi tìm được đồ chơi lớn sau ghế thật, còn trẻ 2 tuổi rưỡi thất bại thảm hại dù vẫn nhớ chỗ giấu trong mô hình.",
+      "answers": [
+        { "q": 28, "ans": "B", "quote": "After they observed the small toy being placed behind the miniature couch, they ran into the room and found the large toy behind the real couch.", "how": "Trẻ 3 tuổi suy ra vị trí trong phòng thật từ mô hình ↔ B \"mentally relate the two rooms\". A sai: nhóm 2,5 tuổi \"failed abysmally\". D là bẫy lớn nhất: bài nói rõ trẻ nhỏ VẪN NHỚ chỗ giấu (\"they remembered where the tiny toy was hidden\"), nên vấn đề không phải trí nhớ. C ngược với kết quả." }
+      ],
+      "note": "Bẫy trí nhớ: nghiên cứu khởi đầu là về trí nhớ nhưng kết luận lại không phải về trí nhớ."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Thất bại đó cho thấy trẻ chưa nắm được quan hệ mô hình – phòng thật, tức đây là nghiên cứu về hiểu biết biểu tượng, về thời điểm trẻ hiểu một vật đại diện cho vật khác.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Loại biểu tượng đầu tiên trẻ nắm được là tranh ảnh, nhưng trẻ sơ sinh bối rối vì tính hai mặt: vật biểu tượng vừa là vật thật vừa đại diện cho thứ khác.",
+      "answers": [
+        { "q": 29, "ans": "A", "quote": "The problem stems from the duality inherent in all symbolic objects: they are real in themselves and also representations of something else. A few years ago I became intrigued by anecdotes suggesting that infants do not appreciate this duality", "how": "\"serve a double purpose\" ↔ \"duality ... real in themselves and also representations of something else\"; trẻ \"do not appreciate this duality\" ↔ A \"unable to understand\". B ngược (\"No symbols seem simpler to adults, but infants initially find pictures perplexing\"). C sai: chuyện em bé thử nhặt đồ chơi trong tranh cho thấy trẻ CHƯA hiểu. D không được nói tới." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Thí nghiệm với trẻ 9 tháng: mọi bé đều quờ tay sờ, cào ảnh màu chân thực; nhầm lẫn này là về khái niệm chứ không phải tri giác, còn với tranh đen trắng thì trẻ hiếm khi sờ, và tới 18 tháng trẻ chỉ trỏ và gọi tên.",
+      "answers": [
+        { "q": 33, "ans": "E", "quote": "We began testing infants' understanding of pictures by putting a book of highly realistic colour photographs of individual objects in front of nine-month-olds.", "how": "\"attempted to find out\" ↔ mục đích \"testing infants' understanding of pictures\" ↔ E \"whether young children are puzzled by pictures\" (bài dùng \"infants initially find pictures perplexing\"). Ending A nói trẻ BA TUỔI, không khớp với 9 tháng." },
+        { "q": 37, "ans": "NO", "quote": "every child in the study reached out to feel or scratch the pictures ... However, when depicted objects bear little resemblance to the real thing – as in a black and white drawing – infants rarely explore them.", "how": "Câu hỏi nói trẻ phản ứng GIỐNG NHAU với bản vẽ và ảnh chụp; bài cho thấy ngược lại: sờ/cào ảnh thật nhưng \"rarely explore\" bản vẽ đen trắng → NO. Từ nối \"However\" chính là chỗ đánh dấu sự tương phản." }
+      ],
+      "note": "Phân biệt \"conceptual not perceptual\": trẻ NHÌN THẤY khác biệt giữa vật và tranh (tri giác tốt), chỉ chưa hiểu tranh là gì."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Tới tận bốn tuổi, nhiều trẻ vẫn nghĩ lật ngược bức tranh bát bỏng ngô thì bỏng ngô trong tranh sẽ rơi ra.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Thí nghiệm thứ ba: đồ chơi cỡ thật bị thay bằng bản mini, trẻ vẫn cố ngồi lên ghế hay trèo vào xe và gần như không phản ứng khi thất bại; điều này có hệ quả cho việc dạy học, nên nhóm đã dạy phép trừ khó bằng khối.",
+      "answers": [
+        { "q": 30, "ans": "D", "quote": "most of the children showed little or no reaction to their failed attempts", "how": "\"behaved the same whether they were successful or not\" ↔ \"little or no reaction to their failed attempts\". C là bẫy đảo nghĩa: trẻ KHÔNG bực bội. A sai vì hành vi lại rất dễ đoán (lặp lại hành động cũ). B không được nói." },
+        { "q": 34, "ans": "F", "quote": "Most children attempted to perform the same actions with the miniature items that they had with the larger ones.", "how": "\"revealed\" ↔ phát hiện của thí nghiệm: trẻ mong vật mini dùng được như vật cỡ thật ↔ F \"expect tiny objects to function in the same way as life-sized ones\"." },
+        { "q": 35, "ans": "D", "quote": "Teachers everywhere use blocks or other objects to represent numerical quantity. However, if young children do not understand the relation between an object and what it represents, this could be counterproductive. To demonstrate this, we taught six- and seven-year-olds a difficult subtraction problem using blocks.", "how": "\"was designed to assess\" ↔ \"To demonstrate this\": mục đích là kiểm chứng xem vật biểu tượng (khối) có hiệu quả khi dạy học không ↔ D. Xương sống câu dài: WHO = young children → DOES WHAT = do not understand the relation between an object and what it represents (mệnh đề điều kiện \"if\") → kết quả chính: this could be counterproductive." },
+        { "q": 38, "ans": "YES", "quote": "toddlers' daily lives are full of unsuccessful attempts to do one thing or another", "how": "\"are used to failing in many of the tasks they try to perform\" ↔ \"daily lives are full of unsuccessful attempts\"; đây là cách tác giả giải thích vì sao trẻ không phản ứng → YES." },
+        { "q": 39, "ans": "NO", "quote": "This confusion has implications for educational practice.", "how": "Câu hỏi nói sự nhầm lẫn \"has little significance for educational practice\"; bài khẳng định ngược lại là nó CÓ hệ quả → NO. Bẫy phủ định: chỉ cần một chữ \"little\" là đảo ngược cả câu." }
+      ],
+      "note": "Đoạn 7 rất dài và chứa tới năm đáp án của ba dạng khác nhau. Đọc hết đoạn rồi quét lại cả ba nhóm câu hỏi trước khi sang đoạn 8."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Nhóm đối chứng học cùng khái niệm bằng giấy bút: hai nhóm đều học được như nhau, nhưng nhóm dùng khối mất thời gian gấp ba lần.",
+      "answers": [
+        { "q": 31, "ans": "C", "quote": "Both groups learned to solve the problems equally well, but the group using blocks took three times as long to do so.", "how": "Dùng khối làm việc học chậm hơn gấp ba ↔ C \"can make it harder for children to learn new concepts\". B sai: nhóm giấy bút học TỐT. D ngược hẳn với kết luận. A không phải điều thí nghiệm muốn nói." }
+      ]
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Sách thiếu nhi 3D với các nắp gập có thể làm trẻ xao nhãng: trẻ 30 tháng học bằng sách chữ cái cũ kiểu 2D nhận ra nhiều chữ hơn nhóm dùng sách 3D.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Kết luận: trẻ tập trung dễ hơn với sách 2D phẳng, còn sách 3D khiến trẻ bị cuốn vào hoạt động; \"ít khi lại là nhiều\" với sách giáo dục cho trẻ nhỏ.",
+      "answers": [
+        { "q": 32, "ans": "C", "quote": "Less may be more when it comes to educational books for young children.", "how": "\"concludes\" ↔ câu chốt cuối bài; \"Less may be more\" + sách 2D giúp nhận nhiều chữ hơn ↔ C \"Simpler books may be better learning tools\". A và D ngược với kết quả; B không được nói tới (bài không bàn ảnh có chân thực hay không trong sách 2D)." },
+        { "q": 40, "ans": "NOT GIVEN", "how": "Bài chỉ so sánh KẾT QUẢ HỌC (nhận biết chữ) giữa hai loại sách, không nói trẻ THÍCH loại nào hơn. Bẫy: \"distracted by the 3-D activities\" dễ bị hiểu nhầm thành trẻ thích sách 3D hơn." }
+      ]
+    }
+  ],
+  "tips": [
+    "Mỗi thí nghiệm là một cụm đáp án: khi đọc xong một thí nghiệm, hãy chốt luôn MCQ + câu nối + YES/NO liên quan rồi mới đi tiếp.",
+    "Hai câu NOT GIVEN (40) và bẫy ở Q28 đều đến từ việc thêm so sánh hoặc đổi chủ thể. Hỏi lại: bài có nói về SỞ THÍCH hay chỉ nói về KẾT QUẢ?",
+    "Chú ý các từ nối báo tương phản: \"However\" (đoạn 5, đoạn 7) và \"but\" (đoạn 8) đều nằm ngay trước câu chứa đáp án."
+  ]
+}

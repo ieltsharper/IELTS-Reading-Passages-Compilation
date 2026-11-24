@@ -1,0 +1,92 @@
+{
+  "step1": "Tiêu đề Looking for inspiration và sapo \"what makes one person more creative than another\" cho biết bài đi tìm nguồn gốc của sự sáng tạo. Mạch bài dự đoán: sáng tạo khó nghiên cứu → IQ → tính cách → bệnh tâm thần → não mở với kích thích → sóng não khi sáng tác → giải phẫu não → kỹ năng và hoàn cảnh → quan hệ xã hội. Q27–32 (matching người) rải khắp bài theo tên riêng; Q33–36 (summary về Martindale) dồn ở hai đoạn giữa nói về thí nghiệm điện cực; Q37–40 (TRUE/FALSE/NOT GIVEN) đi theo thứ tự bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–32", "Matching features (người A–G)", "Có: scan tên riêng trong bài, nhưng phải đọc hết đoạn của người đó mới chốt", "Paul Torrance, Mark Runco, Kay Redfield Jamison, Jordan Peterson, Colin Martindale, Guy Claxton, Vera John-Steiner"],
+    ["33–36", "Summary completion (NO MORE THAN TWO WORDS)", "Có, theo thứ tự và chỉ nằm trong phần về Martindale", "Martindale, heads, stories, two stages, dreaming, relaxation, between the two phases"],
+    ["37–40", "True / False / Not Given", "Có (từ khóa), nhưng phải đọc kỹ cả đoạn", "very high IQs, aesthetic, disadvantages of creative personality, language skills, spatial awareness"]
+  ],
+  "typesNote": "Chỉ Q33–36 đi đúng thứ tự bài; Q27–32 phải chốt ngay khi gặp tên người trong lúc đọc, nếu để dành sẽ phải quay lại dò cả bài.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Con người suy nghĩ về sáng tạo từ lâu; ta chỉ biết khoảnh khắc loé sáng nên sáng tạo lâu nay né tránh nghiên cứu khoa học.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Đầu thập niên 1970 sáng tạo còn bị coi là một dạng trí thông minh, nhưng các bài test tinh vi hơn cho thấy liên hệ IQ – sáng tạo không đơn giản.",
+      "answers": [
+        { "q": 37, "ans": "FALSE", "quote": "Creative people are intelligent, in terms of IQ tests at least, but only average or just above. While it depends on the discipline, in general, having an IQ beyond a certain level does not help boost creativity.", "how": "\"very high IQs\" ↔ \"an IQ beyond a certain level\"; bài nói vượt một ngưỡng thì IQ KHÔNG giúp tăng sáng tạo, còn người sáng tạo chỉ có IQ trung bình hoặc nhỉnh hơn chút → câu hỏi mâu thuẫn nên FALSE, không phải NOT GIVEN. Bẫy: thấy chữ \"intelligent\" liền tưởng TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Vì khó nghiên cứu quá trình, các nghiên cứu sớm tập trung vào tính cách: theo Mark Runco, người sáng tạo coi trọng thẩm mỹ, có hứng thú rộng, thích phức tạp và rất tự thúc đẩy bản thân.",
+      "answers": [
+        { "q": 29, "ans": "B", "quote": "the creative personality tends to place a high value on aesthetic qualities and have broad interests", "how": "\"engage in, and are well informed about, a wide range of subjects\" ↔ \"have broad interests, providing lots of resources to draw on and knowledge\"; người phát biểu là Mark Runco → B." },
+        { "q": 31, "ans": "B", "quote": "They are also highly self-motivated, perhaps even a little obsessive, when it comes to realising their ambitions.", "how": "\"driven to achieve the goals they set for themselves\" ↔ \"highly self-motivated ... when it comes to realising their ambitions\"; vẫn trong lời Runco → B lần thứ hai (đề đã báo NB You may use any letter more than once)." },
+        { "q": 38, "ans": "NOT GIVEN", "how": "Bài chỉ nói CHÍNH NGƯỜI SÁNG TẠO đánh giá cao phẩm chất thẩm mỹ, không nói XÃ HỘI (society) đánh giá cao kỹ năng thẩm mỹ. Bẫy: trùng từ \"aesthetic\" nhưng chủ thể khác nhau." }
+      ],
+      "note": "Đoạn này chứa tới hai đáp án cho cùng chữ cái B. Khi một người được mô tả nhiều đặc điểm, hãy soát lại cả danh sách câu hỏi trước khi đi tiếp."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Tính cách sáng tạo có cái giá của nó: Jamison thấy nghệ sĩ thành danh dễ bị rối loạn tâm trạng, và chính sự chuyển đổi tâm trạng mới là ngòi nổ sáng tạo.",
+      "answers": [
+        { "q": 30, "ans": "C", "quote": "found that established artists are significantly more likely to have mood disorders", "how": "\"may have unstable personalities\" ↔ \"mood disorders\" (rối loạn tâm trạng = không ổn định); người nói là Kay Redfield Jamison → C." },
+        { "q": 39, "ans": "TRUE", "quote": "But there may be a price to pay for having a creative personality.", "how": "\"disadvantages\" ↔ \"a price to pay\"; chính người viết khẳng định, phần sau (bệnh tâm trạng) minh hoạ → TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Theo Jordan Peterson, não người sáng tạo cởi mở hơn với kích thích đi vào: họ có ít \"latent inhibition\" nên xử lý được nhiều dữ liệu hơn.",
+      "answers": [
+        { "q": 27, "ans": "D", "quote": "the brains of creative people are more open to incoming stimuli than less creative types ... people who have less of it, and who have a reasonably high IQ, can juggle more of the data", "how": "\"receptive to the immense amounts of information\" ↔ \"more open to incoming stimuli\" + \"juggle more of the data\"; chủ ngữ là Jordan Peterson → D. Xương sống câu dài: WHO = people who have less of it (ít latent inhibition) + and who have a reasonably high IQ (điều kiện thứ hai) → DOES WHAT = can juggle more of the data → kết quả: may be open to more ideas." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Martindale (1978) dùng điện cực da đầu ghi sóng não khi người ta nghĩ ra truyện: sáng tạo có hai giai đoạn, giai đoạn đầu não khá yên với sóng alpha.",
+      "answers": [
+        { "q": 33, "ans": "(scalp) electrodes", "quote": "he used a network of scalp electrodes to record the pattern of brain waves as people made up stories", "how": "\"placed on their heads ... to monitor brain activity while they made up stories\" ↔ \"a network of scalp electrodes to record the pattern of brain waves\"; chỗ trống sau \"a series of\" nên cần danh từ số nhiều." },
+        { "q": 34, "ans": "inspiration, elaboration", "quote": "Creativity, he showed, has two stages: inspiration and elaboration", "how": "\"consisted of ___ and ___ phases\" ↔ \"has two stages: inspiration and elaboration\"; hai chỗ trống điền đúng thứ tự trong bài." },
+        { "q": 35, "ans": "alpha waves", "quote": "The dominant activity was alpha waves", "how": "\"the brain was mostly inactive except for ___\" ↔ \"their brains were surprisingly quiet. The dominant activity was alpha waves\"; phần \"dreaming or rest\" xác nhận đúng chỗ." }
+      ],
+      "note": "Đáp án Q33 chấp nhận \"electrodes\" hoặc \"scalp electrodes\"; đừng viết \"network of scalp electrodes\" vì quá hai từ."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Khi bắt tay viết, sóng alpha giảm và não bận rộn hơn; ai chênh lệch hoạt động não giữa hai giai đoạn nhiều nhất thì cốt truyện sáng tạo nhất.",
+      "answers": [
+        { "q": 36, "ans": "difference", "quote": "it was the people who showed the biggest difference in brain activity between the two stages who produced the most creative storylines", "how": "\"the greatest ___ in brain activity between the two phases\" ↔ \"the biggest difference in brain activity between the two stages\"; \"greatest\" = \"biggest\", \"phases\" = \"stages\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Giải phẫu của sáng tạo: vùng hoạt động tuỳ kỹ năng chuyên biệt, nhưng sáng tạo thật sự đòi hỏi nhiều vùng não cùng hoạt động một lúc (Claxton).",
+      "answers": [
+        { "q": 28, "ans": "F", "quote": "Creative synthesis requires a new pattern, to put the brain in a state where many areas are simultaneously active", "how": "\"numerous parts of the brain to be active at the same time\" ↔ \"many areas are simultaneously active\"; câu này do Guy Claxton nói → F." },
+        { "q": 40, "ans": "NOT GIVEN", "how": "Bài chỉ liệt kê \"Imagery, spatial awareness, language, and so on\" như các kỹ năng khu trú ở những vùng não khác nhau, không hề so sánh cái nào quan trọng hơn. Bẫy: cả hai từ khoá đều xuất hiện nguyên văn trong bài." }
+      ],
+      "note": "Claxton xuất hiện ở cả đoạn 7 và đoạn 8; câu 28 lấy từ phát biểu ở đoạn 8, đừng vội gán cho Martindale chỉ vì đoạn 6–7 nói về não bộ."
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Sáng tạo thật sự còn cần kỹ năng, hoàn cảnh và môi trường xã hội: người sáng tạo tận dụng nhịp ngày, cuối tuần, kỳ nghỉ để đổi trạng thái não.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Khía cạnh hay bị quên là tương tác xã hội: theo John-Steiner, cần mạng lưới xã hội mạnh và quan hệ tin cậy, ít nhất một người không cho rằng mình điên.",
+      "answers": [
+        { "q": 32, "ans": "G", "quote": "to be really creative, you need strong social networks and trusting relationships, not just active neural networks", "how": "\"need support from others\" ↔ \"strong social networks and trusting relationships\"; người nói là Vera John-Steiner → G. Bẫy: cụm \"neural networks\" ở ngay đó dễ kéo ta về nhóm câu nói về não." }
+      ]
+    }
+  ],
+  "tips": [
+    "Với matching features, hãy chốt ngay tại đoạn vừa đọc: mỗi tên riêng chỉ xuất hiện trong một hai đoạn, bỏ qua là phải dò lại cả bài.",
+    "Hai câu NOT GIVEN (38 và 40) đều dùng đúng từ khoá của bài nhưng đổi chủ thể hoặc thêm phép so sánh. Hỏi: bài có SO SÁNH hay nói về XÃ HỘI không?",
+    "Paul Torrance (A) và Colin Martindale (E) là phương án thừa trong Q27–32: Torrance chỉ liên quan tới test, Martindale tới thí nghiệm sóng não đã dùng cho Q33–36."
+  ]
+}

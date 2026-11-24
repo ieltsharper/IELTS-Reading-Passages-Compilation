@@ -1,0 +1,75 @@
+{
+  "step1": "Tiêu đề When People Are 'Deaf' to Music gợi ngay chủ đề \"tone deaf\" – người không cảm nhận được âm nhạc. Đoán mạch bài: định nghĩa amusia (bẩm sinh và do tổn thương não) → nghiên cứu Peretz về cao độ → amusia chỉ riêng với âm nhạc, không liên quan ngôn ngữ → tìm vùng não → tác giả hoài nghi việc gọi đây là rối loạn → góc nhìn tiến hóa → kết luận: chỉ là một đầu của thang liên tục. Q27–31 (MCQ) chỉ rõ từng đoạn 1–4 nên locate được tuyệt đối; Q32–35 (YES/NO/NG) dồn vào ba đoạn cuối – phần ý kiến tác giả; Q36–40 (sentence endings) rải khắp bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–31", "Multiple choice (A–D)", "Có tuyệt đối: đề ghi rõ first/second/third/fourth paragraph", "first paragraph, second paragraph, language ability, third paragraph, fourth paragraph"],
+    ["32–35", "YES / NO / NOT GIVEN", "Có (từ khóa), nằm ở phần ý kiến tác giả (đoạn 5–7)", "Peretz convincing, happier, real disorder, bad handwriting"],
+    ["36–40", "Matching sentence endings (A–H)", "Một phần: theo thứ tự bài, bám các danh từ trong vế đầu", "born with amusia, difficulties, meaning in speech, reactions in the brain, most cultures"]
+  ],
+  "typesNote": "Vì Q27–31 ghi sẵn số thứ tự đoạn, hãy đọc từng đoạn rồi trả lời ngay câu MCQ của đoạn đó cùng với mọi câu 36–40 có bằng chứng trong đoạn; đến đoạn 5 trở đi mới chuyển sang bộ YES/NO/NOT GIVEN.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Âm nhạc là bản năng phổ quát của con người nhưng năng lực rất khác nhau; người \"tone deaf\" (amusia) không chỉ hát sai mà còn không phân biệt được cao độ và không nhận ra giai điệu quen thuộc; amusia bẩm sinh không gắn với tổn thương não, vấn đề thính lực hay thiếu tiếp xúc âm nhạc.",
+      "answers": [
+        { "q": 27, "ans": "D", "quote": "It is not simply that people with tone deafness (or \"amusia\") are unable to sing in tune, they are also unable to discriminate between tones or recognize familiar melodies.", "how": "Cấu trúc \"not simply ... they are also ...\" liệt kê ba khiếm khuyết ↔ D \"several inabilities in regard to music\". A sai vì đoạn nói amusia bẩm sinh \"not associated with any ... hearing problems\"; C sai ngược hẳn (họ KHÔNG nhận ra giai điệu quen thuộc); B nói về nghệ sĩ dương cầm tài năng – đó là nhóm đối lập." },
+        { "q": 36, "ans": "E", "quote": "recently research has been undertaken in an attempt to discover the cause of congenital amusia (when people are born with the condition)", "how": "Vế đầu \"The reason why some people are born with amusia\" ↔ \"the cause of congenital amusia\"; người ta vẫn đang \"in an attempt to discover\" nghĩa là chưa biết ↔ ending E \"not yet well understood\". Ending F (tổn thương ở người mẹ) là bẫy chữ \"brain damage\": bài nói amusia bẩm sinh KHÔNG liên quan tổn thương não." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Nghiên cứu của Peretz tóm lại: amusic phân biệt được hai cao độ cách xa nhau nhưng không nhận ra quãng nhỏ hơn nửa cung, không phát hiện nốt lạc điệu, và kém hẳn khi hát hoặc gõ nhịp theo giai điệu.",
+      "answers": [
+        { "q": 28, "ans": "B", "quote": "According to the research of Dr. Isabelle Peretz of the University of Montreal, amusia is more complicated than the inability to distinguish pitches.", "how": "Cả đoạn chỉ thuật lại các kết quả của Peretz ↔ B \"summarising some findings about people with amusia\". A sai vì đoạn không nói nguyên nhân; C sai vì tác giả chưa bình luận họ thiệt thòi (điều đó ở đoạn 6–7); D sai vì không so sánh khả năng hát với giác quan nào khác." },
+        { "q": 37, "ans": "C", "quote": "amusics perform significantly worse at singing and tapping a rhythm along with a melody than do non-amusics", "how": "Vế đầu \"One of the difficulties amusics experience\" ↔ \"perform significantly worse at\"; ending C \"an inability to follow the beat of music\" ↔ \"tapping a rhythm along with a melody\" (beat = nhịp). Ending A (không nghe được lên xuống trong lời nói) là bẫy vì nói về ngôn ngữ, mà đoạn 3 lại bảo điều đó không thành vấn đề." }
+      ],
+      "note": "Câu dài về cao độ nên tách: xương sống \"An amusic can distinguish between two pitches that are far apart, but cannot tell the difference between intervals smaller than a half step\"; vế \"while most people can easily distinguish differences smaller than that\" là mệnh đề đối chiếu với người thường."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Điều thú vị nhất: amusia chỉ riêng với âm nhạc – năng lực ngôn ngữ và âm nhạc độc lập nhau; người mất khả năng nói vẫn hát được, người nói tiếng thanh điệu không gặp khó, và amusic vẫn nhận ra tâm trạng của giai điệu, nhận ra giọng người quen và âm thanh môi trường.",
+      "answers": [
+        { "q": 29, "ans": "A", "quote": "People with brain damage in areas critical to language are often still able to sing, despite being unable to communicate through speech.", "how": "A \"People who are unable to speak can sometimes sing\" ↔ nguyên văn câu này (\"often still able to sing, despite being unable to communicate through speech\"). B trái ngược vì bài khẳng định \"language and music ability are independent\"; C là bẫy: bài chỉ nói người nói tiếng Trung không khó phân biệt từ khác ngữ điệu, không nói họ ít mắc amusia; D trái ngược vì amusic \"can identify a speaker based on his or her voice\"." },
+        { "q": 30, "ans": "C", "quote": "Amusics are also successful most of the time at detecting the mood of a melody", "how": "\"most amusics are able to\" ↔ \"successful most of the time\"; C \"distinguish a sad tune from a happy tune\" ↔ \"detecting the mood of a melody\". B và D trái ngược với đoạn 1–2 (không nhận ra giai điệu quen thuộc, không phát hiện nốt lạc điệu); A hoàn toàn không được nhắc tới." },
+        { "q": 38, "ans": "D", "quote": "The linguistic cues inherent in speech make discrimination of meaning much easier for amusics.", "how": "Vế đầu \"For amusics, discrimination of meaning in speech\" ↔ nguyên văn \"discrimination of meaning ... for amusics\"; \"much easier\" ↔ ending D \"not a problem\"." }
+      ],
+      "note": "Đoạn này là đoạn \"nặng\" với ba đáp án (29, 30, 38) và nhiều phương án bẫy lấy ngược lại từ đoạn 1–2. Mẹo: nhớ rằng cả đoạn chỉ chứng minh một điều – amusia KHÔNG lan sang ngôn ngữ hay âm thanh khác."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Việc truy tìm vùng não: từ thùy thái dương sang tân vỏ não thái dương, rồi các nghiên cứu mới cho thấy khiếm khuyết nằm ngoài vỏ não thính giác – não amusic không phản ứng với thay đổi nhỏ hơn nửa cung, còn với thay đổi lớn thì phản ứng gấp đôi bên phải.",
+      "answers": [
+        { "q": 31, "ans": "B", "quote": "Recent work has been focused on locating the part of the brain that is responsible for amusia.", "how": "Đoạn kể tuần tự các bước nghiên cứu (\"have been considered\" → \"researchers moved on to\" → \"New studies, however, have suggested\") ↔ B \"outlining progress in understanding the brains of amusics\". A trái ngược: bài kết luận khiếm khuyết nằm NGOÀI vỏ não thính giác; C sai vì không chứng minh được amusia nằm ở thùy thái dương; D không được bàn tới." },
+        { "q": 39, "ans": "G", "quote": "when changes in tones are large, their brains overreact, showing twice as much activity on the right side of the brain as a normal brain hearing the same thing", "how": "Vế đầu \"Certain reactions in the brain of an amusic\" ↔ \"their brains overreact\"; ending G \"more marked than with other people\" ↔ \"twice as much activity ... as a normal brain\". Chú ý \"certain\" (một số phản ứng) vì với thay đổi nhỏ thì não họ không phản ứng gì cả." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Tác giả (sinh viên sinh học thần kinh) tỏ ra hoài nghi: dù các nghiên cứu của Peretz là hợp lệ, vấn đề thật sự là thế nào là \"bình thường\" – mọi đặc điểm đều nằm trên một thang liên tục nên thiếu năng khiếu âm nhạc chưa chắc là bất thường.",
+      "answers": [
+        { "q": 32, "ans": "NO", "quote": "As a student of neurobiology, however, I am skeptical.", "how": "Câu hỏi nói nghiên cứu của Peretz \"is convincing\"; tác giả nói mình \"skeptical\" nên mâu thuẫn → NO. Bẫy: câu kế tiếp \"Certainly the studies by Peretz ... are legitimate\" dễ khiến chọn YES, nhưng hợp lệ về phương pháp khác với thuyết phục về kết luận \"amusia là rối loạn\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Góc nhìn tiến hóa: năng khiếu âm nhạc được văn hóa coi trọng và từng có thể giúp sinh tồn, nhưng ngày nay không còn bị chọn lọc nữa – ý Darwin về việc hát để tìm bạn đời đã lỗi thời trong thời đại iPod.",
+      "answers": [
+        { "q": 40, "ans": "B", "quote": "Musical ability is culturally valued", "how": "\"In most cultures\" ↔ \"culturally\"; ending B \"considered to be desirable\" ↔ \"valued\" (được coi trọng). Ending H (gắn với trí thông minh) là bẫy vì chữ \"intelligence\" có xuất hiện ở đoạn 5, nhưng chỉ như một ví dụ về thang liên tục." },
+        { "q": 33, "ans": "NOT GIVEN", "how": "Đoạn này so sánh amusic với thần đồng âm nhạc về mặt tiến hóa và giá trị văn hóa, nhưng không chỗ nào trong bài nói người có năng khiếu âm nhạc \"happier\" (hạnh phúc hơn). Bẫy: câu mở đoạn \"What makes an amusic worse off than a musical prodigy?\" là câu hỏi tu từ về thiệt thòi, không phải về hạnh phúc." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Kết luận của tác giả: amusia chỉ là một đầu của thang năng lực âm nhạc bẩm sinh; chưa chứng minh được nó gây bất lợi thì chưa thể gọi là khuyết tật, không khác gì ăn mặc vụng hay viết chữ xấu.",
+      "answers": [
+        { "q": 34, "ans": "YES", "quote": "it seems to be just one end of the continuum of innate musical ability ... Before amusia can be declared a disability, further research must be done to determine whether lack of musical ability is actually detrimental in any way.", "how": "\"inappropriate to consider amusia as a real disorder\" ↔ tác giả cho rằng nó chỉ là một đầu của thang liên tục và việc so sánh với rối loạn học tập là \"going too far\" → YES, khớp với thái độ \"skeptical\" ở đoạn 5." },
+        { "q": 35, "ans": "NOT GIVEN", "how": "\"bad handwriting\" có trong bài nhưng chỉ là phép so sánh để nói amusia không phải khuyết tật; bài không hề nói người amusia thường viết chữ xấu. Đây là bẫy kinh điển: từ khóa xuất hiện nguyên văn nhưng nội dung câu hỏi khác hẳn." }
+      ]
+    }
+  ],
+  "tips": [
+    "Q27–31 ghi sẵn thứ tự đoạn nên hãy đọc câu hỏi MCQ của đoạn TRƯỚC khi đọc đoạn đó; các phương án sai thường lấy ngược lại thông tin từ đoạn khác.",
+    "Nửa đầu bài là dữ kiện khoa học, nửa sau (đoạn 5–7) là ý kiến cá nhân của người viết; bộ YES/NO/NOT GIVEN chỉ hỏi ý kiến đó, nên đừng tìm chúng ở đoạn 1–4.",
+    "Khi một từ khóa của câu hỏi xuất hiện nguyên văn trong bài (bad handwriting, intelligence, brain damage), hãy kiểm tra xem nó đóng vai trò gì trong câu – rất nhiều trường hợp nó chỉ là ví dụ hoặc phép so sánh."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "step1": "Tiêu đề The Placebo Effect và sapo (\"your mind can convince the body to heal itself\") cho biết bài nói về sức mạnh của niềm tin trong chữa bệnh. Đoán mạch bài: \"công thức\" châm biếm để mở phòng khám thay thế → vì sao nó vẫn hiệu quả → định nghĩa placebo → cơ chế (endorphin) → thí nghiệm Benedetti → cách kích hoạt (màu sắc, thương hiệu) → thái độ bác sĩ → kết: người làm y học bổ sung giỏi nhất ở khoản này. Q27–31 (sentence endings) bám hai đoạn đầu; Q32–34 (MCQ) có chỉ dẫn đoạn/tên riêng; Q35–40 (YES/NO/NG) đi theo thứ tự nửa sau bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–31", "Matching sentence endings (A–H)", "Có, theo thứ tự bài (đoạn 1–3)", "appointment, explanation of treatment, faith in their treatment, patient's illness, conventional doctors"],
+    ["32–34", "Multiple choice (A–D)", "Có: câu 32 chỉ rõ \"third paragraph\", câu 33 có \"anger and sadness\", câu 34 có tên Benedetti", "third paragraph, anger, sadness, Benedetti, endorphins, naloxone"],
+    ["35–40", "YES / NO / NOT GIVEN", "Có (từ khóa), nhưng phải đọc hết câu mới chốt", "enough information, taken off the market, brands of headache tablets, chlorpromazine, Ernst, alternative practitioners"]
+  ],
+  "typesNote": "Cả ba dạng đều chạy theo thứ tự bài nên chỉ cần đọc một lượt: 27–31 nằm gọn trong ba đoạn đầu, 32–34 trong đoạn 3–5, 35–40 trong đoạn 4–8.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Tác giả đưa ra \"công thức\" châm biếm để tạo một liệu pháp thay thế: ấm áp, chạm vào người bệnh, mỗi buổi ít nhất nửa giờ, nói bằng từ quen thuộc pha chút huyền bí, và nhớ thu tiền cao.",
+      "answers": [
+        { "q": 27, "ans": "D", "quote": "each session with your patients should take at least half an hour", "how": "\"An appointment\" ↔ \"each session\"; ending D \"ought to last a minimum length of time\" ↔ \"should take at least half an hour\" (at least = tối thiểu)." },
+        { "q": 28, "ans": "A", "quote": "Describe your treatment in familiar words, but embroidered with a hint of mysticism", "how": "\"explanation of their treatment\" ↔ \"Describe your treatment\"; ending A \"should be easy to understand\" ↔ \"in familiar words\". Vế \"but embroidered with a hint of mysticism\" là vế tương phản thêm vào, không phủ định ý dễ hiểu." }
+      ],
+      "note": "Đoạn 1 có \"Get them to pay you well\" – nói về việc bệnh nhân trả tiền, nên ending C (\"can cost the patient less\") là bẫy ngược: bài nói đắt chứ không rẻ."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Công thức đó thật sự kiếm được tiền: nhiều bệnh tự khỏi nên người chữa được ghi công, nhưng một phần cải thiện là nhờ hiệu ứng placebo – thứ mà y học chính thống công nhận nhưng vẫn mơ hồ nước đôi.",
+      "answers": [
+        { "q": 29, "ans": "H", "quote": "And a very good living if you are sufficiently convincing or, better still, really believe in your therapy.", "how": "\"have faith in their treatment\" ↔ \"really believe in your therapy\"; ending H \"should be able to get a high income\" ↔ \"a very good living\"." },
+        { "q": 30, "ans": "B", "quote": "Many illnesses get better on their own", "how": "\"Quite often, a patient's illness\" ↔ \"Many illnesses\"; ending B \"can improve without treatment\" ↔ \"get better on their own\"." },
+        { "q": 31, "ans": "G", "quote": "a paradoxical force that conventional medicine recognizes but remains oddly ambivalent about: the placebo effect", "how": "\"Conventional doctors are aware of\" ↔ \"conventional medicine recognizes\"; \"remains oddly ambivalent\" cộng với \"its role is often neglected\" ở đoạn 3 cho thấy tác giả muốn placebo được công nhận nhiều hơn ↔ ending G." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Định nghĩa placebo: liệu pháp không tác động trực tiếp lên cơ thể nhưng vẫn hiệu quả nhờ niềm tin; nó là một phần mạnh mẽ của mọi hình thức chăm sóc y tế, chính thống hay không.",
+      "answers": [
+        { "q": 32, "ans": "D", "quote": "the placebo is a powerful part of all medical care, orthodox or otherwise, though its role is often neglected and misunderstood", "how": "\"a significant role in both alternative and conventional medicine\" ↔ \"a powerful part of all medical care, orthodox or otherwise\". A sai vì bài nói placebo \"applies just as much to any device or procedure\", không riêng viên thuốc; B sai vì không hề nói đây là loại điều trị mới; C là bẫy diễn giải: bài nói placebo hiệu quả nhờ bệnh nhân có niềm tin, chứ không so sánh bệnh nhân nào tin hơn." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Tâm trạng ảnh hưởng sinh lý là chuyện dễ hiểu (giận, buồn), nhưng cơ chế của placebo vẫn phần lớn chưa rõ; nghiên cứu ít ỏi tập trung vào kiểm soát đau và hướng tới endorphin.",
+      "answers": [
+        { "q": 33, "ans": "A", "quote": "our state of mind can influence our physiology: anger opens the superficial blood vessels of the face; sadness pumps the tear glands", "how": "Hai ví dụ đứng sau dấu hai chấm để minh họa câu \"state of mind can influence our physiology\" ↔ A \"personal feelings can alter our physical condition\". B sai vì bài nói đây là điều \"should come as no surprise\" chứ không phải khó giải thích; D sai vì không bàn tới việc khó kiểm soát phản ứng." },
+        { "q": 35, "ans": "NO", "quote": "But exactly how placebos work their medical magic is still largely unknown.", "how": "Câu hỏi: \"Scientists now have enough information to understand how the placebo effect becomes active\"; bài nói vẫn \"largely unknown\" và nghiên cứu còn \"scant\" (ít ỏi) → mâu thuẫn, chọn NO. Bẫy: đoạn 6 mở đầu \"they have accumulated a fair bit of knowledge\" nhưng đó là kiến thức về cách kích hoạt, không phải về cơ chế." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Benedetti chứng minh placebo giảm đau nhờ opiate tự nhiên: thay morphine bằng nước muối vẫn giảm đau, nhưng thêm naloxone chặn endorphin thì tác dụng biến mất.",
+      "answers": [
+        { "q": 34, "ans": "C", "quote": "when he added naloxone to the saline and blocked the endorphins, the pain relief disappeared", "how": "\"can be neutralised by introducing naloxone\" ↔ \"added naloxone ... and blocked the endorphins\". A sai: bài không nói endorphin \"widely used\" để điều trị (nó do não tự sản xuất); B sai vì không nói do ý chí; D sai vì không bàn thời gian tác dụng. Câu dài nên tách: xương sống \"the pain relief disappeared\", mệnh đề thời gian \"when he added naloxone ... and blocked the endorphins\" là điều kiện gây ra kết quả đó." }
+      ],
+      "note": "Chuỗi thí nghiệm có nhiều bước (morphine nhiều ngày → đổi sang saline → thêm naloxone); đọc theo trình tự thời gian, điều quyết định đáp án là bước cuối."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Đã biết khá nhiều về cách kích hoạt placebo: viên đỏ giảm đau tốt hơn, viên xanh làm thuốc an thần tốt hơn, và cả thương hiệu cũng tạo khác biệt.",
+      "answers": [
+        { "q": 36, "ans": "NOT GIVEN", "how": "Bài chỉ nói màu viên thuốc làm thay đổi hiệu quả, hoàn toàn không nhắc tới việc thuốc giảm đau nào bị rút khỏi thị trường (\"taken off the market\"). Bẫy: thấy \"painkillers\" và kết quả thí nghiệm thì vội suy diễn thêm hậu quả." },
+        { "q": 37, "ans": "YES", "quote": "if Aspro or Tylenol are what you like to take for a headache, their chemically identical generic equivalents may be less effective", "how": "\"Individual preference\" ↔ \"what you like to take\"; \"different brands of headache tablets\" ↔ Aspro/Tylenol so với generic; \"have an impact on the effectiveness\" ↔ \"may be less effective\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Cách trao thuốc cũng quan trọng: bác sĩ càng hào hứng thì thuốc càng hiệu quả, và khảo sát của Ernst cho thấy bác sĩ ấm áp, trấn an thì hiệu quả hơn bác sĩ lạnh lùng.",
+      "answers": [
+        { "q": 38, "ans": "YES", "quote": "a doctor in Kansas categorized his colleagues according to whether they were keen on it, openly skeptical of its benefits, or took a 'let's try and see' attitude", "how": "\"expressed a range of views\" ↔ ba nhóm thái độ (hào hứng / hoài nghi công khai / chờ xem); \"when it was first introduced\" ↔ \"when the major tranquilliser chlorpromazine was being introduced\"." },
+        { "q": 39, "ans": "NOT GIVEN", "how": "Bài chỉ nêu phát hiện của khảo sát Ernst (bác sĩ thân thiện thì hiệu quả hơn), không nói khảo sát đó tác động tới hành vi của bác sĩ. Bẫy: có tên Ernst và có kết luận rõ ràng nên dễ chọn YES; nhưng \"had a big influence on doctors' behavior\" là thông tin hoàn toàn mới." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Kết: chính những yếu tố trong \"công thức\" mở bài làm bệnh nhân ấn tượng, nên theo Kleinman, người làm y học bổ sung giỏi nhất trong việc huy động hiệu ứng placebo.",
+      "answers": [
+        { "q": 40, "ans": "YES", "quote": "complementary practitioners are generally best at mobilising the placebo effect", "how": "\"work in a way that is likely to trigger the placebo effect\" ↔ \"best at mobilising the placebo effect\"; \"Alternative practitioners\" ↔ \"complementary practitioners\" (bài dùng hai từ này cho cùng một nhóm)." }
+      ]
+    }
+  ],
+  "tips": [
+    "Đoạn 1 là một \"công thức\" viết ở dạng mệnh lệnh và mang giọng châm biếm; đừng tưởng tác giả thật sự khuyên bạn mở phòng khám – các đáp án 27, 28 vẫn lấy từ đây.",
+    "Hai câu NOT GIVEN (36, 39) đều có đủ từ khóa trong bài nhưng thêm một hệ quả mà bài không nêu (rút khỏi thị trường / ảnh hưởng tới hành vi bác sĩ). Hỏi \"bài có nói đúng điều này không?\" chứ không phải \"chủ đề có xuất hiện không?\".",
+    "Bài dùng lẫn lộn ba cách gọi cùng một nhóm: alternative medicine, complementary practitioners, non-conventional – nhận ra điều này giúp chốt nhanh câu 40."
+  ]
+}

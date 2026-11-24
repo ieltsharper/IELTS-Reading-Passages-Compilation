@@ -1,0 +1,77 @@
+{
+  "step1": "Tiêu đề The art of deception và sapo \"Do tiny changes of facial expression show whether someone is telling lies?\" cho thấy bài kể chuyện một nhà nghiên cứu (Paul Ekman) theo trình tự thời gian: câu hỏi khởi đầu → phát hiện micro-expression qua băng phỏng vấn → bốn thập kỷ chứng minh bảy cảm xúc phổ quát → ai nhận ra được và ai mời ông dạy → series truyền hình (lo ngại rồi đồng ý) → quan điểm của ông về nói dối. Q27–31 (MCQ) đi theo thứ tự đoạn 1–4; Q32–36 (summary + bank từ) nằm gọn ở hai đoạn về series TV; Q37–40 (True/False/Not Given) dồn ở đoạn cuối.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–31", "Multiple choice (A–D)", "Có, theo thứ tự bài; hai câu nói rõ số đoạn", "question from, 12-minute interviews, third paragraph, his tests, fourth paragraph"],
+    ["32–36", "Summary completion với bank từ A–I", "Có, theo thứ tự bài (phần về series TV)", "unenthusiastic, one day the programme, single person's, show's producer, overall"],
+    ["37–40", "True / False / Not Given", "Có (từ khóa), chủ yếu ở đoạn cuối", "regrets, good at lying, poker players, serious consequences"]
+  ],
+  "typesNote": "Cả ba nhóm chạy theo thứ tự bài nên chỉ cần đọc một mạch; riêng Q29 và Q31 đã chỉ đích danh \"third/fourth paragraph\" nên biết trước chỗ chốt.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Bốn mươi năm trước, Ekman được một nhóm bác sĩ tâm thần đang học việc hỏi: có cách nào chắc chắn biết bệnh nhân nói thật không – câu hỏi khiến ông theo đuổi suốt đời.",
+      "answers": [
+        { "q": 27, "ans": "C", "quote": "was addressing a group of young psychiatrists in training when he was asked a question", "how": "\"young psychiatrists in training\" = người đang được đào tạo ↔ C students. A peers sai vì họ chưa phải đồng nghiệp ngang hàng; B patients là bẫy vì bệnh nhân xuất hiện trong nội dung câu hỏi chứ không phải người hỏi; D teachers ngược vai (Ekman mới là người giảng)." }
+      ],
+      "note": "Bẫy \"patient\" nằm ngay trong cùng đoạn: \"a particular patient swears they are telling the truth\" – đó là ví dụ trong câu hỏi, không phải người đặt câu hỏi."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Nhờ xem lại băng phỏng vấn 12 phút ở tốc độ chậm, Ekman phát hiện một biểu cảm đau khổ chỉ kéo dài chưa tới 1/15 giây và đặt tên là micro-expression.",
+      "answers": [
+        { "q": 28, "ans": "B", "quote": "Then he slowed it down and looked again... he saw it: an intense expression of extreme anguish... very rapid intense demonstrations of emotion that the subject intended to be concealed", "how": "Các cuộc phỏng vấn 12 phút được nhắc đến để kể lại cách ông tìm ra khái niệm micro-expression ↔ B \"the origins of Ekman's theories\". A sai vì bài chỉ nói một bệnh nhân thú nhận nói dối, không bàn mức độ thường xuyên; C không có so sánh với nghiên cứu trước; D không nói việc quay phim ảnh hưởng hành vi bệnh nhân." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Suốt bốn thập kỷ, Ekman chứng minh ý tưởng của Darwin: cách biểu lộ bảy cảm xúc cơ bản là phổ quát, không phụ thuộc ngôn ngữ hay văn hóa, và không thể kìm nén.",
+      "answers": [
+        { "q": 29, "ans": "A", "quote": "The facial muscles triggered by those seven basic emotions are, he has shown, essentially standard, regardless of language and culture, from the US to Japan and Brazil to Papua New Guinea.", "how": "Ý chính đoạn 3 là tính phổ quát ↔ A \"common to all people\". B sai vì nghiên cứu mới xác nhận chứ không bác bỏ ý của Darwin; C ngược hẳn (\"impossible to suppress\"); D trái với việc bài rút ra kết luận chung. Khung câu dài: chủ ngữ \"The facial muscles\" + mệnh đề quan hệ rút gọn \"triggered by those seven basic emotions\" → động từ \"are ... essentially standard\", xen chú thích \"he has shown\"; sau đó là vế nhượng bộ \"regardless of language and culture\" và ví dụ liệt kê các nước." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "May cho kẻ nói dối: trong 15.000 người được thử chỉ có 50 \"naturals\" nhận ra được, nhưng ai cũng có thể học; FBI, CIA, luật sư, nhân viên y tế đều mời ông dạy.",
+      "answers": [
+        { "q": 30, "ans": "B", "quote": "Of the 15,000 Ekman has tested, only 50 people, whom he calls", "how": "\"only 50 people\" trên 15.000 người chưa qua huấn luyện ↔ B \"Few untrained people can detect lies\"; câu tiếp theo \"given a little more training, Ekman says, almost anyone can develop the skill\" khẳng định sự khác biệt giữa có và chưa huấn luyện. D sai hẳn vì chính 15.000 người này chưa được đào tạo; A và C không được nói tới." },
+        { "q": 31, "ans": "B", "quote": "he has been called in by the FBI and CIA (among countless more law enforcement and other agencies around the world), not just to solve cases, but to teach them how to use his techniques for themselves", "how": "Danh sách dài các cơ quan cộng với \"He has held workshops for defense and prosecution lawyers, health professionals, even jealous spouses\" ↔ B \"in great demand\". A sai (bài nói chỉ cần \"a little more training\"); C đảo ngược thái độ của các cơ quan; D ngược vì nghề nghiệp rất đa dạng." }
+      ],
+      "note": "Hai câu 30 và 31 cùng nằm ở đoạn 4 nhưng hỏi hai điều khác nhau: kết quả kiểm tra (ít người nhận ra) và mức độ được săn đón (nhiều nơi mời)."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Nghiên cứu của ông thành nền cho series về nhân vật hư cấu Cal Lightman; ban đầu Ekman hoài nghi vì sợ chương trình thổi phồng kỹ thuật, tạo ấn tượng sai và dẫn tới kết án oan.",
+      "answers": [
+        { "q": 32, "ans": "C", "quote": "create the quite inaccurate impression among audiences that criminals could no longer hope to get away with lying", "how": "\"encouraging viewers ___\" ↔ \"inaccurate impression among audiences\" = false beliefs (C). A consequences và B crimes là bẫy từ vựng cùng chủ đề nhưng không khớp \"impression\"." },
+        { "q": 33, "ans": "E", "quote": "he was concerned about unfair convictions, that one day someone not properly trained in his techniques might be sitting on a jury and wrongly find someone guilty of a crime", "how": "\"result in ___ not being carried out\" ↔ \"unfair convictions\" = công lý không được thực thi → E justice. Khung câu: WHO + DOES WHAT = \"he was concerned about unfair convictions\"; mệnh đề đồng vị bắt đầu bằng \"that\" giải thích rõ: \"someone not properly trained ... might be sitting on a jury and wrongly find someone guilty\", chốt bằng điều kiện mỉa mai \"simply on the basis of a television programme\"." }
+      ],
+      "note": "Chỗ trống 33 đi với \"not being carried out\" nên phải là một danh từ trừu tượng tích cực (justice), không thể là crimes."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Cuối cùng ông bị thuyết phục: lần đầu một phim truyền hình thương mại dựa trên công trình của một nhà khoa học duy nhất, chính ông tham gia duyệt kịch bản, và ông hài lòng với mức chính xác 80–90%.",
+      "answers": [
+        { "q": 34, "ans": "H", "quote": "a commercial TV drama has been based on the work of just one scientist", "how": "\"based on a single person's ___\" ↔ \"the work of just one scientist\" = research (H). G acting sai vì không nói về diễn xuất." },
+        { "q": 35, "ans": "D", "quote": "He was also impressed with the producer's manifestly serious and well-intentioned reasons for making the programme.", "how": "\"The ___ of the show's producer\" ↔ \"reasons for making the programme\" = động cơ → D motives." },
+        { "q": 36, "ans": "F", "quote": "he believes probably 80-90 per cent of the show is based on fact", "how": "\"the show's overall ___\" ↔ tỷ lệ dựa trên sự thật = độ chính xác → F accuracy. I ratings (tỷ suất người xem) là bẫy vì cũng là con số nhưng bài không nói về lượng khán giả." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Ekman tự nhận là kẻ nói dối tồi từ bé, khẳng định khả năng phát hiện và khả năng nói dối không liên quan nhau, từ chối dạy chính trị gia, và phân biệt \"true lie\" với diễn xuất, chơi bài hay lời tâng bốc.",
+      "answers": [
+        { "q": 37, "ans": "NOT GIVEN", "how": "Bài chỉ nói ông \"professes to have been a terrible liar ever since he was a small boy\" – tức nói dối dở, chứ không hề nói ông hối tiếc những lời nói dối thời bé → NOT GIVEN." },
+        { "q": 38, "ans": "FALSE", "quote": "the ability to detect a lie and the ability to lie successfully are completely unrelated", "how": "Câu hỏi nói hai khả năng đi cùng nhau; bài khẳng định \"completely unrelated\" → FALSE." },
+        { "q": 39, "ans": "NOT GIVEN", "how": "Người chơi poker chỉ được nêu làm ví dụ cho nhóm \"isn't a true liar\" (vì việc đánh lừa là một phần của trò chơi); bài không nói Ekman từng làm việc với họ → NOT GIVEN. Bẫy: thấy đúng từ \"poker player\" là vội chọn TRUE." },
+        { "q": 40, "ans": "TRUE", "quote": "He prefers to focus on the kinds of lies where the liar would be in grave trouble if they were found out", "how": "\"serious consequences\" ↔ \"in grave trouble if they were found out\" và \"the target would feel properly aggrieved\" → TRUE." }
+      ],
+      "note": "Đoạn cuối có ba câu hỏi liên tiếp dễ nhầm vì từ khóa (liar, poker, trouble) nằm sát nhau: hãy đối chiếu từng mệnh đề, không đọc lướt."
+    }
+  ],
+  "tips": [
+    "Hai NOT GIVEN ở đoạn cuối (Q37, Q39) đều là kiểu \"đúng từ khóa, sai nội dung\": bài có nhắc đến nói dối thời bé và người chơi poker nhưng nói về chuyện khác.",
+    "Với MCQ hỏi theo đoạn (\"in the third/fourth paragraph\"), hãy tóm ý chính của đoạn trước rồi mới nhìn bốn phương án – phương án sai thường lấy đúng chi tiết nhưng không phải ý chính.",
+    "Trong summary có bank từ, luôn xét từ loại và cụm đi kèm: \"result in ___ not being carried out\" chỉ hợp với justice, \"the show's overall ___\" chỉ hợp với accuracy."
+  ]
+}

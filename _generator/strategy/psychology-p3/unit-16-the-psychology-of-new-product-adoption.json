@@ -1,0 +1,83 @@
+{
+  "step1": "Tiêu đề The psychology of new product adoption và sapo (John Gourville giải thích vì sao người tiêu dùng không phải lúc nào cũng mua sản phẩm mới) cho biết bài đi theo mạch: số liệu về tỉ lệ thất bại của sản phẩm mới → vì sao cách giải thích thông thường quá đơn giản → lý thuyết \"relative advantage\" và lỗ hổng của nó → bốn đặc điểm của Kahneman & Tversky (loss aversion) → hai thí nghiệm (Thaler với cốc cà phê, Knetsch với cốc và sô cô la) → con người không tự biết thiên kiến của mình → nhà phát triển cũng thiên kiến. Q27–32 là MCQ theo thứ tự đoạn 1–6; Q33–35 (nối vế câu) dồn ở đoạn 3–4; Q36–40 (Yes/No/Not Given) trải từ đoạn 3 đến đoạn 8.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–32", "Multiple choice (A–D)", "Có: đề nói rõ đoạn/tên người", "first paragraph, second paragraph, Kahneman and Tversky, Richard Thaler, Jack Knetsch, second group"],
+    ["33–35", "Matching sentence endings (A–F)", "Có: mỗi vế đầu có một mốc rõ (relative advantage, Nobel 2002, first characteristic)", "relative advantage, 2002 Nobel Prize, first characteristic"],
+    ["36–40", "Yes / No / Not Given", "Có (từ khóa), nhưng phải đọc hết đoạn mới kết luận", "Everett Rogers, loss aversion, developers, product champion"]
+  ],
+  "typesNote": "Cả ba dạng đều đi theo thứ tự bài nên chỉ cần đọc một lượt: xong đoạn nào chốt ngay câu thuộc đoạn đó, không quay lại.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Sản phẩm mới thất bại với tỉ lệ rất cao (40–90%), và 47% công ty khởi nghiệp tiên phong sản phẩm mới về sau phá sản.",
+      "answers": [
+        { "q": 27, "ans": "A", "quote": "47% of the start-up companies that pioneered new products later went out of business altogether", "how": "\"47%\" ↔ \"almost half\"; \"went out of business\" ↔ \"collapse\". B sai vì bài không nói hàng đóng gói dễ thành công nhất (ngược lại: 70–90% biến mất trong 12 tháng). C là ý kiến bài không nêu. D là bẫy đảo ngược: bài nói công ty tung sản phẩm mới thành công thì dễ phát đạt hơn, chứ không xếp hạng công ty kém nhất." }
+      ],
+      "note": "Đoạn 1 đầy số liệu (40–90%, 30,000, 70–90%, 47%). Chỉ số 47% mới dùng để chọn đáp án; các số còn lại là bẫy nhiễu."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Cách giải thích quen thuộc (\"ý tưởng tồi nên tất yếu thất bại\") là quá đơn giản; phải đi vào tâm lý học về thay đổi hành vi.",
+      "answers": [
+        { "q": 28, "ans": "D", "quote": "But surely that's too simple an explanation.", "how": "\"too simple an explanation\" ↔ \"more complex than is commonly thought\". C sai vì bài hỏi ngược lại: \"why wasn't it obvious from the outset?\" tức là KHÔNG đoán trước được. A và B không được nhắc tới (bài còn nói cả chuyên gia lẫn người ngoài đều giải thích sai)." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Lý thuyết \"relative advantage\" của Everett Rogers cho rằng cứ vượt trội khách quan là người ta sẽ mua, nhưng nó bỏ qua thiên kiến tâm lý; Kahneman (Nobel 2002, cùng Tversky) chỉ ra bốn đặc điểm trong cách ta định giá lựa chọn.",
+      "answers": [
+        { "q": 33, "ans": "B", "quote": "they have only to develop innovations that are objectively superior to existing products, and consumers will have sufficient incentive to purchase them", "how": "Giả định của relative advantage: sản phẩm tốt hơn thứ đang có thì người tiêu dùng đủ động lực mua ↔ ending B \"always buy products that are better than those they already own\"." },
+        { "q": 34, "ans": "A", "quote": "won the Nobel Prize in economics for his research into the reasons why individuals deviate from rational economic behavior", "how": "\"deviate from rational economic behavior\" ↔ \"do not follow expected purchasing patterns\". Ending F (\"loss aversion\" đo được) thuộc thí nghiệm Thaler ở đoạn 5, không phải giải Nobel." },
+        { "q": 36, "ans": "NO", "quote": "the theory has one major flaw: it fails to capture the psychological biases that affect decision-making", "how": "Câu hỏi nói lý thuyết Rogers giải thích tâm lý đằng sau lựa chọn; bài khẳng định nó THẤT BẠI trong việc nắm bắt thiên kiến tâm lý nên mâu thuẫn → NO. Bẫy: từ \"compelling\" dễ làm ta tưởng người viết tán thành." }
+      ],
+      "note": "Câu dài then chốt: backbone = \"the theory has one major flaw\" (WHO: lý thuyết; DOES WHAT: có một lỗ hổng lớn); mệnh đề nhượng bộ \"Although compelling\" nhận một nửa (nghe thuyết phục) rồi lật lại; mệnh đề quan hệ \"that affect decision-making\" chỉ bổ nghĩa cho \"psychological biases\". Ý quyết định nằm ở backbone, không ở \"Although compelling\"."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Bốn đặc điểm: (1) đánh giá theo giá trị chủ quan, (2) so với sản phẩm đang sở hữu, (3) thiếu sót bị coi là mất mát, (4) loss aversion khiến ta coi trọng thứ đang có hơn thứ mới.",
+      "answers": [
+        { "q": 29, "ans": "A", "quote": "Second, consumers evaluate new products relative to the products they already own.", "how": "\"products they already own\" ↔ \"things they have bought previously\". B là đảo ngược trắng trợn (bài nói coi trọng thứ ĐANG CÓ hơn). C ngược với \"our desire to keep what we have is far greater\". D (giá cả) không có trong bốn đặc điểm." },
+        { "q": 35, "ans": "D", "quote": "people evaluate the attractiveness of an alternative based not on its objective or actual value, but on its subjective or perceived value", "how": "Đề hỏi \"first characteristic\"; \"subjective or perceived value\" ↔ \"have their own idea of the value of a product\"." },
+        { "q": 37, "ans": "YES", "quote": "Loss aversion leads people to value products they already possess more than those that they don't.", "how": "Coi trọng thứ đang có hơn thứ chưa có → đúng là lý do không mua sản phẩm mới; cả bài được dựng để trả lời câu \"Why don't consumers buy innovative products\" ở đoạn 2 → YES." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Thí nghiệm Thaler (1990): nhóm Sellers được cho cốc đòi giá ít nhất gấp đôi mức nhóm Choosers chịu trả, dù khách quan hai nhóm ở cùng tình huống.",
+      "answers": [
+        { "q": 30, "ans": "B", "quote": "the Sellers always demanded at least twice as much to give up the mugs as the Choosers would pay to obtain them", "how": "Đòi gấp đôi ↔ Sellers định giá cốc cao hơn Choosers. A sai: Choosers không phải đoán giá đúng mà chọn tiền hay cốc ở từng mức giá. C sai: không ai phải thuyết phục ai. D là bẫy đổi vai: Choosers không thực sự mua cốc của Sellers, đây là hai nhóm độc lập." }
+      ],
+      "note": "Các con số $7.12/$3.12 và $7/$3.50 chỉ minh họa; câu tổng kết \"at least twice as much\" mới là bằng chứng gọn nhất."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Thí nghiệm Knetsch (1989) về \"status quo bias\": sở thích ban đầu chia gần đều (56%/44%) nhưng chỉ 11% và 10% chịu đổi, tức khoảng 90% thấy việc từ bỏ thứ đang có là mất mát đau đớn.",
+      "answers": [
+        { "q": 31, "ans": "B", "quote": "He gave a second group the coffee mugs but later allowed each student to exchange their mugs for a chocolate bar.", "how": "Được cho cốc rồi sau đó được đổi lấy sô cô la ↔ \"choose between what they had and a new product\". A là nhóm thứ nhất (được chọn ngay từ đầu). C sai vì đổi chứ không giữ cả hai. D sai: \"allowed\" là được phép, không phải bị buộc trả lại." },
+        { "q": 32, "ans": "C", "quote": "only 11% of the students with mugs and 10% of those with chocolate bars wanted to exchange their products", "how": "11% và 10% muốn đổi → khoảng 90% không muốn ↔ \"almost all... unwilling to swap\". A sai vì bài nói \"However, in reality\", tức kết quả trái với logic. B sai: sở thích ban đầu 56% chọn cốc. D là bẫy lấy con số \"about half\" từ câu suy luận logic, không phải kết quả thật." }
+      ],
+      "note": "Phân biệt rõ con số giả định (\"about half... should have traded\") với con số thực tế (11%, 10%). MCQ hay bẫy đúng chỗ này."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Hầu hết mọi người không nhận ra mình có những thiên kiến đó; khi được chỉ ra họ còn sốc và phòng thủ.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Nhà phát triển cũng thiên kiến, nhưng nghiêng về sản phẩm mới: với họ sản phẩm mới là mốc tham chiếu, họ tin chắc nó hiệu quả; công ty gọi họ là \"product champions\" hay \"believers\".",
+      "answers": [
+        { "q": 38, "ans": "YES", "quote": "They're convinced that the product works and they are keenly aware of the shortcomings of existing alternatives.", "how": "\"convinced that the product works\" + \"biased - in favor of new products\" ↔ nhà phát triển luôn tin sản phẩm mới của mình sẽ thành công → theo key là YES." },
+        { "q": 39, "ans": "NOT GIVEN", "how": "Bài có nói \"Having worked on a new product for years\" nhưng không hề đánh giá rằng họ LÃNG PHÍ quá nhiều thời gian để hoàn thiện sản phẩm. Bẫy: \"for years\" khiến ta suy diễn thành \"waste too much time\"." },
+        { "q": 40, "ans": "NO", "quote": "Companies call those developers \"product champions\" or \"believers\", suggesting that they have embraced a world the rest of us haven't yet.", "how": "\"product champion\" là người tin tưởng và đã bước vào một thế giới người khác chưa chấp nhận, KHÔNG phải người tạo ra sản phẩm bán chạy → mâu thuẫn → NO." }
+      ],
+      "note": "Q38 hơi mạnh vì bài không dùng từ \"always\"; theo đề thi chính thức vẫn chọn YES vì cả đoạn khẳng định nhà phát triển thiên vị sản phẩm mới của mình."
+    }
+  ],
+  "tips": [
+    "Bài dày số liệu và hai thí nghiệm rất giống nhau (đều có coffee mug). Ghi nhanh bên lề: đoạn 5 = Thaler, Sellers vs Choosers; đoạn 6 = Knetsch, ba nhóm, status quo bias.",
+    "MCQ ở bài này chủ yếu bẫy bằng cách đảo chiều (new vs already own) hoặc lấy con số suy luận thay cho con số thực tế: luôn hỏi \"câu này nói ai coi trọng cái gì hơn?\".",
+    "Yes/No/Not Given bám theo ý NGƯỜI VIẾT: Rogers được khen \"compelling\" nhưng người viết kết luận là có \"one major flaw\", nên câu về Rogers là NO."
+  ]
+}

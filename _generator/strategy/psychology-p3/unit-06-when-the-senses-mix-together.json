@@ -1,0 +1,87 @@
+{
+  "step1": "Tiêu đề When the senses mix together và hai câu mở đầu (\"What is the colour of five?\") cho biết bài nói về synesthesia – hiện tượng các giác quan \"trộn\" vào nhau. Đoán trước mạch bài: định nghĩa → cảm nhận của chính người trong cuộc → lịch sử nghiên cứu (Locke, Kandinsky) → bằng chứng khoa học (Baron-Cohen) → thống kê → giả thuyết về não → hai thí nghiệm đối lập (Ramachandran và Smilek) → kết luận bỏ ngỏ. Q27–30 (matching người) dồn vào các đoạn có tên riêng; Q31–35 (matching information) rải khắp bài; Q36–40 (TRUE/FALSE/NG) đi theo thứ tự bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–30", "Matching findings with people (A–D)", "Có: bốn tên riêng Smilek, Locke, Baron-Cohen, Ramachandran", "Smilek, Locke, Baron-Cohen, Ramachandran, brain, consistent, musical instrument"],
+    ["31–35", "Matching information (đoạn A–I)", "Không: phải đọc xong đoạn mới gán được", "brain imaging, writer/novelist, definition, adults, secret"],
+    ["36–40", "TRUE / FALSE / NOT GIVEN", "Có (từ khóa), nhưng phải đọc hết câu mới chốt", "Kandinsky, mental illness, men and women, logic, at birth"]
+  ],
+  "typesNote": "Chỉ Q36–40 và Q27–30 là tìm được bằng từ khóa; Q31–35 phải vừa đọc vừa gán đoạn, nên hễ đọc xong một đoạn là tự hỏi \"đoạn này chứa thông tin nào trong 31–35?\" rồi chốt luôn.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Mở bài bằng hai câu hỏi lạ rồi định nghĩa synesthesia: nghĩa đen là \"joined sensation\", tình trạng khiến các giác quan \"rò rỉ\" sang nhau.",
+      "answers": [
+        { "q": 33, "ans": "A", "quote": "have synesthesia – meaning literally 'joined sensation' – an extraordinary condition that causes certain senses to 'leak' into one another", "how": "\"a definition of synesthesia\" ↔ \"meaning literally ... an extraordinary condition that causes ...\": đúng cấu trúc một định nghĩa (tên + nghĩa đen + mô tả)." }
+      ],
+      "note": "Đoạn 1 cũng nhắc \"colour in numbers\" nhưng đây là ví dụ minh họa, không phải thí nghiệm; đừng gán nhầm cho Q31."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Synesthetes phản ứng khác nhau: có người thích thú, có người giấu vì sợ bị cười; với nhà thần kinh học Smilek thì hiện tượng bất thường này mở ra hiểu biết mới về tri giác bình thường.",
+      "answers": [
+        { "q": 35, "ans": "B", "quote": "Others learn to keep it a secret for fear of people laughing at them.", "how": "\"a reason why some synesthetes do not tell people\" ↔ \"keep it a secret for fear of people laughing at them\": \"for fear of\" chính là lý do." },
+        { "q": 30, "ans": "A", "quote": "Synesthesia, because it's abnormal, can give us new insights into normal perception.", "how": "Câu hỏi: \"experience things differently\" ↔ \"because it's abnormal\"; \"fresh perspectives on how the senses usually work\" ↔ \"new insights into normal perception\". Người nói là Daniel Smilek nên chọn A." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Lịch sử: Locke là người phương Tây đầu tiên mô tả synesthesia; thế kỷ 19 các họa sĩ như Kandinsky say mê nó, rồi mọi người mất hứng thú cho tới khi kỹ thuật chụp não phát triển.",
+      "answers": [
+        { "q": 29, "ans": "B", "quote": "He wrote about a man who experienced bright red as the sound of the trumpet.", "how": "\"heard a particular musical instrument when he saw a certain colour\" ↔ \"experienced bright red as the sound of the trumpet\"; trumpet = nhạc cụ. \"He\" ở đây là Locke nên chọn B." },
+        { "q": 36, "ans": "TRUE", "quote": "who believed synesthetes were like good, much-played violins, which vibrate in all their parts and fibres", "how": "So sánh với \"good, much-played violins\" rung ở mọi thớ là lời khen, tức là ngưỡng mộ ↔ \"admired\". Bẫy: bài gọi Kandinsky là \"non-synesthete\", dễ khiến thí sinh nghĩ ông chê; nhưng điều đó chỉ nói ông không mắc chứng này." }
+      ],
+      "note": "Câu cuối đoạn nói \"advances in brain imaging have sparked renewed interest\" – mới chỉ là xu hướng chung, chưa phải \"an investigation\" cụ thể, nên chưa phải đáp án Q31."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Hai quan niệm sai đã bị bác bỏ: synesthesia không liên quan ảo giác của bệnh tâm thần, và thí nghiệm 1993 của Baron-Cohen (92% so với 37%) chứng minh đây không phải trí tưởng tượng phong phú.",
+      "answers": [
+        { "q": 28, "ans": "C", "quote": "synesthetes who, when tested, had linked particular colours or shapes to letters, gave the same answers in 92 per cent of instances when tested again a week later", "how": "\"consistent in their association\" ↔ \"gave the same answers ... when tested again a week later\"; \"a certain written symbol\" ↔ \"letters\". Thí nghiệm của Simon Baron-Cohen nên chọn C." },
+        { "q": 37, "ans": "TRUE", "quote": "Early claims that the multi-sensory experiences of synesthesia were linked with the hallucinations of mental illness have long been disproved.", "how": "\"no longer believed\" ↔ \"have long been disproved\": tuyên bố cũ đã bị bác bỏ từ lâu, tức hiện nay không còn tin nữa." }
+      ],
+      "note": "Câu dài của Q28 nên tách: xương sống là \"an experiment ... showed that synesthetes ... gave the same answers in 92 per cent of instances\"; mệnh đề chen giữa \"who, when tested, had linked particular colours or shapes to letters\" chỉ mô tả họ đã làm gì trước đó; \"when tested again a week later\" là điều kiện thời gian của lần kiểm tra lại."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Thống kê: phần lớn liên hệ màu – ký hiệu là riêng của từng người, phổ biến nhất là giữa âm thanh và màu sắc, và nữ mắc nhiều hơn nam từ hai đến tám lần.",
+      "answers": [
+        { "q": 38, "ans": "FALSE", "quote": "Women are between two and eight times more likely than men to have the condition.", "how": "Câu hỏi nói số nam và nữ ngang nhau; bài nói nữ cao hơn nam 2–8 lần nên mâu thuẫn → FALSE (không phải NOT GIVEN vì bài có nói rõ tỉ lệ)." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Chưa có lời giải, nhưng quét não 1995 của Baron-Cohen cho thấy khi nghe từ thì vùng não dành cho thị giác và màu sắc sáng lên; từ đó có giả thuyết ai cũng sinh ra với synesthesia rồi các kết nối bị tỉa bớt, và một giả thuyết đối lập là cơ chế vẫn còn nhưng bị kìm nén.",
+      "answers": [
+        { "q": 27, "ans": "C", "quote": "A brain scanning experiment by Baron-Cohen in 1995 found that when synesthetes were listening to words, areas of the brain lit up that are normally only active in response to vision and colour.", "how": "\"hearing the names of things\" ↔ \"listening to words\"; \"affects the brain in the same way that looking at things does\" ↔ các vùng \"normally only active in response to vision\" lại sáng lên. Chủ thể là Baron-Cohen → C." },
+        { "q": 31, "ans": "F", "quote": "A brain scanning experiment by Baron-Cohen in 1995", "how": "\"modern medical technology\" ↔ \"brain scanning\" (chụp não); \"an investigation\" ↔ \"experiment\". Đoạn 3 chỉ nói chung về \"advances in brain imaging\" nên không phải đáp án." },
+        { "q": 34, "ans": "F", "quote": "as we develop, connections are pruned, so our senses become separated and the synesthetic mechanism is no longer intact ... which suggests the mechanism is intact in adults but repressed", "how": "\"two different explanations of why synesthesia is uncommon in adults\": (1) kết nối bị tỉa bớt khi lớn lên; (2) cơ chế vẫn nguyên vẹn nhưng bị kìm nén. Cả hai đều nằm trong đoạn này." },
+        { "q": 40, "ans": "TRUE", "quote": "we may all have synesthesia at birth", "how": "\"It is possible that\" ↔ \"may\"; \"we are all born with\" ↔ \"we all have ... at birth\". Mức độ chắc chắn khớp nhau (cả hai đều là khả năng) nên TRUE." }
+      ],
+      "note": "Đoạn 6 là đoạn \"nặng\" nhất: chứa tới bốn đáp án (27, 31, 34, 40). Câu cuối có cấu trúc nhượng bộ \"It's an idea that has been challenged, however, on the grounds that if you give people certain drugs ...\" – xương sống: ý tưởng bị phản bác; lý do (on the grounds that) + điều kiện (if ... drugs) → kết luận \"the mechanism is intact in adults but repressed\". Đây chính là cách giải thích thứ hai của Q34."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Câu hỏi còn bỏ ngỏ: màu được kích hoạt do nhìn thấy con số hay chỉ do nghĩ tới nó? Thí nghiệm hai–năm của Ramachandran gợi ý rằng chính việc nhìn thấy mới quan trọng.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Ngược lại, Smilek chứng minh cái quyết định là ý niệm về con số: màu của tờ giấy xung khắc với màu của đáp án nhẩm trong đầu làm người thử phản ứng chậm hơn.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Kết luận bỏ ngỏ: chưa biết bên nào đúng, nhưng tương lai có thể giải thích não của những người như tiểu thuyết gia Nabokov.",
+      "answers": [
+        { "q": 32, "ans": "I", "quote": "the novelist Nabokov, who perceived the English 'a' as dark brown", "how": "\"a writer who was a synesthete\" ↔ \"the novelist Nabokov\" (novelist = nhà văn) cùng với mô tả ông thấy chữ cái có màu. Bẫy: đoạn 3 nhắc Locke là \"philosopher\" và Kandinsky là họa sĩ – không phải writer, và Kandinsky còn là non-synesthete." },
+        { "q": 39, "ans": "NOT GIVEN", "how": "Đọc hết chín đoạn không có chỗ nào so sánh khả năng logic (powers of logic) của synesthetes với người tri giác bình thường. Bài chỉ so sánh độ nhất quán của câu trả lời (92% so với 37%) – đó là trí nhớ/liên tưởng, không phải logic. Đây là bẫy số liệu: thấy hai con số so sánh thì vội chọn TRUE." }
+      ]
+    }
+  ],
+  "tips": [
+    "Đoạn A–I của câu 31–35 chính là đoạn 1–9: ghi sẵn chữ cái bên cạnh mỗi đoạn trước khi đọc để gán cho nhanh.",
+    "Hai thí nghiệm ở đoạn 7 và 8 (Ramachandran và Smilek) đối lập nhau nhưng không có câu hỏi nào; đừng mất thời gian đọc kỹ, chỉ cần nắm ý \"nhìn thấy\" hay \"nghĩ tới\".",
+    "Với matching người, tên riêng là mỏ neo: mỗi lần gặp một tên, dừng lại hỏi \"phát hiện của người này là gì?\" rồi đối chiếu ngay với 27–30, vì NB cho phép dùng lại chữ cái (ở đây C dùng hai lần)."
+  ]
+}

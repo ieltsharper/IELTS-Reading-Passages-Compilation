@@ -1,0 +1,76 @@
+{
+  "step1": "Tiêu đề Conformity và sapo \"A review of conformity and some of the studies that have been done on it\" cho biết bài đi theo lối: mở bài bằng ví dụ đời thường (trào lưu tuổi thơ, tiêu dùng) → định nghĩa conformity → lần lượt các nghiên cứu (Jennes, Asch) → lý thuyết ba quá trình của Kelman → kết luận. Vì vậy Q27–30 (Yes/No/Not Given) nằm ở phần mở đầu và phần định nghĩa; Q31–35 (tóm tắt về các nghiên cứu) nằm ở đoạn Jennes và Asch; Q36–40 (ghi chú về Kelman) nằm ở đoạn cuối phần lý thuyết.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–30", "Yes / No / Not Given", "Có (từ khóa), nhưng phải đọc hết đoạn mới kết luận", "crazes, items of any value, children... than they used to be, quick decisions in shops, Crutchfield"],
+    ["31–35", "Summary completion (ONE WORD ONLY)", "Có, theo thứ tự bài", "Jennes, container/guess, Asch, line lengths, colleagues, 32%"],
+    ["36–40", "Notes completion (ONE WORD ONLY)", "Có, theo thứ tự ba quá trình của Kelman", "compliance, research conducted by, majority view, identification, typical of"]
+  ],
+  "typesNote": "Cả ba nhóm đều chạy theo thứ tự bài, nên cứ đọc một mạch: hết đoạn nào chốt câu của đoạn đó, không quay lại.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Mở bài bằng trào lưu thời thơ ấu và ngành bán lẻ: conformity khiến người ta dễ dàng bị thuyết phục rằng phải có một món đồ nào đó.",
+      "answers": [
+        { "q": 27, "ans": "YES", "quote": "It may have been something as simple as a type of pen or as expensive as an electronic games console.", "how": "\"items of any value\" ↔ \"as simple as a type of pen\" (rẻ) đối lập \"as expensive as an electronic games console\" (đắt); tác giả cố ý nêu hai cực giá trị nên khẳng định là đúng." },
+        { "q": 28, "ans": "NOT GIVEN", "how": "Bài có nói trào lưu dễ lan \"especially in the young\", nhưng tuyệt đối không so sánh trẻ em hiện nay với trẻ em ngày trước. Bẫy: thấy \"young\" + \"craze\" là vội chọn YES." },
+        { "q": 29, "ans": "NOT GIVEN", "how": "Bài nói \"how easily we are persuaded that having certain items is the only way we can ensure peace of mind\" – tức dễ bị thuyết phục, chứ không nói người mua ra quyết định quá nhanh ở cửa hàng. Bẫy: suy diễn từ \"easily persuaded\" sang \"quick decisions\"." }
+      ],
+      "note": "Ba câu 27–29 đều nằm gọn trong đoạn 1. Nguyên tắc: bài chỉ nói điều gần giống thì vẫn là NOT GIVEN."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "So sánh hai định nghĩa: định nghĩa của Crutchfield chưa ổn, định nghĩa của Aronson tốt hơn vì áp lực thường chỉ là tưởng tượng.",
+      "answers": [
+        { "q": 30, "ans": "NO", "quote": "However, this implies that other people put pressure on us to make us conform and this is not always the case. A better definition is given by Aronson (1976)", "how": "Câu hỏi nói định nghĩa của Crutchfield \"the most reliable\"; tác giả lại chê (\"not always the case\") và gọi định nghĩa của Aronson là \"a better definition\" nên mâu thuẫn → NO. Khung câu dài: WHO + DOES WHAT = \"this implies that other people put pressure on us\"; mệnh đề mục đích \"to make us conform\"; rồi vế đối lập nối bằng \"and this is not always the case\" chính là chỗ tác giả phản bác." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Nghiên cứu Jennes (1932): ước lượng số hạt đậu trong chai, cuối cùng người tham gia vẫn giữ theo đáp án của nhóm.",
+      "answers": [
+        { "q": 31, "ans": "beans", "quote": "asked to estimate the number of beans in a bottle", "how": "\"guess how many ___ were in a container\" ↔ \"estimate the number of beans in a bottle\"; container là từ đồng nghĩa của bottle, chỗ trống cần danh từ số nhiều." },
+        { "q": 32, "ans": "group", "quote": "he asked them alone again and discovered that they had stayed with the group answer", "how": "\"people opted for an estimate given by a ___\" ↔ \"stayed with the group answer\"; chỉ ONE WORD nên viết group." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Giới thiệu nghiên cứu nổi tiếng nhất của Asch (1951): bố trí người thật ngồi cùng sáu stooges và yêu cầu so khớp độ dài các vạch.",
+      "answers": [
+        { "q": 33, "ans": "match", "quote": "asked them to match this in terms of length to one of the lines A, B or C", "how": "\"Asch asked his subject to ___ line lengths\" ↔ \"match this in terms of length\"; sau \"to\" cần động từ nguyên thể nên là match (không phải matching)." }
+      ],
+      "note": "Đoạn này chỉ mô tả cách bố trí thí nghiệm; kết quả (32%, cảm giác lo lắng) nằm ở đoạn sau."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Kết quả của Asch: 32% số lần người tham gia nói theo đáp án sai của nhóm, họ sợ gây rắc rối nhưng thấy lo lắng; Kelman nêu ba quá trình, đầu tiên là compliance.",
+      "answers": [
+        { "q": 34, "ans": "untrue", "quote": "The stooges gave untrue responses in a number of the trials", "how": "\"colleagues who gave ___ responses\" ↔ \"stooges gave untrue responses\"; stooges được bài giải thích là \"colleagues of the experimenter\". Đáp án cũng chấp nhận wrong vì bài dùng \"the wrong answer\"." },
+        { "q": 35, "ans": "anxious", "quote": "when they did give wrong answers, it made them anxious", "how": "\"admitted to feeling ___\" ↔ \"it made them anxious\"; cần tính từ nên là anxious, không phải anxiety." }
+      ],
+      "note": "Đừng điền \"problems\" cho câu 35: \"did not want to cause problems\" là lý do họ nói theo nhóm, còn cảm giác của họ mới là anxious."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Phân biệt ba quá trình của Kelman: compliance (đồng ý ngoài mặt, như trong nghiên cứu Asch), internalization (thật sự coi quan điểm nhóm là đúng hơn) và identification (đổi niềm tin để giống nhóm/thần tượng, hay gặp ở tuổi teen).",
+      "answers": [
+        { "q": 36, "ans": "Asch", "quote": "If we look back to the Asch study, we can see that the subjects were simply complying with the demands of the experimental situation but hadn't actually internalized the group's norms.", "how": "Ô \"Compliance\" trong bảng ghi chú cần tên người làm nghiên cứu minh họa ↔ \"the Asch study ... simply complying\". Khung câu: mệnh đề điều kiện \"If we look back to the Asch study\" → mệnh đề chính \"we can see that the subjects were simply complying\" → vế tương phản nối bằng \"but hadn't actually internalized\", tức đồng ý bên ngoài nhưng không đổi niềm tin bên trong." },
+        { "q": 37, "ans": "internalization", "quote": "In a process known as internalization, however, subjects do actually see the view of the group as the more valid one.", "how": "Đây là tiêu đề của quá trình thứ hai: \"People persuade themselves despite their own ideas\" ↔ tự thuyết phục mình rằng mắt mình kém. Viết đúng như bài: internalization (chấp nhận cả internalisation)." },
+        { "q": 38, "ans": "valid", "quote": "subjects do actually see the view of the group as the more valid one", "how": "\"Majority view is considered most ___ view\" ↔ \"the more valid one\"; đổi so sánh hơn sang so sánh nhất nhưng từ cần điền vẫn là valid." },
+        { "q": 39, "ans": "identification", "quote": "Kelman calls this identification.", "how": "Tiêu đề quá trình thứ ba: \"People change their ideas to those of the majority\" ↔ \"take on the group's values and beliefs, even if they are different to their own\"." },
+        { "q": 40, "ans": "teenagers", "quote": "It frequently happens with teenagers who want to become more like a peer group in order to be accepted", "how": "\"Typical of ___\" ↔ \"It frequently happens with teenagers\"; ONE WORD nên không viết \"peer group\"." }
+      ],
+      "note": "Thứ tự ô trống trong bảng không khớp thứ tự đọc: 36 và 38 thuộc hai quá trình khác nhau, còn 37 và 39 là tên của quá trình. Hãy bám vào ba từ khóa compliance – internalization – identification."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Kết bài: một số người tự tin nên không cần chạy theo số đông, nhưng phần lớn chúng ta có mức tự tin thay đổi theo ngày và theo hoàn cảnh.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Yes/No/Not Given ở bài này kiểm tra \"claims of the writer\": tác giả có chê định nghĩa Crutchfield (Q30 = NO), nhưng những gì bài chỉ gợi ý mà không nói thẳng (Q28, Q29) vẫn là NOT GIVEN.",
+    "Hai bài điền từ đều yêu cầu ONE WORD ONLY: cẩn thận dạng từ (match chứ không matching, anxious chứ không anxiety) và không ghép hai từ như \"group answer\" hay \"peer group\".",
+    "Bảng ghi chú của Kelman trình bày rối mắt; nhớ ba quá trình theo đúng mạch đoạn 5–6: compliance (Asch) → internalization (valid) → identification (teenagers)."
+  ]
+}

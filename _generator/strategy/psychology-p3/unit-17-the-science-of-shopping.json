@@ -1,0 +1,80 @@
+{
+  "step1": "Tiêu đề The Science of Shopping báo trước bài về \"khoa học\" thuyết phục người ta mua hàng trong siêu thị. Đoán mạch bài: vì sao các siêu thị giống nhau → cách bố trí lối vào (chill zone, rau quả tươi) → đặt hàng thiết yếu ở cuối cửa hàng → quầy bánh mì và mùi thơm → vị trí trên kệ (tầm mắt) → camera và phỏng vấn khách → fMRI đọc suy nghĩ thật → giới hạn của \"shopping science\". Q27–30 (MCQ) nằm ở đoạn 1–3 theo thứ tự; Q31–35 (Yes/No/Not Given) ở đoạn 5–6; Q36–40 (summary có tiêu đề về công nghệ mới) dồn hết ở đoạn 7.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–30", "Multiple choice (A–D)", "Có: đề chỉ rõ đoạn hoặc chi tiết", "first paragraph, chill zone, fruit and vegetables, third paragraph"],
+    ["31–35", "Yes / No / Not Given", "Có (từ khóa), nhưng phải đọc hết đoạn mới kết luận", "lower shelves, head offices, widespread agreement, security cameras, technology"],
+    ["36–40", "Summary completion từ bảng từ A–I", "Có, theo thứ tự và chỉ trong một đoạn", "fMRI, stated opinions, new products"]
+  ],
+  "typesNote": "Ba nhóm câu nằm gọn theo từng vùng của bài và đều theo thứ tự, nên đọc một lượt là chốt được hết; riêng Q36–40 chỉ cần xử lý khi tới đoạn 7.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Các siêu thị trông giống nhau không phải vì thiếu sáng tạo mà vì đều thành thạo \"khoa học\" thuyết phục người mua.",
+      "answers": [
+        { "q": 27, "ans": "B", "quote": "It is more that they are all well-versed in the science of persuading people to buy things", "how": "\"all well-versed in the science of persuading people\" ↔ \"share a similar understanding of consumer psychology\". A sai vì bài bác bỏ chuyện thiếu trí tưởng tượng chứ không khuyên họ khác biệt hơn. C và D là lời khuyên/chỉ trích người viết không đưa ra: công nghệ được nói là giúp ích, không phải bị lệ thuộc." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Khách cần vào tâm thế mua sắm từ từ nên có \"chill zone\"; rau quả tươi đặt ngay đầu là phi lý với người mua nhưng hợp lý về tâm lý vì tạo cảm giác tích cực.",
+      "answers": [
+        { "q": 28, "ans": "D", "quote": "People need to make a gentle start and take stock of the surroundings. This is why some supermarkets have a so-called ‘chill zone'", "how": "\"a gentle start\" + \"take stock of the surroundings\" ↔ \"slowly prepare themselves to go shopping\". A sai: không phải thời gian để quyết định mua gì. B sai: khu này không nói tới giá hời (\"bargains\"), chỉ có tạp chí, sách, DVD. C ngược hẳn vì khu này còn nhằm dụ mua bốc đồng (\"impulsive purchases\")." },
+        { "q": 29, "ans": "A", "quote": "selecting wholesome fresh food is an uplifting way to start shopping, and it makes people feel less guilty about reaching for the less nutritious stuff later on", "how": "\"uplifting way to start\" ↔ \"feel good about the first products they buy\". B là bẫy đảo ngược: bài nói trái cây dễ dập nên LÝ TƯỞNG là mua cuối, đặt đầu là bất lợi. C không được nói. D là bẫy tinh vi: cảm giác bớt tội lỗi khiến khách mua ĐỒ KÉM BỔ hơn ở các khu sau, chứ không phải chọn món lành mạnh hơn." }
+      ],
+      "note": "Đoạn này có hai vế đối lập: \"For shoppers, this makes no sense\" (góc nhìn khách) và \"But psychology is at work here\" (góc nhìn siêu thị). Chọn đáp án theo vế thứ hai."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Khách đã nhận ra hàng thiết yếu bị đặt ở cuối cửa hàng, nên siêu thị dùng chiêu khác (đặt hàng phổ biến ở giữa dãy) để kéo dài thời gian mua sắm.",
+      "answers": [
+        { "q": 30, "ans": "C", "quote": "Shoppers have worked out that everyday items, like milk, will invariably be placed in an aisle towards the back of a store", "how": "\"have worked out\" + \"supermarkets know shoppers know this\" ↔ khách biết một số chiêu của cửa hàng. A sai: mục tiêu kéo dài thời gian là của siêu thị, bài không nói khách không nhận ra mình ở lâu. B và D (khách thấy phiền, bối rối vì thay đổi bố cục) không hề được nêu." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Sau rau quả là quầy đồ chế biến, cá, thịt rồi lò bánh trong siêu thị; mùi bánh mới nướng làm khách đói và mua nhiều hơn.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Hàng hiệu đắt tiền đặt ngang tầm mắt, hàng rẻ để thấp; trụ sở quy định chi tiết vị trí, nhưng chuyện xếp kệ vẫn rất gây tranh cãi.",
+      "answers": [
+        { "q": 31, "ans": "YES", "quote": "stores encourage customers to buy expensive branded products by arranging them at eye-level, with cheaper ones lower down", "how": "Mục đích là đẩy hàng đắt lên tầm mắt, hàng rẻ xuống thấp → đúng là làm giảm khả năng hàng rẻ được mua → YES." },
+        { "q": 32, "ans": "NOT GIVEN", "how": "Bài chỉ mô tả trụ sở quy định vị trí và đi kiểm tra đột xuất (\"spot-checks\"), tuyệt nhiên không nêu ý kiến rằng họ NÊN linh hoạt hơn. Bẫy: \"instructions... to the letter\" nghe cứng nhắc nên dễ suy diễn thành lời chê." },
+        { "q": 33, "ans": "NO", "quote": "But shelf-positioning is extremely controversial.", "how": "\"extremely controversial\" và \"retailers have their own views\" ↔ KHÔNG có sự đồng thuận rộng rãi → mâu thuẫn với câu hỏi → NO." }
+      ],
+      "note": "Câu cuối đoạn: backbone = \"retailers have their own views\" (WHO: nhà bán lẻ; DOES WHAT: mỗi bên một quan điểm); mệnh đề nhượng bộ \"Despite all the academic papers written on how best to stack shelves\" cho thấy có rất nhiều nghiên cứu nhưng vẫn không thống nhất; câu kế \"While many stores consider eye-level..., others think a little higher is better\" là ví dụ cho sự bất đồng đó."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Camera an ninh nay dùng để phân tích hành vi chọn hàng, nhưng cách đơn giản là phỏng vấn khách lúc ra về mới cho biết vì sao họ ra về tay không: phần lớn vì \"không quyết định được\", không phải vì giá cao.",
+      "answers": [
+        { "q": 34, "ans": "NOT GIVEN", "how": "Bài nói camera làm nhiều hơn việc chống trộm và hình ảnh được đem phân tích, nhưng không hề bàn tới quyền riêng tư của khách hàng → NOT GIVEN. Bẫy: chủ đề giám sát dễ khiến ta tự thêm nhận định về privacy." },
+        { "q": 35, "ans": "NO", "quote": "However, despite the availability of sophisticated technology, researchers have found that simply talking to consumers as they exit the store can yield valuable insights.", "how": "Câu hỏi nói công nghệ là công cụ TỐT NHẤT để biết vì sao khách không mua; bài khẳng định ngược lại: dữ liệu điện tử \"tells them little about why so many customers leave without making a purchase\", còn phỏng vấn trực tiếp mới hé lộ lý do → NO." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Khách nói họ mua theo lý trí (giá, chất lượng, tiện lợi) nhưng máy quét fMRI cho thấy mâu thuẫn lớn giữa lời nói và suy nghĩ thật; 8/10 sản phẩm mới thất bại dù đã được thử nghiệm với người nói sẽ mua.",
+      "answers": [
+        { "q": 36, "ans": "G", "quote": "they make decisions about what to buy based on logic and common sense", "how": "\"logic and common sense\" ↔ G \"rational decisions\"; chỗ trống đứng sau \"the result of\" nên cần một danh từ chỉ kiểu quyết định." },
+        { "q": 37, "ans": "C", "quote": "such as certain feelings and memories which individuals are not fully aware of", "how": "\"not fully aware of\" ↔ \"unconscious\"; \"feelings and memories\" ↔ \"factors\" → C \"unconscious factors\". Chỗ trống là chủ ngữ số nhiều của \"influence\"." },
+        { "q": 38, "ans": "A", "quote": "scanners reveal their brain activity as they respond", "how": "Dữ liệu lấy từ máy quét não ↔ A \"brain scans\". D \"questionnaire\" là bẫy vì bài có \"asked questions about them\", nhưng vế so sánh kia (\"participants' stated opinions\") mới là phần hỏi đáp." },
+        { "q": 39, "ans": "H", "quote": "Often, major contradictions are apparent between what they say and what they are thinking.", "how": "Điều họ thật sự nghĩ xuất phát từ \"feelings\" vô thức nên khác hẳn lời nói ↔ H \"emotional reaction\" (phản ứng cảm xúc) \"radically different\"." },
+        { "q": 40, "ans": "E", "quote": "Eight out of ten new consumer products launched on the market do not succeed", "how": "8/10 không thành công ↔ \"most new products are failures\" → E. Bẫy I \"achievements\" là nghĩa ngược." }
+      ],
+      "note": "Summary này có tiêu đề riêng (\"New technology could help retailers sell more\") nên chắc chắn thuộc đoạn fMRI: thấy chữ fMRI là biết đã tới vùng của Q36–40."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Shopping science có giới hạn: theo Dr Eric Spangenberg, khó ép người ta mua thứ không cần, nhưng có thể khiến họ đổi nhãn hiệu mà không hay biết.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Nhiều câu Yes/No/Not Given ở bài này là NOT GIVEN vì người viết chỉ MÔ TẢ (trụ sở quy định vị trí, camera phân tích hành vi) chứ không ĐÁNH GIÁ. Hỏi lại: người viết có thật sự khen/chê điều này không?",
+    "Cảnh giác với bẫy đảo chiều: trái cây lý tưởng nên mua CUỐI nhưng được đặt ở ĐẦU; dữ liệu điện tử thì tinh vi nhưng phỏng vấn trực tiếp mới hiệu quả hơn.",
+    "Với summary từ bảng từ, xác định từ loại và vai trò của chỗ trống trước (chủ ngữ số nhiều, sau \"the result of\", sau \"data from\") rồi mới ghép nghĩa – cách này loại ngay các lựa chọn nhiễu như questionnaire hay procedure."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "step1": "Tiêu đề Blind to Change và sapo \"How much of the world around you do you really see?\" cho biết bài nói về việc ta thấy ít hơn mình tưởng. Đoán mạch bài: câu chuyện mở đầu (người lạ bị tráo sau cánh cửa) → khái niệm change blindness (Simons) → quan điểm cũ về thị giác → Dennett → Grimes → thí nghiệm màn hình → inattentional blindness → thí nghiệm người mặc đồ khỉ đột → hệ quả giao thông → Kosslyn → Rensink → O'Regan → Blackmore. Q27–30 (matching người) bám các đoạn có tên riêng; Q31–35 (TRUE/FALSE/NG) đi theo thứ tự bài; Q36–40 (sentence endings) rải khắp, nhiều câu phải suy luận.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–30", "Matching people with claims (A–G)", "Có: bốn tên riêng Dennett, Grimes, Kosslyn, O'Regan", "Dennett, Grimes, Kosslyn, O'Regan"],
+    ["31–35", "TRUE / FALSE / NOT GIVEN", "Có (từ khóa), theo thứ tự bài", "regret/publication, insignificant items, save lives, aging, eyes in motion"],
+    ["36–40", "Matching sentence endings (A–G)", "Một phần: chỉ 36 và 38 có từ khóa rõ; 37, 39, 40 phải suy ra ý tổng quát", "concentrating, visual errors, fail to see clearly, we see everything, research into human vision"]
+  ],
+  "typesNote": "Q27–30 và Q31–35 chốt được ngay khi đọc tới đoạn tương ứng; Q36–40 là dạng trừu tượng nên vừa đọc vừa đánh dấu những câu mang ý khái quát (\"This is disconcerting\", \"Our impression ... is just that\") để ghép ở cuối.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Câu chuyện mở đầu: khi bạn chỉ đường, hai người khiêng cánh cửa đi qua và người hỏi đường bị thay bằng người khác hẳn về chiều cao, vóc dáng, quần áo mà bạn không nhận ra.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Simons: 50% người tham gia không nhận ra việc tráo người – đó là \"change blindness\"; cùng với nhiều thí nghiệm gần đây, nó cho thấy ta thật ra rất chọn lọc, chỉ lấy vài chi tiết rồi dựa vào ký ức hay tưởng tượng cho phần còn lại.",
+      "answers": [
+        { "q": 39, "ans": "A", "quote": "Our impression of seeing everything is just that.", "how": "Vế đầu \"The idea that we see everything in our visual field\" ↔ \"Our impression of seeing everything\"; \"is just that\" nghĩa là nó chỉ là cảm tưởng, trong khi \"a large number of recent experimental results\" chứng minh ngược lại ↔ ending A \"is not backed by scientific evidence\"." },
+        { "q": 40, "ans": "C", "quote": "When considered with a large number of recent experimental results, this phenomenon suggests we ‘see' far less than we think we do.", "how": "\"Research into the nature of human vision\" ↔ \"a large number of recent experimental results\"; ending C \"has been especially fruitful in recent times\" ↔ \"recent\" + hàng loạt kết quả mới. Ending E (gây tranh luận công chúng) là bẫy: bài không nói tới phản ứng của công chúng." }
+      ],
+      "note": "Hai đáp án 39 và 40 đều nằm ở đoạn này nhưng đứng cuối bộ câu hỏi; theo kỹ thuật one-shot thì chốt luôn, đừng để dành đến cuối bài."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Quan niệm cũ: thị giác là tạo ra hình ảnh chi tiết trong não rồi so sánh theo thời gian; Dennett trong Consciousness Explained lại cho rằng não chỉ lưu vài chi tiết then chốt.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Theo Dennett, dựng hình ảnh tỉ mỉ trong trí nhớ ngắn hạn sẽ ngốn tài nguyên nhận thức, nên ta chỉ ghi cái đã thay đổi và mặc định phần còn lại giữ nguyên, do đó tất yếu bỏ sót chi tiết.",
+      "answers": [
+        { "q": 27, "ans": "C", "quote": "creating elaborate images in short-term memory would consume valuable cognitive resources", "how": "Ending C \"Retaining every image and memory would hinder our ability to function effectively\" ↔ \"consume valuable cognitive resources\", kết hợp với đoạn 3 \"our brains only store a few key details ... which is why we can function effectively\". Ending E (hiểu sai vì dựa vào tưởng tượng) là bẫy vì \"imagination\" xuất hiện ở đoạn 2 – đó là lời Simons, không phải Dennett." },
+        { "q": 32, "ans": "TRUE", "quote": "we tend to ignore elements in our visual field that seem unimportant, such as a repeated word or line in a text", "how": "\"insignificant items that come into our view\" ↔ \"elements in our visual field that seem unimportant\"; \"overlook\" ↔ \"ignore\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Grimes cho thấy người xem ảnh cảnh thiên nhiên trên máy tính không nhận ra thay đổi xảy ra lúc mắt đang quét cảnh hoặc chớp; Dennett tiếc vì đã không mạnh dạn hơn.",
+      "answers": [
+        { "q": 28, "ans": "A", "quote": "failed to notice changes made while their eyes were, for example, scanning the scene or blinking", "how": "Ending A \"changes that happen during eye movements\" ↔ \"while their eyes were ... scanning the scene or blinking\". Người làm thí nghiệm là John Grimes nên 28 = A." },
+        { "q": 31, "ans": "TRUE", "quote": "In hindsight, I wish I had been bolder, as the effects are more pronounced than I originally claimed.", "how": "\"expressed regret\" ↔ \"I wish I had been bolder\"; \"underemphasized his argument in a publication\" ↔ \"more pronounced than I originally claimed\" (lời khẳng định trong cuốn Consciousness Explained ở đoạn 3). \"In hindsight\" = nhìn lại thì." }
+      ],
+      "note": "Câu của Dennett nên tách: xương sống \"I wish I had been bolder\" (tiếc), mệnh đề nguyên nhân \"as the effects are more pronounced than I originally claimed\" giải thích vì sao tiếc."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Sau đó người ta phát hiện mắt không cần chuyển động cũng bị đánh lừa: ảnh biến mất rồi hiện lại với một thay đổi lớn mà nhiều người mất cả phút, thậm chí không bao giờ, mới thấy.",
+      "answers": [
+        { "q": 35, "ans": "FALSE", "quote": "our eyes don't even need to be moving to be deceived", "how": "Câu hỏi nói mắt chỉ bị đánh lừa khi đang chuyển động (\"only at risk ... when they are in motion\"); bài nói ngược lại nên FALSE. Bẫy: đoạn 5 vừa nói về mắt đang quét/chớp, nếu dừng ở đó sẽ chọn TRUE – chính đoạn 6 mới phủ định." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Change blindness trong phòng thí nghiệm hơi nhân tạo vì ngoài đời thường có chuyển động báo hiệu thay đổi; nhưng không phải lúc nào cũng vậy – \"inattentional blindness\" là không nhận ra một đặc điểm khi ta không chú ý tới nó.",
+      "answers": [
+        { "q": 36, "ans": "D", "quote": "‘Inattentional blindness' refers to not noticing a feature of a scene when you aren't paying attention to it.", "how": "Vế đầu \"Concentrating on a particular aspect of an activity or scene\" ↔ mặt trái của câu này: chú ý vào chỗ này thì không nhận ra đặc điểm chỗ kia ↔ ending D \"causes us to overlook other details\"; ví dụ bỏ lỡ đèn giao thông vì nhìn đi chỗ khác củng cố điều đó." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Thí nghiệm đếm đường chuyền bóng rổ: 40% không thấy người mặc đồ khỉ đột đi qua, nhưng xem lại mà không phải đếm thì ai cũng thấy ngay.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Nếu người xem đang lái xe và con khỉ đột là người đi bộ thì sao: gần một nửa tai nạn chết người ở Mỹ do lỗi người lái, kể cả mất tập trung, nên nghiên cứu này không chỉ mang tính học thuật.",
+      "answers": [
+        { "q": 33, "ans": "TRUE", "quote": "nearly half of all fatal motor vehicle accidents in the US result from driver error, including attention lapses. It's more than just academic interest that has spurred research into these cognitive errors.", "how": "\"might potentially save lives\" ↔ liên hệ tới \"fatal motor vehicle accidents\" cộng với \"more than just academic interest\": nghiên cứu nhằm mục đích thực tế chứ không chỉ để biết. Từ khóa trong câu hỏi \"cognitive errors\" khớp thẳng với bài." }
+      ]
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Kosslyn cho thấy tưởng tượng một cảnh kích hoạt vỏ não thị giác giống như khi thật sự nhìn, ủng hộ ý ta chỉ tiếp nhận thông tin quan trọng rồi lấp khoảng trống bằng ký ức – mà ký ức thì bị niềm tin và kỳ vọng định hình.",
+      "answers": [
+        { "q": 29, "ans": "G", "quote": "imagining a scene activates parts of the visual cortex similarly to actually seeing it", "how": "Ending G \"Imagining a scene and physically being there impact our visual processes in similar ways\" ↔ nguyên văn câu này; \"visual processes\" ↔ \"parts of the visual cortex\"." },
+        { "q": 37, "ans": "F", "quote": "How can we reconcile such significant lapses with our subjective experience of continuously perceiving a rich visual environment?", "how": "Vế đầu \"The fact that we make visual errors\" ↔ \"such significant lapses\"; việc phải \"reconcile\" nó với cảm nhận chủ quan, cộng với \"This is disconcerting\" ở đoạn 7, cho thấy sự thật này khó chấp nhận ↔ ending F." },
+        { "q": 38, "ans": "B", "quote": "The illusion that we see ‘everything' is partly due to filling in gaps with memory", "how": "\"The part of the picture that we fail to see clearly\" ↔ \"gaps\"; ending B \"is provided by memory\" ↔ \"filling in gaps with memory\"." },
+        { "q": 34, "ans": "NOT GIVEN", "how": "Đoạn này nói về việc lấp khoảng trống bằng ký ức, nhưng đọc hết 13 đoạn không có một chữ nào về tuổi tác (\"The aging process\"). Đây là bẫy thêm biến số mới vào một ý có thật trong bài." }
+      ],
+      "note": "Đoạn 10 chứa tới bốn đáp án (29, 37, 38, 34). Hai ending B và G đều liên quan Kosslyn nhưng thuộc hai bộ câu hỏi khác nhau – đừng lẫn A–G của 27–30 với A–G của 36–40."
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Rensink cho rằng não dựng một bố cục tạm thời của cảnh, rồi sự chú ý làm nét và ổn định nó thành các vật thể riêng biệt; chú ý rời đi thì chúng trở lại trạng thái bất định.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Khác với Rensink và Kosslyn, O'Regan cho rằng não không lưu hình ảnh nào cả, mà ta dùng chính thế giới bên ngoài làm \"bộ nhớ\" khi từng phần của cảnh trở nên cần thiết.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 13",
+      "idea": "Theo O'Regan, cảm giác ta tự chọn nhìn cái gì cũng là ảo giác: Blackmore giải thích cơ chế phát hiện thay đổi tự động kéo sự chú ý của ta tới các kích thích.",
+      "answers": [
+        { "q": 30, "ans": "F", "quote": "our change detection mechanisms automatically drag our attention to various stimuli", "how": "Ending F \"We don't have complete control over what captures our attention\" ↔ \"our sense of controlling what we see is also an illusion\" + \"automatically drag our attention\". Lời Blackmore nhưng bà \"supports O'Regan's view\" và câu mở đoạn ghi rõ \"According to O'Regan\" nên gán cho O'Regan. Ending B (tự lừa dối mình) là bẫy vì có chữ \"illusion\": bài nói ảo giác, không nói ta cố tình tự lừa." }
+      ]
+    }
+  ],
+  "tips": [
+    "Hai bộ matching đều dùng chữ cái A–G nhưng danh sách hoàn toàn khác nhau; đọc kỹ đề trước khi điền để không ghép nhầm bảng.",
+    "Bài có rất nhiều tên nhà nghiên cứu (Simons, Dennett, Grimes, Kosslyn, Rensink, O'Regan, Blackmore) nhưng chỉ bốn người được hỏi; vẫn phải nắm ý từng người vì các ending bẫy thường là quan điểm của người khác.",
+    "Hai thuật ngữ then chốt dễ lẫn: change blindness (không thấy cái đã thay đổi) và inattentional blindness (không thấy cái mình không chú ý) – câu 36 dựa vào cái thứ hai."
+  ]
+}

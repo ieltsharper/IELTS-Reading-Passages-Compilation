@@ -1,0 +1,77 @@
+{
+  "step1": "Tiêu đề The Power of Persuasion và sapo (một chủ nhà hàng New Zealand đánh giá nghiên cứu từ Mỹ) cho biết hai phần rõ rệt: phần lớn bài trình bày nghiên cứu của Robert Cialdini, còn đoạn cuối là nhận xét chủ quan của người viết về việc áp dụng ở New Zealand. Mạch bài đoán được: giới thiệu Cialdini → động lực cá nhân → phương pháp (học khóa bán hàng, thí nghiệm khăn tắm) → kết quả thí nghiệm khăn → social proof và reciprocity → bốn nguyên tắc còn lại → bình luận của tác giả. Q27–31 (MCQ) ở đoạn 1–4; Q32–36 (summary \"Sáu nguyên tắc\") ở đoạn 5–6; Q37–40 (Yes/No/Not Given, hỏi quan điểm người viết) gần như chắc chắn nằm ở đoạn 7.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–31", "Multiple choice (A–D)", "Có: đề chỉ rõ đoạn hoặc thí nghiệm", "first paragraph, second paragraph, methodology, towel experiment"],
+    ["32–36", "Summary completion từ bảng cụm từ A–J", "Có, theo thứ tự các nguyên tắc", "chocolates, advertisers and parents, authority, charity, surveys"],
+    ["37–40", "Yes / No / Not Given (views of the writer)", "Có (từ khóa), nhưng phải đọc kỹ ý người viết", "his own family, different countries, New Zealand diners, older New Zealanders"]
+  ],
+  "typesNote": "Ba nhóm chia theo ba vùng của bài và đều theo thứ tự, nên chỉ cần đọc một lượt: tới đoạn nào chốt câu của đoạn đó rồi đi tiếp.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Giới thiệu Robert Cialdini: nghiên cứu khác thường với những vật tầm thường như khăn tắm và sô-cô-la để tìm hiểu vì sao có người thuyết phục giỏi hơn người khác.",
+      "answers": [
+        { "q": 27, "ans": "C", "quote": "whose unorthodox research involves such mundane items as towels and chocolates", "how": "\"unorthodox\" ↔ \"unconventional approach\". A sai: ông muốn hiểu xã hội vận hành thế nào, không phải thay đổi nó. B là bẫy vì danh sách kính thiên văn/mê cung chuột/ống nghiệm là nói về CÁC nhà khoa học KHÁC, không phải Cialdini. D sai: bài không nói ông từ chối dùng động vật." }
+      ],
+      "note": "Đoạn mở đầu liệt kê việc của các nhà khoa học khác để làm nền tương phản (\"Then there is Robert Cialdini\"). Đừng gán những việc đó cho ông."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Mục tiêu của Cialdini là giúp ai cũng đạt được điều mình muốn; xuất phát từ trải nghiệm cá nhân khi ông cả đời là \"con mồi dễ xơi\" của dân bán hàng và quyên góp.",
+      "answers": [
+        { "q": 28, "ans": "A", "quote": "This is in part a personal quest with its origins in his own experience", "how": "Đoạn giải thích VÌ SAO ông làm nghiên cứu ↔ \"identifying a motivation for the research\". B sai vì \"easy prey\" là lý do nghiên cứu chứ người viết không đi đánh giá tính cách. C sai: không có chỗ nào nghi ngờ phương pháp ở đoạn này. D sai: người viết không tán dương ai cả." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Thấy thí nghiệm truyền thống chưa đủ, Cialdini đi nghiên cứu ảnh hưởng ngoài đời thật bằng cách ghi danh các khóa đào tạo bán hàng; gần đây là thí nghiệm thẻ nhắc dùng lại khăn trong khách sạn.",
+      "answers": [
+        { "q": 29, "ans": "A", "quote": "Cialdini began to probe influence in the real world, enrolling in sales-training programmes", "how": "\"enrolling in sales-training programmes\" ↔ \"taking courses of study\". B ngược hẳn: ông ra \"the real world\" chính vì thí nghiệm truyền thống chưa đủ. C sai: ông bán ô tô, bảo hiểm, bách khoa toàn thư – nhiều sản phẩm. D là bẫy: ông TỰ học nghề bán hàng, không phỏng vấn người bán hàng." },
+        { "q": 30, "ans": "B", "quote": "Cialdini and his colleagues wanted to test the relative effectiveness of different texts on those cards.", "how": "Thử hiệu quả tương đối của các dòng chữ khác nhau ↔ \"Does a simple message make any difference?\". A sai: không phải so với việc bỏ thẻ đi. C sai: ô nhiễm là nội dung thông điệp gốc, không phải câu hỏi nghiên cứu. D sai: đối tượng được thuyết phục là khách, không phải khách sạn." }
+      ],
+      "note": "Câu dài cuối đoạn là câu hỏi nghiên cứu: backbone = \"Could hotels best motivate their guests to co-operate...?\"; mệnh đề nguyên nhân \"simply because it would help save the planet\" là phương án thứ nhất, còn \"or were other factors more compelling?\" là phương án thứ hai – chính cấu trúc \"A hay B\" này cho biết họ đang so sánh các thông điệp."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Thay thông điệp môi trường bằng câu nói thật rằng đa số khách đã dùng lại khăn, nhóm này dùng lại khăn nhiều hơn 26% so với thông điệp gốc và 74% so với không có thông điệp.",
+      "answers": [
+        { "q": 31, "ans": "C", "quote": "Those guests who received this message were found to be 26% more likely to reuse their towel than those given the original message", "how": "\"this message\" = thông tin về việc đa số KHÁCH KHÁC đã dùng lại khăn ↔ \"more receptive to messages about other guests\". D là bẫy đảo ngược: thông điệp môi trường kém hiệu quả hơn. B sai: không có thông điệp còn kém nhất (74%). A sai: thông điệp mới được nói rõ là \"truthful\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Thí nghiệm khăn minh họa nguyên tắc \"social proof\" (ta bị ảnh hưởng bởi việc người giống mình đang làm, dẫn tới chạy đua vật chất); nguyên tắc \"reciprocity\" được thử bằng sô-cô-la sau bữa ăn, tiền boa tăng 14%.",
+      "answers": [
+        { "q": 32, "ans": "H", "quote": "often without bothering to accurately calculate whether what we are giving is proportionate to what we have received", "how": "Không buồn tính xem thứ mình cho có tương xứng với thứ mình nhận hay không ↔ H \"relative value\" (giá trị tương đối) của giao dịch." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Bốn nguyên tắc còn lại: scarcity (cơ hội hiếm), authority (tin người có chuyên môn, nhưng nhiều chuyên gia ngại khoe bằng cấp), consistency (muốn nhất quán với cam kết đã đưa ra), likeness (dễ bị thuyết phục bởi người giống mình).",
+      "answers": [
+        { "q": 33, "ans": "A", "quote": "telling their little ones that this is a very unusual chance, so they should seize it immediately", "how": "\"a very unusual chance\" ↔ A \"rare opportunity\"; câu tóm tắt gộp cả quảng cáo (\"limit of four per customer\") lẫn cha mẹ nên đây đúng là nguyên tắc scarcity." },
+        { "q": 34, "ans": "I", "quote": "fearing it is boastful or arrogant to publicise their expertise", "how": "\"boastful or arrogant\" ↔ I \"bad behavior\" (hành vi bị coi là không hay). D \"true qualification\" là bẫy vì đoạn có \"credentials\", nhưng chỗ trống đứng sau \"considered\" nên phải là thứ người ta bị ĐÁNH GIÁ là." },
+        { "q": 35, "ans": "B", "quote": "return with a sponsorship form to those who said yes and remind them of their earlier undertaking", "how": "\"their earlier undertaking\" ↔ B \"previous commitments\"; đây là nguyên tắc consistency, khớp với \"reminded of\" trong câu tóm tắt." },
+        { "q": 36, "ans": "E", "quote": "When the researcher falsely identified herself (e.g., Cynthia Johnson is sent a survey by Cindy Johansen), surveys were twice as likely to be completed.", "how": "Tên gần giống nhau làm tỉ lệ hoàn thành khảo sát tăng gấp đôi ↔ E \"similar name\" (nguyên tắc likeness)." }
+      ],
+      "note": "Đoạn 6 nén bốn nguyên tắc liền nhau; mỗi nguyên tắc có một ví dụ ngay sau tên gọi trong ngoặc nháy. Bám vào tên nguyên tắc để tách câu tóm tắt cho đúng."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Người viết thấy các nguyên tắc thuyết phục nhưng nghi ngờ khả năng áp dụng ngoài nước Mỹ: ở New Zealand văn hóa tiền boa khác, sự đáp lễ sẽ là quay lại nhà hàng; tuổi tác cũng là yếu tố – người trẻ hưởng ứng \"consistency\" còn cha mẹ họ có thể phản cảm.",
+      "answers": [
+        { "q": 37, "ans": "NOT GIVEN", "how": "Người viết chỉ nói thấy bằng chứng \"in my own workplace\" (nơi làm việc của mình), không nhắc gì tới gia đình → NOT GIVEN. Bẫy: \"my own\" khiến ta vội gán sang chuyện riêng tư/gia đình." },
+        { "q": 38, "ans": "YES", "quote": "I wonder how well all of his findings can be applied here in New Zealand or elsewhere around the world", "how": "Nghi ngờ khả năng áp dụng ở nước khác, rồi dẫn chứng văn hóa tiền boa khác biệt ↔ thuyết phục vận hành khác nhau ở các nước → YES." },
+        { "q": 39, "ans": "NO", "quote": "cannot imagine New Zealand waiting staff using his cynical chocolate trick in their restaurants because the culture of tipping in this country is so different", "how": "Người viết nói rõ ở New Zealand sự đáp lễ \"would more likely take the form of a return visit to the restaurant and not a tip\" → mâu thuẫn với \"likely to leave tips\" → NO." },
+        { "q": 40, "ans": "NO", "quote": "I suspect that younger people in this country would respond quite positively to this sort of approach, whereas their parents might be put off by any hint of a hard sell.", "how": "Câu hỏi nói người LỚN TUỔI hưởng ứng consistency hơn; bài nói ngược: người trẻ tích cực, còn thế hệ cha mẹ có thể thấy khó chịu → NO. Mấu chốt là liên từ tương phản \"whereas\"." }
+      ],
+      "note": "Cả bốn câu Yes/No/Not Given đều rơi vào đoạn cuối – đoạn duy nhất mang giọng \"I\". Khi thấy đại từ \"I\" xuất hiện là biết đã tới vùng trả lời."
+    }
+  ],
+  "tips": [
+    "Phân biệt rõ hai giọng nói: đoạn 1–6 thuật lại Cialdini, đoạn 7 là quan điểm người viết. Câu hỏi \"views of the writer\" chỉ được trả lời bằng đoạn 7.",
+    "MCQ ở bài này bẫy bằng chi tiết đúng nhưng gán sai người/sai đối tượng (kính thiên văn và mê cung chuột là của nhà khoa học khác; ông học nghề bán hàng chứ không phỏng vấn người bán hàng).",
+    "Với summary dùng bảng cụm từ, chú ý cấu trúc câu quanh chỗ trống: sau \"considered\" cần thứ bị đánh giá (bad behavior), sau \"reminded of\" cần thứ đã có từ trước (previous commitments)."
+  ]
+}
