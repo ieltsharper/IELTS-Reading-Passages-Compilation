@@ -1,0 +1,104 @@
+{
+  "step1": "Tiêu đề Desertification cho biết bài bàn về sa mạc hóa: sa mạc hình thành tự nhiên → vùng rìa mong manh → định nghĩa và đặc điểm của sa mạc hóa → ví dụ Dust Bowl và Sahel → các biện pháp chống sa mạc hóa. Đề đánh số đoạn A–I (9 đoạn) nhưng bài in ra 12 đoạn vì vài câu đứng riêng, nên gộp: A = Đoạn 1–2, B = Đoạn 3, C = Đoạn 4, D = Đoạn 5–6, E = Đoạn 7–8, F = Đoạn 9, G = Đoạn 10, H = Đoạn 11, I = Đoạn 12. Q14–19 rải khắp bài, Q20–23 theo thứ tự bài, Q24–26 chắc chắn nằm ở hai đoạn cuối (phần giải pháp).",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["14–19", "Matching information (đoạn A–I)", "Không, chỉ chốt khi đọc tới đoạn chứa thông tin", "threat worldwide, difficult to describe, alter local climates, misconceptions, early stages, straw grids"],
+    ["20–23", "Yes / No / Not Given", "Có, theo thứ tự bài", "all desert borders, reversible, Dust Bowl 1950, nomads land-use"],
+    ["24–26", "Flowchart completion (NO MORE THAN THREE WORDS)", "Có, nằm ở phần giải pháp cuối bài", "tree fences, grass belts, Green Wall, water resources, fragile soil"]
+  ],
+  "typesNote": "Đọc một lượt: đoạn nào đọc xong thì vừa chốt câu TFNG có từ khóa trong đoạn, vừa tự hỏi đoạn đó (theo chữ cái A–I) trả lời câu matching nào; đến hai đoạn cuối thì điền luôn flowchart.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Các sa mạc lớn hình thành do quá trình tự nhiên qua thời gian dài; có nơi ranh giới sa mạc rõ rệt nhờ núi non, có nơi lại chuyển tiếp dần nên khó xác định đường biên.",
+      "answers": [
+        { "q": 20, "ans": "NO", "quote": "In some regions, deserts are separated sharply from surrounding, less arid areas by mountains and other contrasting landforms... In other areas, desert fringes form a gradual transition from a dry to a more humid environment, making it more difficult to define the desert border", "how": "Câu hỏi khẳng định \"ALL desert borders are difficult to define\". Bài chia hai trường hợp: \"In some regions\" ranh giới tách bạch rõ ràng (\"separated sharply\"), \"In other areas\" mới khó xác định. Từ khái quát \"all\" mâu thuẫn với sự phân chia đó → NO. Bẫy: thấy đúng cụm \"difficult to define the desert border\" thì vội chọn YES." }
+      ],
+      "note": "Đoạn 1 và Đoạn 2 gộp lại là đoạn A của đề."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Câu chốt: các vùng chuyển tiếp này có hệ sinh thái rất mong manh, cân bằng hết sức tinh tế.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Vùng rìa sa mạc là một bức khảm vi khí hậu; tại đây hoạt động của con người (gia súc giẫm nén đất, chăn thả, lấy củi) có thể đẩy hệ sinh thái vượt ngưỡng chịu đựng và làm đất thoái hóa.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Định nghĩa: sa mạc hóa là sự thoái hóa của đất từng màu mỡ, là quá trình phức tạp nhiều nguyên nhân, có thể làm khí hậu khô hạn hơn hoặc khởi phát thay đổi khí hậu địa phương.",
+      "answers": [
+        { "q": 16, "ans": "C", "quote": "Desertification may intensify a general climatic trend toward greater aridity, or it may initiate a change in local climate", "how": "\"may alter local climates\" ↔ \"may initiate a change in local climate\" (alter = initiate a change). Đoạn 4 = đoạn C của đề → C." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Câu chốt: sa mạc hóa không diễn ra theo những khuôn mẫu tuyến tính, dễ vẽ thành bản đồ.",
+      "answers": [
+        { "q": 15, "ans": "D", "quote": "Desertification does not occur in linear, easily mappable patterns", "how": "\"difficult to describe the process\" ↔ \"does not occur in linear, easily mappable patterns\" (không vẽ/mô tả thành khuôn mẫu được). Đoạn 5 + Đoạn 6 = đoạn D của đề → D." }
+      ],
+      "note": "Đoạn 5 và Đoạn 6 cùng là đoạn D, nên cả Câu 15 và Câu 18 đều ra đáp án D."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Sa mạc lan không đều, thành từng mảng; vùng xa sa mạc vẫn có thể thoái hóa nhanh vì quản lý đất kém; người ta chỉ chú ý tới một vùng đang sa mạc hóa khi quá trình đã diễn ra khá xa, và các nhà khoa học vẫn chưa rõ quá trình này có đảo ngược được không.",
+      "answers": [
+        { "q": 18, "ans": "D", "quote": "an area undergoing desertification is brought to public attention only after the process is well underway. Often little or no data are available to indicate the previous state of the ecosystem or the rate of degradation", "how": "\"hard to notice desertification in its early stages\" ↔ chỉ được chú ý \"only after the process is well underway\" (khi đã tiến triển khá xa), cộng thêm việc thiếu dữ liệu về trạng thái trước đó. Đoạn 6 thuộc đoạn D → D." },
+        { "q": 21, "ans": "NOT GIVEN", "quote": "Scientists still question whether desertification, as a process of global change, is permanent or how and when it can be halted or reversed", "how": "Câu hỏi khẳng định sa mạc hóa là quá trình có thể đảo ngược. Bài chỉ nói giới khoa học \"still question\" (vẫn còn băn khoăn) liệu nó là vĩnh viễn hay có thể chặn/đảo ngược, tức chưa có câu trả lời → NOT GIVEN. Bẫy: từ \"reversed\" xuất hiện nguyên văn nên dễ chọn YES; nhưng nó nằm trong một câu hỏi ngỏ, không phải một khẳng định của tác giả." }
+      ],
+      "note": "Phần sau của bài nói nhiều về cách cải tạo đất, dễ khiến ta nghĩ \"vậy là đảo ngược được\" → YES. Đó là suy diễn; quan điểm của tác giả ở đây vẫn là bỏ ngỏ."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Sa mạc hóa được biết đến rộng rãi từ thập niên 1930 khi một phần Great Plains ở Mỹ thành \"Dust Bowl\" do hạn hán và canh tác kém, dù mãi gần 1950 thuật ngữ này mới được dùng; nay cải tiến canh tác đã ngăn thảm họa tái diễn nhưng sa mạc hóa vẫn ảnh hưởng hàng triệu người ở gần như mọi châu lục.",
+      "answers": [
+        { "q": 14, "ans": "E", "quote": "desertification presently affects millions of people in almost every continent", "how": "\"poses a threat to people worldwide\" ↔ \"affects millions of people in almost every continent\". Đoạn 7 + Đoạn 8 = đoạn E của đề → E." },
+        { "q": 22, "ans": "NO", "quote": "Desertification became well known in the 1930's when part of the Great Plains in the United States turned into the \"Dust Bowl\" as a result of drought and poor practices in farming, although the term itself was not used until almost 1950", "how": "Tách câu: WHO + DOES WHAT = \"Desertification became well known in the 1930's\"; mệnh đề \"when...\" nói mốc Great Plains thành Dust Bowl, tức đã xảy ra trong thập niên 1930; mệnh đề nhượng bộ \"although the term itself was not used until almost 1950\" chỉ nói về THUẬT NGỮ, không phải về hiện tượng. Câu hỏi gán mốc 1950 cho việc vùng đất trở thành Dust Bowl → mâu thuẫn → NO. Đây là bẫy kinh điển: hai mốc thời gian gắn với hai chủ thể khác nhau." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Dân số và áp lực gia súc trên đất rìa làm sa mạc hóa nhanh hơn; dân du mục chạy khỏi sa mạc nhưng vì tập quán sử dụng đất nên lại mang sa mạc theo mình.",
+      "answers": [
+        { "q": 23, "ans": "YES", "quote": "Nomads are trying to escape the desert, but because of their land-use practices, they are bringing the desert with them", "how": "\"cannot get away from the desert\" ↔ \"are bringing the desert with them\" (dù cố chạy thoát vẫn mang theo), \"land-use methods\" ↔ \"land-use practices\", và liên từ \"because of\" khớp với \"because of\" trong câu hỏi → YES." }
+      ]
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Hiểu lầm phổ biến: hạn hán gây sa mạc hóa. Thực ra đất được quản lý tốt hồi phục được sau hạn; chính việc tiếp tục lạm dụng đất trong hạn hán mới làm đất thoái hóa, như ở Sahel Tây Phi 1968–1973.",
+      "answers": [
+        { "q": 17, "ans": "F", "quote": "It is a misconception that drought causes desertification", "how": "\"People have misconceptions regarding desertification origins\" ↔ \"It is a misconception that drought causes desertification\" (origins = nguyên nhân = causes). Đoạn 9 = đoạn F của đề → F." }
+      ]
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Giải pháp ở cấp địa phương với cồn cát: phủ đá tảng hoặc dầu, dựng hàng rào chắn cát, đặt các ô lưới rơm để giảm tốc độ gió bề mặt, trồng cây bụi ở một phần ba dưới của sườn đón gió để cố định cồn cát.",
+      "answers": [
+        { "q": 19, "ans": "G", "quote": "Placement of straw grids, each up to a square meter in area, will also decrease the surface wind velocity", "how": "\"Straw grids diminish the swiftness of the surface wind\" ↔ \"decrease the surface wind velocity\" (diminish = decrease, swiftness = velocity), \"straw grids\" lặp nguyên văn. Đoạn 10 = đoạn G của đề → G." }
+      ]
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Ốc đảo và đất nông nghiệp vùng nhiều gió được bảo vệ bằng hàng rào cây hoặc vành đai cỏ, các dải cây chắn gió, và những khóm cây rải trong ốc đảo để cố định khu vực; quy mô lớn nhất là \"Green Wall\" dài hơn 5.700 km ở đông bắc Trung Quốc.",
+      "answers": [
+        { "q": 24, "ans": "stabilize", "quote": "Small plots of trees may also be scattered inside oases to stabilize the area", "how": "Chỗ trống nối tiếp \"catch sand in the wind and ___ these areas\": \"these areas\" ↔ \"the area\" (ốc đảo), nên động từ cần điền là \"stabilize\". Câu tiếp theo nhắc \"Green Wall\" đúng như flowchart → chắc chắn đang ở đúng chỗ." }
+      ],
+      "note": "Chỗ trống 24 đi sau \"can catch sand in the wind and\" nên phải là một ĐỘNG TỪ nguyên thể, giữ nguyên dạng \"stabilize\" chứ không viết \"stabilizes\" hay \"stabilization\"."
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Dùng nước hiệu quả hơn và kiểm soát nhiễm mặn cũng là công cụ cải tạo đất khô; nghiên cứu cải tạo sa mạc tập trung vào luân canh phù hợp để bảo vệ đất mong manh, cây cố định cát và cách phát triển đồng cỏ, nguồn nước mà không khai thác quá mức.",
+      "answers": [
+        { "q": 25, "ans": "salinization", "quote": "More efficient use of existing water resources and control of salinization are other effective tools for improving arid lands", "how": "\"Water resource management\" ↔ \"efficient use of existing water resources\", \"prevention of\" ↔ \"control of\", \"protecting lands\" ↔ \"improving arid lands\" → điền \"salinization\" (một từ)." },
+        { "q": 26, "ans": "proper crop rotation", "quote": "focusing on discovering proper crop rotation to protect the fragile soil", "how": "\"Scientists are trying to find\" ↔ \"Research ... is focusing on discovering\", \"the vulnerable soil\" ↔ \"the fragile soil\" → cụm cần điền nằm giữa hai mốc đó: \"proper crop rotation\" (đúng 3 từ). Đừng chọn \"sand-fixing plants\" ở vế sau vì vế đó gắn với \"adapted to local environments\", không phải \"protect the soil\"." }
+      ]
+    }
+  ],
+  "tips": [
+    "Bài in 12 đoạn nhưng đề chỉ đánh A–I: nhớ gộp Đoạn 1–2 = A, Đoạn 5–6 = D, Đoạn 7–8 = E. Vì thế Câu 15 và Câu 18 cùng cho đáp án D, hoàn toàn bình thường.",
+    "Hai câu NO (20 và 22) đều là bẫy \"từ khái quát\" và \"mốc thời gian gắn nhầm chủ thể\": \"all\" >< \"some/other\", và 1950 chỉ là năm xuất hiện THUẬT NGỮ, không phải năm xảy ra Dust Bowl.",
+    "Câu 21 có từ \"reversed\" nguyên văn trong bài nhưng nằm trong câu \"Scientists still question whether...\" — tác giả không khẳng định gì, nên là NOT GIVEN."
+  ]
+}

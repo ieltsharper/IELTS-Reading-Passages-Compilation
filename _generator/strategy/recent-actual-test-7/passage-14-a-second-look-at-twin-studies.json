@@ -1,0 +1,119 @@
+{
+  "step1": "Tiêu đề A Second Look at Twin Studies cho biết bài nhìn lại phương pháp nghiên cứu các cặp song sinh trong di truyền hành vi: nó là công cụ ưa thích, nhưng các giả định nền tảng bị nghi ngờ. Đoán mạch bài: giới thiệu → tranh cãi về giả định → cách thiết kế nghiên cứu cổ điển → liệt kê từng giả định (random mating, equal environments, gene-environment interaction, genetic mechanisms) → phản biện của các nhà nghiên cứu → tương lai kết hợp với di truyền phân tử. Q1–7 (TRUE/FALSE/NOT GIVEN) sẽ rải theo thứ tự nửa đầu bài; Q8–12 (summary chọn từ bảng) tóm tắt lại toàn bài nên cũng đi theo thứ tự: đoạn 4, 5, 13, 15.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–7", "True / False / Not Given", "Có (từ khóa), nhưng phải đọc hết câu mới kết luận", "environmental assumptions, three methods, useless tool, identical/fraternal, additive, multiple genes, single gene"],
+    ["8–12", "Summary completion with word bank (A–O)", "Có, theo thứ tự bài", "classical twin study design, quantify, extended families, in the age of, pinpoint"]
+  ],
+  "typesNote": "Cả hai nhóm đều đi theo thứ tự bài, nên vừa đọc vừa chốt: TFNG dồn ở đoạn 2–10, còn summary lấy từ đoạn 4, 5, 13, 15.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Hơn một thế kỷ sau Galton, nghiên cứu song sinh vẫn là công cụ ưa thích để tách phần môi trường và phần gen của nhiều đặc điểm.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Dù phổ biến, các giả định nền tảng (môi trường như nhau, chọn bạn đời ngẫu nhiên) bị nhiều nhà tâm lý nghi ngờ từ lâu.",
+      "answers": [
+        { "q": 1, "ans": "TRUE", "quote": "The equal environments assumption, for example, has been debated for at least 40 years.", "how": "\"environmental assumptions\" ↔ \"the equal environments assumption\"; \"challenged for a long time\" ↔ \"has been debated for at least 40 years\". Ít nhất 40 năm chính là một khoảng thời gian dài → TRUE." }
+      ],
+      "note": "Câu mở đầu đoạn còn nói \"some psychologists have long questioned assumptions\", củng cố thêm cho câu 1."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Jaccard: các giả định vẫn gây tranh cãi, nhưng phần lớn đồng ý nghiên cứu song sinh vẫn là công cụ quan trọng bên cạnh các phương pháp genome và phân tử mới.",
+      "answers": [
+        { "q": 2, "ans": "NOT GIVEN", "how": "Bài chỉ kể ra nghiên cứu song sinh cùng \"emerging genome and molecular research methods\", không hề đếm số phương pháp và không có chữ \"only three\". Bẫy: thấy liệt kê rồi tự cộng thành ba con số → thiếu thông tin chứ không sai." },
+        { "q": 3, "ans": "FALSE", "quote": "many agree twin studies will continue to be an important tool", "how": "Câu hỏi nói việc nghi ngờ giả định khiến nghiên cứu song sinh thành \"useless\"; bài khẳng định ngược lại là \"an important tool\" → FALSE. Bẫy: cụm \"a stumbling block for some researchers\" chỉ nói khó khăn cho một số người, không phải vô dụng." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Thiết kế cổ điển: so sánh mức giống nhau của cặp song sinh cùng trứng (chung 100% gen) với khác trứng (chung ~50%); phần giống nhau dôi ra là do gen.",
+      "answers": [
+        { "q": 4, "ans": "TRUE", "quote": "Monozygotic (identical) twins share all of their genes, while dizygotic (fraternal) twins share only about 50 percent of them", "how": "\"share more similarities\" ↔ cùng trứng chung toàn bộ gen còn khác trứng chỉ ~50%, và câu sau nói rõ \"any excess likeness between the identical twins\" → TRUE." },
+        { "q": 8, "ans": "N", "quote": "The classical twin study design relies on studying twins raised in the same family environments.", "how": "\"on the basis of\" ↔ \"relies on\"; chỗ trống sau \"raised in the\" cần cụm chỉ môi trường → N. same family." }
+      ],
+      "note": "Lưu ý câu dài ở cuối đoạn: xương sống là \"any excess likeness ... should be due to genes rather than environment\", phần \"if a researcher compares... for a particular trait\" chỉ là mệnh đề điều kiện mở đầu."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Phương pháp này dùng để ước lượng tính di truyền; nghiên cứu hiện đại còn đo tác động của môi trường chung (gia đình) và môi trường riêng.",
+      "answers": [
+        { "q": 9, "ans": "O", "quote": "quantify the effect of a person's shared environment (family) and unique environment", "how": "Tóm tắt viết \"a person's family and ___\" ↔ \"shared environment (family) and unique environment\" → O. unique environment. Bẫy: chọn G (environment) thì thiếu nghĩa \"riêng\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Giả định thứ nhất – chọn bạn đời ngẫu nhiên: nếu người ta chọn người giống mình thì song sinh khác trứng có thể chung hơn 50% gen.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Giả định thứ hai – môi trường như nhau: nhưng có nghiên cứu cho thấy cha mẹ, thầy cô, bạn bè đối xử với cặp cùng trứng giống nhau hơn.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Giả định thứ ba – tương tác gen và môi trường: nghiên cứu của Caspi gợi ý một gen có thể điều tiết xu hướng bạo lực ở người bị ngược đãi nặng thời thơ ấu.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Giả định thứ tư – cơ chế di truyền: với cơ chế trội, gen trội từ một bên bố mẹ lấn át gen lặn từ bên kia (ví dụ mắt nâu lấn mắt xanh).",
+      "answers": [
+        { "q": 5, "ans": "FALSE", "quote": "For traits governed by dominant genetic mechanisms, a dominant gene inherited from one parent trumps a recessive gene inherited from the other parent", "how": "Câu hỏi gán việc nhận gen trội cho \"additive genetic mechanism\", nhưng bài gán cho \"dominant genetic mechanisms\"; đoạn 10 nói additive là trộn lẫn (đỏ + trắng ra hồng) → sai tên cơ chế, FALSE. Bẫy: đánh tráo hai thuật ngữ đứng gần nhau." }
+      ]
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Cơ chế cộng gộp thì trộn lẫn, cơ chế epistatic là trường hợp phức tạp nhiều gen tương tác; nghiên cứu song sinh thường giả định chỉ một cơ chế hoạt động.",
+      "answers": [
+        { "q": 6, "ans": "TRUE", "quote": "Epistatic mechanisms are complex cases where interactions among multiple genes may determine the outcome of one trait.", "how": "\"numerous genetic elements\" ↔ \"multiple genes\"; \"join together\" ↔ \"interactions among\"; \"result of one trait\" ↔ \"outcome of one trait\" → TRUE." },
+        { "q": 7, "ans": "FALSE", "quote": "Twin studies, in general, assume that only one type of genetic mechanism – usually additive – is operating for a particular trait.", "how": "Câu hỏi nói nghiên cứu song sinh xét tác động của \"a single gene\"; bài nói chúng giả định một loại cơ chế di truyền, còn việc xác định từng gen cụ thể là việc của di truyền phân tử (đoạn 15) → FALSE. Bẫy: \"only one type of genetic mechanism\" ≠ \"a single gene\"." }
+      ],
+      "note": "Hai câu 6 và 7 nằm sát nhau trong cùng đoạn: một câu đúng, một câu sai, phân biệt bằng chỗ \"gene\" và \"genetic mechanism\"."
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Các nhà nghiên cứu thừa nhận hạn chế nhưng cho rằng chúng không phủ nhận giá trị: chênh lệch gấp đôi về mức giống gen vẫn lấn át mọi phức tạp (Hewitt).",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Mức độ ảnh hưởng của từng giả định tùy đặc điểm được nghiên cứu: người ta chọn bạn đời giống mình về trí tuệ nhiều hơn là về tính cách.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 13",
+      "idea": "Thiết kế và phương pháp thống kê liên tục được mở rộng: gia đình mở rộng, nghiên cứu theo chiều dọc, thêm cả vợ/chồng của cặp song sinh; Boomsma cho rằng đó là cơ chế kiểm chứng được chứ không phải giả định.",
+      "answers": [
+        { "q": 10, "ans": "J", "quote": "has expanded to include studies of twins' extended families, longitudinal studies and other variations", "how": "Tóm tắt chép gần như nguyên câu, chỗ trống nằm giữa \"extended families\" và \"other variations\" → J. longitudinal studies." }
+      ]
+    },
+    {
+      "para": "Đoạn 14",
+      "idea": "Phương pháp phân tích cũng không đứng yên: Hewitt và Jaccard đều nói nay phải giả định ít hơn trước.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 15",
+      "idea": "Trong thời đại di truyền phân tử, thiết kế cổ điển chỉ là một mảng: nó ước lượng tính di truyền, còn di truyền phân tử xác định tác động của từng gen.",
+      "answers": [
+        { "q": 11, "ans": "K", "quote": "In the age of molecular genetics, meanwhile, the classical twin study design is only one aspect of genetics research.", "how": "\"In the time of\" ↔ \"In the age of\" → K. molecular genetics. Bẫy: E (behavioral genetics) cũng xuất hiện trong bài nhưng ở đoạn 3, không đi với \"age\"." },
+        { "q": 12, "ans": "H", "quote": "Twin studies estimate the heritability of a trait, but molecular genetics attempts to pinpoint the effects of a particular gene.", "how": "\"does not pinpoint the implication of the particular gene\" ↔ vế \"but molecular genetics attempts to pinpoint...\"; \"helps to assess individual's ___\" ↔ \"estimate the heritability\" → H. heritability." }
+      ]
+    },
+    {
+      "para": "Đoạn 16",
+      "idea": "Tương lai là kết hợp nghiên cứu song sinh truyền thống với di truyền phân tử: Hewitt nói nay lần nào làm nghiên cứu cũng lấy DNA của tất cả mọi người.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Bài dùng rất nhiều cặp thuật ngữ dễ đánh tráo: identical/fraternal, dominant/additive/epistatic, gene/genetic mechanism, shared/unique environment. Trước khi chọn TRUE hay FALSE hãy kiểm tra câu hỏi có gắn đúng tên cơ chế hay không.",
+    "Với dạng chọn từ trong bảng, hãy đọc ngữ pháp của chỗ trống trước: câu 8 cần danh từ chỉ nơi nuôi dưỡng, câu 10 cần một loại nghiên cứu, câu 12 cần một danh từ trừu tượng sau \"individual's\".",
+    "Câu NOT GIVEN (Q2) có chữ \"only three\" – khi câu hỏi áp một con số mà bài không đếm, gần như chắc chắn là NOT GIVEN chứ không phải FALSE."
+  ]
+}

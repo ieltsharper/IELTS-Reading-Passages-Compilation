@@ -1,0 +1,89 @@
+{
+  "step1": "Tiêu đề The study of laughter cho biết bài là một bài khoa học thường thức về tiếng cười: ai nghiên cứu, cười để làm gì, động vật có cười không, não bộ hoạt động ra sao và cười có lợi gì cho sức khỏe. Đoán mạch bài: nhà sinh học Silvia Cardoso → cười là hiện tượng phổ biến → chỉ 10–20% là do hài hước → nghiên cứu trên chuột → linh trưởng và chó → cảnh báo khi diễn giải hành vi động vật → quét não → khác biệt nam nữ → lợi ích sức khỏe → trẻ em ngày nay. Nhóm 16–20 (Yes/No/Not Given) và 21–26 (summary) đều đi theo thứ tự bài; 21–26 dồn ở phần nói về chuột và linh trưởng (đoạn 4–6), còn 19–20 nằm ở đoạn sức khỏe gần cuối.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["14–15", "Multiple choice chọn 2 trong A–E", "Một phần: phải đọc xong mới loại được phương án", "all animals, adult and child health, not unique to humans, well-being, teaches us how to behave"],
+    ["16–20", "Yes / No / Not Given", "Có (bám từ khóa), nhưng phải đọc hết câu mới kết luận", "most common, systems in the brain, only purpose, blood pressure, T-cells, stress hormones"],
+    ["21–26", "Summary completion (NO MORE THAN THREE WORDS)", "Có, theo đúng thứ tự bài", "origin of, rats, alone, Jaak Panksepp, long before, animal behavior, different"]
+  ],
+  "typesNote": "Hai nhóm 16–20 và 21–26 đều chạy theo thứ tự bài nên đọc đến đoạn nào là chốt câu của đoạn đó; riêng 14–15 để lại cuối cùng vì phải có toàn cảnh bài mới loại được các phương án sai.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Silvia Cardoso cho rằng cười không phải độc quyền của con người mà là một phản xạ nguyên thủy ở hầu hết động vật, và thiếu tiếng cười có thể hại cho sức khỏe tinh thần, thể chất, xã hội.",
+      "answers": [],
+      "note": "Phương án A (tất cả động vật đều cười) và D (ba mặt well-being liên quan chặt với nhau) của câu 14–15 đều lấy chữ ở đoạn này nhưng bị bóp méo: bài chỉ nói \"most animals\", và chỉ liệt kê ba mặt chứ không nói chúng gắn bó với nhau."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Cười là hiện tượng phổ quát, là một trong những việc ta làm nhiều nhất nhưng hiếm khi để ý; nghiên cứu tiếng cười giúp hiểu cảm xúc và hành vi xã hội.",
+      "answers": [
+        { "q": 16, "ans": "YES", "quote": "Laughter is a universal phenomenon, and one of the most common things we do.", "how": "\"shared by all humans\" ↔ \"universal phenomenon\"; \"one of the most common expressions\" ↔ \"one of the most common things we do\". Hai vế trùng khớp hoàn toàn nên YES." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Chỉ 10–20% tiếng cười là phản ứng với sự hài hước; phần lớn là tín hiệu xã hội, và nó cho thấy não có những hệ thống mạnh đáp lại niềm vui, đồng thời liên quan đến việc giải tỏa nỗi sợ.",
+      "answers": [
+        { "q": 17, "ans": "YES", "quote": "we have powerful systems in our brain which respond to pleasure, happiness and joy ... It's also involved in events such as release of fear.", "how": "\"complicated systems in the human brain\" ↔ \"powerful systems in our brain\"; \"responsibility of our emotions as happiness and fear\" ↔ \"respond to pleasure, happiness and joy\" cộng với câu kế nói tiếng cười dính tới \"release of fear\". Cả hai cảm xúc đều được nhắc nên YES, không phải NOT GIVEN." }
+      ],
+      "note": "Hai mảnh bằng chứng của câu 17 nằm ở hai câu liền nhau; nếu chỉ đọc câu đầu (chỉ có happiness) rất dễ chọn nhầm NOT GIVEN vì thiếu fear."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Giới nghiên cứu đến với tiếng cười từ hướng nghiên cứu cơ sở thần kinh của nỗi sợ ở chuột: chuột ở một mình thì sợ hãi, về chuồng với đồng loại thì vui hơn, và Panksepp phát hiện chuột con phát ra tiếng kêu ngắn khi chơi đùa.",
+      "answers": [
+        { "q": 21, "ans": "fear", "quote": "Researchers spent many years investigating the neural basis of fear in rats, and came to laughter via that route", "how": "\"scientists have been examining the origin of ___ and laughter that comes from the same route\" ↔ \"investigating the neural basis of fear ... came to laughter via that route\". Chỗ trống cần danh từ cảm xúc: fear." },
+        { "q": 22, "ans": "scared", "quote": "when they were alone, in an exposed environment, they were scared and quite uncomfortable", "how": "\"Within an open environment\" ↔ \"in an exposed environment\"; \"when they are alone\" khớp nguyên văn, nên chỗ trống lấy tính từ scared (uncomfortable cũng được chấp nhận)." },
+        { "q": 23, "ans": "short vocalization", "quote": "juvenile rats make short vocalizations, pitched too high for humans to hear, during rough-and-tumble play", "how": "\"Jaak Panksepp even found that rats make ___\" ↔ \"Jaak Panksepp had shown that juvenile rats make ...\"; \"chaotic state\" là cách diễn đạt lại \"rough-and-tumble play\". Giới hạn ba từ nên viết short vocalization(s)." }
+      ],
+      "note": "Câu hỏi 23 nói \"in a chaotic state\" nghe như lúc hoảng loạn, nhưng trong bài đó là lúc chơi đùa huyên náo – đừng vì hiểu sai mà đi tìm đoạn chuột sợ hãi."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Nhìn sang các loài linh trưởng gần người nhất thấy rõ cười không chỉ riêng con người: vượn lớn há miệng, nhe răng, kêu lặp lại khi chơi hay bị cù; thậm chí chó khi chơi cũng thở theo kiểu riêng.",
+      "answers": [
+        { "q": 24, "ans": "primates", "quote": "Laughter may even have evolved long before primates.", "how": "\"laughter may have developed long before ___\" ↔ \"may even have evolved long before primates\"; developed = evolved. Điền đúng danh từ số nhiều primates." }
+      ],
+      "note": "Đây là chỗ chốt phương án C của câu 14–15: \"laughter is clearly not unique to us\" lặp gần như nguyên văn phương án C, lại có ví dụ chimpanzees và chó. Phương án A sai vì bài chỉ nói \"most animals\"; E sai vì bài nói cười giúp gắn kết xã hội chứ không dạy ta cách cư xử."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Phải thận trọng khi suy diễn tiếng thở hổn hển của động vật: nó có thể chỉ giống bề ngoài mà mục đích và lợi thế tiến hóa hoàn toàn khác; với con người, chức năng của cười chắc chắn là giao tiếp, một công cụ sinh tồn.",
+      "answers": [
+        { "q": 18, "ans": "NOT GIVEN", "quote": "Its function is surely communication.", "how": "Bài khẳng định chức năng của cười là giao tiếp, nhưng không ở đâu nói đó là mục đích DUY NHẤT – trái lại đoạn 3 còn nói 10–20% là phản ứng với hài hước. Bẫy nằm ở chữ \"only\": thiếu thông tin để xác nhận hay bác bỏ nên NOT GIVEN, không phải YES." },
+        { "q": 25, "ans": "purposes", "quote": "it could just be something similar but with entirely different purposes and evolutionary advantages", "how": "\"we need to pay attention when we explain various animal behavior\" ↔ \"we need to be careful about over-interpreting panting behavior in animals\"; \"may express with different ___ and ___\" lấy thẳng cặp danh từ sau \"entirely different\"." },
+        { "q": 26, "ans": "evolutionary advantages", "quote": "entirely different purposes and evolutionary advantages", "how": "Vế thứ hai của cùng một cụm \"different purposes and evolutionary advantages\"; đủ ba từ nên giữ nguyên cả hai chữ evolutionary advantages." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Ảnh quét não cho thấy hoạt động lan từ vùng thị giác ở thùy chẩm tới thùy trán (nhận ra cái gì là buồn cười) rồi tới vùng vận động; các đường dẫn này có thể bị tổn thương khiến người bệnh mất khả năng cười.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Nam và nữ dùng tiếng cười khác nhau: phụ nữ cười mỉm nhiều hơn cười thành tiếng và dùng nó như \"chất bôi trơn xã hội\", có thể vì họ không dùng được kích thước cơ thể để đe dọa như nam giới.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Cười được xem là liều thuốc tốt: nó là một dạng vận động (tim mạch, hô hấp, cơ bắp), có thể giải phóng endorphin và tác động tới hệ miễn dịch, dù chưa có nghiên cứu chặt chẽ nào xác nhận.",
+      "answers": [
+        { "q": 19, "ans": "NO", "quote": "It activates the cardiovascular system, so heart rate and blood pressure increase, then the arteries dilate, causing blood pressure to fall again.", "how": "Câu hỏi đảo ngược nhân quả: bài nói tiếng cười kích hoạt hệ tim mạch → huyết áp TĂNG rồi mới giảm; câu hỏi lại nói huyết áp giảm dẫn tới hệ tim mạch được kích thích. Bẫy đảo chiều nguyên nhân – kết quả nên NO." },
+        { "q": 20, "ans": "NOT GIVEN", "quote": "laughter affects the immune system by reducing the production of hormones associated with stress, and that when you laugh the immune system produces more T-cells", "how": "Bài nêu hai tác động song song của tiếng cười (giảm hormone stress; sinh thêm T-cells) nhưng không nói T-cells chính là thứ làm giảm hormone stress. Câu hỏi tự dựng quan hệ nhân quả giữa hai vế nên NOT GIVEN." }
+      ],
+      "note": "Đoạn này cùng đoạn 10 cho phương án B của câu 14–15 (\"Laughter is believed to be one of the best medicines\" cho người lớn, đoạn 10 cho trẻ em). Câu dài trong đoạn: backbone là \"It activates the cardiovascular system\" (AI làm GÌ), rồi mệnh đề kết quả \"so heart rate and blood pressure increase\", rồi \"then the arteries dilate\" và phân từ chỉ kết quả \"causing blood pressure to fall again\". Chuỗi tăng → giãn mạch → giảm chính là chỗ câu 19 đánh lừa."
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Trẻ em ngày nay chơi một mình trước màn hình, mất cơ hội cười cùng nhau, nên dễ gặp vấn đề xã hội; cha mẹ cần cho con chơi theo nhóm với cả bạn bè lẫn người lớn.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Với Yes/No/Not Given ở bài này, bẫy chủ yếu là quan hệ nhân quả: câu 19 đảo ngược nguyên nhân – kết quả (NO), câu 20 dựng ra một quan hệ bài không hề khẳng định (NOT GIVEN).",
+    "Chú ý các từ tuyệt đối trong đề: \"all animals\" (phương án A), \"the only purpose\" (câu 18). Bài dùng \"most animals\" và chỉ nói chức năng là giao tiếp, nên các khẳng định tuyệt đối đều hỏng.",
+    "Bài tóm tắt 21–26 nằm gọn trong ba đoạn liên tiếp về chuột và linh trưởng; đọc tới đó là điền hết, đừng tìm lại ở phần quét não hay sức khỏe."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "step1": "Tiêu đề The Legend of Tea báo trước một bài lịch sử trà theo dòng thời gian và theo địa lý: Trung Quốc (Shen Nung, Lu Yu) → Nhật Bản (Yeisei, trà đạo) → châu Âu (Bồ Đào Nha, Hà Lan, Pháp) → châu Mỹ → Anh. Đề đánh số đoạn A–J (10 đoạn) nhưng bài in ra 11 đoạn, nên gộp: A = Đoạn 1, B = Đoạn 2, C = Đoạn 3, D = Đoạn 4, E = Đoạn 5, F = Đoạn 6, G = Đoạn 7, H = Đoạn 8, I = Đoạn 9–10, J = Đoạn 11. Q27–31 rải khắp bài, Q32–35 đi theo thứ tự bài, Q36–40 ghép người với việc nên cứ gặp tên riêng là chốt ngay.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–31", "Matching information (đoạn A–J)", "Không, phải đọc tới đoạn chứa thông tin", "coffee replaced tea, religious implications lost, controversies, symbol of wealth, ceremonial art"],
+    ["32–35", "True / False / Not Given", "Có, theo thứ tự bài", "missionaries, imperial Japan, all sections, health benefits, adding milk"],
+    ["36–40", "Matching people with deeds (A–J)", "Có: mỗi câu là một tên riêng, nhìn thấy tên là chốt", "Jasper de Cruz, Peter Stuyvesant, Lu Yu, Lafcadio Hearn, Shen Nung"]
+  ],
+  "typesNote": "Q36–40 là dạng dễ nhất vì tên riêng nổi bật trong bài: cứ đọc tới tên nào thì ghép ngay vế việc của người đó, rồi mới xét đoạn vừa đọc có trả lời câu matching information nào không.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Truyền thuyết: hoàng đế Shen Nung ra lệnh đun sôi nước uống; lá khô từ bụi cây gần đó rơi vào nồi, ông nếm thử thấy rất sảng khoái và trà ra đời.",
+      "answers": [
+        { "q": 40, "ans": "A", "quote": "the Emperor was interested in the new liquid, drank some, and found it very refreshing. And so, according to legend, tea was created", "how": "Shen Nung là \"an early emperor\" ở câu đầu; ông nếm thứ nước mới và thấy \"very refreshing\" ↔ vế A \"discovered the value of tea as a refreshing drink\". Đừng chọn E (\"elevated tea drinking to an art\") vì việc nâng trà lên thành nghệ thuật xảy ra ở Nhật, Đoạn 4." }
+      ],
+      "note": "Đoạn 1 = đoạn A của đề (bài in 11 đoạn, đề đánh A–J nên Đoạn 9 và Đoạn 10 gộp làm đoạn I)."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Trà thấm vào mọi mặt đời sống Trung Hoa; năm 800 Lu Yu viết cuốn sách quy chuẩn đầu tiên về trà, mang đậm triết lý Thiền tông, và chính lối thưởng trà này về sau được các nhà truyền giáo Thiền tông đưa vào triều đình Nhật.",
+      "answers": [
+        { "q": 38, "ans": "B", "quote": "Lu Yu wrote the first definitive book on tea, the Ch'a Ching. His work clearly showed the Zen Buddhist philosophy to which he was exposed as a child", "how": "Tên \"Lu Yu\" nằm ngay đây. \"published a book about tea and Buddhism\" ↔ \"wrote the first definitive book on tea\" + \"showed the Zen Buddhist philosophy\" → vế B." },
+        { "q": 32, "ans": "TRUE", "quote": "It was this form of tea service that Zen Buddhist missionaries would later introduce to imperial Japan", "how": "\"The introduction of tea to imperial Japan originates from missionary purposes\": \"imperial Japan\" lặp nguyên văn, \"missionary purposes\" ↔ \"Zen Buddhist missionaries\". Đoạn 3 còn củng cố: nhà sư Yeisei mang hạt trà về vì thấy giá trị của trà trong thiền định → TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Nhà sư Yeisei mang hạt trà đầu tiên về Nhật vì thấy trà giúp thiền định, nên được gọi là \"Cha đẻ của trà\" ở Nhật; trà lập tức được hoàng gia bảo trợ và lan nhanh từ cung đình, tu viện ra các tầng lớp khác.",
+      "answers": [
+        { "q": 33, "ans": "FALSE", "quote": "Tea received almost instant imperial sponsorship and spread rapidly from the royal court and monasteries to the other sections of Japanese society", "how": "\"all sections of Japanese society\" khớp với \"the other sections of Japanese society\", nhưng \"over a very long time\" mâu thuẫn thẳng với \"almost instant\" và \"spread rapidly\" → FALSE. Bẫy: nửa đầu câu hỏi đúng, chỉ phần thời gian là sai, nên phải đọc hết câu mới kết luận." }
+      ],
+      "note": "Vế F (\"realized the value of tea in strengthening religious intervention\") là của Yeisei ở đoạn này, nhưng Yeisei không nằm trong danh sách Q36–40 nên đó là vế thừa dùng để gây nhiễu."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Trà được nâng lên thành nghệ thuật, khai sinh Trà đạo Nhật Bản; nhà báo – sử gia gốc Ireland–Hy Lạp Lafcadio Hearn viết mô tả hay nhất về loại hình nghệ thuật phức tạp này.",
+      "answers": [
+        { "q": 31, "ans": "D", "quote": "Tea was elevated to an art form resulting in the creation of the Japanese Tea Ceremony", "how": "\"A kind of ceremonial art was born related to tea\" ↔ \"the creation of the Japanese Tea Ceremony\" (born = creation, ceremonial art = Tea Ceremony). Đoạn 4 = đoạn D của đề → D." },
+        { "q": 39, "ans": "D", "quote": "The best description of this complex art form was probably written by the Irish-Greek journalist-historian Lafcadio Hearn", "how": "Tên \"Lafcadio Hearn\" nằm ngay đây; \"depicted the art of tea ceremony\" ↔ \"The best description of this complex art form was probably written by\" → vế D. Đừng chọn E: Hearn chỉ MÔ TẢ trà đạo, không phải người nâng trà thành nghệ thuật." }
+      ],
+      "note": "Ở đoạn này Câu 31 có đáp án là chữ cái D (đoạn D) còn Câu 39 cũng là chữ D nhưng là vế việc D. Hai hệ chữ cái khác nhau, đừng lẫn."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Sự thuần khiết của trà đạo sinh ra các nghệ thuật phụ trợ (kiến trúc trà thất, các geisha chuyên trình diễn trà), nhưng càng đông người tham gia thì tinh thần Thiền nguyên bản càng mất đi: trà đạo trở nên ồn ào, hoa mỹ, có cả \"Tea Tournaments\" trao thưởng lụa, giáp trụ, trang sức.",
+      "answers": [
+        { "q": 28, "ans": "E", "quote": "the purity of the original Zen concept was lost. The tea ceremony became corrupted, boisterous and highly embellished", "how": "\"Religious implications were abandoned\" ↔ \"the purity of the original Zen concept was lost\" (religious implications = ý nghĩa Thiền tông, abandoned = lost). Câu cuối đoạn còn nhấn mạnh phần thưởng vật chất \"totally alien to the original Zen attitude\". Đoạn 5 = đoạn E → E." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Người châu Âu đầu tiên tận mắt thấy và viết về trà là linh mục Dòng Tên Bồ Đào Nha Jasper de Cruz (1560); Bồ Đào Nha giành được quyền giao thương đầu tiên với Trung Quốc và lập tuyến chở trà về Lisbon, rồi tàu Hà Lan phân phối tiếp; trà rất thời thượng ở thủ đô Hà Lan vì giá cao (hơn 100 đô một pound) nên chỉ giới giàu có mới dùng được.",
+      "answers": [
+        { "q": 36, "ans": "G", "quote": "The first European to personally encounter tea and write about it was the Portuguese Jesuit Father Jasper de Cruz in 1560. Portugal, with her technologically advanced navy, had been successful in gaining the first right of trade with China", "how": "Hai vế của G khớp đúng hai câu liền nhau: \"wrote about tea\" ↔ \"write about it\", và \"his country started the first tea trade with China\" ↔ \"Portugal ... gaining the first right of trade with China\". Bẫy là vế H (\"developed a trade route by shipping tea to Lisbon\"): chủ ngữ của việc đó là \"The Portuguese\" (cả dân tộc), không phải riêng Jasper de Cruz, và G mới gồm đủ cả hai ý về ông." },
+        { "q": 30, "ans": "F", "quote": "tea became very fashionable in the Dutch capital. This was due in part to the high cost of the tea (over $100 per pound) which immediately made it the domain of the wealthy", "how": "\"the symbol of the wealth in the Netherlands\" ↔ \"the domain of the wealthy\" ở \"the Dutch capital\"; chữ \"once\" ứng với việc sau đó giá giảm dần khi nhập nhiều hơn. Đoạn 6 = đoạn F của đề → F." }
+      ],
+      "note": "Đoạn này vừa cho đáp án F (câu 30) vừa cho vế G (câu 36). Lại là hai hệ chữ cái khác nhau: một bên là tên đoạn, một bên là tên vế việc."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Khi dân Hà Lan uống trà ngày càng nhiều, bác sĩ và giới đại học tranh cãi qua lại về lợi và hại của trà (1635–1657), còn công chúng thì mặc kệ và cứ uống; Pháp và Hà Lan dẫn đầu châu Âu về tiêu thụ trà.",
+      "answers": [
+        { "q": 29, "ans": "G", "quote": "doctors and university authorities argued back and forth as to the negative and/or positive benefits of tea", "how": "\"Tea aroused controversies in Europe\" ↔ \"argued back and forth\" + \"the controversy lasted from 1635 to roughly 1657\"; Hà Lan là châu Âu. Đoạn 7 = đoạn G của đề → G." },
+        { "q": 34, "ans": "NOT GIVEN", "how": "Câu hỏi khẳng định uống trà có lợi ích sức khỏe đáng kể. Bài chỉ nói giới chuyên môn tranh cãi về \"the negative and/or positive benefits of tea\" mà không kết luận bên nào đúng, cũng không chỗ nào trong 11 đoạn nói trà tốt cho sức khỏe → NOT GIVEN, không phải FALSE." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Trà thành một phần nếp sống châu Âu: Marie de Rabutin lần đầu nhắc tới việc pha sữa vào trà (1680), quán trọ Hà Lan cho khách mượn bộ đồ trà mang ra vườn tự pha; ở Pháp trà chỉ thịnh khoảng năm mươi năm rồi bị rượu vang, sô-cô-la và cà phê lạ thay thế.",
+      "answers": [
+        { "q": 27, "ans": "H", "quote": "Tea remained popular in France for only about fifty years, being replaced by a stronger preference for wine, chocolate, and exotic coffees", "how": "\"Coffee took the place of tea\" ↔ trà \"being replaced by a stronger preference for ... exotic coffees\". Đoạn 8 = đoạn H của đề → H." },
+        { "q": 35, "ans": "NOT GIVEN", "how": "Từ khóa \"add milk\" dẫn tới \"The social critic Marie de Rabutin made the first mention in 1680 of adding milk to tea\". Nhưng đó là một cá nhân (và là người Pháp) nhắc tới chuyện pha sữa, bài không nói người Hà Lan nói chung \"preferred\" uống trà có sữa → NOT GIVEN. Bẫy: đoạn này có nhiều chi tiết về người Hà Lan (quán trọ, \"The independent Dutchman\") nên dễ gán nhầm." }
+      ]
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Đến 1650 Hà Lan buôn bán khắp thế giới phương Tây; Peter Stuyvesant mang trà đầu tiên tới châu Mỹ cho cư dân thuộc địa Hà Lan ở New Amsterdam (sau được người Anh đổi tên thành New York).",
+      "answers": [
+        { "q": 37, "ans": "I", "quote": "Peter Stuyvesant brought the first tea to America to the colonists in the Dutch settlement of New Amsterdam (later re-named New York by the English)", "how": "\"first brought tea to America\" ↔ \"brought the first tea to America\" → vế I. Vế J (\"brought the first tea to Americans in the Netherlands\") là bẫy đảo địa điểm: ông mang trà tới khu định cư CỦA người Hà Lan Ở CHÂU MỸ, chứ không phải tới người Mỹ ở Hà Lan." }
+      ],
+      "note": "Đoạn 9 và Đoạn 10 gộp lại là đoạn I của đề."
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Cư dân ở đó nghiện trà tới mức khi người Anh tiếp quản thuộc địa, họ phát hiện khu định cư nhỏ này uống nhiều trà hơn cả nước Anh cộng lại.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Anh là nước đi biển lớn cuối cùng chen được vào tuyến thương mại Trung Quốc và Đông Ấn; trà tới Anh khoảng 1652–1654, nhanh chóng thay bia ale làm quốc ẩm, lượng nhập tăng từ 40.000 pound (1699) lên trung bình 240.000 pound/năm (1708) và mọi tầng lớp đều uống trà.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Bài in 11 đoạn nhưng đề đánh A–J: Đoạn 9 và Đoạn 10 gộp thành đoạn I. Nếu không gộp, mọi đáp án từ Đoạn 9 trở đi sẽ lệch một chữ cái.",
+    "Q36–40 có hai cặp vế rất giống nhau: G và H (đều về Bồ Đào Nha), I và J (đều về trà tới châu Mỹ). Phân biệt bằng CHỦ NGỮ (cá nhân hay cả nước) và bằng ĐỊA ĐIỂM (ở châu Mỹ hay ở Hà Lan).",
+    "Hai câu NOT GIVEN (34, 35) đều do bài chỉ nêu tranh cãi hoặc một cá nhân, còn câu hỏi lại khái quát thành \"có lợi ích rõ rệt\" / \"người Hà Lan thích\". Có từ khóa trong bài không có nghĩa là có đáp án TRUE."
+  ]
+}

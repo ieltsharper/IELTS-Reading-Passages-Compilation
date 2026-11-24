@@ -1,0 +1,78 @@
+{
+  "step1": "Tiêu đề Torch Relay báo trước bài kể về lễ rước đuốc: ý nghĩa của lửa trong Hy Lạp cổ đại → nguồn gốc cuộc chạy đuốc → cách người Hy Lạp tổ chức → lễ rước đuốc trong Olympic hiện đại → Berlin 1936 → các kỳ Olympic đặc biệt → ngọn đuốc Bắc Kinh 2008. Q13–18 là Matching Headings cho các đoạn A, B, C, D, F, G (A–G tương ứng [P1]–[P7], đoạn E không hỏi); Q19–26 TRUE/FALSE/NOT GIVEN đi theo thứ tự bài; Q27 là câu hỏi ngắn, chắc chắn nằm ở đoạn cuối vì liên quan đến phát biểu về Olympic Values.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["13–18", "Matching Headings (i–x) cho đoạn A, B, C, D, F, G", "Không – chỉ chốt được sau khi đọc xong đoạn", "Đọc câu đầu và câu cuối mỗi đoạn để nắm ý chính"],
+    ["19–26", "True / False / Not Given", "Có (từ khóa), theo thứ tự bài", "altars, ten tribes, same way as in antiquity, Berlin 1936, host country, Christopher Columbus, rain"],
+    ["27", "Short answer (NO MORE THAN THREE WORDS)", "Có", "Olympic Values, excellence"]
+  ],
+  "typesNote": "Vì đề hỏi heading theo từng đoạn và TFNG cũng đi theo thứ tự, chỉ cần đọc một lượt: xong mỗi đoạn thì chọn heading rồi chốt luôn các câu TFNG có bằng chứng trong đoạn đó.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Lửa là biểu tượng thiêng từ thời tiền sử: ở Hy Lạp cổ nó tượng trưng cho sự tạo lập thế giới, sự đổi mới và ánh sáng, gắn với Hephaestus, Prometheus và Hestia.",
+      "answers": [
+        { "q": 13, "ans": "i", "quote": "In ancient Greece it symbolized the creation of the world, renewal and light.", "how": "Cả đoạn chỉ nói lửa \"tượng trưng cho\" những gì ↔ heading i \"Symbolic meanings of fire\". Bẫy: heading ii (How ancient Greeks used fire) sai vì đoạn không mô tả cách dùng lửa mà mô tả ý nghĩa." },
+        { "q": 19, "ans": "TRUE", "quote": "At the center of every city-state in ancient Greece there was an altar with an ever-burning fire", "how": "\"altars had been built in every ancient Greek city\" ↔ \"At the center of every city-state ... there was an altar\" → theo đáp án chính thức là TRUE." }
+      ],
+      "note": "Đáp án chính thức cho câu 19 là TRUE dù bài không nói rõ các miếu thờ này dựng \"for the Olympics\"; nhiều người sẽ chọn NOT GIVEN. Cứ dùng đáp án của đề và nhớ rằng phần \"every ... city\" là phần được chấm."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Cuộc chạy đuốc bắt nguồn ở Hy Lạp cổ như nghi lễ ban đêm, rồi thành môn thể thao đồng đội phổ biến; lửa thiêng ở Olympia được thắp bằng gương lõm hội tụ tia nắng.",
+      "answers": [
+        { "q": 14, "ans": "iii", "quote": "Torch Relay races started in ancient Greece as religious rituals held at night.", "how": "\"started ... as religious rituals\" rồi \"turned into a team athletic event\" = kể nguồn gốc ↔ heading iii \"The origin of Torch Relay\". Bẫy: heading iv (How to light a torch) chỉ đúng với nửa sau đoạn, không bao được ý chính." }
+      ],
+      "note": "Đoạn này có cả chi tiết \"concave mirror\" nên rất dễ bị hút về heading iv; nhớ nguyên tắc heading phải phủ cả đoạn."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Người Hy Lạp tổ chức \"lampadedromia\": trong lễ Panathenaia, 40 thanh niên từ 10 bộ tộc Athens chuyền lửa từ miếu Prometheus tới miếu Athena, tổng cộng 2,5 km.",
+      "answers": [
+        { "q": 15, "ans": "v", "quote": "The Ancient Greeks held a \"lampadedromia\" (the Greek word for Torch Relay), where athletes competed by passing on the Flame in a relay race to the finish line.", "how": "Cả đoạn mô tả cách tiến hành: dịp nào, lộ trình nào, bao nhiêu người, bao xa ↔ heading v \"How ancient Greeks performed Torch Relay\". Bẫy: heading vi (Selecting right athletes) sai vì bài không nói cách tuyển chọn." },
+        { "q": 20, "ans": "NOT GIVEN", "how": "Bài chỉ nói \"the ten Athenian tribes\" – mười bộ tộc của riêng Athens – chứ không nói cả Hy Lạp cổ đại chỉ có mười bộ tộc. Bẫy: thấy đúng con số \"ten\" là chọn TRUE ngay." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Olympic hiện đại thắp lửa ở Olympia y hệt thời cổ; lễ rước đuốc hiện đại là bản tái hiện không mang tính thi đấu, kèm lời tiên tri của Coubertin năm 1912.",
+      "answers": [
+        { "q": 16, "ans": "vii", "quote": "The modern Torch Relay is a non-competitive replication of the ancient Flame relay and a symbolic celebration of the Olympic Games.", "how": "Đoạn nói lễ rước đuốc là dấu ấn/biểu tượng của Thế vận hội hiện đại ↔ heading vii \"Torch Relay as a mark for modern Olympics\". Bẫy: heading ix (Different practices) là của đoạn F, không phải đoạn này." },
+        { "q": 21, "ans": "FALSE", "quote": "the sacred Flame is lit in Olympia by the head priestess, in the same way as in antiquity", "how": "Câu hỏi nói hai thời kỳ lấy lửa \"in different ways\"; bài nói \"in the same way as in antiquity\" → trái ngược, FALSE." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Lễ rước đuốc mở màn Olympic được đưa vào từ Berlin 1936 (người chạy đầu tiên là Konstantinos Kondylis) và từ đó luôn đi trước mỗi kỳ Olympic mùa hè, mang màu sắc văn hóa nước chủ nhà.",
+      "answers": [
+        { "q": 22, "ans": "TRUE", "quote": "The Torch Relay, as the opening of the Olympic celebration, was received in the Berlin Olympiad in 1936", "how": "\"reintroduced at the Berlin Olympic Games during the opening ceremony\" ↔ \"as the opening of the Olympic celebration, was received in the Berlin Olympiad in 1936\" → TRUE." },
+        { "q": 23, "ans": "NOT GIVEN", "how": "Bài chỉ nói lễ rước đuốc được đưa vào năm 1936, không hề nói lễ khai mạc từng bị tạm ngưng trước đó. Bẫy: suy diễn từ chữ \"received/reintroduced\" rằng trước đó nó bị gián đoạn." },
+        { "q": 24, "ans": "NOT GIVEN", "how": "Bài nói nước chủ nhà chọn vận động viên thắp lửa mang tính biểu tượng (\"The choice of the athlete ... is always symbolic to the host country\"), chứ không nói họ chọn \"national symbols\" để thắp lửa → thông tin trong câu hỏi không có. Bẫy: từ \"symbolic\" bị đọc thành \"national symbols\"." }
+      ],
+      "note": "Đoạn E không có câu hỏi heading, nhưng lại chứa tới ba câu TFNG (22, 23, 24) – đừng đọc lướt chỉ vì không phải đoạn cần chọn heading."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Mỗi kỳ Olympic hiện đại có một kiểu rước đuốc riêng: Rome 1960 đi tàu và lên truyền hình lần đầu, Mexico 1968 theo đường Columbus với người phụ nữ đầu tiên thắp lửa, Montreal 1976 truyền qua vệ tinh, Barcelona 1992 bắn tên lửa, Sydney 2000 đi dưới nước, Bắc Kinh 2008 dài nhất.",
+      "answers": [
+        { "q": 17, "ans": "ix", "quote": "For the 1960 Olympic Games in Rome, the Flame followed a route in homage to the Greek and Roman civilizations.", "how": "Cả đoạn là một chuỗi ví dụ khác nhau ở các kỳ Olympic hiện đại ↔ heading ix \"Different Torch Relay practices in modern Olympics\"." },
+        { "q": 25, "ans": "FALSE", "quote": "the Flame followed the route taken by Christopher Columbus, and the athletics champion Enriqueta Basilio was the first woman to light the Flame", "how": "Columbus chỉ liên quan đến lộ trình, người thắp lửa là Enriqueta Basilio → câu hỏi gán sai người, FALSE. Bẫy: hai tên riêng nằm trong cùng một câu." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Đuốc Bắc Kinh 2008 kết hợp di sản nghệ thuật Trung Hoa (hoa văn cuộn, \"Lucky Cloud\") với công nghệ và vật liệu thân thiện môi trường; lãnh đạo BOCOG và IOC nhấn mạnh cả nét văn hóa lẫn kỹ thuật.",
+      "answers": [
+        { "q": 18, "ans": "x", "quote": "The design of the Beijing 2008 Olympic Torch takes advantage of Chinese artistic heritage and technological expertise.", "how": "Ngay câu mở đoạn đã ghép \"artistic heritage\" + \"technological expertise\" ↔ heading x \"Combination of culture and technology\". Bẫy: heading viii (Technologies adapted in Torch Relay) chỉ nói một nửa, bỏ mất phần văn hóa." },
+        { "q": 26, "ans": "TRUE", "quote": "to be able to remain lit in winds of up to 65 kilometers-an-hour and lit in rain of up to 50 millimeters-an-hour", "how": "\"keep burning in light rain\" ↔ \"remain lit in rain of up to 50 millimeters-an-hour\": mưa nhẹ nằm trong ngưỡng chịu được → TRUE." },
+        { "q": 27, "ans": "excellence, respect, friendship", "quote": "symbols which embody the Olympic Values of excellence, respect and relationship", "how": "Câu hỏi \"three basic Olympic Values\" ↔ lời của Jacques Rogge liệt kê đúng ba giá trị ngay sau \"the Olympic Values of\"." }
+      ],
+      "note": "Đáp án chính thức của câu 27 ghi \"excellence, respect, friendship\", trong khi bản passage ở đây viết \"excellence, respect and relationship\" (giá trị thứ ba của IOC thường là friendship). Vẫn chép theo đáp án của đề, nhưng biết rằng chữ thứ ba trong bài đọc là \"relationship\"."
+    }
+  ],
+  "tips": [
+    "Các đoạn A–G trong đề chính là đoạn 1–7 của bài. Đề bỏ qua đoạn E khi hỏi heading, nhưng đoạn đó lại chứa ba câu TFNG – đọc đều tay, đừng bỏ đoạn.",
+    "Nhiều heading chỉ đúng một chi tiết nhỏ (iv \"How to light a torch\" với gương lõm ở đoạn B, viii \"Technologies\" với đoạn G): luôn chọn heading bao được cả đoạn, không chọn heading khớp một câu.",
+    "Bài dày đặc tên riêng và năm tháng (1912, 1936, 1960, 1968, 1976, 1992, 2000, 2008). Với TFNG, hãy kiểm tra xem câu hỏi có gán đúng việc cho đúng người và đúng năm không, vì bẫy chủ yếu nằm ở đó."
+  ]
+}

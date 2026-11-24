@@ -1,0 +1,93 @@
+{
+  "step1": "Tiêu đề Shoemaker–Levy 9 Collision with Jupiter báo rõ bài kể một sự kiện thiên văn có thật: sao chổi Shoemaker–Levy 9 đâm vào Sao Mộc năm 1994. Đoán mạch bài theo trình tự thời gian: phát hiện sao chổi → tình cờ may mắn khi chụp ảnh → cấu trúc 21 mảnh \"string of pearls\" → kích thước → tính toán năng lượng va chạm → quá trình va chạm → cấu tạo Sao Mộc → hậu quả nhìn thấy được → vết sẹo mờ dần → tìm lại ghi chép cũ. Nhóm 27–31 là heading cho đoạn B–F (tức đoạn 2–6), nhóm 32–35 rải khắp bài, nhóm summary 36–40 chắc chắn nằm gọn ở đoạn tả cấu tạo Sao Mộc (đoạn G).",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["27–31", "Matching Headings cho đoạn B–F (i–x)", "Không: chỉ chốt được sau khi đọc xong từng đoạn", "Đọc ý chính từng đoạn B, C, D, E, F rồi đối chiếu danh sách heading"],
+    ["32–35", "Matching Information (đoạn A–J)", "Không: phải đọc tới đoạn chứa thông tin", "accidentally detected, spectacular vision, labeled, visual evidence/structure"],
+    ["36–40", "Summary completion (NO MORE THAN THREE WORDS)", "Có, theo thứ tự và dồn trong một đoạn", "core of Jupiter, hydrogen, metallic, pressure, methane and ammonia, colors"]
+  ],
+  "typesNote": "Heading và Matching Information chỉ quyết được khi đọc xong đoạn, nên cứ đọc hết một đoạn là chốt heading rồi rà xem bốn câu 32–35 có câu nào khớp đoạn đó không; riêng 36–40 điền liền một mạch khi tới đoạn G.",
+  "walk": [
+    {
+      "para": "Đoạn 1 (A)",
+      "idea": "Giới thiệu sự kiện tháng 7/1994 và kể lại việc anh em Shoemaker cùng David Levy phát hiện sao chổi bằng camera Schmidt, dùng kỹ thuật chụp hai lần cách nhau 45 phút để tìm vật thể di chuyển.",
+      "answers": [],
+      "note": "Đoạn A có nhiều chi tiết về máy ảnh (eight minute exposure, 45 minutes later) nên dễ nghĩ tới heading i \"Camera settings for observation\" – nhưng đoạn A không nằm trong nhóm 27–31, đừng mất thời gian."
+    },
+    {
+      "para": "Đoạn 2 (B)",
+      "idea": "May mắn tình cờ: đêm 23/3 thời tiết xấu, họ dùng tạm cuốn phim cũ đã bị lộ sáng, và chính hai tấm phim mờ rìa ấy ghi lại hình ảnh đầu tiên của vật thể hình thanh mà Carolyn Shoemaker gọi là \"squashed comet\".",
+      "answers": [
+        { "q": 27, "ans": "vii", "quote": "This object, which Carolyn Shoemaker first described as a squashed comet, later became known as comet Shoemaker-Levy 9.", "how": "Cả đoạn kể lần đầu nhìn thấy vật thể và cái tên \"squashed comet\" ↔ heading vii \"First discovery of the squashed comet\". Heading i (thiết lập máy ảnh) là bẫy vì đoạn có nhắc film và camera, nhưng trọng tâm đoạn là sự tình cờ dẫn tới phát hiện, không phải cách cài đặt máy." },
+        { "q": 32, "ans": "B", "quote": "As so often in science, serendipity played a large part in the discovery of the Shoemaker-Levy 9.", "how": "\"accidentally detected\" ↔ \"serendipity played a large part in the discovery\"; cả chi tiết phim bị lộ sáng \"by accident\" cũng ở đoạn này nên chọn B." }
+      ]
+    },
+    {
+      "para": "Đoạn 3 (C)",
+      "idea": "Kính thiên văn mạnh hơn cho thấy sao chổi thực ra gồm 21 mảnh xếp thành hàng – nên có tên \"string of pearls\"; ảnh Hubble cho thấy các mảnh chính trải dài khoảng 600.000 km.",
+      "answers": [
+        { "q": 28, "ans": "iv", "quote": "The term string of pearls was soon coined.", "how": "Đoạn giải thích hình dạng kỳ lạ là do 21 mảnh xếp hàng, và đặt tên \"string of pearls\" ↔ heading iv. Heading vi \"Hubble Space Telescope\" là bẫy vì Hubble chỉ là công cụ được nhắc một câu, không phải ý chính; heading x (mảnh đổi hình dạng) chỉ đúng với câu cuối." },
+        { "q": 35, "ans": "C", "quote": "Some graphic proofs obtained by the Hubble Space Telescope show the main fragments which at that time spanned a linear distance of approximately 600,000 km.", "how": "\"Visual evidence\" ↔ \"graphic proofs\"; \"explains the structure\" ↔ ảnh cho thấy các mảnh xếp thành hàng dài 600.000 km. Chính đoạn C mô tả cấu trúc nên đáp án là C, không phải A (nơi chỉ nói kỹ thuật chụp ảnh)." }
+      ]
+    },
+    {
+      "para": "Đoạn 4 (D)",
+      "idea": "Kích thước sao chổi gốc và từng mảnh vẫn là một ẩn số: ước tính đầu là 2,5 km và 0,75 km, nghiên cứu sau cho khoảng 10 km và 2 km và con số này được tin hơn.",
+      "answers": [
+        { "q": 29, "ans": "iii", "quote": "The size of the original comet and each of the fragments was, and still is, something of a mystery.", "how": "Toàn đoạn chỉ bàn đường kính (diameter) của sao chổi và các mảnh ↔ heading iii \"Size of comet\". Heading ix (tính toán, dự đoán) thuộc về đoạn E vì ở đó mới có dự báo va chạm." }
+      ]
+    },
+    {
+      "para": "Đoạn 5 (E)",
+      "idea": "Tính toán tiếp cho thấy các mảnh sẽ đâm vào Sao Mộc trong tháng 7/1994, mỗi mảnh giải phóng năng lượng tương đương khoảng 500.000 triệu tấn TNT, khiến giới thiên văn toàn cầu chú ý.",
+      "answers": [
+        { "q": 30, "ans": "viii", "quote": "each fragment could deliver an energy equivalent to approximately 500,000 million tons of TNT", "how": "Điểm nhấn của đoạn là mức NĂNG LƯỢNG sinh ra từ va chạm ↔ heading viii \"Power generated from the collisions\". Heading ix \"Calculations, expectations and predictions\" là bẫy hợp lý nhất (đoạn mở đầu bằng \"Further calculations\" và có kỳ vọng), nhưng con số TNT mới là thông tin chính, nên theo key chọn viii." }
+      ],
+      "note": "Nếu phân vân giữa viii và ix cho đoạn E: hỏi \"đoạn này tồn tại để nói điều gì mới?\" – điều mới là sức công phá khổng lồ, còn \"calculations\" chỉ là cách người ta biết được."
+    },
+    {
+      "para": "Đoạn 6 (F)",
+      "idea": "Mỗi mảnh được gán một chữ cái A–W và cả thế giới phối hợp theo dõi; các vụ va chạm xảy ra ngày 16–22/7 ở vĩ độ khoảng 48 độ nam, ngay phía khuất của hành tinh nhưng nhanh chóng quay vào tầm nhìn từ Trái Đất, tạo nên cảnh tượng ấn tượng.",
+      "answers": [
+        { "q": 31, "ans": "ii", "quote": "The collisions lived up to all but the wildest expectations and provided a truly impressive spectacle.", "how": "Cả đoạn thuật lại diễn biến va chạm 16–22/7 (nơi xảy ra, thời điểm, cảnh tượng) ↔ heading ii \"Collisions on stage\" – va chạm được \"lên sân khấu\" trước mắt người quan sát. Heading ix (tính toán, dự đoán) không hợp vì ở đây sự việc đã xảy ra chứ không còn là dự báo." },
+        { "q": 34, "ans": "F", "quote": "Each fragment was assigned an identity letter A-W", "how": "\"Every single element ... was labeled\" ↔ \"Each fragment was assigned an identity letter\"; element = fragment, labeled = assigned an identity letter. Đáp án F." }
+      ],
+      "note": "Câu dài trong đoạn: backbone \"The impacts all occurred some 10-15 degrees round the limb in the far side of the planet\" (CÁI GÌ xảy ra Ở ĐÂU), mệnh đề so sánh \"as seen from Earth\" chỉ nói góc nhìn, rồi câu sau mở bằng \"However\" đảo ý: sự quay nhanh của hành tinh đưa các điểm va chạm vào tầm quan sát. Hiểu được chuỗi khuất → quay → nhìn thấy mới thấy vì sao heading ii (màn trình diễn) hợp với đoạn F."
+    },
+    {
+      "para": "Đoạn 7 (G)",
+      "idea": "Cấu tạo Sao Mộc: lõi nhỏ bằng sắt và silicat bọc trong hydro; càng sâu hydro càng bị nén thành dạng kim loại, càng xa tâm thì ở dạng phân tử bình thường; tầng mây nhìn thấy từ Trái Đất chủ yếu là methane và ammonia, còn màu sắc là do các nguyên tố, hợp chất khác ẩn trong mây.",
+      "answers": [
+        { "q": 36, "ans": "iron", "quote": "Jupiter is composed of a relatively small core of iron and silicates surrounded by hydrogen.", "how": "\"The core of Jupiter, which is enclosed by hydrogen, consists of ___ and ___\" ↔ \"a small core of iron and silicates surrounded by hydrogen\"; enclosed by = surrounded by. Chỗ trống thứ nhất: iron." },
+        { "q": 37, "ans": "silicates", "quote": "a relatively small core of iron and silicates", "how": "Vế thứ hai của cùng cụm; giữ nguyên số nhiều silicates như trong bài." },
+        { "q": 38, "ans": "molecule", "quote": "further from the center, the pressure is lower and the hydrogen is in its normal molecular form", "how": "\"pressure is gradually reduced from the center to the outside layers\" ↔ \"further from the center, the pressure is lower\"; \"normal form of ___\" ↔ \"its normal molecular form\". Đáp án chính thức ghi molecule (dạng danh từ của molecular)." },
+        { "q": 39, "ans": "Jovian cloud tops", "quote": "The Jovian cloud tops visible from Earth consist primarily of methane and ammonia.", "how": "\"which can be observed from earth\" ↔ \"visible from Earth\"; câu hỏi đảo chủ ngữ – tân ngữ (methane và ammonia tạo nên cái gì) nên chỗ trống là Jovian cloud tops, vừa đủ ba từ." },
+        { "q": 40, "ans": "lurking", "quote": "There are other elements and compounds lurking in the cloud tops and below", "how": "\"other particles ___ in the cloud\" ↔ \"other elements and compounds lurking in the cloud tops\"; chỗ trống đứng giữa danh từ và \"in the cloud\" nên cần phân từ lurking." }
+      ],
+      "note": "Key cho câu 38 là \"molecule\" trong khi bài viết \"molecular form\"; nếu viết molecular cũng là bám sát bài, nhưng khi luyện cứ theo key là molecule. Đoạn G là đoạn duy nhất chứa cả năm chỗ trống – đọc tới đây là điền một lượt, không cần quay lại."
+    },
+    {
+      "para": "Đoạn 8 (H)",
+      "idea": "Các mảnh nhỏ (T, U, V) tan rã không để lại dấu vết, còn các mảnh lớn xuyên qua tầng mây, nung khí lên khoảng 20.000 K, tạo quả cầu lửa đường kính tới 2.000 km và để lại vết sẹo tối quanh điểm va chạm.",
+      "answers": [
+        { "q": 33, "ans": "H", "quote": "many of the cometary fragments were sufficiently large to produce a spectacular display", "how": "\"spectacular vision on Jupiter\" ↔ \"spectacular display\". Đoạn F cũng có \"a truly impressive spectacle\" nên rất dễ chọn nhầm F, nhưng F nói về chương trình quan sát và thời điểm va chạm, còn H mới mô tả chính cảnh tượng (quả cầu lửa, vết sẹo tối) nên đáp án là H." }
+      ],
+      "note": "Bẫy lớn nhất của nhóm 32–35: hai đoạn F và H cùng dùng từ mang nghĩa \"ngoạn mục\". Phân biệt bằng việc đoạn nào MÔ TẢ cảnh tượng, đoạn nào chỉ nhắc đến nó."
+    },
+    {
+      "para": "Đoạn 9 (I)",
+      "idea": "Vài ngày sau va chạm, các vết sẹo bắt đầu biến dạng và mờ đi theo khí quyển Sao Mộc; giới chuyên nghiệp bớt quan tâm nên người nghiệp dư có thể đóng góp bằng cách theo dõi bằng kính thiên văn nhỏ.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10 (J)",
+      "idea": "Các nhà thiên văn và lưu trữ đang lục lại hồ sơ cũ (1690–1872, bản vẽ của BAA năm 1927 và 1948) để tìm những vụ va chạm có thể đã bị bỏ sót, nhưng không ai dám chắc.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Nhớ quy đổi chữ cái sang số đoạn ngay từ đầu: A = đoạn 1, B = đoạn 2 ... J = đoạn 10. Đề hỏi heading cho B–F tức là đoạn 2 đến đoạn 6.",
+    "Heading bẫy ở bài này đều là những chi tiết có thật nhưng không phải ý chính: Hubble Space Telescope (vi) ở đoạn C, camera settings (i) ở đoạn A, calculations (ix) ở đoạn E. Luôn hỏi \"đoạn này tồn tại để nói điều gì\".",
+    "Với summary 36–40, bám cấu trúc ngữ pháp của chỗ trống: sau \"consists of\" cần danh từ, sau \"other particles\" cần phân từ (lurking), nên không thể điền bừa cụm dài."
+  ]
+}

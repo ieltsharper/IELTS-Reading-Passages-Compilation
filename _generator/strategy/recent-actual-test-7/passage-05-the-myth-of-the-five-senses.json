@@ -1,0 +1,88 @@
+{
+  "step1": "Tiêu đề The Myth of the Five Senses cho biết tác giả muốn bác bỏ quan niệm \"con người chỉ có năm giác quan\". Đoán mạch bài: thí nghiệm của Paul Bach-y-Rita cho thấy các giác quan có thể thay thế nhau → mô tả thí nghiệm nhìn bằng lưỡi → các câu hỏi đặt ra về người khiếm thị, khiếm thính → hai giác quan bị bỏ sót (kinesthetic và vestibular) → vì sao chúng bị bỏ sót → nhìn sang thế giới động vật: \"giác quan thứ sáu\" của loài di cư, hệ đường bên của cá → kết luận kêu gọi bỏ huyền thoại năm giác quan. Nhóm 28–32 (Matching Information) rải khắp bài; summary 33–37 dồn ở hai đoạn nói về kinesthetic/vestibular; 38–40 (TFNG) nằm ở đoạn đầu và hai đoạn cuối.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["28–32", "Matching Information (đoạn A–H)", "Không: phải đọc tới đoạn chứa thông tin mới chốt", "animal migration, caught the ball, right foot, intuition, lost a sensory organ"],
+    ["33–37", "Summary completion chọn từ bảng A–L", "Có, theo thứ tự và dồn ở hai đoạn liền nhau", "list of senses, arms and legs, information link, vestibular, external"],
+    ["38–40", "True / False / Not Given", "Có (bám từ khóa)", "tongue, hear sounds, animals, original five, new stories, persuaded"]
+  ],
+  "typesNote": "Quan trọng: đề nói bài có 8 đoạn A–H trong khi bản in chia thành 9 khối – câu \"One way of gaining new insight...\" thuộc cùng đoạn F với phần nói về động vật di cư, nên A = đoạn 1, B = đoạn 2, C = đoạn 3, D = đoạn 4, E = đoạn 5, F = đoạn 6 + 7, G = đoạn 8, H = đoạn 9.",
+  "walk": [
+    {
+      "para": "Đoạn 1 (A)",
+      "idea": "Mở bài bằng lối nói quen thuộc \"mắt để nhìn, lưỡi để nếm\" rồi lật lại: nhà thần kinh học Paul Bach-y-Rita tin các giác quan có thể hoán đổi, ví dụ dùng lưỡi để nhìn, dựa trên quan niệm não là cơ quan biết thích nghi chứ không bị chia ngăn cứng nhắc.",
+      "answers": [
+        { "q": 38, "ans": "NOT GIVEN", "quote": "believes that the senses are interchangeable; for instance, a tongue can be used for seeing", "how": "Vế đầu của câu hỏi (\"Senses are transposable\" ↔ interchangeable) đúng, nhưng ví dụ bị đổi: bài nói lưỡi dùng để NHÌN, còn đề nói lưỡi dùng để NGHE âm thanh. Bài không ở đâu nói tới việc nghe bằng lưỡi nên NOT GIVEN, không phải TRUE." }
+      ],
+      "note": "Bẫy rất tinh: chỉ sai một từ trong ví dụ (seeing → hear sounds) là đổi từ TRUE sang NOT GIVEN. Đọc kỹ danh từ chỉ giác quan trong câu hỏi."
+    },
+    {
+      "para": "Đoạn 2 (B)",
+      "idea": "Mô tả thí nghiệm: nhà báo bị bịt mắt, đeo camera trên trán nối với dải nhựa đặt trong miệng; hình ảnh biến thành xung điện truyền tới lưới điện cực trên lưỡi, và nhờ cảm giác tê tê trên lưỡi anh ta bắt được quả bóng.",
+      "answers": [
+        { "q": 29, "ans": "B", "quote": "a \"tingling\" passed over the man's tongue, and he reached out with his left hand and caught the ball", "how": "\"The subject caught the ball with the help of his tongue\" ↔ đúng câu kết của đoạn: cảm giác tê trên lưỡi rồi bắt được bóng. Chỉ đoạn này mô tả thí nghiệm nên đáp án là B." }
+      ],
+      "note": "Câu dài trong đoạn: backbone là \"A laptop computer would convert the video's image into a fewer number of pixels\" (CÁI GÌ làm GÌ), rồi mệnh đề nối \"and those pixels would travel through the plastic strip as electric current\", cuối cùng mệnh đề quan hệ \"reaching the grid of electrodes that was placed inside the man's mouth\" chỉ đích đến. Chuỗi camera → pixel → dòng điện → điện cực trên lưỡi là toàn bộ nguyên lý thí nghiệm."
+    },
+    {
+      "para": "Đoạn 3 (C)",
+      "idea": "Đoạn toàn câu hỏi tu từ: nếu não nhìn được bằng camera và cái lưỡi ướt thì với người mù, người điếc ta nên tìm đường vòng qua thụ thể khác thay vì phẫu thuật, và liệu còn nên tin vào mô hình năm giác quan?",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 4 (D)",
+      "idea": "Danh sách năm giác quan có lẽ chưa đầy đủ: nhiều nhà khoa học muốn thêm giác quan vận động (kinesthetic – biết vị trí tay chân mà không cần nhìn, nhờ thông tin do cơ bắp gửi lên não) và giác quan tiền đình (vestibular – cảm giác thăng bằng).",
+      "answers": [
+        { "q": 30, "ans": "D", "quote": "For instance, I know where my right foot is without looking or feeling for it. It is something that my brain \"knows\".", "how": "Câu hỏi lặp gần nguyên văn ví dụ \"my right foot ... without looking\"; chỉ đoạn này nói về kinesthetic sense nên đáp án D." },
+        { "q": 33, "ans": "C", "quote": "there is the highly accepted possibility that our original list of senses is incomplete", "how": "\"our ___ list of senses lacks other important elements\" ↔ \"our original list of senses is incomplete\"; trong bảng không có original nên dùng từ đồng nghĩa C initial." },
+        { "q": 34, "ans": "H", "quote": "The first is a sense of self, mostly in terms of limbs and their placement.", "how": "\"majority cases are about the ___ of our arms and legs\" ↔ \"mostly in terms of limbs and their placement\"; arms and legs = limbs nên chỗ trống là H placement. D limb là bẫy vì đã bị dùng làm \"arms and legs\" trong chính câu hỏi." },
+        { "q": 35, "ans": "F", "quote": "This is said to be because of information sent to the brain by the muscles", "how": "\"the information link between brain and our ___\" ↔ \"information sent to the brain by the muscles\" nên đáp án F muscles. J sensory organs là bẫy vì câu sau có \"should be added to the list of sensory organs\", nhưng đó là kết luận chứ không phải nơi gửi thông tin." },
+        { "q": 36, "ans": "K", "quote": "the vestibular sense is what most would consider a sense of balance", "how": "\"it would provide us with ___\" ↔ \"a sense of balance\"; bảng không có balance nên chọn từ đồng nghĩa K stability." }
+      ],
+      "note": "Đoạn D chứa tới bốn chỗ trống liên tiếp (33–36) và cả câu 30; đây là đoạn đáng đọc chậm nhất bài. Các đáp án đều là từ ĐỒNG NGHĨA với bài (initial ↔ original, stability ↔ balance), không phải từ lặp lại."
+    },
+    {
+      "para": "Đoạn 5 (E)",
+      "idea": "Giải thích vì sao hai giác quan đó bị bỏ sót: chúng thiếu biểu hiện bên ngoài – không có cơ quan nào trên mặt hay chi dành riêng cho thăng bằng; từ đó đặt vấn đề nếu não mới là cơ quan cảm giác thật thì nên sẵn sàng gọi nhiều trải nghiệm mới là \"giác quan\".",
+      "answers": [
+        { "q": 37, "ans": "I", "quote": "It might be the result of a lack of external symbolism.", "how": "Câu hỏi giữ nguyên khung \"might be the result of a lack of external ___\"; symbolism không có trong bảng nên chọn từ gần nghĩa I representation (sự biểu hiện ra bên ngoài), khớp với ý \"we have no limb or facial organ dedicated to balance\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 6 (phần đầu đoạn F)",
+      "idea": "Câu chuyển tiếp: một cách để có hiểu biết mới là khám phá thế giới giác quan của động vật.",
+      "answers": [
+        { "q": 28, "ans": "F", "quote": "One way of gaining new insight is to explore the animal world of senses.", "how": "\"Practices of animal migration have helped expand our knowledge of the senses\" ↔ câu mở đoạn F (khám phá giác quan động vật để có hiểu biết mới) cộng với ví dụ động vật di cư ngay sau đó. Đáp án là F – nhớ rằng câu chuyển tiếp này và phần nói về động vật di cư cùng thuộc đoạn F." }
+      ]
+    },
+    {
+      "para": "Đoạn 7 (phần sau đoạn F)",
+      "idea": "\"Giác quan thứ sáu\" của động vật di cư thực ra gồm nhiều khả năng khác nhau: cảm nhận vị trí trên trái đất, khả năng định hướng mạnh hơn, thậm chí magnetite trong bồ câu và bướm vua có thể hoạt động như la bàn; nhưng cách dùng cụm từ này quá chung chung nên không giúp ta hiểu thêm.",
+      "answers": [
+        { "q": 39, "ans": "TRUE", "quote": "Migrating animals, for example, are said to have a \"sixth sense\" ... what we call the sixth sense includes any number of unrelated senses that everyday humans do not possess", "how": "\"senses other than the original five\" ↔ \"a sixth sense\" và \"any number of unrelated senses\" mà người thường không có. Bài xác nhận động vật ĐƯỢC CHO LÀ có những giác quan ngoài năm giác quan nên TRUE; việc tác giả chê cách dùng từ \"sixth sense\" là chê sự mơ hồ, không phủ nhận sự tồn tại." }
+      ],
+      "note": "Đừng vì thấy tác giả phê phán cụm \"mysterious sixth sense\" mà vội chọn FALSE. Câu hỏi chỉ nói động vật \"are considered to have\" – tức được xem là có, đúng với \"are said to have\"."
+    },
+    {
+      "para": "Đoạn 8 (G)",
+      "idea": "Nhiều loài còn có cơ quan cảm giác bên ngoài mà người không có: hệ đường bên của cá nhận biết chuyển động trong nước và phân biệt động tĩnh lạ; động vật có xương sống trên cạn đã mất hệ này trong tiến hóa, và cảm giác bị theo dõi trên vỉa hè tối có thể là dư âm mờ nhạt của nó – thứ ta hay gọi là \"trực giác\".",
+      "answers": [
+        { "q": 31, "ans": "G", "quote": "Perhaps the feeling of being watched, of being followed on a dark sidewalk, is a dull shadow of the sense we used to possess. It is particularly noteworthy that this \"feeling\" of being followed is often referred to as \"intuition\".", "how": "\"An example showing that people's intuition may work\" ↔ ví dụ cảm giác bị bám theo trên vỉa hè tối, được gọi là \"intuition\". Chỉ đoạn G có từ intuition nên đáp án G." },
+        { "q": 32, "ans": "G", "quote": "land vertebrates... lost their lateral-line systems somewhere along the evolutionary path", "how": "\"Humans probably lost a kind of sensory organ during evolution\" ↔ \"land vertebrates ... lost their lateral-line systems somewhere along the evolutionary path\", củng cố bằng \"we no longer possess the organ\". Con người thuộc land vertebrates nên vẫn là đáp án G." }
+      ],
+      "note": "Hai câu 31 và 32 cùng rơi vào đoạn G – đề có cho phép trùng đáp án, nên đừng vì đã chọn G một lần mà đi tìm đoạn khác."
+    },
+    {
+      "para": "Đoạn 9 (H)",
+      "idea": "Kết luận: những phát hiện mới liên tục xuất hiện nhưng ta vẫn bám vào quan niệm năm giác quan; tác giả kêu gọi mở rộng cả về số lượng lẫn khái niệm và bỏ đi huyền thoại tùy tiện này.",
+      "answers": [
+        { "q": 40, "ans": "FALSE", "quote": "New stories that could expand our categorical concepts of the senses are emerging constantly, but we seem to prefer holding onto the old concept of five senses.", "how": "Câu hỏi nói các nghiên cứu mới đã THUYẾT PHỤC ta chấp nhận quan niệm năm giác quan; bài nói ngược: chúng mở rộng khái niệm, còn việc ta giữ quan niệm cũ là do ta \"prefer holding onto\" chứ không phải do bị thuyết phục – và tác giả còn muốn vứt bỏ nó. Mâu thuẫn nên FALSE." }
+      ]
+    }
+  ],
+  "tips": [
+    "Việc quy đổi chữ cái A–H là bước đầu tiên phải làm: bài in 9 khối nhưng đề chỉ có 8 đoạn, câu \"One way of gaining new insight...\" nhập chung vào đoạn F. Đếm sai một nhịp là sai cả nhóm 28–32.",
+    "Tất cả năm chỗ trống 33–37 đều phải chọn TỪ ĐỒNG NGHĨA chứ không phải từ xuất hiện trong bài (initial ↔ original, stability ↔ balance, representation ↔ symbolism); các từ có thật trong bài như limb, sensory organs, tongue lại chính là bẫy.",
+    "Với TFNG ở bài này, hãy soi vào VÍ DỤ chứ không chỉ vào ý chung: câu 38 sai vì đổi \"seeing\" thành \"hear sounds\", câu 40 sai vì đảo chiều thái độ của tác giả."
+  ]
+}

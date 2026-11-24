@@ -1,0 +1,76 @@
+{
+  "step1": "Tiêu đề Magnetic Therapy cho thấy bài bênh vực liệu pháp nam châm. Đoán mạch bài: lịch sử lâu đời của nam châm chữa bệnh → so sánh với thuốc hiện đại → từ trường Trái Đất → từ trường Mặt Trời → vì sao đặt nam châm lên người lại có ích (dẫn chứng NASA) → giảm đau và tuần hoàn máu → so sánh với túi chườm nóng. Q28–33 là headings cho đoạn A–F (đúng sáu đoạn đầu); Q34–36 TFNG nằm ở nửa sau; Q37–40 là summary của riêng đoạn F.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["28–33", "Matching Headings (i–x, đoạn A–F)", "Không: đọc xong đoạn mới chốt", "centuries, alternative treatment, Earth magnet, sunspots, NASA, relief of pain"],
+    ["34–36", "True / False / Not Given", "Có (từ khóa), nhưng phải đọc kỹ ý người viết", "NASA astronauts, side effects, heating pad"],
+    ["37–40", "Summary completion đoạn F (ONE WORD ONLY)", "Có, theo thứ tự trong đoạn F", "claim to feel, endorphins, dilate, removing"]
+  ],
+  "typesNote": "Mỗi đoạn chốt xong một heading; riêng khi đọc tới đoạn 6 thì vừa chốt heading x vừa điền luôn bốn chỗ trống 37–40 vì chúng xếp đúng thứ tự trong đoạn đó.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Nam châm trị liệu đã được dùng hàng trăm, hàng nghìn năm trong nhiều nền văn hóa cổ để trị đau và bệnh.",
+      "answers": [
+        { "q": 28, "ans": "vi", "quote": "Therapeutic Magnets have been used for centuries as a treatment for many ailments", "how": "\"for hundreds of years\", \"for centuries\", \"over thousands of years\", \"ancient cultures\" đều là mốc thời gian ↔ heading vi \"History of magnet therapy\". Heading x \"Pain-reducing effects\" là bẫy vì đoạn có nhắc pain relief, nhưng trọng tâm là bề dày lịch sử." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Tác giả lập luận ngược: chính thuốc hiện đại mới đáng bị gọi là \"liệu pháp thay thế\", vì chúng mới, chưa qua thử thách thời gian, gây nghiện và nhiều tác dụng phụ.",
+      "answers": [
+        { "q": 29, "ans": "i", "quote": "our modern drugs and treatments should really be the products that are labeled as \"alternative treatment\"", "how": "Heading i \"Not an optional treatment\": optional ↔ alternative, và chữ \"not\" phản ánh việc tác giả phản đối nhãn alternative dán cho liệu pháp nam châm." }
+      ],
+      "note": "Đoạn 2 nói thuốc hiện đại có tác dụng phụ, KHÔNG nói nam châm có tác dụng phụ. Hãy nhớ chi tiết này để làm câu 35."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Trái Đất là một nam châm khổng lồ và từ trường của nó ảnh hưởng tới hầu như mọi thứ quanh ta: thời tiết, môi trường, nước, thức ăn.",
+      "answers": [
+        { "q": 30, "ans": "iii", "quote": "the Earth's magnetic field influences our environment in countless ways", "how": "Heading iii \"Magnetic field affects environment\": affects ↔ influences, environment giữ nguyên. Heading ii \"Earth itself as the biggest magnet\" chỉ đúng với câu mở đoạn; phần thân đoạn mới cho thấy ý chính là ảnh hưởng lên môi trường." }
+      ],
+      "note": "Hai heading ii và iii đều khớp một phần với đoạn 3. Chọn cái bao quát phần dài nhất của đoạn (ảnh hưởng), đúng theo key là iii."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Mặt Trời cũng tác động từ tính lên ta: thời kỳ có vết đen trùng với lúc hồ sơ bệnh viện ghi nhận nhiều tai nạn, phần lớn do mất tập trung.",
+      "answers": [
+        { "q": 31, "ans": "vii", "quote": "This research indicates the possible existence of a link between human behavior and the Sun's magnetic energy", "how": "Heading vii \"Implications of Sun's magnetic power\": implications ↔ influence/link. Heading iv \"Benefits of the Sun's magnetic energy\" sai dấu: ở đây là tai nạn và chấn thương, tức hệ quả xấu, không phải lợi ích." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Giả thuyết: cơ thể hưởng lợi từ từ trường Trái Đất, nên đặt nam châm gần người là để bù lại phần từ trường bị thiếu; bằng chứng là phi hành gia NASA đau cơ, loãng xương khi rời Trái Đất và được khắc phục bằng nam châm.",
+      "answers": [
+        { "q": 32, "ans": "ix", "quote": "it is generally accepted that our body draws some benefit from the Earth's magnetic field", "how": "Heading ix \"The Earth's magnetic field benefits the human body\" khớp gần như nguyên văn. Heading v \"Utilize the power from natural magnetic field\" nghe hợp nhưng key chọn ix vì câu chủ đề nói về lợi ích." },
+        { "q": 34, "ans": "TRUE", "quote": "it was later found to be resulting from a total lack of the Earth's magnetic field. This problem was easily solved by the placement of magnets", "how": "Phi hành gia đau cơ và mất mật độ xương khi thiếu từ trường, hết triệu chứng khi có nam châm → đúng là minh chứng cho mối liên hệ giữa nam châm và sức khỏe. Bẫy: câu đầu cho rằng nguyên nhân là không trọng lực, nhưng \"however\" bác bỏ cách giải thích đó." }
+      ],
+      "note": "Đoạn này có cấu trúc đối lập: \"This was originally thought to be caused by the absence of gravity, however, it was later found to be resulting from a total lack of the Earth's magnetic field.\" Bộ xương: This (WHO/WHAT) + was thought to be caused by gravity, rồi however đảo sang nguyên nhân thật là thiếu từ trường. Luôn lấy vế sau however."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Nam châm giảm đau theo hai cơ chế: tăng endorphin (thuốc giảm đau tự nhiên) và giãn mao mạch làm máu lưu thông tốt hơn, nhờ đó thải độc và cơ thể hồi phục nhanh hơn.",
+      "answers": [
+        { "q": 33, "ans": "x", "quote": "Magnets are also often used in the relief of pain", "how": "Heading x \"Pain-reducing effects\": pain-reducing ↔ relief of pain; cả đoạn chỉ bàn cơ chế giảm đau và hồi phục." },
+        { "q": 37, "ans": "reduction", "quote": "Many people claim to feel a dramatic reduction and often a total elimination of both acute and chronic aches and pains", "how": "\"a distinct ___ of aches and pains\" ↔ \"a dramatic reduction ... of both acute and chronic aches and pains\"; distinct ↔ dramatic, patients ↔ people. Chỉ một từ nên không lấy \"total elimination\"." },
+        { "q": 38, "ans": "endorphins", "quote": "magnetic energy increases the body's ability to produce endorphins", "how": "\"magnetic power generates ___ to relieve pain\" ↔ produce endorphins, và câu sau xác nhận \"These endorphins are the body's natural pain killer\"." },
+        { "q": 39, "ans": "capillaries", "quote": "magnetic fields dilate our capillaries and in doing so dramatically enhances our blood flow", "how": "enlarge ↔ dilate, strengthen the blood flow ↔ enhances our blood flow → chỗ trống là capillaries." },
+        { "q": 40, "ans": "toxins", "quote": "Good circulation is also essential in the process of removing toxins from our body", "how": "\"This process can remove ___\" ↔ \"removing toxins from our body\". Bẫy: câu sau còn nhắc \"lactic acid and toxins\", nhưng đề chỉ cho ONE WORD nên là toxins." },
+        { "q": 35, "ans": "NOT GIVEN", "how": "Đoạn chỉ nói nam châm hiệu quả với phần lớn người dùng; cả bài không hề nói liệu pháp nam châm có tác dụng phụ. Bẫy nằm ở đoạn 2: tác dụng phụ ở đó là của THUỐC hiện đại, không phải của nam châm, nên không được chọn TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Hai mục tiêu của liệu pháp nam châm là đẩy nhanh lành thương và giảm đau; so với túi chườm nóng thì nhiệt mạnh hơn còn nam châm thì bền bỉ hơn vì đeo được cả ngày.",
+      "answers": [
+        { "q": 36, "ans": "NOT GIVEN", "how": "Bài chỉ nêu khác biệt về tính chất: \"heat treatment can be more intense, while magnetic healing is more constant\", chứ không so sánh cái nào GIẢM ĐAU hiệu quả hơn. Bẫy là từ \"more intense\" dễ bị hiểu thành more efficient." }
+      ],
+      "note": "Đoạn G này nằm ngoài phạm vi headings 28–33 (đề chỉ hỏi A–F) nhưng lại chứa đáp án câu 36: đừng bỏ qua khi đã hết câu heading."
+    }
+  ],
+  "tips": [
+    "Nhiều heading chỉ khớp một câu trong đoạn (ii với đoạn 3, x với đoạn 1). Luôn hỏi: ý này chiếm bao nhiêu phần của đoạn?",
+    "Hai câu NOT GIVEN (35 và 36) đều được gài bằng thông tin có thật nhưng nói về đối tượng khác hoặc khía cạnh khác: tác dụng phụ của thuốc, và độ mạnh chứ không phải độ hiệu quả.",
+    "Phần summary 37–40 chỉ cho ONE WORD ONLY, trong khi bài hay dùng cụm hai từ (total elimination, lactic acid and toxins). Chọn danh từ lõi."
+  ]
+}

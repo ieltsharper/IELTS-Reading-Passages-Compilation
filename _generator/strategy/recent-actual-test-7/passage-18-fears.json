@@ -1,0 +1,88 @@
+{
+  "step1": "Tiêu đề Fears báo trước bài nói về nỗi sợ và cách khoa học nghiên cứu nó trên khỉ rhesus để suy ra cơ chế não người. Đoán mạch bài: vì sao dùng khỉ rhesus → nghiên cứu của Kalin ngoài đảo Cayo Santiago → ba kiểu phản ứng sợ trong phòng thí nghiệm → thử thuốc → ý nghĩa với người mắc rối loạn lo âu → gen ngắn/dài và thí nghiệm 1 → thí nghiệm 2 về chấp nhận rủi ro → thí nghiệm 3 trả tiền để xem mặt → kết luận. Q14–18 (Matching Information cho đoạn A–I) chỉ chốt được khi đọc tới đoạn; Q19–22 là câu hỏi ngắn; Q23–27 là summary đi theo thứ tự đoạn A, F, F/G, H, H.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["14–18", "Matching Information (đoạn A–I)", "Không – chốt khi đọc trúng thông tin trong đoạn", "classification, high-status males, social information, not one single thing, drugs"],
+    ["19–22", "Short answer (NO MORE THAN THREE WORDS)", "Có, nhưng không hoàn toàn theo thứ tự", "developmental stages, stared expressionless, preadolescent, social behavior"],
+    ["23–27", "Summary completion (NO MORE THAN THREE WORDS)", "Có, theo thứ tự bài", "brain processes that cause, convey social information, short gene, dominant males, waived the reward"]
+  ],
+  "typesNote": "Matching Information không theo thứ tự bài nên phải nhớ nội dung từng đoạn khi đọc; còn summary Q23–27 lại bám đúng trình tự đoạn A → F → G → H, chốt ngay khi đọc đến.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Các nhà khoa học tìm những quá trình não điều tiết nỗi sợ; vì khó nghiên cứu trên người nên họ chuyển sang khỉ rhesus, loài trải qua các giai đoạn phát triển giống người nhưng trong khoảng thời gian ngắn hơn.",
+      "answers": [
+        { "q": 19, "ans": "time span", "quote": "These animals undergo many of the same physiological and psychological developmental stages that humans do, but in a more compressed time span.", "how": "Câu hỏi hỏi điểm KHÁC trong khi các giai đoạn phát triển thì giống; chữ \"but\" chỉ đúng một khác biệt: \"a more compressed time span\" → \"time span\"." },
+        { "q": 23, "ans": "inordinate anxiety", "quote": "to pinpoint the brain processes that cause inordinate anxiety in people", "how": "Tóm tắt viết \"the brain processes that cause ___ in people\" – chép gần như nguyên văn → \"inordinate anxiety\"." }
+      ],
+      "note": "Câu cuối đoạn A dài: xương sống là \"it should be possible to pinpoint the brain processes ... and to devise new therapies\", mở đầu bằng mệnh đề thời gian \"As they gain more insight into ... fear in monkeys\". Nhận ra xương sống thì thấy ngay chỗ trống 23."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Ned Kalin nghiên cứu nỗi sợ suốt 20 năm; nhóm ông quan sát đàn khỉ rhesus sống tự do trên đảo nhỏ Cayo Santiago và thấy khỉ phản ứng khác nhau với từng mối đe dọa.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Ba bài thử trong phòng thí nghiệm cho ba kiểu phản ứng thích nghi: bị bỏ một mình thì kêu gọi mẹ, có người lạ nhìn đi nơi khác thì nép vào góc và đứng im, bị nhìn chằm chằm vô cảm thì \"defensive aggression\" – sủa, nhe răng, lắc chuồng.",
+      "answers": [
+        { "q": 14, "ans": "C", "quote": "put young macaques through three tests, and saw three adaptive fearful responses", "how": "\"Classification of responses to fear\" ↔ đoạn phân ba kiểu phản ứng ứng với ba tình huống → đoạn C. Bẫy: đoạn E cũng nói nỗi sợ gồm nhiều thành phần nhưng không phân loại cụ thể – đó là câu 17." },
+        { "q": 20, "ans": "defensive aggression", "quote": "When a person stared expressionless at the monkey, the animal started a kind of \"defensive aggression\" reaction", "how": "\"gazed at expressionless\" ↔ \"stared expressionless\"; phản ứng được gọi tên ngay trong ngoặc kép → \"defensive aggression\". Bẫy: \"deep barking\" chỉ là biểu hiện cụ thể, không phải tên phản ứng." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Kalin thử thuốc để phân biệt các kiểu sợ: opiate làm giảm tiếng kêu gọi mẹ nhưng không giảm sủa hung hăng, còn thuốc chống lo âu như valium hầu như không tác động đến tiếng kêu nhưng làm giảm sủa và đứng im.",
+      "answers": [
+        { "q": 18, "ans": "D", "quote": "Anti-anxiety drugs like diazepam, or valium, had little or no effect on cooing", "how": "\"Medicine does not work in some cases\" ↔ mỗi loại thuốc chỉ tác động lên một kiểu phản ứng, không tác động lên kiểu còn lại (\"but not the aggressive barking\", \"little or no effect on cooing\") → đoạn D." },
+        { "q": 21, "ans": "95 percent", "quote": "Why did 5 percent of the preadolescent monkeys freeze when they were stared at, while 95 percent got aggressive?", "how": "\"facing domination from another member of their own species\" ↔ bị nhìn chằm chằm (đoạn C giải thích nhìn chằm chằm nghĩa là bị đồng loại áp đảo); nhóm hung hăng là 95 percent. Bẫy: 5 percent là nhóm đứng im." }
+      ],
+      "note": "Hai con số 5 và 95 nằm cùng một câu hỏi tu từ – đọc kỹ xem vế nào gắn với \"freeze\" và vế nào gắn với \"aggressive\"."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Ý nghĩa với người: nỗi sợ gồm nhiều thành phần chứ không phải một thứ duy nhất; vấn đề không phải cảm xúc quá mạnh mà là sai loại cảm xúc hoặc không tắt được nó.",
+      "answers": [
+        { "q": 17, "ans": "E", "quote": "fearful responses combine several elements; fear is not one single thing", "how": "\"Fear is not a simple emotion\" ↔ \"fear is not one single thing\" → đoạn E." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Gen có hai phiên bản dài và ngắn; nhóm Duke thí nghiệm trên khỉ đực đã xác định kiểu gen S/L hoặc L/L và thấy khỉ mang một bản gen ngắn ít nhìn mặt và mắt đồng loại, ít mạo hiểm, ít muốn xem ảnh con đực địa vị cao; Platt nói mặt và mắt là nguồn thông tin xã hội phong phú.",
+      "answers": [
+        { "q": 16, "ans": "F", "quote": "faces and eyes are a rich source of social information", "how": "\"Facial expressions contain social information\" ↔ câu trích của Platt trong đoạn F → đoạn F." },
+        { "q": 24, "ans": "faces and eyes", "quote": "For both human and nonhuman primates, faces and eyes are a rich source of social information", "how": "Tóm tắt viết \"For both human and monkeys, ___ can convey social information\" – khớp nguyên cụm \"faces and eyes\"." },
+        { "q": 25, "ans": "high-status male", "quote": "less likely to want to view a picture of a high-status male", "how": "\"monkeys with one copy of the short gene were less likely to look at the face of a ___ and to take a risk\" ↔ đúng chuỗi ba kết quả trong đoạn F → \"high-status male\"." }
+      ],
+      "note": "Đoạn F rất dài, gộp cả mô tả gen, kết quả thí nghiệm 1 và hai câu trích. Câu dài \"They found that monkeys with one copy of the short gene spent less time gazing ..., were less likely to engage ..., and less likely to want to view ...\": một chủ ngữ kéo ba vị ngữ song song – nhận ra cấu trúc này thì lấy được cả câu 25 lẫn phần \"take a risk\"."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Thí nghiệm thứ hai: sau khi được cho nhìn mặt con đực địa vị cao, khỉ S/L càng ngại rủi ro, chọn lượng nước ép cố định thay vì canh bạc nhiều hoặc ít hơn.",
+      "answers": [
+        { "q": 15, "ans": "G", "quote": "In a second experiment, the S/L monkeys were less willing to take risks after they were primed with the faces of high-status males.", "how": "\"Face of high-status males cause greater fear in the S/L monkey\" ↔ ngại rủi ro hơn sau khi thấy mặt con đực địa vị cao; câu cuối đoạn nói gây sợ thì làm người ta ngại rủi ro → đoạn G. Bẫy: đoạn F cũng nhắc \"high-status male\" nhưng không nói về thí nghiệm rủi ro này." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Thí nghiệm cuối kiểu \"trả tiền để xem\": khỉ L/L phải được thưởng nước ép mới chịu nhìn con đực thống trị, còn khỉ S/L chịu bỏ nước ép để được nhìn những khuôn mặt đó.",
+      "answers": [
+        { "q": 26, "ans": "short gene", "quote": "The L/L monkeys actually had to be paid juice to view the dominant males", "how": "\"The monkey without a ___ would sight on dominant males if they were rewarded\" ↔ khỉ L/L là loại KHÔNG có bản gen ngắn, và chúng phải được thưởng nước ép → \"short gene\"." },
+        { "q": 27, "ans": "S/L", "quote": "while the S/L monkeys gave up juice for a look at these faces", "how": "\"waived the reward\" ↔ \"gave up juice\" → loại khỉ đó là S/L." }
+      ],
+      "note": "Hai chỗ trống 26 và 27 nằm trong cùng một câu đối lập L/L với S/L: xác định đúng vế \"được thưởng mới nhìn\" và vế \"bỏ thưởng để nhìn\" là xong cả hai."
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Kết luận: biến thể di truyền góp phần vào thưởng phạt xã hội và định hình hành vi xã hội ở cả người lẫn khỉ, nên khỉ rhesus là mô hình tốt cho não người.",
+      "answers": [
+        { "q": 22, "ans": "genetic variation", "quote": "genetic variation does contribute to social reward and punishment in macaques, and thus shapes social behavior in both humans and rhesus macaques", "how": "\"what determines social behavior in both humans and monkeys\" ↔ \"shapes social behavior in both humans and rhesus macaques\", chủ ngữ là \"genetic variation\"." }
+      ]
+    }
+  ],
+  "tips": [
+    "Các đoạn A–I của đề chính là đoạn 1–9 của bài. Với Matching Information, hãy ghi một nhãn ngắn cho mỗi đoạn khi đọc xong (A: vì sao dùng khỉ, C: ba kiểu phản ứng, D: thuốc, E: ý nghĩa, F: gen và thí nghiệm 1, G: rủi ro, H: trả tiền để xem, I: kết luận) rồi ghép một lượt.",
+    "Cụm \"high-status male\" xuất hiện ở cả đoạn F, G và H; phân biệt bằng việc đoạn đó nói về ánh nhìn (F), về mức chấp nhận rủi ro (G), hay về nước ép (H).",
+    "Nhớ phân biệt hai kiểu gen: S/L là có một bản ngắn (nhát hơn, ngại rủi ro, chịu bỏ thưởng để nhìn), L/L là không có bản ngắn (phải được thưởng mới nhìn). Nhiều chỗ trống trong summary chỉ xoay quanh cặp đối lập này."
+  ]
+}

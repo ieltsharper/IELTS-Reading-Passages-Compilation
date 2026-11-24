@@ -1,0 +1,80 @@
+{
+  "step1": "Tiêu đề A Brief History of Rubber báo trước một bài lịch sử theo trình tự thời gian: phát hiện ra cao su → bùng nổ cao su ở Brazil → chuyển sang đồn điền Đông Nam Á → Thế chiến II và cao su tổng hợp → lốp radial và cao su tự nhiên trở lại. Đề đánh số đoạn A–G (7 đoạn) nhưng bài in ra 8 đoạn vì có một câu đứng riêng, nên gộp: A = Đoạn 1, B = Đoạn 2, C = Đoạn 3, D = Đoạn 4, E = Đoạn 5, F = Đoạn 6–7, G = Đoạn 8. Q1–7 rải khắp bài; Q8–13 nằm gọn trong đoạn G (Đoạn 8), tức đoạn cuối.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–7", "Matching information (đoạn A–G)", "Không, phải đọc tới đoạn chứa thông tin mới chốt", "radial tires, leaf blight specimens, trading center, Asia market share, rubber seeds transport, individual wealth, replacement of natural rubber"],
+    ["8–13", "Summary completion, chỉ trong đoạn G (NO MORE THAN THREE WORDS)", "Có, theo thứ tự và chỉ nằm ở đoạn cuối", "OPEC, oil consumers, bias tires, required toughness, disruptions, fungal spores, raw material"]
+  ],
+  "typesNote": "Đọc một lượt từ đầu: mỗi đoạn đọc xong thì đối chiếu ngay với 7 câu matching; đến đoạn cuối (đoạn G) thì dừng lại điền liền 6 chỗ trống vì chúng đi đúng thứ tự câu chữ của đoạn đó.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Cao su là sản phẩm quan trọng của rừng mưa; năm 1839 Charles Goodyear tình cờ làm rơi cao su và lưu huỳnh lên bếp nóng, mở đường cho quá trình lưu hóa biến nhựa cây Hevea thành sản phẩm thiết yếu của thời đại công nghiệp.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Ô tô ra đời cuối thế kỷ 19 làm bùng nổ cao su: những thị trấn ven sông như Manaus (Brazil) biến thành trung tâm thương mại sầm uất, Manaus thành trái tim xa hoa của ngành buôn cao su với hệ thống điện thoại đầu tiên của Brazil.",
+      "answers": [
+        { "q": 3, "ans": "B", "quote": "small dumpy river towns like Manaus, Brazil, were transformed overnight into bustling centers of commerce. Manaus, situated on the Amazon where it is met by Rio Negro, became the opulent heart of the rubber trade", "how": "\"The first trading center for the rubber business\" ↔ \"bustling centers of commerce\" / \"the opulent heart of the rubber trade\"; Manaus là nơi đầu tiên hưởng cơn sốt cao su. Đoạn 2 = đoạn B của đề → B." }
+      ],
+      "note": "Câu 6 (\"Individual wealth\") rất dễ chọn nhầm vào đoạn này vì có từ \"opulent\" (xa hoa). Nhưng \"individual\" (cá nhân) chỉ khớp với các rubber baron ở Đoạn 3."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Các ông trùm cao su giàu lên bằng sự tàn bạo: vì cây Hevea hoang dại mọc thưa (để tránh bệnh nấm lá), họ phải chiếm những vùng đất mênh mông, thuê quân đội riêng để giữ đất và bắt người bản địa làm phu.",
+      "answers": [
+        { "q": 6, "ans": "C", "quote": "Thus to make a profit, barons had to acquire control over huge tracts of land. Most did so by hiring their own private armies to defend their claims, acquire new land, and capture native laborers", "how": "\"Individual wealth accumulated by rubber trading\" ↔ các \"rubber barons\" (cá nhân) làm giàu nhờ chiếm đất và bắt phu. Câu mở đoạn \"The opulence of the rubber barons could only be exceeded by their brutality\" xác nhận chủ đề đoạn là sự giàu có của từng ông trùm. Đoạn 3 = đoạn C → C." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Thị trường cao su Brazil bị đồn điền Đông Nam Á đánh bại, nhưng khởi đầu rất chật vật: hạt cao su không sống nổi hành trình vượt Đại Tây Dương, mãi năm 1876 Henry Wickham mới chuyển được 70.000 hạt về Anh và chỉ 2800 hạt nảy mầm.",
+      "answers": [
+        { "q": 5, "ans": "D", "quote": "Rubber seeds, rich with oil and latex, could not survive the long Atlantic journey from Brazil", "how": "\"vulnerable to long distance transport\" ↔ \"could not survive the long Atlantic journey\"; \"rubber seeds\" lặp nguyên văn. Đoạn 4 = đoạn D → D." }
+      ],
+      "note": "Đoạn này còn nêu hai trở ngại khác (chủ đồn điền ở Borneo chặt cây vì không thấy quả bóng cao su; trà và cà phê đang ăn nên làm ra). Đừng nhầm những chi tiết này với Câu 4 về việc châu Á vươn lên."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Từ 1895 Henry Ridley thuyết phục hai người trồng cà phê ở Singapore trồng Hevea; 12 năm sau hơn 300.000 ha đồn điền ở Ceylon và Malaya, sản lượng tăng gấp đôi mỗi hai năm, còn thị phần Brazil tụt dần: 50% (1910), 30% (1914), 20% (1918), 1,3% (1940).",
+      "answers": [
+        { "q": 4, "ans": "E", "quote": "Twelve years later more than 300,000 ha of rubber grew in plantations in Ceylon and Malaya. New innovations increased efficiency and production doubled every two years", "how": "\"Asia dominated the rubber market year by year\" ↔ đồn điền châu Á (Singapore, Ceylon, Malaya) mở rộng, trong khi thị phần Brazil giảm theo từng mốc năm (1910, 1914, 1918, 1940) — đúng nghĩa \"year by year\". Đoạn 5 = đoạn E → E." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Câu chuyển: Thế chiến thứ hai đe dọa làm dịch chuyển nguồn lợi cao su.",
+      "answers": [],
+      "note": "Câu một dòng này thuộc cùng đoạn F với Đoạn 7 trong đề. Không có đáp án riêng, chỉ là câu dẫn."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Nhật chiếm vùng trồng cao su Đông Nam Á nên Mỹ lo thiếu nguyên liệu; Rubber Development Corporation cử người vào Amazon tìm giống cho năng suất cao và kháng bệnh nấm lá, đồng thời đầu tư cao su tổng hợp — đến 1964 cao su tổng hợp chiếm 75% thị trường.",
+      "answers": [
+        { "q": 2, "ans": "F", "quote": "sought out other sources including establishing a rubber program that sent intrepid explorers into the Amazon seeking rubber specimens that would be used to produce high yields, superior product, and possibility of resistance against leaf blight", "how": "Câu rất dài: WHO + DOES WHAT = \"The Rubber Development Corporation ... sought out other sources\"; phần \"including establishing a rubber program\" nói cách làm; mệnh đề \"that sent intrepid explorers into the Amazon seeking rubber specimens\" nói ai đi tìm gì; mệnh đề \"that would be used to produce high yields, superior product, and possibility of resistance against leaf blight\" nói mục đích. \"Searching for new specimens to overcome leaf blight\" ↔ \"seeking rubber specimens ... resistance against leaf blight\". Đoạn 6 + Đoạn 7 = đoạn F → F." },
+        { "q": 7, "ans": "F", "quote": "Extensive work on synthetic rubber yielded a product that, in time, economists predicted would replace natural rubber. By 1964 synthetic rubber made up 75% of the market", "how": "\"Natural rubber gave way to its replacement\" ↔ cao su tổng hợp \"would replace natural rubber\" và chiếm tới 75% thị trường. Cũng nằm trong đoạn F → F. Đề cho phép một đoạn trả lời nhiều câu, nên đừng loại F ra chỉ vì đã dùng cho Câu 2." }
+      ],
+      "note": "Hai câu matching cùng rơi vào một đoạn (2 và 7 đều là F). Khi đọc xong một đoạn, hãy rà hết danh sách câu hỏi chứ không dừng ở câu đầu tiên khớp."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Lệnh cấm vận dầu OPEC 1973 làm giá cao su tổng hợp tăng gấp đôi và khiến người tiêu dùng quan tâm mức tiêu hao xăng; lốp radial lan rộng mà chỉ cao su tự nhiên mới đủ độ bền, nên cao su tự nhiên giành lại thị phần — nhưng 85% nhập từ Đông Nam Á nơi không cây nào kháng được bệnh nấm lá, khiến Mỹ rất dễ tổn thương.",
+      "answers": [
+        { "q": 1, "ans": "G", "quote": "The concern over gas mileage brought unexpected threat to the synthetic market: the wide-spread adoption of the radial tire", "how": "\"The extensive acceptance of radial tires\" ↔ \"the wide-spread adoption of the radial tire\" (extensive = wide-spread, acceptance = adoption). Đoạn 8 = đoạn G → G." },
+        { "q": 8, "ans": "their gas mileage", "quote": "the OPEC oil embargo of 1973 which doubled the price of synthetic rubber and made oil consumers more conscious of their gas mileage", "how": "\"oil consuming nations\" ↔ \"oil consumers\", \"more attentive of\" ↔ \"more conscious of\" → chỗ trống lấy nguyên cụm đứng sau: \"their gas mileage\" (3 từ, đúng giới hạn)." },
+        { "q": 9, "ans": "radial tire", "quote": "the wide-spread adoption of the radial tire. The radial tire replaced the simple bias tires", "how": "\"espousing the ___ , which would replace all the simple bias tires within a few years\" ↔ \"the radial tire replaced the simple bias tires\"; espousing = adoption → điền \"radial tire\"." },
+        { "q": 10, "ans": "natural rubber", "quote": "Synthetic rubber did not have the strength for radials; only natural rubber could provide the required sturdiness", "how": "\"the only material that provides the entailed toughness\" ↔ \"only natural rubber could provide the required sturdiness\" (entailed = required, toughness = sturdiness) → \"natural rubber\"." },
+        { "q": 11, "ans": "embargo", "quote": "the US is highly susceptible to disruptions caused by an embargo", "how": "\"very fragile to disruptions caused by an\" ↔ \"highly susceptible to disruptions caused by an\"; mạo từ \"an\" trước chỗ trống cũng gợi ý danh từ bắt đầu bằng nguyên âm → \"embargo\"." },
+        { "q": 12, "ans": "blight", "quote": "None of the trees in plantations across Southeast Asia has resistance to blight", "how": "\"cannot withstand\" ↔ \"has (no) resistance to\"; câu phủ định \"None of the trees ... has resistance\" chính là \"không chịu nổi\" → \"blight\". Đừng viết \"leaf blight\" theo trí nhớ từ đoạn trên: chỗ này bài dùng đúng một từ \"blight\"." },
+        { "q": 13, "ans": "vital and vulnerable", "quote": "It is difficult to think of any other raw material that is as vital and vulnerable", "how": "\"is the most ___ raw material in the world\" ↔ \"difficult to think of any other raw material that is as ... \" (khó tìm được thứ nào sánh bằng = nhất) → \"vital and vulnerable\", đúng 3 từ." }
+      ],
+      "note": "Cả 6 chỗ trống Q8–13 đều nằm trong đoạn này và theo đúng thứ tự câu chữ. Đọc chậm một lượt là điền hết, không cần quay lại."
+    }
+  ],
+  "tips": [
+    "Một đoạn có thể là đáp án cho nhiều câu matching (ở đây F dùng cho cả Câu 2 và Câu 7). Đọc xong đoạn nào hãy soát toàn bộ danh sách câu hỏi của đoạn đó.",
+    "Đoạn 2 và Đoạn 3 đều nói về sự giàu có ở Manaus. Phân biệt: Đoạn 2 = trung tâm thương mại (Câu 3), Đoạn 3 = tài sản của từng ông trùm (Câu 6).",
+    "Với Q8–13, chép đúng từ trong bài và đếm từ: \"their gas mileage\" giữ cả \"their\", còn Câu 12 chỉ là \"blight\" chứ không phải \"leaf blight\"."
+  ]
+}

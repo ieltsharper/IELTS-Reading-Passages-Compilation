@@ -1,0 +1,112 @@
+{
+  "step1": "Tiêu đề From Novices to Experts báo trước bài mô tả một hành trình ba bậc: người mới (novice) → thợ lành nghề (journeyman) → chuyên gia (expert). Đoán mạch bài: định nghĩa expertise → novice cần người hướng dẫn → journeyman nhận ra quy luật → thành expert khi tự tạo tri thức → ví dụ cờ vua → mô hình học nghề (apprenticeship) và các chương trình tiến sĩ → so sánh cờ vua với chẩn đoán y khoa (số liệu giờ, số ca) → thời gian tùy độ phức tạp → chuyên môn không chuyển được sang lĩnh vực khác → rồi một loạt đoạn liệt kê đặc điểm của chuyên gia. Nhóm 15–21 (Yes/No/Not Given) trải đều cả bài; 22–24 dồn ở đoạn nói về apprenticeship; 25–27 là sơ đồ theo ví dụ cờ vua nên nằm ở đoạn 3 và 5.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["15–21", "Yes / No / Not Given", "Có (bám từ khóa), theo thứ tự bài", "mentor, more time, apprenticeship model, chess master poker, weigh variables, memories, solve problems"],
+    ["22–24", "Summary completion chọn từ bảng A–H", "Có, dồn trong một đoạn", "mode of education, standard method of training, on this basis, graduates seek"],
+    ["25–27", "Flow-chart completion (NO MORE THAN THREE WORDS)", "Có, bám theo ví dụ cờ vua", "opening moves, game-playing strategies, victory and defeat, creates"]
+  ],
+  "typesNote": "Vì bài đi đúng trình tự novice → journeyman → expert nên cả ba nhóm đều xuôi theo mạch đọc: xong ví dụ cờ vua là điền được sơ đồ 25–27, xong đoạn apprenticeship là điền 22–24, còn 15–21 chốt dần theo từng đoạn.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Chuyên môn là sự cam kết cộng với sáng tạo: dồn thời gian, sức lực, nguồn lực vào một lĩnh vực hẹp và tạo ra tri thức mới, nên cần rất nhiều thời gian và tiếp xúc đều đặn với số lượng lớn ca.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Người mới bước vào nghề phải học nguyên tắc và quy tắc, đồng thời tiếp xúc với những ca thử thách các nguyên tắc ấy, và thường tìm một người cố vấn; ví dụ người mới học cờ nhờ thầy dạy luật chơi, quân cờ, cách đi và điều kiện thắng thua.",
+      "answers": [
+        { "q": 16, "ans": "NOT GIVEN", "how": "Bài nói người mới cần học nguyên tắc và cần tiếp xúc nhiều ca, nhưng không ở đâu SO SÁNH tốc độ xử lý số lượng lớn ca giữa novice và expert. Đoạn 13 có so sánh tốc độ (\"experts perform tasks ... faster\") nhưng là về thực hiện nhiệm vụ trong lĩnh vực, không phải về xử lý \"a large number of cases\". Thiếu phép so sánh đúng nội dung nên NOT GIVEN." }
+      ],
+      "note": "Đoạn 2 chính là nguồn cho cột đầu của sơ đồ 25–27 (object of the game, number of spaces, name and function of each piece...). Đọc tới đây là đã thấy sơ đồ chạy song song với ba đoạn ví dụ cờ vua."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Sau nhiều luyện tập, người mới nhận ra quy luật trong từng ca và trở thành journeyman; journeyman thấy quy luật cả giữa các ca, thấy chúng lặp lại theo thời gian, nhưng vẫn giữ liên hệ thường xuyên với người cố vấn; với cờ vua là học các thế khai cuộc, chiến thuật công và thủ, quy luật thắng bại.",
+      "answers": [
+        { "q": 15, "ans": "YES", "quote": "Generally, a novice will find a mentor to guide her through the process of acquiring new knowledge ... The journeyman still maintains regular contact with a mentor to solve specific problems and learn more complex strategies.", "how": "\"freshmen\" ↔ novice, \"journeymen\" ↔ journeyman; cả hai đều cần mentor – đoạn 2 cho vế novice, đoạn 3 cho vế journeyman với đúng cụm \"to solve specific problems\". Hai vế đều được xác nhận nên YES." },
+        { "q": 25, "ans": "journeyman", "quote": "the novice begins to recognize patterns of behavior within cases and, thus, becomes a journeyman", "how": "Sơ đồ đi theo ba bậc; ô giữa nằm giữa \"A novice\" và \"An expert\", và những gì ô này học (opening moves, chiến thuật công thủ) đúng là phần journeyman trong đoạn này. Chỗ trống sau mạo từ \"A\" nên điền danh từ số ít journeyman." },
+        { "q": 26, "ans": "offensive and defensive", "quote": "patterns of opening moves, offensive and defensive game-playing strategies, and patterns of victory and defeat", "how": "Ba gạch đầu dòng của ô giữa lặp đúng thứ tự cụm này; chỗ trống đứng ngay trước \"game-playing strategies\" nên lấy nguyên hai tính từ offensive and defensive (vừa đủ ba từ)." }
+      ]
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Bước chuyển tiếp xảy ra khi journeyman bắt đầu đặt và kiểm chứng giả thuyết về hành vi tương lai dựa trên kinh nghiệm; khi tự tạo ra tri thức chứ không chỉ khớp quy luật bề mặt thì thành chuyên gia và không còn cần người cố vấn.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Với cờ vua, khi journeyman thi đấu với các chuyên gia, dự đoán dựa trên quy luật và kiểm chứng dự đoán bằng thực tế thì cô ấy đang tạo ra tri thức mới và tự tạo ra các ca của riêng mình thay vì dựa vào ca của người khác.",
+      "answers": [
+        { "q": 27, "ans": "her own cases", "quote": "She is creating her own cases rather than relying on the cases of others.", "how": "Ô cuối của sơ đồ liệt kê đúng ba việc trong đoạn này (makes predictions, tests those predictions, generates new knowledge) và gạch đầu dòng cuối \"Creates ___\" lấy thẳng từ \"creating her own cases\". Giữ nguyên tính từ sở hữu her own cases, đúng ba từ." }
+      ]
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Một câu chuyển tiếp: ví dụ cờ vua vừa rồi chỉ là mô tả ngắn gọn về mô hình học nghề (apprenticeship model).",
+      "answers": [],
+      "note": "Đoạn chỉ một câu nhưng là bản lề: từ đây bài chuyển từ ví dụ cờ vua sang bàn về apprenticeship, tức là chuẩn bị cho nhóm 22–24."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Học nghề nghe như lối giáo dục gò bó của thế kỷ 18 nhưng vẫn là phương pháp đào tạo chuẩn cho nhiều nhiệm vụ phức tạp: các chương trình tiến sĩ, luật, âm nhạc, kỹ thuật, y khoa đều dựa trên mô hình này, nơi học viên tìm người cố vấn rồi dần thành chuyên gia độc lập.",
+      "answers": [
+        { "q": 17, "ans": "NOT GIVEN", "quote": "Apprenticeship may seem like a restrictive 18th century mode of education, but it is still a standard method of training for many complex tasks.", "how": "Bài nói apprenticeship là phương pháp ĐÀO TẠO, hoàn toàn không nói nó được dùng để PHÂN TÍCH hành vi của chuyên gia và người mới, lại thêm chữ \"always\". Chức năng mà đề gán cho mô hình này không hề xuất hiện nên NOT GIVEN, không phải NO." },
+        { "q": 22, "ans": "A", "quote": "a restrictive 18th century mode of education, but it is still a standard method of training", "how": "\"is not only a mode of education, but a standard method of training\" khớp nguyên văn hai cụm; chủ ngữ của câu đó trong bài là Apprenticeship → A." },
+        { "q": 23, "ans": "E", "quote": "Academic doctoral programs are based on an apprenticeship model", "how": "\"On this basis, ___ have been developed\" ↔ \"are based on an apprenticeship model\"; chỗ trống cần chủ ngữ số nhiều của \"have been developed\" nên là E doctoral programs. F laws là bẫy vì law chỉ được liệt kê như một lĩnh vực, không phải thứ \"được phát triển\"." },
+        { "q": 24, "ans": "G", "quote": "Graduate students enter fields of study, find mentors, and begin the long process of becoming independent experts", "how": "\"Graduates seek their ___ in respective fields and begin the long process\" ↔ \"find mentors, and begin the long process\"; seek = find nên đáp án G mentors. H new knowledge là bẫy vì cũng ở cuối câu, nhưng tri thức mới là thứ họ TẠO RA sau này, không phải thứ họ đi tìm lúc đầu." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Cờ vua và chẩn đoán y khoa đều là nhiệm vụ rất phức tạp với hàng chục nghìn quy luật: kỳ thủ bậc thầy đã bỏ 10.000–20.000 giờ và lưu khoảng 50.000 thế cờ, còn bác sĩ chẩn đoán hình ảnh học tám năm, mỗi ngày xem 40 ca và cuối kỳ nội trú đã lưu trung bình 48.000 ca.",
+      "answers": [],
+      "note": "Đoạn dày số liệu nhưng không có câu hỏi nào – đừng dừng lại phân tích. Hai cặp số dễ lẫn nếu đề sau này có hỏi: 50.000 thế cờ và 48.000 ca bệnh."
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Các nhà tâm lý và khoa học nhận thức đồng ý rằng thời gian để thành chuyên gia phụ thuộc vào độ phức tạp của nhiệm vụ và số lượng ca được tiếp xúc: càng phức tạp càng lâu.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Chuyên môn gắn chặt với lĩnh vực và không tự động chuyển sang lĩnh vực khác: kỳ thủ cờ vua chưa chơi poker vẫn là tay mơ poker, nhà hóa sinh không đủ tư cách mổ não.",
+      "answers": [
+        { "q": 18, "ans": "NO", "quote": "A master chess player cannot apply chess expertise in a game of poker - although both chess and poker are games, a chess master who has never played poker is a novice poker player.", "how": "Câu hỏi khẳng định kỳ thủ chắc chắn chơi poker giỏi, bài khẳng định ngược hẳn: anh ta là \"a novice poker player\". Mâu thuẫn trực tiếp nên NO." }
+      ],
+      "note": "Câu dài: backbone là \"A master chess player cannot apply chess expertise in a game of poker\" (AI không làm được GÌ); mệnh đề nhượng bộ \"although both chess and poker are games\" thừa nhận điểm giống nhau, rồi mệnh đề quan hệ \"who has never played poker\" giới hạn đối tượng. Chuỗi nhượng bộ này chính là chỗ đề cố tình hiểu ngược."
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Chuyên gia nhận ra các quy luật có ý nghĩa trong lĩnh vực của mình tốt hơn người khác, và khả năng này không bẩm sinh mà đến từ việc tổ chức tri thức sau hàng nghìn ca.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Chuyên gia hiểu lĩnh vực sâu hơn và dùng nguyên lý bậc cao để giải quyết vấn đề: người mới nhóm đồ vật theo màu hay kích thước, chuyên gia nhóm theo chức năng, và chuyên gia biết tập trung vào những biến có ảnh hưởng lớn nhất.",
+      "answers": [
+        { "q": 19, "ans": "YES", "quote": "Experts comprehend the meaning of data and weigh variables with different criteria within their domains better than novices.", "how": "Câu hỏi nói hai nhóm hiểu dữ liệu và cân nhắc biến số \"in different ways\"; bài nói chuyên gia làm việc đó \"with different criteria ... better than novices\", lại minh họa bằng ví dụ nhóm theo màu/kích thước so với nhóm theo chức năng. Khác biệt về cách làm được xác nhận nên YES." }
+      ]
+    },
+    {
+      "para": "Đoạn 13",
+      "idea": "Chuyên gia có trí nhớ ngắn hạn và dài hạn TRONG LĨNH VỰC tốt hơn, làm nhanh hơn, ít lỗi hơn, và khác biệt ở chỗ họ dành nhiều thời gian hiểu vấn đề lúc đầu trong khi người mới lao ngay vào tìm lời giải.",
+      "answers": [
+        { "q": 20, "ans": "NOT GIVEN", "quote": "Experts have better domain-specific short-term and long-term memory than novices do.", "how": "Bài chỉ nói trí nhớ tốt hơn \"domain-specific\", tức trong phạm vi chuyên môn; câu hỏi bỏ giới hạn đó và nói \"generally have better memories\". Trí nhớ nói chung không được bàn tới nên NOT GIVEN, không phải YES." },
+        { "q": 21, "ans": "NO", "quote": "experts perform tasks in their domains faster than novices and commit fewer errors while problem solving ... Experts spend more time thinking about a problem to fully understand it at the beginning of a task", "how": "Bài nói chuyên gia giải quyết nhiệm vụ NHANH HƠN; họ chỉ dành nhiều thời gian hơn cho khâu ĐẦU để hiểu vấn đề. Câu hỏi đánh tráo \"more time thinking at the beginning\" thành \"more time to solve problems\", mâu thuẫn với \"faster\" nên NO." }
+      ],
+      "note": "Cặp bẫy quan trọng nhất của bài: bỏ bớt giới hạn (câu 20 bỏ domain-specific → NOT GIVEN) và mở rộng phạm vi (câu 21 từ \"giai đoạn đầu\" thành \"cả quá trình\" → NO)."
+    },
+    {
+      "para": "Đoạn 14",
+      "idea": "Chuyên gia tự giám sát tốt hơn: nhận ra lúc mình sai hay chưa hiểu vấn đề, kiểm tra lời giải nhiều hơn, biết giới hạn tri thức của mình và vẫn dùng nguyên tắc của lĩnh vực để xử lý vấn đề ngoài kinh nghiệm.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Ba câu NOT GIVEN (16, 17, 20) đều sinh ra từ việc đề BỎ hoặc THAY giới hạn trong bài: bỏ \"domain-specific\", đổi \"đào tạo\" thành \"phân tích hành vi\", dựng một phép so sánh bài không có. Luôn đối chiếu đúng phạm vi, đừng chỉ khớp từ khóa.",
+    "Hai câu NO (18, 21) đều mâu thuẫn trực tiếp với một từ rất ngắn trong bài: \"novice poker player\" và \"faster\". Khi thấy đề khẳng định mạnh, hãy tìm đúng từ đối lập ấy.",
+    "Sơ đồ 25–27 bám đúng ba đoạn ví dụ cờ vua (đoạn 2 – novice, đoạn 3 – journeyman, đoạn 5 – expert); nhận ra cấu trúc ba bậc này là điền xong cả ba chỗ trống chỉ trong một lượt đọc."
+  ]
+}

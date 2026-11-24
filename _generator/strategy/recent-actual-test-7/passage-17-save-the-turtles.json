@@ -1,0 +1,74 @@
+{
+  "step1": "Tiêu đề Save the Turtles cho thấy bài về rùa da (Leatherback) và nguy cơ tuyệt chủng. Đoán mạch bài: đặc điểm hình thể của rùa da → mấy con rùa dạt vào bờ biển Ireland/Anh → khả năng định hướng về tổ → hành trình vòng quanh Bắc Đại Tây Dương → vì sao bốn con rùa chết ở vùng nước lạnh → các nguyên nhân khiến loài suy giảm → vai trò sinh thái của rùa da. Q1–6 hỏi heading cho đoạn B–G (tức [P2]–[P7], đoạn A không hỏi); Q7–13 là câu hỏi ngắn, không theo thứ tự bài nên vừa đọc vừa chốt câu nào gặp bằng chứng trước.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–6", "Matching Headings (i–x) cho đoạn B–G", "Không – chỉ chốt được sau khi đọc xong đoạn", "Bám câu chủ đề và ý lặp lại trong mỗi đoạn"],
+    ["7–13", "Short answer (NO MORE THAN THREE WORDS)", "Có, nhưng KHÔNG theo thứ tự bài", "how many, most noticeable difference, die in Irish waters, come from, retrace, Green Sea turtles, benefit from decline"]
+  ],
+  "typesNote": "Vì bảy câu hỏi ngắn không đi theo thứ tự bài, hãy đọc lướt cả bảy câu trước rồi vừa đọc từng đoạn vừa chốt: đoạn A có câu 8, đoạn B có câu 10, đoạn C có câu 11, đoạn D có câu 9, đoạn F có câu 7 và 12, đoạn G có câu 13.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Rùa da có thân dẹt tròn, chân chèo lớn nhất so với cơ thể trong các loài rùa biển, không có vuốt, và đặc biệt là không có mai xương.",
+      "answers": [
+        { "q": 8, "ans": "the bony carapace", "quote": "Its most notable feature is that it lacks the bony carapace of the other extant sea turtles.", "how": "\"most noticeable difference\" ↔ \"most notable feature\"; cái khác biệt đó là thiếu \"the bony carapace\". Bẫy: chân chèo dài 2,7 m cũng là đặc điểm nổi bật, nhưng bài gọi \"most notable\" cho mai xương." }
+      ],
+      "note": "Đoạn A không có câu hỏi heading nhưng chứa đáp án câu 8 – đừng bỏ qua."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Tháng vừa qua có bốn con rùa dạt vào bờ biển Ireland, hai con ở Scotland và một con Kemp's Ridley hiếm ở Wales – một tháng bất thường về rùa mắc cạn.",
+      "answers": [
+        { "q": 1, "ans": "i", "quote": "thus making it an exceptional month for stranded turtles in Ireland and the UK", "how": "Cả đoạn liệt kê nơi rùa xuất hiện bất thường ↔ heading i \"Sea turtles are found in unusual locations\". Bẫy: heading vi (Remains multiplicity within the species) không liên quan; heading viii (fate of the lost turtles) là của đoạn E." },
+        { "q": 10, "ans": "Florida, America", "quote": "It is likely that they may have originated from Florida, America.", "how": "\"come from\" ↔ \"originated from\"; đoạn D cũng nói \"probably originated from North America\", nhưng câu trả lời cụ thể nhất và đúng giới hạn ba từ là \"Florida, America\"." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Đã có nhiều nghiên cứu về khả năng rùa biển tìm lại đúng bãi đẻ từ hàng trăm dặm: dù thị lực kém và không có mốc giữa biển khơi, chúng dò được góc và cường độ từ trường Trái đất.",
+      "answers": [
+        { "q": 2, "ans": "iv", "quote": "Some explanations of this phenomenon have found that sea turtles can detect the angle and intensity of the earth's magnetic fields.", "how": "Đoạn bàn cách rùa lần lại đường đi ↔ heading iv \"Methods used for routes tracking\". Bẫy: heading v \"Predict the migration routes\" nói về dự đoán lộ trình, còn ở đây là chính con rùa tự định hướng." },
+        { "q": 11, "ans": "magnetic fields", "quote": "turtles are able to retrace their migratory paths", "how": "Câu hỏi hỏi \"by which means\" ↔ câu tiếp theo trả lời: nhờ dò được từ trường Trái đất → \"magnetic fields\"." }
+      ],
+      "note": "Câu nhượng bộ \"Despite their limited vision, and lack of landmarks in the open water, turtles are able to retrace their migratory paths\": xương sống là \"turtles are able to retrace their migratory paths\", phần \"Despite...\" chỉ nêu hai trở ngại – đây đúng chỗ đặt câu 11."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Rùa da bình thường không sống ở vùng biển Ireland vì quá lạnh; chúng ưa biển ấm, và từ khi mới nở đã theo vòng hải lưu Bắc Đại Tây Dương đi Mỹ – châu Âu – Bắc Phi rồi quay lại Mỹ, có thể lặp nhiều vòng trước khi định cư.",
+      "answers": [
+        { "q": 3, "ans": "ix", "quote": "these tiny turtles enter the North Atlantic Gyre that takes them from America, across to Europe, down towards North Africa, before being transported back again to America via a different current", "how": "Phần lớn đoạn mô tả hành trình vòng tròn mà rùa đáng lẽ phải đi ↔ heading ix \"How trips suppose to look like?\". Bẫy: heading vii (The progress of hatching) chỉ bám chữ \"hatchlings\"." },
+        { "q": 9, "ans": "cold waters", "quote": "water temperatures here are far too cold for their survival", "how": "\"What caused leatherback turtles to die in Irish waters?\" ↔ nhiệt độ nước ở đây quá lạnh để sống sót → \"cold waters\". Đoạn E nói thêm hệ quả (cold stunned, hypothermia) nhưng nguyên nhân gốc vẫn là nước lạnh." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Bốn con rùa này có lẽ đã lạc quá xa về phía bắc khỏi dòng Gulf Stream; vào nước lạnh, cơ thể rùa da ngừng hoạt động, bị \"cold stunned\", hạ thân nhiệt rồi chết.",
+      "answers": [
+        { "q": 4, "ans": "viii", "quote": "Once they did, their fate was sealed", "how": "Đoạn kể kết cục của mấy con rùa đi lạc ↔ heading viii \"The fate of the lost turtles\". Chính chữ \"fate\" xuất hiện trong bài." }
+      ],
+      "note": "Đoạn này so sánh rùa da với \"some other turtles which have many anatomical and physiological adaptations\" – chi tiết dễ bị dùng làm bẫy cho câu hỏi về khác biệt giữa các loài (câu 8), nhưng câu 8 phải lấy ở đoạn A."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Rùa da sắp tuyệt chủng: trứng bị lấy làm đặc sản và bị đồn có tác dụng kích dục, cộng thêm ô nhiễm nhựa, cách đánh bắt bằng lưới và câu dây dài, mất môi trường sống; thế giới chỉ còn khoảng 35.000 con.",
+      "answers": [
+        { "q": 5, "ans": "x", "quote": "Other critical factors causing the leatherbacks' decline are pollution such as plastics", "how": "Cả đoạn liệt kê các nguyên nhân làm số lượng suy giảm ↔ heading x \"Factors leading to population decline\"." },
+        { "q": 7, "ans": "35,000", "quote": "Scientists have estimated that there are only about 35,000 Leatherback turtles in the world.", "how": "Câu hỏi chép gần như nguyên văn \"in the world\" → chỉ cần lấy con số." },
+        { "q": 12, "ans": "its meat", "quote": "The Leatherback, unlike the Green Sea turtles, is not often killed for its meat", "how": "Câu có cấu trúc so sánh \"unlike\": rùa da KHÔNG hay bị giết lấy thịt, tức rùa Green Sea thì có → mục đích là \"its meat\". Bẫy: trứng (eggs) là thứ bị lấy ở rùa da, không phải ở Green Sea turtles." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Ta thường không hiểu vai trò của một loài cho tới khi nó biến mất; rùa da ăn sứa bằng trọng lượng cơ thể mỗi ngày nên kìm hãm sứa, mà sứa lại ăn ấu trùng cá – rùa da giảm thì sứa tăng và cá giảm.",
+      "answers": [
+        { "q": 6, "ans": "iii", "quote": "Some scientists now speculate that the Leatherback may play an important role in the recovery of diminishing fish populations.", "how": "Đoạn nói về đóng góp của rùa da cho hệ sinh thái ↔ heading iii \"The Leatherback's contribution\"." },
+        { "q": 13, "ans": "jellyfish", "quote": "has been accompanied by a significant increase in jellyfish and a marked decrease in fish in our oceans", "how": "Loài \"benefit from a decline in Leatherback population\" ↔ loài tăng lên khi rùa da giảm, tức sứa. Bẫy: \"fish\" cũng xuất hiện ngay cạnh nhưng là loài GIẢM." }
+      ]
+    }
+  ],
+  "tips": [
+    "Các đoạn A–G trong đề chính là đoạn 1–7 của bài; đề không hỏi heading cho đoạn A nhưng đoạn A lại giữ đáp án câu 8.",
+    "Bảy câu hỏi ngắn không theo thứ tự bài (câu 7 ở đoạn F, câu 8 ở đoạn A, câu 10 ở đoạn B, câu 13 ở đoạn G): đọc hết đề trước, rồi chốt ngay khi đọc trúng bằng chứng, đừng đọc lại.",
+    "Bài có nhiều cặp đối lập dễ lẫn: Leatherback với Green Sea turtles (trứng với thịt), sứa tăng với cá giảm, nước ấm với nước lạnh. Luôn kiểm tra câu hỏi đang hỏi về vế nào."
+  ]
+}

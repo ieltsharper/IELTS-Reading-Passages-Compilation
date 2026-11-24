@@ -1,0 +1,96 @@
+{
+  "step1": "Tiêu đề Antarctica and Global Warming báo trước hai mảng: mô tả Nam Cực (địa lý, băng, thực vật, động vật, luật bảo vệ) rồi mới tới tác động của nóng lên toàn cầu (băng tan, nông nghiệp, nhuyễn thể). Đoán được: Q14–18 là headings cho đoạn B–F, tức phần mô tả ở nửa đầu bài; Q19–22 (TRUE/FALSE/NOT GIVEN) cũng nằm trong nửa đầu đó; Q23–27 là flowchart nên dồn ở hai đoạn cuối về hệ quả.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["14–18", "Matching Headings (i–ix, đoạn B–F)", "Không: đọc xong đoạn mới chốt", "geographic regions, sea ice importance, vegetation, marine animals, Conservation Act"],
+    ["19–22", "True / False / Not Given", "Có, theo thứ tự bài", "West Antarctic ice sheet, 5 and 6 meters, vegetation survive, alien plants, Weddell seal, krill, keystone"],
+    ["23–27", "Flowchart completion (NO MORE THAN THREE WORDS)", "Có, theo thứ tự bài", "changing, in the coming years, CSIRO, livestock, went hungry, krill, a fifth"]
+  ],
+  "typesNote": "Đi một lượt từ đoạn 1 đến đoạn 11: headings và TFNG cùng rơi vào đoạn 2–6 nên chốt song song, còn flowchart chỉ bắt đầu từ đoạn 9 trở đi.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Mở bài bác bỏ quan niệm rằng Nam Cực chứng minh không có nóng lên toàn cầu, và nói khó ghép các mẩu tin khoa học thành bức tranh thống nhất.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Nam Cực chia làm ba vùng địa lý lớn, ngăn bởi dãy Transantarctic, với hai dải băng Đông và Tây khác nhau về tốc độ chảy.",
+      "answers": [
+        { "q": 14, "ans": "viii", "quote": "Antarctica can be divided into three major geographic regions: East Antarctica, West Antarctica, and the Antarctic Peninsula", "how": "Cả đoạn chỉ mô tả vị trí và cách phân vùng ↔ heading viii \"Geographical description\" (geographical ↔ geographic regions). Heading vi (importance of Antarctic ice) là bẫy vì đoạn này mới chỉ tả dải băng chứ chưa nói tầm quan trọng." }
+      ]
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Băng Nam Cực giữ 90% lượng băng và gần 70% nước ngọt của Trái Đất, và băng biển theo mùa quan trọng với hoàn lưu đại dương lẫn khí hậu.",
+      "answers": [
+        { "q": 15, "ans": "vi", "quote": "sea ice formation in the Antarctic is important to many parts of the Earth system, including ocean circulation and climate", "how": "Các con số 90%, 70% cộng với câu cuối nói băng quan trọng với cả hệ Trái Đất ↔ heading vi \"The importance of Antarctic ice\"." },
+        { "q": 19, "ans": "TRUE", "quote": "The West Antarctic ice sheet contains enough ice to raise sea level between 5 and 6 meters, were this all to melt", "how": "stores ↔ contains, 5 to 6 meters khớp nguyên. Bẫy nằm ở câu sau: East Antarctic giữ gấp khoảng 10 lần, nếu đọc lướt dễ lẫn số liệu của hai dải băng." }
+      ],
+      "note": "Mệnh đề \"were this all to melt\" là câu điều kiện đảo (= if this were all to melt), chỉ nêu giả định nên không làm câu 19 thành FALSE."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Khí hậu khắc nghiệt (lạnh, đất xấu, thiếu ẩm, thiếu nắng) khiến thực vật chỉ còn rêu, địa y, tảo và nấm, mọc vài tuần mùa hè.",
+      "answers": [
+        { "q": 16, "ans": "v", "quote": "A combination of freezing temperatures, poor soil quality, lack of moisture, and lack of sunlight inhibit the flourishing of plants", "how": "Heading v \"The flora under extreme conditions\": flora ↔ vegetation/plant life, extreme conditions ↔ chuỗi điều kiện khắc nghiệt. Heading ix \"The flourishing of plants\" là bẫy đảo nghĩa: bài nói điều kiện NGĂN sự phát triển (inhibit)." },
+        { "q": 20, "ans": "FALSE", "quote": "plant life is limited to mostly mosses and liverworts", "how": "Đề nói \"impossible for any vegetation to survive\"; bài nói thực vật bị hạn chế chứ vẫn tồn tại (rêu, địa y, tảo, nấm) nên mâu thuẫn → FALSE. Bẫy là chữ \"extensive\" trong \"does not allow extensive vegetation\": không có nhiều, không phải không có." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Ngược lại, động vật biển rất phong phú: các loài chim cánh cụt, cá voi, hải cẩu lông, và nhuyễn thể Nam Cực là loài chủ chốt trong chuỗi thức ăn.",
+      "answers": [
+        { "q": 17, "ans": "i", "quote": "Antarctic sea life includes penguins, blue whales, orcas, colossal squids and fur seals", "how": "Đoạn liệt kê đặc điểm từng loài ↔ heading i \"The profile of Antarctic animals\". Heading iv \"Live surroundings for marine animals\" là bẫy: bài tả bản thân các loài, không tả môi trường sống." },
+        { "q": 22, "ans": "NOT GIVEN", "how": "Bài chỉ gọi Antarctic krill là \"the keystone species\"; còn về Weddell thì chỉ nói đó là chỉ huy các chuyến săn hải cẩu của Anh, không hề xếp Weddell seal vào vị trí then chốt của hệ sinh thái. Thiếu một nửa thông tin nên là NOT GIVEN chứ không phải TRUE." }
+      ],
+      "note": "Câu \"The Weddell, commander of British sealing expeditions\" nói về một con người, không phải loài hải cẩu Weddell. Đây đúng là chỗ gài của câu 22."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Các biện pháp pháp lý: Antarctic Conservation Act và hiệp ước CCAMLR 1980 siết hoạt động và nghề cá, dù đánh bắt lậu cá răng vẫn là vấn đề lớn.",
+      "answers": [
+        { "q": 18, "ans": "ii", "quote": "The passing of the Antarctic Conservation Act in the U.S. brought several restrictions to U.S. activity on the continent", "how": "Act, regulations, treaty ↔ heading ii \"Legal measures taken to protect Antarctic\". Heading iii \"Ocean farming remains forbidden\" sai vì bài nói nghề cá bị quản lý, không bị cấm hẳn." },
+        { "q": 21, "ans": "FALSE", "quote": "The introduction of alien plants or animals can bring a criminal penalty", "how": "Đề nói \"People should bring outside plants or animals\"; bài nói việc đó có thể bị phạt hình sự, tức hoàn toàn ngược lại → FALSE, không phải NOT GIVEN." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Phần lớn khối băng Nam Cực tới nay ít chịu tác động, thậm chí vùng lõi dày lên, nhưng so sánh 10 năm cho thấy mất băng tăng 75% và năm 2006 mất ròng 200 tỉ tấn.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Rìa Nam Cực lại đang ấm lên: thềm băng Larsen-B sụp năm 2003, Wilkins mất 570 km2 năm 2008, và đợt tan lớn nhất 30 năm xảy ra năm 2005.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Thời tiết đổi thay do Trái Đất ấm dần ảnh hưởng nặng nhất tới nông nghiệp; báo cáo dựa trên nghiên cứu CSIRO cảnh báo 50 năm tới sẽ giảm nước, đất canh tác, sản lượng chăn nuôi và chất lượng mùa màng.",
+      "answers": [
+        { "q": 23, "ans": "weather patterns", "quote": "changing weather patterns in the coming years due to such gradual warming of the Earth", "how": "\"alternations of ___ in the coming years\" ↔ \"changing weather patterns in the coming years\"; alterations ↔ changing, rising temperatures ↔ gradual warming of the Earth." },
+        { "q": 24, "ans": "agricultural-based business", "quote": "will affect agricultural-based businesses and communities the most", "how": "\"the way our ___ operate and the society as a whole\" ↔ \"agricultural-based businesses and communities\"; society as a whole ↔ communities nên chỗ trống chỉ còn phần business. Key ghi số ít nên viết agricultural-based business." },
+        { "q": 25, "ans": "crop", "quote": "cut livestock output and affect crop quality", "how": "Câu tóm tắt liệt kê \"water, land, livestock and ___ outputs\" bám đúng thứ tự \"decrease water resources ... reduce the area of arable land, cut livestock output and affect crop quality\" → crop. Chỉ điền một từ vì outputs đã có sẵn." }
+      ],
+      "note": "Câu dài ở cuối đoạn có bộ xương: The report (WHO) + stated that (DOES WHAT) + climate change in the next 50 years will decrease/increase/reduce/cut/affect ... Bốn động từ nối nhau bằng and, mỗi động từ một tân ngữ; đáp án 25 nằm ở tân ngữ cuối cùng."
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Chim cánh cụt, cá voi, hải cẩu bị đói vì nhuyễn thể giảm khoảng 80% từ thập niên 1970, nhiều khả năng do băng biển co lại khi không khí ấm lên.",
+      "answers": [
+        { "q": 26, "ans": "hungry", "quote": "Penguins, whales and seals in the Antarctic Southern Ocean went hungry also because of the result of global warming", "how": "\"animals will get ___ due to global warming\" ↔ \"went hungry ... because of the result of global warming\"; get ↔ went nên chỉ điền tính từ hungry." },
+        { "q": 27, "ans": "20", "quote": "There is only roughly a fifth of the krill around now that were around in the mid-70s", "how": "Chỗ trống đứng trước dấu % nên phải quy đổi \"a fifth\" = 20%. Bẫy là con số 80% ở đầu đoạn: đó là mức GIẢM, còn câu hỏi hỏi phần CÒN LẠI." }
+      ]
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Nhuyễn thể giảm có thể giải thích sự suy giảm của vài loài chim cánh cụt; trước đây ước tính chỉ dựa trên khảo sát cục bộ.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Bài đầy số liệu gần giống nhau (90%, 70%, 5–6 m, 75%, 80%, a fifth). Khi gặp chỗ trống có dấu %, luôn kiểm tra xem đề hỏi phần mất đi hay phần còn lại.",
+    "Hai heading luôn đi thành cặp đối nghịch: v (flora dưới điều kiện khắc nghiệt) và ix (thực vật phát triển mạnh). Đọc kỹ động từ inhibit để không chọn nhầm.",
+    "Với TRUE/FALSE/NOT GIVEN, câu 22 ghép hai chủ thể (Weddell seal + krill) vào một mệnh đề: chỉ cần một vế không có trong bài là NOT GIVEN."
+  ]
+}

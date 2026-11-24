@@ -1,0 +1,94 @@
+{
+  "step1": "Tiêu đề TV Addiction cho biết bài bàn xem xem tivi có thật sự là một dạng nghiện hay không. Đoán trước mạch bài: ý tưởng ban đầu (Winn 1977) → so sánh người xem nhiều và người không xem → các nghiên cứu định lượng (Smith, McIlwraith, Anderson) → chuyện kể bi kịch trong gia đình → nghiện các phương tiện khác (game, pinball) → kết luận còn bỏ ngỏ. Q1–6 là Matching Headings nên phải đọc xong từng đoạn mới chốt; Q7–13 là nối tên nhà nghiên cứu nên locate được ngay bằng tên riêng, rải khắp bài.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–6", "Matching Headings (i–xi, đoạn A, B, D, E, F, G)", "Không: chỉ chốt được sau khi đọc hết đoạn", "ý chính từng đoạn; chú ý từ khóa heading: conception, heavy viewers, campus, alcohol, tragedies, other platforms"],
+    ["7–13", "Matching people (A–W)", "Có: tên riêng là mỏ neo", "Winn, Mander, Fisher, Smith, Kubey, Fowles, Anderson"]
+  ],
+  "typesNote": "Đi một lượt từ đoạn 1 đến đoạn 10: mỗi khi đọc xong một đoạn, vừa chốt heading cho đoạn đó vừa gắn ngay tên nhà nghiên cứu xuất hiện trong đoạn với mệnh đề 7–13 tương ứng.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Khái niệm nghiện tivi được Winn nêu ra từ 1977, nhưng còn mơ hồ nên cần phân biệt rõ các khái niệm xem nhiều, lệ thuộc và nghiện.",
+      "answers": [
+        { "q": 1, "ans": "ix", "quote": "In 1977, Winn argued in The Plug-in Drug that television has properties of addiction", "how": "Đoạn chỉ mới nêu và đòi làm rõ khái niệm: \"A clear distinction needs to be made between these concepts\" ↔ heading ix \"Conception of television addiction being proposed\" (proposed = argued)." },
+        { "q": 7, "ans": "W", "quote": "In 1977, Winn argued in The Plug-in Drug that television has properties of addiction", "how": "\"over two decades ago\" ↔ mốc 1977; người nêu ý tưởng là Winn → W. Đừng chọn Smith hay Kubey vì họ nghiên cứu về sau." }
+      ],
+      "note": "Đoạn A tương ứng [P1]. Heading x \"Empirical search for DSM-IV\" là bẫy: DSM-IV chỉ xuất hiện từ đoạn 3 trở đi."
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Foss và Alexander so sánh người xem nhiều (6 giờ/ngày) với người không xem; người không xem gọi tivi là ma túy, còn người xem nhiều thấy nghiện là chuyện của người khác.",
+      "answers": [
+        { "q": 2, "ans": "ii", "quote": "self-defined heavy viewers (6 hours per day) and non-viewers", "how": "Cả đoạn đặt hai nhóm cạnh nhau ↔ heading ii \"Comparisons made among heavy viewers and non-viewers\". Heading v \"Resist the power\" chỉ là một chi tiết nhỏ (\"resist its power\") nên quá hẹp." },
+        { "q": 8, "ans": "M", "quote": "Mander collected around 2,000 anecdotal responses to television ... Common statements resulted, such as \"I feel hypnotized\"", "how": "\"get hypnotized\" ↔ \"I feel hypnotized\"; câu nói này nằm trong số liệu Mander thu thập → M. Singer ở cuối đoạn nói về \"orienting reflex\", không nói hypnotized." }
+      ],
+      "note": "Đoạn này có nhiều tên (Foss, Alexander, Mander, Singer). Phải đọc xem mỗi tên gắn với phát hiện nào, đừng chọn theo tên gặp đầu tiên."
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "Smith tự xây thang đo nghiện tivi từ sách báo phổ thông; khảo sát 491 người cho thấy chỉ 11 người tự nhận nghiện dù 64% nói tivi gây nghiện.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "McIlwraith và cộng sự dùng thang đo của Smith trên sinh viên đại học: chỉ 17/136 tự nhận nghiện, và nhóm này xem gấp đôi, dễ chán, hướng nội và nhiễu tâm hơn.",
+      "answers": [
+        { "q": 3, "ans": "viii", "quote": "they found that only 17 out of 136 college students were self-designated addicts", "how": "Đối tượng nghiên cứu là sinh viên đại học ↔ heading viii \"Findings from the campus\" (campus = college). Heading x (DSM-IV) là bẫy vì DSM-IV chỉ được viện dẫn chứ không phải trọng tâm đoạn." }
+      ],
+      "note": "Đoạn C (= [P3]) đã có sẵn đáp án mẫu iii, nên không được dùng lại iii cho các đoạn khác."
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Anderson và cộng sự thấy ở phụ nữ, biến cố căng thẳng dự báo hành vi nghiện tivi và cảm giác tội lỗi; họ ví cách dùng tivi này như cách dùng rượu.",
+      "answers": [
+        { "q": 4, "ans": "vii", "quote": "women used television in a way that was \"analogous to alcohol\"", "how": "Heading vii \"Similarities between using television and alcohol\": similarities ↔ analogous. Đoạn E của đề gộp [P5] và [P6], nhưng câu chốt nằm ở [P5]." },
+        { "q": 13, "ans": "A", "quote": "Anderson, Collins, Schmitt, and Jacobvitz found that, for women, stressful life events predicted television addiction-like behavior and guilt about television watching", "how": "\"females\" ↔ \"women\", \"feel guilty\" ↔ \"guilt about television watching\"; tên đầu danh sách là Anderson → A. Smith (S) cũng được nhắc ở đầu câu (\"using Smith's measure\") nhưng đó chỉ là công cụ, không phải người tìm ra." }
+      ],
+      "note": "Câu này là bẫy kinh điển: \"Also using Smith's measure\" khiến nhiều bạn chọn S. Chủ ngữ của động từ found mới là người cần tìm."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "McIlwraith thấy người tự nhận nghiện xem nhiều giờ hơn hẳn; mẫu của ông giống mẫu của Smith: phần lớn người tham gia trả lời never cho mọi mục.",
+      "answers": [
+        { "q": 10, "ans": "S", "quote": "McIlwraith's sample echoed Smith's, who found that participants most often responded never on all the items about television addiction", "how": "Mệnh đề quan hệ \"who found\" quay về Smith chứ không về McIlwraith → S. Bộ xương câu: McIlwraith's sample (WHO) + echoed Smith's (DOES WHAT), rồi \"who found that...\" bổ nghĩa cho Smith's; đó là chi tiết định đoạt đáp án." }
+      ],
+      "note": "Đề diễn đạt \"did not answer all the questions\" trong khi bài nói \"responded never on all the items\" (trả lời never cho mọi mục). Cách diễn đạt của đề không thật chính xác, nhưng vẫn chọn theo key là S."
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Bằng chứng thực nghiệm thì yếu nhưng chuyện kể thì nhiều: tivi gây xung đột, tan vỡ gia đình, thậm chí dẫn tới án mạng do cãi nhau vì tivi.",
+      "answers": [
+        { "q": 5, "ans": "iv", "quote": "Fowles related tragic newspaper accounts due to quarrels about television", "how": "Hai vụ án mạng được kể ↔ heading iv \"Television addiction being proved by tragedies\" (tragedies ↔ tragic). Heading i \"Television and family feuds\" rất gần nhưng iv bao được cả phần \"There are worse stories\" là án mạng, nên bám key iv." },
+        { "q": 12, "ans": "F", "quote": "Fowles related tragic newspaper accounts due to quarrels about television", "how": "\"related dreadful incidents\" ↔ \"related tragic newspaper accounts\": động từ related giữ nguyên, dreadful ↔ tragic → F." }
+      ],
+      "note": "Đoạn này có hai cái tên trong các vụ án (Charles Green, John Gallien) nhưng họ không có trong danh sách A–W; người kể lại mới là đáp án."
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Một số nghiên cứu áp tiêu chí APA sang các loại phương tiện khác: Fisher với trò chơi điện tử ở trẻ em, Phillips với 868 trẻ 11–16 tuổi, và một ca nghiện máy pinball ở Anh.",
+      "answers": [
+        { "q": 6, "ans": "xi", "quote": "A handful of studies have attempted to study other types of media addiction directly using APA criteria", "how": "Heading xi \"Using methods from television addiction studies on other platforms\": other platforms ↔ other types of media, methods ↔ APA criteria." },
+        { "q": 9, "ans": "I", "quote": "Fisher found that children could be classified as addicted to video games", "how": "\"relationships among television and other media\" ↔ việc mở rộng nghiên cứu nghiện sang video games; người nêu ví dụ đó là Fisher → I. Phillips cũng nghiên cứu game nhưng không có mặt trong danh sách A–W." }
+      ]
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Tóm lại tivi rất cuốn hút nhưng chưa ai đo được nghiện tivi thuần theo tiêu chí DSM-IV.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Kubey cho rằng ít nhất 5 trong 7 tiêu chí DSM-IV có thể áp dụng cho việc xem tivi, nhưng điều đó vẫn chưa được kiểm chứng; ngành truyền thông chưa dùng hết bộ tiêu chí của tâm thần học.",
+      "answers": [
+        { "q": 11, "ans": "K", "quote": "Kubey argued that at least 5 of the 7 DSM-IV criteria are probably applicable to television viewing, but this remains to be tested", "how": "\"previous studies remain limited\" ↔ \"remains to be tested\" và \"methods to diagnose television dependence have not been established\" → K. Smith (đoạn 7) cũng nói bằng chứng thực nghiệm yếu, nhưng câu hỏi nhấn vào tình trạng còn dang dở của tiêu chuẩn chẩn đoán, là ý của Kubey." }
+      ],
+      "note": "Đoạn H trong đề gộp [P9] và [P10]."
+    }
+  ],
+  "tips": [
+    "Dạng matching people ở bài này có tới 8 lựa chọn nhưng nhiều tên khác (Foss, Singer, McIlwraith, Phillips) không nằm trong danh sách: gặp tên lạ thì bỏ qua, đừng mất thời gian.",
+    "Cụm \"Also using Smith's measure\" lặp lại ở đoạn 5 và đoạn 6, rất dễ làm chọn nhầm S cho câu 13 và nhầm A cho câu 10. Luôn xác định chủ ngữ của động từ found.",
+    "Chữ cái đoạn (A–H) của đề không trùng số đoạn in ra: đoạn E gộp hai đoạn ([P5]+[P6]) và đoạn H cũng vậy ([P9]+[P10]). Đếm đoạn theo bản đề thi khi ghi đáp án."
+  ]
+}

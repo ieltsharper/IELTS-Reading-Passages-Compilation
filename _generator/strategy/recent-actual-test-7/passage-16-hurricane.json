@@ -1,0 +1,125 @@
+{
+  "step1": "Tiêu đề Hurricane cùng câu mở đầu (bão chuyển nhiệt và năng lượng từ xích đạo về phía cực) cho thấy đây là bài khoa học mô tả: bão là gì (Section A) → hình thành thế nào (Section B) → năng lượng (Section C) → đường đi và tên gọi (Section D) → bão tan (Section E) → dự báo và cảnh báo (Section F). Q28–31 là sơ đồ/flow-chart và đề nói rõ lấy từ Section B, nên chốt ngay khi đọc tới đó; Q32–38 TFNG rải theo thứ tự các Section; Q39–40 là câu hỏi ngắn về tốc độ và bề rộng, nằm ở Section A và Section D.",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["28–31", "Flow-chart completion (NO MORE THAN THREE WORDS, chỉ lấy từ Section B)", "Có – đề đã chỉ đích danh Section B", "current of heated, center of, trade winds rush inwards, twist into a cylinder"],
+    ["32–38", "True / False / Not Given", "Có (từ khóa), theo thứ tự bài", "equator, 26°C, 3%, typhoons/cyclones, eye filling, predict where, flying flags"],
+    ["39–40", "Short answer (NO MORE THAN THREE WORDS)", "Có – hỏi số liệu", "travel speed, 500 miles wide"]
+  ],
+  "typesNote": "Bài chia sẵn Section A–F nên mỗi nhóm câu hỏi gắn với một vùng cụ thể: đọc một lượt, xong Section nào chốt câu của Section đó, riêng Q39–40 cần nhớ hai con số về tốc độ và bề rộng.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Câu mở bài: bão là đặc điểm thiết yếu của khí quyển vì chúng chuyển nhiệt và năng lượng giữa xích đạo và các vùng mát hơn gần cực.",
+      "answers": [
+        { "q": 32, "ans": "TRUE", "quote": "they transfer heat and energy between the equator and the cooler regions towards the poles", "how": "\"form around the equator\" ↔ bão xuất phát từ vùng xích đạo rồi chuyển nhiệt về phía cực; Section D còn xác nhận \"Hurricanes form between 5° and 30° latitude\" tức quanh vùng xích đạo → TRUE." }
+      ],
+      "note": "Câu 32 nằm ngay ở câu dẫn trước Section A – đừng bỏ qua phần mở bài không có số thứ tự."
+    },
+    { "para": "Đoạn 2", "idea": "Tiêu đề Section A.", "answers": [] },
+    {
+      "para": "Đoạn 3",
+      "idea": "Định nghĩa bão: cơn xoáy lớn quanh vùng áp thấp, gió trung bình trên 74 mph, cao tới 10 dặm, rộng trung bình 500 dặm, di chuyển tới 20 mph.",
+      "answers": [
+        { "q": 40, "ans": "500 miles", "quote": "The whole storm system may be up to 10 miles high and on average 500 miles wide.", "how": "\"How broad is a typical hurricane system?\" ↔ \"on average 500 miles wide\"; \"typical\" ↔ \"on average\". Bẫy: 10 miles là chiều cao, không phải bề rộng." }
+      ],
+      "note": "Đoạn này có ba con số (74 mph, 10 miles, 500 miles, 20 mph). Ghi nhớ vai trò từng con số vì Q39–40 hỏi đúng hai trong số đó."
+    },
+    { "para": "Đoạn 4", "idea": "Tiêu đề Section B.", "answers": [] },
+    {
+      "para": "Đoạn 5",
+      "idea": "Điều kiện kích hoạt bão: khí nóng ẩm từ biển nhiệt đới trên 26°C cộng với độ xoáy do Trái đất quay; khí nóng bốc lên tạo tâm áp thấp, gió mậu dịch tràn vào và xoáy lên, giải phóng nhiệt và ẩm.",
+      "answers": [
+        { "q": 28, "ans": "moist air", "quote": "a current of very warm moist air rises up quickly", "how": "\"A current of heated ___ raised up from the warm ocean\" ↔ \"a current of very warm moist air rises up\"; heated = very warm nên chỗ trống chỉ còn \"moist air\"." },
+        { "q": 29, "ans": "low pressure", "quote": "creating a center of low pressure at the surface", "how": "\"A center of ___ created at the surface\" chép gần như nguyên văn → low pressure." },
+        { "q": 30, "ans": "heat and moisture", "quote": "the inward spiralling winds whirl upwards releasing heat and moisture before descending", "how": "\"discharge ___ before descending\" ↔ \"releasing heat and moisture before descending\"; discharge = releasing." },
+        { "q": 33, "ans": "TRUE", "quote": "derived from tropical oceans with surface temperatures greater than 26°C", "how": "\"above the sea surface under relatively higher temperatures\" ↔ biển nhiệt đới có nhiệt độ bề mặt trên 26°C → TRUE." }
+      ],
+      "note": "Câu dài đầu đoạn: xương sống là \"One of the most influential factors are sources of very warm, moist air\", rồi hai mệnh đề \"which derived from tropical oceans...\" (nguồn gốc) và \"and sufficient spin or twist from the rotating earth, which is related to latitude\" (yếu tố thứ hai). Nhận ra hai yếu tố song song này thì vừa trả lời được câu 33 vừa đoán trước câu 31."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Trái đất quay làm cột khí xoắn thành hình trụ quay quanh mắt bão lặng gió, không mây; khí bốc lên nguội đi tạo mây vũ tích, trên cao 6 dặm mây tỏa ra thành lớp dày.",
+      "answers": [
+        { "q": 31, "ans": "rotation of Earth", "quote": "The rotation of the Earth causes the rising column to twist, gradually taking on the form of a cylinder whirling around an eye of relatively still air", "how": "Chỗ trống là chủ ngữ của \"helps the column to twist\" ↔ \"The rotation of the Earth causes the rising column to twist\"; giới hạn ba từ nên viết \"rotation of Earth\"." }
+      ]
+    },
+    { "para": "Đoạn 7", "idea": "Tiêu đề Section C.", "answers": [] },
+    {
+      "para": "Đoạn 8",
+      "idea": "Năng lượng khổng lồ được tích trong hơi nước khi nước biển nhiệt đới bốc hơi; khi khí bốc lên, 90% năng lượng đó được giải phóng nhờ ngưng tụ.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Nhiệt giải phóng làm khí nóng thêm, áp suất trên cao giảm tiếp, khí ẩm nóng từ biển bị hút vào nhiều hơn – tạo thành một cỗ máy nhiệt tự nuôi mình.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Chỉ khoảng 3% nhiệt năng chuyển thành cơ năng của gió xoáy, nhưng lượng nhỏ đó đã bằng 360 tỉ kWh mỗi ngày – tương đương điện dùng 6 tháng của cả nước Mỹ.",
+      "answers": [
+        { "q": 34, "ans": "FALSE", "quote": "Only as little as 3% of the heat energy may be converted to mechanical energy of the circulating winds.", "how": "Câu hỏi nói \"3% of the mechanical energy\"; bài nói 3% là của NHIỆT năng, và chính toàn bộ phần cơ năng ấy mới tương đương điện 6 tháng của Mỹ → đổi chỗ hai loại năng lượng, FALSE. Bẫy: con số 3% và \"half a year\" đều khớp nên dễ vội chọn TRUE." }
+      ]
+    },
+    { "para": "Đoạn 11", "idea": "Tiêu đề Section D.", "answers": [] },
+    {
+      "para": "Đoạn 12",
+      "idea": "Bão hình thành ở vĩ độ 5°–30°, ban đầu đi về phía tây và hơi lệch về phía cực, sau đó vào vùng gió tây ở vĩ độ trung bình thì đổi hướng sang phía đông.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 13",
+      "idea": "Càng về phía cực bão càng nhanh, đạt 20–30 mph, đi được 300–400 dặm mỗi ngày và khoảng 3000 dặm trước khi tan; mùa bão khác nhau ở hai bán cầu.",
+      "answers": [
+        { "q": 39, "ans": "20 and 30 mph", "quote": "it picks up speed and may reach between 20 and 30 mph", "how": "\"How fast does a hurricane normally travel?\" ↔ tốc độ di chuyển của cả cơn bão. Bẫy: 74 mph ở Section A là tốc độ GIÓ, còn 300–400 miles a day là quãng đường mỗi ngày." }
+      ],
+      "note": "Sách hướng dẫn không in đáp án cho Q39–Q40; hai đáp án dùng ở đây lấy thẳng từ bài đọc (\"between 20 and 30 mph\" và \"on average 500 miles wide\")."
+    },
+    {
+      "para": "Đoạn 14",
+      "idea": "Chỉ bão ở Đại Tây Dương mới gọi là hurricane; ở Thái Bình Dương gọi là typhoon, ở Ấn Độ Dương là cyclone; tên đặt theo thứ tự chữ cái, xen kẽ nam nữ.",
+      "answers": [
+        { "q": 35, "ans": "TRUE", "quote": "The name hurricane should only be used for those tropical storms occurring in the Atlantic. In the Pacific they are known as typhoons, in the Indian Ocean as cyclones.", "how": "Chữ \"they\" cho thấy cả ba tên chỉ cùng một loại \"tropical storms\", chỉ khác vùng biển → \"all the same type of tropical storms\" đúng, TRUE." }
+      ]
+    },
+    { "para": "Đoạn 15", "idea": "Tiêu đề Section E.", "answers": [] },
+    {
+      "para": "Đoạn 16",
+      "idea": "Bão tàn phá nặng nhất khi đi vào đất liền, nhưng chính đất liền cũng giết nó: mất nguồn năng lượng, ma sát làm méo dòng khí, mắt bão bị mây lấp và bão tan.",
+      "answers": [
+        { "q": 36, "ans": "FALSE", "quote": "This leads to the eye filling with cloud and the hurricane dies.", "how": "Câu hỏi nói mắt bão bị \"moist air\" lấp đầy; bài nói bị \"cloud\" lấp đầy → sai chi tiết, FALSE. Bẫy: \"moist air\" có thật trong bài nhưng ở Section B, nói về nguồn nuôi bão chứ không phải mắt bão." }
+      ]
+    },
+    { "para": "Đoạn 17", "idea": "Tiêu đề Section F.", "answers": [] },
+    {
+      "para": "Đoạn 18",
+      "idea": "Không có điều kiện khí quyển nào đo được để dự đoán nơi bão sẽ hình thành, chỉ dự báo được đường đi sau khi bão đã hình thành; Trung tâm Bão Quốc gia ở Miami theo dõi suốt vòng đời bão.",
+      "answers": [
+        { "q": 37, "ans": "TRUE", "quote": "there are no atmospheric conditions that can be measured and combined to predict where a hurricane will develop", "how": "\"not capable of anticipating where a hurricane will develop\" ↔ \"no atmospheric conditions ... to predict where a hurricane will develop\" → TRUE. Chú ý câu sau: chỉ dự báo được đường đi (path), không phải nơi hình thành." }
+      ]
+    },
+    {
+      "para": "Đoạn 19",
+      "idea": "Vệ tinh phát hiện bão sớm, máy bay gia cố bay xuyên qua bão, radar thời tiết định vị bão trong bán kính 200 dặm quanh trạm.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 20",
+      "idea": "Cảnh báo bão được phát cho vùng ven biển khi chắc chắn có gió từ 74 mph trở lên hoặc sóng/nước dâng nguy hiểm; dân chúng được báo qua truyền hình và hệ thống cờ ban ngày, đèn lồng ban đêm.",
+      "answers": [
+        { "q": 38, "ans": "NOT GIVEN", "how": "Bài có \"flying flags by day and lanterns by night\" (cách báo tin cho dân) và có \"within 200 miles of the radar station\" (tầm của radar), nhưng không nối hai điều này với nhau. Bẫy: ghép hai chi tiết ở hai đoạn khác nhau thành một câu nghe có lý → vẫn là NOT GIVEN." }
+      ]
+    },
+    {
+      "para": "Đoạn 21",
+      "idea": "Gần đây trang web của Trung tâm Bão cho phép nhập mã bưu chính để biết nguy cơ tại khu vực mình và nơi sơ tán.",
+      "answers": []
+    }
+  ],
+  "tips": [
+    "Bài đầy số liệu dễ lẫn: 74 mph (tốc độ gió), 20–30 mph (tốc độ di chuyển), 500 miles (bề rộng), 10 miles (chiều cao), 200 miles (tầm radar), 3% và 90% (năng lượng). Khi đọc hãy gắn mỗi con số với một nhãn.",
+    "Hai câu FALSE (34 và 36) đều theo cùng một kiểu bẫy: giữ nguyên con số hoặc kết quả nhưng đổi danh từ (heat energy → mechanical energy, cloud → moist air). Đọc đến danh từ trung tâm mới kết luận.",
+    "Câu 38 là bẫy ghép thông tin từ hai đoạn khác nhau: nếu bài không hề nối hai chi tiết đó lại thì đáp án là NOT GIVEN, không phải FALSE."
+  ]
+}

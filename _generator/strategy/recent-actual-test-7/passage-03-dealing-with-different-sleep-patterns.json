@@ -1,0 +1,115 @@
+{
+  "step1": "Tiêu đề Dealing with Different Sleep Patterns cho biết đây là bài y học về các kiểu ngủ khác nhau: cấu trúc giấc ngủ, khác biệt theo lứa tuổi và các rối loạn nhịp ngủ. Đoán mạch bài: ngành y học giấc ngủ ở Anh → hai trạng thái NREM và REM → rối loạn hành vi REM → tỷ lệ REM theo tuổi, rượu và thuốc → giấc ngủ của trẻ sơ sinh và trẻ nhỏ → melatonin → đồng hồ sinh học, kiểu sáng (larks) và kiểu tối (owls) → hội chứng ngủ muộn, ngủ sớm ở người già. Nhóm TRUE/FALSE/NOT GIVEN 1–8 bám nửa đầu bài (đoạn 1–8), còn summary 9–14 nằm ở nửa sau nói về nhịp sinh học (đoạn 10–14).",
+  "types": [
+    ["Câu", "Dạng", "Locate trước được?", "Từ khóa để scan"],
+    ["1–8", "True / False / Not Given", "Có (bám từ khóa), theo thứ tự bài", "centers, injured, Parkinson's, REM proportion, frightening dreams, second month, prematurely, deep sleep"],
+    ["9–14", "Summary completion chọn từ bảng A–P", "Có, theo thứ tự và dồn ở nửa sau bài", "outside factors, day-night cycle, melatonin high, free cycle, morning people, early in the evening"]
+  ],
+  "typesNote": "Cả hai nhóm chạy đúng thứ tự bài nên chỉ cần đọc một lượt: tám câu TFNG chốt dần trong đoạn 1–8, rồi từ đoạn 10 trở đi là lần lượt sáu chỗ trống của bài tóm tắt.",
+  "walk": [
+    {
+      "para": "Đoạn 1",
+      "idea": "Y học giấc ngủ ở Anh còn non trẻ: trước thập niên 1980 chỉ có vài trung tâm, mười năm gần đây mọc lên nhiều trung tâm do bác sĩ hô hấp và tai mũi họng quan tâm tới chứng ngưng thở khi ngủ dẫn dắt.",
+      "answers": [
+        { "q": 1, "ans": "TRUE", "quote": "In the last decade a number of centers have sprouted, often led by chest physicians and ENT (Ear, Nose and Throat) surgeons with an interest in obstructive sleep apnoea", "how": "\"growing interest in sleeping disorder studies\" ↔ \"with an interest in obstructive sleep apnoea\"; \"a growing number of centers\" ↔ \"a number of centers have sprouted\". Quan hệ nhân quả cũng khớp: chính sự quan tâm đó kéo theo các trung tâm mới và buộc giới thần kinh học vào cuộc (\"forcing ... to wake up\") nên TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 2",
+      "idea": "Giấc ngủ có hai trạng thái NREM và REM luân phiên theo chu kỳ 90 phút; NREM chia làm bốn giai đoạn, 1–2 là ngủ nông, 3–4 là ngủ sâu.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 3",
+      "idea": "REM có sóng não gần trạng thái thức, mắt chuyển động từng đợt và cơ mất trương lực; chính sự mất trương lực này ngăn ta diễn lại giấc mơ, và khi nó mất đi (rối loạn hành vi REM) bệnh nhân hành động theo giấc mơ bạo lực, thường gây chấn thương.",
+      "answers": [
+        { "q": 2, "ans": "NOT GIVEN", "quote": "is lost in REM behavior disorder when dream content becomes violent and patients act out their dream, often resulting in injury", "how": "Bài chỉ nói BỆNH NHÂN mắc rối loạn hành vi REM mới hay bị thương, còn câu hỏi khái quát thành \"People are often injured\" và thêm cả \"sleepwalking\" – mộng du được nhắc ở đoạn 4 nhưng không hề gắn với chấn thương. Thiếu thông tin cho vế mộng du nên NOT GIVEN, không phải TRUE." }
+      ],
+      "note": "Bẫy kinh điển: đúng một nửa (giấc mơ bạo lực → chấn thương) nhưng nửa còn lại (sleepwalking) bài không nói. Chỉ cần một vế không có thông tin là NOT GIVEN."
+    },
+    {
+      "para": "Đoạn 4",
+      "idea": "Rối loạn hành vi REM có thể là dấu hiệu báo trước bệnh thoái hóa thần kinh, trong đó có Parkinson; giấc mơ trong REM thì nhớ được, còn hoạt động tâm trí trước khi thức giấc từ NREM (như hoảng sợ ban đêm, mộng du) thì hầu như không nhớ.",
+      "answers": [
+        { "q": 3, "ans": "NOT GIVEN", "quote": "REM behavior disorder can be a precursor of neurodegenerative disease including Parkinson's.", "how": "Bài nói rối loạn REM có thể BÁO TRƯỚC bệnh thoái hóa thần kinh \"including Parkinson's\" – tức Parkinson chỉ là một trong nhiều bệnh. Câu hỏi lại khẳng định \"scientifically proved to be the only result\": vừa đảo chiều (báo trước ≠ gây ra) vừa thêm chữ \"only\" mà bài không bàn tới, nên NOT GIVEN." }
+      ]
+    },
+    {
+      "para": "Đoạn 5",
+      "idea": "Trẻ sơ sinh dành 50% thời gian ngủ cho REM, giảm dần còn 25% ở người lớn; cai rượu hay ngưng đột ngột nhiều loại thuốc tác động thần kinh trung ương có thể làm REM xuất hiện ngay khi vừa ngủ và gây những giấc mơ sống động, đáng sợ.",
+      "answers": [
+        { "q": 4, "ans": "TRUE", "quote": "In the newborn, 50 percent of total sleep time is occupied by REM sleep, progressively shrinking to 25 percent in the adult", "how": "\"grownups\" ↔ adult, \"counts for less proportion\" ↔ \"shrinking to 25 percent\" so với 50% ở newborn. Con số khớp thẳng nên TRUE." },
+        { "q": 5, "ans": "FALSE", "quote": "Abrupt withdrawal of alcohol and many centrally acting recreational and non-recreational drugs can cause REM sleep to occur at sleep onset. This can also increase total REM sleep, leading to intense vivid often frightening dreams", "how": "Câu hỏi nói ác mộng KHÔNG liên quan gì đến rượu và thuốc, nhưng bài khẳng định ngược lại: cai rượu/thuốc làm tăng REM và dẫn tới \"frightening dreams\". Mâu thuẫn trực tiếp nên FALSE (không phải NOT GIVEN)." }
+      ],
+      "note": "Câu dài trong đoạn: backbone là \"Abrupt withdrawal of alcohol and many ... drugs can cause REM sleep to occur at sleep onset\" (CÁI GÌ gây ra điều gì); câu tiếp \"This can also increase total REM sleep\" nối bằng đại từ This, rồi phân từ chỉ kết quả \"leading to intense vivid often frightening dreams\". Chuỗi cai thuốc → tăng REM → ác mộng chính là bằng chứng của câu 5."
+    },
+    {
+      "para": "Đoạn 6",
+      "idea": "Chu kỳ nghỉ/hoạt động bắt đầu từ trong bào thai; trẻ sơ sinh ngủ ngày và đêm như nhau quanh các cữ bú, đến tháng thứ hai nghiêng dần về ban đêm và đến sáu tháng ngủ khoảng 12 tiếng ban đêm cộng vài giấc ngắn ban ngày.",
+      "answers": [
+        { "q": 6, "ans": "TRUE", "quote": "By the second month favoring of sleep towards night time occurs", "how": "\"sleep more at night from the second month\" ↔ \"By the second month favoring of sleep towards night time occurs\"; đối chiếu với câu trước (sơ sinh ngủ ngày đêm bằng nhau) càng rõ là tăng ngủ đêm, nên TRUE." }
+      ]
+    },
+    {
+      "para": "Đoạn 7",
+      "idea": "Trẻ sinh non hay thức về đêm trong năm đầu, còn trẻ bú mẹ thì thức giấc THƯỜNG XUYÊN HƠN, nhưng khác biệt mất dần sang năm thứ hai; thức đêm dai dẳng thường do trẻ chưa tự dỗ mình ngủ lại được.",
+      "answers": [
+        { "q": 7, "ans": "FALSE", "quote": "children born prematurely have a tendency to be awake more at night in the first year and breast-fed babies wake more frequently", "how": "Câu hỏi nói hai nhóm thức giấc \"as frequently as\" nhau, nhưng bài so sánh hơn: trẻ bú mẹ thức \"more frequently\". Bẫy so sánh bằng ↔ so sánh hơn nên FALSE." }
+      ]
+    },
+    {
+      "para": "Đoạn 8",
+      "idea": "Việc hình thành giấc ngủ đêm liền mạch ở trẻ phản ánh sự trưởng thành của não và có thể bị gián đoạn ở trẻ chậm phát triển; liệu pháp hành vi vẫn hiệu quả, melatonin chỉ nên là lựa chọn cuối vì chưa rõ độ an toàn lâu dài.",
+      "answers": [
+        { "q": 8, "ans": "NOT GIVEN", "how": "Bài nói về việc thiết lập giấc ngủ đêm liền mạch và sự trưởng thành của não, nhưng không ở đâu nói trẻ CẦN nhiều ngủ sâu hơn hay cần ít bị quấy rầy hơn trong \"the first half of the night\". Nửa đầu đêm là chi tiết hoàn toàn mới do đề thêm vào nên NOT GIVEN." }
+      ],
+      "note": "Đoạn 2 có nói về deep sleep (stage 3–4) nhưng không gắn với trẻ em hay nửa đầu đêm; đừng vì thấy từ khóa deep sleep mà quay lại đoạn 2 rồi chọn TRUE."
+    },
+    {
+      "para": "Đoạn 9",
+      "idea": "Đã có nghiên cứu tốt về dùng melatonin ngắn hạn cho rối loạn nhịp ngủ/thức như hội chứng ngủ muộn, nhưng không nên dùng nó như thuốc ngủ, nhất là ở trẻ đang phát triển.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 10",
+      "idea": "Ngoài chu kỳ NREM/REM còn có chu kỳ ngủ/thức theo ngày đêm, được điều phối bởi nhịp nội sinh (melatonin, thân nhiệt) và yếu tố ngoại sinh (ánh sáng, giờ ăn, giờ làm).",
+      "answers": [
+        { "q": 9, "ans": "L", "quote": "there is a circadian sleep/wake cycle entrained by intrinsic rhythms - melatonin and body temperature - and extrinsic factors", "how": "\"along with human ___ and outside factors\" ↔ \"intrinsic rhythms ... and extrinsic factors\"; outside factors = extrinsic factors nên chỗ trống là phần nội sinh: L rhythms. Đáp án B body là bẫy vì bài có \"body temperature\", nhưng chỗ trống cần danh từ số nhiều ghép với outside factors." }
+      ]
+    },
+    {
+      "para": "Đoạn 11",
+      "idea": "Melatonin của tuyến tùng giúp đồng bộ chu kỳ ngủ/thức với chu kỳ sáng/tối: tiết nhiều trong bóng tối, ít vào ban ngày; người mù có thể mất sự đồng bộ này và hình thành chu kỳ ngủ/thức tự do.",
+      "answers": [
+        { "q": 10, "ans": "H", "quote": "The pineal hormone melatonin plays a role in entraining the sleep/wake cycle to the light/dark cycle.", "how": "\"plays a determinant role in ___ the sleep-wake cycle to the day-night cycle\" khớp gần như nguyên văn; sau giới từ \"in\" cần V-ing nên chọn H entraining." },
+        { "q": 11, "ans": "M", "quote": "Melatonin secretion is high in darkness and low in daylight hours", "how": "\"melatonin is high within ___ environment\" ↔ \"high in darkness\". Trong bảng không có từ darkness nên dùng từ đồng nghĩa M shadow; E daylight là bẫy vì đó mới là lúc melatonin THẤP." },
+        { "q": 12, "ans": "A", "quote": "Blind people may lose this entrainment and develop a free running sleep/wake cycle", "how": "\"___ subject who may build up a free cycle\" ↔ \"Blind people ... develop a free running sleep/wake cycle\". Chỗ trống đứng trước danh từ subject nên cần tính từ A blind, không phải O sight." }
+      ],
+      "note": "Hai từ gần nghĩa trong bảng luôn đi thành cặp bẫy: shadow/daylight cho câu 11 và blind/sight cho câu 12. Luôn kiểm tra từ loại của chỗ trống trước khi chọn."
+    },
+    {
+      "para": "Đoạn 12",
+      "idea": "Gen đồng hồ sinh học có tính đa hình, chia dân số thành kiểu buổi sáng (larks) và kiểu buổi tối (owls); người thiên về ngủ muộn dễ mắc hội chứng ngủ muộn, nhất là tuổi vị thành niên.",
+      "answers": [
+        { "q": 13, "ans": "F", "quote": "Polymorphism of the circadian clock gene has now been identified with the population divided between morning types (larks) and evening types (owls)", "how": "\"morning people\" và \"night people\" ↔ morning types (larks) và evening types (owls); polymorphism nghĩa là có nhiều dạng khác nhau nên chỗ trống là F different. I identical mang nghĩa ngược lại nên loại." }
+      ]
+    },
+    {
+      "para": "Đoạn 13",
+      "idea": "Ở hội chứng ngủ muộn, giấc ngủ chỉ bắt đầu vào rạng sáng nên rất khó dậy đi học, đi làm; điều trị bằng melatonin đúng giờ, liệu pháp ánh sáng mạnh hoặc chronotherapy.",
+      "answers": []
+    },
+    {
+      "para": "Đoạn 14",
+      "idea": "Ngược lại, người cao tuổi dễ bị xáo trộn nhịp ngủ/thức và có thể mắc hội chứng ngủ sớm; người làm ca càng lớn tuổi càng khó thích nghi, và ánh sáng mạnh buổi sáng đồng bộ nhịp sinh học mạnh hơn melatonin.",
+      "answers": [
+        { "q": 14, "ans": "G", "quote": "In contrast the elderly who are more susceptible to perturbation in their sleep/wake schedule can develop advanced sleep phase syndrome with sleep onset occurring early in the evening.", "how": "\"Conversely\" ↔ \"In contrast\"; \"sleep early in the evening\" ↔ \"sleep onset occurring early in the evening\" nên chủ ngữ là người già: G elders. N shift workers là bẫy vì cùng đoạn, nhưng người làm ca chỉ khó điều chỉnh đồng hồ sinh học chứ không ngủ sớm." }
+      ]
+    }
+  ],
+  "tips": [
+    "Ba câu NOT GIVEN (2, 3, 8) đều do đề THÊM chi tiết mới: sleepwalking gây thương tích, \"the only result\", \"the first half of the night\". Gặp chi tiết lạ không có trong bài thì nghĩ ngay tới NOT GIVEN.",
+    "Hai câu FALSE (5, 7) đều là bẫy ngược hướng: bài nói có liên quan thì đề nói không liên quan; bài so sánh hơn thì đề nói bằng nhau.",
+    "Với bài tóm tắt chọn từ trong bảng, trước hết xác định TỪ LOẠI của chỗ trống (sau \"in\" là V-ing, trước \"environment/subject\" là tính từ) rồi mới xét nghĩa – nhờ vậy loại ngay các cặp bẫy daylight/shadow, sight/blind."
+  ]
+}
