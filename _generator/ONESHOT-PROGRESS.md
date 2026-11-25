@@ -14,5 +14,6 @@ Goal (2026-11-24): every Reading passage on the site gets a "Hướng dẫn One-
 - psychology-p3: units 01–19 DONE.
 - recent-actual-test-7: passages 01–18 DONE (passage 01 has no key for Q14–15; guide covers Q16–26 and notes the rest).
 - Topics that already had a strategy from the docx: untouched.
-- NOT yet covered: IELTS-Reading-Actual-Tests (Vol 1–3, D:\HarperSites\IELTS-Reading-Actual-Tests), IELTS-Forecast-Tests (10 Reading passages), single-passage practice repos.
+- Also DONE 2026-11-25 (own repos, own ONESHOT-PROGRESS.md): IELTS-Reading-Actual-Tests (vol-1/2/3 + practice-1, 69 passages, 806c16d), IELTS-Forecast-Tests (30 Reading passages, bc32bf0).
+- NOT yet covered: single-passage practice repos (TFNG, MCQs, Matching etc.).
 - Arguable keys flagged inside guides (key kept): psychology-p3 unit-05 Q34, unit-14 Q27.
