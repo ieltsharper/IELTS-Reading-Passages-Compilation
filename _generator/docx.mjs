@@ -46,15 +46,16 @@ const decode = (s) =>
 const on = (rpr, tag) => new RegExp(`<w:${tag}/>|<w:${tag} w:val="(1|true|on)"/>`).test(rpr);
 
 function matchEnd(s, start, tag) {
-  const re = new RegExp(`<${tag}[ >]|<${tag}/>|</${tag}>`, 'g');
+  // Opening tags may carry attributes and may be self-closing (<w:p w14:paraId="..."/>).
+  const re = new RegExp(`<${tag}(?:\\s[^>]*?)?(/?)>|</${tag}>`, 'g');
   re.lastIndex = start;
   let depth = 0;
   let m;
   while ((m = re.exec(s))) {
-    if (m[0] === `<${tag}/>`) {
-      if (depth === 0) return m.index + m[0].length;
-    } else if (m[0].startsWith('</')) {
+    if (m[0].startsWith('</')) {
       depth--;
+      if (depth === 0) return m.index + m[0].length;
+    } else if (m[1] === '/') {
       if (depth === 0) return m.index + m[0].length;
     } else depth++;
   }
@@ -109,7 +110,7 @@ function paragraph(p) {
 
 function blocksOf(s) {
   const out = [];
-  const re = /<w:p[ >]|<w:p\/>|<w:tbl>|<w:sdt>/g;
+  const re = /<w:p(?:\s[^>]*?)?\/>|<w:p[ >]|<w:tbl>|<w:sdt>/g;
   let m;
   while ((m = re.exec(s))) {
     if (m[0] === '<w:tbl>') {
@@ -121,7 +122,7 @@ function blocksOf(s) {
       const inner = (s.slice(m.index, end).match(/<w:sdtContent>([\s\S]*)<\/w:sdtContent>/) || [])[1] || '';
       out.push(...blocksOf(inner));
       re.lastIndex = end;
-    } else if (m[0] === '<w:p/>') {
+    } else if (/\/>$/.test(m[0])) {
       out.push({ kind: 'p', style: null, list: null, center: false, runs: [] });
     } else {
       const end = matchEnd(s, m.index, 'w:p');

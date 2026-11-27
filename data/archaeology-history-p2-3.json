@@ -1,0 +1,4545 @@
+{
+ "topic": "Archaeology & History – Passages 2–3",
+ "slug": "archaeology-history-p2-3",
+ "numberLabel": "Passage",
+ "groups": null,
+ "topicNotes": null,
+ "sources": {
+  "questions": "L9 Archaeology & History P2&3.pdf",
+  "key": "Lời giải One-Shot – Đề 1 Archaeology & History P2-3.docx"
+ },
+ "passages": [
+  {
+   "slug": "passage-1-the-peopling-of-patagonia",
+   "order": 1,
+   "number": 1,
+   "group": null,
+   "head": [],
+   "title": [
+    {
+     "t": "The peopling of Patagonia",
+     "b": true
+    }
+   ],
+   "standfirst": {
+    "type": "p",
+    "runs": [
+     {
+      "t": "Anthropologists continue to investigate human migration to Patagonia at the southern tip of South America",
+      "i": true
+     }
+    ]
+   },
+   "body": [
+    {
+     "letter": "A",
+     "runs": [
+      {
+       "t": "The human settlement of the southern extremity of the Americas has always fascinated pre-historians. Viewed from a global perspective, this was the last major continental land mass to be reached by human beings. The earliest occupation of Patagonia carries obvious implications for understanding when the North and South American continents were peopled, because it gives a baseline that all calculations regrading the rate of dispersion of humans throughout both continents must take into account."
+      }
+     ]
+    },
+    {
+     "letter": "B",
+     "runs": [
+      {
+       "t": "For many years the human settlement of North and South America has been conceived of as beginning in the far north and travelling progressively southwards to Patagonia. However, fundamental disagreements developed concerning the length of time involved. Some scholars accepted a human presence in the Americas as early as 20,000 years ago, while others proposed that it could date no earlier than 8,000 years ago, and the debate is still with us today."
+      }
+     ]
+    },
+    {
+     "letter": "C",
+     "runs": [
+      {
+       "t": "The idea of a relatively 'late' settlement of the Americas (around 8,000 years ago) implies that a rapid process of migration took place. Herein lies a second debate which revolves around the question of how migration is to be understood. The 'late' model demands a hypothetical migration conceived of as a single continually advancing wave of settlement. This has always been difficult to take seriously and many scholars now support the idea of an 'early' model that sees the migration as a less ordered migration, and this is surely the most realistic scenario as migrants slowly adapted to the diverse natural habitats they would have met while travelling through the continent."
+      }
+     ]
+    },
+    {
+     "letter": "D",
+     "runs": [
+      {
+       "t": "Those who argue for an earlier settlement, however, must contend with the lack of unequivocal evidence for archaeological sites older than around 14,000 years. Nevertheless, evidence for human occupation of the centre of South America is now securely dated to around 12,500 years ago at the Monte Verde site, which casts doubt on the 'late' model. The lack of archaeological evidence further south for this time period may be explained by the obstacle to humans on foot posed by the huge glacial streams that were present at that time."
+      }
+     ]
+    },
+    {
+     "letter": "E",
+     "runs": [
+      {
+       "t": "We can speculate then that the retreat of the Patagonian glaciers around 14,000 years ago allowed the initial human intrusion into a pristine environment, which was similar to that of early post-glacial Europe. Human settlement of the vast horizontal expanse of treeless high country must have been tenuous at best, and the evidence for this occupation remains relatively scant, most of it coming from rock shelters in Argentina and Chile. There is, however, reliable evidence from these sites to confirm the presence of humans by around 11,000 years ago in different habitats and some hints of an even older occupation. However, some other sites where evidence for even earlier human occupation was initially posited, have recently come under fresh scrutiny. This is because anthropologists have come to recognise that bones or other evidence may be deposited in caves by natural agency, in other words by other forces such as floods or predators, and not necessarily by humans."
+      }
+     ]
+    },
+    {
+     "letter": "F",
+     "runs": [
+      {
+       "t": "We shall turn now to a more detailed discussion of the archaeological evidence found in various parts of Patagonia. At the site located beside Chinchihuapi Creek, excavations have produced convincing evidence of human occupation, including hut foundations and wooden artefacts. They were buried in layers of peat, which has the property of preserving wood remarkably well, and as a result "
+      },
+      {
+       "t": "radiocarbon dating*",
+       "b": true
+      },
+      {
+       "t": " tests have shown these artefacts to date from around 12,500 years ago. One of the most famous Patagonian sites is a cave known as Los Toldos. However, the evidence from this site has recently been called into question, because dispersed flecks of carbon used in the test process were taken unsystematically from many different places in the site. As a result, the association of this material with the artefacts is not at all clear. About 150 kilometres south is the site called El Ceibo, where a similar collection of artefacts to that found at Los Toldos has been discovered from the lowest levels of the dig, but as yet no radiocarbon dates are available and this sort of analysis of the existing evidence is required before the site's value can be confirmed."
+      }
+     ]
+    },
+    {
+     "letter": "G",
+     "runs": [
+      {
+       "t": "The Arroyo Feo site is located very close to the high plateau. The artefacts from the earliest occupations were found at the same depth and have the same origins as those from Los Toldos, and have been securely dated to around 9,000 years ago. Another site that is mentioned in the debate is at Las Buitreras, where a number of stone flakes associated with bone remains of various animals have been discovered. However, anthropologists now believe that presumed cut marks on the bones are somewhat dubious, and despite detailed testing there is no way of securely relating any of these remains with human occupation. Finally some 50 kilometres to the south is the site at Cueva Fell, which was the first Patagonian site to be systematically studied by modern archaeological methods. However, it is now recognised that the utility of this site must be restricted to its direct vicinity, given changes to the nearby area caused by flooding, and findings cannot be freely extrapolated further afield."
+      }
+     ]
+    },
+    {
+     "letter": "H",
+     "runs": [
+      {
+       "t": "In conclusion, based on the evidence from a number of reliable sites, it seems probable that human populations reached Patagonia around 11,000 years ago."
+      }
+     ]
+    }
+   ],
+   "footnotes": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "*radiocarbon dating",
+       "b": true,
+       "i": true
+      },
+      {
+       "t": ": finding out the age of an organic object by examining carbon it contains"
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "type": "mcq",
+     "title": "Questions 27–31",
+     "numbers": [
+      27,
+      28,
+      29,
+      30,
+      31
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct answer."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 27,
+       "stem": [
+        {
+         "t": "In the first paragraph, what is the writer's main point about migration to Patagonia?",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "It started earlier than previously thought."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "Historians have overlooked its importance."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "It impacts on research into the wider region."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "Researchers have calculated its effects on the environment."
+          }
+         ],
+         "added": true
+        }
+       ]
+      },
+      {
+       "n": 28,
+       "stem": [
+        {
+         "t": "In the second paragraph, what is the writer's purpose?",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "to challenge previous research"
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "to propose new areas to investigate"
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "to summarise a scholarly debate"
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "to suggest reasons for human migration"
+          }
+         ],
+         "added": true
+        }
+       ]
+      },
+      {
+       "n": 29,
+       "stem": [
+        {
+         "t": "The writer refers to the 'late' model in order to",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "compare it with another theory of migration."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "evaluate the success of American migration."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "criticise the speed of research into migration."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "compare migration in different parts of the world."
+          }
+         ],
+         "added": true
+        }
+       ]
+      },
+      {
+       "n": 30,
+       "stem": [
+        {
+         "t": "What is the writer's main point about the 'early' model?",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "Scholars support the idea of fast migrations."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "It is too random to be convincing theory."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "South America was more habitable at an earlier time."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "It is more consistent with the physical conditions of the land."
+          }
+         ],
+         "added": true
+        }
+       ]
+      },
+      {
+       "n": 31,
+       "stem": [
+        {
+         "t": "What does the writer suggest about the Monte Verde site?",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "It is much younger than researchers once estimated."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "It provides supporting evidence for relatively early settlement"
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "Archaeologists believe the site is of questionable value."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "Streams exposed the site, making new research possible."
+          }
+         ],
+         "added": true
+        }
+       ]
+      }
+     ],
+     "lettersAdded": true
+    },
+    {
+     "type": "ynng",
+     "title": "Questions 32–35",
+     "numbers": [
+      32,
+      33,
+      34,
+      35
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": " if the statement agrees with the claims of the writer, choose "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": " if the statement contradicts the claims of the writer, or "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": "  if it is impossible to say what the writer thinks about this."
+        }
+       ]
+      }
+     ],
+     "choices": [
+      "YES",
+      "NO",
+      "NOT GIVEN"
+     ],
+     "questions": [
+      {
+       "n": 32,
+       "stem": [
+        {
+         "t": "The conditions encountered by the first migrants to Patagonia were unique.",
+         "b": true
+        }
+       ]
+      },
+      {
+       "n": 33,
+       "stem": [
+        {
+         "t": "In the high country the first migrants hunted wild animals for food.",
+         "b": true
+        }
+       ]
+      },
+      {
+       "n": 34,
+       "stem": [
+        {
+         "t": "Archaeologists have failed to draw conclusions from the evidence found at rock shelters in Argentina and Chile.",
+         "b": true
+        }
+       ]
+      },
+      {
+       "n": 35,
+       "stem": [
+        {
+         "t": "Archaeological evidence can be moved from place to place in a variety of ways.",
+         "b": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "bank",
+     "title": "Questions 36–40",
+     "numbers": [
+      36,
+      37,
+      38,
+      39,
+      40
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete the summary using the list of words, "
+        },
+        {
+         "t": "A-J",
+         "b": true
+        },
+        {
+         "t": ", below."
+        }
+       ]
+      }
+     ],
+     "content": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "The archaeological evidence from Patagonia",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Building remains and other evidence have been found in "
+        },
+        {
+         "gap": 36
+        },
+        {
+         "t": " at the Chinchihuapi Creek site, and because of this it has been possible to date them to around 12,500 years ago. However, the "
+        },
+        {
+         "gap": 37
+        },
+        {
+         "t": " of the sample taken from Los Toldos means that this site is of doubtful value. EI Ceibo is a more promising dig, where the examination of artefacts would be beneficial in order to confirm the usefulness of discoveries there. The remains found at the Arroyo Feo site show "
+        },
+        {
+         "gap": 38
+        },
+        {
+         "t": " and date from around 9,000 years ago. Unfortunately, no "
+        },
+        {
+         "gap": 39
+        },
+        {
+         "t": " can be made between the samples taken from Las Buitreras and human presence. The findings of the work carried out at Cueva Fell cannot provide useful information beyond the "
+        },
+        {
+         "gap": 40
+        },
+        {
+         "t": ".",
+         "b": true
+        },
+        {
+         "t": " In conclusion, though the evidence is mixed, it is believed that human population of Patagonia began about 11,000 years ago."
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": null,
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "fixed date"
+         }
+        ]
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "random collection"
+         }
+        ]
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "similar properties"
+         }
+        ]
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "good condition"
+         }
+        ]
+       },
+       {
+        "key": "E",
+        "runs": [
+         {
+          "t": "scientific evaluation"
+         }
+        ]
+       },
+       {
+        "key": "F",
+        "runs": [
+         {
+          "t": "huge quantities"
+         }
+        ]
+       },
+       {
+        "key": "G",
+        "runs": [
+         {
+          "t": "new samples"
+         }
+        ]
+       },
+       {
+        "key": "H",
+        "runs": [
+         {
+          "t": "reliable connection"
+         }
+        ]
+       },
+       {
+        "key": "I",
+        "runs": [
+         {
+          "t": "skilled preservation"
+         }
+        ]
+       },
+       {
+        "key": "J",
+        "runs": [
+         {
+          "t": "immediate surroundings"
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": false
+    }
+   ],
+   "key": {
+    "27": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn A → Câu 27.",
+         "b": true
+        },
+        {
+         "t": " Đoạn A nói việc định cư sớm nhất ở Patagonia 'gives a baseline that all calculations regarding the rate of dispersion of humans throughout both continents must take into account'. Ý chính: Patagonia ảnh hưởng đến cách tính toán cho cả châu Mỹ, tức cả khu vực rộng hơn. Đáp án "
+        },
+        {
+         "t": "C – It impacts on research into the wider region",
+         "b": true
+        },
+        {
+         "t": ". A sai vì đoạn A chưa nói gì về 'sớm hơn dự đoán'; B và D không có trong đoạn."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'it gives a baseline that all calculations regarding the rate of dispersion of humans throughout both continents must take into account' (A)"
+      }
+     ]
+    },
+    "28": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn B → Câu 28.",
+         "b": true
+        },
+        {
+         "t": " Đoạn B trình bày hai phe: một bên chấp nhận con người có mặt từ 20,000 năm trước, bên kia cho rằng không sớm hơn 8,000 năm, 'and the debate is still with us today'. Tác giả chỉ tóm tắt tranh luận, không phản bác, không đề xuất. Đáp án "
+        },
+        {
+         "t": "C – to summarise a scholarly debate",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'fundamental disagreements developed... and the debate is still with us today' (B)"
+      }
+     ]
+    },
+    "29": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn C → Câu 29 và 30.",
+         "b": true
+        },
+        {
+         "t": " Tác giả đặt mô hình 'late' (một làn sóng di cư liên tục, nhanh) cạnh mô hình 'early' (di cư ít trật tự hơn) để so sánh. Câu 29 đáp án "
+        },
+        {
+         "t": "A – compare it with another theory of migration",
+         "b": true
+        },
+        {
+         "t": ". Với mô hình 'early', tác giả nói đây là 'the most realistic scenario as migrants slowly adapted to the diverse natural habitats'. 'Diverse natural habitats' = 'physical conditions of the land'. Câu 30 đáp án "
+        },
+        {
+         "t": "D",
+         "b": true
+        },
+        {
+         "t": ". B sai vì tác giả nói mô hình late mới khó tin, còn early thì hợp lý."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'many scholars now support the idea of an early model' (C)"
+      }
+     ]
+    },
+    "30": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn C → Câu 29 và 30.",
+         "b": true
+        },
+        {
+         "t": " Tác giả đặt mô hình 'late' (một làn sóng di cư liên tục, nhanh) cạnh mô hình 'early' (di cư ít trật tự hơn) để so sánh. Câu 29 đáp án "
+        },
+        {
+         "t": "A – compare it with another theory of migration",
+         "b": true
+        },
+        {
+         "t": ". Với mô hình 'early', tác giả nói đây là 'the most realistic scenario as migrants slowly adapted to the diverse natural habitats'. 'Diverse natural habitats' = 'physical conditions of the land'. Câu 30 đáp án "
+        },
+        {
+         "t": "D",
+         "b": true
+        },
+        {
+         "t": ". B sai vì tác giả nói mô hình late mới khó tin, còn early thì hợp lý."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the most realistic scenario as migrants slowly adapted to the diverse natural habitats' (C)"
+      }
+     ]
+    },
+    "31": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn D → Câu 31.",
+         "b": true
+        },
+        {
+         "t": " Bằng chứng ở Monte Verde (12,500 năm) 'casts doubt on the late model', tức ủng hộ mô hình định cư sớm. Đáp án "
+        },
+        {
+         "t": "B – It provides supporting evidence for relatively early settlement",
+         "b": true
+        },
+        {
+         "t": ". D là bẫy: 'glacial streams' trong bài là lý do thiếu bằng chứng ở phía nam, không phải làm lộ di chỉ."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'evidence... at the Monte Verde site, which casts doubt on the late model' (D)"
+      }
+     ]
+    },
+    "32": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 32: môi trường ban đầu 'was similar to that of early post-glacial Europe'. Đã 'similar' thì không 'unique'. Đáp án "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'a pristine environment, which was similar to that of early post-glacial Europe' (E)"
+      }
+     ]
+    },
+    "33": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 33: đoạn E có nhắc 'high country' nhưng chỉ nói việc định cư 'tenuous', không nói săn bắt động vật hoang dã. Đáp án "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Human settlement of the vast horizontal expanse of treeless high country must have been tenuous at best' (E)"
+      }
+     ]
+    },
+    "34": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 34: bài nói 'there is, however, reliable evidence from these sites to confirm the presence of humans by around 11,000 years ago'. Đã có kết luận đáng tin, nên 'failed to draw conclusions' là ngược. Đáp án "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'There is, however, reliable evidence from these sites to confirm the presence of humans by around 11,000 years ago' (E)"
+      }
+     ]
+    },
+    "35": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 35: 'bones or other evidence may be deposited in caves by natural agency... floods or predators, and not necessarily by humans'. Nhiều cách khác nhau = 'a variety of ways'. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'bones or other evidence may be deposited in caves by natural agency... such as floods or predators' (E)"
+      }
+     ]
+    },
+    "36": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 36 (Chinchihuapi Creek): hiện vật 'buried in layers of peat, which has the property of preserving wood remarkably well'. Hiện vật được bảo quản tốt nên mới định tuổi được. Đáp án "
+        },
+        {
+         "t": "D – good condition",
+         "b": true
+        },
+        {
+         "t": ". Bẫy là I 'skilled preservation': bảo quản là do lớp than bùn tự nhiên, không phải do con người khéo léo."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'buried in layers of peat, which has the property of preserving wood remarkably well' (F)"
+      }
+     ]
+    },
+    "37": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 37 (Los Toldos): mẫu carbon 'taken unsystematically from many different places in the site'. Đáp án "
+        },
+        {
+         "t": "B – random collection",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'flecks of carbon... were taken unsystematically from many different places in the site' (F)"
+      }
+     ]
+    },
+    "38": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 38 (Arroyo Feo): hiện vật 'found at the same depth and have the same origins as those from Los Toldos'. Đáp án "
+        },
+        {
+         "t": "C – similar properties",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'found at the same depth and have the same origins as those from Los Toldos' (G)"
+      }
+     ]
+    },
+    "39": {
+     "answer": "H",
+     "accept": [
+      "H"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 39 (Las Buitreras): 'there is no way of securely relating any of these remains with human occupation'. 'Securely relating' = 'reliable connection'. Đáp án "
+        },
+        {
+         "t": "H",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'there is no way of securely relating any of these remains with human occupation' (G)"
+      }
+     ]
+    },
+    "40": {
+     "answer": "J",
+     "accept": [
+      "J"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 40 (Cueva Fell): 'the utility of this site must be restricted to its direct vicinity'. 'Direct vicinity' = 'immediate surroundings'. Đáp án "
+        },
+        {
+         "t": "J",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the utility of this site must be restricted to its direct vicinity' (G)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Tiêu đề và sapo cho biết bài nói về quá trình con người đến định cư ở Patagonia (cực nam Nam Mỹ) và các tranh luận khảo cổ xoay quanh mốc thời gian. Vì vậy cần để ý: các con số năm (20,000 / 8,000 / 14,000 / 12,500 / 11,000 / 9,000), mô hình 'late' và 'early', và tên các di chỉ (Monte Verde, Chinchihuapi Creek, Los Toldos, El Ceibo, Arroyo Feo, Las Buitreras, Cueva Fell)."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "27–31"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Multiple Choice"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (đề nêu rõ 'first paragraph', 'second paragraph', 'late model', 'early model', 'Monte Verde')"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu hỏi chạy theo thứ tự đoạn A → D"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "32–35"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Yes/No/Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (first migrants, high country, rock shelters, moved from place to place)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Rơi vào đoạn E"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "36–40"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Summary Completion (A–J)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (tên 5 di chỉ là từ khóa scan)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Rơi vào đoạn F–G, theo thứ tự"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Toàn bộ 14 câu đều locate được và gần như đi theo thứ tự đoạn, nên One-Shot rất mượt: đọc A giải 27, đọc B giải 28, cứ thế xuống H."
+      }
+     ]
+    }
+   ],
+   "reading": []
+  },
+  {
+   "slug": "passage-2-drawing-lessons-from-history",
+   "order": 2,
+   "number": 2,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "READING PASSSAGE 2",
+       "b": true
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "Drawing Lessons from History",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "runs": [
+      {
+       "t": "Numerous ancient civilisations collapsed or disappeared, leaving behind grand ruins reminiscent of what poet Shelley described in his sonnet Ozymandias. The term 'collapse' refers to a significant reduction in population and/or political, economic, and social complexity of a society across a wide area for an extended period."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The awe-inspiring ruins left behind by these past societies captivate us all. As children, we marvel at them when we first discover them through pictures-vast stone structures, intricate carvings, or towering temples that defy imagination. As we grow older, many of us plan vacations to witness these remarkable sites firsthand, standing in silent reverence before the remnants of a world that once thrived. We are drawn to their magnificent and haunting beauty, as well as the enigmas they present. The grandeur of these ruins attests to the previous wealth and power of their builders, yet their sudden disappearance challenges our understanding of human resilience. These builders vanished, abandoning the remarkable structures they had painstakingly constructed. How did a once-mighty society end up collapsing, leaving behind only echoes of its former glory?"
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "For a long time, it has been suspected that the mysterious disappearance of many such societies was, to some extent, triggered by ecological issues unintentional destruction of the environmental resources on which their societies relied. This suspicion of unintended ecological suicide, or ecocide, has been substantiated by discoveries made in recent decades by archaeologists, climatologists, historians, palaeontologists, and palynologists (pollen scientists). The processes through which past societies have undermined themselves by damaging their environments can be categorised into eight areas, which vary in significance from one case to another: deforestation and habitat loss, soil degradation, water management challenges, overhunting, overfishing, the impacts of invasive species on native ones, human population growth, and increased human activity."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Historical collapses generally followed similar patterns resembling variations on a theme. These patterns often include resource depletion, environmental degradation, internal strife, or external pressures, yet the specific combination and intensity of these factors varied across civilisations. Writers are often tempted to draw analogies between the trajectory of human society and that of an individual's life, speaking of a society's birth, growth, peak, old age, and eventual demise. However, this metaphor proves inaccurate for many past societies: they experienced rapid declines after reaching their peak in terms of population and power, and these rapid declines must have come as a surprise and shock to their inhabitants. It is evident that not all past societies followed this trajectory uniformly to its conclusion: different societies collapsed to varying degrees and in somewhat distinct ways while many societies did not collapse at all. The diversity in collapse mechanisms suggests that while certain systemic vulnerabilities may be universal, their expression is deeply contingent on local conditions, cultural responses, and the interplay of multiple stressors over time."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Currently, many individuals believe that environmental problems eclipse other global threats. These environmental problems encompass the same eight factors that contributed to past societies' downfalls, plus four new ones: human-induced climate change, the accumulation of toxic chemicals, energy shortages, and the complete utilisation of the Earth's photosynthetic capacity. However, the seriousness of these modern environmental dilemmas is vigorously debated among the scientific community. Are the perceived risks overstated or undervalued? Will contemporary technology resolve our issues, or is it producing new challenges faster than it can remedy old ones? When one resource (such as wood, oil, or ocean fish) is depleted, can we trust that new alternatives (like plastics, wind and solar energy, or farmed fish) will emerge? Isn't the rate of human population growth slowing down, suggesting we might soon reach a manageable global population?"
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Questions like these highlight why the well-known collapses of past civilisations carry more significance than merely being romantic mysteries. There may be practical lessons to be learnt from these historical failures. However, there are also differences between the modern world and its problems, and those ancient societies and their problems. It would be naive to assume that studying the past will yield straightforward answers directly applicable to today's world. We have certain advantages over past societies that reduce our risks, including our powerful technology (i.e. its beneficial effects), globalisation, modern medicine, and enhanced awareness of both past and distant modern societies. At the same time, there are also factors that heighten our risks in comparison to earlier civilisations: again, our potent technology (i.e. its unintended destructive effects), globalisation (where a problem in one area can affect the entire world), the reliance of millions on modern health care for survival, and our vastly larger human population. Perhaps we can still learn from the past, but only if we carefully contemplate its lessons."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "mcq",
+     "title": "Questions 14–16",
+     "numbers": [
+      14,
+      15,
+      16
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct answer."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 14,
+       "stem": [
+        {
+         "t": "In describing the appeal of monumental ruins, the writer highlights",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "the curiosity of historians about the original purpose of these ruins."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "the vast geographical areas covered by these structures."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "their profound impact on the field of archaeological research."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "the mixture of beauty and mystery these sites represent."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 15,
+       "stem": [
+        {
+         "t": "Recent findings regarding lost civilisations have",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "upended established theories."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "triggered a heated debate among scientists."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "emerged from a range of disciplines."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "confirmed a major cause of environmental destruction."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 16,
+       "stem": [
+        {
+         "t": "In discussing how previous societies fell, the writer mentions that",
+         "b": true
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "the pace of collapse showed some resemblance across societies."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "the decline of societies was usually a slow and predictable process."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "all societies peaked in terms of population and power before collapsing."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "ordinary people could occasionally affect the course of events."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "ynng",
+     "title": "Questions 17–21",
+     "numbers": [
+      17,
+      18,
+      19,
+      20,
+      21
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose"
+        },
+        {
+         "t": " YES",
+         "b": true
+        },
+        {
+         "t": " if the statement agrees with the claims of the writer, choose"
+        },
+        {
+         "t": " NO",
+         "b": true
+        },
+        {
+         "t": " if the statement contradicts the claims of the writer, or"
+        },
+        {
+         "t": " NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": " if it is impossible to say what the writer thinks about this."
+        }
+       ]
+      }
+     ],
+     "choices": [
+      "YES",
+      "NO",
+      "NOT GIVEN"
+     ],
+     "questions": [
+      {
+       "n": 17,
+       "stem": [
+        {
+         "t": "The impressive relics of ancient societies were influenced by Shelley's sonnet Ozymandias."
+        }
+       ]
+      },
+      {
+       "n": 18,
+       "stem": [
+        {
+         "t": "There is a widespread belief that environmental issues pose the principal hazard to the contemporary world."
+        }
+       ]
+      },
+      {
+       "n": 19,
+       "stem": [
+        {
+         "t": "Scientists have reached a consensus about how severe the present ecological concerns are."
+        }
+       ]
+      },
+      {
+       "n": 20,
+       "stem": [
+        {
+         "t": "The presence of poisonous substances in high concentrations is a relatively modern issue."
+        }
+       ]
+      },
+      {
+       "n": 21,
+       "stem": [
+        {
+         "t": "We should reflect cautiously when comparing the past with the present."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "match",
+     "title": "Questions 22-26",
+     "numbers": [
+      22,
+      23,
+      24,
+      25,
+      26
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete each sentence with the correct ending,"
+        },
+        {
+         "t": " A-F,",
+         "b": true
+        },
+        {
+         "t": " below."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 22,
+       "stem": [
+        {
+         "t": "Evidence of remarkable achievements of certain past civilisations"
+        }
+       ]
+      },
+      {
+       "n": 23,
+       "stem": [
+        {
+         "t": "Analogies between the development of an individual and that of a society"
+        }
+       ]
+      },
+      {
+       "n": 24,
+       "stem": [
+        {
+         "t": "The environmental challenges that societies encounter"
+        }
+       ]
+      },
+      {
+       "n": 25,
+       "stem": [
+        {
+         "t": "In modern society, powerful technology"
+        }
+       ]
+      },
+      {
+       "n": 26,
+       "stem": [
+        {
+         "t": "Reflections on ancient events and tendencies"
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": null,
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "are not applicable to all societies"
+         }
+        ]
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "provides a hopeful perspective"
+         }
+        ]
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "is embodied in physical structures"
+         }
+        ]
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "is potentially both positive and negative"
+         }
+        ]
+       },
+       {
+        "key": "E",
+        "runs": [
+         {
+          "t": "will not address current issues directly"
+         }
+        ]
+       },
+       {
+        "key": "F",
+        "runs": [
+         {
+          "t": "have increased compared to the past"
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": false
+    }
+   ],
+   "key": {
+    "14": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 14: 'We are drawn to their magnificent and haunting beauty, as well as the enigmas they present'. 'Enigmas' = 'mystery'. Đáp án "
+        },
+        {
+         "t": "D – the mixture of beauty and mystery",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'We are drawn to their magnificent and haunting beauty, as well as the enigmas they present' (đoạn 2)"
+      }
+     ]
+    },
+    "15": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 3 (ecocide) → Câu 15.",
+         "b": true
+        },
+        {
+         "t": " Nghi ngờ về ecocide 'has been substantiated by discoveries made in recent decades by archaeologists, climatologists, historians, palaeontologists, and palynologists'. Năm ngành khác nhau = 'a range of disciplines'. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": ". D là bẫy: phát hiện xác nhận giả thuyết ecocide, không phải 'một nguyên nhân lớn gây hủy hoại môi trường'."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'substantiated by discoveries made in recent decades by archaeologists, climatologists, historians...' (đoạn 3)"
+      }
+     ]
+    },
+    "16": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 16: 'Historical collapses generally followed similar patterns' và nhiều xã hội 'experienced rapid declines after reaching their peak'. Tốc độ sụp đổ (nhanh) có nét giống nhau. Đáp án "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": ". B sai (rapid, surprise). C sai vì 'not all past societies followed this trajectory'. D không được nhắc."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Historical collapses generally followed similar patterns... they experienced rapid declines after reaching their peak' (đoạn 4)"
+      }
+     ]
+    },
+    "17": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 1 (Ozymandias, định nghĩa 'collapse') → Câu 17.",
+         "b": true
+        },
+        {
+         "t": " Bài nói các nền văn minh để lại 'grand ruins reminiscent of what poet Shelley described in his sonnet Ozymandias'. Phế tích có từ hàng nghìn năm trước, bài thơ thế kỷ 19 mô tả lại kiểu phế tích đó. Câu hỏi nói phế tích 'were influenced by' bài thơ, tức đảo ngược quan hệ thời gian. Đáp án "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'grand ruins reminiscent of what poet Shelley described in his sonnet Ozymandias' (đoạn 1)"
+      }
+     ]
+    },
+    "18": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 18: 'many individuals believe that environmental problems eclipse other global threats'. 'Eclipse other threats' = 'principal hazard'. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'many individuals believe that environmental problems eclipse other global threats' (đoạn 5)"
+      }
+     ]
+    },
+    "19": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 19: 'the seriousness of these modern environmental dilemmas is vigorously debated among the scientific community'. Tranh cãi gay gắt, trái với 'consensus'. Đáp án "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the seriousness of these modern environmental dilemmas is vigorously debated among the scientific community' (đoạn 5)"
+      }
+     ]
+    },
+    "20": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 20: tám yếu tố cũ 'plus four new ones: ... the accumulation of toxic chemicals'. Chất độc tích tụ là vấn đề mới. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'plus four new ones: human-induced climate change, the accumulation of toxic chemicals...' (đoạn 5)"
+      }
+     ]
+    },
+    "21": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 21: 'Perhaps we can still learn from the past, but only if we carefully contemplate its lessons'. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Perhaps we can still learn from the past, but only if we carefully contemplate its lessons' (đoạn 6)"
+      }
+     ]
+    },
+    "22": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 22 (Evidence of remarkable achievements): 'The grandeur of these ruins attests to the previous wealth and power of their builders'. Thành tựu được thể hiện qua công trình vật chất. Đáp án "
+        },
+        {
+         "t": "C – is embodied in physical structures",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'The grandeur of these ruins attests to the previous wealth and power of their builders' (đoạn 2)"
+      }
+     ]
+    },
+    "23": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 23 (Analogies between an individual and a society): 'this metaphor proves inaccurate for many past societies'. Đáp án "
+        },
+        {
+         "t": "A – are not applicable to all societies",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'this metaphor proves inaccurate for many past societies' (đoạn 4)"
+      }
+     ]
+    },
+    "24": {
+     "answer": "F",
+     "accept": [
+      "F"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 24 (The environmental challenges that societies encounter): vẫn tám yếu tố cũ cộng thêm bốn yếu tố mới, tức đã tăng lên. Đáp án "
+        },
+        {
+         "t": "F – have increased compared to the past",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the same eight factors that contributed to past societies' downfalls, plus four new ones' (đoạn 5)"
+      }
+     ]
+    },
+    "25": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 25 (powerful technology): công nghệ xuất hiện ở cả danh sách ưu thế ('its beneficial effects') lẫn danh sách rủi ro ('its unintended destructive effects'). Đáp án "
+        },
+        {
+         "t": "D – is potentially both positive and negative",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'our powerful technology (i.e. its beneficial effects)... again, our potent technology (i.e. its unintended destructive effects)' (đoạn 6)"
+      }
+     ]
+    },
+    "26": {
+     "answer": "E",
+     "accept": [
+      "E"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 26 (Reflections on ancient events): 'It would be naive to assume that studying the past will yield straightforward answers directly applicable to today's world'. Đáp án "
+        },
+        {
+         "t": "E – will not address current issues directly",
+         "b": true
+        },
+        {
+         "t": ". B 'provides a hopeful perspective' là đuôi thừa."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'naive to assume that studying the past will yield straightforward answers directly applicable to today's world' (đoạn 6)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "'Drawing Lessons from History' cho thấy bài bàn về sự sụp đổ của các nền văn minh cổ và bài học cho thế giới hiện đại. Từ khóa nền: collapse, ruins, ecocide, environmental problems, technology, lessons."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "14–16"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Multiple Choice"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (appeal of ruins, recent findings, how societies fell)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Theo thứ tự đoạn 2 → 4"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "17–21"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Yes/No/Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (Shelley, widespread belief, consensus, poisonous substances, reflect cautiously)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Rải từ đoạn 1 → 6"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "22–26"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Sentence Endings (A–F)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Một phần: phần đầu câu có keyword để scan, nhưng phải hiểu ý mới chọn được đuôi"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Rải từ đoạn 2 → 6"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài không có ký hiệu đoạn, ta tự đánh số đoạn 1–6. Câu 17–21 và 22–26 xen kẽ với câu MCQ, nên One-Shot giúp tránh phải đọc lại."
+      }
+     ]
+    }
+   ],
+   "reading": []
+  },
+  {
+   "slug": "passage-3-the-animal-connection",
+   "order": 3,
+   "number": 3,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "READING PASSAGE 3",
+       "b": true
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "The Animal Connection",
+     "b": true
+    }
+   ],
+   "standfirst": {
+    "type": "p",
+    "runs": [
+     {
+      "t": "Professor of anthropology Pat Shipman looks at the ways in which our relationships with animals have shaped our own human evolution.",
+      "i": true
+     }
+    ]
+   },
+   "body": [
+    {
+     "runs": [
+      {
+       "t": "Travel anywhere and you see something so common it may not even catch your attention. Wherever there are people, animals are being walked, herded and fed. Many, such as dogs, cats and sheep, are domesticated, but you will also find people living alongside wild creatures like monkeys and wolves. Close contact with animals is not confined to one particular culture, region or ethnic group but is a universal human trait."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "On the face of it this makes little sense. No other mammal adopts individuals from another species, with good reason. Since the ultimate prize in evolution is perpetuating your genes, providing food for another species is counterproductive to success. Even if pets offer friendship, that cannot explain why our bond with other species arose in the first place. Who would bring a ferocious wolf into their home in the hope that thousands of years later it would become a loving pet?"
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "As an anthropologist I have tried to understand this puzzle by looking to the past for the origins of our link with animals. What I found was a long and unbroken evolutionary trail of evidence I call the ‘animal connection’. This trail links to three important developments in human evolution: tool making, language and domestication. If I am correct, and I believe that further research will conclusively show that I am, the animal connection is a hugely significant force instrumental in our global success."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The trail begins at least 2.6 million years ago. That is when the first tools appear in the archaeological record. This development required the intellectual breakthrough of realizing that the properties of an object can be altered. Man learnt how to turn stone into small, sharp items that could cut up animal carcasses, providing them with an evolutionary shortcut to becoming predators."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "There were many consequences of the new hunting lifestyle. On the plus side, eating more meat and fat was a requirement for the increase in relative brain size. And since meat tends to come in bigger packages than leaves and roots, meat eaters could spend less time finding food and more on activities like learning and social interaction. On the minus side, preying on animals put our ancestors into direct competition with the other predators that shared their ecosystem, animals such as lions and hyenas. To get the upper hand, they needed more than just tools, and that is where the animal connection comes in. What made it possible for our ancestors to compete successfully with true carnivores was the ability to pay very close attention to the habits of both potential prey and competitors. Knowledge was power, so we acquired a deep understanding of the minds of other animals. Another significant consequence of becoming more predatory was the need to live at lower densities, as successful predators soon exhaust food supplies. The record of the geographic distribution of our ancestors provides further support for my idea that the animal connection has shaped our evolution. Early man lived in Africa and nowhere else, but then underwent a dramatic expansion in territory, forced by the search for new hunting grounds."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Throughout the period of these enormous changes in the lifestyle of our ancestors, gathering, sharing and recording knowledge became increasingly advantageous, and examples of prehistoric art that appear in Europe, Asia, Africa and Australia allow us to eavesdrop on their conversations. Through the art, we realize the main topic was animals: their colours, shapes, postures and habits. This focus is even more striking considering the scenes of human life depicted. Pictures of people, social interaction and ceremonies are rare."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "This leads me on to the development of language. Nobody doubts this proved a major adaptive advantage to our ancestors in developing complex behaviours. How it arose, however, remains a mystery. I believe I am the first to propose a continuity between the strong human-animal link that appeared 2.6 million years ago and the origin of language. The complexity and importance of animal-related information, indicated in the predominance of animal images, spurred early humans to move beyond what other species could achieve. Vervet monkeys, for example, have different cries for eagles and snakes, but they cannot discuss what threats might appear tomorrow. The property of full language is that it is comprised of vocabulary and grammatical rules that can be combined in an infinite number of ways to convey fine shades of meaning."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "As our ancestors became more involved with animals, the third product of the animal connection appeared: domestication, which has long been linked with the keeping of animals like sheep. Domestic animals are usually considered as ‘walking larders’, or easy food sources, reflecting the idea that the basis of this change was a drive for greater food security. Looking at the origins of domestication for clues to its underlying reasons, I found fundamental flaws in this idea. Instead, my analysis suggests domestication emerged as a natural progression of our close association with, and understanding of, other species. If domestication was about knowing where your next meal was coming from, the first domesticate ought to have been a food source, yet analysis of fossils shows that the domestication of dogs pre-dated that of any other species, even plants, from wolves. Furthermore, if the objective was to have meat to eat, you wouldn’t select an animal that eats two kilograms of meat a day. It was familiarity with this species that led to eventual domestication."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "ynng",
+     "title": "Questions 27-31",
+     "numbers": [
+      27,
+      28,
+      29,
+      30,
+      31
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Do the following statements agree with the claims of the writer in Reading Passage 3? In boxes 27-31 on your answer sheet, write",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "YES",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t"
+        },
+        {
+         "t": "if the statement agrees with the claims of the writer",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NO",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t"
+        },
+        {
+         "t": "if the statement contradicts the claims of the writer",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NOT GIVEN",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t"
+        },
+        {
+         "t": "if it is impossible to say what the writer thinks about this",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "choices": [
+      "YES",
+      "NO",
+      "NOT GIVEN"
+     ],
+     "questions": [
+      {
+       "n": 27,
+       "stem": [
+        {
+         "t": "Travellers are more likely to notice wild animals than domesticated ones."
+        }
+       ]
+      },
+      {
+       "n": 28,
+       "stem": [
+        {
+         "t": "All cultures demonstrate a need to have close contact with animals."
+        }
+       ]
+      },
+      {
+       "n": 29,
+       "stem": [
+        {
+         "t": "Animals benefit from allowing other animal species to share food resources."
+        }
+       ]
+      },
+      {
+       "n": 30,
+       "stem": [
+        {
+         "t": "It is unlikely that people initially domesticated wolves for future companionship."
+        }
+       ]
+      },
+      {
+       "n": 31,
+       "stem": [
+        {
+         "t": "There are periods of human evolution for which we have little information about man’s relationship with animals."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "bank",
+     "title": "Questions 32-36",
+     "numbers": [
+      32,
+      33,
+      34,
+      35,
+      36
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete the summary using the list of words, A-J, below.",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write the correct letter, ",
+         "i": true
+        },
+        {
+         "t": "A-J",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ", in boxes 32–36 on your answer sheet.",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "content": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Hunting and the animal connection",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Around 2.6 million years ago, humans became predators after they realized the possibility of object "
+        },
+        {
+         "gap": 32
+        },
+        {
+         "t": " Once humans were hunters, they benefited from better "
+        },
+        {
+         "gap": 33
+        },
+        {
+         "t": " and extra time which could be spent on non-physical activities."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "However, the more humans came to depend on meat as a food source, the more "
+        },
+        {
+         "gap": 34
+        },
+        {
+         "t": " there was between them and other predators. Humans needed to find an advantage over animals such as lions and hyenas. It wasn’t a spear or knife that gave them this advantage, but the "
+        },
+        {
+         "gap": 35
+        },
+        {
+         "t": " skills that humans began to develop. Then, because humans were such successful predators, they required more "
+        },
+        {
+         "gap": 36
+        },
+        {
+         "t": " and this led to groups of people moving away from Africa."
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": [
+       [
+        {
+         "t": "List of Words",
+         "b": true
+        }
+       ]
+      ],
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "nutrition"
+         }
+        ]
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "competition"
+         }
+        ]
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "leadership"
+         }
+        ]
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "adaptation"
+         }
+        ]
+       },
+       {
+        "key": "E",
+        "runs": [
+         {
+          "t": "territory"
+         }
+        ]
+       },
+       {
+        "key": "F",
+        "runs": [
+         {
+          "t": "trade"
+         }
+        ]
+       },
+       {
+        "key": "G",
+        "runs": [
+         {
+          "t": "connection"
+         }
+        ]
+       },
+       {
+        "key": "H",
+        "runs": [
+         {
+          "t": "observation"
+         }
+        ]
+       },
+       {
+        "key": "I",
+        "runs": [
+         {
+          "t": "behavior"
+         }
+        ]
+       },
+       {
+        "key": "J",
+        "runs": [
+         {
+          "t": "worship"
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": true
+    },
+    {
+     "type": "mcq",
+     "title": "Questions 37-40",
+     "numbers": [
+      37,
+      38,
+      39,
+      40
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct letter, ",
+         "i": true
+        },
+        {
+         "t": "A",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ", ",
+         "i": true
+        },
+        {
+         "t": "B",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ", ",
+         "i": true
+        },
+        {
+         "t": "C",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ", or ",
+         "i": true
+        },
+        {
+         "t": "D",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ".",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 37,
+       "stem": [
+        {
+         "t": "What is the writer’s main argument in the sixth paragraph?"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "Prehistoric art allows us to date human migration patterns."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "Early man valued the communication of knowledge about animal behaviour and appearance."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "There is evidence of big lifestyle differences between early humans in different regions."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "There was little spoken interaction between different groups of people."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 38,
+       "stem": [
+        {
+         "t": "What is the writer doing in the seventh paragraph?"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "Rejecting an established theory about human evolution."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "Emphasizing the value of art in language development."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "Expressing doubt about the initial purpose of communication."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "Making a claim about the way that language developed."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 39,
+       "stem": [
+        {
+         "t": "The writer refers to vervet monkeys in order to"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "indicate which animal species have a kind of basic language."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "show how danger is a significant motivation for human communication."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "highlight the sophistication of human communication."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "suggest a possible influence on the way early humans interacted."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 40,
+       "stem": [
+        {
+         "t": "The writer says that the ‘walking larder’ idea"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "fails to explain the purpose of domestication."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "is true only for domesticated animals."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "supports the idea the writer proposes."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "is based on research the writer has carried out."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "key": {
+    "27": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 27: 'Travel anywhere and you see something so common it may not even catch your attention'. Đoạn này kể có cả động vật nuôi (dogs, cats, sheep) lẫn hoang dã (monkeys, wolves), nhưng không hề so sánh loại nào dễ được chú ý hơn. Câu hỏi có cấu trúc so sánh 'more likely... than' mà bài không so sánh. Đáp án "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Travel anywhere and you see something so common it may not even catch your attention' (đoạn 1, không có so sánh)"
+      }
+     ]
+    },
+    "28": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 28: 'Close contact with animals is not confined to one particular culture... but is a universal human trait'. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Close contact with animals is not confined to one particular culture... but is a universal human trait' (đoạn 1)"
+      }
+     ]
+    },
+    "29": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 29: 'providing food for another species is counterproductive to success'. Chia sẻ thức ăn là bất lợi, ngược với 'benefit'. Đáp án "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'providing food for another species is counterproductive to success' (đoạn 2)"
+      }
+     ]
+    },
+    "30": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 30: 'Who would bring a ferocious wolf into their home in the hope that thousands of years later it would become a loving pet?' Câu hỏi tu từ cho thấy tác giả cho rằng không ai thuần hóa sói vì mong có bạn đồng hành. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Who would bring a ferocious wolf into their home in the hope that... it would become a loving pet?' (đoạn 2)"
+      }
+     ]
+    },
+    "31": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 3 → Câu 31.",
+         "b": true
+        },
+        {
+         "t": " Tác giả tìm thấy 'a long and unbroken evolutionary trail of evidence'. 'Unbroken' nghĩa là không có giai đoạn nào thiếu thông tin. Đáp án "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'a long and unbroken evolutionary trail of evidence' (đoạn 3)"
+      }
+     ]
+    },
+    "32": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 4 → Câu 32.",
+         "b": true
+        },
+        {
+         "t": " Công cụ ra đời nhờ 'realizing that the properties of an object can be altered'. 'Altered' = thay đổi, biến đổi vật thể. Đáp án "
+        },
+        {
+         "t": "D – adaptation",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'realizing that the properties of an object can be altered' (đoạn 4)"
+      }
+     ]
+    },
+    "33": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 33: 'eating more meat and fat was a requirement for the increase in relative brain size' và người ăn thịt 'could spend less time finding food'. Lợi ích về dinh dưỡng. Đáp án "
+        },
+        {
+         "t": "A – nutrition",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'eating more meat and fat was a requirement for the increase in relative brain size' (đoạn 5)"
+      }
+     ]
+    },
+    "34": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 34: 'preying on animals put our ancestors into direct competition with the other predators'. Đáp án "
+        },
+        {
+         "t": "B – competition",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'put our ancestors into direct competition with the other predators' (đoạn 5)"
+      }
+     ]
+    },
+    "35": {
+     "answer": "H",
+     "accept": [
+      "H"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 35: điều giúp thắng thế là 'the ability to pay very close attention to the habits of both potential prey and competitors'. 'Pay close attention' = quan sát. Đáp án "
+        },
+        {
+         "t": "H – observation",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the ability to pay very close attention to the habits of both potential prey and competitors' (đoạn 5)"
+      }
+     ]
+    },
+    "36": {
+     "answer": "E",
+     "accept": [
+      "E"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 36: 'Early man... underwent a dramatic expansion in territory, forced by the search for new hunting grounds'. Đáp án "
+        },
+        {
+         "t": "E – territory",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'underwent a dramatic expansion in territory, forced by the search for new hunting grounds' (đoạn 5)"
+      }
+     ]
+    },
+    "37": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 6 → Câu 37.",
+         "b": true
+        },
+        {
+         "t": " Nghệ thuật tiền sử cho thấy 'the main topic was animals: their colours, shapes, postures and habits', và việc thu thập, chia sẻ kiến thức ngày càng có lợi. Đáp án "
+        },
+        {
+         "t": "B – Early man valued the communication of knowledge about animal behaviour and appearance",
+         "b": true
+        },
+        {
+         "t": ". D là bẫy: bài nói tranh về con người hiếm, không nói con người ít trò chuyện."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'gathering, sharing and recording knowledge became increasingly advantageous... the main topic was animals' (đoạn 6)"
+      }
+     ]
+    },
+    "38": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 38: 'I believe I am the first to propose a continuity between the strong human-animal link... and the origin of language'. Tác giả đưa ra một tuyên bố về cách ngôn ngữ phát triển. Đáp án "
+        },
+        {
+         "t": "D",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'I believe I am the first to propose a continuity between the strong human-animal link... and the origin of language' (đoạn 7)"
+      }
+     ]
+    },
+    "39": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 39: khỉ vervet chỉ có tiếng kêu khác nhau cho đại bàng và rắn nhưng 'cannot discuss what threats might appear tomorrow', trái với ngôn ngữ đầy đủ có thể 'convey fine shades of meaning'. Ví dụ dùng để làm nổi bật sự tinh vi của ngôn ngữ người. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'they cannot discuss what threats might appear tomorrow' (đoạn 7)"
+      }
+     ]
+    },
+    "40": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 8 → Câu 40.",
+         "b": true
+        },
+        {
+         "t": " Ý tưởng 'walking larders' gắn thuần hóa với an ninh lương thực, nhưng tác giả 'found fundamental flaws in this idea': chó (từ sói) được thuần hóa đầu tiên dù không phải nguồn thức ăn. Đáp án "
+        },
+        {
+         "t": "A – fails to explain the purpose of domestication",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'I found fundamental flaws in this idea' (đoạn 8)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Nhà nhân học Pat Shipman lập luận rằng mối quan hệ với động vật đã định hình quá trình tiến hóa của con người, qua ba bước: chế tạo công cụ, ngôn ngữ và thuần hóa. Đây là bài nghị luận, nên câu Yes/No/NG và MCQ sẽ hỏi quan điểm tác giả."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin",
+           "b": true
+          }
+         ],
+         "center": true
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "27–31"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Yes/No/Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (travellers, all cultures, share food, wolves, periods of evolution)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn 1 → 3"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "32–36"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Summary Completion (A–J)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (2.6 million years, hunters, lions and hyenas, moving away from Africa)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn 4 → 5"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "37–40"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Multiple Choice"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (sixth paragraph, seventh paragraph, vervet monkeys, walking larder)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn 6 → 8"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Cả ba nhóm câu nối tiếp nhau theo thứ tự đoạn, nên chỉ cần đọc một lượt từ trên xuống."
+      }
+     ]
+    }
+   ],
+   "reading": []
+  },
+  {
+   "slug": "passage-4-a-new-stage-in-the-study-and-teaching-of-history",
+   "order": 4,
+   "number": 4,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "READING PASSAGE 3",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "You should spend about 20 minutes on Questions 27-40, which are based on Reading Passage 3 on pages 10 and 11.",
+       "i": true
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "A new stage in the study and teaching of history",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "runs": [
+      {
+       "t": "For hundreds of years, historians have relied on written or printed documents to provide the bulk of their source materials, and they have largely communicated with students and the wider public by writing books and journal articles. Today, however, the printed word is being superseded by a diversity of forms of communication, above all moving images on video or film.",
+       "i": true
+      }
+     ]
+    },
+    {
+     "letter": "A",
+     "runs": [
+      {
+       "t": "The development of this new form of communication is leading to a growing gap between the practice of professional historians based in academia, and the practice of those aiming to popularise the study of history among the general public, and to encourage people to create their own records for the future. On the one hand, there are mainstream academics who continue to use only the written word as they examine more and more fields with an ever-increasing number of sophisticated methodologies. On the other hand, film and video, especially as broadcast on television, are probably the major influence on the public’s consciousness of history, as they see film of events of fifty or a hundred years ago, events they had previously only read about."
+      }
+     ]
+    },
+    {
+     "letter": "B",
+     "runs": [
+      {
+       "t": "In a related development, a great many people now document local and family events in the form of videos; many schools, too, produce video yearbooks. All these visual records may well prove to be invaluable sources of information for future historians. The glaring contradiction is that the two approaches - the academic and what we might term the popular - have intersected very little: with a few notable exceptions, professional historians have tended to avoid involvement in television programmes about history, and have even less impact on what is being captured and preserved on video. And the potential of moving images has wielded negligible influence on the academic study of history."
+      }
+     ]
+    },
+    {
+     "letter": "C",
+     "runs": [
+      {
+       "t": "This gulf can be seen as resulting from the willingness or otherwise of individual historians to accept the validity of new forms of communication in the study of history. This is not the first time that the question has arisen. The study of history, as conceived of today, began with the transition from oral to literate culture, leading to the earliest written records and the earliest historical studies. The next great shift came with the advent of printing, which transformed everything. Today, as the printed word loses its dominance, historians are faced with a variety of forms of communication, ranging from simple audiotape to the promising complexities of videodisks linked with computers. As yet, however, the use of moving images to record current events for the benefit of future historians does not even have a commonly agreed name."
+      }
+     ]
+    },
+    {
+     "letter": "D",
+     "runs": [
+      {
+       "t": "This does not mean that mainstream historians have totally rejected the use of moving images as sources: the majority seem intrigued by the idea, and valuable research has been carried out into the history and analysis of films with a broad circulation, using them as a source of information on the social and intellectual history of the twentieth century. Journals such as American History Review have played a significant role in this field."
+      }
+     ]
+    },
+    {
+     "letter": "E",
+     "runs": [
+      {
+       "t": "Yet the number of historians using moving images in their research or teaching is very small. The barrier seems to be that the profession is structured around the medium of the written word, and is somewhat insulated in its academic setting. The use of moving images presents a substantial challenge to this setting and its assumptions. As a result, historians have rejected the training, the institutions, the motivations and the professional structures that would be needed in order to use moving images effectively. Above all, they have rejected the necessity to learn complicated new skills."
+      }
+     ]
+    },
+    {
+     "letter": "F",
+     "runs": [
+      {
+       "t": "So why should historians make this change? Clearly, films or videos of events and people can be used as solid evidence of the past, linked to the words of the narrator (whether a television presenter/historian or a university teacher giving a lecture) but carrying information in their own right. Film has reintroduced the oral form as a mode of research and communication for documenting historical events. Now, with moving images, people are reminded that oral communication is not limited to words: it also includes body language, expression and tone, and is embedded in a context. Little of this is evident in a written transcript. A further effect of video and film is that the narrator gives up some control and has less need to give explanations, while the viewer becomes involved in the process of interpreting and understanding history."
+      }
+     ]
+    },
+    {
+     "letter": "G",
+     "runs": [
+      {
+       "t": "Film or videotape can also aid historians by simplifying the work of the interviewer. Instead of trying to carry on an interview while simultaneously making notes about setting and other unspoken data, this new kind of historian can concentrate on the interview itself, and study the film later. The many benefits of using moving images as historical evidence easily outweigh worries about cost, technical skills, or the effect of a camera on a person telling his or her story. Moving images enhance the quality of historical research, and suggest new directions for historians to explore."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "match",
+     "title": "Questions 27-35",
+     "numbers": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Reading Passage has seven paragraphs, A-G.",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Which paragraph contains the following information?",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write the correct letter, A-G, in boxes 27-35 on your answer sheet.",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NB",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t"
+        },
+        {
+         "t": "You may use any letter more than once.",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 27,
+       "stem": [
+        {
+         "t": "an overview of the range of methods that have been used over time to document history"
+        }
+       ]
+      },
+      {
+       "n": 28,
+       "stem": [
+        {
+         "t": "the main reason why many historians are unwilling to use films in their work"
+        }
+       ]
+      },
+      {
+       "n": 29,
+       "stem": [
+        {
+         "t": "a reference to some differences between oral and written communication"
+        }
+       ]
+      },
+      {
+       "n": 30,
+       "stem": [
+        {
+         "t": "how most citizens today gain an understanding of history"
+        }
+       ]
+      },
+      {
+       "n": 31,
+       "stem": [
+        {
+         "t": "how current student events are sometimes captured for future audiences"
+        }
+       ]
+      },
+      {
+       "n": 32,
+       "stem": [
+        {
+         "t": "mention of the fact that the advantages of film are greater than the disadvantages"
+        }
+       ]
+      },
+      {
+       "n": 33,
+       "stem": [
+        {
+         "t": "the claim that there is no official title for film-based historical work"
+        }
+       ]
+      },
+      {
+       "n": 34,
+       "stem": [
+        {
+         "t": "reference to the active role the audience plays when watching films"
+        }
+       ]
+      },
+      {
+       "n": 35,
+       "stem": [
+        {
+         "t": "a list of requirements that historians see as obstacles to their use of film to record history"
+        }
+       ]
+      }
+     ],
+     "letters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+     ]
+    },
+    {
+     "type": "ynng",
+     "title": "Questions 36-40",
+     "numbers": [
+      36,
+      37,
+      38,
+      39,
+      40
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Do the following statements agree with the claims of the writer in Reading Passage?",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "In boxes 36-40 on your answer sheet, write",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "YES",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t"
+        },
+        {
+         "t": "if the statement reflects the claims of the writer ",
+         "i": true
+        },
+        {
+         "t": "NO",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t"
+        },
+        {
+         "t": "if the statement contradicts the claims of the writer",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NOT GIVEN",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": " if it is impossible to say what the writer thinks about this",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "choices": [
+      "YES",
+      "NO",
+      "NOT GIVEN"
+     ],
+     "questions": [
+      {
+       "n": 36,
+       "stem": [
+        {
+         "t": "The needs of students in school have led to improvements in the teaching of history."
+        }
+       ]
+      },
+      {
+       "n": 37,
+       "stem": [
+        {
+         "t": "Academic and popular historians have different attitudes towards the value of innovations in communication."
+        }
+       ]
+      },
+      {
+       "n": 38,
+       "stem": [
+        {
+         "t": "It is common for historians to play a major role in creating historical documentaries for television."
+        }
+       ]
+      },
+      {
+       "n": 39,
+       "stem": [
+        {
+         "t": "Articles in American History Review have explored aspects of modern history through popular films."
+        }
+       ]
+      },
+      {
+       "n": 40,
+       "stem": [
+        {
+         "t": "Developments in technology are influencing a range of academic subjects."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "key": {
+    "27": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 27: C điểm lại các phương thức qua thời gian: truyền miệng sang chữ viết, rồi in ấn, rồi audiotape và videodisk. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'The study of history... began with the transition from oral to literate culture... The next great shift came with the advent of printing' (C)"
+      }
+     ]
+    },
+    "28": {
+     "answer": "E",
+     "accept": [
+      "E"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 28: 'The barrier seems to be that the profession is structured around the medium of the written word' và 'Above all, they have rejected the necessity to learn complicated new skills'. Đây là lý do chính. Đáp án "
+        },
+        {
+         "t": "E",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'The barrier seems to be that the profession is structured around the medium of the written word' (E)"
+      }
+     ]
+    },
+    "29": {
+     "answer": "F",
+     "accept": [
+      "F"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 29: 'oral communication is not limited to words: it also includes body language, expression and tone... Little of this is evident in a written transcript'. So sánh nói và viết. Đáp án "
+        },
+        {
+         "t": "F",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'it also includes body language, expression and tone... Little of this is evident in a written transcript' (F)"
+      }
+     ]
+    },
+    "30": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 30: 'film and video, especially as broadcast on television, are probably the major influence on the public's consciousness of history'. 'Public's consciousness' = cách đa số người dân hiểu lịch sử. Đáp án "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'film and video... are probably the major influence on the public's consciousness of history' (A)"
+      }
+     ]
+    },
+    "31": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 31: 'many schools, too, produce video yearbooks'. Sự kiện của học sinh được ghi lại cho tương lai. Đáp án "
+        },
+        {
+         "t": "B",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'many schools, too, produce video yearbooks' (B)"
+      }
+     ]
+    },
+    "32": {
+     "answer": "G",
+     "accept": [
+      "G"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn G → Câu 32.",
+         "b": true
+        },
+        {
+         "t": " 'The many benefits of using moving images as historical evidence easily outweigh worries about cost, technical skills...'. Đáp án "
+        },
+        {
+         "t": "G",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'The many benefits of using moving images... easily outweigh worries about cost, technical skills' (G)"
+      }
+     ]
+    },
+    "33": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 33: 'the use of moving images to record current events... does not even have a commonly agreed name'. 'Commonly agreed name' = 'official title'. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'does not even have a commonly agreed name' (C)"
+      }
+     ]
+    },
+    "34": {
+     "answer": "F",
+     "accept": [
+      "F"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 34: 'the viewer becomes involved in the process of interpreting and understanding history'. Đáp án "
+        },
+        {
+         "t": "F",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the viewer becomes involved in the process of interpreting and understanding history' (F)"
+      }
+     ]
+    },
+    "35": {
+     "answer": "E",
+     "accept": [
+      "E"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 35: 'historians have rejected the training, the institutions, the motivations and the professional structures that would be needed'. Một danh sách các yêu cầu. Đáp án "
+        },
+        {
+         "t": "E",
+         "b": true
+        },
+        {
+         "t": " (dùng lại chữ cái)."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'historians have rejected the training, the institutions, the motivations and the professional structures that would be needed' (E)"
+      }
+     ]
+    },
+    "36": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 36: bài có nhắc 'schools' ở đoạn B (video yearbooks) nhưng không nói nhu cầu học sinh làm cải thiện việc dạy sử. Đáp án "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "Không có thông tin về cải thiện việc dạy sử"
+      }
+     ]
+    },
+    "37": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 37 (bắt đầu thấy thông tin): A cho thấy hai phía khác nhau, sử gia học thuật 'continue to use only the written word' còn phía đại chúng dùng phim. Ghi chú, sẽ chốt ở đoạn C."
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 37: 'This gulf can be seen as resulting from the willingness or otherwise of individual historians to accept the validity of new forms of communication'. Hai nhóm có thái độ khác nhau với đổi mới trong truyền thông. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'This gulf can be seen as resulting from the willingness or otherwise of individual historians to accept the validity of new forms of communication' (C)"
+      }
+     ]
+    },
+    "38": {
+     "answer": "NO",
+     "accept": [
+      "NO"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 38: 'professional historians have tended to avoid involvement in television programmes about history'. Ngược với 'common... play a major role'. Đáp án "
+        },
+        {
+         "t": "NO",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'professional historians have tended to avoid involvement in television programmes about history' (B)"
+      }
+     ]
+    },
+    "39": {
+     "answer": "YES",
+     "accept": [
+      "YES"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn D → Câu 39.",
+         "b": true
+        },
+        {
+         "t": " Đã có nghiên cứu về 'films with a broad circulation, using them as a source of information on the social and intellectual history of the twentieth century' và 'Journals such as American History Review have played a significant role in this field'. 'Films with a broad circulation' = 'popular films'; 'twentieth century' = 'modern history'. Đáp án "
+        },
+        {
+         "t": "YES",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'films with a broad circulation... social and intellectual history of the twentieth century. Journals such as American History Review have played a significant role' (D)"
+      }
+     ]
+    },
+    "40": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 40: bài chỉ nói về môn lịch sử, không nhắc các ngành học thuật khác. Đáp án "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "Bài chỉ đề cập môn lịch sử"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài bàn về việc phim ảnh và video đang thay thế chữ in trong việc ghi chép và truyền đạt lịch sử, và khoảng cách giữa sử gia học thuật với cách tiếp cận đại chúng. Từ khóa nền: written word, moving images, film, video, academic, popular."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "27–35"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Information (A–G, NB dùng lại chữ cái)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Không – phải đọc hiểu từng đoạn"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giữ 9 câu trong đầu, đọc đoạn nào thì dò cả 9 câu"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "36–40"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Yes/No/Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (students in school, academic vs popular, television documentaries, American History Review, range of academic subjects)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Scan tên riêng American History Review, television"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Đây là bài điển hình mà cách 'để Matching Information làm cuối' rất tốn thời gian. Với One-Shot, mỗi đoạn được đọc một lần và đối chiếu với cả 9 câu matching lẫn 5 câu YNNG."
+      }
+     ]
+    }
+   ],
+   "reading": []
+  }
+ ]
+}

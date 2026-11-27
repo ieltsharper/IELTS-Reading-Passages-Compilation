@@ -1,0 +1,5568 @@
+{
+ "topic": "Languages",
+ "slug": "languages",
+ "numberLabel": "Passage",
+ "groups": null,
+ "topicNotes": null,
+ "sources": {
+  "questions": "L9 Reading Languages.docx",
+  "key": "Lời giải One-Shot – Đề 4 Reading Languages.docx"
+ },
+ "passages": [
+  {
+   "slug": "passage-1-an-important-language-development",
+   "order": 1,
+   "number": 1,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "READING PASSAGE 1",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "You should spend about 20 minutes on ",
+       "i": true
+      },
+      {
+       "t": "Questions 1-13",
+       "b": true,
+       "i": true
+      },
+      {
+       "t": ", which are based on Reading Passage 1 below.",
+       "i": true
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "An important language development",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "runs": [
+      {
+       "t": "Cuneiform, the world’s first known system of handwriting, originated some 6,000 years ago in Sumer in what is now southern Iraq. It was most often inscribed on palm-sized, rectangular clay tablets measuring several centimetres across, although occasionally, larger tablets or cylinders were used. Clay was an excellent medium for writing. Other surfaces which have been employed - for example, parchment, papyrus and paper - are not long-lasting and are easily destroyed by fire and water. But clay has proved to be resistant to those particular kinds of damage."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The word ’cuneiform’ actually refers to the marks or signs inscribed in the clay. The original cuneiform signs consisted of a series of lines - triangular, vertical, diagonal and horizontal. Sumerian writers would impress these lines into the wet clay with a stylus - a long, thin, pointed instrument which looked somewhat like a pen. Oddly, the signs were often almost too small to see with the naked eye. Cuneiform signs were used for the writing of at least a dozen languages. This is similar to how the Latin alphabet is used today for writing English, French, Spanish and German for example."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Before the development of cuneiform, tokens were used by the Sumerians to record certain information. For example, they might take small stones and use them as tokens or representations of something else, like a goat. A number of tokens, then, might mean a herd of goats. These tokens might then be placed in a cloth container and provided to a buyer as a receipt for a transaction, perhaps five tokens for five animals. It was not that different from what we do today when we buy some bread and the clerk gives us back a piece of paper with numbers on it to confirm the exchange."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "By the 4th century BCE, the Sumerians had adapted this system to a form of writing. They began putting tokens in a container resembling an envelope, and now made of clay instead of cloth. They then stamped the outside to indicate the number and type of tokens inside. A person could then ’read’ what was stamped on the container and know what was inside."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Gradually, Sumerians developed symbols for words. When first developed, each symbol looked like the concrete thing it represented. For example, an image which resembled the drawing of a sheep meant just that. Then another level of abstraction was introduced when symbols were developed for intangible ideas such as ’female’ or ’hot’ or ’God’. Cuneiform, in other words, evolved from a way used primarily to track and store information into a way to represent the world symbolically. Over the centuries, the marks became ever more abstract, finally evolving into signs that looked nothing like what they referred to, just as the letters ’h-o-u-s-e’ have no visual connection to the place we live in. At this last stage in the evolution of cuneiform, the signs took the form of triangles, which became common cuneiform signs."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "As the marks became more abstract, the system became more efficient because there were fewer marks a ’reader’ needed to learn. But cuneiform also became more complex because society itself was becoming more complex, so there were more ideas and concepts that needed to be expressed. However, most linguists and historians agree cuneiform developed primarily as a tool for accounting. Of the cuneiform tablets that have been discovered, excavated and translated, about 75 percent contain this type of practical information, rather than artistic or imaginative work."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Cuneiform writing was used for thousands of years, but it eventually ceased to be used in everyday life. In fact, it died out and remained unintelligible for almost 2,000 years. In the late 19th century, a British army officer, Henry Rawlinson, discovered cuneiform inscriptions which had been carved in the surface of rocks in the Behistun mountains in what is present-day Iran. Rawlinson made impressions of the marks on large pieces of paper, as he balanced dangerously on the surrounding rocks."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Rawlinson took his copies home to Britain and studied them for years to determine what each line stood for, and what each group of symbols meant. He found that in the writing on those particular rocks every word was repeated three times in three languages: Old Persian, Elamite and Babylonian. Since the meanings in these languages were already known to linguists, he could thus translate the cuneiform. Eventually, he fully decoded the cuneiform marks and he discovered that they described the life of Darius, a king of the Persian Empire in the 5th century BCE."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "tfng",
+     "title": "Questions 1-5",
+     "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Do the following statements agree with the information given in Reading Passage 1?"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "In boxes 1-5 on your answer sheet, write",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "TRUE",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t\tif the statement agrees with the information",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "FALSE",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t\tif the statement contradicts the information",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NOT GIVEN",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": " \tif there is no information on this",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "choices": [
+      "TRUE",
+      "FALSE",
+      "NOT GIVEN"
+     ],
+     "questions": [
+      {
+       "n": 1,
+       "stem": [
+        {
+         "t": "Cuneiform tablets were produced in different shapes and sizes."
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "stem": [
+        {
+         "t": "When Sumerian writers marked on the clay tablets, the tablets were dry."
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "stem": [
+        {
+         "t": "Cuneiform was often difficult to read because of its size."
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "stem": [
+        {
+         "t": "A number of languages adopted cuneiform."
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "stem": [
+        {
+         "t": "Cuneiform signs can be found in some modern alphabets."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "gap",
+     "title": "Questions 6-13",
+     "numbers": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete the notes below.",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose ",
+         "i": true
+        },
+        {
+         "t": "ONE WORD ONLY",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": " from the passage for each answer.",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write your answers in boxes 6-13 on your answer sheet.",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "content": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "The development and translation of cuneiform",
+         "b": true
+        }
+       ],
+       "center": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Before cuneiform",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "tokens, for example, "
+        },
+        {
+         "gap": 6
+        },
+        {
+         "t": " were often used"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "the first tokens were kept in containers made of"
+        },
+        {
+         "t": " ",
+         "b": true
+        },
+        {
+         "gap": 7
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "tokens were used as a "
+        },
+        {
+         "gap": 8
+        },
+        {
+         "t": " to give when selling something."
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "By 4th century BCE",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "tokens were put in a container that looked like a clay "
+        },
+        {
+         "gap": 9
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complex, abstract symbols developed",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "at first, signs looked like what they indicated, e.g. "
+        },
+        {
+         "gap": 10
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "then signs became more abstract"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "eventually, cuneiform signs shaped like "
+        },
+        {
+         "gap": 11
+        },
+        {
+         "t": " were developed"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "according to experts, cuneiform was mainly used for "
+        },
+        {
+         "gap": 12
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "19th-century translation of cuneiform inscriptions by Henry Rawlinson",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Rawlinson found cuneiform inscriptions in the Behistun mountains"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Rawlinson copied inscriptions onto "
+        },
+        {
+         "gap": 13
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Rawlinson realised that each word of the inscriptions appeared in different languages"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "when translated, Rawlinson found the writings were about a 5th-century BCE king"
+        }
+       ],
+       "list": true
+      }
+     ],
+     "limit": {
+      "words": 1,
+      "number": false,
+      "text": "ONE WORD ONLY"
+     }
+    }
+   ],
+   "key": {
+    "1": {
+     "answer": "TRUE",
+     "accept": [
+      "TRUE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 1 → Câu 1.",
+         "b": true
+        },
+        {
+         "t": " Thường là 'palm-sized, rectangular clay tablets... although occasionally, larger tablets or cylinders were used'. Có nhiều hình dạng và kích thước. Đáp án "
+        },
+        {
+         "t": "TRUE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'most often inscribed on palm-sized, rectangular clay tablets... occasionally, larger tablets or cylinders were used' (đoạn 1)"
+      }
+     ]
+    },
+    "2": {
+     "answer": "FALSE",
+     "accept": [
+      "FALSE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 2: người viết 'would impress these lines into the wet clay with a stylus'. 'Wet' trái với 'dry'. Đáp án "
+        },
+        {
+         "t": "FALSE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Sumerian writers would impress these lines into the wet clay with a stylus' (đoạn 2)"
+      }
+     ]
+    },
+    "3": {
+     "answer": "TRUE",
+     "accept": [
+      "TRUE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 3: 'Oddly, the signs were often almost too small to see with the naked eye'. Ký hiệu quá nhỏ nên khó đọc. Đáp án "
+        },
+        {
+         "t": "TRUE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Oddly, the signs were often almost too small to see with the naked eye' (đoạn 2)"
+      }
+     ]
+    },
+    "4": {
+     "answer": "TRUE",
+     "accept": [
+      "TRUE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 4: 'Cuneiform signs were used for the writing of at least a dozen languages'. 'A number of' = 'at least a dozen'. Đáp án "
+        },
+        {
+         "t": "TRUE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Cuneiform signs were used for the writing of at least a dozen languages' (đoạn 2)"
+      }
+     ]
+    },
+    "5": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 5: bài chỉ so sánh cách dùng cuneiform với cách bảng chữ Latin được dùng cho nhiều ngôn ngữ hiện nay; không nói ký hiệu cuneiform có mặt trong bảng chữ cái hiện đại. Đáp án "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'This is similar to how the Latin alphabet is used today for writing English, French...' (đoạn 2)"
+      }
+     ]
+    },
+    "6": {
+     "answer": "stones",
+     "accept": [
+      "stones"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 6: 'they might take small stones and use them as tokens'. Đáp án "
+        },
+        {
+         "t": "stones",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'they might take small stones and use them as tokens' (đoạn 3)"
+      }
+     ]
+    },
+    "7": {
+     "answer": "cloth",
+     "accept": [
+      "cloth"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 7: các thẻ 'might then be placed in a cloth container'. Đáp án "
+        },
+        {
+         "t": "cloth",
+         "b": true
+        },
+        {
+         "t": ". Đoạn 4 xác nhận sau này chuyển sang đất sét 'instead of cloth'."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'These tokens might then be placed in a cloth container' (đoạn 3)"
+      }
+     ]
+    },
+    "8": {
+     "answer": "receipt",
+     "accept": [
+      "receipt"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 8: thẻ được đưa cho người mua 'as a receipt for a transaction'. Đáp án "
+        },
+        {
+         "t": "receipt",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'provided to a buyer as a receipt for a transaction' (đoạn 3)"
+      }
+     ]
+    },
+    "9": {
+     "answer": "envelope",
+     "accept": [
+      "envelope"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 4 (thế kỷ 4 BCE) → Câu 9.",
+         "b": true
+        },
+        {
+         "t": " 'a container resembling an envelope, and now made of clay'. 'Looked like' = 'resembling'. Đáp án "
+        },
+        {
+         "t": "envelope",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'putting tokens in a container resembling an envelope, and now made of clay' (đoạn 4)"
+      }
+     ]
+    },
+    "10": {
+     "answer": "sheep",
+     "accept": [
+      "sheep"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 10: ban đầu mỗi ký hiệu giống vật nó biểu thị: 'an image which resembled the drawing of a sheep meant just that'. Đáp án "
+        },
+        {
+         "t": "sheep",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'an image which resembled the drawing of a sheep meant just that' (đoạn 5)"
+      }
+     ]
+    },
+    "11": {
+     "answer": "triangles",
+     "accept": [
+      "triangles"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 11: ở giai đoạn cuối, 'the signs took the form of triangles'. Đáp án "
+        },
+        {
+         "t": "triangles",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'At this last stage... the signs took the form of triangles' (đoạn 5)"
+      }
+     ]
+    },
+    "12": {
+     "answer": "accounting",
+     "accept": [
+      "accounting"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 6 → Câu 12.",
+         "b": true
+        },
+        {
+         "t": " 'most linguists and historians agree cuneiform developed primarily as a tool for accounting'. 'According to experts' = 'most linguists and historians agree'; 'mainly' = 'primarily'. Đáp án "
+        },
+        {
+         "t": "accounting",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'most linguists and historians agree cuneiform developed primarily as a tool for accounting' (đoạn 6)"
+      }
+     ]
+    },
+    "13": {
+     "answer": "paper",
+     "accept": [
+      "paper"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 7 → Câu 13.",
+         "b": true
+        },
+        {
+         "t": " Rawlinson 'made impressions of the marks on large pieces of paper'. 'Copied' = 'made impressions'. Đáp án "
+        },
+        {
+         "t": "paper",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Rawlinson made impressions of the marks on large pieces of paper' (đoạn 7)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài nói về chữ hình nêm (cuneiform) của người Sumer: chất liệu đất sét, hình dạng ký hiệu, nguồn gốc từ hệ thống thẻ (tokens), quá trình trừu tượng hóa, và việc Henry Rawlinson giải mã thế kỷ 19. Tiêu đề note 'The development and translation of cuneiform' gợi ý câu 6–13 đi theo dòng thời gian."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–5"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "True/False/Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (shapes and sizes, dry, size, languages, modern alphabets)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn 1 → 2"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "6–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Note Completion (ONE WORD ONLY)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (tokens, containers, selling, 4th century BCE, signs, experts, Rawlinson)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn 3 → 7"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    }
+   ],
+   "reading": []
+  },
+  {
+   "slug": "passage-2-the-worlds-first-cities",
+   "order": 2,
+   "number": 2,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "V6T2- READING PASSAGE 1",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "You should spend about 20 minutes on Questions 1-13, which are based on Reading Passage 1 on pages 2 and 3."
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "The world’s first cities",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "sub": true,
+     "runs": [
+      {
+       "t": "The creation of Mesopotamian cities",
+       "b": true
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The inhabitants of Mesopotamia - which now forms part of eastern Syria, southeastern Turkey and Iraq - lived for thousands of years on individual farms and in small, isolated communities, working relentlessly just to meet their basic needs. But then, about 6,000 years ago something remarkable happened. The people left the security of their family homes and villages and came together with others to create something far more complex and difficult: the world’s first city, called Uruk."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "There is not much left now of Uruk, which is about 250 kilometres south of Iraq’s capital Baghdad, but enough does remain to show that this initial experiment in urban living was extraordinarily successful. At its height, around 5,000 years ago, Uruk was home to more than 40,000 people. The outlines of the city walls indicate an enclosed area of about 600 hectares."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The archaeological record of Uruk reveals the intensive building and rebuilding which went on for four or five centuries after the city's initial establishment. In that period the people of Uruk built a dozen or so large public buildings. They would carefully level what had stood before, and then build another structure on top, often trying out a different building material or an innovative technique. They seemed to be searching for ways in which architecture could express the revolutionary new social structures that had come into being there."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Soon Uruk was not the only Mesopotamian city. People all across the flat plains of southern Mesopotamia were enjoying many of the benefits of city life. By about 4,500 years ago, 80 percent of the Mesopotamian population lived in cities over 40 hectares in size, with populations of between 15,000 and 30,000 people. The emergence of these thriving communities, made up mostly of individuals and groups with no blood ties, was unprecedented in human history. Why did these extraordinary advances happen?"
+      }
+     ]
+    },
+    {
+     "sub": true,
+     "runs": [
+      {
+       "t": "Reasons for the creation of cities in Mesopotamia",
+       "b": true
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "Smaller communities in Mesopotamia sometimes decided to come together to make it easier to defend themselves from their enemies. But the underlying reason for the creation of cities can be found in the harshness of this particular environment. The area was a place of extremes, where narrow strips of fertile river valleys were bounded by thousands of kilometres of desert and unproductive wetlands. As the small amount of rainfall in the region was incapable of sustaining anything but very limited agriculture, it was only through sophisticated irrigation that isolated pieces of land were kept fertile. The Tigris and the Euphrates rivers provided water for irrigation, and were also the basis of a communication system that led to the spread of the latest concepts in farming."
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "In such a region, the only way for humans to prosper was by forming groups that could work together. The threat of famine, which could be caused by a prolonged drought or the sudden change in the course of a river, forced people to look outside their families, and work with their neighbours to create an elaborate system of dams, channels and canals to manage water. These projects needed specific skills and labour from outside the farmer’s family, and this established more firmly the patterns of dependence that are at the heart of civilisation."
+      }
+     ]
+    },
+    {
+     "sub": true,
+     "runs": [
+      {
+       "t": "Changes in the organisation of farming",
+       "b": true
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The intensive farming that came about in Mesopotamia was more efficient and productive and therefore generated a surplus of food, allowing crops in years of good harvests to be stored as protection against future less successful years. It also allowed more land for the production of a wider range of crops. It created a world where there was a need for traders and for skilled craftsmen; in short, it was the beginning of industry and consumerism. The concept of specialisation emerged within the population - with increasing numbers of soldiers, builders, musicians, doctors, fortune tellers - all supported directly or indirectly by agriculture. At the same time, this increased the control that powerful institutions, gradually emerging in the early cities, had over the urban population. Although large numbers of people were freed from the struggle of subsistence farming, they were now totally dependent on the institutions that employed them for their daily sustenance."
+      }
+     ]
+    },
+    {
+     "sub": true,
+     "runs": [
+      {
+       "t": "The role of the temples",
+       "b": true
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "The earliest and most powerful of these institutions was centred on the religious temple. Ever more temple structures were erected in the form of massive pyramids which had enormous storerooms for the output from the farming estates. Over time, the temples acquired these farms for themselves, and appointed a large number of staff to administer them and to deal with the storage of produce. The temples’ greatest advantage was that each citizen was expected to give up some time to work for the temples. This meant that temples could easily store huge amounts of agricultural produce which could be used to buy yet more land. In addition, the revenues generated allowed the temples to serve as primitive kinds of banks making loans to people in difficult economic times."
+      }
+     ]
+    },
+    {
+     "sub": true,
+     "runs": [
+      {
+       "t": "The emergence of writing",
+       "b": true
+      }
+     ]
+    },
+    {
+     "runs": [
+      {
+       "t": "We know a surprising amount about these times thanks to the development of an important new technology: writing. In Mesopotamia basic records were inscribed in wet clay, unlike the fragile papyrus used in ancient Egypt and Greece. These first writings were largely lists of people and things, simple bookkeeping. But within several hundred years, writing systems had become more advanced capable of recording concepts as well as lists. The clay tablets used for writing were tough, and the fires that often burnt down the archives where they were stored usually merely baked them for future generations."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "tfng",
+     "title": "Questions 1-6",
+     "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Do the following statements agree with the information given in Reading Passage 1?",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "In boxes 1-6 on your answer sheet, write",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "TRUE",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t\tif the statement agrees with the information",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "FALSE",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\t\tif the statement contradicts the information",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NOT GIVEN",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "\tif there is no information on this",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "choices": [
+      "TRUE",
+      "FALSE",
+      "NOT GIVEN"
+     ],
+     "questions": [
+      {
+       "n": 1,
+       "stem": [
+        {
+         "t": "Some physical evidence of Uruk still exists in Iraq."
+        }
+       ]
+      },
+      {
+       "n": 2,
+       "stem": [
+        {
+         "t": "The people of Uruk lived in large apartment buildings."
+        }
+       ]
+      },
+      {
+       "n": 3,
+       "stem": [
+        {
+         "t": "Builders in Uruk frequently experimented with new construction methods."
+        }
+       ]
+      },
+      {
+       "n": 4,
+       "stem": [
+        {
+         "t": "Urban settlements were unusual in Mesopotamia 4,500 years ago."
+        }
+       ]
+      },
+      {
+       "n": 5,
+       "stem": [
+        {
+         "t": "The Tigris and the Euphrates rivers were important for the interchange of ideas."
+        }
+       ]
+      },
+      {
+       "n": 6,
+       "stem": [
+        {
+         "t": "When there were food shortages, farmers relied mainly on the help of their relatives."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "gap",
+     "title": "Questions 7-13",
+     "numbers": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete the notes below.",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose ",
+         "i": true
+        },
+        {
+         "t": "ONE WORD ONLY",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": " from the passage for each answer.",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write your answers in boxes 7-13 on your answer sheet.",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "content": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Early changes in Mesopotamia",
+         "b": true
+        }
+       ],
+       "center": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Changes in organisation of farming",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Improved agricultural methods led to:"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "a food "
+        },
+        {
+         "gap": 7
+        },
+        {
+         "t": " being used as insurance"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "a wider range of crops being grown"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "the development of industry and consumerism"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "increased specialisation amongst workers"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "greater control by institutions"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Temples",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "were built in the shape of large "
+        },
+        {
+         "gap": 8
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "had large "
+        },
+        {
+         "gap": 9
+        },
+        {
+         "t": "where produce was kept"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "many needed "
+        },
+        {
+         "gap": 10
+        },
+        {
+         "t": "to manage the farms"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "acted as "
+        },
+        {
+         "gap": 11
+        },
+        {
+         "t": "in hard economic periods"
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "The development of writing",
+         "b": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "people wrote on surfaces made of "
+        },
+        {
+         "gap": 12
+        }
+       ],
+       "list": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "written records remained undamaged after "
+        },
+        {
+         "gap": 13
+        },
+        {
+         "t": " destroyed archives they were kept in"
+        }
+       ],
+       "list": true
+      }
+     ],
+     "limit": {
+      "words": 1,
+      "number": false,
+      "text": "ONE WORD ONLY"
+     }
+    }
+   ],
+   "key": {
+    "1": {
+     "answer": "TRUE",
+     "accept": [
+      "TRUE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 2 → Câu 1.",
+         "b": true
+        },
+        {
+         "t": " 'There is not much left now of Uruk... but enough does remain to show that this initial experiment in urban living was extraordinarily successful'. Vẫn còn dấu tích. Đáp án "
+        },
+        {
+         "t": "TRUE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'There is not much left now of Uruk... but enough does remain' (đoạn 2)"
+      }
+     ]
+    },
+    "2": {
+     "answer": "NOT GIVEN",
+     "accept": [
+      "NOT GIVEN"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 2: bài nói cư dân xây 'a dozen or so large public buildings'. Đây là công trình công cộng, không có thông tin về chung cư lớn. Đáp án "
+        },
+        {
+         "t": "NOT GIVEN",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the people of Uruk built a dozen or so large public buildings' (đoạn 3)"
+      }
+     ]
+    },
+    "3": {
+     "answer": "TRUE",
+     "accept": [
+      "TRUE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 3: khi xây lại, họ 'often trying out a different building material or an innovative technique'. 'Frequently experimented with new construction methods' = 'often trying out... innovative technique'. Đáp án "
+        },
+        {
+         "t": "TRUE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'often trying out a different building material or an innovative technique' (đoạn 3)"
+      }
+     ]
+    },
+    "4": {
+     "answer": "FALSE",
+     "accept": [
+      "FALSE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 4 → Câu 4.",
+         "b": true
+        },
+        {
+         "t": " 'By about 4,500 years ago, 80 percent of the Mesopotamian population lived in cities'. Đô thị rất phổ biến, ngược với 'unusual'. Đáp án "
+        },
+        {
+         "t": "FALSE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'By about 4,500 years ago, 80 percent of the Mesopotamian population lived in cities' (đoạn 4)"
+      }
+     ]
+    },
+    "5": {
+     "answer": "TRUE",
+     "accept": [
+      "TRUE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 5 (Reasons) → Câu 5.",
+         "b": true
+        },
+        {
+         "t": " Hai con sông cung cấp nước tưới 'and were also the basis of a communication system that led to the spread of the latest concepts in farming'. 'Interchange of ideas' = 'spread of the latest concepts'. Đáp án "
+        },
+        {
+         "t": "TRUE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the basis of a communication system that led to the spread of the latest concepts in farming' (đoạn 5)"
+      }
+     ]
+    },
+    "6": {
+     "answer": "FALSE",
+     "accept": [
+      "FALSE"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 6 → Câu 6.",
+         "b": true
+        },
+        {
+         "t": " Nguy cơ đói kém 'forced people to look outside their families, and work with their neighbours'. Họ không chủ yếu dựa vào họ hàng. Đáp án "
+        },
+        {
+         "t": "FALSE",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'forced people to look outside their families, and work with their neighbours' (đoạn 6)"
+      }
+     ]
+    },
+    "7": {
+     "answer": "surplus",
+     "accept": [
+      "surplus"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn 7 (Changes in organisation of farming) → Câu 7.",
+         "b": true
+        },
+        {
+         "t": " Thâm canh 'generated a surplus of food, allowing crops in years of good harvests to be stored as protection against future less successful years'. 'Insurance' = 'protection against future less successful years'. Đáp án "
+        },
+        {
+         "t": "surplus",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'generated a surplus of food, allowing crops... to be stored as protection against future less successful years' (đoạn 7)"
+      }
+     ]
+    },
+    "8": {
+     "answer": "pyramids",
+     "accept": [
+      "pyramids"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 8: đền 'were erected in the form of massive pyramids'. Đáp án "
+        },
+        {
+         "t": "pyramids",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Ever more temple structures were erected in the form of massive pyramids' (đoạn 8)"
+      }
+     ]
+    },
+    "9": {
+     "answer": "storerooms",
+     "accept": [
+      "storerooms"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 9: 'which had enormous storerooms for the output from the farming estates'. Đáp án "
+        },
+        {
+         "t": "storerooms",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'which had enormous storerooms for the output from the farming estates' (đoạn 8)"
+      }
+     ]
+    },
+    "10": {
+     "answer": "staff",
+     "accept": [
+      "staff"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 10: đền 'appointed a large number of staff to administer them'. 'Manage' = 'administer'. Đáp án "
+        },
+        {
+         "t": "staff",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'appointed a large number of staff to administer them' (đoạn 8)"
+      }
+     ]
+    },
+    "11": {
+     "answer": "banks",
+     "accept": [
+      "banks"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 11: 'the temples to serve as primitive kinds of banks making loans to people in difficult economic times'. Đáp án "
+        },
+        {
+         "t": "banks",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'serve as primitive kinds of banks making loans to people in difficult economic times' (đoạn 8)"
+      }
+     ]
+    },
+    "12": {
+     "answer": "clay",
+     "accept": [
+      "clay"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 12: 'In Mesopotamia basic records were inscribed in wet clay'. Đáp án "
+        },
+        {
+         "t": "clay",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'In Mesopotamia basic records were inscribed in wet clay' (đoạn 9)"
+      }
+     ]
+    },
+    "13": {
+     "answer": "fires",
+     "accept": [
+      "fires"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 13: 'the fires that often burnt down the archives where they were stored usually merely baked them for future generations'. Đáp án "
+        },
+        {
+         "t": "fires",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the fires that often burnt down the archives where they were stored usually merely baked them' (đoạn 9)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài nói về Uruk và các thành phố đầu tiên ở Lưỡng Hà: vì sao con người rời làng để lập thành phố, nông nghiệp thay đổi ra sao, vai trò của đền thờ và sự ra đời của chữ viết. Bài có sẵn các tiêu đề nhỏ (Reasons, Changes in organisation of farming, The role of the temples, The emergence of writing), trùng với các mục của note câu 7–13, nên rất dễ định vị."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "1–6"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "True/False/Not Given"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (physical evidence, apartment buildings, construction methods, 4,500 years ago, Tigris and Euphrates, food shortages)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Phần đầu và phần Reasons"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "7–13"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Note Completion (ONE WORD ONLY)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có, nhờ tiêu đề mục (farming, temples, writing)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Ba mục cuối"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    }
+   ],
+   "reading": []
+  },
+  {
+   "slug": "passage-3-the-history-of-celtic-language",
+   "order": 3,
+   "number": 3,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "V9T7- READING PASSAGE 2\n",
+       "b": true
+      },
+      {
+       "t": "Read the text and answer questions 14–26"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "THE HISTORY OF CELTIC LANGUAGE",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "letter": "A",
+     "runs": [
+      {
+       "t": "In November 1897, in a field near the village of Coligny in eastern France, a local inhabitant unearthed two strange objects. One was an imposing statue of Mars, the Roman god of war. The other was an ancient bronze tablet, 1.5 metres wide and 1 metre high. It bore numerals in Roman but the words were in Gaulish, a version of the Celtic language spoken by the inhabitants of France before the Roman conquest in the first century BC. The tablet turned out to be one of the most important sources of words from this extinct language."
+      }
+     ]
+    },
+    {
+     "letter": "B",
+     "runs": [
+      {
+       "t": "Two researchers, geneticist Dr Peter Forster and linguist Dr Alfred Toth, have now used the calendar and other Celtic inscriptions to reconstruct the history of Celtic and its position in the Indo-European family of languages. They say that Celtic became a language in its own right and entered the British Isles much earlier than supposed. Then in the first century BC, the Romans defeated the Celts, both in France and in Britain, so decisively that their language, Latin, and its successor languages displaced Celtic over much of its former territory. In the British Isles, Celtic speakers survived in two main groups: the Goidelic branch of Celtic, which includes Irish and Scots Gaelic, and the Brythonic branch, formed mainly of Welsh and Breton, a Celtic tongue carried to Brittany in France by emigrants from Cornwall."
+      }
+     ]
+    },
+    {
+     "letter": "C",
+     "runs": [
+      {
+       "t": "Because languages change so fast, historical linguists have little faith in language trees that go back more than a few thousand years. Dr Forster has developed a new dating method for relating a group of languages, basing it on the tree-drawing techniques used to trace the evolutionary relationships among genes. The method will work on just a handful of words, a fortunate circumstance since only some 30 Gaulish words have known counterparts in all the other languages under study. Dr Forster and Dr Toth have used the method to draw up a tree relating the different branches of Celtic to one another and to other Indo-European languages like English, French, Spanish, Latin and Greek. In a published article, they say that soon after the ancestral Indo-European language arrived in Europe over 5,000 years ago, it split into different branches leading to Celtic, Latin, Greek and English. Within Celtic, their tree shows that Gaulish the mainland European version of the language separated from its Goidelic and Brythonic cousins, much as might be expected from the facts of geography"
+      }
+     ]
+    },
+    {
+     "letter": "D",
+     "runs": [
+      {
+       "t": "The researchers' method even dates the points at which their language tree divides, although the dates have a wide range of possibility. They calculate that the Indo-European language initially fragmented in Europe around 8100 BC, plus or minus 1,900 years, and the divergence between the mainland European and British versions of Gaelic took place in 3200 BC, plus or minus 1,500 years. These dates are much earlier than previously estimated. ‘The traditional date of the Indo-European fragmentation has been 4000 BC for some time,’ said linguist Dr Merritt Ruhlen. He said the new method ‘seems pretty reasonable’ and should be useful in tracing back the earlier history of the Indo-European language."
+      }
+     ]
+    },
+    {
+     "letter": "E",
+     "runs": [
+      {
+       "t": "Specialists have long debated which country was the homeland of the Indo-Europeans and whether their language was spread by conquest or because its speakers were the first agriculturists whose methods and tongue were adopted by other populations. The second theory, that it was spread by agriculture, has been advocated by archaeologist Dr Colin Renfrew. Dr Forster, who works with Dr Renfrew, said in an interview that the suggested date 8100 BC for the arrival of Indo-European in Europe does seem to vindicate Renfrew's archaeological idea that the Indo-European languages were spread by farmers. Agriculture started to arrive in Europe from the Near East around 6000 BC, which is earlier than the traditional date proposed by linguists for the spread of Indo-European. This writing would fit with the lower end of Dr Forster's range of dates."
+      }
+     ]
+    },
+    {
+     "letter": "F",
+     "runs": [
+      {
+       "t": "Dr Forster said that his estimated date of 3200 BC for the arrival of Celtic speakers in the British Isles is also much earlier than the usual date, 600 BC, posited on the basis of archaeological evidence. Dr Forster and Dr Toth said their method of evaluating groups of languages against each other was similar to historical linguists, many of whom restrict their research to how words in only one single language have changed over time. Asked what linguists thought of his approach he said: ‘To be honest, they don't understand it, most of them. They don't even know what I'm talking about.’ The method used by Dr Forster and Dr Toth has two parts. One is to draw a tree on the basis of carefully chosen words; the second is to date the splits in the tree by calibrating them with known historical events. This is similar to the way geneticists date their evolutionary trees by tying one or more branch points to known dates from the fossil record."
+      }
+     ]
+    },
+    {
+     "letter": "G",
+     "runs": [
+      {
+       "t": "Dr April McMahon, a linguist at the University of Sheffield in England, said that Dr Forster's method ‘seems to me to be a good start’, and that it was reasonable to base a language family tree on just a handful of well-chosen words. She had less confidence in the dating method, she said, because language changes in an irregular way based on social factors like the size of the speaker's group and its degree of contact with others."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "match",
+     "title": "Questions 14–18",
+     "numbers": [
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Reading Passage 2 has seven paragraphs, "
+        },
+        {
+         "t": "A-G",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Which paragraph contains the following information?",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct letter, "
+        },
+        {
+         "t": "A-G",
+         "b": true
+        },
+        {
+         "t": ", in boxes "
+        },
+        {
+         "t": "14-19",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 14,
+       "stem": [
+        {
+         "t": "a difference of opinion about where a group of languages originated"
+        }
+       ]
+      },
+      {
+       "n": 15,
+       "stem": [
+        {
+         "t": "a reference to a mythological figure"
+        }
+       ]
+      },
+      {
+       "n": 16,
+       "stem": [
+        {
+         "t": "an expression of one person's doubt about a particular method of analysing scientific data"
+        }
+       ]
+      },
+      {
+       "n": 17,
+       "stem": [
+        {
+         "t": "an explanation of how one particular Celtic language spread due to the movement of people"
+        }
+       ]
+      },
+      {
+       "n": 18,
+       "stem": [
+        {
+         "t": "the reason why some language experts distrust language trees"
+        }
+       ]
+      }
+     ],
+     "letters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+     ]
+    },
+    {
+     "type": "match",
+     "title": "Questions 19–22",
+     "numbers": [
+      19,
+      20,
+      21,
+      22
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Look at the following statements ("
+        },
+        {
+         "t": "Questions 19-22",
+         "b": true
+        },
+        {
+         "t": ") and the list of people below."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Match each statement with the correct researcher or researchers, A, B, C or D."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct letter, "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": ", "
+        },
+        {
+         "t": "B",
+         "b": true
+        },
+        {
+         "t": ", "
+        },
+        {
+         "t": "C ",
+         "b": true
+        },
+        {
+         "t": "or "
+        },
+        {
+         "t": "D",
+         "b": true
+        },
+        {
+         "t": ", in boxes "
+        },
+        {
+         "t": "19-22",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NB  You may use any letter more than once.",
+         "b": true,
+         "i": true
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 19,
+       "stem": [
+        {
+         "t": "An approach commonly used in language research has too narrow a focus."
+        }
+       ]
+      },
+      {
+       "n": 20,
+       "stem": [
+        {
+         "t": "The number of people who use a language has an effect on the modifications the language undergoes."
+        }
+       ]
+      },
+      {
+       "n": 21,
+       "stem": [
+        {
+         "t": "The Celtic language has been a distinct language for longer than experts previously thought."
+        }
+       ]
+      },
+      {
+       "n": 22,
+       "stem": [
+        {
+         "t": "The use of one family of languages may have become more extensive due to farming practices."
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": [
+       [
+        {
+         "t": "List of Researchers",
+         "b": true
+        }
+       ]
+      ],
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "Dr Peter Forster & Dr Alfred Toth"
+         }
+        ]
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "Dr Merritt Ruhlen"
+         }
+        ]
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "Dr Colin Renfrew"
+         }
+        ]
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "Dr April McMahon"
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": false
+    },
+    {
+     "type": "gap",
+     "title": "Questions 23–26",
+     "numbers": [
+      23,
+      24,
+      25,
+      26
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete the sentence below."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write "
+        },
+        {
+         "t": "ONE WORD ONLY",
+         "b": true
+        },
+        {
+         "t": " from the passage for each answer."
+        }
+       ]
+      }
+     ],
+     "content": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "The script on the bronze tablet discovered in Coligny in France was written in a form of Celtic called "
+        },
+        {
+         "gap": 23
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "After the success of the Roman Empire in conquering many parts of Europe, "
+        },
+        {
+         "gap": 24
+        },
+        {
+         "t": " and its related languages became the predominant languages."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "gap": 25
+        },
+        {
+         "t": " is known to have occurred among the various versions of the Gaelic language around 3200 BC."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "For social reasons, developments in languages are "
+        },
+        {
+         "gap": 26
+        }
+       ]
+      }
+     ],
+     "limit": {
+      "words": 1,
+      "number": false,
+      "text": "ONE WORD ONLY"
+     }
+    }
+   ],
+   "key": {
+    "14": {
+     "answer": "E",
+     "accept": [
+      "E"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 14: 'Specialists have long debated which country was the homeland of the Indo-Europeans'. 'Where a group of languages originated' = 'homeland'. Đáp án "
+        },
+        {
+         "t": "E",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Specialists have long debated which country was the homeland of the Indo-Europeans' (E)"
+      }
+     ]
+    },
+    "15": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 15: cùng tấm lịch đồng là 'an imposing statue of Mars, the Roman god of war'. Thần chiến tranh = nhân vật thần thoại. Đáp án "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'One was an imposing statue of Mars, the Roman god of war' (A)"
+      }
+     ]
+    },
+    "16": {
+     "answer": "G",
+     "accept": [
+      "G"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 16: McMahon 'had less confidence in the dating method'. Nghi ngờ của một người về một phương pháp phân tích. Đáp án "
+        },
+        {
+         "t": "G",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'She had less confidence in the dating method' (G)"
+      }
+     ]
+    },
+    "17": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 17: 'Breton, a Celtic tongue carried to Brittany in France by emigrants from Cornwall'. 'Movement of people' = 'emigrants'. Đáp án "
+        },
+        {
+         "t": "B",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Breton, a Celtic tongue carried to Brittany in France by emigrants from Cornwall' (B)"
+      }
+     ]
+    },
+    "18": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn C → Câu 18.",
+         "b": true
+        },
+        {
+         "t": " 'Because languages change so fast, historical linguists have little faith in language trees that go back more than a few thousand years'. 'Distrust' = 'have little faith in'. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Because languages change so fast, historical linguists have little faith in language trees' (C)"
+      }
+     ]
+    },
+    "19": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn F → Câu 19.",
+         "b": true
+        },
+        {
+         "t": " Forster và Toth nói nhiều nhà ngôn ngữ học lịch sử 'restrict their research to how words in only one single language have changed over time'. Cách tiếp cận phổ biến nhưng chỉ tập trung vào một ngôn ngữ, tức quá hẹp. Đáp án "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": ". (Chữ 'similar' trong câu này nhiều khả năng là lỗi bản in; ý chính vẫn là phương pháp của họ so sánh nhiều ngôn ngữ, khác với lối nghiên cứu một ngôn ngữ.)"
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'many of whom restrict their research to how words in only one single language have changed over time' (F)"
+      }
+     ]
+    },
+    "20": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 20: vì ngôn ngữ thay đổi theo 'social factors like the size of the speaker's group'. 'Number of people who use a language' = 'size of the speaker's group'. Đáp án "
+        },
+        {
+         "t": "D",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'language changes in an irregular way based on social factors like the size of the speaker's group' (G)"
+      }
+     ]
+    },
+    "21": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 21: Forster và Toth nói 'Celtic became a language in its own right and entered the British Isles much earlier than supposed'. 'Distinct language for longer than thought' = 'in its own right... much earlier than supposed'. Đáp án "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Celtic became a language in its own right and entered the British Isles much earlier than supposed' (B)"
+      }
+     ]
+    },
+    "22": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 22: thuyết 'it was spread by agriculture, has been advocated by archaeologist Dr Colin Renfrew'. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": ". Forster chỉ nói kết quả của mình 'vindicate' thuyết của Renfrew, người đề xuất là Renfrew."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'that it was spread by agriculture, has been advocated by archaeologist Dr Colin Renfrew' (E)"
+      }
+     ]
+    },
+    "23": {
+     "answer": "Gaulish",
+     "accept": [
+      "Gaulish"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 23: chữ trên tấm đồng 'were in Gaulish, a version of the Celtic language'. Đáp án "
+        },
+        {
+         "t": "Gaulish",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the words were in Gaulish, a version of the Celtic language' (A)"
+      }
+     ]
+    },
+    "24": {
+     "answer": "Latin",
+     "accept": [
+      "Latin"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 24: người La Mã thắng người Celt 'so decisively that their language, Latin, and its successor languages displaced Celtic'. 'Predominant' = 'displaced Celtic'. Đáp án "
+        },
+        {
+         "t": "Latin",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'their language, Latin, and its successor languages displaced Celtic over much of its former territory' (B)"
+      }
+     ]
+    },
+    "25": {
+     "answer": "divergence",
+     "accept": [
+      "divergence"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn D → Câu 25.",
+         "b": true
+        },
+        {
+         "t": " 'the divergence between the mainland European and British versions of Gaelic took place in 3200 BC'. Đáp án "
+        },
+        {
+         "t": "divergence",
+         "b": true
+        },
+        {
+         "t": ". Ruhlen ở đoạn này chỉ khen phương pháp, không khớp câu 19–22."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the divergence between the mainland European and British versions of Gaelic took place in 3200 BC' (D)"
+      }
+     ]
+    },
+    "26": {
+     "answer": "irregular",
+     "accept": [
+      "irregular"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 26: 'language changes in an irregular way based on social factors'. Đáp án "
+        },
+        {
+         "t": "irregular",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'language changes in an irregular way based on social factors' (G)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài nói về việc hai nhà nghiên cứu Forster và Toth dùng tấm lịch đồng Coligny cùng các văn bản Celtic khác để dựng lại cây phả hệ ngôn ngữ Celtic, cùng phản ứng của các chuyên gia khác (Ruhlen, Renfrew, McMahon). Từ khóa nền: Gaulish, language tree, dating method, Indo-European, farming."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "14–18"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Information (A–G)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Không – phải đọc hiểu đoạn"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giữ 5 ý: difference of opinion about origin; mythological figure; one person's doubt; spread due to movement of people; why experts distrust language trees"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "19–22"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Features (A–D, NB dùng lại)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Một phần: tên người scan được, ý kiến phải đọc hiểu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Gặp tên người nào thì đối chiếu 4 câu"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "23–26"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Sentence Completion (ONE WORD ONLY)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (Coligny, Roman Empire, 3200 BC, social reasons)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn A, B, D, G"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Cả ba dạng đan xen khắp 7 đoạn, đặc biệt đoạn B, E, G mỗi đoạn chứa 2–3 câu thuộc các dạng khác nhau. Đây là bài minh họa rõ nhất cho nguyên tắc 'đọc đến đâu, xử lý đến đó'."
+      }
+     ]
+    }
+   ],
+   "reading": []
+  },
+  {
+   "slug": "passage-4-ancient-storytelling",
+   "order": 4,
+   "number": 4,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "V6T8- Reading Passage 2",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "You should spend about 20 minutes on Questions 1-13, which are based on Reading Passage below."
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "Ancient Storytelling",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "letter": "A",
+     "runs": [
+      {
+       "t": "The first stories were probably narrated to people crouching around a bonfire. These included tales of mighty adventures, like near-death encounters, hunting excursions, or an escape from mortal peril, or perhaps a mystery or divine anecdotes. However, irrespective of the subject, there was one principal objective behind all these tales: to keep the listener intrigued and engaged, to make them overlook their worries or fatigue, and only one query must prevail in their mind — what happens next?"
+      }
+     ]
+    },
+    {
+     "letter": "B",
+     "runs": [
+      {
+       "t": "Finding the initial stories ever told in human history is like herding cats, as these were preserved in the minds of the storytellers. This kind of storage or memorisation, however, shall not be deemed as ineffective. Several documented oral traditions of Australia, Balkans, and other parts of the world apprise us of master storytellers and poets of the time that could recite thousands of verses and proses from their memory, word to word! However, while such memorisation seems like art or sorcery, the essential idea of creating symbols is to have a system of reminders or mnemonics that helps one recall specific information in one's mind."
+      }
+     ]
+    },
+    {
+     "letter": "C",
+     "runs": [
+      {
+       "t": "In a few Polynesian societies, the storytellers used a notched memory stick for assistance in successive stages of recitation. However, among many other global communities, the art of storytelling led to the invention or development of writing systems.For instance, the onset of literacy in ancient Greece is attributed to the fact that the epic tales of the Trojan War and the Voyage of Odysseus were so captivating that there was a need to preserve them. Thus, the Greeks, in 750 B.C. — 700 B.C. borrowed the alphabet system from their east Mediterranean neighbours, the Phoenicians."
+      }
+     ]
+    },
+    {
+     "letter": "D",
+     "runs": [
+      {
+       "t": "The pristine practice of documenting stories on parchment and other materials can be traced to many ancient civilisations. The priestly papyrus archives of ancient Egypt and the birch-bark scrolls used by North American Ojibway Indians are excellent examples. It has emerged as a tried and tested practice, thanks to which stories are today synonymous with words on paper. Even the practice of oral storytelling is believed to have been taken over by journals, novels, comic strips, etc. However, written texts are not the primary source for humans to access stories. But then, what is it?"
+      }
+     ]
+    },
+    {
+     "letter": "E",
+     "runs": [
+      {
+       "t": "Each year, over seven billion people head towards the silver screens to watch the latest offerings of national and international cinema. Yes, the chief storyteller of the day is none other than the Cinema! The movies encompass storytelling in the form of motion pictures, which is a contemporary phenomenon in comparison to reading information on paper or still photography. It is more so an illusion that was originally accepted by the method of sequencing images in a particular order. Even so, it is imperative to acknowledge that the art of visual storytelling must hold a profoundly atavistic vibe to it. In spite of the advantage, the conventional patterns of storyline and characterisation that have been instilled in storytelling for ages are indispensable for a good story."
+      }
+     ]
+    },
+    {
+     "letter": "F",
+     "runs": [
+      {
+       "t": "While thousands of scripts land dust on the desks of major film studios,all an aspiring screenwriter needs to look up to is the fourth-century Greek philosopher, Aristotle. In his incomplete work, The Poetics, he left several lecture notes describing the art of storytelling in multiple literary and dramatic mediums. Though it is highly unlikely that he envisaged the popcorn-fuelled atmosphere of today's multiplexes, he had ample perception of how to gather and retain large crowds to such creative centres. Aristotle examined the process with impressive rationalism. He states that when a story fascinates us, we lose the sense of where we are, our fears, and accept fiction. This is one of Aristotle's principles of theatre, which he calls -‘the suspension of disbelief.’"
+      }
+     ]
+    },
+    {
+     "letter": "G",
+     "runs": [
+      {
+       "t": "The audience know the feeling! They might have experienced episodes of horror, grief, astonishment or ecstasy, sitting on the theatre seats or even days after the show, knowing that it is all fiction yet letting it impact their state of mind. They seldom think through why they are caught in the web of the storyteller."
+      }
+     ]
+    },
+    {
+     "letter": "H",
+     "runs": [
+      {
+       "t": "Aristotle taught at Athens, the city where theatre emerged as a prime mode of public's leisure and entertainment. So it is evident that he might have observed suspended disbelief in action. Two theatrical storytelling types, tragedy and comedy, made Athenians immerse themselves in gloom and glee, respectively.Of which, Aristotle explicitly acknowledged tragedy as a potent weapon to trigger the most heartfelt emotions of the spectators, so he explored over the factors in the storyteller's art that brought about such a subconscious commotion. For this, he studied the masterpieces of classical Greek tragedies by Euripides, Aeschylus, Sophocles, and even that of Homer. Even at that time, Homer's stories commanded the same awe as today. His Iliad and the Odyssey were considered literary landmarks and used as a scale to measure all other stories."
+      }
+     ]
+    },
+    {
+     "letter": "I",
+     "runs": [
+      {
+       "t": "So what is the mystery behind Homer's captivating narratives? Homer conceived credible heroes that were powerful and majestic but did not turn into fantasy figures in the end. He made them sulk, quarrel, cheat, and whine. They were the characteristics that an audience could relate to, or wish to follow. This naturally intrigued them to know what happens next. As Aristotle observed, the heroes with a human side, a mix of flaws and vulnerability to which humans are inclined, are aptly dramatic."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "match",
+     "title": "Questions 14-18",
+     "numbers": [
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Reading Passage 2 has nine paragraphs, A-I. Which paragraph contains the following information?"
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write the correct letter, A-I, in boxes 1-5 on your answer sheet."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 14,
+       "stem": [
+        {
+         "t": "an example of the importance of writing systems to a civilisation"
+        }
+       ]
+      },
+      {
+       "n": 15,
+       "stem": [
+        {
+         "t": "a reference to the popularity of a modern form of storytelling"
+        }
+       ]
+      },
+      {
+       "n": 16,
+       "stem": [
+        {
+         "t": "mention of a concept that can take audience's breath away"
+        }
+       ]
+      },
+      {
+       "n": 17,
+       "stem": [
+        {
+         "t": "mention of oral storytelling losing its popularity due to other forms of recording stories"
+        }
+       ]
+      },
+      {
+       "n": 18,
+       "stem": [
+        {
+         "t": "a reference to two distinct types of stories"
+        }
+       ]
+      }
+     ],
+     "letters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+     ]
+    },
+    {
+     "type": "mcq",
+     "title": "Questions 19-22.",
+     "numbers": [
+      19,
+      20,
+      21,
+      22
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct letter, A, B, C or D. Write your answers in boxes 19-22 on your answer sheet.",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 19,
+       "stem": [
+        {
+         "t": "In paragraph B, the writer uses the analogy of herding cats in order to exemplify"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "the difficulty of researching original tales."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "the range of stories available around the world."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "the originality of ancient storytellers."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "the reason for discussing writing systems."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 20,
+       "stem": [
+        {
+         "t": "Some believe that the Greeks created their writing system"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "because the Phoenicians had already invented one."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "because of difficulty in recalling various stories."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "to document important stories that they liked."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "to make the art of storytelling more complex."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 21,
+       "stem": [
+        {
+         "t": "The writer refers to modern cinema in order to"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "analyse how the fundamentals of storytelling have changed."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "prove how important stories are to billions of people."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "demonstrate how the principles of storytelling remain."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "suggest reasons for why past forms of storytelling failed."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": 22,
+       "stem": [
+        {
+         "t": "The writer encourages screenwriters to read Aristotle"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "to draw inspiration from fourth-century literature on rationalism."
+          }
+         ]
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "to learn how to keep the audience interested."
+          }
+         ]
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "to investigate how storytelling has changed."
+          }
+         ]
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "to examine various elements of storytelling."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "match",
+     "title": "Questions 23-26",
+     "numbers": [
+      23,
+      24,
+      25,
+      26
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete each sentence with the correct ending, A-E, below."
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Write the correct letter, A-E, in boxes 23-26 on your answer sheet."
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 23,
+       "stem": [
+        {
+         "t": "Storytellers in the past created"
+        }
+       ]
+      },
+      {
+       "n": 24,
+       "stem": [
+        {
+         "t": "A good story triggers"
+        }
+       ]
+      },
+      {
+       "n": 25,
+       "stem": [
+        {
+         "t": "Athenians were particularly interested in"
+        }
+       ]
+      },
+      {
+       "n": 26,
+       "stem": [
+        {
+         "t": "Homer made engaging stories by using"
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": null,
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "dramas containing either sorrowful events or stories with cheerful ending."
+         }
+        ]
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "strong emotions like long-lasting excitement in one's mind."
+         }
+        ]
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "certain memory devices to retain large pieces of information."
+         }
+        ]
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "scenes that scare the audience to the degree that they could not think rationally."
+         }
+        ]
+       },
+       {
+        "key": "E",
+        "runs": [
+         {
+          "t": "characters who may display controversial behaviour despite their admirable qualities."
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": false
+    }
+   ],
+   "key": {
+    "14": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 14: 'the onset of literacy in ancient Greece is attributed to the fact that the epic tales... were so captivating that there was a need to preserve them'. Ví dụ về tầm quan trọng của chữ viết với một nền văn minh. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the onset of literacy in ancient Greece is attributed to the fact that the epic tales... were so captivating that there was a need to preserve them' (C)"
+      }
+     ]
+    },
+    "15": {
+     "answer": "E",
+     "accept": [
+      "E"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 15: 'Each year, over seven billion people head towards the silver screens'. Sự phổ biến của điện ảnh, một hình thức kể chuyện hiện đại. Đáp án "
+        },
+        {
+         "t": "E",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Each year, over seven billion people head towards the silver screens' (E)"
+      }
+     ]
+    },
+    "16": {
+     "answer": "F",
+     "accept": [
+      "F"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 16: khái niệm 'the suspension of disbelief' được Aristotle đặt tên ở đây: khi bị cuốn vào câu chuyện 'we lose the sense of where we are, our fears, and accept fiction'. Đáp án "
+        },
+        {
+         "t": "F",
+         "b": true
+        },
+        {
+         "t": ". Đoạn G chỉ mô tả cảm xúc của khán giả, không nêu khái niệm."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'This is one of Aristotle's principles of theatre, which he calls the suspension of disbelief' (F)"
+      }
+     ]
+    },
+    "17": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn D → Câu 17.",
+         "b": true
+        },
+        {
+         "t": " 'Even the practice of oral storytelling is believed to have been taken over by journals, novels, comic strips, etc.' 'Taken over by' = mất vị thế vào các hình thức ghi chép khác. Đáp án "
+        },
+        {
+         "t": "D",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the practice of oral storytelling is believed to have been taken over by journals, novels, comic strips' (D)"
+      }
+     ]
+    },
+    "18": {
+     "answer": "H",
+     "accept": [
+      "H"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 18: 'Two theatrical storytelling types, tragedy and comedy'. Đáp án "
+        },
+        {
+         "t": "H",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Two theatrical storytelling types, tragedy and comedy' (H)"
+      }
+     ]
+    },
+    "19": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 19: 'Finding the initial stories ever told in human history is like herding cats, as these were preserved in the minds of the storytellers'. Ví von để nói việc tìm những câu chuyện đầu tiên rất khó. Đáp án "
+        },
+        {
+         "t": "A – the difficulty of researching original tales",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Finding the initial stories ever told in human history is like herding cats' (B)"
+      }
+     ]
+    },
+    "20": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 20: người Hy Lạp có chữ viết vì các sử thi 'were so captivating that there was a need to preserve them'. Đáp án "
+        },
+        {
+         "t": "C – to document important stories that they liked",
+         "b": true
+        },
+        {
+         "t": ". A là bẫy: họ mượn bảng chữ cái của người Phoenicia, nhưng đó không phải lý do."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the epic tales... were so captivating that there was a need to preserve them' (C)"
+      }
+     ]
+    },
+    "21": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 21: dù điện ảnh mới, 'the conventional patterns of storyline and characterisation that have been instilled in storytelling for ages are indispensable for a good story'. Đáp án "
+        },
+        {
+         "t": "C – demonstrate how the principles of storytelling remain",
+         "b": true
+        },
+        {
+         "t": ". B là bẫy: con số bảy tỷ chỉ là chi tiết minh họa."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the conventional patterns of storyline and characterisation... are indispensable for a good story' (E)"
+      }
+     ]
+    },
+    "22": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 22: Aristotle 'had ample perception of how to gather and retain large crowds'. 'Keep the audience interested' = 'retain large crowds'. Đáp án "
+        },
+        {
+         "t": "B",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'he had ample perception of how to gather and retain large crowds' (F)"
+      }
+     ]
+    },
+    "23": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 23 (Storytellers in the past created): người kể chuyện nhớ hàng nghìn câu thơ, và 'the essential idea of creating symbols is to have a system of reminders or mnemonics'. Đoạn C bổ sung: 'notched memory stick for assistance'. Đáp án "
+        },
+        {
+         "t": "C – certain memory devices to retain large pieces of information",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'the essential idea of creating symbols is to have a system of reminders or mnemonics' (B)"
+      }
+     ]
+    },
+    "24": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn G → Câu 24.",
+         "b": true
+        },
+        {
+         "t": " Khán giả trải qua 'horror, grief, astonishment or ecstasy, sitting on the theatre seats or even days after the show'. Cảm xúc mạnh kéo dài. Đáp án "
+        },
+        {
+         "t": "B – strong emotions like long-lasting excitement",
+         "b": true
+        },
+        {
+         "t": ". D là bẫy: bài không nói khán giả sợ đến mức mất lý trí; họ 'knowing that it is all fiction'."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'They might have experienced episodes of horror, grief, astonishment or ecstasy... or even days after the show' (G)"
+      }
+     ]
+    },
+    "25": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 25: bi kịch và hài kịch 'made Athenians immerse themselves in gloom and glee'. 'Sorrowful' = 'gloom', 'cheerful' = 'glee'. Đáp án "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Two theatrical storytelling types, tragedy and comedy, made Athenians immerse themselves in gloom and glee' (H)"
+      }
+     ]
+    },
+    "26": {
+     "answer": "E",
+     "accept": [
+      "E"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn I → Câu 26.",
+         "b": true
+        },
+        {
+         "t": " Homer tạo anh hùng 'powerful and majestic' nhưng 'He made them sulk, quarrel, cheat, and whine'. Nhân vật có hành vi đáng tranh cãi dù có phẩm chất đáng ngưỡng mộ. Đáp án "
+        },
+        {
+         "t": "E",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Homer conceived credible heroes that were powerful and majestic... He made them sulk, quarrel, cheat, and whine' (I)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài đi từ những câu chuyện kể quanh đống lửa, qua trí nhớ và chữ viết, đến điện ảnh hiện đại, rồi quay về Aristotle ('suspension of disbelief'), bi kịch – hài kịch Athens và cách Homer xây dựng nhân vật. Ý xuyên suốt: nguyên tắc kể chuyện tốt không đổi qua các thời đại."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "14–18"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Information (A–I)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Không – phải đọc hiểu đoạn"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Giữ 5 ý: importance of writing to a civilisation; popularity of a modern form; concept that takes breath away; oral storytelling losing popularity; two types of stories"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "19–22"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Multiple Choice"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (paragraph B / herding cats, Greeks, modern cinema, screenwriters / Aristotle)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn B, C, E, F"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "23–26"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Sentence Endings (A–E)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Một phần: đầu câu có keyword (storytellers in the past, good story, Athenians, Homer)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn B–C, G, H, I"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    }
+   ],
+   "reading": []
+  },
+  {
+   "slug": "passage-5-the-origin-of-ancient-writing",
+   "order": 5,
+   "number": 5,
+   "group": null,
+   "head": [
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "V2T9- READING PASSAGE 3",
+       "b": true
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "You should spend about 20 minutes on ",
+       "i": true
+      },
+      {
+       "t": "Questions 27-40",
+       "b": true,
+       "i": true
+      },
+      {
+       "t": ", which are based on Reading Passage 3 on pages below.",
+       "i": true
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "t": "The Origin of Ancient Writing",
+     "b": true
+    }
+   ],
+   "standfirst": null,
+   "body": [
+    {
+     "letter": "A",
+     "runs": [
+      {
+       "t": "The Sumerians, an ancient people of the Middle East, had a story explaining the invention of writing more than 5,000 years ago. It seems a messenger of the King of Uruk arrived at the court of a distant ruler so exhausted that he was unable to deliver the oracle message. So the king set down the words of his next messages on a clay tablet. A charming story, whose retelling at a recent symposium at the University of Pennsylvania amused scholars. They smiled at the absurdity of a letter which the recipient would not have been able to read."
+      }
+     ]
+    },
+    {
+     "letter": "B",
+     "runs": [
+      {
+       "t": "They also doubted that the earliest writing was a direct rendering of speech. Writing more likely began as a separate, symbolic system of communication and only later merged with spoken language."
+      }
+     ]
+    },
+    {
+     "letter": "C",
+     "runs": [
+      {
+       "t": "Yet in the story the Sumerians, who lived in Mesopotamia, in what is now southern Iraq, seemed to understand writing’s transforming function. As Dr. Holly Pittman, director of the University’s Center for Ancient Studies, observed, writing ‘arose out of the need to store and transmit information… over time and space’."
+      }
+     ]
+    },
+    {
+     "letter": "D",
+     "runs": [
+      {
+       "t": "In exchanging interpretations and information, the scholars acknowledged that they still had no fully satisfying answers to the questions of how and why writing developed. Many favored an explanation of writing’s origins in the visual arts, pictures becoming increasingly abstract and eventually representing spoken words. Their views clashed with a widely held theory among archaeologists that writing developed from the pieces of clay that Sumerian accountants used as tokens to keep track of goods."
+      }
+     ]
+    },
+    {
+     "letter": "E",
+     "runs": [
+      {
+       "t": "Archaeologists generally concede that they have no definitive answer to the question of whether writing was invented only once, or arose independently in several places, such as Egypt, the Indus Valley, China, Mexico, and Central America. The preponderance of archaeological data shows that the urbanizing Sumerians were the first to develop writing, in 3,200 or 3,300 BC. These are the dates for many clay tablets in an early form of cuneiform, a script written by pressing the end of a sharpened stick into wet clay, found at the site of the ancient city of Uruk. The baked clay tablets bore such images as pictorial symbols of the names of people, places, and things connected with government and commerce. The Sumerian script gradually evolved from the pictorial to the abstract, but did not at first represent recorded spoken language."
+      }
+     ]
+    },
+    {
+     "letter": "F",
+     "runs": [
+      {
+       "t": "Dr. Peter Damerow, a specialist in Sumerian cuneiform at the Max Planck Institute for the History of Science in Berlin, said, ‘It is likely that there were mutual influences of writing systems around the world. However, their great variety now shows that the development of writing, once initiated, attains a considerable degree of independence and flexibility to adapt to specific characteristics of the sounds of the language to be represented. Not that he accepts the conventional view that writing started as a representation of words by pictures. New studies of early Sumerian writing, he said, challenge this interpretation. The structures of this earliest writing did not, for example, match the structure of spoken language, dealing mainly in lists and categories rather than in sentences and narrative."
+      }
+     ]
+    },
+    {
+     "letter": "G",
+     "runs": [
+      {
+       "t": "For at least two decades, Dr. Denise Schmandt-Besserat, a University of Texas archaeologist, has argued that the first writing grew directly out of a system practised by Sumerian accountants. They used clay tokens, each one shaped to represent a jar of oil, a container of grain, or a particular kind of livestock. These tokens were sealed inside clay spheres, and then the number and type of tokens inside was recorded on the outside using impressions resembling the tokens. Eventually, the token impressions were replaced with inscribed signs, and writing had been invented."
+      }
+     ]
+    },
+    {
+     "letter": "H",
+     "runs": [
+      {
+       "t": "Though Dr. Schmandt-Besserat has won much support, some linguists question her thesis, and others, like Dr. Pittman, think it too narrow. They emphasize that pictorial representation and writing evolved together. ‘There’s no question that the token system is a forerunner of writing’, Dr. Pittman said, ‘but I have an argument with her evidence for a link between tokens and signs, and she doesn’t open up the process to include picture making.’"
+      }
+     ]
+    },
+    {
+     "letter": "I",
+     "runs": [
+      {
+       "t": "Dr. Schmandt-Besserat vigorously defended her ideas. ‘My colleagues say that pictures were the beginning of writing’ she said, ‘but show me a single picture that becomes a sign in writing. They say that designs on pottery were the beginning of writing, but show me a single sign of writing you can trace back to a pot - it doesn’t exist’. In its first 500 years, she asserted, cuneiform writing was used almost solely for recording economic information, and after that its uses multiplied and broadened."
+      }
+     ]
+    },
+    {
+     "letter": "J",
+     "runs": [
+      {
+       "t": "Yet other scholars have advanced different ideas. Dr. Piotr Michalowski, Professor of Near East Civilizations at the University of Michigan, said that the proto-writing of Sumerian Uruk was ‘so radically different as to be a complete break with the past’. It no doubt served, he said, to store and communicate information, but also became a new instrument of power. Some scholars noted that the origins of writing may not always have been in economics. In Egypt, most early writing is high on monuments or deep in tombs. In this case, said Dr. Pascal Vernus from a university in Paris, early writing was less administrative than sacred. It seems that the only certainty in this field is that many questions remain to be answered."
+      }
+     ]
+    }
+   ],
+   "footnotes": [],
+   "groups": [
+    {
+     "type": "mcq",
+     "title": "Questions 27-30",
+     "numbers": [
+      27,
+      28,
+      29,
+      30
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Choose the correct letter ",
+         "i": true
+        },
+        {
+         "t": "A",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ", ",
+         "i": true
+        },
+        {
+         "t": "B",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ", ",
+         "i": true
+        },
+        {
+         "t": "C ",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "or ",
+         "i": true
+        },
+        {
+         "t": "D",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ".",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 27,
+       "stem": [
+        {
+         "t": "The researchers at the symposium regarded the story of the King of Uruk as ridiculous because"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "writing probably developed independently of speech."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "clay tablets had not been invented at that time."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "the distant ruler would have spoken another language."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "evidence of writing has been discovered from an earlier period."
+          }
+         ],
+         "added": true
+        }
+       ]
+      },
+      {
+       "n": 28,
+       "stem": [
+        {
+         "t": "According to the writer, the story of the King of Uruk"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "is a probable explanation of the origins of writing."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "proves that early writing had a different function to writing today."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "provides an example of symbolic writing."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "shows some awareness amongst Sumerians of the purpose of writing."
+          }
+         ],
+         "added": true
+        }
+       ]
+      },
+      {
+       "n": 29,
+       "stem": [
+        {
+         "t": "There was disagreement among the researchers at the symposium about"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "the area where writing began."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "the nature of early writing materials."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "the way writing began."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "he meaning of certain abstract images."
+          }
+         ],
+         "added": true
+        }
+       ]
+      },
+      {
+       "n": 30,
+       "stem": [
+        {
+         "t": "The opponents of the theory that writing developed from tokens believe that it"
+        }
+       ],
+       "options": [
+        {
+         "key": "A",
+         "runs": [
+          {
+           "t": "grew out of accountancy."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "B",
+         "runs": [
+          {
+           "t": "evolved from pictures."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "C",
+         "runs": [
+          {
+           "t": "was initially intended as decoration."
+          }
+         ],
+         "added": true
+        },
+        {
+         "key": "D",
+         "runs": [
+          {
+           "t": "was unlikely to have been connected with commerce."
+          }
+         ],
+         "added": true
+        }
+       ]
+      }
+     ],
+     "lettersAdded": true
+    },
+    {
+     "type": "match",
+     "title": "Questions 31-36",
+     "numbers": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Match each statement with the correct person, ",
+         "i": true
+        },
+        {
+         "t": "A-E",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ".",
+         "i": true
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "NB \t",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": "You may use any letter more than once.",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "n": 31,
+       "stem": [
+        {
+         "t": "There is no proof that early writing is connected to decorated household objects."
+        }
+       ]
+      },
+      {
+       "n": 32,
+       "stem": [
+        {
+         "t": "As writing developed, it came to represent speech."
+        }
+       ]
+      },
+      {
+       "n": 33,
+       "stem": [
+        {
+         "t": "Sumerian writing developed into a means of political control."
+        }
+       ]
+      },
+      {
+       "n": 34,
+       "stem": [
+        {
+         "t": "Early writing did not represent the grammatical features of speech."
+        }
+       ]
+      },
+      {
+       "n": 35,
+       "stem": [
+        {
+         "t": "There is no convincing proof that tokens and signs are connected."
+        }
+       ]
+      },
+      {
+       "n": 36,
+       "stem": [
+        {
+         "t": "The uses of cuneiform writing were narrow at first, and later widened."
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": [
+       [
+        {
+         "t": "List of people",
+         "b": true
+        }
+       ]
+      ],
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "Dr. Holly Pittman"
+         }
+        ],
+        "added": true
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "Dr. Peter Damerow"
+         }
+        ],
+        "added": true
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "Dr. Denise Schmandt-Besserat"
+         }
+        ],
+        "added": true
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "Dr. Piotr Michalowski"
+         }
+        ],
+        "added": true
+       },
+       {
+        "key": "E",
+        "runs": [
+         {
+          "t": "Dr. Pascal Vernus"
+         }
+        ],
+        "added": true
+       }
+      ]
+     },
+     "optionsAfter": false
+    },
+    {
+     "type": "bank",
+     "title": "Questions 37-40",
+     "numbers": [
+      37,
+      38,
+      39,
+      40
+     ],
+     "intro": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Complete the summary using the list of words, ",
+         "i": true
+        },
+        {
+         "t": "A-N",
+         "b": true,
+         "i": true
+        },
+        {
+         "t": ", below.",
+         "i": true
+        }
+       ]
+      }
+     ],
+     "content": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "The earliest form of writing",
+         "b": true
+        }
+       ],
+       "center": true
+      },
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Most archaeological evidence shows that the people of "
+        },
+        {
+         "gap": 37
+        },
+        {
+         "t": " invented writing in around 3,300 BC. Their script was written on "
+        },
+        {
+         "gap": 38
+        },
+        {
+         "t": " and was called \n"
+        },
+        {
+         "gap": 39
+        },
+        {
+         "t": " Their script originally showed images related to political power and business, and later developed to become more "
+        },
+        {
+         "gap": 40
+        }
+       ]
+      }
+     ],
+     "options": {
+      "title": null,
+      "list": [
+       {
+        "key": "A",
+        "runs": [
+         {
+          "t": "cuneiform"
+         }
+        ]
+       },
+       {
+        "key": "B",
+        "runs": [
+         {
+          "t": "pictorial"
+         }
+        ]
+       },
+       {
+        "key": "C",
+        "runs": [
+         {
+          "t": "tomb walls"
+         }
+        ]
+       },
+       {
+        "key": "D",
+        "runs": [
+         {
+          "t": "urban"
+         }
+        ]
+       },
+       {
+        "key": "E",
+        "runs": [
+         {
+          "t": "legible"
+         }
+        ]
+       },
+       {
+        "key": "F",
+        "runs": [
+         {
+          "t": "stone blocks"
+         }
+        ]
+       },
+       {
+        "key": "G",
+        "runs": [
+         {
+          "t": "simple"
+         }
+        ]
+       },
+       {
+        "key": "H",
+        "runs": [
+         {
+          "t": "Mesopotamia"
+         }
+        ]
+       },
+       {
+        "key": "I",
+        "runs": [
+         {
+          "t": "abstract"
+         }
+        ]
+       },
+       {
+        "key": "J",
+        "runs": [
+         {
+          "t": "papyrus sheets"
+         }
+        ]
+       },
+       {
+        "key": "K",
+        "runs": [
+         {
+          "t": "decorative"
+         }
+        ]
+       },
+       {
+        "key": "L",
+        "runs": [
+         {
+          "t": "clay tablets"
+         }
+        ]
+       },
+       {
+        "key": "M",
+        "runs": [
+         {
+          "t": "Egypt"
+         }
+        ]
+       },
+       {
+        "key": "N",
+        "runs": [
+         {
+          "t": "Uruk"
+         }
+        ]
+       }
+      ]
+     },
+     "optionsAfter": true
+    }
+   ],
+   "key": {
+    "27": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn B → chốt Câu 27.",
+         "b": true
+        },
+        {
+         "t": " 'They also doubted that the earliest writing was a direct rendering of speech. Writing more likely began as a separate, symbolic system'. Một lá thư ghi lại lời nói là vô lý vì chữ viết ban đầu không gắn với lời nói. Đáp án "
+        },
+        {
+         "t": "A – writing probably developed independently of speech",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'They also doubted that the earliest writing was a direct rendering of speech' (B)"
+      }
+     ]
+    },
+    "28": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn C → Câu 28.",
+         "b": true
+        },
+        {
+         "t": " 'Yet in the story the Sumerians... seemed to understand writing's transforming function', tức lưu trữ và truyền thông tin qua thời gian và không gian. Đáp án "
+        },
+        {
+         "t": "D – shows some awareness amongst Sumerians of the purpose of writing",
+         "b": true
+        },
+        {
+         "t": ". Pittman xuất hiện ở đây nhưng chỉ nói chức năng chữ viết, chưa khớp câu 31–36."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Yet in the story the Sumerians... seemed to understand writing's transforming function' (C)"
+      }
+     ]
+    },
+    "29": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 29: các học giả 'still had no fully satisfying answers to the questions of how and why writing developed', và 'Their views clashed' giữa thuyết hình vẽ với thuyết tokens. Đáp án "
+        },
+        {
+         "t": "C – the way writing began",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'no fully satisfying answers to the questions of how and why writing developed... Their views clashed' (D)"
+      }
+     ]
+    },
+    "30": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 30: phía phản đối thuyết tokens ủng hộ 'an explanation of writing's origins in the visual arts, pictures becoming increasingly abstract'. Đáp án "
+        },
+        {
+         "t": "B – evolved from pictures",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'Many favored an explanation of writing's origins in the visual arts, pictures becoming increasingly abstract' (D)"
+      }
+     ]
+    },
+    "31": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 31: 'show me a single sign of writing you can trace back to a pot - it doesn't exist'. 'Decorated household objects' = 'designs on pottery'. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'show me a single sign of writing you can trace back to a pot - it doesn't exist' (I)"
+      }
+     ]
+    },
+    "32": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 32: chữ viết, khi đã bắt đầu, có độ linh hoạt 'to adapt to specific characteristics of the sounds of the language to be represented'. Dần dần biểu thị lời nói. Đáp án "
+        },
+        {
+         "t": "B",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'attains a considerable degree of independence and flexibility to adapt to specific characteristics of the sounds of the language' (F)"
+      }
+     ]
+    },
+    "33": {
+     "answer": "D",
+     "accept": [
+      "D"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn J → Câu 33 (Michalowski).",
+         "b": true
+        },
+        {
+         "t": " Chữ viết proto ở Uruk 'also became a new instrument of power'. 'Political control' = 'instrument of power'. Đáp án "
+        },
+        {
+         "t": "D",
+         "b": true
+        },
+        {
+         "t": ". Vernus (E) nói chữ viết sớm ở Ai Cập mang tính thiêng liêng, không khớp câu nào."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'It no doubt served... to store and communicate information, but also became a new instrument of power' (J)"
+      }
+     ]
+    },
+    "34": {
+     "answer": "B",
+     "accept": [
+      "B"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 34: 'The structures of this earliest writing did not... match the structure of spoken language, dealing mainly in lists and categories rather than in sentences and narrative'. 'Grammatical features' = 'sentences and narrative'. Đáp án "
+        },
+        {
+         "t": "B",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'dealing mainly in lists and categories rather than in sentences and narrative' (F)"
+      }
+     ]
+    },
+    "35": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Đoạn H → Câu 35 (Pittman).",
+         "b": true
+        },
+        {
+         "t": " 'I have an argument with her evidence for a link between tokens and signs'. Đáp án "
+        },
+        {
+         "t": "A",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ]
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'I have an argument with her evidence for a link between tokens and signs' (H)"
+      }
+     ]
+    },
+    "36": {
+     "answer": "C",
+     "accept": [
+      "C"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 36: 'In its first 500 years... cuneiform writing was used almost solely for recording economic information, and after that its uses multiplied and broadened'. Đáp án "
+        },
+        {
+         "t": "C",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'used almost solely for recording economic information, and after that its uses multiplied and broadened' (I)"
+      }
+     ]
+    },
+    "37": {
+     "answer": "H",
+     "accept": [
+      "H"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 37: 'The preponderance of archaeological data shows that the urbanizing Sumerians were the first to develop writing'. Người Sumer sống ở Mesopotamia (đoạn C). 'Most archaeological evidence' = 'preponderance of archaeological data'. Đáp án "
+        },
+        {
+         "t": "H – Mesopotamia",
+         "b": true
+        },
+        {
+         "t": ". N 'Uruk' là bẫy: Uruk chỉ là địa điểm tìm thấy các bảng đất sét."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'The preponderance of archaeological data shows that the urbanizing Sumerians were the first to develop writing' (E) + 'the Sumerians, who lived in Mesopotamia' (C)"
+      }
+     ]
+    },
+    "38": {
+     "answer": "L",
+     "accept": [
+      "L"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 38: 'many clay tablets in an early form of cuneiform'. Đáp án "
+        },
+        {
+         "t": "L – clay tablets",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'These are the dates for many clay tablets in an early form of cuneiform' (E)"
+      }
+     ]
+    },
+    "39": {
+     "answer": "A",
+     "accept": [
+      "A"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 39: 'cuneiform, a script written by pressing the end of a sharpened stick into wet clay'. Đáp án "
+        },
+        {
+         "t": "A – cuneiform",
+         "b": true
+        },
+        {
+         "t": "."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'an early form of cuneiform, a script written by pressing the end of a sharpened stick into wet clay' (E)"
+      }
+     ]
+    },
+    "40": {
+     "answer": "I",
+     "accept": [
+      "I"
+     ],
+     "explanation": [
+      {
+       "type": "p",
+       "runs": [
+        {
+         "t": "Câu 40: 'The Sumerian script gradually evolved from the pictorial to the abstract'. Đáp án "
+        },
+        {
+         "t": "I – abstract",
+         "b": true
+        },
+        {
+         "t": ". B 'pictorial' là trạng thái ban đầu, không phải về sau."
+        }
+       ],
+       "list": true
+      }
+     ],
+     "evidence": [
+      {
+       "t": "'The Sumerian script gradually evolved from the pictorial to the abstract' (E)"
+      }
+     ]
+    }
+   },
+   "strategy": [
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 1 – Đọc tiêu đề, nắm chủ đề"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Bài tường thuật một hội thảo học thuật về nguồn gốc chữ viết. Các học giả tranh luận chữ viết bắt nguồn từ hình vẽ hay từ hệ thống thẻ đất sét (tokens) của kế toán Sumer, và nó phục vụ kinh tế, quyền lực hay tôn giáo. Bài nhiều tên người, rất hợp để luyện Matching Features."
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "runs": [
+      {
+       "t": "Bước 2 – Phân loại câu hỏi"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Câu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Dạng"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Locate trước được?"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Cách bắt thông tin"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "27–30"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Multiple Choice"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (story of the King of Uruk, disagreement, opponents of the token theory)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn A → D"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "31–36"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Matching Features (5 người, NB dùng lại)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Một phần: tên scan được, ý kiến phải đọc hiểu"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn C, F, H, I, J"
+          }
+         ]
+        }
+       ]
+      ],
+      [
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "37–40"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Summary Completion (A–N)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Có (3,300 BC, script written on, called, later developed)"
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "p",
+         "runs": [
+          {
+           "t": "Đoạn E"
+          }
+         ]
+        }
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "runs": [
+      {
+       "t": "Danh sách người trong đề không có chữ cái; tài liệu quy ước theo thứ tự in: A Holly Pittman, B Peter Damerow, C Denise Schmandt-Besserat, D Piotr Michalowski, E Pascal Vernus."
+      }
+     ]
+    }
+   ],
+   "reading": []
+  }
+ ]
+}

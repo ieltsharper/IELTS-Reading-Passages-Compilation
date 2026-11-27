@@ -12,7 +12,7 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
-import { addExtraBlocks, applyFixes } from './runs.mjs';
+import { addExtraBlocks, applyFixes, joinBlocks } from './runs.mjs';
 import { readBoxes } from './key-boxes.mjs';
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -30,6 +30,7 @@ const { blocks: Q } = readDocx(questionsPath, { transcripts: config.transcripts 
 // The source as approved: the owner's corrections (config.fixes) are part of the expected text.
 // Owner-supplied text (typed from their pictures) comes after the file's blocks: config.extraBlocks.
 addExtraBlocks(Q, config.extraBlocks);
+joinBlocks(Q, config.joins);
 applyFixes(Q, config.fixes);
 const readingJs = fs.readFileSync(path.join(root, 'assets', 'reading.js'), 'utf8');
 // Answers straight from the key, independent of the generator: the answer table ("Bài | Đáp án"), or
@@ -184,8 +185,10 @@ for (const [i, pc] of config.passages.entries()) {
   const doc = dom.window.document;
   const article = doc.querySelector('article.passage').cloneNode(true);
   article.querySelectorAll('.sr-only, .p-letter.added').forEach((e) => e.remove()); // screen-reader labels; letters added to unlettered paragraphs
+  article.querySelectorAll('br').forEach((e) => e.append(' ')); // a line break counts as a space
   const pageText = [...article.querySelectorAll('p, h1, h2')].map((e) => e.textContent).join(' ');
-  const d1 = diff(norm(src).split(' '), norm(pageText).split(' '));
+  // A paragraph label printed "A." in the source is shown as the letter label "A" on the page.
+  const d1 = diff(norm(src).replace(/(^| )([A-H])\. /g, '$1$2 ').split(' '), norm(pageText).split(' '));
   ok(!d1, `${label}: passage text differs ${d1}`);
 
   // ---- 2. Question text, group by group ----
@@ -207,7 +210,7 @@ for (const [i, pc] of config.passages.entries()) {
     const sec = sections[gi].cloneNode(true);
     // Not source text: feedback, marks, hints, selects, page labels and the TRUE/FALSE/NOT GIVEN buttons.
     sec.querySelectorAll('.fb, .fb-list, .mark, .hint, select, .sr-only, .ui-label, .tf .choices').forEach((e) => e.remove());
-    sec.querySelectorAll('p, li, td, th, dt, dd, legend, label, h2, div').forEach((e) => e.append(' '));
+    sec.querySelectorAll('p, li, td, th, dt, dd, legend, label, h2, div, br').forEach((e) => e.append(' '));
     if (g.optionsAnyOrder || g.columnOptions) {
       // A word list printed in columns is listed A, B, C… on the page: same words, letters without full stops.
       const bag = (ws) => ws.map((w) => w.replace(/\.$/, '')).sort().join(' ');

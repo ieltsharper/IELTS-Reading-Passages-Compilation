@@ -9,7 +9,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { readDocx, textOf } from './docx.mjs';
 import { readBoxes } from './key-boxes.mjs';
-import { addExtraBlocks, applyFixes, block, clean, isEmpty, plain, slice, splitRuns, trim } from './runs.mjs';
+import { addExtraBlocks, applyFixes, joinBlocks, block, clean, isEmpty, plain, slice, splitRuns, trim } from './runs.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const [topicName, questionsPath, keyPath, analysisPath] = process.argv.slice(2);
@@ -44,6 +44,7 @@ const fail = (msg) => {
 // ---- Approved corrections to the questions file (config.fixes), applied before anything else ----
 // Owner-supplied text (typed from their pictures) comes after the file's blocks: config.extraBlocks.
 addExtraBlocks(Q, config.extraBlocks);
+joinBlocks(Q, config.joins);
 applyFixes(Q, config.fixes);
 for (const f of config.fixes || []) problems.push(`fix applied (block ${f.block}): ${JSON.stringify(f.find)} -> ${JSON.stringify(f.replace)}`);
 
@@ -51,7 +52,8 @@ for (const f of config.fixes || []) problems.push(`fix applied (block ${f.block}
 function at([i, expect]) {
   const b = Q[i];
   if (!b) fail(`block ${i} does not exist`);
-  if (expect && !textOf(b).startsWith(expect)) fail(`block ${i} should start with ${JSON.stringify(expect)} but is ${JSON.stringify(textOf(b).slice(0, 60))}`);
+  // A no-break space in the source counts as a space.
+  if (expect && !textOf(b).replace(/ /g, ' ').startsWith(expect)) fail(`block ${i} should start with ${JSON.stringify(expect)} but is ${JSON.stringify(textOf(b).slice(0, 60))}`);
   return b;
 }
 /** Blocks from [a, 'start'] to [b, 'start'] inclusive. */
@@ -103,7 +105,7 @@ const stripLeader = (runs) => {
 // ---- Option lists ----
 const ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv'];
 /** Options from paragraphs: "A Boys gain…", "A.\tProfessor…", "i\tDisagreement…", or a letter alone followed by its text. */
-function optionsFromParas(paras, where) {
+function optionsFromParas(paras, where, auto = false) {
   const title = [];
   const list = [];
   let pending = null;
@@ -117,14 +119,26 @@ function optionsFromParas(paras, where) {
     const m = text.match(/^\s*([A-Z]|[ivx]+)\.?(?:\t|\s+)(?=\S)/);
     if (m) list.push({ key: m[1], runs: trim(slice(p.runs, m[0].length)) });
     else if (/^\s*[A-Z]\.?\s*$/.test(text)) pending = text.trim().replace('.', '');
-    else if (!list.length) title.push(trim(p.runs));
+    else if (!list.length && (!auto || /^\s*List of\b/i.test(text))) title.push(trim(p.runs));
+    // g.autoLetters: the source prints the list without letters; they are added in the printed order.
+    else if (auto) list.push({ key: String.fromCharCode(65 + list.length), runs: trim(p.runs), added: true });
     else fail(`${where}: unexpected line in option list: ${JSON.stringify(text)}`);
   }
   return { title: title.length ? title : null, list };
 }
-function optionList(spec, where, splitAt = []) {
+function optionList(spec, where, splitAt = [], opts = {}) {
   const blocks = Array.isArray(spec[0]) ? range(spec) : [at(spec)];
   let paras = blocks.flatMap(parasOf);
+  // g.tabColumns: a list printed in columns ("A	cuneiform			B	pictorial		C	tomb walls"): one option per cell, in reading order.
+  if (opts.tabColumns) {
+    paras = paras.flatMap((p) => {
+      const text = plain(p.runs);
+      const cuts = [0, ...[...text.matchAll(/	+(?=[A-Z]	)/g)].map((m) => m.index)];
+      if (cuts.length === 1) return [p];
+      problems.push(`${where}: word list printed in columns; one option per line on the page`);
+      return cuts.map((c, i) => ({ ...p, runs: trim(slice(p.runs, c, i + 1 < cuts.length ? cuts[i + 1] : Infinity)) }));
+    });
+  }
   // Approved: options run together on one line ("F dolls taxed in England G death of Adam of Usk").
   for (const marker of splitAt) {
     const i = paras.findIndex((p) => plain(p.runs).includes(marker));
@@ -133,7 +147,8 @@ function optionList(spec, where, splitAt = []) {
     paras = [...paras.slice(0, i), ...parts, ...paras.slice(i + 1)];
     problems.push(`${where}: option line split before ${JSON.stringify(marker)}`);
   }
-  return optionsFromParas(paras, where);
+  if (opts.autoLetters) problems.push(`${where}: the list has no letters in the source; A, B, C… added in the printed order`);
+  return optionsFromParas(paras, where, opts.autoLetters);
 }
 /** "A the phonics method B the whole-word method …": options run together in one paragraph. */
 function inlineOptions(runs, where, anyOrder) {
@@ -203,6 +218,14 @@ function buildGroup(g, where, passage) {
         continue;
       }
       const [pre, stem] = splitTab(p);
+      // g.autoNumber: the handout numbers the items with Word's automatic list; they take the group's numbers in order.
+      if (g.autoNumber && !pre && p.list) {
+        if (list.length >= numbers.length) fail(`${W}: more list items than question numbers`);
+        const q = { n: numbers[list.length], stem };
+        if (examples.length) [q.before, examples] = [examples, []];
+        list.push(q);
+        continue;
+      }
       if (!/^\d+\.?$/.test(pre || '')) fail(`${W}: expected a numbered item, got ${JSON.stringify(plain(p.runs).slice(0, 40))}`);
       const q = { n: +pre.replace(/\.$/, ''), stem };
       if (examples.length) [q.before, examples] = [examples, []];
@@ -231,18 +254,22 @@ function buildGroup(g, where, passage) {
       problems.push(`${W}: option split from the question line before ${JSON.stringify(marker)}`);
     }
     for (const p of mcqParas) {
-      const [pre, rest] = splitTab(p);
+      let [pre, rest] = splitTab(p);
+      // "A. the curiosity of…" printed with a space instead of a tab.
+      const dot = !pre && plain(p.runs).match(/^\s*([A-Z])\.\s+(?=\S)/);
+      if (dot) [pre, rest] = [dot[1], trim(slice(p.runs, dot[0].length))];
       if (/^\d+\.?$/.test(pre)) out.questions.push({ n: +pre.replace(/\.$/, ''), stem: rest, options: [] });
       else {
         const q = out.questions[out.questions.length - 1];
         if (!q) fail(`${W}: option before the first question`);
-        if (pre === '☐') {
+        if (pre === '☐' || (g.autoLetters && !pre)) {
           q.options.push({ key: String.fromCharCode(65 + q.options.length), runs: rest, added: true });
           out.lettersAdded = true;
         } else if (/^[A-Z]\.?$/.test(pre)) q.options.push({ key: pre.replace('.', ''), runs: rest });
         else fail(`${W}: unexpected line ${JSON.stringify(plain(p.runs))}`);
       }
     }
+    if (g.autoLetters) problems.push(`${W}: the options have no letters in the source; A, B, C… added in the printed order`);
     for (const q of out.questions) checkKeys(q.options, `${W} Q${q.n}`);
   } else if (g.type === 'multi') {
     const ps = range(g.items).filter(hasText);
@@ -301,7 +328,7 @@ function buildGroup(g, where, passage) {
       out.optionsAfter = !!g.optionsAfter;
       checkKeys(out.options.list, W);
     } else if (g.options) {
-      out.options = optionList(g.options, W, g.splitOptions);
+      out.options = optionList(g.options, W, g.splitOptions, { autoLetters: g.autoLetters });
       out.optionsAfter = !!g.optionsAfter;
       checkKeys(out.options.list, W, g.relabel);
     } else if (!g.columnOptions) out.letters = g.letters.split('');
@@ -405,7 +432,7 @@ function buildGroup(g, where, passage) {
       out.limit = wordLimit(introText);
       if (!out.limit) fail(`${W}: no word limit in the instructions`);
     } else {
-      out.options = inline ? { title: null, list: inline } : optionList(g.options, W);
+      out.options = inline ? { title: null, list: inline } : optionList(g.options, W, [], { tabColumns: g.tabColumns, autoLetters: g.autoLetters });
       out.optionsAfter = inline ? !inlineBefore : !!g.optionsAfter;
       checkKeys(out.options.list, W);
     }
@@ -461,7 +488,7 @@ function bodyOf(blocks, firstIndex, pc) {
     const fixed = pc.letters?.[index];
     if (fixed) {
       // Approved: a paragraph whose letter is not set off in the source ("A ‘Play up!…").
-      const f = text.match(new RegExp(`^${fixed}\\s+`)) || fail(`letters: block ${index} does not start with ${fixed}`);
+      const f = text.match(new RegExp(`^${fixed}\\.?\\s+`)) || fail(`letters: block ${index} does not start with ${fixed}`);
       return { letter: fixed, runs: trim(slice(runs, f[0].length)) };
     }
     const m = text.match(/^([A-Z])(\s{2,}|\t)/);
@@ -522,10 +549,12 @@ function parseKeyTable() {
       if (config.keyStep3 === 'cau') {
         // "Đoạn 1 → Câu 1. … Đáp án tree." (one question) or a list line "Câu 2: … Đáp án sheep.";
         // "Đoạn 2 → Câu 2, 3, 4." and "Đoạn B. …" (no question) are reading notes, not explanations.
-        const one = !b.list && t.match(/→ Câu (\d+)\. /);
-        const line = b.list && t.match(/^Câu (\d+): /);
+        const one = !b.list && t.match(/→ (?:chốt )?Câu (\d+)(?: \([^)]*\))?\. /);
+        const line = b.list && t.match(/^Câu (\d+)(?: \([^)]*\))?: /);
+        const two = !b.list && t.match(/→ Câu (\d+) và (\d+)\. \S/); // one note covering two questions
         const n = one?.[1] || line?.[1];
-        if (n) add(n, b);
+        if (two) { add(two[1], b); add(two[2], b); }
+        else if (n) add(n, b);
         else if (b.list) fail(`key Bài ${section.n}: list line without a question: ${t.slice(0, 60)}`);
         continue;
       }

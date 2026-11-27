@@ -98,6 +98,20 @@ export function addExtraBlocks(blocks, extra = []) {
   return at;
 }
 
+/**
+ * config.joins: a paragraph the source cut in two (a page break, a line break) is joined again: each listed block
+ * is appended, after a space, to the block before it and left empty. The block numbers do not change.
+ */
+export function joinBlocks(blocks, joins = []) {
+  for (const i of joins) {
+    const prev = blocks[i - 1];
+    const b = blocks[i];
+    if (!prev || !b || prev.kind !== 'p' || b.kind !== 'p') throw new Error(`join: blocks ${i - 1} and ${i} must be paragraphs`);
+    prev.runs = clean([...prev.runs, { t: ' ' }, ...b.runs]);
+    b.runs = [];
+  }
+}
+
 export function applyFixes(blocks, fixes = []) {
   for (const f of fixes) {
     const b = blocks[f.block];
